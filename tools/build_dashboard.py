@@ -705,13 +705,27 @@ const _fmtU = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, 
 
 async function refreshPortfolio() {{
   try {{
-    const proxy = 'https://api.allorigins.win/raw?url=';
-    const [tqRes, myrRes] = await Promise.all([
-      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=2d')),
-      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=2d'))
-    ]);
-    const tqData = await tqRes.json();
-    const myrData = await myrRes.json();
+    document.getElementById('pf-status').textContent = '🔄 Fetching live data...';
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 10000);
+    const proxies = [
+      'https://api.allorigins.win/raw?url=',
+      'https://corsproxy.io/?url='
+    ];
+    let tqData, myrData;
+    for (const proxy of proxies) {{
+      try {{
+        const [tqRes, myrRes] = await Promise.all([
+          fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=2d'), {{signal: ctrl.signal}}),
+          fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=2d'), {{signal: ctrl.signal}})
+        ]);
+        tqData = await tqRes.json();
+        myrData = await myrRes.json();
+        break;
+      }} catch(inner) {{ continue; }}
+    }}
+    clearTimeout(timer);
+    if (!tqData || !myrData) throw new Error('All proxies failed');
     const tqMeta = tqData.chart.result[0].meta;
     const myrMeta = myrData.chart.result[0].meta;
     const tqqq = tqMeta.regularMarketPrice;
