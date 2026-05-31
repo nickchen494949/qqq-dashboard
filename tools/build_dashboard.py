@@ -319,7 +319,7 @@ cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 HOLDINGS = {'nick': 6326, 'gf': 416}
 
 # TQQQ daily % change (last trading day vs previous)
-tqqq_df = yf.download('TQQQ', period='5d', progress=False, auto_adjust=False)
+tqqq_df = yf.download('TQQQ', period='2y', progress=False, auto_adjust=False)
 tqqq_cl = tqqq_df['Close'] if 'Close' in tqqq_df.columns else tqqq_df['Adj Close']
 if isinstance(tqqq_cl, pd.DataFrame): tqqq_cl = tqqq_cl.iloc[:, 0]
 tqqq_now = float(tqqq_cl.iloc[-1])
@@ -328,7 +328,7 @@ tqqq_pct = round(((tqqq_now / tqqq_prev) - 1) * 100, 2) if tqqq_prev > 0 else 0
 
 # USD/MYR daily % change
 try:
-    myr_df = yf.download('MYR=X', period='5d', progress=False, auto_adjust=False)
+    myr_df = yf.download('MYR=X', period='2y', progress=False, auto_adjust=False)
     myr_close = myr_df['Close'] if 'Close' in myr_df.columns else myr_df['Adj Close']
     if isinstance(myr_close, pd.DataFrame): myr_close = myr_close.iloc[:, 0]
     usd_myr = round(float(myr_close.iloc[-1]), 4)
