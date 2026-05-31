@@ -6,6 +6,11 @@ Strategy: SEP (Primary) + -(HYG/IEF) Credit Stress TP (Secondary)
 """
 import sys, os, json, re
 import pypdf
+from strategy_engine import (
+    compute_credit_z, compute_vol_z,
+    parse_sep_pdfs, build_sep_signals, build_sep_state,
+    run_backtest,
+)
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -103,116 +108,16 @@ source_dates = {
     'ief': ief.dropna().index[-1].strftime('%Y-%m-%d'),
 }
 
-hyg_ief = hyg_d / ief_d
-ma252 = hyg_ief.rolling(252).mean()
-sd252 = hyg_ief.rolling(252).std()
-
-# INVERTED Z-SCORE: -(HYG/IEF) so that higher values = higher stress
-z_series = -(hyg_ief - ma252) / sd252
-
-# VOLATILITY Z-SCORE
-rvol_20 = dr.rolling(20).std() * np.sqrt(252)
-vol_mean = rvol_20.rolling(252).mean()
-vol_std = rvol_20.rolling(252).std()
-vol_z = (rvol_20 - vol_mean) / vol_std
+z_series = compute_credit_z(hyg_d, ief_d)
+vol_z = compute_vol_z(dr)
 
 SEP_DIR = os.path.join(PROJECT_DIR, 'fomc_sep')
 sep_table_data = []
 if os.path.isdir(SEP_DIR):
-    sep_pdfs = sorted([f for f in os.listdir(SEP_DIR) if f.endswith('.pdf')])
-    sep_raw = []
-    for fn in sep_pdfs:
-        m = re.search(r'(\d{4})-(\d{2})-(\d{2})', fn)
-        if not m: continue
-        meeting_year = int(m.group(1))
-        meeting_month = int(m.group(2))
-        try:
-            reader = pypdf.PdfReader(os.path.join(SEP_DIR, fn))
-            text = ''.join(pg.extract_text()+'\n' for pg in reader.pages[:3])
-        except Exception as e:
-            raise RuntimeError(f"Failed to parse SEP PDF {fn}: {e}")
-        cp_all, fr_all = [], []
-        lines = text.split('\n')
-        for li, line in enumerate(lines):
-            if not cp_all and re.search(r'Core\s*PCE\s*in[f\uFB02]', line, re.IGNORECASE) and not re.search(r'projection|september|june|march|december|january|november', line, re.IGNORECASE):
-                cp_all = [float(x) for x in re.findall(r'(\d+\.\d+)', line)]
-            if not fr_all and re.search(r'Federal\s*funds\s*rate', line, re.IGNORECASE) and not re.search(r'projection|september|june|march|december|january|november', line, re.IGNORECASE):
-                fr_all = [float(x) for x in re.findall(r'(\d+\.\d+)', line)]
-                if not fr_all:
-                    for offset in range(1, 4):
-                        if li + offset < len(lines):
-                            nxt = lines[li + offset].strip()
-                            if re.search(r'projection', nxt, re.IGNORECASE): continue
-                            fr_all = [float(x) for x in re.findall(r'(\d+\.\d+)', nxt)]
-                            if fr_all: break
-        pce_by_year = {meeting_year + j: v for j, v in enumerate(cp_all[:4])}
-        rate_by_year = {meeting_year + j: v for j, v in enumerate(fr_all[:4])}
-        target_year = meeting_year if meeting_month < 9 else meeting_year + 1
-        sep_raw.append({
-            'date': f'{m.group(1)}-{m.group(2)}-{m.group(3)}',
-            'target_year': target_year,
-            'pce': pce_by_year.get(target_year),
-            'rate': rate_by_year.get(target_year),
-            'pce_by_year': pce_by_year,
-            'rate_by_year': rate_by_year,
-        })
+    sep_raw = parse_sep_pdfs(SEP_DIR)
+    sep_table_data = build_sep_signals(sep_raw)
+sep_state, _ = build_sep_state(sep_table_data, idx)
 
-    _ffr_by_target = {
-        ('2012-01-25', 2012): 0.13, ('2012-04-25', 2012): 0.13,
-        ('2012-06-20', 2012): 0.13,
-        ('2012-09-13', 2013): 0.13, ('2012-12-12', 2013): 0.13,
-        ('2013-03-20', 2013): 0.13, ('2013-06-19', 2013): 0.13,
-        ('2013-09-18', 2014): 0.13, ('2013-12-18', 2014): 0.13,
-        ('2014-03-19', 2014): 0.13, ('2014-06-18', 2014): 0.13,
-        ('2014-09-17', 2015): 1.38, ('2014-12-17', 2015): 0.63,
-        ('2015-03-18', 2015): 0.63, ('2015-06-17', 2015): 0.63,
-        ('2015-09-17', 2016): 0.38, ('2015-12-16', 2016): 1.4,
-        ('2018-12-19', 2019): 2.9,
-    }
-    for row in sep_raw:
-        ty = row['target_year']
-        key = (row['date'], ty)
-        if row['rate'] is None and key in _ffr_by_target:
-            row['rate'] = _ffr_by_target[key]
-            row['rate_by_year'][ty] = _ffr_by_target[key]
-
-    sep_in = True
-    for i in range(1, len(sep_raw)):
-        c, p = sep_raw[i], sep_raw[i-1]
-        ty = c['target_year']
-        c_pce = c['pce_by_year'].get(ty)
-        c_rate = c['rate_by_year'].get(ty)
-        p_pce = p['pce_by_year'].get(ty)
-        p_rate = p['rate_by_year'].get(ty)
-        if c_pce is None: continue
-        has_both = all(pd.notna(x) for x in [c_pce, c_rate, p_pce, p_rate])
-        rate_up = c_rate > p_rate if has_both else False
-        pce_above2 = c_pce > 2.0
-        pce_up = c_pce > p_pce if has_both else False
-        is_exit = rate_up and pce_above2 and pce_up if has_both else False
-        reenter = (c_rate <= p_rate) if has_both else False
-        
-        signal = ''
-        if sep_in and is_exit:
-            signal = 'EXIT'
-            sep_in = False
-        elif not sep_in and reenter:
-            signal = 'ENTER'
-            sep_in = True
-            
-        sep_table_data.append({
-            'date': c['date'], 'target_year': ty,
-            'pce': c_pce, 'prev_pce': p_pce,
-            'rate': c_rate, 'prev_rate': p_rate,
-            'signal': signal,
-        })
-sep_signal_dates = {pd.Timestamp(r['date']): r['signal'] for r in sep_table_data if r['signal']}
-
-sep_state = pd.Series(1, index=idx)
-s = 1
-for d in idx:
-    if d in sep_signal_dates: s = 1 if sep_signal_dates[d]=='ENTER' else 0
-    sep_state[d] = s
 # Compute gap/intra returns for next-open execution (matches audit_backtest.py)
 qqq_open_raw = yf.download('QQQ', start='2005-01-01', progress=False, auto_adjust=False)
 _open_raw = qqq_open_raw['Open']
@@ -226,94 +131,15 @@ qqq_adj_open = (_open_raw * _adj_factor).reindex(idx).ffill()
 dr_qqq_gap = (qqq_adj_open / qqq_d.shift(1) - 1).fillna(0)
 dr_qqq_intra = (qqq_d / qqq_adj_open - 1).fillna(0)
 
-EXPENSE_RATIO = 0.0086
+res_base = run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, ef,
+                        z_series, vol_z, sep_state, use_overlay=False)
+es_base = res_base['equity']; lev_base = res_base['leverage']
+cagr_base = res_base['cagr']; mdd_base = res_base['mdd']; tr_base = res_base['trades']
 
-def run_strategy(use_overlay=True):
-    """Production-grade backtest matching audit_backtest.py exactly:
-    - T+1 pending execution
-    - Gap/intra split on switch days (gap=old lev, intra=new lev)
-    - Borrowing costs, expense ratios, transaction costs
-    - NSL (Never Sell in Loss)
-    """
-    eq = 1.0; lev = 3.0; prev_lev = 3.0
-    pending = None; eql = []; levs = []
-    in_trade = False; trade_entry_eq = 1.0
-    in_danger = False; vol_danger = False
-    trades = 0; switch_today = False
-
-    for i in range(len(idx)):
-        d = idx[i]
-        si = sep_state.iloc[i]
-
-        # Apply pending (1-day delay = next-open execution)
-        switch_today = False
-        prev_lev_for_gap = lev
-        if pending is not None:
-            if pending != lev:
-                switch_today = True
-            lev = pending; pending = None
-
-        is_profitable = (eq > trade_entry_eq) if in_trade else False
-        z = z_series.iloc[i]
-
-        tgt = 3
-        if si == 0:
-            tgt = 0; in_danger = False; vol_danger = False
-        else:
-            if use_overlay:
-                if not np.isnan(z):
-                    if not in_danger and z > 1.2: in_danger = True
-                    elif in_danger and z < 0.2: in_danger = False
-                vz = vol_z.iloc[i] if i < len(vol_z) else np.nan
-                if not np.isnan(vz):
-                    if not vol_danger and vz > 1.0: vol_danger = True
-                    elif vol_danger and vz < -0.5: vol_danger = False
-                if in_danger:
-                    tgt = 1 if is_profitable else lev  # NSL: credit
-                elif vol_danger:
-                    tgt = 2 if is_profitable else lev  # NSL: vol
-                else:
-                    tgt = 3
-            else:
-                tgt = 3
-
-        if tgt != lev: pending = tgt
-        if lev > 0 and not in_trade: in_trade = True; trade_entry_eq = eq
-        elif lev == 0 and in_trade: in_trade = False
-        if lev != prev_lev: trades += 1
-
-        if i > 0:
-            r_total = dr_qqq.iloc[i]
-            if np.isnan(r_total): r_total = 0.0
-
-            # On switch day: gap (old lev) + intra (new lev)
-            if switch_today:
-                rg = dr_qqq_gap.iloc[i]
-                ri = dr_qqq_intra.iloc[i]
-                if np.isnan(rg): rg = 0.0
-                if np.isnan(ri): ri = 0.0
-                r_applied = (1 + prev_lev_for_gap * rg) * (1 + lev * ri) - 1
-            else:
-                r_applied = lev * r_total
-
-            # Costs (matching audit_backtest.py)
-            borrow = max(0, lev - 1) * ef.iloc[i] if lev > 1 else 0
-            fee = EXPENSE_RATIO / 252 * min(lev / 3, 1) if lev > 1 else 0
-            cy = ef.iloc[i] if lev == 0 else 0
-            tc = abs(lev - prev_lev) * (25 / 10000)
-            eq *= (1 + r_applied - borrow - fee + cy - tc)
-            eq = max(eq, 0.001)
-
-        prev_lev = lev; eql.append(eq); levs.append(lev)
-
-    es = pd.Series(eql, index=idx)
-    ny = len(es) / 252
-    cagr = es.iloc[-1] ** (1/ny) - 1
-    mdd = ((es / es.expanding().max()) - 1).min()
-    return es, levs, [], cagr, mdd, trades
-
-es_base, lev_base, _, cagr_base, mdd_base, tr_base = run_strategy(use_overlay=False)
-es_opt, lev_opt, _, cagr_opt, mdd_opt, tr_opt = run_strategy(use_overlay=True)
+res_opt = run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, ef,
+                       z_series, vol_z, sep_state, use_overlay=True)
+es_opt = res_opt['equity']; lev_opt = res_opt['leverage']
+cagr_opt = res_opt['cagr']; mdd_opt = res_opt['mdd']; tr_opt = res_opt['trades']
 
 # Buy and Hold TQQQ
 bh_eq = tqqq_d / tqqq_d.iloc[0]
