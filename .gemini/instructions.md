@@ -5,9 +5,9 @@ This is a production-grade TQQQ risk management strategy with a live dashboard a
 https://nickchen494949.github.io/qqq-dashboard/
 
 ## Key Documents (READ THESE FIRST)
-- `STRATEGY.md` — The sealed strategy rules (3-layer defense + NSL)
-- `RESEARCH_RULES.md` — 3 iron rules + complete testing protocol
-- `RESEARCH_PAPER.md` — Full research paper with data and methodology
+- `docs/STRATEGY.md` — The sealed strategy rules (3-layer defense + NSL)
+- `docs/RESEARCH_RULES.md` — 3 iron rules + complete testing protocol
+- `docs/RESEARCH_PAPER.md` — Full research paper with data and methodology
 
 ## Three Iron Rules (ALWAYS FOLLOW)
 

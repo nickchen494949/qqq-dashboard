@@ -6,7 +6,7 @@
 
 ## Strategy Documentation
 
-The definitive rules and logic for this strategy can be found in [STRATEGY.md](STRATEGY.md).
+The definitive rules and logic for this strategy can be found in [STRATEGY.md](docs/STRATEGY.md).
 
 ## Technical Architecture
 
