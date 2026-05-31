@@ -92,6 +92,17 @@ Trades:    40（年均 2.8 次）
 | 5 | HY OAS 信用利差 | 数据太短 | 同步/抄底指标 |
 | 6 | VIX+Momentum Warning | T+0: +7.2%, **T+1: -1.5%** | look-ahead bias，最危险的假信号 |
 
+### 已验证的研究（2024-05-31）
+
+**2D Joint Grid Search (Credit Lev × Vol Lev)**
+- 用完整审计引擎（SEP+NSL+Next-Open+Costs）跑 7×7 = 49 种组合
+- SEP out = 629 days，与审计完全匹配
+- **发现：当前参数 (Credit=1.0x, Vol=2.0x) ✅ 在高原上**
+- Best Sharpe = 1.28 (Credit=1.0x, Vol=0.0x)，当前 = 1.26，差 0.02
+- **高原范围：Credit 0.5x–1.5x，Vol 0.0x–3.0x（15/49 = 31%）**
+- **关键发现：Vol 维度几乎是平的（Sharpe 1.23–1.28），SEP 是主力风控**
+- 之前简化引擎（SEP out=0/40）给出错误结论（Vol=2.0x 不在高原），原因是 SEP 缺失导致 Vol 被迫承担全部风控
+
 ---
 
 ## 项目结构
