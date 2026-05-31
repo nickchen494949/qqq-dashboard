@@ -1,0 +1,17 @@
+# Cached market data (re-fetched on each build)
+market_data/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini workspace
+.gemini/
