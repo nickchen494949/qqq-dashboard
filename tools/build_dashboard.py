@@ -129,7 +129,8 @@ if os.path.isdir(SEP_DIR):
         try:
             reader = pypdf.PdfReader(os.path.join(SEP_DIR, fn))
             text = ''.join(pg.extract_text()+'\n' for pg in reader.pages[:3])
-        except: continue
+        except Exception as e:
+            raise RuntimeError(f"Failed to parse SEP PDF {fn}: {e}")
         cp_all, fr_all = [], []
         lines = text.split('\n')
         for li, line in enumerate(lines):
@@ -212,87 +213,102 @@ s = 1
 for d in idx:
     if d in sep_signal_dates: s = 1 if sep_signal_dates[d]=='ENTER' else 0
     sep_state[d] = s
+# Compute gap/intra returns for next-open execution (matches audit_backtest.py)
+qqq_open_raw = yf.download('QQQ', start='2005-01-01', progress=False, auto_adjust=False)
+_open_raw = qqq_open_raw['Open']
+_close_raw = qqq_open_raw['Close']
+_adj_close = qqq_open_raw['Adj Close'] if 'Adj Close' in qqq_open_raw.columns else _close_raw
+if isinstance(_close_raw, pd.DataFrame): _close_raw = _close_raw.iloc[:, 0]
+if isinstance(_adj_close, pd.DataFrame): _adj_close = _adj_close.iloc[:, 0]
+if isinstance(_open_raw, pd.DataFrame): _open_raw = _open_raw.iloc[:, 0]
+_adj_factor = _adj_close / _close_raw
+qqq_adj_open = (_open_raw * _adj_factor).reindex(idx).ffill()
+dr_qqq_gap = (qqq_adj_open / qqq_d.shift(1) - 1).fillna(0)
+dr_qqq_intra = (qqq_d / qqq_adj_open - 1).fillna(0)
+
+EXPENSE_RATIO = 0.0086
 
 def run_strategy(use_overlay=True):
+    """Production-grade backtest matching audit_backtest.py exactly:
+    - T+1 pending execution
+    - Gap/intra split on switch days (gap=old lev, intra=new lev)
+    - Borrowing costs, expense ratios, transaction costs
+    - NSL (Never Sell in Loss)
+    """
     eq = 1.0; lev = 3.0; prev_lev = 3.0
     pending = None; eql = []; levs = []
-    
-    in_trade = False
-    trade_entry_eq = 1.0
-    in_danger = False
-    vol_danger = False
-    trades = 0
-    
+    in_trade = False; trade_entry_eq = 1.0
+    in_danger = False; vol_danger = False
+    trades = 0; switch_today = False
+
     for i in range(len(idx)):
-        si = sep_state.iloc[i]
         d = idx[i]
-        
+        si = sep_state.iloc[i]
+
+        # Apply pending (1-day delay = next-open execution)
+        switch_today = False
+        prev_lev_for_gap = lev
         if pending is not None:
+            if pending != lev:
+                switch_today = True
             lev = pending; pending = None
-            
+
         is_profitable = (eq > trade_entry_eq) if in_trade else False
         z = z_series.iloc[i]
-        
+
         tgt = 3
         if si == 0:
-            tgt = 0
-            in_danger = False; vol_danger = False
+            tgt = 0; in_danger = False; vol_danger = False
         else:
             if use_overlay:
                 if not np.isnan(z):
-                    if not in_danger and z > 1.2:
-                        in_danger = True
-                    elif in_danger and z < 0.2:
-                        in_danger = False
-                
+                    if not in_danger and z > 1.2: in_danger = True
+                    elif in_danger and z < 0.2: in_danger = False
                 vz = vol_z.iloc[i] if i < len(vol_z) else np.nan
                 if not np.isnan(vz):
-                    if not vol_danger and vz > 1.0:
-                        vol_danger = True
-                    elif vol_danger and vz < -0.5:
-                        vol_danger = False
-                        
+                    if not vol_danger and vz > 1.0: vol_danger = True
+                    elif vol_danger and vz < -0.5: vol_danger = False
                 if in_danger:
-                    if is_profitable: tgt = 1
-                    else: tgt = 3
+                    tgt = 1 if is_profitable else lev  # NSL: credit
                 elif vol_danger:
-                    if is_profitable: tgt = 2
-                    else: tgt = lev
+                    tgt = 2 if is_profitable else lev  # NSL: vol
                 else:
                     tgt = 3
             else:
                 tgt = 3
-                
-        if tgt != lev:
-            pending = tgt
-            
-        if lev > 0 and not in_trade:
-            in_trade = True
-            trade_entry_eq = eq
-        elif lev == 0 and in_trade:
-            in_trade = False
-            
-        if lev != prev_lev:
-            trades += 1
-            
+
+        if tgt != lev: pending = tgt
+        if lev > 0 and not in_trade: in_trade = True; trade_entry_eq = eq
+        elif lev == 0 and in_trade: in_trade = False
+        if lev != prev_lev: trades += 1
+
         if i > 0:
-            # Use real ETF returns
-            if lev == 3:   r_day = dr_tqqq.iloc[i]
-            elif lev == 2: r_day = dr_qld.iloc[i]
-            elif lev == 1: r_day = dr_qqq.iloc[i]
-            else:          r_day = ef.iloc[i]  # cash
-            if np.isnan(r_day): r_day = 0
-            tc = abs(lev - prev_lev) * (25/10000)
-            eq *= (1 + r_day - tc)
+            r_total = dr_qqq.iloc[i]
+            if np.isnan(r_total): r_total = 0.0
+
+            # On switch day: gap (old lev) + intra (new lev)
+            if switch_today:
+                rg = dr_qqq_gap.iloc[i]
+                ri = dr_qqq_intra.iloc[i]
+                if np.isnan(rg): rg = 0.0
+                if np.isnan(ri): ri = 0.0
+                r_applied = (1 + prev_lev_for_gap * rg) * (1 + lev * ri) - 1
+            else:
+                r_applied = lev * r_total
+
+            # Costs (matching audit_backtest.py)
+            borrow = max(0, lev - 1) * ef.iloc[i] if lev > 1 else 0
+            fee = EXPENSE_RATIO / 252 * min(lev / 3, 1) if lev > 1 else 0
+            cy = ef.iloc[i] if lev == 0 else 0
+            tc = abs(lev - prev_lev) * (25 / 10000)
+            eq *= (1 + r_applied - borrow - fee + cy - tc)
             eq = max(eq, 0.001)
-            
-        prev_lev = lev
-        eql.append(eq)
-        levs.append(lev)
-        
+
+        prev_lev = lev; eql.append(eq); levs.append(lev)
+
     es = pd.Series(eql, index=idx)
-    ny = len(es)/252
-    cagr = es.iloc[-1]**(1/ny) - 1
+    ny = len(es) / 252
+    cagr = es.iloc[-1] ** (1/ny) - 1
     mdd = ((es / es.expanding().max()) - 1).min()
     return es, levs, [], cagr, mdd, trades
 
