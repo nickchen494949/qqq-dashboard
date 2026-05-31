@@ -543,8 +543,11 @@ const sepColor = L.sep_state === 'IN' ? 'color-green' : 'color-red';
 const P = D.portfolio;
 const fmtMYR = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
 const fmtUSD = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
-const nqDir = P.nq_pct >= 0 ? '▲' : '▼';
-const nqCol = P.nq_pct >= 0 ? 'color-green' : 'color-red';
+const fmtPct = (v) => {{
+  const sign = v >= 0 ? '+' : '';
+  return sign + v.toFixed(2) + '%';
+}};
+const pctStyle = (v) => v >= 0 ? 'color:#22c55e' : 'color:#ef4444';
 
 cardsEl.innerHTML = `
   <div class="card" id="portfolio-card" style="grid-column: span 2; background:linear-gradient(135deg,#0a0a23 0%,#1a1a3e 100%); border:1px solid #2d2d5e;">
@@ -552,18 +555,27 @@ cardsEl.innerHTML = `
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
       <div>
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (6,326 units)</div>
-        <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
+        <div style="display:flex; align-items:baseline; gap:8px;">
+          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
+          <div id="nick-pct" style="font-size:12px; font-weight:600; color:#475569;">—</div>
+        </div>
         <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
       </div>
       <div>
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (416 units)</div>
-        <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
+        <div style="display:flex; align-items:baseline; gap:8px;">
+          <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
+          <div id="gf-pct" style="font-size:12px; font-weight:600; color:#475569;">—</div>
+        </div>
         <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
       </div>
     </div>
     <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
-      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$$${{P.tqqq_est.toFixed(2)}}</span> × USD/MYR <span id="pf-myr">${{P.usd_myr}}</span></div>
-      <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
+      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$${{P.tqqq_est.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px; color:#475569;"></span> · USD/MYR <span id="pf-myr">${{P.usd_myr}}</span> <span id="pf-myr-pct" style="font-size:10px; color:#475569;"></span></div>
+      <div style="display:flex; align-items:baseline; gap:6px;">
+        <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
+        <div id="pf-total-pct" style="font-size:11px; font-weight:600; color:#475569;"></div>
+      </div>
     </div>
     <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">⏳ Auto-refresh every 30 min</div>
   </div>
@@ -695,25 +707,52 @@ async function refreshPortfolio() {{
   try {{
     const proxy = 'https://api.allorigins.win/raw?url=';
     const [tqRes, myrRes] = await Promise.all([
-      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=1d')),
-      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=1d'))
+      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=2d')),
+      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=2d'))
     ]);
     const tqData = await tqRes.json();
     const myrData = await myrRes.json();
-    const tqqq = tqData.chart.result[0].meta.regularMarketPrice;
-    const usdmyr = myrData.chart.result[0].meta.regularMarketPrice;
-    
+    const tqMeta = tqData.chart.result[0].meta;
+    const myrMeta = myrData.chart.result[0].meta;
+    const tqqq = tqMeta.regularMarketPrice;
+    const tqPrev = tqMeta.chartPreviousClose || tqMeta.previousClose || tqqq;
+    const usdmyr = myrMeta.regularMarketPrice;
+    const myrPrev = myrMeta.chartPreviousClose || myrMeta.previousClose || usdmyr;
+
+    const tqPct = ((tqqq / tqPrev) - 1) * 100;
+    const myrPct = ((usdmyr / myrPrev) - 1) * 100;
+
     const nickUsd = NICK * tqqq, nickMyr = nickUsd * usdmyr;
     const syUsd = SY * tqqq, syMyr = syUsd * usdmyr;
     const totalMyr = nickMyr + syMyr;
-    
+
+    const nickPrev = NICK * tqPrev * myrPrev;
+    const syPrev = SY * tqPrev * myrPrev;
+    const nickChg = ((nickMyr / nickPrev) - 1) * 100;
+    const syChg = ((syMyr / syPrev) - 1) * 100;
+    const totalPrev = nickPrev + syPrev;
+    const totalChg = ((totalMyr / totalPrev) - 1) * 100;
+
+    const _pctFmt = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+    const _pctCol = (v) => v >= 0 ? '#22c55e' : '#ef4444';
+
     document.getElementById('nick-myr').textContent = _fmt(nickMyr);
     document.getElementById('nick-usd').textContent = _fmtU(nickUsd);
+    document.getElementById('nick-pct').textContent = _pctFmt(nickChg);
+    document.getElementById('nick-pct').style.color = _pctCol(nickChg);
     document.getElementById('gf-myr').textContent = _fmt(syMyr);
     document.getElementById('gf-usd').textContent = _fmtU(syUsd);
+    document.getElementById('gf-pct').textContent = _pctFmt(syChg);
+    document.getElementById('gf-pct').style.color = _pctCol(syChg);
     document.getElementById('pf-tqqq').textContent = '$' + tqqq.toFixed(2);
+    document.getElementById('pf-tqqq-pct').textContent = _pctFmt(tqPct);
+    document.getElementById('pf-tqqq-pct').style.color = _pctCol(tqPct);
     document.getElementById('pf-myr').textContent = usdmyr.toFixed(4);
+    document.getElementById('pf-myr-pct').textContent = _pctFmt(myrPct);
+    document.getElementById('pf-myr-pct').style.color = _pctCol(myrPct);
     document.getElementById('pf-total').textContent = _fmt(totalMyr);
+    document.getElementById('pf-total-pct').textContent = _pctFmt(totalChg);
+    document.getElementById('pf-total-pct').style.color = _pctCol(totalChg);
     const now = new Date().toLocaleString('en-US', {{hour:'2-digit', minute:'2-digit', hour12:false}});
     document.getElementById('pf-status').textContent = '✅ Live @ ' + now + ' • Next refresh in 30 min';
     document.getElementById('pf-source').textContent = 'LIVE';
