@@ -2,8 +2,8 @@ name: Update Dashboard
 
 on:
   schedule:
-    # Run daily at 06:00 UTC (US market close ~21:00 ET + buffer)
-    - cron: '0 6 * * 1-6'
+    # Run daily at 00:00 UTC (08:00 AM UTC+8, US market closed 3-4 hours ago)
+    - cron: '0 0 * * 1-6'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
