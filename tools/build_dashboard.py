@@ -315,43 +315,60 @@ cur_z = round(float(z_series.iloc[-1]), 2)
 cur_vol_z = round(float(vol_z.dropna().iloc[-1]), 2) if len(vol_z.dropna()) > 0 else 0
 cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 
-# Portfolio: NQ futures estimate + USD/MYR
+# Portfolio: TQQQ + USD/MYR with daily % change
 HOLDINGS = {'nick': 6326, 'gf': 416}
-try:
-    nq_df = yf.download('NQ=F', period='5d', progress=False, auto_adjust=False)
-    nq_close = nq_df['Close'] if 'Close' in nq_df.columns else nq_df['Adj Close']
-    if isinstance(nq_close, pd.DataFrame): nq_close = nq_close.iloc[:, 0]
-    # NQ % change from last regular close
-    nq_prev = float(nq_close.iloc[-2]) if len(nq_close) >= 2 else float(nq_close.iloc[-1])
-    nq_now = float(nq_close.iloc[-1])
-    nq_pct = (nq_now / nq_prev - 1) if nq_prev > 0 else 0
-    # Estimate TQQQ: 3x daily QQQ move (NQ tracks Nasdaq-100 ≈ QQQ)
-    est_tqqq = cur_price * (1 + 3 * nq_pct)
-    est_tqqq = round(est_tqqq, 2)
-except Exception:
-    nq_pct = 0; est_tqqq = cur_price
 
+# TQQQ daily % change (last trading day vs previous)
+tqqq_df = yf.download('TQQQ', period='5d', progress=False, auto_adjust=False)
+tqqq_cl = tqqq_df['Close'] if 'Close' in tqqq_df.columns else tqqq_df['Adj Close']
+if isinstance(tqqq_cl, pd.DataFrame): tqqq_cl = tqqq_cl.iloc[:, 0]
+tqqq_now = float(tqqq_cl.iloc[-1])
+tqqq_prev = float(tqqq_cl.iloc[-2]) if len(tqqq_cl) >= 2 else tqqq_now
+tqqq_pct = round(((tqqq_now / tqqq_prev) - 1) * 100, 2) if tqqq_prev > 0 else 0
+
+# USD/MYR daily % change
 try:
     myr_df = yf.download('MYR=X', period='5d', progress=False, auto_adjust=False)
     myr_close = myr_df['Close'] if 'Close' in myr_df.columns else myr_df['Adj Close']
     if isinstance(myr_close, pd.DataFrame): myr_close = myr_close.iloc[:, 0]
     usd_myr = round(float(myr_close.iloc[-1]), 4)
+    myr_prev = float(myr_close.iloc[-2]) if len(myr_close) >= 2 else usd_myr
+    myr_pct = round(((usd_myr / myr_prev) - 1) * 100, 2) if myr_prev > 0 else 0
 except Exception:
-    usd_myr = 4.20  # fallback
+    usd_myr = 4.20; myr_pct = 0; myr_prev = usd_myr
+
+# Portfolio values (current and previous day)
+nick_usd = HOLDINGS['nick'] * tqqq_now
+nick_myr = nick_usd * usd_myr
+nick_prev_myr = HOLDINGS['nick'] * tqqq_prev * myr_prev
+nick_pct = round(((nick_myr / nick_prev_myr) - 1) * 100, 2) if nick_prev_myr > 0 else 0
+
+gf_usd = HOLDINGS['gf'] * tqqq_now
+gf_myr = gf_usd * usd_myr
+gf_prev_myr = HOLDINGS['gf'] * tqqq_prev * myr_prev
+gf_pct = round(((gf_myr / gf_prev_myr) - 1) * 100, 2) if gf_prev_myr > 0 else 0
+
+total_myr = nick_myr + gf_myr
+total_prev = nick_prev_myr + gf_prev_myr
+total_pct = round(((total_myr / total_prev) - 1) * 100, 2) if total_prev > 0 else 0
 
 portfolio = {
     'nick_units': HOLDINGS['nick'],
     'gf_units': HOLDINGS['gf'],
     'tqqq_close': cur_price,
-    'tqqq_est': est_tqqq,
-    'nq_pct': round(nq_pct * 100, 2),
+    'tqqq_est': round(tqqq_now, 2),
+    'tqqq_pct': tqqq_pct,
     'usd_myr': usd_myr,
-    'nick_usd': round(HOLDINGS['nick'] * est_tqqq, 2),
-    'nick_myr': round(HOLDINGS['nick'] * est_tqqq * usd_myr, 2),
-    'gf_usd': round(HOLDINGS['gf'] * est_tqqq, 2),
-    'gf_myr': round(HOLDINGS['gf'] * est_tqqq * usd_myr, 2),
-    'total_usd': round((HOLDINGS['nick'] + HOLDINGS['gf']) * est_tqqq, 2),
-    'total_myr': round((HOLDINGS['nick'] + HOLDINGS['gf']) * est_tqqq * usd_myr, 2),
+    'myr_pct': myr_pct,
+    'nick_usd': round(nick_usd, 2),
+    'nick_myr': round(nick_myr, 2),
+    'nick_pct': nick_pct,
+    'gf_usd': round(gf_usd, 2),
+    'gf_myr': round(gf_myr, 2),
+    'gf_pct': gf_pct,
+    'total_usd': round(nick_usd + gf_usd, 2),
+    'total_myr': round(total_myr, 2),
+    'total_pct': total_pct,
 }
 
 data_json = json.dumps({
@@ -557,7 +574,7 @@ cardsEl.innerHTML = `
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (6,326 units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
-          <div id="nick-pct" style="font-size:12px; font-weight:600; color:#475569;">—</div>
+          <div id="nick-pct" style="font-size:12px; font-weight:600; ${{pctStyle(P.nick_pct)}}">${{fmtPct(P.nick_pct)}}</div>
         </div>
         <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
       </div>
@@ -565,19 +582,19 @@ cardsEl.innerHTML = `
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (416 units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
-          <div id="gf-pct" style="font-size:12px; font-weight:600; color:#475569;">—</div>
+          <div id="gf-pct" style="font-size:12px; font-weight:600; ${{pctStyle(P.gf_pct)}}">${{fmtPct(P.gf_pct)}}</div>
         </div>
         <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
       </div>
     </div>
     <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
-      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$${{P.tqqq_est.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px; color:#475569;"></span> · USD/MYR <span id="pf-myr">${{P.usd_myr}}</span> <span id="pf-myr-pct" style="font-size:10px; color:#475569;"></span></div>
+      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$${{P.tqqq_est.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px; ${{pctStyle(P.tqqq_pct)}}">${{fmtPct(P.tqqq_pct)}}</span> · USD/MYR <span id="pf-myr">${{P.usd_myr}}</span> <span id="pf-myr-pct" style="font-size:10px; ${{pctStyle(P.myr_pct)}}">${{fmtPct(P.myr_pct)}}</span></div>
       <div style="display:flex; align-items:baseline; gap:6px;">
         <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
-        <div id="pf-total-pct" style="font-size:11px; font-weight:600; color:#475569;"></div>
+        <div id="pf-total-pct" style="font-size:11px; font-weight:600; ${{pctStyle(P.total_pct)}}">${{fmtPct(P.total_pct)}}</div>
       </div>
     </div>
-    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">⏳ Auto-refresh every 30 min</div>
+    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">📊 Last close · Auto-refresh every 30 min</div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
