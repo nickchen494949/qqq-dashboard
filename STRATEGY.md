@@ -152,10 +152,10 @@ TC:      25 bps per leverage switch
 ## 8. 验证结果（2012–2026）
 
 ```text
-CAGR:     54.2%
-MDD:      -38.3%
-Sharpe:   1.33
-Trades:   39（年均 2.8 次）
+CAGR:     54.5%
+MDD:      -38.7%
+Sharpe:   1.36
+Trades:   40（年均 2.8 次）
 TC 200bps Sharpe: 1.15
 ```
 
