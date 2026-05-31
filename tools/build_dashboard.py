@@ -20,27 +20,12 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 import time as _time
 
-def _fred_is_reachable(timeout=5):
-    import urllib.request
-    try:
-        urllib.request.urlopen('https://api.stlouisfed.org/fred/', timeout=timeout)
-        return True
-    except Exception:
-        return False
-
-_FRED_AVAILABLE = _fred_is_reachable()
-
 def load_or_fetch_fred(series_id, retries=2):
     path = os.path.join(DATA_DIR, f'fred_{series_id}.csv')
     cached = None
     if os.path.exists(path):
         cached = pd.read_csv(path, index_col=0, parse_dates=True).squeeze()
         cached = cached[~cached.index.duplicated(keep='last')]
-    
-    if not _FRED_AVAILABLE:
-        if cached is not None and len(cached) > 100:
-            return cached
-        raise ConnectionError(f"FRED is unreachable and no cache for {series_id}")
     
     fred = Fred(api_key=FRED_API_KEY)
     start = cached.index[-1].strftime('%Y-%m-%d') if cached is not None and len(cached) > 0 else '2003-01-01'
@@ -57,6 +42,7 @@ def load_or_fetch_fred(series_id, retries=2):
                 _time.sleep(1)
             else:
                 if cached is not None and len(cached) > 100:
+                    print(f"  ⚠️  FRED fetch failed, using cache ({len(cached)} rows)")
                     return cached
                 raise
     
