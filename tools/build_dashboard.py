@@ -9,7 +9,7 @@ import pypdf
 from strategy_engine import (
     compute_credit_z, compute_vol_z,
     parse_sep_pdfs, build_sep_signals, build_sep_state,
-    run_backtest,
+    run_backtest, get_fred_api_key,
 )
 import numpy as np
 import pandas as pd
@@ -18,7 +18,7 @@ from fredapi import Fred
 import warnings
 warnings.filterwarnings('ignore')
 
-FRED_API_KEY = os.environ.get('FRED_API_KEY', 'f64f7d1a98a7dd021a155ce2b9703fdb')
+FRED_API_KEY = get_fred_api_key()
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_DIR, 'market_data')
 os.makedirs(DATA_DIR, exist_ok=True)

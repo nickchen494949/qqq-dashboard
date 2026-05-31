@@ -15,6 +15,22 @@ import numpy as np
 import pandas as pd
 import pypdf
 
+
+def get_fred_api_key():
+    """Load FRED API key from env var or .env file. Never hardcoded in source."""
+    key = os.environ.get('FRED_API_KEY')
+    if key:
+        return key
+    # Fallback: read from .env in project root
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+    if os.path.exists(env_path):
+        with open(env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('FRED_API_KEY='):
+                    return line.split('=', 1)[1].strip()
+    raise RuntimeError("FRED_API_KEY not found. Set env var or create .env file.")
+
 # ============================================================================
 # SEALED PARAMETERS (do not modify without full 29-test audit)
 # ============================================================================
@@ -27,7 +43,6 @@ Z_WINDOW      = 252
 EXPENSE_RATIO = 0.0086
 TC_BPS        = 25
 
-# Hardcoded early Fed Funds Rate medians (ZIRP era + broken PDF parsing)
 HARDCODED_FFR = {
     ('2012-01-25', 2012): 0.13, ('2012-04-25', 2012): 0.13,
     ('2012-06-20', 2012): 0.13,

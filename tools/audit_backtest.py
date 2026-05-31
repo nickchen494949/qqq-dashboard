@@ -26,14 +26,13 @@ from strategy_engine import (
     compute_credit_z, compute_vol_z,
     parse_sep_pdfs, build_sep_signals, build_sep_state,
     run_backtest as engine_run_backtest,
+    get_fred_api_key,
 )
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-FRED_API_KEY = os.environ.get('FRED_API_KEY', 'f64f7d1a98a7dd021a155ce2b9703fdb')
-if FRED_API_KEY == 'f64f7d1a98a7dd021a155ce2b9703fdb':
-    print("  ⚠️  WARNING: Using hardcoded FRED API key. Set FRED_API_KEY env var for production.\n")
+FRED_API_KEY = get_fred_api_key()
 
 PROJECT_DIR  = '/Users/happygolucky/Desktop/QQQ_Risk_Strategy'
 DATA_DIR     = os.path.join(PROJECT_DIR, 'market_data')
