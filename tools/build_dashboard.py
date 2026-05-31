@@ -337,38 +337,55 @@ try:
 except Exception:
     usd_myr = 4.20; myr_pct = 0; myr_prev = usd_myr
 
-# Portfolio values (current and previous day)
+# Multi-period portfolio changes (1D, 1W, 1M, 1Q, 1Y)
+import datetime as _dt
+_periods = {'1D': 1, '1W': 5, '1M': 21, '1Q': 63, '1Y': 252}
+_tqqq_series = tqqq_cl.dropna()
+_myr_series = myr_close.dropna() if 'myr_close' in dir() else pd.Series([usd_myr])
+
 nick_usd = HOLDINGS['nick'] * tqqq_now
-nick_myr = nick_usd * usd_myr
-nick_prev_myr = HOLDINGS['nick'] * tqqq_prev * myr_prev
-nick_pct = round(((nick_myr / nick_prev_myr) - 1) * 100, 2) if nick_prev_myr > 0 else 0
-
+nick_myr_now = nick_usd * usd_myr
 gf_usd = HOLDINGS['gf'] * tqqq_now
-gf_myr = gf_usd * usd_myr
-gf_prev_myr = HOLDINGS['gf'] * tqqq_prev * myr_prev
-gf_pct = round(((gf_myr / gf_prev_myr) - 1) * 100, 2) if gf_prev_myr > 0 else 0
+gf_myr_now = gf_usd * usd_myr
+total_myr_now = nick_myr_now + gf_myr_now
 
-total_myr = nick_myr + gf_myr
-total_prev = nick_prev_myr + gf_prev_myr
-total_pct = round(((total_myr / total_prev) - 1) * 100, 2) if total_prev > 0 else 0
+changes = {}
+for label, days in _periods.items():
+    # TQQQ lookback
+    t_prev = float(_tqqq_series.iloc[-1-days]) if len(_tqqq_series) > days else float(_tqqq_series.iloc[0])
+    t_pct = round(((tqqq_now / t_prev) - 1) * 100, 2) if t_prev > 0 else 0
+    # MYR lookback
+    m_prev = float(_myr_series.iloc[-1-days]) if len(_myr_series) > days else float(_myr_series.iloc[0])
+    m_pct = round(((usd_myr / m_prev) - 1) * 100, 2) if m_prev > 0 else 0
+    # Portfolio lookback
+    nick_prev = HOLDINGS['nick'] * t_prev * m_prev
+    gf_prev = HOLDINGS['gf'] * t_prev * m_prev
+    total_prev = nick_prev + gf_prev
+    changes[label] = {
+        'tqqq_pct': t_pct,
+        'tqqq_prev': round(t_prev, 2),
+        'myr_pct': m_pct,
+        'nick_pct': round(((nick_myr_now / nick_prev) - 1) * 100, 2) if nick_prev > 0 else 0,
+        'nick_chg': round(nick_myr_now - nick_prev, 0),
+        'gf_pct': round(((gf_myr_now / gf_prev) - 1) * 100, 2) if gf_prev > 0 else 0,
+        'gf_chg': round(gf_myr_now - gf_prev, 0),
+        'total_pct': round(((total_myr_now / total_prev) - 1) * 100, 2) if total_prev > 0 else 0,
+        'total_chg': round(total_myr_now - total_prev, 0),
+    }
 
 portfolio = {
     'nick_units': HOLDINGS['nick'],
     'gf_units': HOLDINGS['gf'],
     'tqqq_close': cur_price,
     'tqqq_est': round(tqqq_now, 2),
-    'tqqq_pct': tqqq_pct,
     'usd_myr': usd_myr,
-    'myr_pct': myr_pct,
     'nick_usd': round(nick_usd, 2),
-    'nick_myr': round(nick_myr, 2),
-    'nick_pct': nick_pct,
+    'nick_myr': round(nick_myr_now, 2),
     'gf_usd': round(gf_usd, 2),
-    'gf_myr': round(gf_myr, 2),
-    'gf_pct': gf_pct,
+    'gf_myr': round(gf_myr_now, 2),
     'total_usd': round(nick_usd + gf_usd, 2),
-    'total_myr': round(total_myr, 2),
-    'total_pct': total_pct,
+    'total_myr': round(total_myr_now, 2),
+    'changes': changes,
 }
 
 data_json = json.dumps({
@@ -566,35 +583,76 @@ const fmtPct = (v) => {{
 }};
 const pctStyle = (v) => v >= 0 ? 'color:#22c55e' : 'color:#ef4444';
 
+const C = P.changes;
+const _pf = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+const _ps = (v) => v >= 0 ? 'color:#22c55e' : 'color:#ef4444';
+const _vc = (v) => (v >= 0 ? '+RM ' : '-RM ') + Math.abs(v).toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
+let curPeriod = '1D';
+
+function renderPF(p) {{
+  curPeriod = p;
+  const c = C[p];
+  document.querySelectorAll('.pf-tab').forEach(t => t.style.color = t.dataset.p === p ? '#a5b4fc' : '#475569');
+  document.querySelectorAll('.pf-tab').forEach(t => t.style.borderBottom = t.dataset.p === p ? '2px solid #a5b4fc' : 'none');
+  document.getElementById('nick-pct').textContent = _pf(c.nick_pct);
+  document.getElementById('nick-pct').style.color = _ps(c.nick_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('nick-chg').textContent = _vc(c.nick_chg);
+  document.getElementById('nick-chg').style.color = _ps(c.nick_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('gf-pct').textContent = _pf(c.gf_pct);
+  document.getElementById('gf-pct').style.color = _ps(c.gf_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('gf-chg').textContent = _vc(c.gf_chg);
+  document.getElementById('gf-chg').style.color = _ps(c.gf_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('pf-tqqq-pct').textContent = _pf(c.tqqq_pct);
+  document.getElementById('pf-tqqq-pct').style.color = _ps(c.tqqq_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('pf-myr-pct').textContent = _pf(c.myr_pct);
+  document.getElementById('pf-myr-pct').style.color = _ps(c.myr_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('pf-total-pct').textContent = _pf(c.total_pct);
+  document.getElementById('pf-total-pct').style.color = _ps(c.total_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  document.getElementById('pf-total-chg').textContent = _vc(c.total_chg);
+  document.getElementById('pf-total-chg').style.color = _ps(c.total_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+}}
+
 cardsEl.innerHTML = `
   <div class="card" id="portfolio-card" style="grid-column: span 2; background:linear-gradient(135deg,#0a0a23 0%,#1a1a3e 100%); border:1px solid #2d2d5e;">
-    <div class="header-row"><div class="label" style="color:#a5b4fc;">💰 Portfolio Value</div><div class="more" id="pf-source" style="color:#6366f1;">Build: ${{D.generated_at}}</div></div>
+    <div class="header-row">
+      <div class="label" style="color:#a5b4fc;">💰 Portfolio Value</div>
+      <div style="display:flex; gap:8px; align-items:center;">
+        ${{['1D','1W','1M','1Q','1Y'].map(p => `<span class="pf-tab" data-p="${{p}}" onclick="renderPF('${{p}}')" style="cursor:pointer; font-size:11px; font-weight:600; padding:2px 6px; color:${{p==='1D'?'#a5b4fc':'#475569'}}; border-bottom:${{p==='1D'?'2px solid #a5b4fc':'none'}};">${{p}}</span>`).join('')}}
+      </div>
+    </div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
       <div>
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (6,326 units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
-          <div id="nick-pct" style="font-size:12px; font-weight:600; ${{pctStyle(P.nick_pct)}}">${{fmtPct(P.nick_pct)}}</div>
+          <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
-        <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
+        <div style="display:flex; align-items:baseline; gap:8px;">
+          <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
+          <div id="nick-chg" style="font-size:11px; font-weight:500;"></div>
+        </div>
       </div>
       <div>
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (416 units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
-          <div id="gf-pct" style="font-size:12px; font-weight:600; ${{pctStyle(P.gf_pct)}}">${{fmtPct(P.gf_pct)}}</div>
+          <div id="gf-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
-        <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
+        <div style="display:flex; align-items:baseline; gap:8px;">
+          <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
+          <div id="gf-chg" style="font-size:11px; font-weight:500;"></div>
+        </div>
       </div>
     </div>
     <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
-      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$${{P.tqqq_est.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px; ${{pctStyle(P.tqqq_pct)}}">${{fmtPct(P.tqqq_pct)}}</span> · USD/MYR <span id="pf-myr">${{P.usd_myr}}</span> <span id="pf-myr-pct" style="font-size:10px; ${{pctStyle(P.myr_pct)}}">${{fmtPct(P.myr_pct)}}</span></div>
+      <div style="color:#94a3b8; font-size:11px;">TQQQ $${{P.tqqq_est.toFixed(2)}} <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
       <div style="display:flex; align-items:baseline; gap:6px;">
         <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
-        <div id="pf-total-pct" style="font-size:11px; font-weight:600; ${{pctStyle(P.total_pct)}}">${{fmtPct(P.total_pct)}}</div>
+        <div id="pf-total-pct" style="font-size:11px; font-weight:600;"></div>
+        <div id="pf-total-chg" style="font-size:10px; font-weight:500;"></div>
       </div>
     </div>
-    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">📊 Last close · Auto-refresh every 30 min</div>
+    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">📊 Data: ${{D.generated_at}}</div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
@@ -622,6 +680,8 @@ cardsEl.innerHTML = `
     <div class="sub">Data: ${{L.date}}</div>
   </div>
 `;
+
+renderPF('1D');
 
 document.getElementById('perf-opt').innerHTML = `
   <div class="perf-item"><span class="k">CAGR</span><span class="v color-green">+${{L.cagr_opt}}%</span></div>
@@ -714,89 +774,8 @@ if (sepT.length > 0) {{
 }}
 </script>
 
-<script>
-// ── Live Portfolio Refresh (every 30 min) ──
-const NICK = 6326, SY = 416;
-const _fmt = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
-const _fmtU = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
 
-async function refreshPortfolio() {{
-  try {{
-    document.getElementById('pf-status').textContent = '🔄 Fetching live data...';
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 10000);
-    const proxies = [
-      'https://api.allorigins.win/raw?url=',
-      'https://corsproxy.io/?url='
-    ];
-    let tqData, myrData;
-    for (const proxy of proxies) {{
-      try {{
-        const [tqRes, myrRes] = await Promise.all([
-          fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=2d'), {{signal: ctrl.signal}}),
-          fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=2d'), {{signal: ctrl.signal}})
-        ]);
-        tqData = await tqRes.json();
-        myrData = await myrRes.json();
-        break;
-      }} catch(inner) {{ continue; }}
-    }}
-    clearTimeout(timer);
-    if (!tqData || !myrData) throw new Error('All proxies failed');
-    const tqMeta = tqData.chart.result[0].meta;
-    const myrMeta = myrData.chart.result[0].meta;
-    const tqqq = tqMeta.regularMarketPrice;
-    const tqPrev = tqMeta.chartPreviousClose || tqMeta.previousClose || tqqq;
-    const usdmyr = myrMeta.regularMarketPrice;
-    const myrPrev = myrMeta.chartPreviousClose || myrMeta.previousClose || usdmyr;
 
-    const tqPct = ((tqqq / tqPrev) - 1) * 100;
-    const myrPct = ((usdmyr / myrPrev) - 1) * 100;
-
-    const nickUsd = NICK * tqqq, nickMyr = nickUsd * usdmyr;
-    const syUsd = SY * tqqq, syMyr = syUsd * usdmyr;
-    const totalMyr = nickMyr + syMyr;
-
-    const nickPrev = NICK * tqPrev * myrPrev;
-    const syPrev = SY * tqPrev * myrPrev;
-    const nickChg = ((nickMyr / nickPrev) - 1) * 100;
-    const syChg = ((syMyr / syPrev) - 1) * 100;
-    const totalPrev = nickPrev + syPrev;
-    const totalChg = ((totalMyr / totalPrev) - 1) * 100;
-
-    const _pctFmt = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
-    const _pctCol = (v) => v >= 0 ? '#22c55e' : '#ef4444';
-
-    document.getElementById('nick-myr').textContent = _fmt(nickMyr);
-    document.getElementById('nick-usd').textContent = _fmtU(nickUsd);
-    document.getElementById('nick-pct').textContent = _pctFmt(nickChg);
-    document.getElementById('nick-pct').style.color = _pctCol(nickChg);
-    document.getElementById('gf-myr').textContent = _fmt(syMyr);
-    document.getElementById('gf-usd').textContent = _fmtU(syUsd);
-    document.getElementById('gf-pct').textContent = _pctFmt(syChg);
-    document.getElementById('gf-pct').style.color = _pctCol(syChg);
-    document.getElementById('pf-tqqq').textContent = '$' + tqqq.toFixed(2);
-    document.getElementById('pf-tqqq-pct').textContent = _pctFmt(tqPct);
-    document.getElementById('pf-tqqq-pct').style.color = _pctCol(tqPct);
-    document.getElementById('pf-myr').textContent = usdmyr.toFixed(4);
-    document.getElementById('pf-myr-pct').textContent = _pctFmt(myrPct);
-    document.getElementById('pf-myr-pct').style.color = _pctCol(myrPct);
-    document.getElementById('pf-total').textContent = _fmt(totalMyr);
-    document.getElementById('pf-total-pct').textContent = _pctFmt(totalChg);
-    document.getElementById('pf-total-pct').style.color = _pctCol(totalChg);
-    const now = new Date().toLocaleString('en-US', {{hour:'2-digit', minute:'2-digit', hour12:false}});
-    document.getElementById('pf-status').textContent = '✅ Live @ ' + now + ' • Next refresh in 30 min';
-    document.getElementById('pf-source').textContent = 'LIVE';
-    document.getElementById('pf-source').style.color = '#22c55e';
-  }} catch(e) {{
-    console.error('Portfolio refresh failed:', e);
-    document.getElementById('pf-status').textContent = '⚠️ Fetch failed: ' + e.message;
-  }}
-}}
-
-refreshPortfolio();
-setInterval(refreshPortfolio, 30 * 60 * 1000);
-</script>
 </body>
 </html>
 """
