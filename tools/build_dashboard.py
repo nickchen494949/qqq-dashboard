@@ -316,7 +316,7 @@ cur_vol_z = round(float(vol_z.dropna().iloc[-1]), 2) if len(vol_z.dropna()) > 0 
 cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 
 # Portfolio: TQQQ + USD/MYR with daily % change
-HOLDINGS = {'nick': 6326, 'gf': 416}
+HOLDINGS = {'nick': 6326, 'gf': 395}
 
 # TQQQ daily % change (last trading day vs previous)
 tqqq_df = yf.download('TQQQ', period='2y', progress=False, auto_adjust=False)
@@ -633,7 +633,7 @@ cardsEl.innerHTML = `
         </div>
       </div>
       <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (416 units)</div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (395 units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
           <div id="gf-pct" style="font-size:12px; font-weight:600;"></div>

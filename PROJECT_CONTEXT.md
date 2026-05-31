@@ -119,7 +119,7 @@ QQQ_Risk_Strategy/
 ## 持仓追踪
 
 - Nick: 6,326 units TQQQ
-- SY: 416 units TQQQ
+- SY: 395 units TQQQ
 - 显示 MYR 和 USD，每 30 分钟自动刷新
 - 显示当天 % 变化（TQQQ、USD/MYR、Portfolio）
 

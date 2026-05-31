@@ -46,7 +46,7 @@ CAGR: +54.5%, MDD: -38.7%, Sharpe: 1.36, Trades: 40 (2.8/yr)
 
 ## Portfolio Tracking
 - Nick: 6326 units TQQQ
-- SY: 416 units TQQQ
+- SY: 395 units TQQQ
 - Values shown in MYR (Malaysian Ringgit), auto-refreshed every 30 min
 
 ## Past Failures (DO NOT REPEAT)
