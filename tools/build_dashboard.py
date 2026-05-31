@@ -758,7 +758,8 @@ async function refreshPortfolio() {{
     document.getElementById('pf-source').textContent = 'LIVE';
     document.getElementById('pf-source').style.color = '#22c55e';
   }} catch(e) {{
-    document.getElementById('pf-status').textContent = '⚠️ Fetch failed, showing build-time data';
+    console.error('Portfolio refresh failed:', e);
+    document.getElementById('pf-status').textContent = '⚠️ Fetch failed: ' + e.message;
   }}
 }}
 
