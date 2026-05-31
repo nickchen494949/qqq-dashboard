@@ -315,6 +315,45 @@ cur_z = round(float(z_series.iloc[-1]), 2)
 cur_vol_z = round(float(vol_z.dropna().iloc[-1]), 2) if len(vol_z.dropna()) > 0 else 0
 cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 
+# Portfolio: NQ futures estimate + USD/MYR
+HOLDINGS = {'nick': 6326, 'gf': 416}
+try:
+    nq_df = yf.download('NQ=F', period='5d', progress=False, auto_adjust=False)
+    nq_close = nq_df['Close'] if 'Close' in nq_df.columns else nq_df['Adj Close']
+    if isinstance(nq_close, pd.DataFrame): nq_close = nq_close.iloc[:, 0]
+    # NQ % change from last regular close
+    nq_prev = float(nq_close.iloc[-2]) if len(nq_close) >= 2 else float(nq_close.iloc[-1])
+    nq_now = float(nq_close.iloc[-1])
+    nq_pct = (nq_now / nq_prev - 1) if nq_prev > 0 else 0
+    # Estimate TQQQ: 3x daily QQQ move (NQ tracks Nasdaq-100 ≈ QQQ)
+    est_tqqq = cur_price * (1 + 3 * nq_pct)
+    est_tqqq = round(est_tqqq, 2)
+except Exception:
+    nq_pct = 0; est_tqqq = cur_price
+
+try:
+    myr_df = yf.download('MYR=X', period='5d', progress=False, auto_adjust=False)
+    myr_close = myr_df['Close'] if 'Close' in myr_df.columns else myr_df['Adj Close']
+    if isinstance(myr_close, pd.DataFrame): myr_close = myr_close.iloc[:, 0]
+    usd_myr = round(float(myr_close.iloc[-1]), 4)
+except Exception:
+    usd_myr = 4.20  # fallback
+
+portfolio = {
+    'nick_units': HOLDINGS['nick'],
+    'gf_units': HOLDINGS['gf'],
+    'tqqq_close': cur_price,
+    'tqqq_est': est_tqqq,
+    'nq_pct': round(nq_pct * 100, 2),
+    'usd_myr': usd_myr,
+    'nick_usd': round(HOLDINGS['nick'] * est_tqqq, 2),
+    'nick_myr': round(HOLDINGS['nick'] * est_tqqq * usd_myr, 2),
+    'gf_usd': round(HOLDINGS['gf'] * est_tqqq, 2),
+    'gf_myr': round(HOLDINGS['gf'] * est_tqqq * usd_myr, 2),
+    'total_usd': round((HOLDINGS['nick'] + HOLDINGS['gf']) * est_tqqq, 2),
+    'total_myr': round((HOLDINGS['nick'] + HOLDINGS['gf']) * est_tqqq * usd_myr, 2),
+}
+
 data_json = json.dumps({
     'dates': [d.strftime('%Y-%m-%d') for d in idx],
     'eq_bh': sw(bh_eq),
@@ -338,6 +377,7 @@ data_json = json.dumps({
         'mdd_opt': round(mdd_opt*100, 1),
         'trades_opt': tr_opt,
     },
+    'portfolio': portfolio,
     'source_dates': source_dates,
     # Filter SEP table to only show 2012 onwards
     'sep_table': [r for r in sep_table_data if pd.Timestamp(r['date']) >= pd.Timestamp('2012-01-25')],
@@ -500,8 +540,33 @@ const volText = L.vol_z > 1.0 ? 'VOL SPIKE → 66% TQQQ' : (L.vol_z < -0.5 ? 'SA
 
 const levColor = L.leverage === '3x' ? 'color-green' : (L.leverage === '1x' ? 'color-red' : 'color-neutral');
 const sepColor = L.sep_state === 'IN' ? 'color-green' : 'color-red';
+const P = D.portfolio;
+const fmtMYR = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
+const fmtUSD = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
+const nqDir = P.nq_pct >= 0 ? '▲' : '▼';
+const nqCol = P.nq_pct >= 0 ? 'color-green' : 'color-red';
 
 cardsEl.innerHTML = `
+  <div class="card" id="portfolio-card" style="grid-column: span 2; background:linear-gradient(135deg,#0a0a23 0%,#1a1a3e 100%); border:1px solid #2d2d5e;">
+    <div class="header-row"><div class="label" style="color:#a5b4fc;">💰 Portfolio Value</div><div class="more" id="pf-source" style="color:#6366f1;">Build: ${{D.generated_at}}</div></div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
+      <div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (6,326 units)</div>
+        <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
+        <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
+      </div>
+      <div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (416 units)</div>
+        <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
+        <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="color:#94a3b8; font-size:11px;">TQQQ <span id="pf-tqqq">$$${{P.tqqq_est.toFixed(2)}}</span> × USD/MYR <span id="pf-myr">${{P.usd_myr}}</span></div>
+      <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
+    </div>
+    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">⏳ Auto-refresh every 30 min</div>
+  </div>
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
     <div class="value ${{sepColor}}">${{L.sep_state}}</div>
@@ -618,6 +683,48 @@ if (sepT.length > 0) {{
   h += '</tbody>';
   tbl.innerHTML = h;
 }}
+</script>
+
+<script>
+// ── Live Portfolio Refresh (every 30 min) ──
+const NICK = 6326, SY = 416;
+const _fmt = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
+const _fmtU = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
+
+async function refreshPortfolio() {{
+  try {{
+    const proxy = 'https://api.allorigins.win/raw?url=';
+    const [tqRes, myrRes] = await Promise.all([
+      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?interval=1d&range=1d')),
+      fetch(proxy + encodeURIComponent('https://query1.finance.yahoo.com/v8/finance/chart/MYR=X?interval=1d&range=1d'))
+    ]);
+    const tqData = await tqRes.json();
+    const myrData = await myrRes.json();
+    const tqqq = tqData.chart.result[0].meta.regularMarketPrice;
+    const usdmyr = myrData.chart.result[0].meta.regularMarketPrice;
+    
+    const nickUsd = NICK * tqqq, nickMyr = nickUsd * usdmyr;
+    const syUsd = SY * tqqq, syMyr = syUsd * usdmyr;
+    const totalMyr = nickMyr + syMyr;
+    
+    document.getElementById('nick-myr').textContent = _fmt(nickMyr);
+    document.getElementById('nick-usd').textContent = _fmtU(nickUsd);
+    document.getElementById('gf-myr').textContent = _fmt(syMyr);
+    document.getElementById('gf-usd').textContent = _fmtU(syUsd);
+    document.getElementById('pf-tqqq').textContent = '$' + tqqq.toFixed(2);
+    document.getElementById('pf-myr').textContent = usdmyr.toFixed(4);
+    document.getElementById('pf-total').textContent = _fmt(totalMyr);
+    const now = new Date().toLocaleString('en-US', {{hour:'2-digit', minute:'2-digit', hour12:false}});
+    document.getElementById('pf-status').textContent = '✅ Live @ ' + now + ' • Next refresh in 30 min';
+    document.getElementById('pf-source').textContent = 'LIVE';
+    document.getElementById('pf-source').style.color = '#22c55e';
+  }} catch(e) {{
+    document.getElementById('pf-status').textContent = '⚠️ Fetch failed, showing build-time data';
+  }}
+}}
+
+refreshPortfolio();
+setInterval(refreshPortfolio, 30 * 60 * 1000);
 </script>
 </body>
 </html>
