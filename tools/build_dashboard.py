@@ -364,7 +364,7 @@ html = f"""<!DOCTYPE html>
   <div class="panel" style="margin-bottom:16px;">
     <div class="panel-header">
       <div>-(HYG / IEF) Credit Stress Radar</div>
-      <div class="note">TP &gt; 1.2 | Re-enter &lt; 0.2</div>
+      <div class="note">TP &gt; 1.2 | Re-enter &lt; 0.2 &nbsp;|&nbsp; Data: {source_dates['hyg']}</div>
     </div>
     <div class="panel-body">
       <div class="math-box">
@@ -379,7 +379,7 @@ html = f"""<!DOCTYPE html>
   <div class="panel" style="margin-bottom:16px;">
     <div class="panel-header">
       <div>Realized Volatility Z-Score Radar</div>
-      <div class="note">TP (66% TQQQ) &gt; 1.0 | Re-enter (100%) &lt; -0.5</div>
+      <div class="note">TP (66% TQQQ) &gt; 1.0 | Re-enter (100%) &lt; -0.5 &nbsp;|&nbsp; Data: {source_dates['qqq']}</div>
     </div>
     <div class="panel-body">
       <div class="math-box">
