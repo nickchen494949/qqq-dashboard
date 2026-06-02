@@ -232,10 +232,15 @@ def calc_portfolio(tqqq_price, myr_price):
             'total_chg': round(total_myr - total_prev, 0),
         }
     return {
+        'nick_units': HOLDINGS['nick'],
+        'gf_units': HOLDINGS['gf'],
         'tqqq': round(tqqq_price, 2),
         'usd_myr': round(myr_price, 4),
+        'nick_usd': round(nick_usd, 2),
         'nick_myr': round(nick_myr, 2),
+        'gf_usd': round(gf_usd, 2),
         'gf_myr': round(gf_myr, 2),
+        'total_usd': round(nick_usd + gf_usd, 2),
         'total_myr': round(total_myr, 2),
         'changes': changes,
     }
