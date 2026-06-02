@@ -350,7 +350,10 @@ html = f"""<!DOCTYPE html>
     </div>
     
     <div class="panel">
-      <div class="panel-header">Historical Performance</div>
+      <div class="panel-header" style="display:flex; justify-content:space-between; align-items:center;">
+      <div>Historical Performance</div>
+      <div class="note" style="font-size:12px; font-weight:400; color:#A6B0C3;">Data: {source_dates['tqqq']}</div>
+    </div>
       <div class="panel-body" style="padding:20px 20px 0 20px;">
         <div style="color:#0055FF; font-weight:700; margin-bottom:12px; font-size:14px;">Protected Strategy (Current)</div>
         <div class="perf-grid" id="perf-opt" style="margin-bottom:20px;"></div>
