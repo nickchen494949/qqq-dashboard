@@ -333,13 +333,7 @@ html = f"""<!DOCTYPE html>
     <div class="icon">W</div>
     TQQQ Strategy
   </div>
-  <div class="menu" style="display:flex; align-items:center; gap:16px;">
-    <div class="active">Overview</div>
-    <div style="background:rgba(255,255,255,0.15); padding:3px; border-radius:6px; display:flex; gap:2px;">
-      <button id="btn-daily" onclick="setMode('daily')" style="padding:4px 14px; border:none; background:#FFFFFF; color:#111827; border-radius:4px; cursor:pointer; font-size:12px; font-weight:600;">Daily</button>
-      <button id="btn-weekly" onclick="setMode('weekly')" style="padding:4px 14px; border:none; background:transparent; color:rgba(255,255,255,0.7); border-radius:4px; cursor:pointer; font-size:12px; font-weight:500;">Weekly</button>
-    </div>
-  </div>
+  <div class="menu"><div class="active">Overview</div></div>
 </div>
 
 <div class="container">
@@ -348,9 +342,15 @@ html = f"""<!DOCTYPE html>
 
   <div class="panels">
     <div class="panel">
-      <div class="panel-header">
+      <div class="panel-header" style="display:flex; justify-content:space-between; align-items:center;">
         <div>Equity Growth & Target Leverage</div>
-        <div class="note">Log Scale • Since 2012</div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div style="background:#F0F0F0; padding:2px; border-radius:6px; display:flex; gap:2px;">
+      <button id="btn-eq-d" onclick="setMode('eq', 'daily')" style="padding:4px 12px; border:none; background:#FFFFFF; color:#111827; border-radius:4px; cursor:pointer; font-size:11px; font-weight:600; box-shadow:0 1px 2px rgba(0,0,0,0.05);">Daily</button>
+      <button id="btn-eq-w" onclick="setMode('eq', 'weekly')" style="padding:4px 12px; border:none; background:transparent; color:#6B7280; border-radius:4px; cursor:pointer; font-size:11px; font-weight:500;">Weekly</button>
+    </div>
+          <div class="note" style="font-weight:400; font-size:12px;">Log Scale • Since 2012</div>
+        </div>
       </div>
       <div class="panel-body" style="padding:0;">
         <div id="chart_equity" style="width:100%;height:400px;"></div>
@@ -559,7 +559,22 @@ const plotLayout = {{
   paper_bgcolor:'#FFFFFF', plot_bgcolor:'#FFFFFF',
   font:{{ family:'Roboto', color:'#6B7280', size:11 }},
   margin:{{ l:40, r:40, t:20, b:40 }},
-  xaxis:{{ gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}}, hoverformat:'%Y-%m-%d' }},
+  xaxis:{{ 
+    gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}}, hoverformat:'%Y-%m-%d',
+    rangeselector: {{
+      buttons: [
+        {{count: 1, label: '1y', step: 'year', stepmode: 'backward'}},
+        {{count: 2, label: '2y', step: 'year', stepmode: 'backward'}},
+        {{count: 5, label: '5y', step: 'year', stepmode: 'backward'}},
+        {{step: 'all', label: 'All'}}
+      ],
+      font: {{size: 11, color: '#6B7280'}},
+      bgcolor: '#F9FAFB',
+      activecolor: '#EBEBEB',
+      bordercolor: '#EBEBEB',
+      borderwidth: 1
+    }}
+  }},
   yaxis:{{ gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}} }},
   hovermode:'x unified', legend:{{ bgcolor:'#FFFFFF', bordercolor:'#EBEBEB', font:{{ size:12, color:'#111827' }} }},
 }};
@@ -570,16 +585,14 @@ function barColors(yArr) {{
   return yArr.map((v, i) => i === 0 ? '#A6B0C3' : (v > yArr[i-1] ? '#FF333A' : '#00C805'));
 }}
 
-let currentMode = 'daily';
-const sfx = () => currentMode === 'daily' ? '_d' : '_w';
 const levData = unpack(D.lev_opt);
+const modes = {{ eq: 'daily', z: 'daily', vol: 'daily' }};
 
-function renderCharts() {{
-  const s = sfx();
+function renderEq() {{
+  const s = modes.eq === 'daily' ? '_d' : '_w';
   const eqOpt = unpack(D['eq_opt' + s]);
   const eqBase = unpack(D['eq_base' + s]);
   const eqBh = unpack(D['eq_bh' + s]);
-
   Plotly.react('chart_equity', [
     {{ ...eqBh, name:'TQQQ Buy & Hold', type:'scatter', mode:'lines', line:{{ color:'#EBEBEB', width:1.5 }} }},
     {{ ...eqBase, name:'Base TQQQ+SEP', type:'scatter', mode:'lines', line:{{ color:'#A6B0C3', width:1.5 }} }},
@@ -590,7 +603,10 @@ function renderCharts() {{
     yaxis2:{{ overlaying:'y', side:'right', showgrid:false, range:[0, 3.5], tickvals:[0,1,2,3], tickfont:{{color:'#A6B0C3'}} }},
     legend: {{ orientation: 'h', y: 1.05 }}
   }}, cfg);
+}}
 
+function renderZ() {{
+  const s = modes.z === 'daily' ? '_d' : '_w';
   const zData = unpack(D['z_score' + s]);
   Plotly.react('chart_z', [
     {{ x: zData.x, y: zData.y, name:'-(HYG/IEF) Z-Score', type:'bar', marker:{{ color: barColors(zData.y) }} }}
@@ -602,7 +618,10 @@ function renderCharts() {{
     yaxis:{{ ...plotLayout.yaxis, title:'Stress Level' }},
     bargap: 0
   }}, cfg);
+}}
 
+function renderVol() {{
+  const s = modes.vol === 'daily' ? '_d' : '_w';
   const volZData = unpack(D['vol_z' + s]);
   Plotly.react('chart_vol', [
     {{ x: volZData.x, y: volZData.y, name:'Vol Z-Score', type:'bar', marker:{{ color: barColors(volZData.y) }} }}
@@ -616,21 +635,25 @@ function renderCharts() {{
   }}, cfg);
 }}
 
-function setMode(mode) {{
-  currentMode = mode;
-  const bd = document.getElementById('btn-daily');
-  const bw = document.getElementById('btn-weekly');
+function setMode(chart, mode) {{
+  modes[chart] = mode;
+  const bd = document.getElementById('btn-' + chart + '-d');
+  const bw = document.getElementById('btn-' + chart + '-w');
   if (mode === 'daily') {{
-    bd.style.background = '#FFFFFF'; bd.style.color = '#111827'; bd.style.fontWeight = '600';
-    bw.style.background = 'transparent'; bw.style.color = 'rgba(255,255,255,0.7)'; bw.style.fontWeight = '500';
+    bd.style.background = '#FFFFFF'; bd.style.color = '#111827'; bd.style.fontWeight = '600'; bd.style.boxShadow = '0 1px 2px rgba(0,0,0,0.05)';
+    bw.style.background = 'transparent'; bw.style.color = '#6B7280'; bw.style.fontWeight = '500'; bw.style.boxShadow = 'none';
   }} else {{
-    bw.style.background = '#FFFFFF'; bw.style.color = '#111827'; bw.style.fontWeight = '600';
-    bd.style.background = 'transparent'; bd.style.color = 'rgba(255,255,255,0.7)'; bd.style.fontWeight = '500';
+    bw.style.background = '#FFFFFF'; bw.style.color = '#111827'; bw.style.fontWeight = '600'; bw.style.boxShadow = '0 1px 2px rgba(0,0,0,0.05)';
+    bd.style.background = 'transparent'; bd.style.color = '#6B7280'; bd.style.fontWeight = '500'; bd.style.boxShadow = 'none';
   }}
-  renderCharts();
+  if (chart === 'eq') renderEq();
+  if (chart === 'z') renderZ();
+  if (chart === 'vol') renderVol();
 }}
 
-renderCharts();
+renderEq();
+renderZ();
+renderVol();
 
 const sepT = D.sep_table || [];
 const tbl = document.getElementById('sep-table');
