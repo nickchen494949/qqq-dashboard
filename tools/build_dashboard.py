@@ -168,71 +168,81 @@ HOLDINGS = {'nick': 6326, 'gf': 395}
 tqqq_df = yf.download('TQQQ', period='2y', progress=False, auto_adjust=False)
 tqqq_cl = tqqq_df['Close'] if 'Close' in tqqq_df.columns else tqqq_df['Adj Close']
 if isinstance(tqqq_cl, pd.DataFrame): tqqq_cl = tqqq_cl.iloc[:, 0]
-tqqq_now = float(tqqq_cl.iloc[-1])
-tqqq_prev = float(tqqq_cl.iloc[-2]) if len(tqqq_cl) >= 2 else tqqq_now
-tqqq_pct = round(((tqqq_now / tqqq_prev) - 1) * 100, 2) if tqqq_prev > 0 else 0
 
-# USD/MYR daily % change
+# Live prices
+tqqq_info = yf.Ticker('TQQQ').fast_info
+nq_info = yf.Ticker('NQ=F').fast_info
+myr_info = yf.Ticker('MYR=X').fast_info
+
+try: tqqq_mkt = tqqq_info['lastPrice']
+except: tqqq_mkt = float(tqqq_cl.iloc[-1])
+try: tqqq_prev_day = tqqq_info['previousClose']
+except: tqqq_prev_day = float(tqqq_cl.iloc[-2]) if len(tqqq_cl) >= 2 else tqqq_mkt
+
+try:
+    nq_last = nq_info['lastPrice']
+    nq_prev = nq_info['previousClose']
+    nq_pct = (nq_last / nq_prev) - 1
+    tqqq_sim = tqqq_prev_day * (1 + 3 * nq_pct)
+except:
+    tqqq_sim = tqqq_mkt
+
+try:
+    usd_myr = myr_info['lastPrice']
+except:
+    usd_myr = 4.20
+
+# MYR historical
 try:
     myr_df = yf.download('MYR=X', period='2y', progress=False, auto_adjust=False)
     myr_close = myr_df['Close'] if 'Close' in myr_df.columns else myr_df['Adj Close']
     if isinstance(myr_close, pd.DataFrame): myr_close = myr_close.iloc[:, 0]
-    usd_myr = round(float(myr_close.iloc[-1]), 4)
-    myr_prev = float(myr_close.iloc[-2]) if len(myr_close) >= 2 else usd_myr
-    myr_pct = round(((usd_myr / myr_prev) - 1) * 100, 2) if myr_prev > 0 else 0
-except Exception:
-    usd_myr = 4.20; myr_pct = 0; myr_prev = usd_myr
+except:
+    myr_close = pd.Series([usd_myr])
 
-# Multi-period portfolio changes (1D, 1W, 1M, 1Q, 1Y)
-import datetime as _dt
+# Multi-period portfolio changes
 _periods = {'1D': 1, '1W': 5, '1M': 21, '1Q': 63, '1Y': 252}
 _tqqq_series = tqqq_cl.dropna()
-_myr_series = myr_close.dropna() if 'myr_close' in dir() else pd.Series([usd_myr])
+_myr_series = myr_close.dropna()
 
-nick_usd = HOLDINGS['nick'] * tqqq_now
-nick_myr_now = nick_usd * usd_myr
-gf_usd = HOLDINGS['gf'] * tqqq_now
-gf_myr_now = gf_usd * usd_myr
-total_myr_now = nick_myr_now + gf_myr_now
+def calc_portfolio(tqqq_price, myr_price):
+    nick_usd = HOLDINGS['nick'] * tqqq_price
+    nick_myr = nick_usd * myr_price
+    gf_usd = HOLDINGS['gf'] * tqqq_price
+    gf_myr = gf_usd * myr_price
+    total_myr = nick_myr + gf_myr
 
-changes = {}
-for label, days in _periods.items():
-    # TQQQ lookback
-    t_prev = float(_tqqq_series.iloc[-1-days]) if len(_tqqq_series) > days else float(_tqqq_series.iloc[0])
-    t_pct = round(((tqqq_now / t_prev) - 1) * 100, 2) if t_prev > 0 else 0
-    # MYR lookback
-    m_prev = float(_myr_series.iloc[-1-days]) if len(_myr_series) > days else float(_myr_series.iloc[0])
-    m_pct = round(((usd_myr / m_prev) - 1) * 100, 2) if m_prev > 0 else 0
-    # Portfolio lookback
-    nick_prev = HOLDINGS['nick'] * t_prev * m_prev
-    gf_prev = HOLDINGS['gf'] * t_prev * m_prev
-    total_prev = nick_prev + gf_prev
-    changes[label] = {
-        'tqqq_pct': t_pct,
-        'tqqq_prev': round(t_prev, 2),
-        'myr_pct': m_pct,
-        'nick_pct': round(((nick_myr_now / nick_prev) - 1) * 100, 2) if nick_prev > 0 else 0,
-        'nick_chg': round(nick_myr_now - nick_prev, 0),
-        'gf_pct': round(((gf_myr_now / gf_prev) - 1) * 100, 2) if gf_prev > 0 else 0,
-        'gf_chg': round(gf_myr_now - gf_prev, 0),
-        'total_pct': round(((total_myr_now / total_prev) - 1) * 100, 2) if total_prev > 0 else 0,
-        'total_chg': round(total_myr_now - total_prev, 0),
+    changes = {}
+    for label, days in _periods.items():
+        t_prev = float(_tqqq_series.iloc[-1-days]) if len(_tqqq_series) > days else float(_tqqq_series.iloc[0])
+        t_pct = round(((tqqq_price / t_prev) - 1) * 100, 2) if t_prev > 0 else 0
+        m_prev = float(_myr_series.iloc[-1-days]) if len(_myr_series) > days else float(_myr_series.iloc[0])
+        m_pct = round(((myr_price / m_prev) - 1) * 100, 2) if m_prev > 0 else 0
+        nick_prev = HOLDINGS['nick'] * t_prev * m_prev
+        gf_prev = HOLDINGS['gf'] * t_prev * m_prev
+        total_prev = nick_prev + gf_prev
+        changes[label] = {
+            'tqqq_pct': t_pct,
+            'myr_pct': m_pct,
+            'nick_pct': round(((nick_myr / nick_prev) - 1) * 100, 2) if nick_prev > 0 else 0,
+            'nick_chg': round(nick_myr - nick_prev, 0),
+            'gf_pct': round(((gf_myr / gf_prev) - 1) * 100, 2) if gf_prev > 0 else 0,
+            'gf_chg': round(gf_myr - gf_prev, 0),
+            'total_pct': round(((total_myr / total_prev) - 1) * 100, 2) if total_prev > 0 else 0,
+            'total_chg': round(total_myr - total_prev, 0),
+        }
+    return {
+        'tqqq': round(tqqq_price, 2),
+        'usd_myr': round(myr_price, 4),
+        'nick_myr': round(nick_myr, 2),
+        'gf_myr': round(gf_myr, 2),
+        'total_myr': round(total_myr, 2),
+        'changes': changes,
     }
 
-portfolio = {
-    'nick_units': HOLDINGS['nick'],
-    'gf_units': HOLDINGS['gf'],
-    'tqqq_close': cur_price,
-    'tqqq_est': round(tqqq_now, 2),
-    'usd_myr': usd_myr,
-    'nick_usd': round(nick_usd, 2),
-    'nick_myr': round(nick_myr_now, 2),
-    'gf_usd': round(gf_usd, 2),
-    'gf_myr': round(gf_myr_now, 2),
-    'total_usd': round(nick_usd + gf_usd, 2),
-    'total_myr': round(total_myr_now, 2),
-    'changes': changes,
-}
+portfolio_market = calc_portfolio(tqqq_mkt, usd_myr)
+portfolio_sim = calc_portfolio(tqqq_sim, usd_myr)
+
 
 data_json = json.dumps({
     'dates': [d.strftime('%Y-%m-%d') for d in idx],
@@ -257,7 +267,7 @@ data_json = json.dumps({
         'mdd_opt': round(mdd_opt*100, 1),
         'trades_opt': tr_opt,
     },
-    'portfolio': portfolio,
+    'portfolio_market': portfolio_market, 'portfolio_sim': portfolio_sim,
     'source_dates': source_dates,
     # Filter SEP table to only show 2012 onwards
     'sep_table': [r for r in sep_table_data if pd.Timestamp(r['date']) >= pd.Timestamp('2012-01-25')],

@@ -2,8 +2,8 @@ name: Update Dashboard
 
 on:
   schedule:
-    # Run daily at 00:00 UTC (08:00 AM UTC+8, US market closed 3-4 hours ago)
-    - cron: '0 0 * * 1-6'
+    # Run every hour to fetch live quotes and futures simulations
+    - cron: '0 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
