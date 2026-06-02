@@ -182,9 +182,12 @@ except: tqqq_mkt = float(tqqq_cl.iloc[-1])
 tqqq_regular_close = float(tqqq_cl.iloc[-1])
 
 try:
-    nq_last = nq_info['lastPrice']
-    nq_prev = nq_info['previousClose']
-    nq_pct = (nq_last / nq_prev) - 1
+    nq_hist = yf.download('NQ=F', period='5d', progress=False, auto_adjust=False)
+    nq_cl = nq_hist['Close']
+    if isinstance(nq_cl, pd.DataFrame): nq_cl = nq_cl.iloc[:, 0]
+    nq_last = float(nq_cl.iloc[-1])           # current / today
+    nq_prev_close = float(nq_cl.iloc[-2])     # last trading day close
+    nq_pct = (nq_last / nq_prev_close) - 1
     tqqq_sim = tqqq_regular_close * (1 + 3 * nq_pct)
 except:
     tqqq_sim = tqqq_mkt
