@@ -176,14 +176,16 @@ myr_info = yf.Ticker('MYR=X').fast_info
 
 try: tqqq_mkt = tqqq_info['lastPrice']
 except: tqqq_mkt = float(tqqq_cl.iloc[-1])
-try: tqqq_prev_day = tqqq_info['previousClose']
-except: tqqq_prev_day = float(tqqq_cl.iloc[-2]) if len(tqqq_cl) >= 2 else tqqq_mkt
+
+# Use the LAST regular-session close from historical data, NOT fast_info previousClose
+# (previousClose includes post-market and is unreliable as a base)
+tqqq_regular_close = float(tqqq_cl.iloc[-1])
 
 try:
     nq_last = nq_info['lastPrice']
     nq_prev = nq_info['previousClose']
     nq_pct = (nq_last / nq_prev) - 1
-    tqqq_sim = tqqq_prev_day * (1 + 3 * nq_pct)
+    tqqq_sim = tqqq_regular_close * (1 + 3 * nq_pct)
 except:
     tqqq_sim = tqqq_mkt
 
