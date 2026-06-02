@@ -559,7 +559,7 @@ const plotLayout = {{
   paper_bgcolor:'#FFFFFF', plot_bgcolor:'#FFFFFF',
   font:{{ family:'Roboto', color:'#6B7280', size:11 }},
   margin:{{ l:40, r:40, t:20, b:40 }},
-  xaxis:{{ gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}} }},
+  xaxis:{{ gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}}, hoverformat:'%Y-%m-%d' }},
   yaxis:{{ gridcolor:'#F0F0F0', linecolor:'#EBEBEB', tickfont:{{color:'#A6B0C3'}} }},
   hovermode:'x unified', legend:{{ bgcolor:'#FFFFFF', bordercolor:'#EBEBEB', font:{{ size:12, color:'#111827' }} }},
 }};
