@@ -440,7 +440,7 @@ const volText = L.vol_z > 1.0 ? 'VOL SPIKE → 66% TQQQ' : (L.vol_z < -0.5 ? 'SA
 
 const levColor = L.leverage === '3x' ? 'color-green' : (L.leverage === '1x' ? 'color-red' : 'color-neutral');
 const sepColor = L.sep_state === 'IN' ? 'color-green' : 'color-red';
-const P = D.portfolio;
+const P_init = D.portfolio_market;
 const fmtMYR = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
 const fmtUSD = (v) => '$' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
 const fmtPct = (v) => {{
@@ -449,29 +449,58 @@ const fmtPct = (v) => {{
 }};
 const pctStyle = (v) => v >= 0 ? 'color:#22c55e' : 'color:#ef4444';
 
-const C = P.changes;
 const _pf = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 const _ps = (v) => v >= 0 ? 'color:#22c55e' : 'color:#ef4444';
 const _vc = (v) => (v >= 0 ? '+RM ' : '-RM ') + Math.abs(v).toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
 let curPeriod = '1D';
+let pfMode = 'market';
+
+function setPFMode(mode) {{
+  pfMode = mode;
+  const bm = document.getElementById('btn-pf-mkt');
+  const bs = document.getElementById('btn-pf-sim');
+  if (mode === 'market') {{
+    bm.style.background = '#a5b4fc'; bm.style.color = '#111827';
+    bs.style.background = 'transparent'; bs.style.color = '#818cf8';
+  }} else {{
+    bs.style.background = '#a5b4fc'; bs.style.color = '#111827';
+    bm.style.background = 'transparent'; bm.style.color = '#818cf8';
+  }}
+  renderPF(curPeriod);
+}}
 
 function renderPF(p) {{
   curPeriod = p;
-  const c = C[p];
+  const P = pfMode === 'market' ? D.portfolio_market : D.portfolio_sim;
+  const c = P.changes[p];
+  
+  // Update Big Numbers
+  document.getElementById('pf-total').textContent = fmtMYR(P.total_myr);
+  document.getElementById('nick-myr').textContent = fmtMYR(P.nick_myr);
+  document.getElementById('nick-usd').textContent = fmtUSD(P.nick_usd);
+  document.getElementById('gf-myr').textContent = fmtMYR(P.gf_myr);
+  document.getElementById('gf-usd').textContent = fmtUSD(P.gf_usd);
+  document.getElementById('pf-tqqq-price').textContent = P.tqqq.toFixed(2);
+  
   document.querySelectorAll('.pf-tab').forEach(t => t.style.color = t.dataset.p === p ? '#a5b4fc' : '#475569');
   document.querySelectorAll('.pf-tab').forEach(t => t.style.borderBottom = t.dataset.p === p ? '2px solid #a5b4fc' : 'none');
+  
   document.getElementById('nick-pct').textContent = _pf(c.nick_pct);
   document.getElementById('nick-pct').style.color = _ps(c.nick_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
   document.getElementById('nick-chg').textContent = _vc(c.nick_chg);
   document.getElementById('nick-chg').style.color = _ps(c.nick_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  
   document.getElementById('gf-pct').textContent = _pf(c.gf_pct);
   document.getElementById('gf-pct').style.color = _ps(c.gf_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
   document.getElementById('gf-chg').textContent = _vc(c.gf_chg);
   document.getElementById('gf-chg').style.color = _ps(c.gf_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  
   document.getElementById('pf-tqqq-pct').textContent = _pf(c.tqqq_pct);
   document.getElementById('pf-tqqq-pct').style.color = _ps(c.tqqq_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  
   document.getElementById('pf-myr-pct').textContent = _pf(c.myr_pct);
   document.getElementById('pf-myr-pct').style.color = _ps(c.myr_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+  
   document.getElementById('pf-total-pct').textContent = _pf(c.total_pct);
   document.getElementById('pf-total-pct').style.color = _ps(c.total_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
   document.getElementById('pf-total-chg').textContent = _vc(c.total_chg);
@@ -481,39 +510,45 @@ function renderPF(p) {{
 cardsEl.innerHTML = `
   <div class="card" id="portfolio-card" style="grid-column: span 2; background:linear-gradient(135deg,#0a0a23 0%,#1a1a3e 100%); border:1px solid #2d2d5e;">
     <div class="header-row">
-      <div class="label" style="color:#a5b4fc;">💰 Portfolio Value</div>
+      <div style="display:flex; gap:12px; align-items:center;">
+        <div class="label" style="color:#a5b4fc;">💰 Portfolio Value</div>
+        <div style="background:rgba(0,0,0,0.3); padding:2px; border-radius:6px; display:flex; gap:2px;">
+          <button id="btn-pf-mkt" onclick="setPFMode('market')" style="padding:2px 8px; border:none; background:#a5b4fc; color:#111827; border-radius:4px; cursor:pointer; font-size:10px; font-weight:700;">Market</button>
+          <button id="btn-pf-sim" onclick="setPFMode('sim')" style="padding:2px 8px; border:none; background:transparent; color:#818cf8; border-radius:4px; cursor:pointer; font-size:10px; font-weight:600;">Simulated (NQ=F)</button>
+        </div>
+      </div>
       <div style="display:flex; gap:8px; align-items:center;">
         ${{['1D','1W','1M','1Q','1Y'].map(p => `<span class="pf-tab" data-p="${{p}}" onclick="renderPF('${{p}}')" style="cursor:pointer; font-size:11px; font-weight:600; padding:2px 6px; color:${{p==='1D'?'#a5b4fc':'#475569'}}; border-bottom:${{p==='1D'?'2px solid #a5b4fc':'none'}};">${{p}}</span>`).join('')}}
       </div>
     </div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
       <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (6,326 units)</div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (${{P_init.nick_units}} units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.nick_myr)}}</div>
+          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.nick_myr)}}</div>
           <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.nick_usd)}}</div>
+          <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P_init.nick_usd)}}</div>
           <div id="nick-chg" style="font-size:11px; font-weight:500;"></div>
         </div>
       </div>
       <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (395 units)</div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (${{P_init.gf_units}} units)</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P.gf_myr)}}</div>
+          <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.gf_myr)}}</div>
           <div id="gf-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P.gf_usd)}}</div>
+          <div id="gf-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P_init.gf_usd)}}</div>
           <div id="gf-chg" style="font-size:11px; font-weight:500;"></div>
         </div>
       </div>
     </div>
     <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
-      <div style="color:#94a3b8; font-size:11px;">TQQQ $${{P.tqqq_est.toFixed(2)}} <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
+      <div style="color:#94a3b8; font-size:11px;">TQQQ $<span id="pf-tqqq-price">${{P_init.tqqq.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P_init.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
       <div style="display:flex; align-items:baseline; gap:6px;">
-        <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P.total_myr)}}</div>
+        <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.total_myr)}}</div>
         <div id="pf-total-pct" style="font-size:11px; font-weight:600;"></div>
         <div id="pf-total-chg" style="font-size:10px; font-weight:500;"></div>
       </div>
