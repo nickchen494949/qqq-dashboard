@@ -499,27 +499,27 @@ cardsEl.innerHTML = `
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
     <div class="value ${{sepColor}}">${{L.sep_state}}</div>
-    <div class="sub">Macro Economic Engine</div>
+    <div class="sub">Macro Economic Engine<br><span style="font-size:10px; opacity:0.8">As of ${{L.date}}</span></div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">-(HYG/IEF) Credit Stress</div></div>
     <div class="value ${{zColor}}">${{L.z_score.toFixed(2)}}</div>
-    <div class="sub">${{zText}}</div>
+    <div class="sub">${{zText}}<br><span style="font-size:10px; opacity:0.8">Data: ${{D.source_dates.hyg}}</span></div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Volatility Z-Score</div></div>
     <div class="value ${{volColor}}">${{L.vol_z.toFixed(2)}}</div>
-    <div class="sub">${{volText}}</div>
+    <div class="sub">${{volText}}<br><span style="font-size:10px; opacity:0.8">Data: ${{D.source_dates.qqq}}</span></div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Target Leverage</div><div class="more">Protected</div></div>
     <div class="value ${{levColor}}">${{L.leverage}}</div>
-    <div class="sub">NSL Rules Active</div>
+    <div class="sub">NSL Rules Active<br><span style="font-size:10px; opacity:0.8">Target for next open</span></div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">TQQQ Last Price</div><div class="more">Yahoo</div></div>
     <div class="value">$${{L.price.toFixed(2)}}</div>
-    <div class="sub">Data: ${{L.date}}</div>
+    <div class="sub">Data: ${{D.source_dates.tqqq}}</div>
   </div>
 `;
 
