@@ -147,17 +147,12 @@ ny = len(bh_eq)/252
 cagr_bh = bh_eq.iloc[-1]**(1/ny) - 1
 mdd_bh = ((bh_eq / bh_eq.expanding().max()) - 1).min()
 
-def sw(series, daily_recent_days=504):
-    """Hybrid: old data weekly, recent ~2 years daily for freshness."""
-    s = series.dropna()
-    if len(s) <= daily_recent_days:
-        d = s
-    else:
-        old = s.iloc[:-daily_recent_days].resample('W').last().dropna()
-        recent = s.iloc[-daily_recent_days:]
-        d = pd.concat([old, recent]).dropna()
-        d = d[~d.index.duplicated(keep='last')]
-        d = d.sort_index()
+def sw_weekly(series):
+    d = series.resample('W').last().dropna()
+    return list(zip([x.strftime('%Y-%m-%d') for x in d.index], [round(float(v), 4) for v in d.values]))
+
+def sw_daily(series):
+    d = series.dropna()
     return list(zip([x.strftime('%Y-%m-%d') for x in d.index], [round(float(v), 4) for v in d.values]))
 
 cur_sep_state = 'IN' if sep_state.iloc[-1] == 1 else 'OUT'
@@ -241,11 +236,11 @@ portfolio = {
 
 data_json = json.dumps({
     'dates': [d.strftime('%Y-%m-%d') for d in idx],
-    'eq_bh': sw(bh_eq),
-    'eq_base': sw(es_base),
-    'eq_opt': sw(es_opt),
-    'z_score': sw(z_series),
-    'vol_z': sw(vol_z.dropna()),
+    'eq_bh_w': sw_weekly(bh_eq), 'eq_bh_d': sw_daily(bh_eq),
+    'eq_base_w': sw_weekly(es_base), 'eq_base_d': sw_daily(es_base),
+    'eq_opt_w': sw_weekly(es_opt), 'eq_opt_d': sw_daily(es_opt),
+    'z_score_w': sw_weekly(z_series), 'z_score_d': sw_daily(z_series),
+    'vol_z_w': sw_weekly(vol_z.dropna()), 'vol_z_d': sw_daily(vol_z.dropna()),
     'lev_opt': list(zip([d.strftime('%Y-%m-%d') for d in idx[::5]], lev_opt[::5])),
     'latest': {
         'date': idx[-1].strftime('%Y-%m-%d'),
@@ -338,8 +333,12 @@ html = f"""<!DOCTYPE html>
     <div class="icon">W</div>
     TQQQ Strategy
   </div>
-  <div class="menu">
+  <div class="menu" style="display:flex; align-items:center; gap:16px;">
     <div class="active">Overview</div>
+    <div style="background:rgba(255,255,255,0.15); padding:3px; border-radius:6px; display:flex; gap:2px;">
+      <button id="btn-daily" onclick="setMode('daily')" style="padding:4px 14px; border:none; background:#FFFFFF; color:#111827; border-radius:4px; cursor:pointer; font-size:12px; font-weight:600;">Daily</button>
+      <button id="btn-weekly" onclick="setMode('weekly')" style="padding:4px 14px; border:none; background:transparent; color:rgba(255,255,255,0.7); border-radius:4px; cursor:pointer; font-size:12px; font-weight:500;">Weekly</button>
+    </div>
   </div>
 </div>
 
@@ -567,43 +566,71 @@ const plotLayout = {{
 const cfg = {{ responsive:true, displayModeBar:false }};
 function unpack(arr) {{ return {{ x: arr.map(d=>d[0]), y: arr.map(d=>d[1]) }}; }}
 
-const eqOpt = unpack(D.eq_opt);
-const eqBase = unpack(D.eq_base);
-const eqBh = unpack(D.eq_bh);
+function barColors(yArr) {{
+  return yArr.map((v, i) => i === 0 ? '#A6B0C3' : (v > yArr[i-1] ? '#FF333A' : '#00C805'));
+}}
+
+let currentMode = 'daily';
+const sfx = () => currentMode === 'daily' ? '_d' : '_w';
 const levData = unpack(D.lev_opt);
 
-Plotly.newPlot('chart_equity', [
-  {{ ...eqBh, name:'TQQQ Buy & Hold', type:'scatter', mode:'lines', line:{{ color:'#EBEBEB', width:1.5 }} }},
-  {{ ...eqBase, name:'Base TQQQ+SEP', type:'scatter', mode:'lines', line:{{ color:'#A6B0C3', width:1.5 }} }},
-  {{ ...eqOpt, name:'Protected (Current)', type:'scatter', mode:'lines', line:{{ color:'#0055FF', width:2 }} }},
-  {{ ...levData, name:'Leverage', type:'scatter', mode:'lines', fill:'tozeroy', fillcolor:'rgba(0, 85, 255, 0.05)', line:{{ color:'#0055FF', width:1, shape:'hv', dash:'dot' }}, yaxis:'y2' }},
-], {{ ...plotLayout, 
-  yaxis:{{ ...plotLayout.yaxis, type:'log' }},
-  yaxis2:{{ overlaying:'y', side:'right', showgrid:false, range:[0, 3.5], tickvals:[0,1,2,3], tickfont:{{color:'#A6B0C3'}} }},
-  legend: {{ orientation: 'h', y: 1.05 }}
-}}, cfg);
+function renderCharts() {{
+  const s = sfx();
+  const eqOpt = unpack(D['eq_opt' + s]);
+  const eqBase = unpack(D['eq_base' + s]);
+  const eqBh = unpack(D['eq_bh' + s]);
 
-const zData = unpack(D.z_score);
-Plotly.newPlot('chart_z', [
-  {{ ...zData, name:'-(HYG/IEF) Z-Score', type:'scatter', mode:'lines', fill:'tozeroy', fillcolor:'rgba(255, 51, 58, 0.05)', line:{{ color:'#FF333A', width:1.5 }} }}
-], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
-  shapes:[
-    {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.2, y1:1.2, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
-    {{ type:'line', xref:'paper', x0:0, x1:1, y0:0.2, y1:0.2, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
-  ],
-  yaxis:{{ ...plotLayout.yaxis, title:'Stress Level' }}
-}}, cfg);
+  Plotly.react('chart_equity', [
+    {{ ...eqBh, name:'TQQQ Buy & Hold', type:'scatter', mode:'lines', line:{{ color:'#EBEBEB', width:1.5 }} }},
+    {{ ...eqBase, name:'Base TQQQ+SEP', type:'scatter', mode:'lines', line:{{ color:'#A6B0C3', width:1.5 }} }},
+    {{ ...eqOpt, name:'Protected (Current)', type:'scatter', mode:'lines', line:{{ color:'#0055FF', width:2 }} }},
+    {{ ...levData, name:'Leverage', type:'scatter', mode:'lines', fill:'tozeroy', fillcolor:'rgba(0, 85, 255, 0.05)', line:{{ color:'#0055FF', width:1, shape:'hv', dash:'dot' }}, yaxis:'y2' }},
+  ], {{ ...plotLayout,
+    yaxis:{{ ...plotLayout.yaxis, type:'log' }},
+    yaxis2:{{ overlaying:'y', side:'right', showgrid:false, range:[0, 3.5], tickvals:[0,1,2,3], tickfont:{{color:'#A6B0C3'}} }},
+    legend: {{ orientation: 'h', y: 1.05 }}
+  }}, cfg);
 
-const volZData = unpack(D.vol_z);
-Plotly.newPlot('chart_vol', [
-  {{ ...volZData, name:'Vol Z-Score', type:'scatter', mode:'lines', fill:'tozeroy', fillcolor:'rgba(0, 85, 255, 0.05)', line:{{ color:'#0055FF', width:1.5 }} }}
-], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
-  shapes:[
-    {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.0, y1:1.0, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
-    {{ type:'line', xref:'paper', x0:0, x1:1, y0:-0.5, y1:-0.5, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
-  ],
-  yaxis:{{ ...plotLayout.yaxis, title:'Vol Z-Score' }}
-}}, cfg);
+  const zData = unpack(D['z_score' + s]);
+  Plotly.react('chart_z', [
+    {{ x: zData.x, y: zData.y, name:'-(HYG/IEF) Z-Score', type:'bar', marker:{{ color: barColors(zData.y) }} }}
+  ], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
+    shapes:[
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.2, y1:1.2, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:0.2, y1:0.2, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
+    ],
+    yaxis:{{ ...plotLayout.yaxis, title:'Stress Level' }},
+    bargap: 0
+  }}, cfg);
+
+  const volZData = unpack(D['vol_z' + s]);
+  Plotly.react('chart_vol', [
+    {{ x: volZData.x, y: volZData.y, name:'Vol Z-Score', type:'bar', marker:{{ color: barColors(volZData.y) }} }}
+  ], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
+    shapes:[
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.0, y1:1.0, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:-0.5, y1:-0.5, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
+    ],
+    yaxis:{{ ...plotLayout.yaxis, title:'Vol Z-Score' }},
+    bargap: 0
+  }}, cfg);
+}}
+
+function setMode(mode) {{
+  currentMode = mode;
+  const bd = document.getElementById('btn-daily');
+  const bw = document.getElementById('btn-weekly');
+  if (mode === 'daily') {{
+    bd.style.background = '#FFFFFF'; bd.style.color = '#111827'; bd.style.fontWeight = '600';
+    bw.style.background = 'transparent'; bw.style.color = 'rgba(255,255,255,0.7)'; bw.style.fontWeight = '500';
+  }} else {{
+    bw.style.background = '#FFFFFF'; bw.style.color = '#111827'; bw.style.fontWeight = '600';
+    bd.style.background = 'transparent'; bd.style.color = 'rgba(255,255,255,0.7)'; bd.style.fontWeight = '500';
+  }}
+  renderCharts();
+}}
+
+renderCharts();
 
 const sepT = D.sep_table || [];
 const tbl = document.getElementById('sep-table');
