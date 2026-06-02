@@ -157,6 +157,7 @@ def sw(series, daily_recent_days=504):
         recent = s.iloc[-daily_recent_days:]
         d = pd.concat([old, recent]).dropna()
         d = d[~d.index.duplicated(keep='last')]
+        d = d.sort_index()
     return list(zip([x.strftime('%Y-%m-%d') for x in d.index], [round(float(v), 4) for v in d.values]))
 
 cur_sep_state = 'IN' if sep_state.iloc[-1] == 1 else 'OUT'
