@@ -147,8 +147,16 @@ ny = len(bh_eq)/252
 cagr_bh = bh_eq.iloc[-1]**(1/ny) - 1
 mdd_bh = ((bh_eq / bh_eq.expanding().max()) - 1).min()
 
-def sw(series):
-    d = series.resample('W').last().dropna()
+def sw(series, daily_recent_days=504):
+    """Hybrid: old data weekly, recent ~2 years daily for freshness."""
+    s = series.dropna()
+    if len(s) <= daily_recent_days:
+        d = s
+    else:
+        old = s.iloc[:-daily_recent_days].resample('W').last().dropna()
+        recent = s.iloc[-daily_recent_days:]
+        d = pd.concat([old, recent]).dropna()
+        d = d[~d.index.duplicated(keep='last')]
     return list(zip([x.strftime('%Y-%m-%d') for x in d.index], [round(float(v), 4) for v in d.values]))
 
 cur_sep_state = 'IN' if sep_state.iloc[-1] == 1 else 'OUT'
