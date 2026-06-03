@@ -440,6 +440,19 @@ html = f"""<!DOCTYPE html>
 const D = {data_json};
 const L = D.latest;
 
+// SEP countdown
+const SEP_DATES = ['2026-06-17','2026-09-16','2026-12-09','2027-03-17','2027-06-16','2027-09-15','2027-12-08'];
+const today = new Date();
+let nextSep = null;
+let sepDays = 0;
+for (const d of SEP_DATES) {{
+  const dt = new Date(d + 'T18:00:00Z');
+  const diff = Math.ceil((dt - today) / 86400000);
+  if (diff >= 0) {{ nextSep = d; sepDays = diff; break; }}
+}}
+const sepLabel = nextSep ? `${{sepDays}}d → ${{nextSep}}` : 'TBD';
+const sepUrgency = sepDays <= 7 ? '#ef4444' : (sepDays <= 30 ? '#f59e0b' : '#22c55e');
+
 const cardsEl = document.getElementById('cards');
 
 const zColor = L.z_score > 1.2 ? 'color-red' : (L.z_score < 0.2 ? 'color-green' : 'color-neutral');
@@ -569,6 +582,10 @@ cardsEl.innerHTML = `
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
     <div class="value ${{sepColor}}">${{L.sep_state}}</div>
     <div class="sub">Macro Economic Engine<br><span style="font-size:10px; opacity:0.8">As of ${{L.date}}</span></div>
+    <div style="margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08); display:flex; align-items:center; gap:6px;">
+      <span style="font-size:14px;">🔔</span>
+      <span style="font-size:11px; font-weight:600; color:${{sepUrgency}};">Next SEP: ${{sepLabel}}</span>
+    </div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">-(HYG/IEF) Credit Stress</div></div>
