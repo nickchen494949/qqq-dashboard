@@ -582,9 +582,9 @@ cardsEl.innerHTML = `
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
     <div class="value ${{sepColor}}">${{L.sep_state}}</div>
     <div class="sub">Macro Economic Engine<br><span style="font-size:10px; opacity:0.8">As of ${{L.date}}</span></div>
-    <div style="margin-top:8px; padding-top:6px; border-top:1px solid rgba(255,255,255,0.08); display:flex; align-items:center; gap:6px;">
+    <div style="margin-top:8px; padding-top:6px; border-top:1px solid rgba(0,0,0,0.08); display:flex; align-items:center; gap:6px;">
       <span style="font-size:14px;">🔔</span>
-      <span style="font-size:11px; font-weight:600; color:${{sepUrgency}};">Next SEP: ${{sepLabel}}</span>
+      <span style="font-size:11px; font-weight:600; color:#111827;">Next SEP: ${{sepLabel}}</span>
     </div>
   </div>
   <div class="card">
