@@ -2,8 +2,10 @@ name: Update Dashboard
 
 on:
   schedule:
-    # Run every 10 minutes to fetch live quotes and futures simulations
-    - cron: '*/10 * * * *'
+    # Run every 30 minutes during US market hours (13:30-21:00 UTC = 9:30am-5pm ET)
+    # Every 60 minutes outside market hours
+    - cron: '*/30 13-21 * * 1-5'
+    - cron: '0 0-12,22-23 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
@@ -13,7 +15,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
