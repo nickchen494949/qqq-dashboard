@@ -185,9 +185,14 @@ try:
     nq_hist = yf.download('NQ=F', period='5d', progress=False, auto_adjust=False)
     nq_cl = nq_hist['Close']
     if isinstance(nq_cl, pd.DataFrame): nq_cl = nq_cl.iloc[:, 0]
-    nq_last = float(nq_cl.iloc[-1])           # current / today
-    nq_prev_close = float(nq_cl.iloc[-2])     # last trading day close
-    nq_pct = (nq_last / nq_prev_close) - 1
+    # Use fast_info for REAL-TIME NQ price, historical for baseline
+    nq_now = float(nq_info['lastPrice'])
+    nq_prev_close = float(nq_cl.iloc[-1])    # last historical close as baseline
+    # If nq_now == nq_prev_close (market not moving or stale), try using iloc[-2] as prev
+    # to avoid 0% change when we actually have a new session
+    if abs(nq_now - nq_prev_close) < 0.01 and len(nq_cl) >= 2:
+        nq_prev_close = float(nq_cl.iloc[-2])
+    nq_pct = (nq_now / nq_prev_close) - 1
     tqqq_sim = tqqq_regular_close * (1 + 3 * nq_pct)
 except:
     tqqq_sim = tqqq_mkt
