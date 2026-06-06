@@ -287,6 +287,12 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
             in_trade = True; trade_entry_eq = eq
         elif lev == 0 and in_trade:
             in_trade = False
+        # Weighted average cost basis on leverage changes
+        if lev != prev_lev and lev > 0 and prev_lev > 0:
+            if lev > prev_lev:
+                # Adding exposure: blend old entry with current price
+                trade_entry_eq = (trade_entry_eq * prev_lev + eq * (lev - prev_lev)) / lev
+            # Reducing exposure: cost basis stays the same (selling partial)
         if lev != prev_lev:
             trades += 1
 
