@@ -338,4 +338,5 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
         'danger': danger_log, 'vol_danger': vol_danger_log,
         'cagr': cagr, 'mdd': mdd, 'sharpe': sharpe, 'trades': trades,
         'trade_log': trade_log,
+        'pending': pending,
     }

@@ -140,6 +140,7 @@ res_opt = run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, ef,
                        z_series, vol_z, sep_state, use_overlay=True)
 es_opt = res_opt['equity']; lev_opt = res_opt['leverage']
 cagr_opt = res_opt['cagr']; mdd_opt = res_opt['mdd']; tr_opt = res_opt['trades']
+danger_log = res_opt['danger']; vol_danger_log = res_opt['vol_danger']
 
 # Buy and Hold TQQQ
 bh_eq = tqqq_d / tqqq_d.iloc[0]
@@ -283,6 +284,9 @@ data_json = json.dumps({
         'date': idx[-1].strftime('%Y-%m-%d'),
         'sep_state': cur_sep_state,
         'leverage': f"{int(cur_lev)}x",
+        'next_open_lev': f"{int(res_opt['pending'])}x" if res_opt['pending'] is not None else f"{int(cur_lev)}x",
+        'credit_danger': danger_log[-1],
+        'vol_danger': vol_danger_log[-1],
         'z_score': cur_z,
         'vol_z': cur_vol_z,
         'price': cur_price,
@@ -472,13 +476,14 @@ const sepUrgency = sepDays <= 7 ? '#ef4444' : (sepDays <= 30 ? '#f59e0b' : '#22c
 
 const cardsEl = document.getElementById('cards');
 
-const zColor = L.z_score > 1.2 ? 'color-red' : (L.z_score < 0.2 ? 'color-green' : 'color-neutral');
-const zText = L.z_score > 1.2 ? 'RISK OFF (TP 1x)' : (L.z_score < 0.2 ? 'SAFE ZONE' : 'WATCH (HYSTERESIS)');
+const zColor = L.credit_danger ? 'color-red' : (L.z_score < 0.2 ? 'color-green' : 'color-neutral');
+const zText = L.credit_danger ? 'RISK OFF (TP 1x)' : (L.z_score < 0.2 ? 'SAFE ZONE' : 'WATCH (HYSTERESIS)');
 
-const volColor = L.vol_z > 1.0 ? 'color-red' : (L.vol_z < -0.5 ? 'color-green' : 'color-neutral');
-const volText = L.vol_z > 1.0 ? 'VOL SPIKE → 66% TQQQ' : (L.vol_z < -0.5 ? 'SAFE → 100% TQQQ' : 'WATCH (HYSTERESIS)');
+const volColor = L.vol_danger ? 'color-red' : (L.vol_z < -0.5 ? 'color-green' : 'color-neutral');
+const volText = L.vol_danger ? 'VOL SPIKE → 66% TQQQ' : (L.vol_z < -0.5 ? 'SAFE → 100% TQQQ' : 'WATCH (HYSTERESIS)');
 
-const levColor = L.leverage === '3x' ? 'color-green' : (L.leverage === '1x' ? 'color-red' : 'color-neutral');
+const nextLev = L.next_open_lev;
+const levColor = nextLev === '3x' ? 'color-green' : (nextLev === '1x' ? 'color-red' : 'color-neutral');
 const sepColor = L.sep_state === 'IN' ? 'color-green' : 'color-red';
 const P_init = D.portfolio_market;
 const fmtMYR = (v) => 'RM ' + v.toLocaleString('en-US', {{minimumFractionDigits:0, maximumFractionDigits:0}});
@@ -616,8 +621,8 @@ cardsEl.innerHTML = `
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Target Leverage</div><div class="more">Protected</div></div>
-    <div class="value ${{levColor}}">${{L.leverage}}</div>
-    <div class="sub">NSL Rules Active<br><span style="font-size:10px; opacity:0.8">Target for next open</span></div>
+    <div class="value ${{levColor}}">${{nextLev}}</div>
+    <div class="sub">NSL Rules Active<br><span style="font-size:10px; opacity:0.8">Target for next open${{nextLev !== L.leverage ? ' ⚠️ CHANGING from '+L.leverage : ''}}</span></div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">TQQQ Last Price</div><div class="more">Yahoo</div></div>

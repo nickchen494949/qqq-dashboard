@@ -34,7 +34,7 @@ from strategy_engine import (
 # ============================================================================
 FRED_API_KEY = get_fred_api_key()
 
-PROJECT_DIR  = '/Users/happygolucky/Desktop/QQQ_Risk_Strategy'
+PROJECT_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR     = os.path.join(PROJECT_DIR, 'market_data')
 SEP_DIR      = os.path.join(PROJECT_DIR, 'fomc_sep')
 START_DATE   = '2012-01-25'
@@ -377,8 +377,8 @@ print("\n[8/9] Parameter selection: in-sample → OOS validate...")
 # In-sample: 2012-2018
 print("  Phase 1: Grid search on 2012-2018 (in-sample)...")
 grid_is = []
-for trigger in np.arange(1.0, 2.6, 0.25):
-    for recover in np.arange(0.5, min(trigger, 2.1), 0.25):
+for trigger in np.arange(0.8, 2.6, 0.2):
+    for recover in np.arange(-0.5, min(trigger, 2.1), 0.2):
         r = run_backtest(dr_qqq, gap_returns=dr_qqq_gap, intra_returns=dr_qqq_intra,
                          z_trigger=trigger, z_recover=recover)
         eq_is = r['equity'].loc[:'2018-12-31']
