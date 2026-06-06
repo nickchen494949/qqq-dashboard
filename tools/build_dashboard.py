@@ -185,13 +185,27 @@ try:
     nq_hist = yf.download('NQ=F', period='5d', progress=False, auto_adjust=False)
     nq_cl = nq_hist['Close']
     if isinstance(nq_cl, pd.DataFrame): nq_cl = nq_cl.iloc[:, 0]
-    # Real-time NQ price from fast_info
+    
+    # 1. Get NQ=F real-time price and calculate sim
     nq_now = float(nq_info['lastPrice'])
-    # Baseline = same-day NQ close (matches TQQQ close day)
-    # This avoids double-counting: TQQQ close already reflects intraday NQ move
     nq_baseline = float(nq_cl.iloc[-1])
     nq_pct = (nq_now / nq_baseline) - 1
-    tqqq_sim = tqqq_regular_close * (1 + 3 * nq_pct)
+    tqqq_sim_nq = tqqq_regular_close * (1 + 3 * nq_pct)
+    
+    # 2. Get TQQQ post-market price (to capture Friday 5PM-8PM action when NQ is closed)
+    try:
+        pm_price = yf.Ticker('TQQQ').info.get('postMarketPrice')
+    except:
+        pm_price = None
+        
+    # 3. Use whichever price deviates MORE from the regular close
+    # This ensures weekday overnights use live NQ=F, but weekends use the Friday 8PM post-market close
+    if pm_price:
+        dev_nq = abs(tqqq_sim_nq - tqqq_regular_close)
+        dev_pm = abs(pm_price - tqqq_regular_close)
+        tqqq_sim = tqqq_sim_nq if dev_nq > dev_pm else pm_price
+    else:
+        tqqq_sim = tqqq_sim_nq
 except:
     tqqq_sim = tqqq_mkt
 
