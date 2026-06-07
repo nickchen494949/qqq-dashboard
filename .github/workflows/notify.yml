@@ -1,0 +1,29 @@
+name: Send Notification
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Notification title'
+        required: true
+        default: '✅ Task complete'
+      body:
+        description: 'Notification body'
+        required: true
+        default: 'AI task finished and ready for review.'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create notification issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔔 ${context.payload.inputs.title}`,
+              body: `@${context.repo.owner}\n\n${context.payload.inputs.body}`,
+              labels: ['notification']
+            });
