@@ -6,7 +6,7 @@ No strategy/signal/backtest logic should exist outside this file.
 
 Contains:
   1. Sealed parameters (constants)
-  2. Signal computation (Credit Z, Vol Z)
+  2. Signal computation (Credit Z, Vol Z, TIP/TLT Inflation Z)
   3. SEP parsing + state machine
   4. Production backtest engine (NSL + Next-Open + Costs)
 """
@@ -35,10 +35,14 @@ def get_fred_api_key():
 # SEALED PARAMETERS (do not modify without full 29-test audit)
 # ============================================================================
 Z_TRIGGER     = 1.2
-Z_RECOVER     = 0.2
-VZ_TRIGGER    = 1.0
-VZ_RECOVER    = -0.5
+Z_RECOVER     = 0.5
+VZ_TRIGGER    = 1.5
+VZ_RECOVER    = 0.5
 VZ_LEV        = 2.0    # Vol danger → 2x leverage (66% TQQQ)
+INF_TRIGGER   = 2.5    # TIP/TLT inflation z trigger
+INF_RECOVER   = 0.3    # TIP/TLT inflation z recover
+INF_LEV       = 1.0    # Inflation danger → 1x leverage
+INF_WINDOW    = 63     # TIP/TLT z-score lookback (days)
 Z_WINDOW      = 252
 EXPENSE_RATIO = 0.0086
 TC_BPS        = 25
@@ -72,6 +76,15 @@ def compute_vol_z(daily_returns, window=Z_WINDOW):
     vol_mean = rvol_20.rolling(window).mean()
     vol_std = rvol_20.rolling(window).std()
     return (rvol_20 - vol_mean) / vol_std
+
+
+def compute_inflation_z(tip, tlt, window=INF_WINDOW):
+    """Z-score of TIP/TLT ratio. Higher = inflation expectations rising.
+    Measures breakeven inflation: when TIP outperforms TLT, market is
+    pricing in higher inflation → Fed tightening → tech/growth danger.
+    Robustness confirmed with log z (correlation 0.9999)."""
+    ratio = tip / tlt
+    return (ratio - ratio.rolling(window).mean()) / ratio.rolling(window).std()
 
 
 # ============================================================================
@@ -208,10 +221,14 @@ def build_sep_state(sep_signals, idx):
 # ============================================================================
 def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                  z_series, vol_z, sep_state,
+                 inf_z=None,
                  use_sep=True, use_overlay=True,
                  z_trigger=Z_TRIGGER, z_recover=Z_RECOVER,
                  vz_trigger=VZ_TRIGGER, vz_recover=VZ_RECOVER,
-                 vz_lev=VZ_LEV, tc_bps=TC_BPS):
+                 vz_lev=VZ_LEV,
+                 inf_trigger=INF_TRIGGER, inf_recover=INF_RECOVER,
+                 inf_lev=INF_LEV,
+                 tc_bps=TC_BPS):
     """
     Full production backtest with:
     - T+1 pending execution (next-open)
@@ -224,8 +241,8 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
     eq = 1.0; lev = 3.0; prev_lev = 3.0
     pending = None; eql = []; levs = []
     in_trade = False; trade_entry_eq = 1.0
-    in_danger = False; vol_danger = False; trades = 0
-    trade_log = []; danger_log = []; vol_danger_log = []
+    in_danger = False; vol_danger = False; inf_danger = False; trades = 0
+    trade_log = []; danger_log = []; vol_danger_log = []; inf_danger_log = []
     switch_today = False
 
     for i in range(len(idx)):
@@ -253,7 +270,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
 
         tgt = 3
         if si == 0:
-            tgt = 0; in_danger = False; vol_danger = False
+            tgt = 0; in_danger = False; vol_danger = False; inf_danger = False
         else:
             if use_overlay:
                 if not np.isnan(z):
@@ -262,6 +279,14 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                     elif in_danger and z < z_recover:
                         in_danger = False
 
+                # TIP/TLT inflation signal
+                iz = inf_z.iloc[i] if inf_z is not None and i < len(inf_z) else np.nan
+                if not np.isnan(iz):
+                    if not inf_danger and iz > inf_trigger:
+                        inf_danger = True
+                    elif inf_danger and iz < inf_recover:
+                        inf_danger = False
+
                 vz = vol_z.iloc[i] if i < len(vol_z) else np.nan
                 if not np.isnan(vz):
                     if not vol_danger and vz > vz_trigger:
@@ -269,8 +294,14 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                     elif vol_danger and vz < vz_recover:
                         vol_danger = False
 
+                # Priority: Credit > TIP/TLT Inflation > Vol
                 if in_danger:
                     tgt = 1 if is_profitable else 3  # NSL for Credit: keep full if in loss
+                elif inf_danger:
+                    if is_profitable:
+                        tgt = inf_lev
+                    else:
+                        tgt = lev  # NSL for Inflation
                 elif vol_danger:
                     if is_profitable:
                         tgt = vz_lev
@@ -324,6 +355,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
         eql.append(eq)
         levs.append(lev)
         danger_log.append(in_danger)
+        inf_danger_log.append(inf_danger)
         vol_danger_log.append(vol_danger)
 
     es = pd.Series(eql, index=idx)
@@ -335,7 +367,8 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
 
     return {
         'equity': es, 'leverage': levs,
-        'danger': danger_log, 'vol_danger': vol_danger_log,
+        'danger': danger_log, 'inf_danger': inf_danger_log,
+        'vol_danger': vol_danger_log,
         'cagr': cagr, 'mdd': mdd, 'sharpe': sharpe, 'trades': trades,
         'trade_log': trade_log,
         'pending': pending,

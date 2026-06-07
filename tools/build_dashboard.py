@@ -7,9 +7,10 @@ Strategy: SEP (Primary) + -(HYG/IEF) Credit Stress TP (Secondary)
 import sys, os, json, re
 import pypdf
 from strategy_engine import (
-    compute_credit_z, compute_vol_z,
+    compute_credit_z, compute_vol_z, compute_inflation_z,
     parse_sep_pdfs, build_sep_signals, build_sep_state,
     run_backtest, get_fred_api_key,
+    INF_TRIGGER, INF_RECOVER, Z_TRIGGER, Z_RECOVER, VZ_TRIGGER, VZ_RECOVER,
 )
 import numpy as np
 import pandas as pd
@@ -88,7 +89,23 @@ tqqq = load_or_fetch_yahoo('TQQQ', 'TQQQ')
 qld = load_or_fetch_yahoo('QLD', 'QLD')
 hyg = load_or_fetch_yahoo('HYG', 'HYG')
 ief = load_or_fetch_yahoo('IEF', 'IEF')
+tip = load_or_fetch_yahoo('TIP', 'TIP')
+tlt = load_or_fetch_yahoo('TLT', 'TLT')
 
+# --- Compute z-scores on FULL history (2005+) then slice to 2012+ ---
+# This ensures early-period rolling windows are warm and accurate.
+full_idx = qqq.dropna().index
+hyg_full = hyg.reindex(full_idx).ffill()
+ief_full = ief.reindex(full_idx).ffill()
+tip_full = tip.reindex(full_idx).ffill()
+tlt_full = tlt.reindex(full_idx).ffill()
+dr_full = qqq.reindex(full_idx).pct_change()
+
+z_full = compute_credit_z(hyg_full, ief_full)
+vol_z_full = compute_vol_z(dr_full)
+inf_z_full = compute_inflation_z(tip_full, tlt_full)
+
+# Now slice everything to backtest window
 idx = qqq.index[qqq.index >= pd.Timestamp('2012-01-25')]
 qqq_d = qqq.reindex(idx)
 dr = qqq_d.pct_change()
@@ -98,18 +115,19 @@ dr_tqqq = tqqq_d.pct_change()
 dr_qld = qld_d.pct_change()
 dr_qqq = dr
 ef = effr.reindex(idx).ffill() / 100 / 252
-hyg_d = hyg.reindex(idx).ffill()
-ief_d = ief.reindex(idx).ffill()
+
+z_series = z_full.reindex(idx)
+vol_z = vol_z_full.reindex(idx)
+inf_z = inf_z_full.reindex(idx)
 
 source_dates = {
     'qqq': qqq.dropna().index[-1].strftime('%Y-%m-%d'),
     'tqqq': tqqq.dropna().index[-1].strftime('%Y-%m-%d'),
     'hyg': hyg.dropna().index[-1].strftime('%Y-%m-%d'),
     'ief': ief.dropna().index[-1].strftime('%Y-%m-%d'),
+    'tip': tip.dropna().index[-1].strftime('%Y-%m-%d'),
+    'tlt': tlt.dropna().index[-1].strftime('%Y-%m-%d'),
 }
-
-z_series = compute_credit_z(hyg_d, ief_d)
-vol_z = compute_vol_z(dr)
 
 SEP_DIR = os.path.join(PROJECT_DIR, 'fomc_sep')
 sep_table_data = []
@@ -132,15 +150,15 @@ dr_qqq_gap = (qqq_adj_open / qqq_d.shift(1) - 1).fillna(0)
 dr_qqq_intra = (qqq_d / qqq_adj_open - 1).fillna(0)
 
 res_base = run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, ef,
-                        z_series, vol_z, sep_state, use_overlay=False)
+                        z_series, vol_z, sep_state, inf_z=inf_z, use_overlay=False)
 es_base = res_base['equity']; lev_base = res_base['leverage']
 cagr_base = res_base['cagr']; mdd_base = res_base['mdd']; tr_base = res_base['trades']
 
 res_opt = run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, ef,
-                       z_series, vol_z, sep_state, use_overlay=True)
+                       z_series, vol_z, sep_state, inf_z=inf_z, use_overlay=True)
 es_opt = res_opt['equity']; lev_opt = res_opt['leverage']
 cagr_opt = res_opt['cagr']; mdd_opt = res_opt['mdd']; tr_opt = res_opt['trades']
-danger_log = res_opt['danger']; vol_danger_log = res_opt['vol_danger']
+danger_log = res_opt['danger']; inf_danger_log = res_opt['inf_danger']; vol_danger_log = res_opt['vol_danger']
 
 # Buy and Hold TQQQ
 bh_eq = tqqq_d / tqqq_d.iloc[0]
@@ -160,6 +178,7 @@ cur_sep_state = 'IN' if sep_state.iloc[-1] == 1 else 'OUT'
 cur_lev = lev_opt[-1]
 cur_z = round(float(z_series.iloc[-1]), 2)
 cur_vol_z = round(float(vol_z.dropna().iloc[-1]), 2) if len(vol_z.dropna()) > 0 else 0
+cur_inf_z = round(float(inf_z.dropna().iloc[-1]), 2) if len(inf_z.dropna()) > 0 else 0
 cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 
 # Portfolio: TQQQ + USD/MYR with daily % change
@@ -279,6 +298,7 @@ data_json = json.dumps({
     'eq_opt_w': sw_weekly(es_opt), 'eq_opt_d': sw_daily(es_opt),
     'z_score_w': sw_weekly(z_series), 'z_score_d': sw_daily(z_series),
     'vol_z_w': sw_weekly(vol_z.dropna()), 'vol_z_d': sw_daily(vol_z.dropna()),
+    'inf_z_w': sw_weekly(inf_z.dropna()), 'inf_z_d': sw_daily(inf_z.dropna()),
     'lev_opt': list(zip([d.strftime('%Y-%m-%d') for d in idx[::5]], lev_opt[::5])),
     'latest': {
         'date': idx[-1].strftime('%Y-%m-%d'),
@@ -287,6 +307,8 @@ data_json = json.dumps({
         'next_open_lev': f"{int(res_opt['pending'])}x" if res_opt['pending'] is not None else f"{int(cur_lev)}x",
         'credit_danger': danger_log[-1],
         'vol_danger': vol_danger_log[-1],
+        'inf_danger': inf_danger_log[-1],
+        'inf_z': round(float(inf_z.dropna().iloc[-1]), 2),
         'z_score': cur_z,
         'vol_z': cur_vol_z,
         'price': cur_price,
@@ -419,7 +441,7 @@ html = f"""<!DOCTYPE html>
   <div class="panel" style="margin-bottom:16px;">
     <div class="panel-header">
       <div>-(HYG / IEF) Credit Stress Radar</div>
-      <div class="note">TP &gt; 1.2 | Re-enter &lt; 0.2 &nbsp;|&nbsp; Data: {source_dates['hyg']}</div>
+      <div class="note">TP &gt; {Z_TRIGGER} | Re-enter &lt; {Z_RECOVER} &nbsp;|&nbsp; Data: {source_dates['hyg']}</div>
     </div>
     <div class="panel-body">
       <div class="math-box">
@@ -434,7 +456,7 @@ html = f"""<!DOCTYPE html>
   <div class="panel" style="margin-bottom:16px;">
     <div class="panel-header">
       <div>Realized Volatility Z-Score Radar</div>
-      <div class="note">TP (66% TQQQ) &gt; 1.0 | Re-enter (100%) &lt; -0.5 &nbsp;|&nbsp; Data: {source_dates['qqq']}</div>
+      <div class="note">TP (66% TQQQ) &gt; {VZ_TRIGGER} | Re-enter (100%) &lt; {VZ_RECOVER} &nbsp;|&nbsp; Data: {source_dates['qqq']}</div>
     </div>
     <div class="panel-body">
       <div class="math-box">
@@ -445,6 +467,20 @@ html = f"""<!DOCTYPE html>
     </div>
   </div>
 
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="panel-header">
+      <div>TIP/TLT Breakeven Inflation Z-Score Radar</div>
+      <div class="note">TP (1x) &gt; {INF_TRIGGER} | Re-enter (3x) &lt; {INF_RECOVER} &nbsp;|&nbsp; Data: {source_dates['tip']}</div>
+    </div>
+    <div class="panel-body">
+      <div class="math-box">
+        <strong>TIP/TLT Z-Score = TIP/TLT ratio relative to its 63-day history.</strong><br>
+        When Z &gt; {INF_TRIGGER}, inflation expectations are spiking abnormally — Fed tightening risk rises. We reduce to 1x (if profitable). Recovery requires Z &lt; {INF_RECOVER}.
+      </div>
+      <div id="chart_inf" style="width:100%;height:300px;"></div>
+    </div>
+  </div>
+
   <div class="panel">
     <div class="panel-header">
       <div>Fed SEP Projections (Primary Engine)</div>
@@ -452,6 +488,19 @@ html = f"""<!DOCTYPE html>
     </div>
     <div class="panel-body" style="padding:0; overflow-x:auto; max-height:400px; overflow-y:auto;">
       <table id="sep-table"></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="panel-header">
+      <div>Strategy Rules</div>
+      <div class="note">Priority: SEP > Credit > TIP/TLT > Vol > Default</div>
+    </div>
+    <div class="panel-body" style="padding:0; overflow-x:auto;">
+      <table>
+        <thead><tr><th>Layer</th><th>Signal</th><th>Trigger</th><th>Recover</th><th>Action</th><th>Status</th></tr></thead>
+        <tbody id="rules-table"></tbody>
+      </table>
     </div>
   </div>
 
@@ -620,6 +669,11 @@ cardsEl.innerHTML = `
     <div class="sub">${{volText}}<br><span style="font-size:10px; opacity:0.8">Data: ${{D.source_dates.qqq}}</span></div>
   </div>
   <div class="card">
+    <div class="header-row"><div class="label">TIP/TLT Inflation Z</div></div>
+    <div class="value ${{L.inf_danger ? 'color-red' : (L.inf_z < 0.3 ? 'color-green' : 'color-neutral')}}">${{L.inf_z.toFixed(2)}}</div>
+    <div class="sub">${{L.inf_danger ? 'INFLATION SPIKE → 1x' : (L.inf_z < 0.3 ? 'SAFE' : 'WATCH (HYSTERESIS)')}}<br><span style="font-size:10px; opacity:0.8">Data: ${{D.source_dates.tip}}</span></div>
+  </div>
+  <div class="card">
     <div class="header-row"><div class="label">Target Leverage</div><div class="more">Protected</div></div>
     <div class="value ${{levColor}}">${{nextLev}}</div>
     <div class="sub">NSL Rules Active<br><span style="font-size:10px; opacity:0.8">Target for next open${{nextLev !== L.leverage ? ' ⚠️ CHANGING from '+L.leverage : ''}}</span></div>
@@ -632,6 +686,25 @@ cardsEl.innerHTML = `
 `;
 
 renderPF('1D');
+
+// Strategy Rules Table
+const rulesRows = [
+  {{ layer: 'SEP', signal: 'Fed Rate Projection', trigger: 'Rate↑ + PCE>2% + PCE↑', recover: 'Rate≤prev', action: '0x (Cash)', active: L.sep_state === 'OUT', danger: L.sep_state === 'OUT' }},
+  {{ layer: 'Credit Z', signal: 'HYG/IEF z252', trigger: 'z > {Z_TRIGGER}', recover: 'z < {Z_RECOVER}', action: '1x (NSL)', active: L.credit_danger, danger: L.credit_danger }},
+  {{ layer: 'TIP/TLT Z', signal: 'TIP/TLT z63', trigger: 'z > {INF_TRIGGER}', recover: 'z < {INF_RECOVER}', action: '1x (NSL)', active: L.inf_danger, danger: L.inf_danger }},
+  {{ layer: 'Vol Z', signal: 'RVol20 z252', trigger: 'z > {VZ_TRIGGER}', recover: 'z < {VZ_RECOVER}', action: '2x (NSL)', active: L.vol_danger, danger: L.vol_danger }},
+  {{ layer: 'Default', signal: '—', trigger: '—', recover: '—', action: '3x', active: !L.credit_danger && !L.inf_danger && !L.vol_danger && L.sep_state === 'IN', danger: false }},
+];
+document.getElementById('rules-table').innerHTML = rulesRows.map(r => `
+  <tr style="${{r.active ? 'background:#FFF7ED;' : ''}}">
+    <td style="font-weight:700;">${{r.layer}}</td>
+    <td>${{r.signal}}</td>
+    <td>${{r.trigger}}</td>
+    <td>${{r.recover}}</td>
+    <td style="font-weight:700; ${{r.danger ? 'color:#FF333A;' : (r.active ? 'color:#00C805;' : '')}}">${{r.action}}</td>
+    <td>${{r.active ? (r.danger ? '🔴 ACTIVE' : '🟢 ACTIVE') : '⚪ idle'}}</td>
+  </tr>
+`).join('');
 
 document.getElementById('perf-opt').innerHTML = `
   <div class="perf-item"><span class="k">CAGR</span><span class="v color-green">+${{L.cagr_opt}}%</span></div>
@@ -680,7 +753,7 @@ function barColors(yArr) {{
 }}
 
 const levData = unpack(D.lev_opt);
-const modes = {{ eq: 'daily', z: 'daily', vol: 'daily' }};
+const modes = {{ eq: 'daily', z: 'daily', vol: 'daily', inf: 'daily' }};
 
 function renderEq() {{
   const s = modes.eq === 'daily' ? '_d' : '_w';
@@ -706,8 +779,8 @@ function renderZ() {{
     {{ x: zData.x, y: zData.y, name:'-(HYG/IEF) Z-Score', type:'bar', marker:{{ color: barColors(zData.y) }} }}
   ], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
     shapes:[
-      {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.2, y1:1.2, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
-      {{ type:'line', xref:'paper', x0:0, x1:1, y0:0.2, y1:0.2, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{Z_TRIGGER}, y1:{Z_TRIGGER}, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{Z_RECOVER}, y1:{Z_RECOVER}, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
     ],
     yaxis:{{ ...plotLayout.yaxis, title:'Stress Level' }},
     bargap: 0
@@ -721,10 +794,25 @@ function renderVol() {{
     {{ x: volZData.x, y: volZData.y, name:'Vol Z-Score', type:'bar', marker:{{ color: barColors(volZData.y) }} }}
   ], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
     shapes:[
-      {{ type:'line', xref:'paper', x0:0, x1:1, y0:1.0, y1:1.0, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
-      {{ type:'line', xref:'paper', x0:0, x1:1, y0:-0.5, y1:-0.5, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{VZ_TRIGGER}, y1:{VZ_TRIGGER}, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{VZ_RECOVER}, y1:{VZ_RECOVER}, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
     ],
     yaxis:{{ ...plotLayout.yaxis, title:'Vol Z-Score' }},
+    bargap: 0
+  }}, cfg);
+}}
+
+function renderInf() {{
+  const s = modes.inf === 'daily' ? '_d' : '_w';
+  const infZData = unpack(D['inf_z' + s]);
+  Plotly.react('chart_inf', [
+    {{ x: infZData.x, y: infZData.y, name:'TIP/TLT Z-Score', type:'bar', marker:{{ color: barColors(infZData.y) }} }}
+  ], {{ ...plotLayout, margin:{{ l:40, r:20, t:20, b:40 }},
+    shapes:[
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{INF_TRIGGER}, y1:{INF_TRIGGER}, line:{{ color:'#FF333A', width:1.5, dash:'dash' }} }},
+      {{ type:'line', xref:'paper', x0:0, x1:1, y0:{INF_RECOVER}, y1:{INF_RECOVER}, line:{{ color:'#00C805', width:1.5, dash:'dash' }} }}
+    ],
+    yaxis:{{ ...plotLayout.yaxis, title:'Inflation Z-Score' }},
     bargap: 0
   }}, cfg);
 }}
@@ -743,11 +831,13 @@ function setMode(chart, mode) {{
   if (chart === 'eq') renderEq();
   if (chart === 'z') renderZ();
   if (chart === 'vol') renderVol();
+  if (chart === 'inf') renderInf();
 }}
 
 renderEq();
 renderZ();
 renderVol();
+renderInf();
 
 const sepT = D.sep_table || [];
 const tbl = document.getElementById('sep-table');

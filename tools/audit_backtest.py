@@ -28,6 +28,7 @@ from strategy_engine import (
     run_backtest as engine_run_backtest,
     get_fred_api_key,
 )
+from strategy_engine import compute_inflation_z
 
 # ============================================================================
 # CONFIGURATION
@@ -93,6 +94,10 @@ effr     = effr_raw.reindex(idx).ffill() / 100 / 252
 hyg_d    = hyg_raw.reindex(idx).ffill()
 ief_d    = ief_raw.reindex(idx).ffill()
 
+# TIP/TLT for inflation z
+tip_raw  = fetch_yahoo('TIP')
+tlt_raw  = fetch_yahoo('TLT')
+
 # Gap and intraday returns — computed directly from adjusted prices
 # r_gap   = adj_open[t] / adj_close[t-1] - 1  (overnight)
 # r_intra = adj_close[t] / adj_open[t] - 1    (intraday)
@@ -123,18 +128,31 @@ for name, cnt in nan_counts.items():
 # ============================================================================
 # SECTION 2: CREDIT STRESS Z-SCORE
 # ============================================================================
-print("\n[2/9] Computing -(HYG/IEF) Z-Score...")
+print("\n[2/9] Computing Z-Scores on FULL history (2005+), then slicing to 2012+...")
+
+# Compute on full 2005+ history for warm rolling windows
+full_idx = qqq_raw.dropna().index
+hyg_full = hyg_raw.reindex(full_idx).ffill()
+ief_full = ief_raw.reindex(full_idx).ffill()
+tip_full = tip_raw.reindex(full_idx).ffill()
+tlt_full = tlt_raw.reindex(full_idx).ffill()
+dr_full  = qqq_raw.reindex(full_idx).pct_change()
+
+z_full   = compute_credit_z(hyg_full, ief_full)
+vol_z_full = compute_vol_z(dr_full)
+inf_z_full = compute_inflation_z(tip_full, tlt_full)
+
+# Slice to backtest window
+z_series = z_full.reindex(idx)
+vol_z    = vol_z_full.reindex(idx)
+inf_z    = inf_z_full.reindex(idx)
 
 hyg_ief = hyg_d / ief_d
-z_series = compute_credit_z(hyg_d, ief_d)
-
 print(f"  HYG/IEF drift: {hyg_ief.dropna().iloc[0]:.4f} → {hyg_ief.dropna().iloc[-1]:.4f} ({hyg_ief.dropna().iloc[-1]/hyg_ief.dropna().iloc[0]:.2f}x)")
-print(f"  Z range: {z_series.min():.2f} → {z_series.max():.2f}, current: {z_series.iloc[-1]:.2f}")
-print(f"  Days Z > 1.5: {(z_series > 1.5).sum()} / {len(z_series)} ({(z_series > 1.5).mean()*100:.1f}%)")
-
-print("\n[2B/9] Computing Volatility Z-Score...")
-vol_z = compute_vol_z(dr_qqq)
+print(f"  Credit Z range: {z_series.min():.2f} → {z_series.max():.2f}, current: {z_series.iloc[-1]:.2f}")
 print(f"  Vol Z range: {vol_z.min():.2f} → {vol_z.max():.2f}, current: {vol_z.dropna().iloc[-1]:.2f}")
+print(f"  Inf Z range: {inf_z.min():.2f} → {inf_z.max():.2f}, current: {inf_z.dropna().iloc[-1]:.2f}")
+print(f"  Days Credit Z > 1.5: {(z_series > 1.5).sum()} / {len(z_series)} ({(z_series > 1.5).mean()*100:.1f}%)")
 
 # ============================================================================
 # SECTION 3: SEP PARSING + HARD VALIDATION
@@ -209,6 +227,7 @@ def run_backtest(daily_returns, gap_returns=None, intra_returns=None,
         idx=idx, dr_qqq=daily_returns,
         dr_qqq_gap=gap_returns, dr_qqq_intra=intra_returns,
         effr=effr, z_series=z_series, vol_z=vol_z, sep_state=sep_state,
+        inf_z=inf_z,
         use_sep=use_sep, use_overlay=use_overlay,
         z_trigger=z_trigger, z_recover=z_recover,
         vz_trigger=vz_trigger, vz_recover=vz_recover, vz_lev=vz_lev, tc_bps=tc_bps,
