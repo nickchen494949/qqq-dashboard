@@ -239,7 +239,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
     Returns dict with: equity, leverage, cagr, mdd, sharpe, trades, trade_log, etc.
     """
     eq = 1.0; lev = 3.0; prev_lev = 3.0
-    pending = None; eql = []; levs = []
+    pending = None; pending_reason = None; eql = []; levs = []
     in_trade = False; trade_entry_eq = 1.0
     in_danger = False; vol_danger = False; inf_danger = False; trades = 0
     trade_log = []; danger_log = []; vol_danger_log = []; inf_danger_log = []
@@ -259,18 +259,18 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                     'exec_date': d.strftime('%Y-%m-%d'),
                     'from_lev': lev, 'to_lev': pending,
                     'equity': round(eq, 4),
-                    'reason': 'SEP' if pending == 0 or (lev == 0 and pending > 0) else 'TP/Vol',
+                    'reason': pending_reason or 'UNKNOWN',
                     'z': round(float(z_series.loc[d]), 2) if d in z_series.index else None,
                 })
                 switch_today = True
-            lev = pending; pending = None
+            lev = pending; pending = None; pending_reason = None
 
         is_profitable = (eq > trade_entry_eq) if in_trade else False
         z = z_series.loc[d] if d in z_series.index else np.nan
 
-        tgt = 3
+        tgt = 3; tgt_reason = 'DEFAULT'
         if si == 0:
-            tgt = 0; in_danger = False; vol_danger = False; inf_danger = False
+            tgt = 0; tgt_reason = 'SEP'; in_danger = False; vol_danger = False; inf_danger = False
         else:
             if use_overlay:
                 if not np.isnan(z):
@@ -296,24 +296,26 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
 
                 # Priority: Credit > TIP/TLT Inflation > Vol
                 if in_danger:
-                    tgt = 1 if is_profitable else 3  # NSL for Credit: keep full if in loss
+                    tgt = 1 if is_profitable else 3; tgt_reason = 'CREDIT'
                 elif inf_danger:
                     if is_profitable:
                         tgt = inf_lev
                     else:
                         tgt = lev  # NSL for Inflation
+                    tgt_reason = 'TIP_TLT'
                 elif vol_danger:
                     if is_profitable:
                         tgt = vz_lev
                     else:
                         tgt = lev  # NSL for Vol
+                    tgt_reason = 'VOL'
                 else:
                     tgt = 3
             else:
                 tgt = 3
 
         if tgt != lev:
-            pending = tgt
+            pending = tgt; pending_reason = tgt_reason
         if lev > 0 and not in_trade:
             in_trade = True; trade_entry_eq = eq
         elif lev == 0 and in_trade:

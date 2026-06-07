@@ -444,7 +444,8 @@ for d in ind_decisions:
     if d['expected_exec'] != 'PENDING':
         ind_by_exec[d['expected_exec']] = d
 
-# Check 1: Every engine trade must have a matching independent decision
+# Check 1: Every engine trade should have a matching independent decision
+unmatched = []
 for t in engine_trades:
     exc = t['exec_date']
     sig = t['signal_date']
@@ -454,8 +455,7 @@ for t in engine_trades:
         delay_ok = False
     # Verify independent replay also decided a trade on this exec date
     if exc not in ind_by_exec:
-        # Could be NSL difference (ind replay equity differs slightly)
-        pass  # informational only
+        unmatched.append(t)
     else:
         ind_d = ind_by_exec[exc]
         # Verify exec_date == day after decision_date (next trading day)
@@ -465,6 +465,20 @@ for t in engine_trades:
         # Verify from/to match
         if t['from_lev'] != ind_d['from_lev'] or t['to_lev'] != ind_d['to_lev']:
             mismatches += 1
+
+# Unmatched trades: NSL equity divergence can cause the independent replay
+# (which tracks equity without borrowing/fees/tc) to make different NSL decisions.
+# Allow up to 10% unmatched; above that is a hard fail.
+max_unmatched = max(3, int(len(engine_trades) * 0.10))
+if len(unmatched) > max_unmatched:
+    print(f"  ❌ FAIL: {len(unmatched)} engine trades have no independent replay match (limit: {max_unmatched})")
+    for u in unmatched:
+        print(f"     {u['exec_date']}: {u['from_lev']:.0f}x→{u['to_lev']:.0f}x reason={u['reason']}")
+    delay_ok = False
+elif len(unmatched) > 0:
+    print(f"  ⚠️  {len(unmatched)}/{len(engine_trades)} trades unmatched (within NSL tolerance {max_unmatched}):")
+    for u in unmatched:
+        print(f"     {u['exec_date']}: {u['from_lev']:.0f}x→{u['to_lev']:.0f}x reason={u['reason']}")
 
 # Check 2: Verify exec_date is always the NEXT trading day after signal_date
 for t in engine_trades:
@@ -480,11 +494,10 @@ for t in engine_trades:
             delay_ok = False
 
 if delay_ok:
-    print(f"  ✅ All {len(engine_trades)} trades independently verified:")
-    print(f"     - exec_date is strictly next trading day after signal_date")
-    print(f"     - Independent state replay confirms signal existence")
-    if mismatches > 0:
-        print(f"     - {mismatches} lev mismatches (expected: NSL equity divergence in independent replay)")
+    matched = len(engine_trades) - len(unmatched)
+    print(f"  ✅ T+1 verified: {matched}/{len(engine_trades)} matched, {len(unmatched)} NSL-divergence, {mismatches} lev-mismatch")
+    print(f"     - All exec_date = next_trading_day(signal_date)")
+    print(f"     - Independent replay confirms signal for {matched} trades")
 else:
     print(f"  ❌ T+1 delay verification FAILED")
 
