@@ -646,22 +646,52 @@ cardsEl.innerHTML = `
         ${{['1D','1W','1M','1Q','1Y'].map(p => `<span class="pf-tab" data-p="${{p}}" onclick="renderPF('${{p}}')" style="cursor:pointer; font-size:11px; font-weight:600; padding:2px 6px; color:${{p==='1D'?'#a5b4fc':'#475569'}}; border-bottom:${{p==='1D'?'2px solid #a5b4fc':'none'}};">${{p}}</span>`).join('')}}
       </div>
     </div>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
-      <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (${{P_init.nick_units}} units · cost $${{P_init.cost_basis}})</div>
-        <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.nick_total_value_myr)}}</div>
-          <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
+    <div style="display:grid; grid-template-columns:3fr 2fr; gap:12px; margin-top:8px;">
+      <!-- NICK SECTION -->
+      <div style="background:rgba(165,180,252,0.06); border:1px solid #2d2d5e; border-radius:10px; padding:10px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="color:#a5b4fc; font-size:12px; font-weight:700;">\ud83d\udc64 Nick</div>
+          <div style="color:#64748b; font-size:10px;">${{P_init.nick_units}} units \u00b7 cost $${{P_init.cost_basis}}</div>
         </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
+          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:24px;">${{fmtMYR(P_init.nick_total_value_myr)}}</div>
+          <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:8px; margin-bottom:8px;">
           <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P_init.nick_total_value_usd)}}</div>
           <div id="nick-chg" style="font-size:11px; font-weight:500;"></div>
         </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">
+          <div style="background:rgba(34,197,94,0.08); border-radius:6px; padding:6px;">
+            <div style="color:#94a3b8; font-size:9px;">\ud83d\udcb5 Cash (sold)</div>
+            <div style="color:#22c55e; font-weight:700; font-size:14px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
+            <div style="color:#64748b; font-size:9px;">${{fmtUSD(P_init.nick_cash_usd)}}</div>
+          </div>
+          <div style="background:rgba(99,102,241,0.08); border-radius:6px; padding:6px;">
+            <div style="color:#94a3b8; font-size:9px;">\ud83d\udcca Holdings</div>
+            <div style="color:#a5b4fc; font-weight:700; font-size:14px;">${{fmtMYR(P_init.nick_myr)}}</div>
+            <div style="color:#64748b; font-size:9px;">${{P_init.nick_units}} \u00d7 $${{P_init.tqqq.toFixed(2)}}</div>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:4px;">
+          <div style="display:flex; justify-content:space-between; padding:3px 6px; background:rgba(255,255,255,0.03); border-radius:4px;">
+            <span style="color:#64748b; font-size:9px;">Realized</span>
+            <span style="color:#22c55e; font-size:9px; font-weight:600;">+${{fmtMYR(P_init.nick_realized_myr)}}</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; padding:3px 6px; background:rgba(255,255,255,0.03); border-radius:4px;">
+            <span style="color:#64748b; font-size:9px;">Unrealized</span>
+            <span style="color:${{P_init.nick_unrealized_myr >= 0 ? '#22c55e' : '#ef4444'}}; font-size:9px; font-weight:600;">${{P_init.nick_unrealized_myr >= 0 ? '+' : ''}}${{fmtMYR(P_init.nick_unrealized_myr)}}</span>
+          </div>
+        </div>
       </div>
-      <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">SY (${{P_init.gf_units}} units)</div>
+      <!-- SY SECTION -->
+      <div style="background:rgba(251,191,36,0.04); border:1px solid #2d2d5e; border-radius:10px; padding:10px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="color:#fbbf24; font-size:12px; font-weight:700;">\ud83d\udc64 SY</div>
+          <div style="color:#64748b; font-size:10px;">${{P_init.gf_units}} units</div>
+        </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.gf_myr)}}</div>
+          <div id="gf-myr" style="color:#f1f5f9; font-weight:700; font-size:24px;">${{fmtMYR(P_init.gf_myr)}}</div>
           <div id="gf-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
@@ -670,40 +700,15 @@ cardsEl.innerHTML = `
         </div>
       </div>
     </div>
-    <!-- P&L Section -->
-    <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px;">
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-        <div style="background:rgba(34,197,94,0.08); border-radius:8px; padding:8px;">
-          <div style="color:#94a3b8; font-size:10px;">💵 Cash (sold)</div>
-          <div style="color:#22c55e; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
-          <div style="color:#64748b; font-size:10px;">${{fmtUSD(P_init.nick_cash_usd)}}</div>
-        </div>
-        <div style="background:rgba(99,102,241,0.08); border-radius:8px; padding:8px;">
-          <div style="color:#94a3b8; font-size:10px;">📊 Holdings</div>
-          <div style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_myr)}}</div>
-          <div style="color:#64748b; font-size:10px;">${{P_init.nick_units}} × $${{P_init.tqqq.toFixed(2)}}</div>
-        </div>
-      </div>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:6px;">
-        <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
-          <span style="color:#64748b; font-size:10px;">Realized (sold 2108 @ $76.97)</span>
-          <span style="color:#22c55e; font-size:10px; font-weight:600;">+${{fmtMYR(P_init.nick_realized_myr)}}</span>
-        </div>
-        <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
-          <span style="color:#64748b; font-size:10px;">Unrealized (${{P_init.nick_units}} units)</span>
-          <span style="color:${{P_init.nick_unrealized_myr >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_unrealized_myr >= 0 ? '+' : ''}}${{fmtMYR(P_init.nick_unrealized_myr)}}</span>
-        </div>
-      </div>
-    </div>
     <div style="border-top:1px solid #2d2d5e; margin-top:8px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
-      <div style="color:#94a3b8; font-size:11px;">TQQQ $<span id="pf-tqqq-price">${{P_init.tqqq.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P_init.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
+      <div style="color:#94a3b8; font-size:11px;">TQQQ $<span id="pf-tqqq-price">${{P_init.tqqq.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px;"></span> \u00b7 USD/MYR ${{P_init.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
       <div style="display:flex; align-items:baseline; gap:6px;">
         <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.total_myr)}}</div>
         <div id="pf-total-pct" style="font-size:11px; font-weight:600;"></div>
         <div id="pf-total-chg" style="font-size:10px; font-weight:500;"></div>
       </div>
     </div>
-    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">📊 Data: ${{D.generated_at}}</div>
+    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">\ud83d\udcca Data: ${{D.generated_at}}</div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
