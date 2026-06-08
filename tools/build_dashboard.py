@@ -672,7 +672,7 @@ cardsEl.innerHTML = `
     </div>
     <!-- P&L Section -->
     <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px;">
-      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
         <div style="background:rgba(34,197,94,0.08); border-radius:8px; padding:8px;">
           <div style="color:#94a3b8; font-size:10px;">💵 Cash (sold)</div>
           <div style="color:#22c55e; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
@@ -682,11 +682,6 @@ cardsEl.innerHTML = `
           <div style="color:#94a3b8; font-size:10px;">📊 Holdings</div>
           <div style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_myr)}}</div>
           <div style="color:#64748b; font-size:10px;">${{P_init.nick_units}} × $${{P_init.tqqq.toFixed(2)}}</div>
-        </div>
-        <div style="background:${{P_init.nick_total_profit_myr >= 0 ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)'}}; border-radius:8px; padding:8px;">
-          <div style="color:#94a3b8; font-size:10px;">🏆 Total P&L</div>
-          <div style="color:${{P_init.nick_total_profit_myr >= 0 ? '#22c55e' : '#ef4444'}}; font-weight:700; font-size:16px;">${{P_init.nick_total_profit_myr >= 0 ? '+' : ''}}${{fmtMYR(P_init.nick_total_profit_myr)}}</div>
-          <div style="color:${{P_init.nick_pnl_pct >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_pnl_pct >= 0 ? '+' : ''}}${{P_init.nick_pnl_pct.toFixed(1)}}% total return</div>
         </div>
       </div>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:6px;">
