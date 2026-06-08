@@ -302,8 +302,11 @@ def calc_portfolio(tqqq_price, myr_price):
         'nick_cash_usd': round(nick_cash_usd, 2),
         'nick_cash_myr': round(nick_cash_usd * myr_price, 2),
         'nick_realized': round(nick_realized_profit, 2),
+        'nick_realized_myr': round(nick_realized_profit * myr_price, 2),
         'nick_unrealized': round(nick_unrealized, 2),
+        'nick_unrealized_myr': round(nick_unrealized * myr_price, 2),
         'nick_total_profit': round(nick_total_profit, 2),
+        'nick_total_profit_myr': round(nick_total_profit * myr_price, 2),
         'nick_total_value_usd': round(nick_total_value, 2),
         'nick_total_value_myr': round(nick_total_value * myr_price, 2),
         'nick_pnl_pct': round(nick_pnl_pct, 2),
@@ -647,11 +650,11 @@ cardsEl.innerHTML = `
       <div>
         <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (${{P_init.nick_units}} units · cost $${{P_init.cost_basis}})</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.nick_myr)}}</div>
+          <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.nick_total_value_myr)}}</div>
           <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
         </div>
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P_init.nick_usd)}}</div>
+          <div id="nick-usd" style="color:#64748b; font-size:11px;">${{fmtUSD(P_init.nick_total_value_usd)}}</div>
           <div id="nick-chg" style="font-size:11px; font-weight:500;"></div>
         </div>
       </div>
@@ -672,28 +675,28 @@ cardsEl.innerHTML = `
       <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;">
         <div style="background:rgba(34,197,94,0.08); border-radius:8px; padding:8px;">
           <div style="color:#94a3b8; font-size:10px;">💵 Cash (sold)</div>
-          <div style="color:#22c55e; font-weight:700; font-size:16px;">${{fmtUSD(P_init.nick_cash_usd)}}</div>
-          <div style="color:#64748b; font-size:10px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
+          <div style="color:#22c55e; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
+          <div style="color:#64748b; font-size:10px;">${{fmtUSD(P_init.nick_cash_usd)}}</div>
         </div>
         <div style="background:rgba(99,102,241,0.08); border-radius:8px; padding:8px;">
           <div style="color:#94a3b8; font-size:10px;">📊 Holdings</div>
-          <div style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtUSD(P_init.nick_usd)}}</div>
+          <div style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.nick_myr)}}</div>
           <div style="color:#64748b; font-size:10px;">${{P_init.nick_units}} × $${{P_init.tqqq.toFixed(2)}}</div>
         </div>
-        <div style="background:${{P_init.nick_total_profit >= 0 ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)'}}; border-radius:8px; padding:8px;">
+        <div style="background:${{P_init.nick_total_profit_myr >= 0 ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)'}}; border-radius:8px; padding:8px;">
           <div style="color:#94a3b8; font-size:10px;">🏆 Total P&L</div>
-          <div style="color:${{P_init.nick_total_profit >= 0 ? '#22c55e' : '#ef4444'}}; font-weight:700; font-size:16px;">${{P_init.nick_total_profit >= 0 ? '+' : ''}}${{fmtUSD(P_init.nick_total_profit)}}</div>
+          <div style="color:${{P_init.nick_total_profit_myr >= 0 ? '#22c55e' : '#ef4444'}}; font-weight:700; font-size:16px;">${{P_init.nick_total_profit_myr >= 0 ? '+' : ''}}${{fmtMYR(P_init.nick_total_profit_myr)}}</div>
           <div style="color:${{P_init.nick_pnl_pct >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_pnl_pct >= 0 ? '+' : ''}}${{P_init.nick_pnl_pct.toFixed(1)}}% total return</div>
         </div>
       </div>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:6px;">
         <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
           <span style="color:#64748b; font-size:10px;">Realized (sold 2108 @ $76.97)</span>
-          <span style="color:#22c55e; font-size:10px; font-weight:600;">+$${{fmtUSD(P_init.nick_realized)}}</span>
+          <span style="color:#22c55e; font-size:10px; font-weight:600;">+${{fmtMYR(P_init.nick_realized_myr)}}</span>
         </div>
         <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
           <span style="color:#64748b; font-size:10px;">Unrealized (${{P_init.nick_units}} units)</span>
-          <span style="color:${{P_init.nick_unrealized >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_unrealized >= 0 ? '+' : ''}}${{fmtUSD(P_init.nick_unrealized)}}</span>
+          <span style="color:${{P_init.nick_unrealized_myr >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_unrealized_myr >= 0 ? '+' : ''}}${{fmtMYR(P_init.nick_unrealized_myr)}}</span>
         </div>
       </div>
     </div>
