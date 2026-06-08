@@ -601,8 +601,8 @@ function renderPF(p) {{
   
   // Update Big Numbers
   document.getElementById('pf-total').textContent = fmtMYR(P.total_myr);
-  document.getElementById('nick-myr').textContent = fmtMYR(P.nick_myr);
-  document.getElementById('nick-usd').textContent = fmtUSD(P.nick_usd);
+  document.getElementById('nick-myr').textContent = fmtMYR(P.nick_total_value_myr);
+  document.getElementById('nick-usd').textContent = fmtUSD(P.nick_total_value_usd);
   document.getElementById('gf-myr').textContent = fmtMYR(P.gf_myr);
   document.getElementById('gf-usd').textContent = fmtUSD(P.gf_usd);
   document.getElementById('pf-tqqq-price').textContent = P.tqqq.toFixed(2);
