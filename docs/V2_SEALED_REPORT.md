@@ -442,3 +442,12 @@ tools/audit_backtest.py     ← 26-check production audit
 | 4 | VIX Backwardation | CAGR -0.7% | Bottom-fishing signal, not escape |
 | 5 | HY OAS | Data too short | Coincident/lagging indicator |
 | 6 | VIX+Momentum | T+0: +7.2%, T+1: -1.5% | Look-ahead bias |
+| 7 | TQQQ overnight (buy close → sell open) | CAGR +32.5% no TC, -89.5% w/ 1% TC | Avg overnight +0.14%/day vs 1% TC = impossible |
+| 8 | TQQQ overnight sell-only-if-gain | CAGR +21.7% vs B&H +43.4% | 86% time = B&H anyway, 18 sells/yr × 1% TC = -18%/yr drag |
+| 9 | Concentration (QQQ/QQQE) as sell signal | High conc → QQQ goes UP | Concentration is BULLISH, not bearish |
+| 10 | NFCI / STLFSI (financial stress) | r = 0.68 with Credit Z | Redundant — same signal as Credit Z |
+| 11 | Corporate profits as sell signal | Only works at < -10% YoY | Quarterly, lagging, weak standalone |
+| 12 | Earnings (SOXX/QQQ) as rate override | No differentiation | RY high periods have higher returns regardless |
+| 13 | Shiller CAPE / P/E for QQQ | Monthly, S&P only, stops 2023 | No free daily NDX valuation data exists |
+| 14 | Price Stretch (QQQ/SMA200) > 1.20 | 0 days in IS, 133 total | Never occurred in-sample, too few events for statistics |
+| 15 | V3 Quiet Bleed (Stretch + NL) | Sharpe +0.04, BUT blind spot NOT fixed | 2025-2026 DD had stretch 0.94-1.19, never triggered |
