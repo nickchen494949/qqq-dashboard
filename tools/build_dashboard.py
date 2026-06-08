@@ -182,7 +182,17 @@ cur_inf_z = round(float(inf_z.dropna().iloc[-1]), 2) if len(inf_z.dropna()) > 0 
 cur_price = round(float(tqqq.dropna().iloc[-1]), 2)
 
 # Portfolio: TQQQ + USD/MYR with daily % change
-HOLDINGS = {'nick': 6326, 'gf': 395}
+HOLDINGS = {'nick': 4218, 'gf': 395}
+COST_BASIS = {'nick': 54.9765, 'gf': 54.9765}  # USD per unit
+# Trade history: sold units, sale price, date
+TRADE_LOG = [
+    {'who': 'nick', 'action': 'sell', 'units': 2108, 'price': 76.9709, 'date': '2026-06-08'},
+]
+# Calculate realized cash and profit
+nick_cash_usd = sum(t['units'] * t['price'] for t in TRADE_LOG if t['who'] == 'nick' and t['action'] == 'sell')
+nick_realized_profit = sum(t['units'] * (t['price'] - COST_BASIS['nick']) for t in TRADE_LOG if t['who'] == 'nick' and t['action'] == 'sell')
+nick_original_units = HOLDINGS['nick'] + sum(t['units'] for t in TRADE_LOG if t['who'] == 'nick' and t['action'] == 'sell')
+nick_total_cost = nick_original_units * COST_BASIS['nick']
 
 # TQQQ daily % change (last trading day vs previous)
 tqqq_df = yf.download('TQQQ', period='2y', progress=False, auto_adjust=False)
@@ -273,15 +283,33 @@ def calc_portfolio(tqqq_price, myr_price):
             'total_pct': round(((total_myr / total_prev) - 1) * 100, 2) if total_prev > 0 else 0,
             'total_chg': round(total_myr - total_prev, 0),
         }
+    # Profit calculations
+    nick_unrealized = HOLDINGS['nick'] * (tqqq_price - COST_BASIS['nick'])
+    nick_total_profit = nick_realized_profit + nick_unrealized
+    nick_total_value = nick_usd + nick_cash_usd  # holdings + cash
+    nick_pnl_pct = (nick_total_value / nick_total_cost - 1) * 100 if nick_total_cost > 0 else 0
+    gf_unrealized = HOLDINGS['gf'] * (tqqq_price - COST_BASIS['gf'])
+
     return {
         'nick_units': HOLDINGS['nick'],
+        'nick_original_units': nick_original_units,
         'gf_units': HOLDINGS['gf'],
         'tqqq': round(tqqq_price, 2),
         'usd_myr': round(myr_price, 4),
+        'cost_basis': round(COST_BASIS['nick'], 4),
         'nick_usd': round(nick_usd, 2),
         'nick_myr': round(nick_myr, 2),
+        'nick_cash_usd': round(nick_cash_usd, 2),
+        'nick_cash_myr': round(nick_cash_usd * myr_price, 2),
+        'nick_realized': round(nick_realized_profit, 2),
+        'nick_unrealized': round(nick_unrealized, 2),
+        'nick_total_profit': round(nick_total_profit, 2),
+        'nick_total_value_usd': round(nick_total_value, 2),
+        'nick_total_value_myr': round(nick_total_value * myr_price, 2),
+        'nick_pnl_pct': round(nick_pnl_pct, 2),
         'gf_usd': round(gf_usd, 2),
         'gf_myr': round(gf_myr, 2),
+        'gf_unrealized': round(gf_unrealized, 2),
         'total_usd': round(nick_usd + gf_usd, 2),
         'total_myr': round(total_myr, 2),
         'changes': changes,
@@ -617,7 +645,7 @@ cardsEl.innerHTML = `
     </div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px;">
       <div>
-        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (${{P_init.nick_units}} units)</div>
+        <div style="color:#94a3b8; font-size:11px; margin-bottom:2px;">Nick (${{P_init.nick_units}} units · cost $${{P_init.cost_basis}})</div>
         <div style="display:flex; align-items:baseline; gap:8px;">
           <div id="nick-myr" style="color:#f1f5f9; font-weight:700; font-size:22px;">${{fmtMYR(P_init.nick_myr)}}</div>
           <div id="nick-pct" style="font-size:12px; font-weight:600;"></div>
@@ -639,7 +667,37 @@ cardsEl.innerHTML = `
         </div>
       </div>
     </div>
-    <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
+    <!-- P&L Section -->
+    <div style="border-top:1px solid #2d2d5e; margin-top:10px; padding-top:8px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;">
+        <div style="background:rgba(34,197,94,0.08); border-radius:8px; padding:8px;">
+          <div style="color:#94a3b8; font-size:10px;">💵 Cash (sold)</div>
+          <div style="color:#22c55e; font-weight:700; font-size:16px;">${{fmtUSD(P_init.nick_cash_usd)}}</div>
+          <div style="color:#64748b; font-size:10px;">${{fmtMYR(P_init.nick_cash_myr)}}</div>
+        </div>
+        <div style="background:rgba(99,102,241,0.08); border-radius:8px; padding:8px;">
+          <div style="color:#94a3b8; font-size:10px;">📊 Holdings</div>
+          <div style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtUSD(P_init.nick_usd)}}</div>
+          <div style="color:#64748b; font-size:10px;">${{P_init.nick_units}} × $${{P_init.tqqq.toFixed(2)}}</div>
+        </div>
+        <div style="background:${{P_init.nick_total_profit >= 0 ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)'}}; border-radius:8px; padding:8px;">
+          <div style="color:#94a3b8; font-size:10px;">🏆 Total P&L</div>
+          <div style="color:${{P_init.nick_total_profit >= 0 ? '#22c55e' : '#ef4444'}}; font-weight:700; font-size:16px;">${{P_init.nick_total_profit >= 0 ? '+' : ''}}${{fmtUSD(P_init.nick_total_profit)}}</div>
+          <div style="color:${{P_init.nick_pnl_pct >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_pnl_pct >= 0 ? '+' : ''}}${{P_init.nick_pnl_pct.toFixed(1)}}% total return</div>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:6px;">
+        <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
+          <span style="color:#64748b; font-size:10px;">Realized (sold 2108 @ $76.97)</span>
+          <span style="color:#22c55e; font-size:10px; font-weight:600;">+$${{fmtUSD(P_init.nick_realized)}}</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding:4px 8px; background:rgba(255,255,255,0.03); border-radius:4px;">
+          <span style="color:#64748b; font-size:10px;">Unrealized (${{P_init.nick_units}} units)</span>
+          <span style="color:${{P_init.nick_unrealized >= 0 ? '#22c55e' : '#ef4444'}}; font-size:10px; font-weight:600;">${{P_init.nick_unrealized >= 0 ? '+' : ''}}${{fmtUSD(P_init.nick_unrealized)}}</span>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid #2d2d5e; margin-top:8px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
       <div style="color:#94a3b8; font-size:11px;">TQQQ $<span id="pf-tqqq-price">${{P_init.tqqq.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P_init.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
       <div style="display:flex; align-items:baseline; gap:6px;">
         <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.total_myr)}}</div>
