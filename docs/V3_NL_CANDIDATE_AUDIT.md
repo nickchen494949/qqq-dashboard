@@ -123,7 +123,7 @@ NL is the weakest layer but still contributes meaningful MDD improvement.
 
 ## NL Trade Log
 
-Only **4 NL trades in 14 years**:
+Only **4 NL episodes (8 extra switches) in 14 years**:
 
 | Signal Date | Exec Date | Action | Equity | Context |
 |---|---|---|---|---|
@@ -154,7 +154,7 @@ NL was active for 40-69 days during the blind spot period. It didn't fully preve
 - MDD improvement: -37.4% → -33.9% (+3.5pp)
 - Fixes part of the 2025-2026 blind spot (-36.4% → -33.9%)
 - Hills are flat — robust to parameter changes
-- Only 4 trades in 14 years — minimal disruption
+- Only 4 episodes / 8 switches in 14 years — minimal disruption
 - OOS Sharpe improves (1.58 → 1.74)
 - Pre-COVID signal was perfectly timed
 

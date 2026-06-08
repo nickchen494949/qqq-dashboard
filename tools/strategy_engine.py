@@ -290,7 +290,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
 
         tgt = 3; tgt_reason = 'DEFAULT'
         if si == 0:
-            tgt = 0; tgt_reason = 'SEP'; in_danger = False; vol_danger = False; inf_danger = False
+            tgt = 0; tgt_reason = 'SEP'; in_danger = False; vol_danger = False; inf_danger = False; nl_danger = False
         else:
             if use_overlay:
                 if not np.isnan(z):
