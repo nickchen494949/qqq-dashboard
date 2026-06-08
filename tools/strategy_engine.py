@@ -6,7 +6,7 @@ No strategy/signal/backtest logic should exist outside this file.
 
 Contains:
   1. Sealed parameters (constants)
-  2. Signal computation (Credit Z, Vol Z, TIP/TLT Inflation Z)
+  2. Signal computation (Credit Z, Vol Z, TIP/TLT Inflation Z, Net Liquidity Z)
   3. SEP parsing + state machine
   4. Production backtest engine (NSL + Next-Open + Costs)
 """
@@ -43,6 +43,11 @@ INF_TRIGGER   = 2.5    # TIP/TLT inflation z trigger
 INF_RECOVER   = 0.3    # TIP/TLT inflation z recover
 INF_LEV       = 1.0    # Inflation danger → 1x leverage
 INF_WINDOW    = 63     # TIP/TLT z-score lookback (days)
+NL_TRIGGER    = -1.5   # Net Liquidity z trigger (contraction)
+NL_RECOVER    = -0.5   # Net Liquidity z recover
+NL_LEV        = 2.0    # NL danger → 2x leverage (quiet bleed)
+NL_CHG_WINDOW = 63     # NL z-score: pct_change lookback
+NL_Z_WINDOW   = 252    # NL z-score: rolling z lookback
 Z_WINDOW      = 252
 EXPENSE_RATIO = 0.0086
 TC_BPS        = 25
@@ -85,6 +90,17 @@ def compute_inflation_z(tip, tlt, window=INF_WINDOW):
     Robustness confirmed with log z (correlation 0.9999)."""
     ratio = tip / tlt
     return (ratio - ratio.rolling(window).mean()) / ratio.rolling(window).std()
+
+
+def compute_nl_z(walcl, rrpontsyd, wtregen, chg_window=NL_CHG_WINDOW, z_window=NL_Z_WINDOW):
+    """Z-score of Net Liquidity change.
+    Net Liquidity = Fed Balance Sheet (WALCL) - Reverse Repo (RRPONTSYD) - TGA (WTREGEN).
+    Lower Z = liquidity contraction → quiet bleed risk.
+    Only active when all other v2 signals are green (3x).
+    Data available from 2015; z-score available from ~2016-06."""
+    net_liq = walcl - rrpontsyd - wtregen
+    pct_chg = net_liq.pct_change(chg_window)
+    return (pct_chg - pct_chg.rolling(z_window).mean()) / pct_chg.rolling(z_window).std()
 
 
 # ============================================================================
@@ -221,13 +237,15 @@ def build_sep_state(sep_signals, idx):
 # ============================================================================
 def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                  z_series, vol_z, sep_state,
-                 inf_z=None,
+                 inf_z=None, nl_z=None,
                  use_sep=True, use_overlay=True,
                  z_trigger=Z_TRIGGER, z_recover=Z_RECOVER,
                  vz_trigger=VZ_TRIGGER, vz_recover=VZ_RECOVER,
                  vz_lev=VZ_LEV,
                  inf_trigger=INF_TRIGGER, inf_recover=INF_RECOVER,
                  inf_lev=INF_LEV,
+                 nl_trigger=NL_TRIGGER, nl_recover=NL_RECOVER,
+                 nl_lev=NL_LEV,
                  tc_bps=TC_BPS):
     """
     Full production backtest with:
@@ -241,8 +259,10 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
     eq = 1.0; lev = 3.0; prev_lev = 3.0
     pending = None; pending_reason = None; eql = []; levs = []
     in_trade = False; trade_entry_eq = 1.0
-    in_danger = False; vol_danger = False; inf_danger = False; trades = 0
+    in_danger = False; vol_danger = False; inf_danger = False; nl_danger = False
+    trades = 0
     trade_log = []; danger_log = []; vol_danger_log = []; inf_danger_log = []
+    nl_danger_log = []
     switch_today = False
 
     for i in range(len(idx)):
@@ -294,7 +314,15 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                     elif vol_danger and vz < vz_recover:
                         vol_danger = False
 
-                # Priority: Credit > TIP/TLT Inflation > Vol
+                # Net Liquidity signal (only when other signals are green)
+                nlv = nl_z.iloc[i] if nl_z is not None and i < len(nl_z) else np.nan
+                if not np.isnan(nlv):
+                    if not nl_danger and nlv < nl_trigger:
+                        nl_danger = True
+                    elif nl_danger and nlv > nl_recover:
+                        nl_danger = False
+
+                # Priority: Credit > TIP/TLT Inflation > Vol > NL
                 if in_danger:
                     tgt = 1 if is_profitable else 3; tgt_reason = 'CREDIT'
                 elif inf_danger:
@@ -309,6 +337,12 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
                     else:
                         tgt = lev  # NSL for Vol
                     tgt_reason = 'VOL'
+                elif nl_danger:
+                    if is_profitable:
+                        tgt = nl_lev
+                    else:
+                        tgt = lev  # NSL for NL
+                    tgt_reason = 'NL_QUIET_BLEED'
                 else:
                     tgt = 3
             else:
@@ -359,6 +393,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
         danger_log.append(in_danger)
         inf_danger_log.append(inf_danger)
         vol_danger_log.append(vol_danger)
+        nl_danger_log.append(nl_danger)
 
     es = pd.Series(eql, index=idx)
     ny = len(es) / 252
@@ -370,7 +405,7 @@ def run_backtest(idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr,
     return {
         'equity': es, 'leverage': levs,
         'danger': danger_log, 'inf_danger': inf_danger_log,
-        'vol_danger': vol_danger_log,
+        'vol_danger': vol_danger_log, 'nl_danger': nl_danger_log,
         'cagr': cagr, 'mdd': mdd, 'sharpe': sharpe, 'trades': trades,
         'trade_log': trade_log,
         'pending': pending,
