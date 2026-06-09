@@ -34,16 +34,20 @@ Fed 变鹰：   0% TQQQ (0x)
 ### 第三层：TIP/TLT Z = ZScore(TIP/TLT ratio, 63d)
 - Trigger > 2.5 → 1x，Recover < 0.3 → 恢复
 - 受 NSL 约束
-- 抓住"利率/通胀压力还没变成信用崩盘前"的阶段
+- 事件型压力保护器（不是纯通胀指标，也不完全独立于 Credit，r=-0.52）
+- 经常先于 Credit/Vol 触发（12/14 次独立触发），提供早期 leverage divergence
 
 ### 第四层：Vol Z = 20D realized vol Z-score (252d)
 - Trigger > 1.5 → 2x，Recover < 0.5 → 恢复
 - 受 NSL 约束
 
-### NSL（Never Sell in Loss）
+### NSL（Anti-whipsaw Re-entry Gate，原名 Never Sell in Loss）
 - 赚钱时允许降仓
 - 亏损时 Credit/TIP/Vol 不强制降仓
 - Fed SEP 例外，可强制 0%
+- **实际机制**：主要价值来自 SEP 0x 后防止在 danger 状态下重新进场（`in_trade=False → is_profitable=False`）
+- 14 年只真正 block 7 天，但贡献 +41% 终端资产（集中在 2025 tariff）
+- 这是 sealed behavior，不是 bug，不要 "fix" 除非整体 re-seal
 
 ### 执行
 - 收盘产生信号 → 次日开盘执行（T+1）
@@ -124,7 +128,7 @@ v2 trades/yr 从 4 放宽到 5，因为 TIP/TLT 层增加了 signal coverage 和
 
 ## 三条铁律
 
-1. **Always build on NSL** — 所有策略修改必须保留 NSL
+1. **Always build on NSL (Re-entry Gate)** — 所有策略修改必须保留 NSL 及其 re-entry gate 行为
 2. **Always push to Git** — 每次修改必须 commit + push
 3. **Always run full testing protocol** — 新策略必须通过：
    - T+1 执行（不接受 T+0）
@@ -157,7 +161,12 @@ QQQ_Risk_Strategy/
 ├── docs/
 │   ├── STRATEGY.md                  # 策略规则详解
 │   ├── RESEARCH_PAPER.md            # 完整研究论文（504 行）
-│   └── RESEARCH_RULES.md            # 测试协议详解
+│   ├── RESEARCH_RULES.md            # 测试协议详解
+│   ├── V2_SEALED_REPORT.md          # v2 封版报告
+│   ├── V2_COMPONENT_AUDIT.md        # v2 组件深度审计（Vol/Credit/TIP/NSL）
+│   ├── JOINT_ROBUSTNESS_AUDIT.md    # 联合 robustness 审计
+│   ├── SIDECAR_RISK_AUDIT.md        # Sidecar 风险审计
+│   └── failed_strategies/           # 失败方向记录
 ├── fomc_sep/                        # 74 份 Fed SEP PDF
 ├── market_data/                     # Yahoo/FRED 缓存
 ├── tools/
@@ -180,14 +189,25 @@ QQQ_Risk_Strategy/
 
 ---
 
-## 当前状态
+## 当前状态（2026-06-09 更新）
 
 - SEP: IN（满仓）
-- Credit Z: -2.26（安全）
-- TIP/TLT Z: 0.33（安全）
-- Vol Z: 1.96（🔴 DANGER）
-- Leverage: 3x → Pending 2x（Vol triggered, waiting NSL）
+- Credit Z: idle（安全）
+- TIP/TLT Z: idle（安全）
+- Vol Z: ~2.0（🔴 DANGER，Vol layer active）
 - Dashboard: 在线运行中
+- **v2 组件审计: 全部完成** — 详见 `docs/V2_COMPONENT_AUDIT.md`
+
+### 组件审计结论
+
+```
+SEP         = regime exit（核心，无争议）
+Credit Z    = core crash-risk brake（统计+机制都硬，r=-0.79 vs FRED）
+Vol Z       = tail-risk airbag（最 robust 层，IS/OOS ratio 11.44）
+TIP/TLT Z   = event-driven stress protector（有效但集中，69% 来自 1 个月）
+NSL         = anti-whipsaw re-entry gate（不是"亏损不卖"，是 0x 后防 whipsaw）
+IEF vs TLT  = 选配对是为了层间不重复，不是单项最准
+```
 
 ---
 
@@ -195,5 +215,5 @@ QQQ_Risk_Strategy/
 
 - 维护 dashboard，确保每日自动更新正常
 - 监控 live signal（下一次 FOMC SEP: 2026-06-17）
-- Joint robustness validation: 3,000 random combos + full 6D grid
 - 如果有新研究方向，必须先通过完整测试协议
+- v3-NL 候选层待定（需通过 T+1 独立审计）
