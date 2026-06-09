@@ -478,7 +478,7 @@ html = f"""<!DOCTYPE html>
       <div class="math-box">
         <strong>Z-Score = distance from 252-day SMA, measured in standard deviations.</strong><br>
         Formula: <code>Z = -(HYG/IEF - SMA252) / StdDev252</code><br>
-        The negative sign inverts the chart: <strong>UP = stress rising</strong>. When Z &gt; 1.2, HYG/IEF has fallen more than 1.2 standard deviations below its yearly average — a credit stress event.
+        The negative sign inverts the chart: <strong>UP = stress rising</strong>. When Z &gt; {Z_TRIGGER}, HYG/IEF has fallen more than {Z_TRIGGER} standard deviations below its yearly average — a credit stress event.
       </div>
       <div id="chart_z" style="width:100%;height:300px;"></div>
     </div>
@@ -492,7 +492,7 @@ html = f"""<!DOCTYPE html>
     <div class="panel-body">
       <div class="math-box">
         <strong>Vol Z-Score = 20-day annualized realized volatility relative to its 252-day history.</strong><br>
-        When Z &gt; 1.0, market turbulence is abnormally high. We reduce to 66% TQQQ (if profitable). Recovery requires Z &lt; -0.5 (wide hysteresis to prevent whipsaws).
+        When Z &gt; {VZ_TRIGGER}, market turbulence is abnormally high. We reduce to 66% TQQQ (if profitable). Recovery requires Z &lt; {VZ_RECOVER}.
       </div>
       <div id="chart_vol" style="width:100%;height:300px;"></div>
     </div>
