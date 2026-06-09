@@ -600,7 +600,7 @@ function renderPF(p) {{
   const c = P.changes[p];
   
   // Update Big Numbers
-  document.getElementById('pf-total').textContent = fmtMYR(P.total_myr);
+
   document.getElementById('nick-myr').textContent = fmtMYR(P.nick_total_value_myr);
   document.getElementById('nick-usd').textContent = fmtUSD(P.nick_total_value_usd);
   document.getElementById('gf-myr').textContent = fmtMYR(P.gf_myr);
@@ -626,10 +626,7 @@ function renderPF(p) {{
   document.getElementById('pf-myr-pct').textContent = _pf(c.myr_pct);
   document.getElementById('pf-myr-pct').style.color = _ps(c.myr_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
   
-  document.getElementById('pf-total-pct').textContent = _pf(c.total_pct);
-  document.getElementById('pf-total-pct').style.color = _ps(c.total_pct) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
-  document.getElementById('pf-total-chg').textContent = _vc(c.total_chg);
-  document.getElementById('pf-total-chg').style.color = _ps(c.total_chg) === 'color:#22c55e' ? '#22c55e' : '#ef4444';
+
 }}
 
 cardsEl.innerHTML = `
@@ -700,15 +697,10 @@ cardsEl.innerHTML = `
         </div>
       </div>
     </div>
-    <div style="border-top:1px solid #2d2d5e; margin-top:8px; padding-top:8px; display:flex; justify-content:space-between; align-items:center;">
+    <div style="border-top:1px solid #2d2d5e; margin-top:8px; padding-top:6px; display:flex; justify-content:space-between; align-items:center;">
       <div style="color:#94a3b8; font-size:11px;">TQQQ $<span id="pf-tqqq-price">${{P_init.tqqq.toFixed(2)}}</span> <span id="pf-tqqq-pct" style="font-size:10px;"></span> · USD/MYR ${{P_init.usd_myr}} <span id="pf-myr-pct" style="font-size:10px;"></span></div>
-      <div style="display:flex; align-items:baseline; gap:6px;">
-        <div id="pf-total" style="color:#a5b4fc; font-weight:700; font-size:16px;">${{fmtMYR(P_init.total_myr)}}</div>
-        <div id="pf-total-pct" style="font-size:11px; font-weight:600;"></div>
-        <div id="pf-total-chg" style="font-size:10px; font-weight:500;"></div>
-      </div>
+      <div id="pf-status" style="color:#475569; font-size:10px;">📊 ${{D.generated_at}}</div>
     </div>
-    <div id="pf-status" style="color:#475569; font-size:10px; margin-top:4px; text-align:right;">📊 Data: ${{D.generated_at}}</div>
   </div>
   <div class="card">
     <div class="header-row"><div class="label">Fed SEP Position</div><div class="more">Primary</div></div>
