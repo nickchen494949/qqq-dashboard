@@ -194,7 +194,7 @@ Risk:   ~70% of value from single 2025 event
 | **HYG/IEF** (Credit) | Credit spread | r=-0.79 vs real HY spread | Sharpe 1.54 |
 | HYG/TLT (alt) | Credit + rate noise | r=-0.24 vs real HY spread | Sharpe 1.41 |
 | TIP/IEF (alt) | Inflation (more accurate) | r=+0.86 vs breakeven | MDD -59.5% ❌ |
-| **TIP/TLT** (Inflation) | Inflation (orthogonal) | r=+0.65 vs breakeven | Sharpe 1.54 |
+| **TIP/TLT** (Event stress) | Event stress proxy, less HY-spread-contaminated | r=+0.65 vs breakeven | Sharpe 1.54 |
 
 **Swapping both → Sharpe 1.54 → 1.17, MDD -37% → -54%.**
 

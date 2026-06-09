@@ -191,7 +191,7 @@ QQQ_Risk_Strategy/
 
 ## 当前状态（2026-06-09 更新）
 
-- SEP: IN（满仓）
+- SEP: IN（允许持仓，不强制 0x）
 - Credit Z: idle（安全）
 - TIP/TLT Z: idle（安全）
 - Vol Z: ~2.0（🔴 DANGER，Vol layer active）
