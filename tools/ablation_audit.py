@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import hashlib
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -15,6 +16,9 @@ from strategy_engine import (
 PROJECT_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEP_DIR      = os.path.join(PROJECT_DIR, 'fomc_sep')
 START_DATE   = '2012-01-25'
+
+def get_checksum(s):
+    return hashlib.md5(pd.util.hash_pandas_object(s).values).hexdigest()[:8]
 
 def fetch_yahoo_ohlc(ticker):
     df = yf.download(ticker, start='2005-01-01', progress=False, auto_adjust=False)
@@ -64,9 +68,19 @@ def load_data():
     sep_signals = build_sep_signals(sep_raw)
     sep_state, _ = build_sep_state(sep_signals, idx)
 
-    return idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d
+    checksums = {
+        'qqq_d': get_checksum(qqq_d),
+        'effr': get_checksum(effr),
+        'z_series': get_checksum(z_series),
+        'vol_z': get_checksum(vol_z),
+        'inf_z': get_checksum(inf_z),
+        'sep_state': get_checksum(sep_state),
+        'end_date': idx[-1].strftime('%Y-%m-%d')
+    }
 
-def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size=63, num_boot=1000):
+    return idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d, checksums
+
+def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size, num_boot):
     n = len(ret_full)
     diffs = []
     np.random.seed(42)
@@ -83,7 +97,7 @@ def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size=63, num_boot=1000):
     diffs = np.array(diffs)
     return (diffs > 0).mean(), np.percentile(diffs, 2.5), np.percentile(diffs, 97.5)
 
-def bootstrap_crash_lift(fwd_series, sep_in_mask, danger_mask, thresh, block_size=12, num_boot=1000):
+def bootstrap_crash_lift(fwd_series, sep_in_mask, danger_mask, thresh, block_size, num_boot):
     df = pd.DataFrame({'fwd': fwd_series, 'sep_in': sep_in_mask, 'danger': danger_mask}).dropna()
     n = len(df)
     if n < block_size: return np.nan, np.nan, np.nan
@@ -105,8 +119,13 @@ def bootstrap_crash_lift(fwd_series, sep_in_mask, danger_mask, thresh, block_siz
     return (lifts > 0).mean(), np.percentile(lifts, 2.5), np.percentile(lifts, 97.5)
 
 def run_ablation():
-    idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d = load_data()
+    idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d, checksums = load_data()
 
+    print("--- DATA SNAPSHOT ---")
+    print(f"End Date: {checksums['end_date']}")
+    for k, v in checksums.items():
+        if k != 'end_date': print(f"  {k}: {v}")
+    
     z_off = pd.Series(np.nan, index=z_series.index)
     v_off = pd.Series(np.nan, index=vol_z.index)
     i_off = pd.Series(np.nan, index=inf_z.index)
@@ -123,7 +142,7 @@ def run_ablation():
     }
 
     results = {}
-    print("Running Ablation Sweep...")
+    print("\nRunning Ablation Sweep...")
     for name, (zi, vi, ii) in variants.items():
         res = engine_run_backtest(
             idx=idx, dr_qqq=dr_qqq, dr_qqq_gap=dr_qqq_gap, dr_qqq_intra=dr_qqq_intra,
@@ -132,20 +151,21 @@ def run_ablation():
         )
         results[name] = res
 
-    print("\n--- BLOCK BOOTSTRAP SHARPE REMOVAL TEST ---")
     perf_full = results['H_Full']
     ret_full = perf_full['equity'].pct_change().dropna().values
     
-    def print_bootstrap_sharpe(layer, full_minus_name):
-        ret_reduced = results[full_minus_name]['equity'].pct_change().dropna().values
-        p_gt_0, ci_l, ci_u = bootstrap_sharpe_diff(ret_full, ret_reduced)
-        print(f"{layer:<10s} P(Sharpe_Full > Sharpe_Reduced) = {p_gt_0*100:5.1f}% | 95% CI: [{ci_l:6.2f}, {ci_u:6.2f}]")
+    print("\n--- BLOCK BOOTSTRAP SHARPE SENSITIVITY (10,000 Iters) ---")
+    for b_size in [21, 63, 126]:
+        print(f"\nBlock Size: {b_size} days")
+        def print_bootstrap_sharpe(layer, full_minus_name):
+            ret_reduced = results[full_minus_name]['equity'].pct_change().dropna().values
+            p_gt_0, ci_l, ci_u = bootstrap_sharpe_diff(ret_full, ret_reduced, block_size=b_size, num_boot=10000)
+            print(f"  {layer:<10s} P(ΔSharpe>0) = {p_gt_0*100:5.1f}% | 95% CI: [{ci_l:6.2f}, {ci_u:6.2f}]")
+        print_bootstrap_sharpe("Credit", 'G_SEP_TIP_Vol')
+        print_bootstrap_sharpe("TIP/TLT", 'F_SEP_Credit_Vol')
+        print_bootstrap_sharpe("Vol", 'E_SEP_Credit_TIP')
 
-    print_bootstrap_sharpe("Credit", 'G_SEP_TIP_Vol')
-    print_bootstrap_sharpe("TIP/TLT", 'F_SEP_Credit_Vol')
-    print_bootstrap_sharpe("Vol", 'E_SEP_Credit_TIP')
-
-    print("\n--- CONDITIONAL CRASH CAPTURE (SEP=IN) ---")
+    print("\n--- CONDITIONAL CRASH CAPTURE (SEP=IN, 10,000 Iters) ---")
     weekly_idx = idx[::5]
     
     def get_forward_mdd(date, horizon_days):
@@ -176,19 +196,38 @@ def run_ablation():
         p63, n63 = get_prob(fwd_63, cond_mask, -0.15)
         p126, n126 = get_prob(fwd_126, cond_mask, -0.20)
         
-        pg_63, ci_l_63, ci_u_63 = bootstrap_crash_lift(fwd_63, sep_in_mask, danger_mask, -0.15)
-        pg_126, ci_l_126, ci_u_126 = bootstrap_crash_lift(fwd_126, sep_in_mask, danger_mask, -0.20)
+        pg_63, ci_l_63, ci_u_63 = bootstrap_crash_lift(fwd_63, sep_in_mask, danger_mask, -0.15, block_size=13, num_boot=10000)
+        pg_126, ci_l_126, ci_u_126 = bootstrap_crash_lift(fwd_126, sep_in_mask, danger_mask, -0.20, block_size=26, num_boot=10000)
         
-        print(f"\n{layer:<10s} 63d: {p63*100:4.1f}% (Lift: {(p63-p63_base)*100:5.1f}%) | P(Lift>0)={pg_63*100:5.1f}%, 95% CI: [{ci_l_63*100:5.1f}%, {ci_u_63*100:5.1f}%]")
-        print(f"{'':<10s} 126d: {p126*100:4.1f}% (Lift: {(p126-p126_base)*100:5.1f}%) | P(Lift>0)={pg_126*100:5.1f}%, 95% CI: [{ci_l_126*100:5.1f}%, {ci_u_126*100:5.1f}%]")
+        print(f"\n{layer:<10s} 63d: {p63*100:4.1f}% (Lift: {(p63-p63_base)*100:5.1f}%) | 95% CI: [{ci_l_63*100:5.1f}%, {ci_u_63*100:5.1f}%]")
+        print(f"{'':<10s} 126d: {p126*100:4.1f}% (Lift: {(p126-p126_base)*100:5.1f}%) | 95% CI: [{ci_l_126*100:5.1f}%, {ci_u_126*100:5.1f}%]")
 
     print_conditional("Credit", danger_cr)
     print_conditional("TIP/TLT", danger_tip)
     print_conditional("Vol", danger_vol)
+    
+    print("\n--- IN-SAMPLE PERIOD ABLATION (SHARPE) ---")
+    periods = [
+        ('2012-2018', '2012-01-01', '2018-12-31'),
+        ('2019-2022', '2019-01-01', '2022-12-31'),
+        ('2023-2026', '2023-01-01', '2026-12-31')
+    ]
+    def calc_period_sharpe(eq, st, ed):
+        try:
+            sl = eq.loc[st:ed]
+            if len(sl) < 10: return 0.0
+            ret = sl.pct_change().dropna()
+            return (ret.mean() / ret.std()) * np.sqrt(252) if ret.std() > 0 else 0
+        except KeyError:
+            return 0.0
 
-    print("\n--- RAW RESULTS DUMP ---")
-    for name, res in results.items():
-        print(f"{name:<20s} CAGR: {res['cagr']*100:>7.1f}% | Sharpe: {res['sharpe']:>8.2f} | MDD: {res['mdd']*100:>7.1f}%")
+    print(f"{'Period':<15s} | {'Full':>6s} | {'No_Cr':>6s} | {'No_TIP':>6s} | {'No_Vol':>6s}")
+    for p_name, p_st, p_ed in periods:
+        sf = calc_period_sharpe(perf_full['equity'], p_st, p_ed)
+        scr = calc_period_sharpe(results['G_SEP_TIP_Vol']['equity'], p_st, p_ed)
+        stip = calc_period_sharpe(results['F_SEP_Credit_Vol']['equity'], p_st, p_ed)
+        svol = calc_period_sharpe(results['E_SEP_Credit_TIP']['equity'], p_st, p_ed)
+        print(f"{p_name:<15s} | {sf:>6.2f} | {scr:>6.2f} | {stip:>6.2f} | {svol:>6.2f}")
 
 if __name__ == "__main__":
     run_ablation()
