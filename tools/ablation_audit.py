@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
+import sys
 import hashlib
+import argparse
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -16,6 +18,7 @@ from strategy_engine import (
 PROJECT_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEP_DIR      = os.path.join(PROJECT_DIR, 'fomc_sep')
 START_DATE   = '2012-01-25'
+FROZEN_DIR   = os.path.join(PROJECT_DIR, 'data', 'frozen', 'ablation_2026-08-13')
 
 def get_checksum(s):
     return hashlib.md5(pd.util.hash_pandas_object(s).values).hexdigest()[:8]
@@ -32,29 +35,43 @@ def fetch_yahoo_ohlc(ticker):
     adj_open = open_raw * adj_factor
     return adj_close, adj_open
 
-def load_data():
-    fred = Fred(api_key=get_fred_api_key())
-    effr_raw = fred.get_series('DFF', observation_start='2005-01-01').dropna()
-    qqq_raw, qqq_open_raw = fetch_yahoo_ohlc('QQQ')
-    hyg_raw, _ = fetch_yahoo_ohlc('HYG')
-    ief_raw, _ = fetch_yahoo_ohlc('IEF')
-    tip_raw, _ = fetch_yahoo_ohlc('TIP')
-    tlt_raw, _ = fetch_yahoo_ohlc('TLT')
+def load_data(live=False, freeze=False):
+    use_frozen = not live and os.path.exists(FROZEN_DIR)
+    
+    if use_frozen:
+        print(f"Loading frozen raw data from {FROZEN_DIR} ...")
+        effr_raw = pd.read_csv(os.path.join(FROZEN_DIR, 'effr.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        qqq_c = pd.read_csv(os.path.join(FROZEN_DIR, 'qqq_c.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        qqq_o = pd.read_csv(os.path.join(FROZEN_DIR, 'qqq_o.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        hyg_c = pd.read_csv(os.path.join(FROZEN_DIR, 'hyg_c.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        ief_c = pd.read_csv(os.path.join(FROZEN_DIR, 'ief_c.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        tip_c = pd.read_csv(os.path.join(FROZEN_DIR, 'tip_c.csv'), index_col=0, parse_dates=True).squeeze("columns")
+        tlt_c = pd.read_csv(os.path.join(FROZEN_DIR, 'tlt_c.csv'), index_col=0, parse_dates=True).squeeze("columns")
+    else:
+        print("Fetching LIVE data from Yahoo/FRED...")
+        fred = Fred(api_key=get_fred_api_key())
+        effr_raw = fred.get_series('DFF', observation_start='2005-01-01').dropna()
+        qqq_c, qqq_o = fetch_yahoo_ohlc('QQQ')
+        hyg_c, _ = fetch_yahoo_ohlc('HYG')
+        ief_c, _ = fetch_yahoo_ohlc('IEF')
+        tip_c, _ = fetch_yahoo_ohlc('TIP')
+        tlt_c, _ = fetch_yahoo_ohlc('TLT')
 
-    idx = qqq_raw.index[qqq_raw.index >= pd.Timestamp(START_DATE)]
-    qqq_d    = qqq_raw.reindex(idx)
-    qqq_open = qqq_open_raw.reindex(idx)
+    # Common Processing
+    idx = qqq_c.index[qqq_c.index >= pd.Timestamp(START_DATE)]
+    qqq_d    = qqq_c.reindex(idx)
+    qqq_open = qqq_o.reindex(idx)
     dr_qqq   = qqq_d.pct_change()
     dr_qqq_gap   = qqq_open / qqq_d.shift(1) - 1
     dr_qqq_intra = qqq_d / qqq_open - 1
     effr     = effr_raw.reindex(idx).ffill() / 100 / 252
 
-    full_idx = qqq_raw.dropna().index
-    hyg_full = hyg_raw.reindex(full_idx).ffill()
-    ief_full = ief_raw.reindex(full_idx).ffill()
-    tip_full = tip_raw.reindex(full_idx).ffill()
-    tlt_full = tlt_raw.reindex(full_idx).ffill()
-    dr_full  = qqq_raw.reindex(full_idx).pct_change()
+    full_idx = qqq_c.dropna().index
+    hyg_full = hyg_c.reindex(full_idx).ffill()
+    ief_full = ief_c.reindex(full_idx).ffill()
+    tip_full = tip_c.reindex(full_idx).ffill()
+    tlt_full = tlt_c.reindex(full_idx).ffill()
+    dr_full  = qqq_c.reindex(full_idx).pct_change()
 
     z_full     = compute_credit_z(hyg_full, ief_full)
     vol_z_full = compute_vol_z(dr_full)
@@ -64,9 +81,13 @@ def load_data():
     vol_z    = vol_z_full.reindex(idx)
     inf_z    = inf_z_full.reindex(idx)
 
-    sep_raw = parse_sep_pdfs(SEP_DIR)
-    sep_signals = build_sep_signals(sep_raw)
-    sep_state, _ = build_sep_state(sep_signals, idx)
+    # SEP State
+    if use_frozen:
+        sep_state = pd.read_csv(os.path.join(FROZEN_DIR, 'sep_state.csv'), index_col=0, parse_dates=True).squeeze("columns")
+    else:
+        sep_raw = parse_sep_pdfs(SEP_DIR)
+        sep_signals = build_sep_signals(sep_raw)
+        sep_state, _ = build_sep_state(sep_signals, idx)
 
     checksums = {
         'qqq_d': get_checksum(qqq_d),
@@ -78,6 +99,26 @@ def load_data():
         'end_date': idx[-1].strftime('%Y-%m-%d')
     }
 
+    if freeze and not use_frozen:
+        print(f"Freezing data to {FROZEN_DIR} ...")
+        os.makedirs(FROZEN_DIR, exist_ok=True)
+        effr_raw.to_csv(os.path.join(FROZEN_DIR, 'effr.csv'))
+        qqq_c.to_csv(os.path.join(FROZEN_DIR, 'qqq_c.csv'))
+        qqq_o.to_csv(os.path.join(FROZEN_DIR, 'qqq_o.csv'))
+        hyg_c.to_csv(os.path.join(FROZEN_DIR, 'hyg_c.csv'))
+        ief_c.to_csv(os.path.join(FROZEN_DIR, 'ief_c.csv'))
+        tip_c.to_csv(os.path.join(FROZEN_DIR, 'tip_c.csv'))
+        tlt_c.to_csv(os.path.join(FROZEN_DIR, 'tlt_c.csv'))
+        sep_state.to_csv(os.path.join(FROZEN_DIR, 'sep_state.csv'))
+        
+        with open(os.path.join(FROZEN_DIR, 'metadata.txt'), 'w') as f:
+            f.write(f"Snapshot End Date: {checksums['end_date']}\n")
+            f.write(f"Commit: 9da31883c783220fd55f3a3e57698857ba0efac6\n") # Preserved from latest
+            f.write("Checksums:\n")
+            for k, v in checksums.items():
+                if k != 'end_date': f.write(f"{k}: {v}\n")
+        print("Freeze complete.")
+
     return idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d, checksums
 
 def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size, num_boot):
@@ -87,6 +128,7 @@ def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size, num_boot):
     blocks_full = [ret_full[i:i+block_size] for i in range(n - block_size + 1)]
     blocks_red = [ret_reduced[i:i+block_size] for i in range(n - block_size + 1)]
     num_blocks = len(blocks_full)
+    if num_blocks <= 0: return 0.0, 0.0, 0.0
     for _ in range(num_boot):
         idx = np.random.randint(0, num_blocks, size=n // block_size + 1)
         boot_full = np.concatenate([blocks_full[i] for i in idx])[:n]
@@ -94,6 +136,7 @@ def bootstrap_sharpe_diff(ret_full, ret_reduced, block_size, num_boot):
         shp_f = (boot_full.mean() / boot_full.std()) * np.sqrt(252) if boot_full.std() > 0 else 0
         shp_r = (boot_red.mean() / boot_red.std()) * np.sqrt(252) if boot_red.std() > 0 else 0
         diffs.append(shp_f - shp_r)
+    if not diffs: return 0.0, 0.0, 0.0
     diffs = np.array(diffs)
     return (diffs > 0).mean(), np.percentile(diffs, 2.5), np.percentile(diffs, 97.5)
 
@@ -118,8 +161,8 @@ def bootstrap_crash_lift(fwd_series, sep_in_mask, danger_mask, thresh, block_siz
     lifts = np.array(lifts)
     return (lifts > 0).mean(), np.percentile(lifts, 2.5), np.percentile(lifts, 97.5)
 
-def run_ablation():
-    idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d, checksums = load_data()
+def run_ablation(live=False, freeze=False):
+    idx, dr_qqq, dr_qqq_gap, dr_qqq_intra, effr, z_series, vol_z, inf_z, sep_state, qqq_d, checksums = load_data(live, freeze)
 
     print("--- DATA SNAPSHOT ---")
     print(f"End Date: {checksums['end_date']}")
@@ -230,4 +273,9 @@ def run_ablation():
         print(f"{p_name:<15s} | {sf:>6.2f} | {scr:>6.2f} | {stip:>6.2f} | {svol:>6.2f}")
 
 if __name__ == "__main__":
-    run_ablation()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--live", action="store_true", help="Fetch live data instead of frozen")
+    parser.add_argument("--freeze", action="store_true", help="Freeze fetched live data to snapshot dir")
+    args = parser.parse_args()
+    
+    run_ablation(live=args.live, freeze=args.freeze)
