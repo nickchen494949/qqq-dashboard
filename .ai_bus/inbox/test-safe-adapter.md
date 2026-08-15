@@ -1,5 +1,4 @@
 # test-safe-adapter
-
 Task:
 Create SAFE_ADAPTER_WORKS.txt
 
