@@ -30,7 +30,18 @@ Future research is allowed as separate challenger research and true OOS evaluati
 **Ironclad Rules:**
 - **No Parameter Tuning:** You may not tweak parameters or thresholds using post-2026-08-13 data.
 - **T+1 Execution:** All strategy actions assume execution on the *next day's open*.
-- **NSL (Anti-whipsaw Re-entry Gate):** Originally "Never Sell in Loss". Profit allows tactical scaling back up, but loss restricts it to prevent whipsawing. SEP may optionally force 0x, but NSL critically prevents the system from prematurely exiting a danger state just because of a small bounce.
+- **NSL exact production behavior:**
+  - SEP OUT → force 0x. SEP overrides NSL.
+  - Credit danger:
+    - profitable → target 1x
+    - not profitable → target 3x
+  - TIP/TLT danger:
+    - profitable → target 1x
+    - not profitable → retain current leverage
+  - Vol danger:
+    - profitable → target 2x
+    - not profitable → retain current leverage
+  Therefore NSL means tactical layers do not freely de-risk a losing trade; for TIP/TLT and Vol it can also prevent premature re-entry after SEP 0x.
 - **Testing Protocol:** Any proposed architectural modifications must pass the complete block-bootstrap ablation test against frozen data.
 - **Auditable Changes:** Every strategy change must leave an auditable Git trail.
 

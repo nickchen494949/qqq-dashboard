@@ -33,7 +33,8 @@ Fed 变鹰：   0% TQQQ (0x)
 ### 第一层：Fed SEP (Macro Environment)
 - 同一 target year 里 Core PCE 上修 AND Fed Funds Rate 上修 AND Core PCE > 2% → 0%
 - 不受 NSL 约束，可强制清仓 (0x)
-- Re-entry：仅当上述三个条件不再同时满足时，允许恢复。
+- EXIT = rate_up AND core_PCE > 2% AND core_PCE_up
+- REENTRY = current projected Fed Funds rate <= previous projected Fed Funds rate
 
 ### 第二层：Credit Z = -ZScore(HYG/IEF, 252d)
 - 衡量高收益公司债与国债避险资产的信用利差压力。
@@ -64,10 +65,18 @@ NSL:     ON
 ## 核心执行原则
 
 ### 1. NSL (Anti-whipsaw Re-entry Gate)
-- 原名 Never Sell in Loss。
-- **机制**：盈利时，系统允许随着 danger 信号的解除战术性加仓（恢复杠杆）。**亏损时，系统限制加仓恢复（阻止重新进场）。**
-- 主要价值来自在 SEP 导致 0x 清仓后，防止系统在 danger 状态尚未完全解除时过早因为一次小反弹就被骗回场内 (whipsawing)。
-- 它是 v2-sealed 的核心 behavior，绝对禁止为了局部回测而“修复”它，除非对整个系统重新审计和封版。
+- **NSL exact production behavior:**
+  - SEP OUT → force 0x. SEP overrides NSL.
+  - Credit danger:
+    - profitable → target 1x
+    - not profitable → target 3x
+  - TIP/TLT danger:
+    - profitable → target 1x
+    - not profitable → retain current leverage
+  - Vol danger:
+    - profitable → target 2x
+    - not profitable → retain current leverage
+- **本质机制**：NSL 意味着战术层在亏损时不被允许随意 de-risk（强行保留原杠杆），而对于 TIP/TLT 和 Vol 而言，这还能防止在 SEP 导致 0x 后的轻微反弹中过早重新进场 (premature re-entry)。
 
 ### 2. T+1 执行 (T+1 Execution)
 - 收盘产生信号 → 次日开盘执行（必须是 T+1，禁止 T+0）。
