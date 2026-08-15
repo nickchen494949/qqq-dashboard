@@ -1,18 +1,25 @@
 # PROJECT_CONTEXT
 
-> 每次新对话先读这个文件。它告诉你项目现在走到哪里。
+> 每次新对话先读 `AI_READ_FIRST.md`，然后读这个文件。它告诉你项目现在的详细技术细节与架构原则。
 
 ---
 
-## 目标
-
-做一套 TQQQ 四层防守系统 + 自动化 Dashboard。
-Dashboard 地址：https://nickchen494949.github.io/qqq-dashboard/
+## 目标与系统真相
+维持并运行 TQQQ 四层防守系统 (v2-sealed) 及其自动化 Dashboard。
+该仓库是生产策略与研究历史的绝对唯一真相源 (Absolute Source of Truth)。
 
 ---
 
-## 主策略（v2 封版，git tag: v2.0-sealed）
+## 状态：CLOSED (v2-sealed, 2026-08-13 snapshot)
+**v2-sealed 生产架构的选择和参数调优已于 2026-08-13 冻结快照时正式关闭。**
 
+- **严禁再修改参数**：不允许使用 2026-08-13 之后的新 OOS 数据去反向拟合 (refit) v2-sealed。
+- **允许的未来研究**：仅允许作为独立的 challenger 研究，以及真正的 OOS (Out-of-Sample) 跟踪验证。
+- **Vol 层状态**：由于历史 bootstrap 信心相对较弱，保留为 tactical airbag，但仍在进行 OOS validation 观察。
+
+---
+
+## 主策略架构 (4 Layers)
 ```
 正常环境：100% TQQQ (3x)
 Vol 危险：  66% TQQQ (2x)
@@ -20,200 +27,64 @@ Vol 危险：  66% TQQQ (2x)
 信用危险：  33% TQQQ (1x)
 Fed 变鹰：   0% TQQQ (0x)
 
-优先级：Fed > Credit > TIP/TLT > Vol > Normal
+优先级：SEP > Credit > TIP/TLT > Vol > Normal
 ```
 
-### 第一层：Fed SEP
+### 第一层：Fed SEP (Macro Environment)
 - 同一 target year 里 Core PCE 上修 AND Fed Funds Rate 上修 AND Core PCE > 2% → 0%
-- 不受 NSL 约束，强制清仓
+- 不受 NSL 约束，可强制清仓 (0x)
+- Re-entry：仅当上述三个条件不再同时满足时，允许恢复。
 
 ### 第二层：Credit Z = -ZScore(HYG/IEF, 252d)
-- Trigger > 1.2 → 1x，Recover < 0.5 → 恢复
-- 受 NSL 约束
+- 衡量高收益公司债与国债避险资产的信用利差压力。
+- 受 NSL 约束。
 
 ### 第三层：TIP/TLT Z = ZScore(TIP/TLT ratio, 63d)
-- Trigger > 2.5 → 1x，Recover < 0.3 → 恢复
-- 受 NSL 约束
-- 事件型压力保护器（不是纯通胀指标，也不完全独立于 Credit，r=-0.52）
-- 经常先于 Credit/Vol 触发（12/14 次独立触发），提供早期 leverage divergence
+- 衡量债券市场的通胀重新定价压力 (bond-market / duration / inflation repricing stress)。
+- 受 NSL 约束。
+- 经常先于 Credit/Vol 触发，提供早期 leverage divergence。
 
 ### 第四层：Vol Z = 20D realized vol Z-score (252d)
-- Trigger > 1.5 → 2x，Recover < 0.5 → 恢复
-- 受 NSL 约束
-
-### NSL（Anti-whipsaw Re-entry Gate，原名 Never Sell in Loss）
-- 赚钱时允许降仓
-- 亏损时 Credit/TIP/Vol 不强制降仓
-- Fed SEP 例外，可强制 0%
-- **实际机制**：主要价值来自 SEP 0x 后防止在 danger 状态下重新进场（`in_trade=False → is_profitable=False`）
-- 14 年只真正 block 7 天，但贡献 +41% 终端资产（集中在 2025 tariff）
-- 这是 sealed behavior，不是 bug，不要 "fix" 除非整体 re-seal
-
-### 执行
-- 收盘产生信号 → 次日开盘执行（T+1）
-- 换仓当天：gap 用旧仓位，intraday 用新仓位
+- 基于 QQQ 每日收益的已实现波动率 Z-score (20D realized volatility Z-score based on QQQ daily returns)。
+- 战术级安全气囊，受 NSL 约束。
 
 ---
 
-## 封版参数（v2，不可修改，除非通过完整测试协议）
-
+## 封版参数 (v2, 严禁未经授权修改)
 ```
-Credit:  Trigger = 1.2,  Recover = 0.5
+Credit:  Trigger = 1.2,  Recover = 0.5 → 1x
 TIP/TLT: Trigger = 2.5,  Recover = 0.3,  Lev = 1x,  Window = 63d
 Vol:     Trigger = 1.5,  Recover = 0.5,  Lev = 2x
 TC:      25 bps per switch
-NSL:     on
-```
-
-### v1 → v2 参数变更
-
-| Param | v1 | v2 | Reason |
-|:---|:---|:---|:---|
-| Credit Recover | 0.2 | **0.5** | CAGR 优化，在高原上 |
-| Vol Trigger | 1.0 | **1.5** | 减少 whipsaw |
-| Vol Recover | -0.5 | **0.5** | 更快恢复 |
-| TIP/TLT | 不存在 | **T=2.5 R=0.3 L=1x** | 新增第三层 |
-
----
-
-## 封版性能（v2，26/26 生产级检查全过）
-
-```
-CAGR:      +58.6%
-MDD:       -37.4%
-Sharpe:    1.53
-Trades:    62（年均 4.3 次）
-回测期:    2012-01 → 2026-06（14.3 年）
-
-IS (2012-2018):      Sharpe 1.36
-Holdout (2019-2022): Sharpe 1.58
-Forward (2023-2026): Sharpe 1.81
-TC200 Sharpe:        1.14
-```
-
-### v1 baseline（已降级）
-
-```
-CAGR:      +54.5%
-MDD:       -38.7%
-Sharpe:    1.36
-Trades:    40（年均 2.8 次）
+NSL:     ON
 ```
 
 ---
 
-## 审计标准
+## 核心执行原则
 
-### v2 standard（当前）
+### 1. NSL (Anti-whipsaw Re-entry Gate)
+- 原名 Never Sell in Loss。
+- **机制**：盈利时，系统允许随着 danger 信号的解除战术性加仓（恢复杠杆）。**亏损时，系统限制加仓恢复（阻止重新进场）。**
+- 主要价值来自在 SEP 导致 0x 清仓后，防止系统在 danger 状态尚未完全解除时过早因为一次小反弹就被骗回场内 (whipsawing)。
+- 它是 v2-sealed 的核心 behavior，绝对禁止为了局部回测而“修复”它，除非对整个系统重新审计和封版。
 
-| Check | Required |
-|:---|:---|
-| Sharpe | > 1.33 |
-| MDD | > -45% |
-| TC200 Sharpe | > 1.0 |
-| trades/yr | ≤ 5 |
-| IS/Holdout/FWD Sharpe | > 0.5 each |
-| Parameter plateau | ≥ 5 points |
-| T+1 independent | ≥ 90% match |
+### 2. T+1 执行 (T+1 Execution)
+- 收盘产生信号 → 次日开盘执行（必须是 T+1，禁止 T+0）。
+- 换仓当天：gap (C2C) 使用旧仓位，intraday 使用新仓位。
 
-### v1 standard（旧，仅供参考）
-
-```
-Sharpe > 1.0, MDD > -40%, trades/yr ≤ 4, TC200 > 1.0
-```
-
-v2 trades/yr 从 4 放宽到 5，因为 TIP/TLT 层增加了 signal coverage 和交易次数。
+### 3. 数据完整性防御
+- Dashboard 的 QQQ/TQQQ 价格获取绝不允许静默 fallback 给过期的静态数据。
+- 如果数据超出合理的新鲜度窗口，构建应当 Loud Failure，绝不能部署 stale market data。
 
 ---
 
-## 三条铁律
-
-1. **Always build on NSL (Re-entry Gate)** — 所有策略修改必须保留 NSL 及其 re-entry gate 行为
-2. **Always push to Git** — 每次修改必须 commit + push
-3. **Always run full testing protocol** — 新策略必须通过：
-   - T+1 执行（不接受 T+0）
-   - IS 2012-2018 → Holdout 2019-2022 → Forward 2023-2026，所有期 Sharpe > 0.5
-   - 参数高原 ≥ 5 个组合
-   - TC stress test（200 bps 仍 Sharpe > 1.0）
-   - 26 项 v2 封版硬检查
-
----
-
-## 不要重复的失败方向
-
-| # | 信号 | 结果 | 失败原因 |
-|:---|:---|:---|:---|
-| 1 | EPS 加速度 | CAGR -5% | 45 天数据延迟 |
-| 2 | EPS 绝对增速 | r = -0.09 | 无预测力 |
-| 3 | EPS 均值回归 | CAGR -1.5% | 顶部停留太久 |
-| 4 | VIX Backwardation | CAGR -0.7% | 是抄底信号不是逃跑信号 |
-| 5 | HY OAS 信用利差 | 数据太短 | 同步/抄底指标 |
-| 6 | VIX+Momentum Warning | T+0: +7.2%, **T+1: -1.5%** | look-ahead bias |
-
----
-
-## 项目结构
-
-```
-QQQ_Risk_Strategy/
-├── README.md                        # 入口
-├── PROJECT_CONTEXT.md               # ← 你正在读的文件
-├── docs/
-│   ├── STRATEGY.md                  # 策略规则详解
-│   ├── RESEARCH_PAPER.md            # 完整研究论文（504 行）
-│   ├── RESEARCH_RULES.md            # 测试协议详解
-│   ├── V2_SEALED_REPORT.md          # v2 封版报告
-│   ├── V2_COMPONENT_AUDIT.md        # v2 组件深度审计（Vol/Credit/TIP/NSL）
-│   ├── JOINT_ROBUSTNESS_AUDIT.md    # 联合 robustness 审计
-│   ├── SIDECAR_RISK_AUDIT.md        # Sidecar 风险审计
-│   └── failed_strategies/           # 失败方向记录
-├── fomc_sep/                        # 74 份 Fed SEP PDF
-├── market_data/                     # Yahoo/FRED 缓存
-├── tools/
-│   ├── strategy_engine.py           # 核心引擎（单一真相源）
-│   ├── build_dashboard.py           # 主程序（数据+回测+HTML）
-│   ├── audit_backtest.py            # 26 项 v2 生产审计
-│   └── server.py                    # 本地开发服务
-└── .github/workflows/
-    └── deploy-dashboard.yml         # 每天 08:00 UTC+8 自动部署
-```
-
----
-
-## 持仓追踪
-
-- Nick: 6,326 units TQQQ
-- SY: 395 units TQQQ
-- 显示 MYR 和 USD，每 30 分钟自动刷新
-- 显示当天 % 变化（TQQQ、USD/MYR、Portfolio）
-
----
-
-## 当前状态（2026-06-09 更新）
-
-- SEP: IN（允许持仓，不强制 0x）
-- Credit Z: idle（安全）
-- TIP/TLT Z: idle（安全）
-- Vol Z: ~2.0（🔴 DANGER，Vol layer active）
-- Dashboard: 在线运行中
-- **v2 组件审计: 全部完成** — 详见 `docs/V2_COMPONENT_AUDIT.md`
-
-### 组件审计结论
-
-```
-SEP         = regime exit（核心，无争议）
-Credit Z    = core crash-risk brake（统计+机制都硬，r=-0.79 vs FRED）
-Vol Z       = tail-risk airbag（最 robust 层，IS/OOS ratio 11.44）
-TIP/TLT Z   = event-driven stress protector（有效但集中，69% 来自 1 个月）
-NSL         = anti-whipsaw re-entry gate（不是"亏损不卖"，是 0x 后防 whipsaw）
-IEF vs TLT  = 选配对是为了层间不重复，不是单项最准
-```
-
----
-
-## 下一步
-
-- 维护 dashboard，确保每日自动更新正常
-- 监控 live signal（下一次 FOMC SEP: 2026-06-17）
-- 如果有新研究方向，必须先通过完整测试协议
-- v3-NL 候选层待定（需通过 T+1 独立审计）
+## 审计标准 (v2 Standard)
+任何涉及底层架构变更的 Challenger 模型必须通过以下完整审计才能被考虑：
+1. Sharpe > 1.33, MDD > -45%
+2. TC 200bps Sharpe > 1.0
+3. 交易次数/年 ≤ 5
+4. IS (2012-18), Holdout (2019-22), FWD (2023-26) 三个时期 Sharpe 必须全部 > 0.5
+5. 参数存在高原 (Plateau ≥ 5 个组合)
+6. T+1 必须独立复现，Match rate ≥ 90%
+7. 必须通过完整的 block-bootstrap ablation 测试，证明模块级 synergy。

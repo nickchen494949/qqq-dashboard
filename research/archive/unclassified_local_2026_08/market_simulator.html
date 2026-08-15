@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Simulator — Who Drives the Price?</title>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#0a0a1a;color:#e2e8f0;font-family:'Inter',sans-serif}
+  
+  .hero{text-align:center;padding:40px 24px 20px;background:linear-gradient(180deg,#0f0f2e,#0a0a1a)}
+  .hero h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#f59e0b,#ef4444,#8b5cf6,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .hero p{color:#94a3b8;font-size:14px;margin-top:8px;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.5}
+  
+  .container{max-width:1200px;margin:0 auto;padding:0 20px 60px}
+  
+  .panel{background:#111827;border:1px solid #1e293b;border-radius:16px;padding:24px;margin-bottom:20px}
+  .panel-title{font-size:16px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  
+  .agents-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:16px}
+  .agent-card{border-radius:12px;padding:14px;text-align:center;cursor:pointer;transition:all .2s;border:2px solid transparent;position:relative}
+  .agent-card:hover{transform:translateY(-2px)}
+  .agent-card.off{opacity:.3;filter:grayscale(1)}
+  .agent-card .emoji{font-size:28px}
+  .agent-card .name{font-size:11px;font-weight:700;margin-top:4px}
+  .agent-card .role{font-size:10px;color:#94a3b8;margin-top:2px;line-height:1.3}
+  .agent-card .pct{font-size:18px;font-weight:900;margin-top:6px}
+  .agent-card .toggle{position:absolute;top:6px;right:6px;font-size:10px;opacity:.5}
+  
+  .a-passive{background:rgba(59,130,246,.1);border-color:#3b82f6}.a-passive .pct{color:#3b82f6}
+  .a-value{background:rgba(16,185,129,.1);border-color:#10b981}.a-value .pct{color:#10b981}
+  .a-momentum{background:rgba(245,158,11,.1);border-color:#f59e0b}.a-momentum .pct{color:#f59e0b}
+  .a-mm{background:rgba(139,92,246,.1);border-color:#8b5cf6}.a-mm .pct{color:#8b5cf6}
+  .a-hedge{background:rgba(239,68,68,.1);border-color:#ef4444}.a-hedge .pct{color:#ef4444}
+  .a-retail{background:rgba(236,72,153,.1);border-color:#ec4899}.a-retail .pct{color:#ec4899}
+  .a-fed{background:rgba(20,184,166,.1);border-color:#14b8a6}.a-fed .pct{color:#14b8a6}
+  
+  .controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+  .btn{padding:10px 24px;border:none;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;font-family:inherit}
+  .btn:hover{transform:scale(1.03)}
+  .btn-run{background:linear-gradient(135deg,#f59e0b,#ef4444);color:white}
+  .btn-reset{background:#1e293b;color:#e2e8f0;border:1px solid #374151}
+  
+  .slider-group{display:flex;align-items:center;gap:8px;flex:1;min-width:200px}
+  .slider-group label{font-size:11px;color:#94a3b8;font-weight:600;min-width:80px}
+  .slider-group input[type=range]{flex:1;accent-color:#f59e0b}
+  .slider-group .val{font-size:12px;font-weight:700;color:#f59e0b;min-width:50px}
+  
+  .chart-wrap{margin:12px -12px}
+  
+  .insight{background:linear-gradient(135deg,rgba(245,158,11,.08),rgba(239,68,68,.08));border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:16px 20px;margin-top:16px}
+  .insight h3{font-size:13px;font-weight:800;color:#f59e0b;margin-bottom:8px}
+  .insight p{font-size:12px;color:#cbd5e1;line-height:1.7}
+  
+  .regime-bar{height:8px;border-radius:4px;display:flex;overflow:hidden;margin:8px 0}
+  .regime-bar div{transition:width .3s}
+  .regime-bull{background:#10b981}
+  .regime-stress{background:#f59e0b}
+  .regime-crash{background:#ef4444}
+  
+  .stats-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px}
+  .stat-box{flex:1;min-width:120px;background:#1e293b;border-radius:10px;padding:12px;text-align:center}
+  .stat-box .stat-label{font-size:10px;color:#94a3b8;font-weight:600;text-transform:uppercase}
+  .stat-box .stat-val{font-size:20px;font-weight:900;margin-top:4px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🏛️ Market Simulator</h1>
+  <p>6 types of market participants interact to drive stock price. Toggle them on/off to see who really moves the market.</p>
+</div>
+
+<div class="container">
+
+<div class="panel">
+  <div class="panel-title">👥 Market Participants — click to toggle</div>
+  <div class="agents-grid" id="agents-grid"></div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">⚙️ Simulation Controls</div>
+  <div class="controls">
+    <button class="btn btn-run" onclick="runSim()">▶ Run 10 Years</button>
+    <button class="btn btn-reset" onclick="resetSim()">🔄 Reset</button>
+  </div>
+  <div class="controls">
+    <div class="slider-group">
+      <label>Inflation Shock:</label>
+      <input type="range" id="sl-inflation" min="0" max="3" value="1" step="1" oninput="updateSliderLabel(this,'lbl-inflation',['None','Mild','2022-level','Extreme'])">
+      <span class="val" id="lbl-inflation">Mild</span>
+    </div>
+    <div class="slider-group">
+      <label>Crash Event:</label>
+      <input type="range" id="sl-crash" min="0" max="2" value="0" step="1" oninput="updateSliderLabel(this,'lbl-crash',['None','COVID-like','GFC-like'])">
+      <span class="val" id="lbl-crash">None</span>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">📈 Simulated Price</div>
+  <div class="chart-wrap"><div id="chart-price" style="width:100%;height:350px"></div></div>
+  <div id="stats-price" class="stats-row"></div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">🔬 Who Moved The Price? (Daily Flow Contribution)</div>
+  <div class="chart-wrap"><div id="chart-flow" style="width:100%;height:300px"></div></div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">📊 Variance Decomposition — Who Explains Price Changes?</div>
+  <div class="chart-wrap"><div id="chart-variance" style="width:100%;height:300px"></div></div>
+  <div id="variance-insight" class="insight" style="display:none"></div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">🔥 Regime Dominance — Which Player Controls Each Phase?</div>
+  <div class="chart-wrap"><div id="chart-regime" style="width:100%;height:300px"></div></div>
+</div>
+
+</div>
+
+<script>
+// ════════════════════════════════════════════
+// AGENT DEFINITIONS
+// ════════════════════════════════════════════
+const AGENTS = [
+  { id:'passive', name:'401k / Passive', emoji:'🏦', role:'DCA every month. Never sell.', color:'#3b82f6', cls:'a-passive', on:true },
+  { id:'value',   name:'Value Investor', emoji:'🧐', role:'Buy cheap, sell expensive.', color:'#10b981', cls:'a-value', on:true },
+  { id:'momentum',name:'Momentum Trader',emoji:'🏎️', role:'Chase trends. Buy winners.', color:'#f59e0b', cls:'a-momentum', on:true },
+  { id:'mm',      name:'Market Maker',   emoji:'⚖️', role:'Provide liquidity. Stabilize.', color:'#8b5cf6', cls:'a-mm', on:true },
+  { id:'hedge',   name:'Hedge Fund',     emoji:'🦈', role:'Macro-driven. Use leverage.', color:'#ef4444', cls:'a-hedge', on:true },
+  { id:'retail',  name:'Retail / FOMO',  emoji:'📱', role:'FOMO buy, panic sell.', color:'#ec4899', cls:'a-retail', on:true },
+];
+
+// Render agent cards
+const agentsGrid = document.getElementById('agents-grid');
+AGENTS.forEach(a => {
+  const card = document.createElement('div');
+  card.className = `agent-card ${a.cls}`;
+  card.id = `card-${a.id}`;
+  card.innerHTML = `<div class="toggle">${a.on?'ON':'OFF'}</div><div class="emoji">${a.emoji}</div><div class="name">${a.name}</div><div class="role">${a.role}</div><div class="pct" id="pct-${a.id}">—</div>`;
+  card.onclick = () => { a.on = !a.on; card.classList.toggle('off'); card.querySelector('.toggle').textContent = a.on?'ON':'OFF'; };
+  agentsGrid.appendChild(card);
+});
+
+function updateSliderLabel(el, lblId, labels) {
+  document.getElementById(lblId).textContent = labels[parseInt(el.value)];
+}
+
+// ════════════════════════════════════════════
+// SIMULATION ENGINE
+// ════════════════════════════════════════════
+const DAYS = 252 * 10; // 10 years
+const DT = 1 / 252;
+
+function runSim() {
+  const inflationLevel = parseInt(document.getElementById('sl-inflation').value);
+  const crashLevel = parseInt(document.getElementById('sl-crash').value);
+  
+  // Fundamental value growth: ~10% annual
+  const fundGrowth = 0.10;
+  let fundamentalValue = 100;
+  
+  // Price starts at fundamental
+  let price = 100;
+  const prices = [price];
+  
+  // Agent flow history
+  const flows = {};
+  AGENTS.forEach(a => flows[a.id] = []);
+  
+  // Macro regime: 0=bull, 1=stress, 2=crash
+  const regimes = [];
+  let regime = 0;
+  let regimeTimer = 0;
+  
+  // Generate macro events
+  const crashStart = crashLevel > 0 ? Math.floor(252 * (2 + Math.random() * 3)) : -1;
+  const crashDuration = crashLevel === 1 ? 40 : 120; // COVID=40 days, GFC=120
+  const inflationStart = inflationLevel > 0 ? Math.floor(252 * (4 + Math.random() * 2)) : -1;
+  const inflationDuration = [0, 252, 252*1.5, 252*2][inflationLevel];
+  
+  // Track agent positions
+  let positions = { passive:0, value:0, momentum:0, mm:0, hedge:0, retail:0 };
+  
+  // Rolling price history for momentum calc
+  const priceHistory = [price];
+  
+  for (let d = 0; d < DAYS; d++) {
+    // ── Update regime ──
+    regime = 0; // default bull
+    if (crashStart > 0 && d >= crashStart && d < crashStart + crashDuration) {
+      regime = 2; // crash
+    } else if (inflationStart > 0 && d >= inflationStart && d < inflationStart + inflationDuration) {
+      regime = 1; // stress
+    }
+    regimes.push(regime);
+    
+    // ── Fundamental value grows ──
+    fundamentalValue *= (1 + fundGrowth * DT + (Math.random() - 0.5) * 0.001);
+    
+    // ── Valuation ratio ──
+    const valRatio = price / fundamentalValue; // >1 = expensive, <1 = cheap
+    
+    // ── Momentum signal ──
+    const lookback = Math.min(50, priceHistory.length);
+    const momentum = lookback > 1 ? (price / priceHistory[priceHistory.length - lookback] - 1) : 0;
+    
+    // ── Recent vol ──
+    const recentPrices = priceHistory.slice(-20);
+    let recentVol = 0;
+    if (recentPrices.length > 2) {
+      const rets = [];
+      for (let i = 1; i < recentPrices.length; i++) rets.push(recentPrices[i]/recentPrices[i-1]-1);
+      recentVol = Math.sqrt(rets.reduce((s,r) => s + r*r, 0) / rets.length) * Math.sqrt(252);
+    }
+    
+    // ════════════════════════════════════════
+    // AGENT DECISIONS (normalized to % of price)
+    // ════════════════════════════════════════
+    const agentFlows = {};
+    
+    // 1. PASSIVE / 401k: constant inflow, DCA
+    // ~$500B/year into index funds → normalized as steady buying pressure
+    agentFlows.passive = 0.015; // 1.5% daily equivalent of annual inflow
+    // Slight monthly cycle (more inflow at month start)
+    if (d % 21 < 5) agentFlows.passive *= 1.3;
+    
+    // 2. VALUE INVESTOR: contrarian, buys cheap, sells expensive
+    if (valRatio < 0.85) agentFlows.value = 0.04 * (0.85 - valRatio) / 0.15; // buy hard when cheap
+    else if (valRatio > 1.15) agentFlows.value = -0.03 * (valRatio - 1.15) / 0.15; // sell when expensive
+    else agentFlows.value = -0.005 * (valRatio - 1.0); // gentle mean reversion
+    
+    // 3. MOMENTUM TRADER: trend follower
+    agentFlows.momentum = momentum * 0.8; // scale with trend strength
+    // Cap the flow
+    agentFlows.momentum = Math.max(-0.05, Math.min(0.05, agentFlows.momentum));
+    
+    // 4. MARKET MAKER: mean-revert, dampen volatility
+    const shortMomentum = priceHistory.length > 3 ? (price / priceHistory[priceHistory.length - 3] - 1) : 0;
+    agentFlows.mm = -shortMomentum * 0.5; // counter short-term moves
+    agentFlows.mm = Math.max(-0.03, Math.min(0.03, agentFlows.mm));
+    
+    // 5. HEDGE FUND: macro-driven, leveraged
+    if (regime === 0) {
+      agentFlows.hedge = 0.01 + momentum * 0.3; // mildly long + momentum
+    } else if (regime === 1) {
+      // Inflation stress: deleverage
+      agentFlows.hedge = -0.03 - recentVol * 0.1;
+    } else {
+      // Crash: aggressive selling, then bottom fishing
+      const crashDay = d - crashStart;
+      if (crashDay < crashDuration * 0.6) {
+        agentFlows.hedge = -0.06 - Math.random() * 0.03; // panic sell
+      } else {
+        agentFlows.hedge = 0.02 + Math.random() * 0.02; // bottom fish
+      }
+    }
+    agentFlows.hedge = Math.max(-0.08, Math.min(0.05, agentFlows.hedge));
+    
+    // 6. RETAIL: FOMO + panic
+    if (momentum > 0.1) {
+      agentFlows.retail = 0.02 + momentum * 0.3; // FOMO
+    } else if (momentum < -0.05 || regime === 2) {
+      agentFlows.retail = -0.03 + momentum * 0.4; // panic
+    } else {
+      agentFlows.retail = momentum * 0.15; // mild follow
+    }
+    agentFlows.retail = Math.max(-0.06, Math.min(0.04, agentFlows.retail));
+    
+    // ── Apply agent toggles ──
+    AGENTS.forEach(a => { if (!a.on) agentFlows[a.id] = 0; });
+    
+    // ── Aggregate net flow ──
+    let netFlow = 0;
+    AGENTS.forEach(a => { 
+      flows[a.id].push(agentFlows[a.id]);
+      netFlow += agentFlows[a.id]; 
+    });
+    
+    // ── Price impact ──
+    // Price change = net flow * impact coefficient + noise
+    const noise = (Math.random() - 0.5) * 0.012; // ~1.2% daily noise
+    const regimeNoise = regime === 2 ? (Math.random() - 0.6) * 0.04 : 
+                        regime === 1 ? (Math.random() - 0.52) * 0.02 : 0;
+    
+    const priceChange = netFlow * 0.3 + noise + regimeNoise;
+    price *= (1 + priceChange);
+    price = Math.max(price * 0.001, price); // floor
+    
+    prices.push(price);
+    priceHistory.push(price);
+  }
+  
+  // ════════════════════════════════════════
+  // ANALYSIS
+  // ════════════════════════════════════════
+  
+  // Daily returns
+  const returns = [];
+  for (let i = 1; i < prices.length; i++) returns.push(prices[i]/prices[i-1]-1);
+  
+  // Agent contribution to each day's return
+  // Approximate: each agent's flow * impact / total return
+  const agentContributions = {};
+  AGENTS.forEach(a => {
+    agentContributions[a.id] = flows[a.id].map(f => f * 0.3);
+  });
+  
+  // Variance decomposition (rolling 63-day windows)
+  const windowSize = 63; // quarterly
+  const varianceData = {};
+  AGENTS.forEach(a => varianceData[a.id] = []);
+  const varianceDates = [];
+  
+  for (let i = windowSize; i < returns.length; i += 21) { // monthly steps
+    varianceDates.push(i);
+    const totalVar = returns.slice(i-windowSize, i).reduce((s,r) => s + r*r, 0);
+    
+    AGENTS.forEach(a => {
+      const agentVar = agentContributions[a.id].slice(i-windowSize, i).reduce((s,r) => s + r*r, 0);
+      varianceData[a.id].push(totalVar > 0 ? agentVar / totalVar : 0);
+    });
+  }
+  
+  // Overall variance share
+  const overallShare = {};
+  AGENTS.forEach(a => {
+    const totalContrib = agentContributions[a.id].reduce((s,r) => s + r*r, 0);
+    overallShare[a.id] = totalContrib;
+  });
+  const totalOverall = Object.values(overallShare).reduce((s,v) => s+v, 0);
+  AGENTS.forEach(a => overallShare[a.id] = totalOverall > 0 ? overallShare[a.id] / totalOverall * 100 : 0);
+  
+  // Update agent cards with %
+  AGENTS.forEach(a => {
+    document.getElementById(`pct-${a.id}`).textContent = a.on ? overallShare[a.id].toFixed(1) + '%' : 'OFF';
+  });
+  
+  // ════════════════════════════════════════
+  // PLOTTING
+  // ════════════════════════════════════════
+  const plotConfig = { responsive: true, displayModeBar: false };
+  const darkLayout = {
+    paper_bgcolor:'#111827', plot_bgcolor:'#111827',
+    font:{family:'Inter',color:'#94a3b8',size:11},
+    margin:{l:50,r:20,t:20,b:40},
+    xaxis:{gridcolor:'#1e293b',linecolor:'#374151',title:'Trading Days'},
+    yaxis:{gridcolor:'#1e293b',linecolor:'#374151'},
+    legend:{bgcolor:'rgba(17,24,39,.8)',bordercolor:'#374151',font:{size:10}},
+  };
+  
+  // 1. Price chart with regime shading
+  const shapes = [];
+  let rStart = 0, rType = regimes[0];
+  for (let i = 1; i <= regimes.length; i++) {
+    if (i === regimes.length || regimes[i] !== rType) {
+      if (rType > 0) {
+        shapes.push({
+          type:'rect', x0:rStart, x1:i, y0:0, y1:1, yref:'paper',
+          fillcolor: rType === 2 ? 'rgba(239,68,68,0.15)' : 'rgba(245,158,11,0.1)',
+          line:{width:0}
+        });
+      }
+      if (i < regimes.length) { rStart = i; rType = regimes[i]; }
+    }
+  }
+  
+  Plotly.newPlot('chart-price', [{
+    y: prices, type:'scatter', mode:'lines',
+    line:{color:'#e2e8f0',width:1.5},
+    name:'Stock Price'
+  }], {...darkLayout, shapes, yaxis:{...darkLayout.yaxis, title:'Price ($)'}}, plotConfig);
+  
+  // Stats
+  const totalReturn = (prices[prices.length-1]/prices[0]-1)*100;
+  const annReturn = (Math.pow(prices[prices.length-1]/prices[0], 1/10)-1)*100;
+  const maxDD = (() => {
+    let peak = prices[0], mdd = 0;
+    prices.forEach(p => { peak = Math.max(peak, p); mdd = Math.min(mdd, p/peak-1); });
+    return mdd * 100;
+  })();
+  const annVol = (() => {
+    const r = returns;
+    const mean = r.reduce((s,v)=>s+v,0)/r.length;
+    const v = Math.sqrt(r.reduce((s,v)=>s+(v-mean)**2,0)/r.length)*Math.sqrt(252)*100;
+    return v;
+  })();
+  
+  document.getElementById('stats-price').innerHTML = `
+    <div class="stat-box"><div class="stat-label">Total Return</div><div class="stat-val" style="color:${totalReturn>0?'#10b981':'#ef4444'}">${totalReturn>0?'+':''}${totalReturn.toFixed(0)}%</div></div>
+    <div class="stat-box"><div class="stat-label">CAGR</div><div class="stat-val" style="color:#60a5fa">${annReturn.toFixed(1)}%</div></div>
+    <div class="stat-box"><div class="stat-label">Max Drawdown</div><div class="stat-val" style="color:#ef4444">${maxDD.toFixed(1)}%</div></div>
+    <div class="stat-box"><div class="stat-label">Annual Vol</div><div class="stat-val" style="color:#f59e0b">${annVol.toFixed(1)}%</div></div>
+  `;
+  
+  // 2. Agent flow stacked area (smoothed)
+  const smooth = (arr, w=21) => {
+    const out = [];
+    for (let i = 0; i < arr.length; i++) {
+      const s = Math.max(0, i-w+1);
+      let sum = 0;
+      for (let j = s; j <= i; j++) sum += arr[j];
+      out.push(sum / (i-s+1));
+    }
+    return out;
+  };
+  
+  const flowTraces = AGENTS.filter(a => a.on).map(a => ({
+    y: smooth(flows[a.id], 42),
+    name: a.name,
+    type: 'scatter',
+    mode: 'lines',
+    line: {color: a.color, width: 1.5},
+    stackgroup: flows[a.id].some(f => f < 0) ? undefined : undefined, // no stack for clarity
+  }));
+  
+  // Add zero line
+  Plotly.newPlot('chart-flow', flowTraces, {
+    ...darkLayout,
+    yaxis:{...darkLayout.yaxis, title:'Flow (buy+/sell-)', zeroline:true, zerolinecolor:'#475569', zerolinewidth:2},
+    shapes,
+  }, plotConfig);
+  
+  // 3. Variance decomposition stacked area
+  const varTraces = AGENTS.filter(a => a.on).map(a => ({
+    x: varianceDates,
+    y: varianceData[a.id].map(v => v * 100),
+    name: a.name,
+    type: 'scatter',
+    mode: 'lines',
+    stackgroup: 'one',
+    line: {color: a.color, width: 0},
+    fillcolor: a.color + '80',
+  }));
+  
+  Plotly.newPlot('chart-variance', varTraces, {
+    ...darkLayout,
+    yaxis:{...darkLayout.yaxis, title:'% of Price Variance Explained', range:[0,100]},
+    shapes,
+  }, plotConfig);
+  
+  // Variance insight
+  const sorted = AGENTS.filter(a=>a.on).sort((a,b) => overallShare[b.id] - overallShare[a.id]);
+  const vi = document.getElementById('variance-insight');
+  vi.style.display = 'block';
+  vi.innerHTML = `<h3>💡 Who Really Moves the Price?</h3><p>` +
+    sorted.map((a,i) => `<strong style="color:${a.color}">${a.emoji} ${a.name}: ${overallShare[a.id].toFixed(1)}%</strong>`).join(' → ') +
+    `<br><br>` +
+    (overallShare['passive'] > 20 ? `<strong>401k passive inflow</strong> is the market's "gravity" — it provides the constant upward drift. Without it, price has no structural support.<br>` : '') +
+    (overallShare['momentum'] > 15 ? `<strong>Momentum traders</strong> amplify moves in both directions — they create the trends and the crashes.<br>` : '') +
+    (overallShare['hedge'] > 15 ? `<strong>Hedge funds</strong> dominate during regime transitions — they are the first to sell in stress.<br>` : '') +
+    (overallShare['retail'] > 10 ? `<strong>Retail</strong> amplifies the tail — FOMO at tops, panic at bottoms.<br>` : '') +
+    `<br><strong>Key takeaway:</strong> Price isn't driven by one factor. Different players dominate at different times. Your Z-score strategy works because it detects when the <em>destructive</em> players (momentum sellers + hedge fund deleverage) take over from the <em>constructive</em> players (passive + value).</p>`;
+  
+  // 4. Regime dominance chart
+  // For each regime type, which agent had the most flow variance?
+  const regimeLabels = ['Bull Market','Stress / Inflation','Crash'];
+  const regimeFlows = [{},{},{}];
+  regimes.forEach((r, i) => {
+    AGENTS.forEach(a => {
+      if (!a.on) return;
+      if (!regimeFlows[r][a.id]) regimeFlows[r][a.id] = [];
+      if (i < flows[a.id].length) regimeFlows[r][a.id].push(flows[a.id][i]);
+    });
+  });
+  
+  const regimeTraces = AGENTS.filter(a=>a.on).map(a => ({
+    x: regimeLabels.filter((_,i) => regimeFlows[i][a.id] && regimeFlows[i][a.id].length > 0),
+    y: regimeLabels.map((_,i) => {
+      const f = regimeFlows[i][a.id];
+      if (!f || f.length === 0) return 0;
+      return f.reduce((s,v) => s + v*v, 0) / f.length * 10000; // scaled variance
+    }).filter(v => v > 0),
+    name: a.name,
+    type: 'bar',
+    marker: {color: a.color + 'cc'},
+  }));
+  
+  Plotly.newPlot('chart-regime', regimeTraces, {
+    ...darkLayout,
+    barmode: 'group',
+    yaxis:{...darkLayout.yaxis, title:'Flow Variance (influence)'},
+  }, plotConfig);
+}
+
+function resetSim() {
+  AGENTS.forEach(a => { 
+    a.on = true; 
+    document.getElementById(`card-${a.id}`).classList.remove('off');
+    document.getElementById(`card-${a.id}`).querySelector('.toggle').textContent = 'ON';
+    document.getElementById(`pct-${a.id}`).textContent = '—';
+  });
+  document.getElementById('sl-inflation').value = 1;
+  document.getElementById('sl-crash').value = 0;
+  document.getElementById('lbl-inflation').textContent = 'Mild';
+  document.getElementById('lbl-crash').textContent = 'None';
+  ['chart-price','chart-flow','chart-variance','chart-regime'].forEach(id => Plotly.purge(id));
+  document.getElementById('stats-price').innerHTML = '';
+  document.getElementById('variance-insight').style.display = 'none';
+}
+
+// Auto-run on load
+setTimeout(runSim, 500);
+</script>
+</body>
+</html>

@@ -1,29 +1,15 @@
-# TQQQ Risk Dashboard
+# QQQ Dashboard & Risk Strategy
 
-> A daily updated dashboard tracking the TQQQ three-layer defense system (Fed SEP, Credit, and Volatility).
+A production-grade, 4-layer defensive state machine for managing risk in a leveraged Nasdaq-100 (TQQQ) portfolio.
 
-🔗 **Live Dashboard**: [https://nickchen494949.github.io/qqq-dashboard/](https://nickchen494949.github.io/qqq-dashboard/)
+## Architecture (v2-Sealed)
+The system operates as a hierarchical leverage state machine. It evaluates macroeconomic and market signals in strict priority to scale exposure appropriately:
 
-## Strategy Documentation
+1. **Macro Environment (SEP)**: Uses Federal Reserve Summary of Economic Projections to establish the baseline market regime.
+2. **Credit Risk (HYG/IEF)**: Monitors corporate credit stress versus Treasury safe havens.
+3. **Inflation Risk (TIP/TLT)**: Monitors inflation expectations via bond markets.
+4. **Volatility Risk (QQQ Intraday)**: Monitors tactical equity market shock via intraday price action.
 
-The definitive rules and logic for this strategy can be found in [STRATEGY.md](docs/STRATEGY.md).
+Priority: `SEP > Credit > TIP/TLT > Vol > Normal`
 
-## Technical Architecture
-
-- **Data Sources**: Federal Reserve SEP (PDF parsing), FRED API, Yahoo Finance
-- **Automation**: GitHub Actions runs daily at 14:00 UTC+8 to fetch new data and rebuild the dashboard.
-- **Hosting**: GitHub Pages serves the static HTML dashboard.
-- **Live Portfolio**: Client-side JavaScript fetches real-time TQQQ and USD/MYR data every 30 minutes.
-
-## Local Development
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the build script manually
-python3 tools/build_dashboard.py
-
-# View the dashboard
-open tools/robustness_dashboard.html
-```
+**Note for AI Agents**: Read `AI_READ_FIRST.md` before proceeding. This repository acts as the sealed production environment and historical research archive.
