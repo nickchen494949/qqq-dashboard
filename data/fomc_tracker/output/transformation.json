@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "started_and_finished_at_utc": "2026-09-04T15:33:13.545660+00:00",
-  "raw_input_aggregate_sha256": "ab8268c5a44bec35e9316629d233dd03fdce4b018736a226dda9b84d00886441",
+  "started_and_finished_at_utc": "2026-09-04T16:04:25.511096+00:00",
+  "raw_input_aggregate_sha256": "15cbf56f2e60b77428b143a9589e724f50e896cf15575f72c264c8e4d4534f1a",
   "contract_file": "docs/FOMC_TRACKER.md",
-  "contract_sha256": "2b5825b563a47fd675e84456b2978a7f0bb439d4625c0cd95377769a22df8eaa",
-  "code_sha256": "e455c8e4d69daa2259dc505cf35719e8e3fa68d3bb27b9913dd437c38b70cd0f",
-  "git_commit": "e0272765dca2f2743f0289ed9628339ff2e16e2d",
+  "contract_sha256": "7993a023b6fb09f111bb7679ff0443642f78b7343f045f613240eecef272c867",
+  "code_sha256": "ff2c66ba285d727aa4c91f38f5082655126bb7d291a8fa97b2e787fa7ce771b4",
+  "git_commit": "ca33eda22eef85cb1790efe2c97d754f10fd8eae",
   "git_dirty": true,
   "command": "python3 tools/fomc_tracker.py --data-dir data/fomc_tracker",
   "parameters": {
@@ -50,8 +50,12 @@
     "latest_stance.csv": "f6af3eaef8f69ddda669188a1ad4a286a8e22ce5db890babe8e689edbefc631d",
     "latest_stance.md": "565627406e33ac73b7a76efb93727dbb869b86759d3768898077e2bb8990f850",
     "members.csv": "b10837d70bb1f6898f99211ea4a0fc56d95665acb2cc15b0f75a2cba0d21b173",
+    "members_full.csv": "3ca28870b90f0c4f29ef79f79b2e8cae54980928c60838ea699261a371e47357",
+    "participant_meeting_coverage.csv": "8e41e2e8560de8c0ef23c0fabd65c1671a092d6c8df1094fd47d57f746123872",
+    "participants_by_meeting.csv": "48dc2d58438aa41ccde0444b24f41af10aa7b0ac27b47dbea2256735a36321aa",
     "sep_snapshots.csv": "ee9d69bbf32f934d6b4687b23b642476d180bbd1847a533dd812046a22641579",
-    "speech_catalog.csv": "5df0d889d5512141382a984dbf6ffe4311f1067745f5446d32400e7c7b3f7d7b",
+    "speech_catalog.csv": "ce5c9518bf9bad9556035f5e8c969f32379f5acc53eccf80103f2a2e4e8fb03a",
+    "speech_catalog_coverage.csv": "c8971b81d3c305c81a66ec00a170d39aff3d9df1c5e146e782365c0cda89cac3",
     "votes.csv": "b5cadda220aec2aefb8f6fbbf38c545b1c6b0542595330770fa84791bacd3e78"
   }
 }

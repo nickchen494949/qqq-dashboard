@@ -60,6 +60,12 @@ def write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
         writer.writerows(rows)
 
 
+def scope_members(data_dir: Path) -> list[str]:
+    full_master = data_dir / "output" / "members_full.csv"
+    source = full_master if full_master.exists() else data_dir / "output" / "members.csv"
+    return [row["member_name"] for row in read_csv(source)]
+
+
 def sha256_bytes(raw: bytes) -> str:
     return hashlib.sha256(raw).hexdigest()
 
@@ -848,7 +854,7 @@ def fetch(data_dir: Path) -> None:
         manifest.append(freeze(url, raw_dir / "board_indexes" / f"{year}-speeches.htm"))
     participants_path = raw_dir / "fraser_fomc_participants.json"
     manifest.append(freeze(FRASER_SERIES_URL, participants_path))
-    members = [row["member_name"] for row in read_csv(data_dir / "output" / "members.csv")]
+    members = scope_members(data_dir)
     records = json.loads(participants_path.read_text(encoding="utf-8"))["records"]
     matched, unmatched = match_participants(members, records)
     methods: dict[str, str] = {}
@@ -953,9 +959,54 @@ def fetch(data_dir: Path) -> None:
     )
 
 
+def fetch_missing_fraser(data_dir: Path) -> dict:
+    """Fetch creator collections newly introduced by an expanded participant master."""
+    raw_dir = data_dir / "raw" / "speech_catalog"
+    members = scope_members(data_dir)
+    records = json.loads((raw_dir / "fraser_fomc_participants.json").read_text(encoding="utf-8"))["records"]
+    matched, unmatched = match_participants(members, records)
+    files: list[dict] = []
+    failures: dict[str, list[dict]] = {}
+    fetched_members: list[str] = []
+    for member, record in sorted(matched.items()):
+        if "Board of Governors" in contributor(record):
+            continue
+        directory = raw_dir / "fraser_oai" / member_id(member)
+        if (directory / "title_page_v3.htm").exists():
+            continue
+        member_files, _, member_failures = fetch_oai_author(record, directory)
+        files.extend(member_files)
+        if member_failures:
+            failures[member] = member_failures
+        fetched_members.append(member)
+        print(f"FRASER new participant {member}: {len(member_files)} response file(s)", flush=True)
+    manifest = {
+        "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
+        "scope_member_count": len(members),
+        "fetched_members": fetched_members,
+        "unmatched_members": unmatched,
+        "failures": failures,
+        "files": [
+            {**record, "path": Path(record["path"]).relative_to(data_dir).as_posix()}
+            for record in files
+        ],
+    }
+    (raw_dir / "fraser_incremental_manifest.json").write_text(
+        json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
+    )
+    return manifest
+
+
 def build(data_dir: Path) -> dict:
     raw_dir = data_dir / "raw" / "speech_catalog"
-    members = [row["member_name"] for row in read_csv(data_dir / "output" / "members.csv")]
+    members = scope_members(data_dir)
+    full_member_rows = {
+        row["member_name"]: row
+        for row in read_csv(data_dir / "output" / "members_full.csv")
+    } if (data_dir / "output" / "members_full.csv").exists() else {}
+    observed_voters = {
+        row["member_name"] for row in read_csv(data_dir / "output" / "members.csv")
+    }
     records = json.loads((raw_dir / "fraser_fomc_participants.json").read_text(encoding="utf-8"))["records"]
     matched, unmatched = match_participants(members, records)
     rows = deduplicate(
@@ -987,14 +1038,17 @@ def build(data_dir: Path) -> dict:
                 "row_count": len(member_rows),
                 "event_date_min": min((row["event_date"] for row in member_rows), default=""),
                 "event_date_max": max((row["event_date"] for row in member_rows), default=""),
-                "status": "HAS_OFFICIAL_EVENTS" if member_rows else "MISSING_OFFICIAL_EVENTS",
+                "attendance_categories": full_member_rows.get(member, {}).get("attendance_categories", ""),
+                "observed_voter": "YES" if member in observed_voters else "NO",
+                "status": "HAS_OFFICIAL_EVENTS" if member_rows else "NO_EVENT_IN_SELECTED_OFFICIAL_ARCHIVES",
                 "source_archives": ";".join(sorted({row["source_archive"] for row in member_rows})),
+                "limitation": "" if member_rows else "No matching event in Board annual indexes, the FRASER FOMC participant collection, or the four documented Reserve Bank supplements",
             }
         )
     write_csv(
         data_dir / "output" / "speech_catalog_coverage.csv",
         coverage_rows,
-        ["member_name", "row_count", "event_date_min", "event_date_max", "status", "source_archives"],
+        ["member_name", "row_count", "event_date_min", "event_date_max", "attendance_categories", "observed_voter", "status", "source_archives", "limitation"],
     )
     summary = {
         "schema_version": 1,
@@ -1002,6 +1056,8 @@ def build(data_dir: Path) -> dict:
         "built_at_utc": datetime.now(timezone.utc).isoformat(),
         "row_count": len(rows),
         "member_count": len(covered_members),
+        "coverage_scope_member_count": len(members),
+        "observed_voter_count": len(observed_voters),
         "event_date_min": min(row["event_date"] for row in rows),
         "event_date_max": max(row["event_date"] for row in rows),
         "board_rows": sum(row["source_archive"] == "FEDERAL_RESERVE_BOARD_ANNUAL_INDEX" for row in rows),
@@ -1013,6 +1069,10 @@ def build(data_dir: Path) -> dict:
         "source_counts": source_counts,
         "unmatched_fraser_members": unmatched,
         "missing_catalog_members": sorted(set(members) - covered_members),
+        "zero_event_observed_voters": sorted(observed_voters - covered_members),
+        "zero_event_alternate_or_nonvoting_participants": sorted(
+            set(members) - covered_members - observed_voters
+        ),
         "publication_datetime_known_rows": sum(row["published_date"] != "UNKNOWN" for row in rows),
         "output_sha256": sha256_bytes(output.read_bytes()),
     }
@@ -1025,11 +1085,13 @@ def build(data_dir: Path) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("fetch", "fetch-district", "build"))
+    parser.add_argument("command", choices=("fetch", "fetch-fraser-missing", "fetch-district", "build"))
     parser.add_argument("--data-dir", required=True, type=Path)
     args = parser.parse_args()
     if args.command == "fetch":
         fetch(args.data_dir.resolve())
+    elif args.command == "fetch-fraser-missing":
+        print(json.dumps(fetch_missing_fraser(args.data_dir.resolve()), indent=2))
     elif args.command == "fetch-district":
         fetch_district_sources(args.data_dir.resolve() / "raw" / "speech_catalog")
     else:

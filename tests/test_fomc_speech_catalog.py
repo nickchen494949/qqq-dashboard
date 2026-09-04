@@ -26,7 +26,8 @@ class FomcSpeechCatalogRegressionTest(unittest.TestCase):
     def setUpClass(cls):
         CATALOG.build(DATA)
         cls.catalog = rows(DATA / "output" / "speech_catalog.csv")
-        cls.targets = {row["member_name"] for row in rows(DATA / "output" / "members.csv")}
+        cls.voter_targets = {row["member_name"] for row in rows(DATA / "output" / "members.csv")}
+        cls.targets = {row["member_name"] for row in rows(DATA / "output" / "members_full.csv")}
 
     def test_board_role_prefixes_do_not_leak_into_member_names(self):
         names = {row["member_name"] for row in self.catalog}
@@ -64,7 +65,22 @@ class FomcSpeechCatalogRegressionTest(unittest.TestCase):
         self.assertGreaterEqual(counts["Neel Kashkari"], 250)
         coverage = rows(DATA / "output" / "speech_catalog_coverage.csv")
         self.assertEqual(len(coverage), len(self.targets))
-        self.assertTrue(all(row["status"] == "HAS_OFFICIAL_EVENTS" for row in coverage))
+        covered = {row["member_name"] for row in coverage if row["status"] == "HAS_OFFICIAL_EVENTS"}
+        self.assertLessEqual(self.voter_targets, covered)
+        zero_rows = [row for row in coverage if row["status"] == "NO_EVENT_IN_SELECTED_OFFICIAL_ARCHIVES"]
+        self.assertEqual(len(zero_rows), 10)
+        self.assertTrue(all(row["observed_voter"] == "NO" for row in zero_rows))
+
+    def test_incremental_fraser_sources_cover_new_full_master_matches(self):
+        counts = Counter(row["member_name"] for row in self.catalog)
+        self.assertEqual(counts["Kenneth C. Montgomery"], 2)
+        self.assertEqual(counts["Mark L. Mullinix"], 3)
+        path = DATA / "raw" / "speech_catalog" / "fraser_incremental_manifest.json"
+        payload = __import__("json").loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(payload["fetched_members"], ["Kenneth C. Montgomery", "Mark L. Mullinix"])
+        for entry in payload["files"]:
+            raw_path = DATA / entry["path"]
+            self.assertEqual(hashlib.sha256(raw_path.read_bytes()).hexdigest(), entry["sha256"])
 
     def test_district_fetch_manifest_preserves_failures_and_hashes(self):
         path = DATA / "raw" / "speech_catalog" / "district_supplements" / "fetch_manifest.json"

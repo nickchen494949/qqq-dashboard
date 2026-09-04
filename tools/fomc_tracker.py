@@ -549,12 +549,19 @@ def raw_manifest(data_dir: Path, statement_source_urls: dict[str, str], speeches
             if year
             else f"{FED_ROOT}/monetarypolicy/fomccalendars.htm"
         )
+    for path in (data_dir / "raw" / "minutes_history").glob("fomcminutes*.htm"):
+        url_by_path[f"raw/minutes_history/{path.name}"] = (
+            f"{FED_ROOT}/monetarypolicy/{path.stem}.htm"
+        )
     files = []
     aggregate = hashlib.sha256()
     for path in sorted((data_dir / "raw").rglob("*")):
         if not path.is_file():
             continue
         relative = path.relative_to(data_dir).as_posix()
+        if relative == "raw/minutes_history/fetch_manifest.json":
+            # Generated provenance sidecar; it hashes the minute files below.
+            continue
         if relative.startswith("raw/speech_catalog/"):
             # The full catalog has its own URL-aware fetch manifest.
             continue

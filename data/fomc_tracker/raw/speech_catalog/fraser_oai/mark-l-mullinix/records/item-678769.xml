@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:59:05Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:678769</identifier>
+        <datestamp>2025-07-31T15:40:17Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <language>eng</language>
+          <titleInfo>
+            <title>The Fed's Interest in Workforce Development</title>
+            <subTitle>Black Communities Conference, Durham, N.C.</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2018-04-24</sortDate>
+            <dateIssued>April 24, 2018</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>3 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-mark-l-mullinix-9268/feds-interest-workforce-development-678769</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbrich/presidents/mullinix_20180424.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-mark-l-mullinix-9268/feds-interest-workforce-development-678769</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
