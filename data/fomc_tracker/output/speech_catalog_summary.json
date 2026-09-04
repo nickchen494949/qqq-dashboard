@@ -1,14 +1,23 @@
 {
   "schema_version": 1,
   "history_start": "2012-01-01",
-  "built_at_utc": "2026-09-04T15:33:12.605666+00:00",
-  "row_count": 2367,
-  "member_count": 41,
+  "built_at_utc": "2026-09-04T15:47:32.839296+00:00",
+  "row_count": 2696,
+  "member_count": 45,
   "event_date_min": "2012-01-06",
   "event_date_max": "2026-09-03",
   "board_rows": 952,
   "fraser_rows": 1415,
   "fraser_title_collection_rows": 0,
+  "district_supplement_rows": 329,
+  "source_counts": {
+    "DALLAS_FED_LOGAN_ARCHIVE": 31,
+    "FEDERAL_RESERVE_BOARD_ANNUAL_INDEX": 952,
+    "FRASER_OAI_PMH": 1415,
+    "KANSAS_CITY_FED_SITEMAP_DISCOVERY": 21,
+    "MINNEAPOLIS_FED_PERSON_CONTENT_API": 255,
+    "ST_LOUIS_FED_PRESIDENT_REMARKS_SITEMAP": 22
+  },
   "unmatched_fraser_members": [
     "Alberto G. Musalem",
     "Jeffrey R. Schmid",
@@ -16,6 +25,7 @@
     "Neel Kashkari",
     "Richard H. Clarida"
   ],
+  "missing_catalog_members": [],
   "publication_datetime_known_rows": 0,
-  "output_sha256": "5df0d889d5512141382a984dbf6ffe4311f1067745f5446d32400e7c7b3f7d7b"
+  "output_sha256": "86a742f4b6e7d130fbd1566ab3377d2f5c292e6ce6710e4d361ac3e04af73d78"
 }

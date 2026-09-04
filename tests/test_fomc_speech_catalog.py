@@ -1,4 +1,5 @@
 import csv
+import hashlib
 import importlib.util
 import unittest
 from collections import Counter
@@ -54,6 +55,26 @@ class FomcSpeechCatalogRegressionTest(unittest.TestCase):
     def test_unknown_publication_time_is_explicit(self):
         self.assertTrue(all(row["published_date"] == "UNKNOWN" for row in self.catalog))
         self.assertTrue(all(row["published_time_local"] == "UNKNOWN" for row in self.catalog))
+
+    def test_four_district_supplements_close_the_zero_member_gap(self):
+        counts = Counter(row["member_name"] for row in self.catalog)
+        self.assertGreaterEqual(counts["Alberto G. Musalem"], 20)
+        self.assertGreaterEqual(counts["Jeffrey R. Schmid"], 20)
+        self.assertGreaterEqual(counts["Lorie K. Logan"], 30)
+        self.assertGreaterEqual(counts["Neel Kashkari"], 250)
+        coverage = rows(DATA / "output" / "speech_catalog_coverage.csv")
+        self.assertEqual(len(coverage), len(self.targets))
+        self.assertTrue(all(row["status"] == "HAS_OFFICIAL_EVENTS" for row in coverage))
+
+    def test_district_fetch_manifest_preserves_failures_and_hashes(self):
+        path = DATA / "raw" / "speech_catalog" / "district_supplements" / "fetch_manifest.json"
+        payload = __import__("json").loads(path.read_text(encoding="utf-8"))
+        self.assertTrue(any(entry.get("fetch_error") for entry in payload["files"]))
+        for entry in payload["files"]:
+            if entry.get("fetch_error"):
+                continue
+            raw_path = DATA / entry["path"]
+            self.assertEqual(hashlib.sha256(raw_path.read_bytes()).hexdigest(), entry["sha256"])
 
 
 if __name__ == "__main__":
