@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "started_and_finished_at_utc": "2026-09-04T12:54:58.573515+00:00",
+  "raw_input_aggregate_sha256": "ab8268c5a44bec35e9316629d233dd03fdce4b018736a226dda9b84d00886441",
+  "contract_file": "docs/FOMC_TRACKER.md",
+  "contract_sha256": "2b5825b563a47fd675e84456b2978a7f0bb439d4625c0cd95377769a22df8eaa",
+  "code_sha256": "ac7b5210d0d66c124d0c8a36609836bb33b17e67e3a4c2ee71b31477f92b3a4a",
+  "git_commit": "6dd061c840c7f48e20f960592874f3a43ce80aab",
+  "git_dirty": true,
+  "command": "python3 tools/fomc_tracker.py --data-dir data/fomc_tracker",
+  "parameters": {
+    "history_start": "2012-01-01",
+    "speech_max_age_days": 180
+  },
+  "exit_status": 0,
+  "row_counts": {
+    "official_links_downloaded": 123,
+    "official_statements": 118,
+    "aggregate_vote_only_statements": 2,
+    "non_vote_releases_excluded": 5,
+    "observed_members": 45,
+    "vote_rows": 1208,
+    "policy_statement_events": 1208,
+    "speech_events": 16,
+    "all_events": 1224,
+    "sep_snapshot_rows": 599,
+    "latest_stance_rows": 12
+  },
+  "assertions": {
+    "all_dissents_resolved": true,
+    "all_speech_snippets_found_in_raw": true,
+    "no_snapshot_lookahead": true,
+    "full_statement_event_history_from_2012": true,
+    "full_speech_corpus": false
+  },
+  "non_vote_releases_excluded": [
+    "monetary20191011a.htm",
+    "monetary20200323a.htm",
+    "monetary20200331a.htm",
+    "monetary20200827a.htm",
+    "monetary20250822a.htm"
+  ],
+  "aggregate_vote_only_statements": [
+    "monetary20260617a.htm",
+    "monetary20260729a.htm"
+  ],
+  "output_sha256": {
+    "coverage.csv": "9082edf39971c628637af988bd41db40d2f555bbfa33f66dd8d617abfd17230e",
+    "events.csv": "f6c53c6fbc225ef3548525fc77f0e4d5ef301b4b3ade384e2cf0dbe92c742d86",
+    "latest_stance.csv": "f6af3eaef8f69ddda669188a1ad4a286a8e22ce5db890babe8e689edbefc631d",
+    "latest_stance.md": "565627406e33ac73b7a76efb93727dbb869b86759d3768898077e2bb8990f850",
+    "members.csv": "b10837d70bb1f6898f99211ea4a0fc56d95665acb2cc15b0f75a2cba0d21b173",
+    "sep_snapshots.csv": "ee9d69bbf32f934d6b4687b23b642476d180bbd1847a533dd812046a22641579",
+    "votes.csv": "b5cadda220aec2aefb8f6fbbf38c545b1c6b0542595330770fa84791bacd3e78"
+  }
+}
