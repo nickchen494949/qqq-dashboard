@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:09Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:536129</identifier>
+        <datestamp>2025-07-19T14:51:19Z</datestamp>
+        <setSpec>author:8352</setSpec>
+        <setSpec>author:9051</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Wells, Kirstin E.</namePart>
+            <recordInfo>
+              <recordIdentifier>9051</recordIdentifier>
+            </recordInfo>
+          </name>
+          <titleInfo>
+            <title>Enhancing Financial Stability</title>
+            <subTitle>The Case of Financial Market Utilities</subTitle>
+            <titlePartNumber>No. 279</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>periodical</issuance>
+            <sortDate>2010-10-01</sortDate>
+            <dateIssued>October 2010</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/chicago-fed-letter-5287/enhancing-financial-stability-536129</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/fedletter/frbchi_fedletter_2010_279.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/chicago-fed-letter-5287/enhancing-financial-stability-536129</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

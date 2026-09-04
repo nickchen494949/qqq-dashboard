@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:14Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:598757</identifier>
+        <datestamp>2026-01-28T16:31:52Z</datestamp>
+        <setSpec>author:8291</setSpec>
+        <setSpec>author:13548</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>author:13550</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>King, Thomas B.</namePart>
+            <recordInfo>
+              <recordIdentifier>8291</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Nesmith, Travis D. (Travis Dean)</namePart>
+            <recordInfo>
+              <recordIdentifier>13548</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Prono, Todd Andrew</namePart>
+            <recordInfo>
+              <recordIdentifier>13550</recordIdentifier>
+            </recordInfo>
+          </name>
+          <abstract>By stepping between bilateral counterparties, a central counterparty (CCP) transforms credit exposure. CCPs generally improve financial stability. Nevertheless, large CCPs are by nature concentrated and interconnected with major global banks. Moreover, although they mitigate credit risk, CCPs create liquidity risks, because they rely on participants to provide cash. Such requirements increase with both market volatility and default; consequently, CCP liquidity needs are inherently procyclical. This procyclicality makes it more challenging to assess CCP resilience in the rare event that one or more large financial institutions default. Liquidity-focused macroprudential stress tests could help to assess and manage this systemic liquidity risk.</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>Central Clearing and Systemic Liquidity Risk</title>
+            <titlePartNumber>Working Paper 2019-12</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2019-12-01</sortDate>
+            <dateIssued>December 2019</dateIssued>
+          </originInfo>
+          <classification authority="jel">G23, G21, G28, E58, N22</classification>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>39 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/central-clearing-systemic-liquidity-risk-598757</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2019-12.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

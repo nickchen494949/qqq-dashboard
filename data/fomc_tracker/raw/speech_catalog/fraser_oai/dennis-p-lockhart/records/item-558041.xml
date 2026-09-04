@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:53:34Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:558041</identifier>
+        <datestamp>2025-07-23T00:16:46Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Atlanta Fed President and CEO Dennis Lockhart discusses economic conditions and monetary policy at the Mississippi Economic Council in Jackson, Miss., on July 13.</abstract>
+          <titleInfo>
+            <title>The Debate Over Further Monetary Action</title>
+            <subTitle>At the Mississippi Economic Council in Jackson, Miss.</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-07-13</sortDate>
+            <frequency>completely irregular</frequency>
+            <dateIssued>July 13, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>3 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/debate-monetary-action-558041</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/frbatl_lockhart_20120713.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/debate-monetary-action-558041</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

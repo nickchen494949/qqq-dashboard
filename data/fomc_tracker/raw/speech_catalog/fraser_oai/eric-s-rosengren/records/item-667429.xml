@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:54:51Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667429</identifier>
+        <datestamp>2025-07-29T16:27:02Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>A Historical Perspective on Housing Downturns</title>
+            <subTitle>Remarks at the Seventeenth Annual Vermont Economic Outlook Conference, Burlington, Vermont</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-01-11</sortDate>
+            <dateIssued>January 11, 2008</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>26 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/a-historical-perspective-housing-downturns-667429</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/rosengren_20080111.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/a-historical-perspective-housing-downturns-667429</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

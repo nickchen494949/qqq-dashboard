@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:53:21Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:558019</identifier>
+        <datestamp>2025-07-23T21:25:06Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Atlanta Fed President and CEO Dennis Lockhart speaks about the economy at the International Economic Forum of the Americas, Palm Beach Strategic Forum in West Palm Beach, Fla., on April 4, 2011.</abstract>
+          <titleInfo>
+            <title>The Great Rebalancing</title>
+            <subTitle>At the International Economic Forum of the Americas, Palm Beach Strategic Forum in West Palm Beach, Fla.</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2011-04-04</sortDate>
+            <frequency>completely irregular</frequency>
+            <dateIssued>April 4, 2011</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>2 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/great-rebalancing-558019</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/frbatl_lockhart_20110404.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/great-rebalancing-558019</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

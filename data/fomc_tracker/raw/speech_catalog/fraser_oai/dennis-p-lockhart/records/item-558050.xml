@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:53:45Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:558050</identifier>
+        <datestamp>2025-07-21T16:55:54Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Atlanta Fed President and CEO Dennis Lockhart speaks to students at the University of Tennessee in Knoxville on February 25, 2013, about monetary policy and the employment markets.</abstract>
+          <titleInfo>
+            <title>Monetary Policy and the Employment Challenge</title>
+            <subTitle>At the University of Tennessee in Knoxville</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2013-02-25</sortDate>
+            <frequency>completely irregular</frequency>
+            <dateIssued>February 25, 2013</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>5 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/monetary-policy-employment-challenge-558050</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/frbatl_lockhart_20130225.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/monetary-policy-employment-challenge-558050</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

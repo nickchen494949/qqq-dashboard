@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:07Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533956</identifier>
+        <datestamp>2026-01-27T22:19:40Z</datestamp>
+        <setSpec>author:8373</setSpec>
+        <setSpec>author:4670</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:5610</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Rosen, Richard Joseph</namePart>
+            <recordInfo>
+              <recordIdentifier>8373</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Hartley, Daniel A.</namePart>
+            <recordInfo>
+              <recordIdentifier>4670</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Life insurance</topic>
+              <recordInfo>
+                <recordIdentifier>5610</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>We use a two factor model of life insurer stock returns to measure interest rate risk at U.S. and U.K. insurers. Our estimates show that interest rate risk among U.S. life insurers increased as interest rates decreased to historically low levels in recent years. For life insurers in the U.K., in contrast, interest rate risk remained low during this time, roughly unchanged from what it was in the period prior to the financial crisis when long-term interest rates were in their usual historical ranges. We attribute these differences to the heavier use of products that combine guarantees with options for policyholders to adjust their behavior by U.S. life insurers relative to their U.K. counterparts.</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>Measuring Interest Rate Risk in the Life Insurance Sector</title>
+            <subTitle>The U.S. and the U.K.</subTitle>
+            <titlePartNumber>Working Paper 2016-02</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2016-01-01</sortDate>
+            <dateIssued>January 2016</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>37 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/measuring-interest-rate-risk-life-insurance-sector-533956</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2016-02.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:41:04Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:666836</identifier>
+        <datestamp>2025-07-30T07:50:54Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Economic Outlook and Policy Challenges</title>
+            <subTitle>[Speech at] CFA Society of Iowa, Des Moines, IA</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2009-02-11</sortDate>
+            <dateIssued>February 11, 2009</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/economic-outlook-policy-challenges-666836</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/evans_20090211.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/economic-outlook-policy-challenges-666836</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

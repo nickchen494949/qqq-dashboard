@@ -553,6 +553,9 @@ def raw_manifest(data_dir: Path, statement_source_urls: dict[str, str], speeches
         if not path.is_file():
             continue
         relative = path.relative_to(data_dir).as_posix()
+        if relative.startswith("raw/speech_catalog/"):
+            # The full catalog has its own URL-aware fetch manifest.
+            continue
         digest = sha256(path)
         size = path.stat().st_size
         files.append({"path": relative, "bytes": size, "sha256": digest, "source_url": url_by_path.get(relative, "")})

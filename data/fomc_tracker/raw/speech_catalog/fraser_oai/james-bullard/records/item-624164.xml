@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:00:17Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:624164</identifier>
+        <datestamp>2025-07-31T14:49:29Z</datestamp>
+        <setSpec>author:2483</setSpec>
+        <setSpec>author:13608</setSpec>
+        <setSpec>subject:4226</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Bullard, James</namePart>
+            <recordInfo>
+              <recordIdentifier>2483</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Pande, Geetanjali</namePart>
+            <recordInfo>
+              <recordIdentifier>13608</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>article</genre>
+          <subject>
+            <topic>
+              <topic>Inflation (Finance)</topic>
+              <recordInfo>
+                <recordIdentifier>4226</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>The authors examine trend inflation indicators and conclude that excluding energy prices from an indicator may not be a good idea during a period of relative price change.</abstract>
+          <titleInfo>
+            <title>Energy Prices</title>
+            <subTitle>In the Mix or Swept Under the Rug?</subTitle>
+            <titlePartNumber>2007, No. 9</titlePartNumber>
+          </titleInfo>
+          <identifier type="doi">https://doi.org/10.20955/es.2007.9</identifier>
+          <originInfo>
+            <place>St. Louis</place>
+            <issuance>periodical</issuance>
+            <sortDate>2007-04-02</sortDate>
+            <publisher>Federal Reserve Bank of St. Louis</publisher>
+            <dateIssued>April 2, 2007</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>1 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/economic-synopses-6715/energy-prices-624164</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/publications/frbsl_econosynops/economicsynopses_stls_20070402.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

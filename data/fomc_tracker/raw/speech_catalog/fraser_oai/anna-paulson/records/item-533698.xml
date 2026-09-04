@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:04Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533698</identifier>
+        <datestamp>2025-07-19T20:29:22Z</datestamp>
+        <setSpec>author:8348</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:5568</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Osili, Una Okonkwo</namePart>
+            <recordInfo>
+              <recordIdentifier>8348</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Emigration and immigration</topic>
+              <recordInfo>
+                <recordIdentifier>5568</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>We investigate the impact of institutional quality on individuals using data on the financial decisions of immigrants in the U.S. While all of the individuals whose decisions we analyze face the same formal institutional framework in the U.S., they bring with them their impressions from and experiences with institutions in their home countries. We find that immigrants from countries with institutions that more effectively protect private property and provide incentives for investment are more likely to participate in U.S. financial markets. The effect of home country institutions is persistent and absorbed early in life. In addition, the impact of institutions is amplified for immigrants who live in places where informal institutional constraints are likely to be reinforced, those who live in neighborhoods with many other immigrants from the same country of origin. These findings are robust to alternative measures of institutional effectiveness and to various methods of controlling for unobserved individual characteristics, including specifications with country fixed-effects.</abstract>
+          <titleInfo>
+            <title>Individuals and Institutions</title>
+            <subTitle>Evidence From International Migrants in the U.S.</subTitle>
+            <titlePartNumber>Working Paper 2004-19</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2004-01-01</sortDate>
+            <dateIssued>September 2005</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>55 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/individuals-institutions-533698</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2004-19.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/individuals-institutions-533698</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

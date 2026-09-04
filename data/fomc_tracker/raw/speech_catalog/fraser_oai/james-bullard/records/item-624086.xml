@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:00:15Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:624086</identifier>
+        <datestamp>2025-07-31T15:06:00Z</datestamp>
+        <setSpec>author:2483</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Bullard, James</namePart>
+            <recordInfo>
+              <recordIdentifier>2483</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>article</genre>
+          <abstract>Oil prices have a long and checkered history in U.S. and global macroeconomics, with some analysts going so far as to associate every postwar U.S. recession with sharp increases in oil prices. In this context, it is important to try to assess the impact of the present episode of higher crude oil prices.</abstract>
+          <titleInfo>
+            <title>A Crude Crude Oil Calculation</title>
+            <titlePartNumber>2004, No. 18</titlePartNumber>
+          </titleInfo>
+          <identifier type="doi">https://doi.org/10.20955/es.2004.18</identifier>
+          <originInfo>
+            <place>St. Louis</place>
+            <issuance>periodical</issuance>
+            <sortDate>2004-08-01</sortDate>
+            <publisher>Federal Reserve Bank of St. Louis</publisher>
+            <dateIssued>August 1, 2004</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>1 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/economic-synopses-6715/a-crude-crude-oil-calculation-624086</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/publications/frbsl_econosynops/economicsynopses_stls_20040801.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

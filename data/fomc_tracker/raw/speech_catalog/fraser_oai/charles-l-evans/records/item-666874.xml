@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:41:35Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:666874</identifier>
+        <datestamp>2025-07-29T15:20:21Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Perspectives on Current Economic Issues</title>
+            <subTitle>[Remarks at] Lakeshore Chamber of Commerce Business Expo, Hammond, IN</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-09-26</sortDate>
+            <dateIssued>September 26, 2012</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/perspectives-current-economic-issues-666874</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/evans_20120926.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/perspectives-current-economic-issues-666874</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

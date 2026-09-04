@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:37:39Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:724631</identifier>
+        <datestamp>2026-05-07T19:36:28Z</datestamp>
+        <setSpec>author:8323</setSpec>
+        <setSpec>author:8352</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>McDonald, Robert</namePart>
+            <recordInfo>
+              <recordIdentifier>8323</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <note type="public">Note from title page: Federal Reserve Bank of Chicago Working Paper No. 2014-07</note>
+          <abstract>The near-failure on September 16, 2008, of American International Group (AIG) was an iconic moment in the financial crisis. The decision to rescue AIG was controversial at the time and remains so. Large bets on real estate pushed AIG to the brink of bankruptcy. In one case, AIG used securities lending to transform insurance company assets into residential mortgage-backed securities (RMBS) and collateralized debt obligations (CDOs), ultimately losing at least $21 billion and threatening the solvency of the life insurance companies. AIG also sold insurance on multi-sector CDOs, backed by real estate assets, ultimately losing more than $30 billion. These activities were apparently motivated by a belief that AIG's real estate bets would not suffer defaults and were "money-good." We find that these securities have in fact suffered write-downs and that the stark "money-good" claim can be rejected.</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>AIG in Hindsight</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>periodical</issuance>
+            <sortDate>2014-11-07</sortDate>
+            <dateIssued>October 22, 2014</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>55 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/cenfis-center-economic-analysis-risk-conference-9869/aig-hindsight-724631</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/events/frbatl_cfis2014_mcdonald.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

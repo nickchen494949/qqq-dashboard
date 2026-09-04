@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:55Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:575141</identifier>
+        <datestamp>2025-07-21T07:36:48Z</datestamp>
+        <setSpec>author:3366</setSpec>
+        <setSpec>author:8230</setSpec>
+        <setSpec>author:8234</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Christiano, Lawrence J.</namePart>
+            <recordInfo>
+              <recordIdentifier>3366</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Eichenbaum, Martin S.</namePart>
+            <recordInfo>
+              <recordIdentifier>8230</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <abstract>We provide new evidence that models of the monetary transmission mechanism should be consistent with at least the following facts. After a contractionary monetary policy shock, the aggregate price level responds very little, aggregate output falls, interest rates initially rise, real wages decline by a modest amount, and profits fall. We compare the ability of sticky price and limited participation models with frictionless labor markets to account for these facts. The key failing of the sticky price model lies in its conterfactual implications for profits. The limited participation model can account for all the above facts, but only if one is willing to assume a high labor supply elasticity (2 percent) and a high markup (40 percent). The shortcomings of both models reflect the absence of labor market frictions, such as wage contracts of factor hoarding, which dampen movements in the marginal cost of production after a monetary policy shock. nerships or affiliated with banking organizations are less likely to provide debt financing than other SBICs.</abstract>
+          <titleInfo>
+            <title>Sticky Price and Limited Participation Models of Money</title>
+            <subTitle>A Comparison</subTitle>
+            <titlePartNumber>Working Paper 1996-28</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>1996-12-01</sortDate>
+            <dateIssued>December 1996</dateIssued>
+          </originInfo>
+          <relatedItem type="series">
+            <titleInfo>
+              <title>Macroeconomic Issues</title>
+            </titleInfo>
+          </relatedItem>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>70 pages</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/sticky-price-limited-participation-models-money-575141</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_1996-28.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/sticky-price-limited-participation-models-money-575141</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

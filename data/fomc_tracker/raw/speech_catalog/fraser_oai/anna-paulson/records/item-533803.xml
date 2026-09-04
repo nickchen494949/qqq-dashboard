@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:06Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533803</identifier>
+        <datestamp>2025-07-19T12:09:03Z</datestamp>
+        <setSpec>author:8348</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:4189</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Osili, Una Okonkwo</namePart>
+            <recordInfo>
+              <recordIdentifier>8348</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Financial crises and bank panics</topic>
+              <recordInfo>
+                <recordIdentifier>4189</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>In addition to their direct effects, episodes of financial instability may decrease investor confidence. Measuring the impact of a crisis on investor confidence is complicated by the fact that it is difficult to disentangle the effect of investor confidence from coincident direct effects of the crisis. In order to isolate the effects of financial crises on investor confidence, we study the investment behavior of immigrants in the U.S. Our findings indicate that systemic banking crises have important effects on investor behavior. Immigrants who have experienced a banking crisis in their countries of origin are significantly less likely to have bank accounts in the U.S. This finding is robust to including important individual controls like wealth, education, income, and age. In addition, the effect of crises is robust to controlling for a variety of country of origin characteristics, including measures of financial and economic development and specifications with country of origin fixed effects.</abstract>
+          <titleInfo>
+            <title>Bank Crises and Investor Confidence</title>
+            <titlePartNumber>Working Paper 2008-17</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-11-28</sortDate>
+            <dateIssued>November 2008</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>40 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/bank-crises-investor-confidence-533803</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2008-17.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/bank-crises-investor-confidence-533803</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

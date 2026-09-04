@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:12Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:581828</identifier>
+        <datestamp>2025-07-09T23:30:18Z</datestamp>
+        <setSpec>author:4670</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>author:10436</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Hartley, Daniel A.</namePart>
+            <recordInfo>
+              <recordIdentifier>4670</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Powers, Katerina</namePart>
+            <recordInfo>
+              <recordIdentifier>10436</recordIdentifier>
+            </recordInfo>
+          </name>
+          <language>eng</language>
+          <titleInfo>
+            <title>What Explains the Decline in Life Insurance Ownership?</title>
+            <titlePartNumber>Volume 41, No. 8</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>periodical</issuance>
+            <sortDate>2017-01-08</sortDate>
+            <dateIssued>2017</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>20 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/economic-perspectives-federal-reserve-bank-chicago-5288/explains-decline-life-insurance-ownership-581828</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/economicperspectives/frbchi_econper_2017n8.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/economic-perspectives-federal-reserve-bank-chicago-5288/explains-decline-life-insurance-ownership-581828</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:05Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533729</identifier>
+        <datestamp>2025-07-18T07:36:39Z</datestamp>
+        <setSpec>author:8324</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:4226</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>McGranahan, Leslie</namePart>
+            <recordInfo>
+              <recordIdentifier>8324</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Inflation (Finance)</topic>
+              <recordInfo>
+                <recordIdentifier>4226</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>We use Consumer Expenditure Survey data from 1982-2004 and combine it with item-specific Consumer Price Index data to construct monthly chain-weighted inflation measures for thirty-one different demographic groups and for the urban population as a whole from 1983-2005. We find that the inflation experiences of the different groups are highly correlated with and similar in magnitude to the inflation experiences of the overall urban population. Over the sample period, cumulative inflation for the groups ranged from 195% to 212% as compared to inflation for the overall population of 201%. The group with the largest deviation from overall inflation consists of households where the head or spouse is 65 years of age or older. These households had cumulative inflation 5%, or 11 percentage points, higher than the average. We also find that the variability of inflation is higher for vulnerable populations as defined by demographic and income characteristics and lower for advantaged populations. In particular, we calculate that the standard deviation of inflation declines with educational attainment. This is the result of higher expenditure shares among the less educated on necessities with more variable prices, including food and energy. However, this difference in variability is fairly modest. The inflation rate of the least educated is 3% more variable than inflation for all urban households. We conclude that inflation is principally an aggregate shock and that the CPI-U does a reasonable job of measuring the inflation experience of the demographic groups that we investigate.</abstract>
+          <titleInfo>
+            <title>Constructing the Chicago Fed Income Based Economic Index - Consumer Price Index</title>
+            <subTitle>Inflation Experiences by Demographic Group: 1983-2005</subTitle>
+            <titlePartNumber>Working Paper 2005-20</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2005-01-01</sortDate>
+            <dateIssued>November 2006</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>104 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/constructing-chicago-fed-income-based-economic-index-consumer-price-index-533729</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2005-20.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/constructing-chicago-fed-income-based-economic-index-consumer-price-index-533729</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

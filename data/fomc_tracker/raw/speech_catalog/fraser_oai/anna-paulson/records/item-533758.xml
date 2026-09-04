@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:05Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533758</identifier>
+        <datestamp>2025-07-19T22:06:47Z</datestamp>
+        <setSpec>author:8348</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:4895</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Osili, Una Okonkwo</namePart>
+            <recordInfo>
+              <recordIdentifier>8348</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Payment systems</topic>
+              <recordInfo>
+                <recordIdentifier>4895</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>We find that wealthier and more educated immigrants are more likely to make use of basic banking services and other formal financial services. Holding these (and other) factors constant, we find immigrants from countries with more effective institutions are more likely to have a relationship with a bank and use formal financial markets more extensively. Institutional quality appears to be an important factor in both determining both the breadth and the depth of financial access. It can explain approximately 17 percent of the country-of- origin-level variation in bank account usage among immigrants in the U.S., after other characteristics, including wealth, education and income, are controlled for. Institutional quality is even more important for explaining more extensive participation in financial markets, accounting for 27 percent of the analogous variation. We examine various measures of institutional effectiveness and are careful to control for unobserved individual characteristics, including specifications with country fixed-effects.</abstract>
+          <titleInfo>
+            <title>What Can We Learn About Financial Access From U.S. Immigrants?</title>
+            <titlePartNumber>Working Paper 2006-25</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2006-11-28</sortDate>
+            <dateIssued>November 2006</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>58 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/learn-financial-access-us-immigrants-533758</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2006-25.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/learn-financial-access-us-immigrants-533758</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:57Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:575156</identifier>
+        <datestamp>2026-01-28T16:59:16Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:6749</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Kuttner, Kenneth Neil</namePart>
+            <recordInfo>
+              <recordIdentifier>6749</recordIdentifier>
+            </recordInfo>
+          </name>
+          <abstract>Recent research has questioned the usefulness of Vector Autoregression (VAR) models as a description of monetary policy, especially in light of the low correlation between forecast errors from VARs and those derived from Fed funds futures rates. This paper presents three findings on VARs' ability to describe monetary policy. First, the correlation between forecasts errors is a misleading measure of how closely the VAR forecast mimics the futures market's. In particular, the low correlation is partly due to a week positive correlation between the VAR forecasts and the futures market errors. Second, Fed funds rate forecasts from common VAR specifications do tend to be noisy, but this can be remedied by estimating more parsimonious models on post-1982 data. Third, time aggregation problems caused by the structure of the Fed funds futures market can distort the timing and magnitude of shocks derived from futures rates, and complicate comparisons with VAR-based forecasts.</abstract>
+          <titleInfo>
+            <title>Can VARs Describe Monetary Policy?</title>
+            <titlePartNumber>Working Paper 1998-19</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>1998-12-29</sortDate>
+            <dateIssued>December 1998</dateIssued>
+          </originInfo>
+          <classification authority="jel">E2, J61, J62</classification>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>26 pages</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/vars-describe-monetary-policy-575156</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_1998-19.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/vars-describe-monetary-policy-575156</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

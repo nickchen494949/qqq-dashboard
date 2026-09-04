@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:00:13Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:527450</identifier>
+        <datestamp>2023-12-01T19:46:55Z</datestamp>
+        <setSpec>author:129</setSpec>
+        <setSpec>author:2483</setSpec>
+        <setSpec>subject:4898</setSpec>
+        <setSpec>subject:7490</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Federal Reserve Bank of St. Louis</namePart>
+            <recordInfo>
+              <recordIdentifier>129</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>contributor</roleTerm>
+            </role>
+            <namePart>Bullard, James</namePart>
+            <recordInfo>
+              <recordIdentifier>2483</recordIdentifier>
+            </recordInfo>
+          </name>
+          <note type="public">© Federal Reserve Bank of St. Louis</note>
+          <genre>sound recording</genre>
+          <subject>
+            <name>
+              <name>Bullard, James</name>
+              <recordInfo>
+                <recordIdentifier>2483</recordIdentifier>
+              </recordInfo>
+            </name>
+            <topic>
+              <topic>Global Financial Crisis, 2008-2009</topic>
+              <recordInfo>
+                <recordIdentifier>4898</recordIdentifier>
+              </recordInfo>
+            </topic>
+            <topic>
+              <topic>Interviews</topic>
+              <recordInfo>
+                <recordIdentifier>7490</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>James Bullard discusses his goals upon assuming leadership of the St. Louis Fed in the midst of the recent financial crisis.</abstract>
+          <titleInfo>
+            <title>Interview with James Bullard [Excerpt]</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>subunit</issuance>
+            <sortDate>2013-01-01</sortDate>
+            <dateIssued>2013</dateIssued>
+          </originInfo>
+          <relatedItem type="titleParent">
+            <sortOrder>frbstlcentennial_0155</sortOrder>
+            <titleInfo>
+              <title>Federal Reserve Bank of St. Louis Centennial</title>
+            </titleInfo>
+            <recordInfo>
+              <recordIdentifier>5182</recordIdentifier>
+            </recordInfo>
+          </relatedItem>
+          <typeOfResource>sound recording</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent> pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>audio/mpeg</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/archival-collection/federal-reserve-bank-st-louis-centennial-5182/interview-james-bullard-excerpt-527450</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/media/Bullard_Clip2.mp3</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:53:36Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:558046</identifier>
+        <datestamp>2025-07-20T17:43:57Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Atlanta Fed President and CEO Dennis Lockhart discusses current monetary policy in light of the looming fiscal cliff at the University of Virginia Investing Conference on November 16.</abstract>
+          <titleInfo>
+            <title>Monetary Policy and Emerging Challenges</title>
+            <subTitle>At the University of Virginia Investing Conference</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-11-16</sortDate>
+            <frequency>completely irregular</frequency>
+            <dateIssued>November 16, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>3 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/monetary-policy-emerging-challenges-558046</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/frbatl_lockhart_20121116.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/monetary-policy-emerging-challenges-558046</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

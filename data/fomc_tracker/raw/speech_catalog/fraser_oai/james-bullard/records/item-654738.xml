@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:01:34Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:654738</identifier>
+        <datestamp>2025-07-20T16:21:24Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Speech</note>
+          <note type="public">This speech was also delivered at The Institute of Regulation and Risk North Asia, The InterContinental Hotel, Tokyo Bay, Japan, June 14, 2010.</note>
+          <titleInfo>
+            <title>The Global Recovery and Monetary Policy</title>
+            <subTitle>Delivered at The Institute of Regulation and Risk North Asia, The Grand Ballroom, Conrad Hotel, Pacific Place, Hong Kong</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2010-06-15</sortDate>
+            <dateIssued>June 15, 2010</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>5 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/global-recovery-monetary-policy-654738</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/presidents/bullard/bullard_20100615.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/global-recovery-monetary-policy-654738</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

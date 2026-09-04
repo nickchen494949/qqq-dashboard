@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:47Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533512</identifier>
+        <datestamp>2025-07-18T11:13:43Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:72</setSpec>
+        <setSpec>author:8232</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Bordo, Michael D.</namePart>
+            <recordInfo>
+              <recordIdentifier>72</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Erceg, Christopher J.</namePart>
+            <recordInfo>
+              <recordIdentifier>8232</recordIdentifier>
+            </recordInfo>
+          </name>
+          <abstract>This paper examines the ability of a simple stylized general equilibrium model that incorporates nominal wage rigidity to explain the magnitude and persistence of the Great Depression in the United States. The impulses to our analysis are money supply shocks. The Taylor contracts model is surprisingly successful in accounting for the behavior of major macro aggregates and real wages during the downturn phase of the Depression, i.e., from 1929:3 through mid-1933. Our analysis provides support for the hypothesis that a monetary contraction operating through a sticky wage channel played a significant role in accounting for the downturn, and also provides an interesting refinement to this explanation. In particular, both the absolute severity of the Depression's downturn and its relative severity compared to the 1920-21 recession are likely attributable to the price decline having a much larger unanticipated component during the Depression, as well as less flexible wage-setting practices during this latter period. Another finding casts doubt on explanations for the 1933-36 recovery that rely heavily on the substantial demonetization that began in 1933.</abstract>
+          <titleInfo>
+            <title>Money, Sticky Wages, and the Great Depression</title>
+            <titlePartNumber>Working Paper 1997-02</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>1997-09-01</sortDate>
+            <dateIssued>September 1997</dateIssued>
+          </originInfo>
+          <relatedItem type="series">
+            <titleInfo>
+              <title>International Finance Discussion Papers</title>
+            </titleInfo>
+          </relatedItem>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>55 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/money-sticky-wages-great-depression-533512</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_1997-02.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/money-sticky-wages-great-depression-533512</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:54:52Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667432</identifier>
+        <datestamp>2025-07-29T16:26:19Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Bank Supervision and Central Banking: Understanding Credit During a Time of Financial Turmoil</title>
+            <subTitle>Speech given at the Bank of Korea and Bank for International Settlements (BIS) Seminar, "Household Debt: Implications for Monetary Policy and Financial Stability," Seoul, Korea</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-03-28</sortDate>
+            <dateIssued>March 28, 2008</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>20 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/bank-supervision-central-banking-understanding-credit-a-time-financial-turmoil-667432</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/rosengren_20080327.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/bank-supervision-central-banking-understanding-credit-a-time-financial-turmoil-667432</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

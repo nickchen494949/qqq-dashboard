@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:53:18Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:558012</identifier>
+        <datestamp>2025-07-19T21:19:13Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Atlanta Fed President and CEO Dennis Lockhart was scheduled to speak at the Rotary Club of Atlanta on Jan. 10, 2011. Inclement weather in Atlanta forced the cancellation of Dennis Lockhart's delivery of his speech, but the text of his planned remarks is available.</note>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>The Economy in 2011: Sustainable Growth Despite Headwinds</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2011-01-10</sortDate>
+            <frequency>completely irregular</frequency>
+            <dateIssued>January 10, 2011</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>3 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/economy-2011-sustainable-growth-despite-headwinds-558012</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/frbatl_lockhart_20110110.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-dennis-lockhart-5579/economy-2011-sustainable-growth-despite-headwinds-558012</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:47Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533587</identifier>
+        <datestamp>2025-07-19T00:09:25Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:8212</setSpec>
+        <setSpec>subject:4250</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Croushore, Dean Darrell</namePart>
+            <namePart type="date">1956-</namePart>
+            <recordInfo>
+              <recordIdentifier>8212</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Monetary policy</topic>
+              <recordInfo>
+                <recordIdentifier>4250</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>Monetary policy research using time series methods has been criticized for using more information than the Federal Reserve had available in setting policy. To quantify the role of this criticism, we propose a method to estimate a VAR with real-time data while accounting for the latent nature of many economic variables, such as output. Our estimated monetary policy shocks are closely correlated with a typically estimated measure. The impulse response functions are broadly similar across the methods. Our evidence suggests that the use of revised data in VAR analyses of monetary policy shocks may not be a serious limitation.</abstract>
+          <titleInfo>
+            <title>Data Revisions and the Identification of Monetary Policy Shocks</title>
+            <titlePartNumber>Working Paper 2000-26</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2000-09-01</sortDate>
+            <dateIssued>September 2000</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>35 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/data-revisions-identification-monetary-policy-shocks-533587</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2000-26.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/data-revisions-identification-monetary-policy-shocks-533587</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

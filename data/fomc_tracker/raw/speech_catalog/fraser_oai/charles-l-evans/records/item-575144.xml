@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:55Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:575144</identifier>
+        <datestamp>2025-07-21T05:33:14Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:4242</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Marshall, David A.</namePart>
+            <namePart type="date">1950-</namePart>
+            <recordInfo>
+              <recordIdentifier>4242</recordIdentifier>
+            </recordInfo>
+          </name>
+          <abstract>This paper explores how exogenous impulses to monetary policy affect the yield curve for nominally risk-free bonds. We identify monetary policy shocks using three distinct variants of the identified VAR methodology. All three approaches imply similar patterns for the effect of monetary policy shocks on the term structure: A contractionary policy shock induces a pronounced positive but short-lived response in short term interest rates, with a smaller effect on medium-term rates and almost no effect on long term rates. Because of their transitory impact, monetary policy shocks account for a relatively small fraction of the long-run variance on interest rates. The response of the yield curve to a monetary policy shock is unambiguously a liquidity effect rather than an expected inflation effect. We then ask whether a dynamic stochastic equilibrium model that incorporates nominal rigidities can replicate these patterns. We find that the limited participation model of Lucas (1990), Fuerst (1992), and Christiano and Eichenbaum (1995), is broadly consistent with the data, provided modest adjustment costs are imposed on monetary balances available to satisfy households cash-in-advance constraint.</abstract>
+          <titleInfo>
+            <title>Monetary Policy and the Term Structure of Nominal Interest Rates</title>
+            <subTitle>Evidence and Theory</subTitle>
+            <titlePartNumber>Working Paper 1997-10</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>1997-12-01</sortDate>
+            <dateOther>November 3, 1997</dateOther>
+            <dateIssued>December 1997</dateIssued>
+          </originInfo>
+          <relatedItem type="series">
+            <titleInfo>
+              <title>Macroeconomic Issues</title>
+            </titleInfo>
+          </relatedItem>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>64 pages</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/monetary-policy-term-structure-nominal-interest-rates-575144</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_1997-10.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/monetary-policy-term-structure-nominal-interest-rates-575144</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

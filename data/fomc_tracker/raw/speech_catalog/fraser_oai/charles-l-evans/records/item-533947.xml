@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:49Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533947</identifier>
+        <datestamp>2026-01-27T21:30:50Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:4218</setSpec>
+        <setSpec>author:8250</setSpec>
+        <setSpec>author:8296</setSpec>
+        <setSpec>subject:6559</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Fisher, Jonas D. M.</namePart>
+            <namePart type="date">1965-</namePart>
+            <recordInfo>
+              <recordIdentifier>4218</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Gourio, François</namePart>
+            <recordInfo>
+              <recordIdentifier>8250</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Krane, Spencer D.</namePart>
+            <recordInfo>
+              <recordIdentifier>8296</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Risk</topic>
+              <recordInfo>
+                <recordIdentifier>6559</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>As projections have inflation heading back toward target and the labor market continuing to improve, the Federal Reserve has begun to contemplate an increase in the federal funds rate. There is however substantial uncertainty around these projections. How should this uncertainty affect monetary policy? In many standard models uncertainty has no effect. In this paper, we demonstrate that the zero lower bound on nominal interest rates implies that the central bank should adopt a looser policy when there is uncertainty. In the current context this result implies that a delayed liftoff is optimal. We demonstrate this result theoretically in two canonical macroeconomic models. Using numerical simulations of our models, calibrated to the current environment, we find optimal policy calls for 2 to 3 quarters delay in liftoff relative to a policy that does not take into account uncertainty about policy being constrained by the ZLB. We then use a narrative study of Federal Reserve communications and estimated policy reaction functions to show that risk management is a longstanding practice in the conduct of monetary policy.</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>Risk Management for Monetary Policy Near the Zero Lower Bound</title>
+            <titlePartNumber>Working Paper 2015-03</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2015-05-21</sortDate>
+            <dateIssued>May 2015</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>65 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/risk-management-monetary-policy-near-zero-lower-bound-533947</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2015-03.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

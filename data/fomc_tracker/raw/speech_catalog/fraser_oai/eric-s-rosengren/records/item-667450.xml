@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:54:59Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667450</identifier>
+        <datestamp>2025-07-29T14:58:16Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>The Impact of Liquidity, Securitization, and Banks on the Real Economy</title>
+            <subTitle>Panel discussion at the Conference on Financial Markets and Monetary Policy, sponsored by the Federal Reserve Board and the Journal of Money, Credit, and Banking, Washington, D.C.</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2009-06-05</sortDate>
+            <dateIssued>June 5, 2009</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>16 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/impact-liquidity-securitization-banks-real-economy-667450</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/rosengren_20090605.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/impact-liquidity-securitization-banks-real-economy-667450</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

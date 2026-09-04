@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:04Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533697</identifier>
+        <datestamp>2025-07-19T22:16:44Z</datestamp>
+        <setSpec>author:8348</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:4892</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Osili, Una Okonkwo</namePart>
+            <recordInfo>
+              <recordIdentifier>8348</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Wealth</topic>
+              <recordInfo>
+                <recordIdentifier>4892</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>The goal of this paper is to investigate the prospects for the wealth assimilation of immigrants by studying the financial market behavior of U.S. immigrants, compared to the native-born. Compared to similar natives, immigrants are less likely to own a wide range of financial assets, including savings and checking accounts. Immigrant status also has a significant impact on transitions out of account ownership. We find that lower rates of financial market participation tend to persist even for immigrants who have lived in the U.S. for several years. Our results suggest that a large share of the immigrant-native gap in financial market participation is driven by group differences in education, income, and geographic location. For a given immigrant, the likelihood of financial market participation decreases with higher levels of ethnic concentration in the metropolitan area.</abstract>
+          <titleInfo>
+            <title>Immigrant-Native Differences in Financial Market Participation</title>
+            <titlePartNumber>Working Paper 2004-18</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2004-01-01</sortDate>
+            <dateIssued>December 2006</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>50 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/immigrant-native-differences-financial-market-participation-533697</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2004-18.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/immigrant-native-differences-financial-market-participation-533697</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

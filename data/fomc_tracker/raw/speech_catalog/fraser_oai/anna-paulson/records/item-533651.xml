@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:03Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533651</identifier>
+        <datestamp>2025-09-17T21:12:22Z</datestamp>
+        <setSpec>author:4176</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>author:18462</setSpec>
+        <setSpec>subject:4892</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Townsend, Robert M.</namePart>
+            <namePart type="date">1948-</namePart>
+            <recordInfo>
+              <recordIdentifier>4176</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Karaivanov, Alexander K.</namePart>
+            <recordInfo>
+              <recordIdentifier>18462</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Wealth</topic>
+              <recordInfo>
+                <recordIdentifier>4892</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>We present and estimate a model where the choice between entrepreneurship and wage work may be influenced by financial market imperfections. The model allows for limited liability, as in Evans and Jovanovic (1989), moral hazard, as in Aghion and Bolton (1996), and a combination of both constraints. The paper uses structural techniques to estimate the model and identify the source of financial market imperfections using data from rural and semi-urban households in Thailand. Structural, non-parametric and reduced form estimates provide independent evidence that the dominant source of credit market imperfections is moral hazard. We reject the hypothesis that limited liability alone can explain the data.</abstract>
+          <titleInfo>
+            <title>Distinguishing Limited Liability From Moral Hazard in a Model of Entrepreneurship</title>
+            <titlePartNumber>Working Paper 2003-06</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2003-01-01</sortDate>
+            <dateIssued>April 2005</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>48 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/distinguishing-limited-liability-moral-hazard-a-model-entrepreneurship-533651</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2003-06.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/distinguishing-limited-liability-moral-hazard-a-model-entrepreneurship-533651</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

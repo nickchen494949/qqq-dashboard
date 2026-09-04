@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:40:53Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:575066</identifier>
+        <datestamp>2025-07-31T19:34:10Z</datestamp>
+        <setSpec>author:8234</setSpec>
+        <setSpec>author:9846</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Evans, Charles</namePart>
+            <namePart type="date">1958-</namePart>
+            <recordInfo>
+              <recordIdentifier>8234</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Santos, Fernando Teixeira dos</namePart>
+            <namePart type="date">1951-</namePart>
+            <recordInfo>
+              <recordIdentifier>9846</recordIdentifier>
+            </recordInfo>
+          </name>
+          <titleInfo>
+            <title>Monetary Policy Shocks and Productivity Measures in the G-7 Countries</title>
+            <titlePartNumber>Working Paper 1993-12</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>1993-11-01</sortDate>
+            <dateIssued>November 1993</dateIssued>
+          </originInfo>
+          <relatedItem type="series">
+            <titleInfo>
+              <title>Macroeconomic Issues</title>
+            </titleInfo>
+          </relatedItem>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>print</form>
+            <extent>60 pages</extent>
+            <digitalOrigin>reformatted digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/monetary-policy-shocks-productivity-measures-g-7-countries-575066</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_1993-12.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/monetary-policy-shocks-productivity-measures-g-7-countries-575066</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

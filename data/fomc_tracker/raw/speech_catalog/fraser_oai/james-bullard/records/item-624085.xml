@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:00:15Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:624085</identifier>
+        <datestamp>2025-07-31T14:40:06Z</datestamp>
+        <setSpec>author:2483</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Bullard, James</namePart>
+            <recordInfo>
+              <recordIdentifier>2483</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>article</genre>
+          <abstract>On June 30, the FOMC raised the target for its key federal funds rate by 25 basis points after holding it at 1 percent for over a year. The FOMC was in a similar situation in early 1994. In the 1994 episode the federal funds rate target moved 300 basis points in one year. The 2004 episode has yet to unfold, but federal funds futures data suggest a substantial tightening of policy is in the offing.</abstract>
+          <titleInfo>
+            <title>1994</title>
+            <titlePartNumber>2004, No. 17</titlePartNumber>
+          </titleInfo>
+          <identifier type="doi">https://doi.org/10.20955/es.2004.17</identifier>
+          <originInfo>
+            <place>St. Louis</place>
+            <issuance>periodical</issuance>
+            <sortDate>2004-07-03</sortDate>
+            <publisher>Federal Reserve Bank of St. Louis</publisher>
+            <dateIssued>July 3, 2004</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>1 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/economic-synopses-6715/1994-624085</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/publications/frbsl_econosynops/economicsynopses_stls_20040703.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

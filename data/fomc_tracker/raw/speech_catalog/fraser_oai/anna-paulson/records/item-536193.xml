@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:11Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:536193</identifier>
+        <datestamp>2025-07-18T03:59:48Z</datestamp>
+        <setSpec>author:8948</setSpec>
+        <setSpec>author:9008</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>author:8373</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Berends, Kyal</namePart>
+            <recordInfo>
+              <recordIdentifier>8948</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>McMenamin, Robert</namePart>
+            <recordInfo>
+              <recordIdentifier>9008</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Rosen, Richard Joseph</namePart>
+            <recordInfo>
+              <recordIdentifier>8373</recordIdentifier>
+            </recordInfo>
+          </name>
+          <titleInfo>
+            <title>Understanding the Relationship Between Life Insurers and the Federal Home Loan Banks</title>
+            <titlePartNumber>No. 318</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>periodical</issuance>
+            <sortDate>2014-01-01</sortDate>
+            <dateIssued>January 2014</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>3 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/chicago-fed-letter-5287/understanding-relationship-life-insurers-federal-home-loan-banks-536193</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/fedletter/frbchi_fedletter_2014_318.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/chicago-fed-letter-5287/understanding-relationship-life-insurers-federal-home-loan-banks-536193</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

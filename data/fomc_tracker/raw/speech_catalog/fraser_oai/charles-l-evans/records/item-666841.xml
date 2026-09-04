@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:41:06Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:666841</identifier>
+        <datestamp>2025-07-29T14:51:13Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Nontraditional Monetary Policy and the Economic Outlook</title>
+            <subTitle>[Speech at] Chamber of Commerce of St. Joseph County, South Bend, IN</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2009-07-08</sortDate>
+            <dateIssued>July 8, 2009</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/nontraditional-monetary-policy-economic-outlook-666841</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/evans_20090708.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/nontraditional-monetary-policy-economic-outlook-666841</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

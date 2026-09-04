@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:00:17Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:624180</identifier>
+        <datestamp>2025-07-31T15:06:48Z</datestamp>
+        <setSpec>author:2483</setSpec>
+        <setSpec>author:13608</setSpec>
+        <setSpec>subject:4466</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Bullard, James</namePart>
+            <recordInfo>
+              <recordIdentifier>2483</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Pande, Geetanjali</namePart>
+            <recordInfo>
+              <recordIdentifier>13608</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>article</genre>
+          <subject>
+            <topic>
+              <topic>Interest rates</topic>
+              <recordInfo>
+                <recordIdentifier>4466</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>To obtain some perspective on how the effective federal funds rate behaves in times of turmoil, the authors compare the recent behavior of the effective federal funds rate to its behavior in 1998.</abstract>
+          <titleInfo>
+            <title>A Tale of Two Crises</title>
+            <titlePartNumber>2007, No. 25</titlePartNumber>
+          </titleInfo>
+          <identifier type="doi">https://doi.org/10.20955/es.2007.25</identifier>
+          <originInfo>
+            <place>St. Louis</place>
+            <issuance>periodical</issuance>
+            <sortDate>2007-11-01</sortDate>
+            <publisher>Federal Reserve Bank of St. Louis</publisher>
+            <dateIssued>November 1, 2007</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>1 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/economic-synopses-6715/a-tale-two-crises-624180</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/publications/frbsl_econosynops/economicsynopses_stls_20071101.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

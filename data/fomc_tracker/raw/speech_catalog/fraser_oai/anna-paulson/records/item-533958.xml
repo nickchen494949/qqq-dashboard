@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T13:35:07Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:533958</identifier>
+        <datestamp>2026-01-27T22:19:34Z</datestamp>
+        <setSpec>author:8373</setSpec>
+        <setSpec>author:8352</setSpec>
+        <setSpec>subject:5610</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Rosen, Richard Joseph</namePart>
+            <recordInfo>
+              <recordIdentifier>8373</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Paulson, Anna L.</namePart>
+            <recordInfo>
+              <recordIdentifier>8352</recordIdentifier>
+            </recordInfo>
+          </name>
+          <subject>
+            <topic>
+              <topic>Life insurance</topic>
+              <recordInfo>
+                <recordIdentifier>5610</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <abstract>The 2008 financial crisis brought a focus on the potential for a large insurance firm to contribute to systemic risk. Among the concerns raised was that a negative shock to insurers could lead to a 'fire sale' of corporate bonds, a market where insurers are among the largest participants. This paper discusses the existing evidence on life insurance firms and systemic risk, with a focus on the investment grade corporate bond market. We provide some tentative evidence that life insurers tend to absorb liquidity risk by purchasing bonds when the bonds are less liquid than average. However, we do not find evidence that insurers increased bond purchases specifically during the financial crisis leaving open the question of whether insurers would play a stabilizing role in a future crisis.</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>The Life Insurance Industry and Systemic Risk</title>
+            <subTitle>A Bond Market Perspective</subTitle>
+            <titlePartNumber>Working Paper 2016-04</titlePartNumber>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2016-03-22</sortDate>
+            <dateIssued>March 2016</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>37 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/working-papers-federal-reserve-bank-chicago-5285/life-insurance-industry-systemic-risk-533958</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/workingpapers/frbchi_workingpaper_2016-04.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
