@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:39:58Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667597</identifier>
+        <datestamp>2025-07-29T15:11:55Z</datestamp>
+        <setSpec>author:14104</setSpec>
+        <setSpec>author:22492</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Rosengren, Eric S.</namePart>
+            <recordInfo>
+              <recordIdentifier>14104</recordIdentifier>
+            </recordInfo>
+          </name>
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Biddinger, Paul D.</namePart>
+            <recordInfo>
+              <recordIdentifier>22492</recordIdentifier>
+            </recordInfo>
+          </name>
+          <titleInfo>
+            <title>Employer Responsibility in the Time of Coronavirus: A Joint Perspective</title>
+            <subTitle>Joint Statement</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-03-11</sortDate>
+            <dateIssued>March 11, 2020</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>5 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/employer-responsibility-time-coronavirus-a-joint-perspective-667597</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/rosengren_20200311.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-eric-rosengren-9015/employer-responsibility-time-coronavirus-a-joint-perspective-667597</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

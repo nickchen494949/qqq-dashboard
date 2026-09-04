@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:15:08Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:680841</identifier>
+        <datestamp>2025-07-09T14:31:33Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">﻿﻿Watch the speech here:﻿ &lt;a href="https://youtu.be/BEVqV3b-yeU"&gt;https://youtu.be/BEVqV3b-yeU&lt;/a&gt;</note>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>The Economy's Performance and Outlook, and Implications for Policy</title>
+            <subTitle>Remarks to the Boston Economic Club, Federal Reserve Bank of Boston</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2024-02-07</sortDate>
+            <dateIssued>February 7, 2024</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>11 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-susan-m-collins-9016/economys-performance-outlook-implications-policy-680841</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/collins_20240207.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

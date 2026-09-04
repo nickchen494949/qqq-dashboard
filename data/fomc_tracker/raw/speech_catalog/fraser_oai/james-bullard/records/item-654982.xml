@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:42:22Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:654982</identifier>
+        <datestamp>2025-07-22T04:52:53Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Published in Federal Reserve Bank of St. Louis Review, July/August 2009, 91(4), pp. 179-80.</note>
+          <titleInfo>
+            <title>President's Welcome</title>
+            <subTitle>Projecting Potential Growth: Issues and Measurements — The 33rd Annual Economic Policy Conference</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-10-17</sortDate>
+            <dateIssued>October 17, 2008</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>2 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/presidents-welcome-654982</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/presidents/bullard/bullard_20081017b.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/presidents-welcome-654982</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

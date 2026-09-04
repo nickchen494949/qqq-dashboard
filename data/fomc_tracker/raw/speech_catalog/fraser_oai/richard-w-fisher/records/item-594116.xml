@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:13:04Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:594116</identifier>
+        <datestamp>2025-07-20T20:39:56Z</datestamp>
+        <setSpec>author:10852</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Fisher, Richard W.</namePart>
+            <namePart type="date">1949-</namePart>
+            <recordInfo>
+              <recordIdentifier>10852</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>Observations on the U.S. Economy: Need the Fed Do More? (With Reference to Elvis Costello, Clarence Day, Narayana Kocherlakota and Bernard Baruch)</title>
+            <subTitle>Remarks before the Vancouver Board of Trade</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2010-10-01</sortDate>
+            <dateIssued>October 1, 2010</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>7 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/observations-us-economy-need-fed-reference-elvis-costello-clarence-day-narayana-kocherlakota-bernard-baruch-594116</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbdal/speeches/fisher/Fisher20101001.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/observations-us-economy-need-fed-reference-elvis-costello-clarence-day-narayana-kocherlakota-bernard-baruch-594116</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

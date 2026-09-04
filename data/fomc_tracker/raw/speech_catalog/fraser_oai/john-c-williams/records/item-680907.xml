@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:08:42Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:680907</identifier>
+        <datestamp>2025-07-09T13:40:27Z</datestamp>
+        <setSpec>author:128</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>contributor</roleTerm>
+            </role>
+            <namePart>Federal Reserve Bank of New York</namePart>
+            <recordInfo>
+              <recordIdentifier>128</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>537 Days: Time Is Still Ticking</title>
+            <subTitle>Remarks at LIBOR: Entering the Endgame (a webinar hosted by the Bank of England and the New York Fed)</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-07-13</sortDate>
+            <dateIssued>July 13, 2020</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>3 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-john-c-williams-9040/537-days-time-still-ticking-680907</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbny/presidents/williams_20200713.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

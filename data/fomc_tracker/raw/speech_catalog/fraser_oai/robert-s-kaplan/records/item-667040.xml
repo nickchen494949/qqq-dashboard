@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:14:05Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667040</identifier>
+        <datestamp>2025-07-30T07:53:08Z</datestamp>
+        <setSpec>author:10851</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Kaplan, Robert S.</namePart>
+            <namePart type="date">1957-</namePart>
+            <recordInfo>
+              <recordIdentifier>10851</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Where We Stand: Assessment of Economic Conditions and Implications for Monetary Policy</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2018-08-21</sortDate>
+            <dateIssued>August 21, 2018</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>5 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-robert-s-kaplan-6146/stand-assessment-economic-conditions-implications-monetary-policy-667040</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbdal/speeches/kaplan/kaplan_20180821.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-robert-s-kaplan-6146/stand-assessment-economic-conditions-implications-monetary-policy-667040</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

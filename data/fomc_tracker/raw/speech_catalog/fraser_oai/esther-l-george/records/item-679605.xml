@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:42:06Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:679605</identifier>
+        <datestamp>2025-07-31T21:24:27Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>2020 Vision: Solid Growth in a Challenging Low-Interest-Rate World</title>
+            <subTitle>Remarks at the Central Exchange, Kansas City, Missouri</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-01-14</sortDate>
+            <dateIssued>January 14, 2020</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/2020-vision-solid-growth-a-challenging-low-interest-rate-world-679605</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbkc/speeches/george_20200114.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/2020-vision-solid-growth-a-challenging-low-interest-rate-world-679605</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

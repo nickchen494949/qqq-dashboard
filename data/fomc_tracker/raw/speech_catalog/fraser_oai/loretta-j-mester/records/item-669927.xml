@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:09:55Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:669927</identifier>
+        <datestamp>2025-07-30T12:05:37Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>What's Ahead for the U.S. Economy and Monetary Policy?</title>
+            <subTitle>[Remarks to] Ohio Bankers League 2021 CEO Symposium, Columbus, Ohio (via videoconference)</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-09-24</sortDate>
+            <dateIssued>September 24, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/whats-ahead-us-economy-monetary-policy-669927</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbclev/presidents/mester_20210924.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/whats-ahead-us-economy-monetary-policy-669927</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

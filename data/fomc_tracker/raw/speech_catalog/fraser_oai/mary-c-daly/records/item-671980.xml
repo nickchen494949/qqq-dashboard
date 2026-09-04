@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:10:29Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:671980</identifier>
+        <datestamp>2025-07-30T11:49:39Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Video is available at https://www.frbsf.org/news-and-media/events/2023/04/mary-c-daly-salt-lake-chamber-2023/</note>
+          <titleInfo>
+            <title>Calibrating Policy in an Uncertain Time</title>
+            <subTitle>Remarks, Salt Lake Chamber, Salt Lake City</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2023-04-12</sortDate>
+            <dateIssued>April 12, 2023</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>5 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/calibrating-policy-uncertain-time-671980</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsf/presidents/daly_20230412.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/calibrating-policy-uncertain-time-671980</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

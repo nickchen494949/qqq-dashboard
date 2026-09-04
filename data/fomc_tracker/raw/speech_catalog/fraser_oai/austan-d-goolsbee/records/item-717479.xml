@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:27Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:717479</identifier>
+        <datestamp>2026-07-03T19:16:37Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">This and other transcripts on this site have been provided by a third-party service. The &lt;a href="https://players.brightcove.net/4934638106001/Sk7cO8ZDB_default/index.html?videoId=6372647720112"&gt;video replay&lt;/a&gt; should be considered the definitive record of the event.</note>
+          <genre>speech</genre>
+          <abstract>Federal Reserve Bank of Chicago President and CEO Austan Goolsbee shared opening remarks at the Fed Listens event, Perspectives from the Midwest, on May 9, 2025. The event began at 9:00 am CT with President Goolsbee's remarks.</abstract>
+          <titleInfo>
+            <title>Fed Listens: Perspectives from the Midwest</title>
+            <subTitle>Transcript</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2025-05-09</sortDate>
+            <dateIssued>May 9, 2025</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-austan-d-goolsbee-8963/fed-listens-perspectives-midwest-717479</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/goolsbee_20250509.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

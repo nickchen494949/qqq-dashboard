@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:13:34Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:594180</identifier>
+        <datestamp>2025-07-22T19:55:02Z</datestamp>
+        <setSpec>author:10852</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Fisher, Richard W.</namePart>
+            <namePart type="date">1949-</namePart>
+            <recordInfo>
+              <recordIdentifier>10852</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>Monetary Policy and the Maginot Line (With Reference to Jonathan Swift, Neil Irwin, Shakespeare's Portia, Duck Hunting, the Virtues of Nuisance and Paul Volcker)</title>
+            <subTitle>Monetary Policy: Debate, Dissent and Discussion with Richard Fisher University of Southern California Annenberg School for Communication and Journalism</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2014-07-16</sortDate>
+            <dateIssued>July 16, 2014</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>10 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/monetary-policy-maginot-line-reference-jonathan-swift-neil-irwin-shakespeare-s-portia-duck-hunting-virtues-nuisance-paul-volcker-594180</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbdal/speeches/fisher/Fisher20140716.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/monetary-policy-maginot-line-reference-jonathan-swift-neil-irwin-shakespeare-s-portia-duck-hunting-virtues-nuisance-paul-volcker-594180</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

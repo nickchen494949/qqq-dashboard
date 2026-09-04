@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:08:12Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:671879</identifier>
+        <datestamp>2025-07-09T13:41:00Z</datestamp>
+        <setSpec>author:522</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>contributor</roleTerm>
+            </role>
+            <namePart>Federal Reserve Bank of San Francisco</namePart>
+            <recordInfo>
+              <recordIdentifier>522</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>Measuring the Effects of Monetary Policy on House Prices and the Economy</title>
+            <subTitle>Presentation to Bank Indonesia–BIS Conference on "Expanding the Boundaries of Monetary Policy in Asia and the Pacific," Jakarta, Indonesia</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2015-08-20</sortDate>
+            <dateIssued>August 20, 2015</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>13 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-john-c-williams-9040/measuring-effects-monetary-policy-house-prices-economy-671879</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsf/presidents/williams_20150820.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

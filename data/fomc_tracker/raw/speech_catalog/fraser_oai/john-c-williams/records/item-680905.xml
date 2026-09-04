@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:08:41Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:680905</identifier>
+        <datestamp>2025-07-09T13:30:21Z</datestamp>
+        <setSpec>author:128</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>contributor</roleTerm>
+            </role>
+            <namePart>Federal Reserve Bank of New York</namePart>
+            <recordInfo>
+              <recordIdentifier>128</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>The Economy in the Time of Coronavirus</title>
+            <subTitle>Remarks at the Buffalo Niagara Partnership, the Greater Rochester Chamber of Commerce, and CenterState CEO (delivered via videoconference)</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-05-21</sortDate>
+            <dateIssued>May 21, 2020</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>2 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-john-c-williams-9040/economy-time-coronavirus-680905</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbny/presidents/williams_20200521.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

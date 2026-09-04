@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:41:46Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:679558</identifier>
+        <datestamp>2025-08-01T06:10:27Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Effective Supervision: Balancing New and Traditional Approaches</title>
+            <subTitle>[Speech at the] SUERF/Bank of France Conference, The Financial Reconstruction of Europe, Paris</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2013-11-22</sortDate>
+            <dateIssued>November 22, 2013</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>9 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/effective-supervision-balancing-new-traditional-approaches-679558</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbkc/speeches/george_20131122.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/effective-supervision-balancing-new-traditional-approaches-679558</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

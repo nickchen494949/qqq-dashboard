@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:12:50Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:717478</identifier>
+        <datestamp>2026-07-03T19:16:34Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>In a speech at the annual meeting of the Securities Industry and Financial Markets Association, Atlanta Fed president Raphael Bostic explored some of the implications of an economic recovery that benefits some parts of the economy much less than other parts, and how these circumstances are laying bare disparities that have long plagued our economy.</abstract>
+          <titleInfo>
+            <title>The Benefits of a Diverse and Inclusive Recovery</title>
+            <subTitle>Annual Meeting of the Securities Industry and Financial Markets Association</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-10-19</sortDate>
+            <dateIssued>October 19, 2020</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-raphael-bostic-8996/benefits-a-diverse-inclusive-recovery-717478</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/bostic_20201019.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

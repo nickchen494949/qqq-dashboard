@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:09:55Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:669926</identifier>
+        <datestamp>2025-07-30T10:41:30Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>The Federal Reserve's Revised Monetary Policy Strategy and Its First Year of Practice</title>
+            <subTitle>Policy Keynote Speech, Bank of Finland and Centre for Economic Policy Research (CEPR) Joint Webinar "New Avenues for Monetary Policy" (via videoconference)</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-09-10</sortDate>
+            <dateIssued>September 10, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>31 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/federal-reserves-revised-monetary-policy-strategy-first-year-practice-669926</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbclev/presidents/mester_20210910.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/federal-reserves-revised-monetary-policy-strategy-first-year-practice-669926</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

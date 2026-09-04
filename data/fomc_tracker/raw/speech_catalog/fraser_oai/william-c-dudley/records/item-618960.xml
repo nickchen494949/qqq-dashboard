@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:16:46Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:618960</identifier>
+        <datestamp>2025-07-21T10:35:19Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>The Competitiveness of Puerto Rico's Economy: Reducing the Cost of Doing Business and Improving Labor Market Opportunities</title>
+            <subTitle>Remarks Before the Puerto Rico Chamber of Commerce Annual Convention, Fajardo, Puerto Rico</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-06-29</sortDate>
+            <dateIssued>June 29, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>3 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-william-c-dudley-6749/competitiveness-puerto-ricos-economy-reducing-cost-business-improving-labor-market-opportunities-618960</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbny/presidents/dudley/dudley_20120629.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-william-c-dudley-6749/competitiveness-puerto-ricos-economy-reducing-cost-business-improving-labor-market-opportunities-618960</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

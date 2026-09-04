@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:11:09Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:685569</identifier>
+        <datestamp>2026-07-03T14:02:18Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Subtitle from Federal Reserve Bank of Minneapolis archives.</note>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>More Thoughts on a Liftoff Plan</title>
+            <subTitle>[Remarks] at at the Annual Helena Branch Board of Directors Meeting and Community Luncheon Great Falls, Montana</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-10-10</sortDate>
+            <dateIssued>October 10, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <extent>13 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-narayana-kocherlakota-9360/thoughts-a-liftoff-plan-685569</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbminn/presidents/kocherlakota/kocherlakota_20121010.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

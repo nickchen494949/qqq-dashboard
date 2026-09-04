@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:16:47Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:618962</identifier>
+        <datestamp>2026-07-06T21:24:47Z</datestamp>
+        <setSpec>subject:7817</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <subject>
+            <name>
+              <name>Federal Reserve Bank of New York. Center for Microeconomic Data</name>
+              <recordInfo>
+                <recordIdentifier>28562</recordIdentifier>
+              </recordInfo>
+            </name>
+            <topic>
+              <topic>Federal Reserve Bank of New York. Center for Microeconomic Data. Housing Market Research</topic>
+              <recordInfo>
+                <recordIdentifier>7817</recordIdentifier>
+              </recordInfo>
+            </topic>
+          </subject>
+          <titleInfo>
+            <title>Opening Remarks at the Distressed Residential Real Estate: Dimensions, Impacts, and Remedies Conference, New York City</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-10-05</sortDate>
+            <dateIssued>October 5, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>1 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-william-c-dudley-6749/opening-remarks-distressed-residential-real-estate-dimensions-impacts-remedies-conference-new-york-city-618962</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbny/presidents/dudley/dudley_20121005.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-william-c-dudley-6749/opening-remarks-distressed-residential-real-estate-dimensions-impacts-remedies-conference-new-york-city-618962</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

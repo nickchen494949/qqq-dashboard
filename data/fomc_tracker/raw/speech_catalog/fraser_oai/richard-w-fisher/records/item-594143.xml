@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:13:16Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:594143</identifier>
+        <datestamp>2025-07-22T06:23:28Z</datestamp>
+        <setSpec>author:10852</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Fisher, Richard W.</namePart>
+            <namePart type="date">1949-</namePart>
+            <recordInfo>
+              <recordIdentifier>10852</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>Adios "Texas Ratio" (With an Unauthorized Rewrite of George Strait's Most Memorable Song and a Tribute to Bob Hankins)</title>
+            <subTitle>Remarks at the Texas Bankers Association's 128th Annual Convention &amp; Exposition</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2012-05-11</sortDate>
+            <dateIssued>May 11, 2012</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>8 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/adios-texas-ratio-unauthorized-rewrite-george-strait-s-memorable-song-a-tribute-bob-hankins-594143</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbdal/speeches/fisher/Fisher20120511.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/adios-texas-ratio-unauthorized-rewrite-george-strait-s-memorable-song-a-tribute-bob-hankins-594143</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:24:40Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:666970</identifier>
+        <datestamp>2025-07-29T15:54:49Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">View video at https://www.chicagofed.org/publications/speeches/2021/november-08-oesa-conference</note>
+          <titleInfo>
+            <title>What's Driving Growth and Inflation?</title>
+            <subTitle>[Remarks Presented Virtually to] Original Equipment Suppliers Association (OESA) 2021 Automotive Supplier Conference: Beyond Disruption, Novi, MI</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-11-08</sortDate>
+            <dateIssued>November 8, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>14 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/whats-driving-growth-inflation-666970</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/evans_20211108.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/whats-driving-growth-inflation-666970</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:12:46Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:667148</identifier>
+        <datestamp>2025-07-30T07:53:26Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <abstract>Atlanta Fed president and CEO Raphael Bostic presents his view of the Fed's policy path on October 23 to the Louisiana Committee of 100 in Baton Rouge.</abstract>
+          <titleInfo>
+            <title>A View of the Fed's Policy Path</title>
+            <subTitle>[Speech at] Business Roundtable, Louisiana Committe of 100 for Economic Development Inc., Baton Rouge, Louisiana</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2018-10-23</sortDate>
+            <dateIssued>October 23, 2018</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-raphael-bostic-8996/a-view-feds-policy-path-667148</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbatl/speeches/bostic_20181023.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-raphael-bostic-8996/a-view-feds-policy-path-667148</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

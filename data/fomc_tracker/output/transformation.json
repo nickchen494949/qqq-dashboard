@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "started_and_finished_at_utc": "2026-09-04T12:54:58.573515+00:00",
+  "started_and_finished_at_utc": "2026-09-04T15:33:13.545660+00:00",
   "raw_input_aggregate_sha256": "ab8268c5a44bec35e9316629d233dd03fdce4b018736a226dda9b84d00886441",
   "contract_file": "docs/FOMC_TRACKER.md",
   "contract_sha256": "2b5825b563a47fd675e84456b2978a7f0bb439d4625c0cd95377769a22df8eaa",
-  "code_sha256": "ac7b5210d0d66c124d0c8a36609836bb33b17e67e3a4c2ee71b31477f92b3a4a",
-  "git_commit": "6dd061c840c7f48e20f960592874f3a43ce80aab",
+  "code_sha256": "e455c8e4d69daa2259dc505cf35719e8e3fa68d3bb27b9913dd437c38b70cd0f",
+  "git_commit": "e0272765dca2f2743f0289ed9628339ff2e16e2d",
   "git_dirty": true,
   "command": "python3 tools/fomc_tracker.py --data-dir data/fomc_tracker",
   "parameters": {
@@ -51,6 +51,7 @@
     "latest_stance.md": "565627406e33ac73b7a76efb93727dbb869b86759d3768898077e2bb8990f850",
     "members.csv": "b10837d70bb1f6898f99211ea4a0fc56d95665acb2cc15b0f75a2cba0d21b173",
     "sep_snapshots.csv": "ee9d69bbf32f934d6b4687b23b642476d180bbd1847a533dd812046a22641579",
+    "speech_catalog.csv": "5df0d889d5512141382a984dbf6ffe4311f1067745f5446d32400e7c7b3f7d7b",
     "votes.csv": "b5cadda220aec2aefb8f6fbbf38c545b1c6b0542595330770fa84791bacd3e78"
   }
 }

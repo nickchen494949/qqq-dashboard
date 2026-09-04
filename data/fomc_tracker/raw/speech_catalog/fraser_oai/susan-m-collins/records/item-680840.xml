@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:15:07Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:680840</identifier>
+        <datestamp>2025-07-31T08:33:21Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">The virtual conference was held February 5-8, 2024.</note>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Opening Remarks for Sessions on Men and Women in the Workforce at the Virtual Conference, "Uneven Outcomes in the Labor Market," Organized by the Federal Reserve Board of Governors and the Reserve Banks of Atlanta, Boston, Cleveland, Philadelphia, San Francisco, and St. Louis</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2024-02-06</sortDate>
+            <dateIssued>February 6, 2024</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>5 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-susan-m-collins-9016/opening-remarks-sessions-men-women-workforce-virtual-conference-uneven-outcomes-labor-market-organized-federal-reserve-board-governors-reserve-banks-atlanta-boston-cleveland-philadelphia-san-francisco-st-louis-680840</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbbos/speeches/collins_20240206.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

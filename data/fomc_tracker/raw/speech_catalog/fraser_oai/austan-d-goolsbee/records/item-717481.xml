@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:26Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:717481</identifier>
+        <datestamp>2026-07-03T19:16:42Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Austan D. Goolsbee, president and CEO of the Federal Reserve Bank of Chicago, delivered a speech titled Lessons from the Supply Side at the 31st Annual Automotive Insights Symposium at the Bank's Detroit Branch on February 5, 2025.</abstract>
+          <titleInfo>
+            <title>Lessons from the Supply Side</title>
+            <subTitle>Speech at the 31st Annual Automotive Insights Symposium, Federal Reserve Bank of Chicago, Detroit Branch</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2025-02-05</sortDate>
+            <dateIssued>February 5, 2025</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>11 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-austan-d-goolsbee-8963/lessons-supply-side-717481</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/goolsbee_20250205.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

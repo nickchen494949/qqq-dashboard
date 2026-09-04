@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:26Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:680786</identifier>
+        <datestamp>2025-07-31T08:27:24Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>&lt;p&gt;Austan D. Goolsbee, president and chief executive officer of the Federal Reserve Bank of Chicago, delivered a policy speech discussing ways to improve Federal Reserve communications while participating in a panel discussion at the Hoover Institution Monetary Policy Conference: Getting Global Monetary Policy On Track, at Stanford University on May 3, 2024.&lt;/p&gt;</abstract>
+          <language>eng</language>
+          <titleInfo>
+            <title>Central Bank Communications Beyond “How Many?”</title>
+            <subTitle>Hoover Monetary Policy Conference: Getting Global Monetary Policy On Track, Hoover Institution at Stanford University, Stanford, CA</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2024-05-03</sortDate>
+            <dateIssued>May 3, 2024</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>8 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-austan-d-goolsbee-8963/central-bank-communications-beyond-many-680786</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/goolsbee_20240503.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

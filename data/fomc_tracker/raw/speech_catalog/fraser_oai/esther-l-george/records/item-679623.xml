@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:42:13Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:679623</identifier>
+        <datestamp>2025-07-31T21:23:41Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Higher Prices: Supply Bottlenecks, Robust Demand, or Both? Lessons from Energy Markets for the Broader Economy</title>
+            <subTitle>[Virtual Speech at the] "Energy and the Economy: Opportunities and Challenges of the Energy Transition," a Conference Hosted by the Federal Reserve Banks of Kansas City and Dallas</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-11-05</sortDate>
+            <dateIssued>November 5, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>8 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/higher-prices-supply-bottlenecks-robust-demand-lessons-energy-markets-broader-economy-679623</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbkc/speeches/george_20211105.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-esther-l-george-9278/higher-prices-supply-bottlenecks-robust-demand-lessons-energy-markets-broader-economy-679623</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

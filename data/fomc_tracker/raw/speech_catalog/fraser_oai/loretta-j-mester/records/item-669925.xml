@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:09:54Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:669925</identifier>
+        <datestamp>2025-07-30T09:51:23Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Financial Stability and Monetary Policy in a Low-Interest-Rate Environment</title>
+            <subTitle>[Remarks to] Workshop on Low-Interest-Rate and Unconventional Monetary Policy, Norges Bank, Oslo, Norway (via videoconference)</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-06-22</sortDate>
+            <dateIssued>June 22, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>17 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/financial-stability-monetary-policy-a-low-interest-rate-environment-669925</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbclev/presidents/mester_20210622.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/financial-stability-monetary-policy-a-low-interest-rate-environment-669925</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

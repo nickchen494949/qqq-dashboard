@@ -142,43 +142,73 @@ def fetch_oai_pages(params: dict[str, str], output_dir: Path, prefix: str) -> li
     return pages
 
 
-def fetch_oai_author(author_id: str, output_dir: Path) -> tuple[list[dict], str, list[dict]]:
-    params = {"verb": "ListRecords", "metadataPrefix": "mods", "set": f"author:{author_id}"}
-    try:
-        return fetch_oai_pages(params, output_dir, "records"), "LIST_RECORDS", []
-    except urllib.error.HTTPError as exc:
-        if exc.code != 500:
-            raise
-    identifier_pages = fetch_oai_pages(
-        {"verb": "ListIdentifiers", "metadataPrefix": "mods", "set": f"author:{author_id}"},
-        output_dir,
-        "identifiers",
-    )
-    identifiers: list[str] = []
-    for page in identifier_pages:
-        identifiers.extend(xml_identifiers(Path(page["path"]).read_bytes()))
-    records = list(identifier_pages)
+def browse_items(raw: bytes) -> list[dict]:
+    text = raw.decode("utf-8", errors="replace")
+    marker = "var browseByData = "
+    start = text.index(marker) + len(marker)
+    groups, _ = json.JSONDecoder().raw_decode(text[start:])
+    return [
+        item
+        for group in groups.values()
+        if isinstance(group, dict)
+        for item in group.get("items", [])
+    ]
+
+
+def date_from_official_url(item: dict) -> str:
+    urls = item.get("metadata", {}).get("location", {}).get("url", [])
+    for url in urls:
+        match = re.search(r"(?<!\d)((?:19|20)\d{6})(?!\d)", url)
+        if match:
+            return datetime.strptime(match.group(1), "%Y%m%d").date().isoformat()
+    return "UNKNOWN"
+
+
+def fetch_oai_author(record: dict, output_dir: Path) -> tuple[list[dict], str, list[dict]]:
+    title_id = str(record["id"])
+    title_url = f"{FRASER_ROOT}/title/{title_id}"
+    title_path = output_dir / "title_page_v3.htm"
+    page_record = freeze(title_url, title_path)
+    files = [page_record]
     failures: list[dict] = []
+    try:
+        items = browse_items(title_path.read_bytes())
+    except (ValueError, KeyError, json.JSONDecodeError, AttributeError) as exc:
+        return files, "TITLE_PAGE_PLUS_GET_RECORD", [
+            {"url": title_url, "error": f"BROWSE_DATA_{type(exc).__name__}"}
+        ]
+    candidates = [
+        item
+        for item in items
+        if date_from_official_url(item) == "UNKNOWN"
+        and (not item.get("decade") or str(item["decade"]) >= "2010")
+    ]
     record_dir = output_dir / "records"
-    for position, identifier in enumerate(sorted(set(identifiers)), start=1):
-        item_id = identifier.rsplit(":", 1)[-1]
+    for position, item in enumerate(candidates, start=1):
+        identifier = f"oai:fraser.stlouisfed.org:item:{item['id']}"
         url = oai_url({"verb": "GetRecord", "metadataPrefix": "mods", "identifier": identifier})
+        failure_path = record_dir / f"item-{item['id']}.failure.json"
+        if failure_path.exists():
+            failures.append(json.loads(failure_path.read_text(encoding="utf-8")))
+            continue
         try:
-            records.append(
-                freeze(url, record_dir / f"item-{item_id}.xml", attempts=1, timeout=15)
+            files.append(
+                freeze(url, record_dir / f"item-{item['id']}.xml", attempts=1, timeout=2)
             )
         except (urllib.error.URLError, TimeoutError) as exc:
-            failures.append(
-                {
-                    "identifier": identifier,
-                    "url": url,
-                    "error": type(exc).__name__,
-                    "http_status": getattr(exc, "code", ""),
-                }
-            )
+            failure = {
+                "identifier": identifier,
+                "url": url,
+                "error": type(exc).__name__,
+                "http_status": getattr(exc, "code", ""),
+            }
+            failure_path.parent.mkdir(parents=True, exist_ok=True)
+            failure_path.write_text(json.dumps(failure, indent=2) + "\n", encoding="utf-8")
+            failures.append(failure)
         if position % 20 == 0:
-            time.sleep(0.25)
-    return records, "IDENTIFIERS_GET_RECORD", failures
+            print(f"  {record['title']}: {position}/{len(candidates)} candidate records", flush=True)
+            time.sleep(0.2)
+    return files, "TITLE_PAGE_PLUS_GET_RECORD", failures
 
 
 def creator_info(record: dict) -> tuple[str, str]:
@@ -263,6 +293,14 @@ class BoardIndexParser(HTMLParser):
 
 
 def canonical_board_speaker(label: str, members: list[str]) -> str:
+    label_words = set(re.findall(r"[a-z]+", label.lower()))
+    token_matches = []
+    for member in members:
+        first, last = person_key(member)
+        if first in label_words and last in label_words:
+            token_matches.append(member)
+    if len(token_matches) == 1:
+        return token_matches[0]
     cleaned = re.sub(r"^(Chairman|Chair|Vice Chair|Vice Chairman|Governor)\s+", "", label).strip()
     first, last = person_key(cleaned)
     candidates = [member for member in members if person_key(member) == (first, last)]
@@ -292,6 +330,7 @@ def build_board_rows(raw_dir: Path, members: list[str]) -> list[dict]:
                 {
                     "member_name": member,
                     "event_date": event_date,
+                    "event_date_basis": "OFFICIAL_BOARD_INDEX_DATE",
                     "event_time_local": "UNKNOWN",
                     "event_timezone": "UNKNOWN",
                     "published_date": "UNKNOWN",
@@ -313,7 +352,7 @@ def build_board_rows(raw_dir: Path, members: list[str]) -> list[dict]:
 
 
 def node_text(node: ET.Element | None) -> str:
-    return (node.text or "").strip() if node is not None else ""
+    return re.sub(r"\s+", " ", node.text or "").strip() if node is not None else ""
 
 
 def mods_creator_matches(mods: ET.Element, member: str) -> bool:
@@ -333,6 +372,13 @@ def build_fraser_rows(raw_dir: Path, member_map: dict[str, dict]) -> list[dict]:
     for member, record in member_map.items():
         institution = contributor(record) or "Federal Reserve System"
         directory = raw_dir / "fraser_oai" / member_id(member)
+        title_path = directory / "title_page_v3.htm"
+        allowed_ids: set[str] = set()
+        if title_path.exists():
+            try:
+                allowed_ids = {str(item["id"]) for item in browse_items(title_path.read_bytes())}
+            except (ValueError, KeyError, json.JSONDecodeError, AttributeError):
+                pass
         for path in sorted(directory.rglob("*.xml")):
             try:
                 root = ET.fromstring(path.read_bytes())
@@ -342,10 +388,14 @@ def build_fraser_rows(raw_dir: Path, member_map: dict[str, dict]) -> list[dict]:
                 identifier = node_text(oai_record.find("oai:header/oai:identifier", NS))
                 if ":item:" not in identifier:
                     continue
+                item_id = identifier.rsplit(":", 1)[-1]
                 mods = oai_record.find("oai:metadata/mods:mods", NS)
-                if mods is None or node_text(mods.find("mods:genre", NS)).lower() != "speech":
+                if mods is None:
                     continue
-                if not mods_creator_matches(mods, member):
+                genre = node_text(mods.find("mods:genre", NS)).lower()
+                if item_id not in allowed_ids and genre != "speech":
+                    continue
+                if item_id not in allowed_ids and not mods_creator_matches(mods, member):
                     continue
                 event_date = node_text(mods.find("mods:originInfo/mods:sortDate", NS))
                 if not event_date or event_date < START_DATE:
@@ -358,6 +408,7 @@ def build_fraser_rows(raw_dir: Path, member_map: dict[str, dict]) -> list[dict]:
                     {
                         "member_name": member,
                         "event_date": event_date,
+                        "event_date_basis": "FRASER_MODS_SORT_DATE",
                         "event_time_local": "UNKNOWN",
                         "event_timezone": "UNKNOWN",
                         "published_date": "UNKNOWN",
@@ -378,13 +429,63 @@ def build_fraser_rows(raw_dir: Path, member_map: dict[str, dict]) -> list[dict]:
     return rows
 
 
+def build_fraser_title_rows(raw_dir: Path, member_map: dict[str, dict]) -> list[dict]:
+    rows: list[dict] = []
+    for member, record in member_map.items():
+        institution = contributor(record) or "Federal Reserve System"
+        if "Board of Governors" in institution:
+            continue
+        path = raw_dir / "fraser_oai" / member_id(member) / "title_page_v3.htm"
+        if not path.exists():
+            continue
+        try:
+            items = browse_items(path.read_bytes())
+        except (ValueError, KeyError, json.JSONDecodeError, AttributeError):
+            continue
+        for item in items:
+            event_date = date_from_official_url(item)
+            if event_date == "UNKNOWN" or event_date < START_DATE:
+                continue
+            title = item.get("name", "")
+            title_part, separator, venue = title.partition(" : ")
+            source_url = urllib.parse.urljoin(FRASER_ROOT, item.get("url", ""))
+            document_urls = item.get("metadata", {}).get("location", {}).get("url", [])
+            rows.append(
+                {
+                    "member_name": member,
+                    "event_date": event_date,
+                    "event_date_basis": "DATE_IN_OFFICIAL_ARCHIVE_DOCUMENT_URL",
+                    "event_time_local": "UNKNOWN",
+                    "event_timezone": "UNKNOWN",
+                    "published_date": "UNKNOWN",
+                    "published_time_local": "UNKNOWN",
+                    "published_timezone": "UNKNOWN",
+                    "archive_record_updated_at_utc": "",
+                    "title": title_part if separator else title,
+                    "venue_or_subtitle": venue,
+                    "source_institution": institution,
+                    "source_archive": "FRASER_TITLE_COLLECTION",
+                    "source_url": source_url,
+                    "secondary_source_url": document_urls[0] if document_urls else "",
+                    "raw_metadata_file": path.relative_to(raw_dir.parent.parent).as_posix(),
+                    "publication_status": "PUBLICATION_DATE_TIME_NOT_EXPOSED_IN_COLLECTION_PAGE",
+                    "record_type": "SPEECH_OR_STATEMENT",
+                }
+            )
+    return rows
+
+
 def title_key(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
 
 
 def deduplicate(rows: list[dict]) -> list[dict]:
     chosen: dict[tuple[str, str, str], dict] = {}
-    priority = {"FEDERAL_RESERVE_BOARD_ANNUAL_INDEX": 2, "FRASER_OAI_PMH": 1}
+    priority = {
+        "FEDERAL_RESERVE_BOARD_ANNUAL_INDEX": 3,
+        "FRASER_OAI_PMH": 2,
+        "FRASER_TITLE_COLLECTION": 1,
+    }
     for row in rows:
         key = (row["member_name"], row["event_date"], title_key(row["title"]))
         current = chosen.get(key)
@@ -403,6 +504,7 @@ def deduplicate(rows: list[dict]) -> list[dict]:
 
 def fetch(data_dir: Path) -> None:
     raw_dir = data_dir / "raw" / "speech_catalog"
+    progress_path = raw_dir / "live_progress.json"
     manifest: list[dict] = []
     for year in range(2012, CURRENT_YEAR + 1):
         url = f"{BOARD_ROOT}/newsevents/speech/{year}-speeches.htm"
@@ -414,15 +516,67 @@ def fetch(data_dir: Path) -> None:
     matched, unmatched = match_participants(members, records)
     methods: dict[str, str] = {}
     oai_failures: dict[str, list[dict]] = {}
-    for position, (member, record) in enumerate(sorted(matched.items()), start=1):
-        _, author_id = creator_info(record)
-        files, method, failures = fetch_oai_author(
-            author_id, raw_dir / "fraser_oai" / member_id(member)
+    completed_members: list[str] = []
+    progress_path.write_text(
+        json.dumps(
+            {
+                "status": "RUNNING",
+                "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+                "completed_members": 0,
+                "total_matched_members": len(matched),
+                "current_member": "",
+                "unmatched_members": unmatched,
+            },
+            indent=2,
         )
+        + "\n",
+        encoding="utf-8",
+    )
+    for position, (member, record) in enumerate(sorted(matched.items()), start=1):
+        progress_path.write_text(
+            json.dumps(
+                {
+                    "status": "RUNNING",
+                    "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+                    "completed_members": len(completed_members),
+                    "total_matched_members": len(matched),
+                    "current_member": member,
+                    "unmatched_members": unmatched,
+                },
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        if "Board of Governors" in contributor(record):
+            files, method, failures = [], "BOARD_ANNUAL_INDEX_PRIMARY", []
+        else:
+            files, method, failures = fetch_oai_author(
+                record, raw_dir / "fraser_oai" / member_id(member)
+            )
         manifest.extend(files)
         methods[member] = method
         if failures:
             oai_failures[member] = failures
+        completed_members.append(member)
+        progress_path.write_text(
+            json.dumps(
+                {
+                    "status": "RUNNING",
+                    "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+                    "completed_members": len(completed_members),
+                    "total_matched_members": len(matched),
+                    "current_member": "",
+                    "last_completed_member": member,
+                    "last_member_response_files": len(files),
+                    "last_member_failures": len(failures),
+                    "unmatched_members": unmatched,
+                },
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
         print(
             f"FRASER {position}/{len(matched)} {member}: {len(files)} response file(s), "
             f"{len(failures)} failure(s)",
@@ -443,6 +597,21 @@ def fetch(data_dir: Path) -> None:
         ],
     }
     (raw_dir / "fetch_manifest.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+    progress_path.write_text(
+        json.dumps(
+            {
+                "status": "FETCH_COMPLETE",
+                "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+                "completed_members": len(completed_members),
+                "total_matched_members": len(matched),
+                "unmatched_members": unmatched,
+                "members_with_oai_failures": sorted(oai_failures),
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def build(data_dir: Path) -> dict:
@@ -450,9 +619,13 @@ def build(data_dir: Path) -> dict:
     members = [row["member_name"] for row in read_csv(data_dir / "output" / "members.csv")]
     records = json.loads((raw_dir / "fraser_fomc_participants.json").read_text(encoding="utf-8"))["records"]
     matched, unmatched = match_participants(members, records)
-    rows = deduplicate(build_board_rows(raw_dir, members) + build_fraser_rows(raw_dir, matched))
+    rows = deduplicate(
+        build_board_rows(raw_dir, members)
+        + build_fraser_rows(raw_dir, matched)
+        + build_fraser_title_rows(raw_dir, matched)
+    )
     fields = [
-        "event_id", "member_name", "event_date", "event_time_local", "event_timezone",
+        "event_id", "member_name", "event_date", "event_date_basis", "event_time_local", "event_timezone",
         "published_date", "published_time_local", "published_timezone",
         "archive_record_updated_at_utc", "title", "venue_or_subtitle", "record_type",
         "source_institution", "source_archive", "source_url", "secondary_source_url",
@@ -470,6 +643,9 @@ def build(data_dir: Path) -> dict:
         "event_date_max": max(row["event_date"] for row in rows),
         "board_rows": sum(row["source_archive"] == "FEDERAL_RESERVE_BOARD_ANNUAL_INDEX" for row in rows),
         "fraser_rows": sum(row["source_archive"] == "FRASER_OAI_PMH" for row in rows),
+        "fraser_title_collection_rows": sum(
+            row["source_archive"] == "FRASER_TITLE_COLLECTION" for row in rows
+        ),
         "unmatched_fraser_members": unmatched,
         "publication_datetime_known_rows": sum(row["published_date"] != "UNKNOWN" for row in rows),
         "output_sha256": sha256_bytes(output.read_bytes()),

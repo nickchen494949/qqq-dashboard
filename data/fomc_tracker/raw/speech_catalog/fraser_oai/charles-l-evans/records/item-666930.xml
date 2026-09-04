@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:23:45Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:666930</identifier>
+        <datestamp>2025-07-30T00:10:05Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Remarks in Honor of Michael Moskow, Chicago Council on Global Affairs, Chicago</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2018-01-23</sortDate>
+            <dateIssued>January 23, 2018</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/remarks-honor-michael-moskow-chicago-council-global-affairs-chicago-666930</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/evans_20180123.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-l-evans-8969/remarks-honor-michael-moskow-chicago-council-global-affairs-chicago-666930</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

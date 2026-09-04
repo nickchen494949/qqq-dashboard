@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:39Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:586663</identifier>
+        <datestamp>2025-07-24T10:17:46Z</datestamp>
+        <setSpec>author:3515</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Plosser, Charles I.</namePart>
+            <recordInfo>
+              <recordIdentifier>3515</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Foundations for Sound Central Banking</title>
+            <subTitle>For the Session on Global Challenges in Monetary Policy, Global Interdependence Center (GIC) Abroad in South Africa, Cape Town, South Africa</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-03-28</sortDate>
+            <dateIssued>March 28, 2008</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>7 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-i-plosser-6101/foundations-sound-central-banking-586663</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbphi/presidents/plosser/plosser_speech_20080328.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-i-plosser-6101/foundations-sound-central-banking-586663</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:10:27Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:671975</identifier>
+        <datestamp>2025-07-30T12:34:15Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Video is available at https://www.frbsf.org/news-and-media/events/2022/10/mary-c-daly-in-conversation-uc-berkeley-fisher-center-real-estate-and-urban-economics</note>
+          <titleInfo>
+            <title>Fireside Chat with UC Berkeley's Fisher Center for Real Estate &amp; Urban Economics</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2022-10-21</sortDate>
+            <dateIssued>October 21, 2022</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>35 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/fireside-chat-uc-berkeleys-fisher-center-real-estate-urban-economics-671975</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsf/presidents/daly_20221021.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/fireside-chat-uc-berkeleys-fisher-center-real-estate-urban-economics-671975</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

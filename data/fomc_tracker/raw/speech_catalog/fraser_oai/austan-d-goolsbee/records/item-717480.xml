@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:27Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:717480</identifier>
+        <datestamp>2026-07-03T19:16:40Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <genre>speech</genre>
+          <abstract>Federal Reserve Bank of Chicago President and CEO Austan Goolsbee delivered a speech on productivity growth and participated in a fireside chat at the 2025 Stanford Institute for Economic Policy Research (SIEPR) Economic Summit on February 28th.</abstract>
+          <titleInfo>
+            <title>Remarks on Productivity Growth and Monetary Policy</title>
+            <subTitle>2025 Stanford Institute for Economic Policy Research (SIEPR) Economic Summit, Stanford University, Palo Alto, CA</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2025-02-28</sortDate>
+            <dateIssued>February 28, 2025</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>10 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-austan-d-goolsbee-8963/remarks-productivity-growth-monetary-policy-717480</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbchi/speeches/goolsbee_20250228.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:42:19Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:654974</identifier>
+        <datestamp>2025-07-21T01:45:07Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Presentation</note>
+          <titleInfo>
+            <title>Fabio Milani, "Learning and Time-Varying Macroeconomic Volatility"</title>
+            <subTitle>Discussed at International Research Forum on Monetary Policy, Sponsored by the European Central Bank, the Federal Reserve Board of Governors, the BMW Center for German and European Studies at Georgetown University, and the Center for Financial Studies at the Johann Wolfgang Goethe-University</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-06-27</sortDate>
+            <dateIssued>June 27, 2008</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>36 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/fabio-milani-learning-time-varying-macroeconomic-volatility-654974</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/presidents/bullard/bullard_20080627.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/fabio-milani-learning-time-varying-macroeconomic-volatility-654974</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

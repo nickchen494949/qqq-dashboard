@@ -474,9 +474,11 @@ def build_snapshots(data_dir: Path, votes: list[dict], speeches: list[dict]) -> 
         for vote in meeting_votes:
             name = vote["member_name"]
             snapshot_day = date.fromisoformat(sep_date)
+            # The archived pages do not expose a trustworthy publication time.
+            # Conservatively exclude same-day speeches from a SEP cutoff.
             eligible_speeches = [
                 row for row in speech_by_member.get(name, [])
-                if row["publication_date"] <= sep_date
+                if row["publication_date"] < sep_date
                 and (snapshot_day - date.fromisoformat(row["publication_date"])).days <= SPEECH_MAX_AGE_DAYS
             ]
             latest_speech = eligible_speeches[-1] if eligible_speeches else None

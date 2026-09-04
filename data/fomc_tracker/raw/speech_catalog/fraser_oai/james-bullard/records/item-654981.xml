@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:42:22Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:654981</identifier>
+        <datestamp>2025-07-22T08:27:55Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Presentation</note>
+          <note type="public">Related article in Federal Reserve Bank of St. Louis Review, July/August 2009, 91(4), pp. 389-95.</note>
+          <titleInfo>
+            <title>Panel Discussion: The Role of Potential Output in Policymaking</title>
+            <subTitle>33rd Annual Economic Policy Conference Projecting Potential Growth: Issues and Measurement, Sponsored by the Federal Reserve Bank of St. Louis</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2008-10-17</sortDate>
+            <dateIssued>October 17, 2008</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>37 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/panel-discussion-role-potential-output-policymaking-654981</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/presidents/bullard/bullard_20081017a.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/panel-discussion-role-potential-output-policymaking-654981</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

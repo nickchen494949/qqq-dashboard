@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:02:19Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:655015</identifier>
+        <datestamp>2025-07-24T03:26:39Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Presentation</note>
+          <titleInfo>
+            <title>The Monetary Policy Implications of a Low R-Star: An Update</title>
+            <subTitle>Joint DNB/ECB Workshop on the Natural Rate of Interest, De Nederlandsche Bank, Amsterdam, Netherlands</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2019-05-16</sortDate>
+            <dateIssued>May 16, 2019</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>50 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/monetary-policy-implications-a-low-r-star-update-655015</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsl_history/presidents/bullard/bullard_20190516.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-james-bullard-7161/monetary-policy-implications-a-low-r-star-update-655015</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

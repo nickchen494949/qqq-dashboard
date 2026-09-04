@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:10:23Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:671967</identifier>
+        <datestamp>2025-07-30T12:08:13Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Video is available at https://www.frbsf.org/news-and-media/events/2021/08/fintech-racial-equity-inclusive-financial-system/</note>
+          <titleInfo>
+            <title>Fintech, Racial Equity, and an Inclusive Financial System</title>
+            <subTitle>Virtual Event Hosted by the Federal Reserve Bank of San Francisco and Aspen Institute Financial Security Program</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2021-08-25</sortDate>
+            <dateIssued>August 25, 2021</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>42 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/fintech-racial-equity-inclusive-financial-system-671967</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbsf/presidents/daly_20210825.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-mary-c-daly-9034/fintech-racial-equity-inclusive-financial-system-671967</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

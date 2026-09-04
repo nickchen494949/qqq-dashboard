@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:16:18Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:717488</identifier>
+        <datestamp>2026-07-03T19:16:52Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <note type="public">Video for this speech is available &lt;a href="https://youtu.be/PrJdn_KuWDw"&gt; on YouTube&lt;/a&gt;</note>
+          <genre>speech</genre>
+          <abstract>President Tom Barkin delivers the 2025 Main Commencement address at the University of Richmond.</abstract>
+          <titleInfo>
+            <title>Navigating Life's Ups and Downs</title>
+            <subTitle>University of Richmond Commencement Ceremony, Richmond, Va.</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2025-05-11</sortDate>
+            <dateIssued>May 11, 2025</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <accessCondition>http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>4 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-tom-barkin-9266/navigating-lifes-ups-downs-717488</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbrich/presidents/barkin_20250511.pdf</url>
+          </location>
+          <contentType>item</contentType>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T14:21:57Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:586705</identifier>
+        <datestamp>2025-07-20T22:06:54Z</datestamp>
+        <setSpec>author:3515</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Plosser, Charles I.</namePart>
+            <recordInfo>
+              <recordIdentifier>3515</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <titleInfo>
+            <title>Some Observations on Fiscal Imbalances and Monetary Policy, The Philadelphia Fed Policy Forum, "Budgets on the Brink: Perspectives on Debt and Monetary Policy"</title>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2011-12-02</sortDate>
+            <dateIssued>December 2, 2011</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>7 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-charles-i-plosser-6101/observations-fiscal-imbalances-monetary-policy-philadelphia-fed-policy-forum-budgets-brink-perspectives-debt-monetary-policy-586705</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbphi/presidents/plosser/plosser_speech_20111202.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-charles-i-plosser-6101/observations-fiscal-imbalances-monetary-policy-philadelphia-fed-policy-forum-budgets-brink-perspectives-debt-monetary-policy-586705</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

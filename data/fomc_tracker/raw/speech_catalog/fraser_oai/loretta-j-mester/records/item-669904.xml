@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:09:45Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:669904</identifier>
+        <datestamp>2025-07-30T10:44:16Z</datestamp>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <titleInfo>
+            <title>Modernizing Our Payments System</title>
+            <subTitle>[Remarks at] Fourth Annual Financial Literacy Day: Understanding Global Markets and Finance, The Global Interdependence Center, University of South Florida Sarasota-Manatee College of Business, Sarasota, FL</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2020-02-14</sortDate>
+            <dateIssued>February 14, 2020</dateIssued>
+          </originInfo>
+          <physicalDescription>
+            <extent>14 pages</extent>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/modernizing-payments-system-669904</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbclev/presidents/mester_20200214.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-loretta-j-mester-9033/modernizing-payments-system-669904</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

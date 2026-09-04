@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-04T15:13:36Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mods">https://fraser.stlouisfed.org</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:fraser.stlouisfed.org:item:594183</identifier>
+        <datestamp>2025-07-24T21:53:54Z</datestamp>
+        <setSpec>author:10852</setSpec>
+      </header>
+      <metadata>
+        <mods xmlns="http://www.loc.gov/mods/v3" xmlns:default="http://www.loc.gov/mods/v3" default:xsi="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" default:schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+          <name>
+            <role>
+              <roleTerm>creator</roleTerm>
+            </role>
+            <namePart>Fisher, Richard W.</namePart>
+            <namePart type="date">1949-</namePart>
+            <recordInfo>
+              <recordIdentifier>10852</recordIdentifier>
+            </recordInfo>
+          </name>
+          <genre>speech</genre>
+          <language>eng</language>
+          <titleInfo>
+            <title>R.I.P. QE3 ... Or Will It? (With Reference to Shakespeare, Betsy Duke, Janet Yellen, Yogi Berra and Lenny Kravitz)</title>
+            <subTitle>Remarks before the Shadow Open Market Committee, Manhattan Institute</subTitle>
+          </titleInfo>
+          <originInfo>
+            <issuance>multipart</issuance>
+            <sortDate>2014-11-03</sortDate>
+            <dateIssued>November 3, 2014</dateIssued>
+          </originInfo>
+          <typeOfResource>text</typeOfResource>
+          <physicalDescription>
+            <form>electronic</form>
+            <extent>9 pages</extent>
+            <digitalOrigin>born digital</digitalOrigin>
+            <internetMediaType>application/pdf</internetMediaType>
+          </physicalDescription>
+          <location>
+            <url>https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/rip-qe3-reference-shakespeare-betsy-duke-janet-yellen-yogi-berra-lenny-kravitz-594183</url>
+            <url access="raw object">https://fraser.stlouisfed.org/docs/historical/frbdal/speeches/fisher/Fisher20141103.pdf</url>
+          </location>
+          <contentType>item</contentType>
+          <accessCondition>For more information on rights relating to this item, please see: https://fraser.stlouisfed.org/title/statements-speeches-richard-w-fisher-6147/rip-qe3-reference-shakespeare-betsy-duke-janet-yellen-yogi-berra-lenny-kravitz-594183</accessCondition>
+        </mods>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

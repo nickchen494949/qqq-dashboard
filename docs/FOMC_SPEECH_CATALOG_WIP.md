@@ -8,9 +8,9 @@ This branch is a public, auditable snapshot of the full-history build. It is not
 
 - Federal Reserve Board annual speech indexes: 2012–2026 downloaded from official Board pages.
 - Board index rows parsed in this snapshot: 952.
-- Partial combined catalog rows after creator-validation: 1,000 (952 Board + 48 FRASER).
-- FRASER author harvesting was paused during member 14 of 40 to create this consistent Git snapshot.
-- Five voters in the existing vote-derived member list do not have a matched FRASER participant collection and require their Reserve Bank/Board official archives.
+- Current local catalog rows after creator-validation: 2,367 (952 Board + 1,415 FRASER).
+- FRASER rows cover 22 regional-bank members; Board governors are covered by the Board annual indexes instead of FRASER.
+- Four voters in the existing vote-derived member list require their Reserve Bank official archives: Alberto Musalem, Jeffrey Schmid, Lorie Logan, and Neel Kashkari.
 
 ## Audit entry points
 
@@ -29,8 +29,8 @@ This branch is a public, auditable snapshot of the full-history build. It is not
 
 ## Known gaps at this snapshot
 
-- FRASER download is partial and has per-record HTTP failures; final manifest will list every failed identifier.
-- FRASER's OAI resumption token was observed returning unrelated global records on later pages. The builder therefore requires each MODS record's embedded creator to match the member; unrelated frozen responses are excluded from normalized output.
+- FRASER has per-record HTTP failures; the fetch manifest lists every failed identifier.
+- FRASER's OAI resumption token was observed returning unrelated global records on later pages. The builder now accepts records only when the item belongs to that member's official FRASER collection or its embedded creator matches. Unrelated frozen responses are excluded from normalized output.
 - Official district-bank archive supplementation and member-by-member gap checks are pending.
 - The existing `members.csv` is a master of observed named voters, not every nonvoting FOMC participant. That label will be corrected or expanded before final acceptance.
 - Stance classification remains the small manually labeled subset until catalog completeness is proven. Metadata rows are not silently assigned hawk/dove labels.

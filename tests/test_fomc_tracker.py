@@ -69,6 +69,13 @@ class FomcTrackerTest(unittest.TestCase):
         )
         self.assertLessEqual(kugler_sep["evidence_date"], "2024-09-18")
         self.assertNotEqual(kugler_sep["evidence_date"], "2024-09-25")
+        self.assertTrue(
+            all(
+                row["evidence_date"] < row["sep_date"]
+                for row in snapshots
+                if row["evidence_basis"] == "INDIVIDUAL_SPEECH"
+            )
+        )
 
     def test_latest_output_is_one_sep_cohort(self):
         latest = csv_rows(self.output / "latest_stance.csv")
