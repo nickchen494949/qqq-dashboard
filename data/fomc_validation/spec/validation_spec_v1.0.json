@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "status": "FROZEN_BEFORE_TARGET_EXTRACTION",
+  "frozen_at_utc": "2026-09-05T05:02:53Z",
+  "coverage": {
+    "official_answer_key_start": "2012-01-25",
+    "official_answer_key_end": "2020-12-16",
+    "expected_sep_pairs": 36,
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+  },
+  "partitions": {
+    "development": {"target_start": "2012-04-25", "target_end": "2016-12-14"},
+    "validation": {"target_start": "2017-03-15", "target_end": "2018-12-19", "open_limit": 1},
+    "final_holdout": {"target_start": "2019-03-20", "target_end": "2020-12-16", "open_limit": 1}
+  },
+  "cutoff": {
+    "timezone": "America/New_York",
+    "rule": "MIDNIGHT_TEN_CALENDAR_DAYS_BEFORE_TARGET_MEETING_FIRST_DAY",
+    "date_only_publication_rule": "END_OF_DAY_AND_STRICTLY_BEFORE_CUTOFF"
+  },
+  "unit": "PARTICIPANT_X_TARGET_SEP_X_SHARED_FINITE_CALENDAR_YEAR_HORIZON",
+  "targets": ["DIRECTION", "RELATIVE_TO_TARGET_MEDIAN", "EXACT_DOT_BP"],
+  "primary_metrics": ["EXACT_DOT_MAE_BP", "DIRECTION_BALANCED_ACCURACY"],
+  "baselines": [
+    "B0_PREVIOUS_DOT",
+    "B1_PREVIOUS_MEDIAN",
+    "B2_MARKET",
+    "B3_MACRO",
+    "B4_MEMBER",
+    "B5_MACRO_PREVIOUS",
+    "B6_PLUS_SPEECH"
+  ],
+  "candidate_comparison": "B6_PLUS_SPEECH_MINUS_B5_MACRO_PREVIOUS",
+  "text_model": {
+    "tokens": "LOWERCASE_ENGLISH_UNIGRAMS_AND_BIGRAMS",
+    "min_document_frequency": 3,
+    "max_text_columns": 500,
+    "scaling": "LOG1P_COUNTS",
+    "model": "RIDGE",
+    "alpha": 10.0,
+    "external_models": false
+  },
+  "bootstrap": {"cluster": "TARGET_SEP_MEETING", "replicates": 10000, "seed": 20260905},
+  "pass_gate": {
+    "b6_mae_lt_b5": true,
+    "paired_mae_delta_ci95_entirely_below_zero": true,
+    "b6_direction_balanced_accuracy_not_lower_than_b5": true,
+    "b6_mae_lt_b5_each_final_year": [2019, 2020],
+    "minimum_usable_text_coverage": 0.70
+  },
+  "human_audit": {
+    "sample_size": 120,
+    "minimum_independent_reviewers": 2,
+    "labels": ["HAWKISH", "DOVISH", "NEUTRAL", "MIXED", "CONDITIONAL", "UNCLEAR"],
+    "status_without_completed_reviews": "PENDING_HUMAN_REVIEW"
+  },
+  "market_validation": {
+    "primary": ["TWO_YEAR_TREASURY_YIELD", "FED_FUNDS_FUTURES_OR_OIS"],
+    "secondary": ["QQQ_OR_NQ", "DXY", "GOLD"],
+    "windows": ["PRE_EVENT", "PLUS_5M", "PLUS_30M", "PLUS_2H", "CLOSE", "NEXT_CLOSE"],
+    "status_without_frozen_intraday_source": "NOT_RUN_NO_FROZEN_INTRADAY_SOURCE"
+  },
+  "iteration_budget": {"frozen_b6_specifications": 1, "final_holdout_openings": 1},
+  "non_goals": ["SEALED_STRATEGY_CHANGE", "TRADING_RULE", "RETROSPECTIVE_NARRATIVE_SCORE"]
+}
