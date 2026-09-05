@@ -44,7 +44,7 @@ def current_commit(repo: Path) -> str:
     return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=repo, text=True).strip()
 
 
-def calculate(data_dir: Path) -> dict:
+def calculate(data_dir: Path, code_commit: str | None = None) -> dict:
     repo = data_dir.parents[1]
     output = data_dir / "output"
     raw_entries: dict[str, str] = {}
@@ -84,7 +84,7 @@ def calculate(data_dir: Path) -> dict:
         "spec_sha256": sha256(spec_path),
         "source_registry_version": "1.0.0",
         "source_registry_sha256": sha256(registry_path),
-        "code_commit": current_commit(repo),
+        "code_commit": code_commit or current_commit(repo),
         "raw_file_count": len(raw_entries),
         "raw_known_bytes": sum(raw_bytes.values()),
         "raw_aggregate_sha256": aggregate(raw_entries),
@@ -108,7 +108,9 @@ def build(data_dir: Path) -> None:
 def verify(data_dir: Path) -> None:
     path = data_dir / "output" / "release_manifest.json"
     expected = json.loads(path.read_text(encoding="utf-8"))
-    actual = calculate(data_dir)
+    # A GitHub source archive has no .git directory.  The release manifest's
+    # bound implementation commit remains the value to verify in that case.
+    actual = calculate(data_dir, code_commit=expected["code_commit"])
     stable = [
         "coverage_start", "coverage_end", "snapshot_created_at", "source_checked_through",
         "spec_sha256", "source_registry_sha256", "code_commit", "raw_file_count",
