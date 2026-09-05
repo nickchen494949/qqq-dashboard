@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="/medialibrary/media/v4/css/basic.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/reset.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/960_12_col.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/components/styles/components.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/common.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/Accordion.js"></script>
+<script data-main="/medialibrary/media/v4/components/components_main" src="/medialibrary/media/v4/components/lib/require.js"></script>
+
+<!--[if IE 6]>
+  <script type="application/javascript">window.DMCIEversion=6;</script>
+<![endif]-->
+
+<!--[if IE 7]>
+  <script type="application/javascript">window.DMCIEversion=7;</script>
+<![endif]-->
+
+<!--[if IE 8]>
+  <script type="application/javascript">window.DMCIEversion=8;</script>
+<![endif]-->
+
+<!--[if gte IE 9]>
+  <script type="application/javascript">window.DMCIEversion=9;</script>
+<![endif]-->
+
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+
+<link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_print.c7687de8937417888ede.css" rel="stylesheet" media="print"><link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_app.7cb2998cba1ad4d6ea7b.css" rel="stylesheet" media="screen"><script type="text/javascript" src="/medialibrary/media/v5/dxt-ui/js/dxt_app.7cb2998cba1ad4d6ea7b.js"></script><script>
+    nyfedapi.preStart();
+    if(document.readyState === "complete") {
+        nyfedapi.start();
+        
+    } else {
+        document.addEventListener("DOMContentLoaded", function () {
+            nyfedapi.start();
+        }, false);
+    }
+</script>
+<link type="text/css" href="/medialibrary/media/responsive/custom.css" rel="stylesheet">
+
+
+
+
+
+
+    <title>Global Liquidity: Drivers, Volatility and Toolkits - FEDERAL RESERVE BANK of NEW YORK</title>
+            <meta name="keywords" content="" />
+            <meta name="description" content="" />
+        <!-- LIGHTBOX FEATURE -->
+<script type="text/javascript" src="/medialibrary/media/images/galleryview/jquery-1.2.2.pack.js"></script> 
+<link rel="stylesheet" href="/medialibrary/media/images/galleryview/facebox_css.css" type="text/css"/ -->
+<script type="text/javascript" src="/medialibrary/media/images/galleryview/facebox_js.js"></script> 
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('a[rel*=facebox]').facebox() 
+    })
+</script>
+<!-- END LIGHTBOX FEATURE -->
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S5R6-KN95T-HP8YC-HYFLF-GA6UP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"6S5R6-KN95T-HP8YC-HYFLF-GA6UP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="eaaq6qajnqe7mjqacqi2aaaaavvjxdii-f-2369f9f66-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"385303","ak.ai":parseInt("322044",10),"ak.ol":"0","ak.cr":4,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"39b10c6f","ak.r":47401,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":61421,"ak.gh":"23.211.252.228","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1788579080","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==qZp2lJJgtjfeVEYez+/QpMIMeyuNJHCJJzkNPDX7h/eyO8EPEptviH6rK7HFr7GadfT5GguYMWI0uQBciaCwkdC0rgidVYRSNATgmwxKr9WeGtAv4+kfNRYijWsTrgCTS9HOs/tv9Ti/tyCuHsPCR9k00F/a0Jasy+vQEey/gE9jgwm1bFxJOLV3CbMN0LCbDCqR2mEqyPVFQW62AoDVo6+PvTLBL0IkSEfgiOK7X4rltGaUNcslx50+xVLiK7UgddTeF70Z4avBiP1ldR4SAB//HSyrReyJIXA7OpsTc7WimaPGWPw8zc3dSvwfsJBUirz22w+bTudvIF0o/62DfoTJ7H7DtZBtFdXm6PDCya0W+A83prjhCyfkTSIHEXxMsPuYMq5o2d0i2/RFbcZ6SqRYwgdtg7lkPgKWzx9feIo=","ak.pv":"167","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    <a name="top"></a>
+    <div class="container_12">
+        <header>
+            
+
+   <div id="universal">
+   <div id="universal_nav">
+      <a title="Home" aria-label="Home" href="/" id="nav-item-1"><span class="icon-home" title="Home"></span></a>
+      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a> 
+      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a> 
+      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a> 
+      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a> 
+      <a aria-label="Blogs" href="/blogs" aria-label="Blogs" title="Blogs" class="nav-type-external" id="nav-item-19">Blogs</a> 
+      <a href="/press" aria-label="News & Events" title="News & Events" id="nav-item-21">News &amp; Events</a>
+    </div>
+    <div id="searchBar">
+      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">    
+        <span class="icon-search"></span><input name="text" type="text" class="search" id="searchbox" title="Search Box" size="35" maxlength="200" />
+        <input aria-label="Application" type="hidden" name="application" value="ny_pub" />
+        <input aria-label="Sources" type="hidden" name="sources" value="ny_pub" />
+        <input aria-label="Search Button" type="submit" id="searchbutton" title="Search Button" value="" />
+      </form>
+    </div>
+  </div>
+  <div id="logo" class="new-york-fed-logo">
+		<a  aria-label="Federal Reserve Bank of New York" href="/" title="Federal Reserve Bank of New York"><img src="/medialibrary/media/v4/images/new-york-fed-logo.svg" style="width:782px" alt="New York Fed Logo" /></a>
+  </div> 
+
+
+<!-- START : MOBILE HEADER -->
+<div id="dxt-mobile-header">
+
+    <div class="dxt-logo-wrapper">
+        <div>
+            <div class="dxt-logo-wrapper-a">
+                <a href="/" class="dxt-logo"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dxt-menu-search">
+
+
+
+        <div class="dxt-burger">
+            <div>
+                <a href="#">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Menu
+                </a>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="dxt-search-bar-wrapper">
+            <span></span>
+            <div class="dxt-search-bar"></div>
+        </div>
+
+    </div>
+
+    <ul id="dxt-navigation" class="dxt-level-1-list dxt-level-1 nav nav-level-0 nav-type-none" id="nav-list-31">
+
+ <!-- START : LEVEL 1 -->
+        <li id="nav-item-32" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="About the New York Fed"  href="/aboutthefed" title="About the New York Fed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </div>
+            </div>
+            <ul class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-32">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="About the New York Fed" title="About the New York Fed" href="/aboutthefed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a href="/aboutthefed/whatwedo" title="What We Do" aria-label="What We Do">What We Do</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-34" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/aboutthefed/who-we-are" title="Who We Are" aria-label="Who We Are">Who We Are</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-34">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-123" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Bank Leadership" aria-label="Bank Leadership" href="/aboutthefed/bank-leadership">Bank Leadership</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li><!-- END : LEVEL 3 -->
+                <!-- END : LEVEL 2 -->
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="Communities We Serve" href="/aboutthefed/communities-we-serve" title="Communities We Serve">Communities We Serve</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-356" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a title="Governance" aria-label="Governance" href="/aboutthefed/governance">Governance</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Board of Directors" aria-label="Board of Directors" href="/aboutthefed/org_nydirectors">Board of Directors</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/aboutthefed/disclosures" title="Disclosures" aria-label="Disclosures">Disclosures</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a style="vertical-align:top" title="Ethics and Conflicts of Interest" aria-label="Ethics and Conflicts of Interest" href="/aboutthefed/ethics-conflicts-of-interest">Ethics and Conflicts of Interest</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Annual Financial Statements" href="/aboutthefed/annualreports" title="Annual Financial Statements">Annual Financial Statements</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Org Chart" href="/aboutthefed/org_chart" title="Org Chart">Org Chart</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-357" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span> 
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="News &amp; Events" aria-label="News &amp; Events" href="/press">News &amp; Events</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Advisory Groups" href="/aboutthefed/external_committees" title="Advisory Groups">Advisory Groups</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Vendor Information" href="/aboutthefed/vendor_information" title="Vendor Information">Vendor Information</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Holiday Schedule" aria-label="Holiday Schedule" href="/aboutthefed/holiday_schedule">Holiday Schedule</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                At the New  York Fed, our mission is to make the U.S. economy stronger and the financial system more stable for all segments of society. We do this by executing monetary policy, providing financial services, supervising banks and conducting research and providing expertise on issues that impact the nation and communities we serve.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a style="margin: 0 10px 0 10px;" aria-label="The Teller Window" href="https://tellerwindow.newyorkfed.org" title="The Teller Window" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="The Teller Window" src="/medialibrary/media/images/v4/about_the_fed/the-teller-window-mm-b-280x176.png" width="144" height="88">
+                                <p>The Teller Window is a publication featuring expert knowledge and insight from the New York Fed, including thoughts and perspectives from senior leaders.</p>
+                            </a>
+                            <a aria-label="Freedom of Information request" href="/aboutthefed/freedom-of-information-requests" title="Freedom of Information request" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Information Requests" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf-mm-information-requests.jpg">
+                                <p>
+                                    Do you have a request for information and records? Learn how to submit it.
+                                </p>
+                            </a>
+
+                            <a aria-label="History of the New York Fed" href="/aboutthefed/history" title="History of the New York Fed" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Gold Vault" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf_mm_goldvault.jpg">
+                                <p>
+                                    Learn about the history of the New York Fed and central banking in the United States through articles, speeches, photos and video.
+                                </p>
+                            </a>
+
+                           
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->  <!-- START : LEVEL 1 -->
+        <li id="nav-item-40" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="Markets &amp; Policy Implementation" title="Markets &amp; Policy Implementation"  href="/markets" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation top level']);">Markets &amp; Policy Implementation</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-40">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/markets" aria-label="Markets & Policy Implementation" title="Markets & Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation']);">Markets & Policy Implementation</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/data-hub" aria-label="Markets Data Dashboard" title="Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets Data Dashboard']);">DATA</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/reference-rates" aria-label="Reference Rates" title="Reference Rates" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reference Rates']);">Reference Rates</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/effr" aria-label="Effective Federal Funds Rate" title="Effective Federal Funds Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Effective Federal Funds Rate']);">Effective Federal Funds Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/obfr" aria-label="Overnight Bank Funding Rate" title="Overnight Bank Funding Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Overnight Bank Funding Rate']);">Overnight Bank Funding Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/sofr" aria-label="Secured Overnight Financing Rate" title="Secured Overnight Financing Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Secured Overnight Financing Rate']);">Secured Overnight Financing Rate</a></li>
+								<li class="dxt-level-4-item nav nav-level-4 nav-type-menu no-bullet-indent"><a href="/markets/reference-rates/sofr-averages-and-index" aria-label="SOFR Averages & Index" title="SOFR Averages & Index" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'SOFR Averages & Index']);">SOFR Averages & Index</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/bgcr" aria-label="Broad General Collateral Rate" title="Broad General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Broad General Collateral Rate']);">Broad General Collateral Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/tgcr" aria-label="Tri-Party General Collateral Rate" title="Tri-Party General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Tri-Party General Collateral Rate']);">Tri-Party General Collateral Rate</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Desk Operations</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/treasury-securities" aria-label="Treasury Securities Operations" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Securities Operations']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/ambs" aria-label="Agency Mortgage-Backed Securities Operations" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Agency Mortgage-Backed Securities Operations']);">Agency Mortgage-Backed Securities</a>
+</li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/repo" aria-label="Repo Operations" title="Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Repo Operations']);">Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/reverse-repo" aria-label="Reverse Repo Operations" title="Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Operations']);">Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/securities-lending" aria-label="Securities Lending Operations" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Securities Lending Operations']);">Securities Lending</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/central-bank-liquidity-swap-operations" aria-label="Central Bank Liquidity Swap Operations" title="Central Bank Liquidity Swaps" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Liquidity Swap Operations']);">Central Bank Liquidity Swaps</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/soma-holdings" aria-label="System Open Market Account Holdings of Domestic Securities" title="System Open Market Account Holdings" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'System Open Market Account Holdings of Domestic Securities']);">System Open Market Account Holdings</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties/primary-dealers-statistics" aria-label="Primary Dealer Statistics" title="Primary Dealer Statistics" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealer Statistics']);">Primary Dealer Statistics</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/omo_transaction_data" aria-label="Historical Transaction Data" title="Historical Transaction Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Historical Transaction Data']);">Historical Transaction Data</a></li>
+                    </ul>
+                </li>
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/domestic-market-operations" aria-label="Domestic Market Operations" title="Domestic Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Domestic Market Operations']);">DOMESTIC MARKET OPERATIONS</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation" aria-label="Monetary Policy Implementation" title="Monetary Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Monetary Policy Implementation']);">Monetary Policy Implementation</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities" aria-label="About Treasury Securities" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Treasury Securities']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-mortgage-backed-securities" aria-label="About Agency Mortgage-Backed Securities" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Mortgage-Backed Securities']);">Agency Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-commercial-mortgage-backed-securities" aria-label="About Agency Commercial Mortgage-Backed Securities" title="Agency Commercial Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Commercial Mortgage-Backed Securities']);">Agency Commercial Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-debt-securities" aria-label="About Agency Debt Securities" title="Agency Debt Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Debt Securities']);">Agency Debt Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/repo-reverse-repo-agreements" aria-label="About Repo and Reverse Repo Agreements" title="Repos & Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Repo and Reverse Repo Agreements']);">Repos & Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/securities-lending" aria-label="About Securities Lending" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Securities Lending']);">Securities Lending</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/banking/discountwindow" aria-label="Discount Window" title="Discount Window" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Discount Window']);">Discount Window</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/treasury-debt-auctions-and-buybacks-as-fiscal-agent" aria-label="Treasury Debt Auctions and Buybacks as Fiscal Agent" title="Treasury Debt Auctions & Buybacks" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Debt Auctions and Buybacks as Fiscal Agent']);">Treasury Debt Auctions & Buybacks<br>as Fiscal Agent</a>
+</li>
+                <br><br>   
+                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations" aria-label="International Market Operations" title="International Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'International Market Operations']);">INTERNATIONAL MARKET OPERATIONS</a></li>
+                    <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-exchange-operations" aria-label="Foreign Exchange Operations" title="Foreign Exchange" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Operations']);">Foreign Exchange</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-reserves-management" aria-label="Foreign Reserves Management" title="Foreign Reserves Management" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management']);">Foreign Reserves Management</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/central-bank-swap-arrangements" aria-label="Central Bank Swap Arrangements" title="Central Bank Swap Arrangements" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Swap Arrangements']);">Central Bank Swap Arrangements</a></li>
+                 </ul></li>
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">ACROSS MARKETS</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/op_policies" aria-label="Desk Statements & Operating Policies" title="Statements & Operating Policies" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Desk Statements & Operating Policies']);">Statements & Operating Policies</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/market-intelligence" aria-label="Market Intelligence" title="Market Intelligence" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Market Intelligence']);">Market Intelligence</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/market-intelligence/survey-of-market-expectations" aria-label="Survey of Market Expectations" title="Survey of Market Expectations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Survey of Market Expectations']);">Survey of Market Expectations</a></li>
+                            </ul>
+                        </li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/annual_reports" aria-label="Annual Report on Open Market Operations" title="Annual Reports" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Annual Report on Open Market Operations']);">Annual Reports</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties" aria-label="Counterparties" title="Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Counterparties']);">Counterparties</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/primarydealers" aria-label="Primary Dealers" title="Primary Dealers" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealers']);">Primary Dealers</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/standing-repo-counterparties" aria-label="Standing Repo Counterparties" title="Standing Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Standing Repo Counterparties']);">Standing Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/rrp_counterparties" aria-label="Reverse Repo Counterparties" title="Reverse Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Counterparties']);">Reverse Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-exchange-counterparties" aria-label="Foreign Exchange Counterparties" title="Foreign Exchange Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Counterparties']);">Foreign Exchange Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-reserves-management" aria-label="Foreign Reserves Management Counterparties" title="Foreign Reserves Management Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management Counterparties']);">Foreign Reserves Management Counterparties</a></li>
+                             </ul></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/operational-readiness" aria-label="Operational Readiness" title="Operational Readiness" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Operational Readiness']);">Operational Readiness</a></li>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/central-bank-and-international-account-services" aria-label="Central Bank & International Account Services" title="Central Bank & International Account Services" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank & International Account Services']);">Central Bank & International Account Services</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/programs-archive" aria-label="Programs Archive" title="Programs Archive" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Programs Archive']);">Programs Archive</a></li>
+                    </ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+ul#dxt-navigation ul#nav-list-40 > li:nth-child(4) {
+	position: relative;
+	right: 0px !important;
+	top: 10px !important;
+	margin-top: 4px !important;
+}
+.upperlower {text-transform: capitalize !important;}
+ul#dxt-navigation ul#nav-list-40 li.nav-level-4 {
+	margin: 8px 5px 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:20px; right:63px; }
+}
+@supports (-moz-appearance:none) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150px; }
+}
+</style>  <!-- START : LEVEL 1 -->
+        <li id="nav-item-84" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu mm-item">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research top level']);">Economic Research</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-84">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research']);">Economic Research</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+				
+				
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">U.S. Economy</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Consumer Expectations &amp; Behavior</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Survey of Consumer Expectations" aria-label="Survey of Consumer Expectations" href="/microeconomics/sce#/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Survey of Consumer Expectations']);">Survey of Consumer Expectations</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Household Debt &amp; Credit Report" aria-label="Household Debt &amp; Credit Report" href="/microeconomics/hhdc" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Household Debt & Credit Report']);">Household Debt &amp; Credit Report</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>								
+                      </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Growth &amp; Inflation</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Economic Heterogeneity Indicators" aria-label="Economic Heterogeneity Indicators" href="/research/economic-heterogeneity-indicators" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Heterogeneity Indicators']);">Economic Heterogeneity Indicators (EHIs)</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Multivariate Core Trend Inflation" aria-label="Multivariate Core Trend Inflation" href="/research/policy/mct#--:mct-inflation:trend-inflation" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Multivariate Core Trend Inflation']);">Multivariate Core Trend Inflation</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed DSGE Model" aria-label="New York Fed DSGE Model" href="/research/policy/dsge#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed DSGE Model']);">New York Fed DSGE Model</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed Staff Nowcast" aria-label="New York Fed Staff Nowcast" href="/research/policy/nowcast#/nowcast" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed Staff Nowcast']);">New York Fed Staff Nowcast</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="R-star: Natural Rate of Interest" aria-label="R-star: Natural Rate of Interest" href="/research/policy/rstar " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'R-star: Natural Rate of Interest']);">R-star: Natural Rate of Interest</a></li>
+                             
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Labor Market</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                    <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market for Recent College Graduates" aria-label="Labor Market for Recent College Graduates" href="/research/college-labor-market#--:explore:unemployment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market for Recent College Graduates']);">Labor Market for Recent College Graduates</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market Tightness Index" aria-label="Labor Market Tightness Index" href="/research/labor-market-tightness/#interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market Tightness Index']);">Labor Market Tightness Index</a></li>
+                            
+
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Financial Stability</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Corporate Bond Market Distress Index" aria-label="Corporate Bond Market Distress Index" href="/research/policy/cmdi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Corporate Bond Market Distress Index']);">Corporate Bond Market Distress Index</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Losses from Natural Disasters" aria-label="Losses from Natural Disasters" href="/research/policy/natural-disaster-losses " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Losses from Natural Disasters']);">Losses from Natural Disasters</a></li>
+
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Outlook-at-Risk" aria-label="Outlook-at-Risk" href="/research/policy/outlook-at-risk#root:growth-at-risk" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outlook-at-Risk']);">Outlook-at-Risk</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Treasury Term Premia" aria-label="Treasury Term Premia" href="/research/data_indicators/term-premia-tabs#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Treasury Term Premia']);">Treasury Term Premia</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Yield Curve as a Leading Indicator" aria-label="Yield Curve as a Leading Indicator" href="/research/capital_markets/ycfaq#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Yield Curve as a Leading Indicator']);">Yield Curve as a Leading Indicator</a></li>
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Banking</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Banking Research Data Sets" aria-label="Banking Research Data Sets" href="/research/banking_research/datasets" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Banking Research Data Sets']);">Banking Research Data Sets</a></li>
+                               
+                                   <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Reserve Demand Elasticity" aria-label="Reserve Demand Elasticity" href="/research/reserve-demand-elasticity" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Reserve Demand Elasticity']);">Reserve Demand Elasticity</a></li>
+                            </ul>
+						 
+                    </ul>
+                </li>
+				
+				
+				
+				
+				
+				
+				
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a title="Regional Economy" aria-label="Regional Economy" href="/regional-economy" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Economy']);">REGIONAL ECONOMY</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Empire State Manufacturing Survey" aria-label="Empire State Manufacturing Survey" href="/survey/empire/empiresurvey_overview" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Empire State Manufacturing Survey']);">Empire State Manufacturing Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Business Leaders Survey" aria-label="Business Leaders Survey" href="/survey/business_leaders/bls_overview " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Business Leaders Survey']);">Business Leaders Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Business Surveys: Special Topics" aria-label="Regional Business Surveys: Special Topics" href="/survey/business_leaders/Supplemental_Survey_Report" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Business Surveys: Special Topics']);">Regional Business Surveys: Special Topics</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Employment Trends" aria-label="Regional Employment Trends" href="/research/regional_economy/regional-employment#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Employment Trends']);">Regional Employment Trends</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Early Benchmarked Employment Data" aria-label="Early Benchmarked Employment Data" href="/research/regional_economy/early-benchmarked-employment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Early Benchmarked Employment Data']);">Early Benchmarked Employment Data</a></li>
+                           
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">INTERNATIONAL ECONOMY</span></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Global Supply Chain Pressure Index" aria-label="Global Supply Chain Pressure Index" href="/research/policy/gscpi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Global Supply Chain Pressure Index']);">Global Supply Chain Pressure Index</a></li>
+                                
+                             
+						
+                 </ul></li>
+				
+				
+				
+				
+				
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">RESEARCHERS</span>
+					<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    		<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Economists" aria-label="Staff Economists" href="/research/economists" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Economists']);">Staff Economists</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Visiting Scholars" aria-label="Visiting Scholars" href="/research/economists/visitors" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Visiting Scholars']);">Visiting Scholars</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Resident Scholars" aria-label="Resident Scholars" href="/research/resident_scholar" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Resident Scholars']);">Resident Scholars</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu top-20px"><a title="Publications" aria-label="Publications" href="/research/publication_annuals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Publications']);">PUBLICATIONS</a></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Liberty Street Economics" aria-label="Liberty Street Economics" href="https://libertystreeteconomics.newyorkfed.org/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Liberty Street Economics']);">Liberty Street Economics</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Reports" aria-label="Staff Reports" href="/research/staff_reports" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Reports']);">Staff Reports</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Policy Review" aria-label="Economic Policy Review" href="/research/epr" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Policy Review']);">Economic Policy Review</a></li>
+<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Outside Journals" aria-label="Outside Journals" href="/research/outside_journals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outside Journals']);">Outside Journals</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">RESEARCH CENTERS</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Applied Macroeconomics & Econometrics Center (AMEC)" aria-label="Applied Macroeconomics & Econometrics Center (AMEC)" href="/research/amec" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Applied Macroeconomics & Econometrics Center (AMEC)']);">Applied Macroeconomics<br>&amp; Econometrics Center (AMEC)</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Center for Microeconomic Data (CMD)" aria-label="Center for Microeconomic Data (CMD)" href="/microeconomics" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Center for Microeconomic Data (CMD)']);">Center for Microeconomic Data (CMD)</a></li>
+                    		</ul>
+				<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">CALENDAR</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Indicators Calendar" aria-label="Economic Indicators Calendar" href="/research/calendars/nationalecon_cal" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Indicators Calendar']);">Economic Indicators Calendar</a></li>
+                    		</ul>
+					</ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+.dxt-menu-content .dxt-menu-images .dxt-menu-content-item {
+	height: 230px;
+}
+</style>
+  <!-- START : LEVEL 1 -->
+        <li id="nav-item-90" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </div>
+            </div>
+            <ul id="nav-list-90" class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/supervisionregulate" title="Supervision &amp; Regulation">Supervision &amp; Regulation</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-92" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-151">
+                            <a href="/banking/circulars" title="Circulars">Circulars</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-150">
+                            <a href="/banking/regulations" title="Regulations">Regulations</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-93">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/reporting_formsinstruct" title="Reporting Forms &amp; Instructions">Reporting Forms &amp; Instructions</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/reportingforms" title="Reporting Forms">Reporting Forms</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/banking/regrept/regrept" title="Correspondence">Correspondence</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-94">
+                    <a href="/banking/ba" title="Bank Applications">Bank Applications</a>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-158">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/protection" title="Consumer Protection">Consumer Protection</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-158">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-159">
+                            <a href="/outreach-and-education/community-development/community-reinvestment-act" title="Community Reinvestment Act">Community Reinvestment Act</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-160" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/frauds_scams" title="Frauds and Scams">Frauds and Scams</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                As part of our core mission, we supervise and regulate financial institutions in the Second District. Our primary objective is to maintain a safe and competitive U.S. and global banking system.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/governance-and-culture-reform" title="The Governance &amp; Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="The Governance &amp; Culture Reform " title="The Governance &amp; Culture Reform " />
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+                                </p>
+                            </a>
+
+                            <a href="/banking/reporting_formsinstruct" title="Need to file a report with the New York Fed?" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_reportingforms.jpg" alt="Need to file a report with the New York Fed?" title="Need to file a report with the New York Fed?" />
+                                <p>
+                                    Need to file a report with the New York Fed? Here are all of the forms, instructions and other information related to regulatory and statistical reporting in one spot.
+                                </p>
+                            </a>
+
+                            <a href="/banking/protection" title="Frauds and Scams" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_consumerprotection.jpg" alt="Frauds and Scams" title="Frauds and Scams" />
+                                <p>
+                                    The New York Fed works to protect consumers as well as provides information and resources on how to avoid and report specific scams.
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-96" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial&nbsp;Services &amp;&nbsp;Infrastructure</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-96">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial Services &amp; Infrastructure</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-98">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-services-operations" title="Financial Services &amp; Operations">Financial Services &amp; Operations</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-98">
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-401" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/services" title="Services For Financial Institutions">Services For Financial Institutions</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-402">
+                            <a href="/banking/payment_services" title="Payment Services">Payment Services</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-404">
+                            <a href="/banking/payment_oversight" title="Payment System Oversight">Payment System Oversight</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-422" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/international" title="International Services, Seminars &amp; Training">International Services, Seminars&nbsp;&amp;&nbsp;Training</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-99">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform" title="Financial Market Infrastructure &amp; Reform">Financial Market Infrastructure &amp; Reform</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-99" class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-161">
+                            <a href="/banking/tpr_infr_reform" title="Tri-Party Repo Infrastructure Reform">Tri-Party Repo Infrastructure Reform</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-162">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/managing-foreign-exchange" title="Managing Foreign Exchange">Managing Foreign Exchange</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-163" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/money-market-funds" title="Money Market Funds">Money Market Funds</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-164">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/over-the-counter-derivatives" title="Over-The-Counter Derivatives">Over-The-Counter Derivatives</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                The Federal Reserve Bank of New York works to promote sound and well-functioning financial systems and markets through its provision of industry and payment services, advancement of infrastructure reform in key markets and training and educational support
+                                to international institutions.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/aboutthefed/nyic" title="The New York Innovation Center" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/about_the_fed/innovation-center-mega-menu.jpg" alt="The New York Innovation Center" title="The New York Innovation Center">
+                                <p>The New York Innovation Center bridges the worlds of finance, technology, and innovation and generates insights into high-value central bank-related opportunities. </p>
+                            </a>
+
+                             <a href="/nonbank-financial-institutions" title="Nonbank Financial Institutions" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v5/library/financial-services-infrastructure/nbfi/bank-nbfi-skyscrapers-280x176.jpg" alt="Looking skyward toward the tops of glass skyscrapers" title="Nonbank Financial Institions">
+                                <p>The growing role of nonbank financial institutions, or NBFIs, in U.S. financial markets is a transformational trend with implications for monetary policy and financial stability.</p>
+                            </a>
+
+                            <a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="Training Programs" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fs_i/mega_menu/fsi_mm_seminar-training.jpg" alt="Specialized Courses" title="Specialized Courses">
+                                <p>The New York Fed offers the Central Banking Seminar and several specialized courses for central bankers and financial supervisors.</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-100" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/outreach-and-education" title="Community Development and Education">Community Development<br>&amp;&nbsp;Education</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-100">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development &amp;&nbsp;Education</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu" id="nav-item-102" style="margin-top: 22px;">
+                    <div class="dxt-level-top">
+                          <div>  <span class="nav nav-type-label"><a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development</a></span> </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <a href="/outreach-and-education/staff" title="Staff">Staff</a>
+                        </li>
+                     <li  class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                             <span id="nav-item-500" class="frs-init nav nav-type-label upperlower">Fed System Initiatives</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://fedcommunities.org" title="Fed Communities">Fed Communities</a>
+                        </li>
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications-fed-listens-events.htm" title="Fed Listens">Fed Listens</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-502">
+                            <a href="https://www.fedsmallbusiness.org" title="Fed Small Business">Fed Small Business</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>                        
+                       <!-- START : LEVEL 3 -->
+                        <li id="nav-item-469" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                            <a href="/outreach-and-education/other-community-development-work" title="Other Community Development Work">Other Community Development Work</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-468">
+                            <a href="/outreach-and-education/calendar" title="Community Development Calendar">Calendar</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            
+                <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-109" >
+ <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu econ-ed-style" id="nav-item-102">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/outreach-and-education/economic-education" title="Economic Education">Economic Education</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+
+                       
+                        <!-- END : LEVEL 3 -->
+
+                     <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                      <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Programs</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/high-school/high-school-fed-challenge" title="High School Fed Challenge">High School Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/education/fedchallenge_college" title="College Fed Challenge">College Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/high-school/teacher-professional-development-program" title="Teacher Professional Development">Teacher Professional Development</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/classroom-visits" title="Classroom Visits">Classroom Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/aboutthefed/museum-and-learning-center-visits" title="Museum &amp; Learning Center Visits">Museum &amp; Learning Center Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Resources</span>
+                        </div>
+                    </div>
+  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/comic-books" title="Educational Comic Books">Educational Comic Books</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a title="Economist Spotlight Series" href="/outreach-and-education/economic-education/economist-spotlight" title="Economist Spotlight Series">Economist Spotlight Series</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                          <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/ny-fed-content-for-educators" title="Lesson Plans and Resources">Lesson Plans and Resources</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+			</ul>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-490">
+                            <a href="/outreach-and-education/economic-education/calendar" title="Economic Education Calendar">Economic Education Calendar</a>
+                        </li>
+                    
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+                       
+
+                        
+
+                    </ul></div><div class="dxt-menu-images">
+
+
+
+                           
+
+                           
+                            <a href="/governance-and-culture-reform" title="Government and Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="Government and Culture Reform" title="Government and Culture Reform">
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+
+                                </p> 
+                            </a>
+
+                        </div></div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+<style>
+#nav-list-500 {
+        margin-top: 16px !important;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li {
+	background: transparent;
+	color: #fff;
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	width: 255px;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+ul#dxt-navigation ul#nav-list-100 li.nav-level-3 a {
+	display: inline;
+	font-family: RobotoCondensedRegular,Arial Narrow,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0;
+	vertical-align: top;
+}
+@media (max-width: 736px) {
+.econ-ed-style {margin-left:-10px !important;}
+ul > li.dxt-level-2-item > div.dxt-level-top a {
+	padding-top: 0px !important;
+}
+}
+@media (min-width: 737px) {
+.frs-init-items {
+        margin-top: 10px !important;
+}
+.frs-init {
+        margin-top: 9px !important;
+}
+.econ-ed-style {margin-top:40px !important;}
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-images {
+	width: 425px;
+	margin-left: 25px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc {
+	width: auto; 
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#nav-list-93 li {
+	overflow: visible;
+	list-style: disc;
+	margin-left: 16px;
+	margin-top: 10px;
+        font-size:16px;
+}
+}
+#nav-item-100 #nav-list-109 li {
+	margin-top: 10px;
+}
+#nav-item-100 #nav-item-102 .dxt-level-top a {
+	color: #fff;
+	margin-top: 0 !important;
+}
+
+</style>
+
+        <hr>
+
+        <li id="dxt_universal_nav"></li>
+
+    </ul>
+
+</div>
+<!-- END : MOBILE HEADER -->
+<div id="dxt-overlay"></div>
+        </header>
+        <div id="header-border"></div>
+        
+
+
+<div id="breadcrumb" class="grid_12"></div>
+
+        <!--PAGEWATCH-->
+        <!-- begin main content -->
+        
+
+<div class="grid_6 push_1">
+    
+
+<div id="share-module-fix"><div id="sharebox" class="sharebox">
+	<div class="sharing-buttons">
+		<button onClick="shareFacebook()"><img alt="Facebook" class="icon" src="/medialibrary/media/v4/images/FB_s.png"></button>
+		<button onClick="shareTwitter()"><img alt="Twitter" class="icon"  src="/medialibrary/media/v4/images/twitter_s.png"></button>
+		<button onClick="printPage()"><img alt="Print" class="icon"  src="/medialibrary/media/v4/images/print_s.png"></button>
+		<button onClick="shareEmail()"><img alt="Email" class="icon"  src="/medialibrary/media/v4/images/email_s.png"></button>
+	</div>	
+</div>
+</div>
+	<style>
+#share-module-fix {
+    float: right;
+    display: block;
+    position: relative;
+    top: -37px;
+    right: 10px;
+}
+#share-module {
+    display: none;
+}
+.sharing-buttons {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid_8 #share-module-fix {
+    right: 160px !important;
+}
+.sharing-buttons button { background:none; border:none; padding:0; cursor:pointer;}
+.icon { width:21px; height:21px;}
+	</style>
+	<script>
+                function openPopOutWindow(url) { window.open(url, '_blank', 'resizable,width=600,height=700');}
+		function shareFacebook() {
+			openPopOutWindow('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Facebook']);
+		}
+		function shareTwitter() {
+			openPopOutWindow('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Twitter']);
+		}
+		function shareLinkedIn() {
+			openPopOutWindow('https://www.linkedin.com/shareArticle?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'LinkedIn']);
+		}
+		function printPage() {
+			window.print();
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Print']);
+		}
+		function shareEmail() {
+			var subject = 'Check out this page';
+			var body = 'I thought you would find this page interesting: ' + window.location.href;
+			window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Email']);
+		}
+		
+	</script>
+
+    
+      <div class="ts-section-identifier">Speech</div>
+  <h1 class="ts-article-title">Global Liquidity: Drivers, Volatility and Toolkits</h1>
+  <div class="ts-subtitle"></div>
+  <div class="ts-contact-info">
+        November 10, 2022
+  </div>
+  <div class="ts-contact-info">
+    
+<a href="/research/economists/goldberg" >Linda S. Goldberg</a>    , Financial Research Advisor
+    
+  </div>
+  <div class="ts-article-subhead">
+    Remarks at the International Monetary Fund, 23rd Jacques Polak Annual Research Conference
+    <span class="paraNotes">As prepared for delivery</span>
+  </div>
+<div>
+  
+
+
+    <div id="sC-component-text-no-media" class="ts-article-text">
+<p>Under any circumstances it is an honor to present the Mundell-Fleming Lecture of the IMF Annual Research Conference. Thank you Kristalina Georgieva (Managing Director, IMF) and Gita Gopinath (First Deputy Managing Director, IMF) for this honor. Thank you Pierre-Olivier Gourinchas (Economic Counsellor and Director, Research Department, IMF) for your generous words of introduction. You are united in your commitment to a well-functioning international monetary system, to strong economies around the world, and to addressing those vulnerabilities that limit the ability of countries to obtain their best outcomes.</p>
+<p>
+	I speak today on my own behalf, and the views expressed do not necessarily reflect those of the Federal Reserve Bank of New York or the Federal Reserve System.</p>
+<p>
+	It is a special privilege to be at this 23rd Jacques Polak Conference, as during these two days we honor Maurice Obstfeld, an economist for whom we all have tremendous respect. Maury has made so many deeply insightful contributions to our understanding of international monetary history and international finance. </p>
+<p>
+	Some foundational contributions are in modelling inter-temporal considerations — for example with his work with Ken Rogoff on New Open Economy Models, which served as the starting point for Pierre-Olivier Gourinchas's Mundell-Fleming Lecture last year (<a href="https://link.springer.com/article/10.1057/s41308-022-00171-x">Gourinchas  2021</a>). Pierre-Olivier showed how theory is increasingly able to incorporate economic and financial granularity: networks, frictions, heterogeneity. I will discuss this granularity, but from an empirical perspective. </p>
+<p>
+	I am personally inspired by Maury's scholarship and intellectual integrity, and his deep thinking about big picture questions of the entire international monetary system. Likewise, by Maury's capacity to position his observations into the broader contributions of diverse thought-leaders, taking sweeping views of the history of thought on these topics. In developing my own comments for this lecture today, I follow Maury's lead a bit. I will tie some of my key points to some history of thought showcased here at the IMF in past Mundell-Fleming Lectures. </p>
+<p>
+	The stamps of such rich perspectives are reflected in the broader work of the IMF Research Department, and of the Monetary and Capital Markets Department. Importantly, as a community we think about the design, scope, and efficacy of policy toolkits available to countries, and frameworks for when and how different tools are utilized. </p>
+<p>
+	The extensive work of the IMF on the Integrated Policy Framework <a href="https://www.imf.org/en/Publications/Policy-Papers/Issues/2020/10/08/Toward-an-Integrated-Policy-Framework-49813">(IMF  2020)</a> is an important step forward. Countries face difficult tradeoffs in policy. Research and analytics inform the prospects and challenges around specific domestic tools—including macroprudential measures (MPMs), foreign exchange intervention (FXI), and capital flow management measures (CFMs).  My remarks today also will discuss these tradeoffs and toolkits, working through insights around global liquidity.</p>
+<p>
+	Today, my remarks focus on the topic of global liquidity.  In 2011, the Bank for International Settlements (BIS) defined two types of global liquidity <a href="https://www.bis.org/publ/cgfs45.htm">(CGFS 2011)</a>:</p>
+<p>
+	Official liquidity is that component created by central banks.</p>
+<p>
+	Private liquidity refers to the funding conditions for the broader international economy. It reflects the behavior of the financial sector in providing cross-border and/or foreign currency financing .</p>
+<p>
+	This private liquidity is my focus.  It is proxied by the volumes of financial flows, largely intermediated through global banks and nonbank financial institutions, that can be reallocated at relatively high frequencies (can be intra-day or even intra-month). </p>
+<p>
+	Global liquidity is central to international macroeconomics, especially around international spillovers, monetary policy, capital flows, and credit provision. Within this space, my perspective is one shared by many previous Mundell Fleming Lecture presenters — with exchange rates determined in response to international capital flow pressures, and with financial factors the dominant driver. I take the position that global liquidity is central to the financial stability considerations. </p>
+<p>Two drivers of this private global liquidity are monetary policy changes, including those from the US, and risk conditions.  In recent years, both have received attention in previous Mundell Fleming Lectures.</p>
+<p>
+	Helene Rey's influential works including at the 2013 Jackson Hole meeting <a href="https://www.nber.org/papers/w21162">(Rey 2015)</a> and the 2014 Mundell Fleming Lecture <a href="https://link.springer.com/article/10.1057/imfer.2016.4">(Rey 2016)</a> raised important challenges about country toolkits. That US monetary policy receives attention in discussions of international spillovers and the global financial cycle is not surprising, given the centrality of the US dollar in the international financial system.  Indeed, there are channels through which the monetary policy and risk drivers overlap, including through the risk-taking channel of monetary policy. </p>
+<p>
+	Ben Bernanke in his 2015 lecture called for more work on understanding cross-border financial linkages that reflect destabilizing spillovers, as opposed to more benign factors <a href="https://www.jstor.org/stable/45217391#metadata_info_tab_contents">(Bernanke  2017)</a>. Later the whole of the 2017 Annual Research Conference highlighted different aspects of such spillovers.</p>
+<p>Ragu Rajan, in his 2018 lecture discussed consequences of such spillovers for foreign countries based on his work with Douglas Diamond and Yunzhi Hu <a href="https://link.springer.com/article/10.1057/s41308-019-00095-z">(Diamond,  Hu, and Rajan 2020)</a>.  </p>
+<p>
+	My lecture has a particular emphasis on risk conditions as a driver of global liquidity.  A key theme of my lecture is that volatility of global liquidity is associated with the vulnerabilities of and constraints on institutions participating in international financial markets. I will make a few key points from the vantage points of data at different levels of disaggregation by country, by types of flows, and across individual banks.  I will conclude by talking about toolkits, building on the dedicated focus of the last decade.</p>
+<p>
+	Before I spell out my main points, some concept definitions are in order. </p>
+<p>
+	<strong>Prudential policies include so-called micro-prudential  work done within countries to make individual financial institutions, more  robust.</strong> We generally discuss prudential policies with respect to banking organizations, but this limitation is not required.  The supervision and regulation of banking organizations includes a focus on how risk is managed, on the buffers that institutions have against types of risk, and on the approaches for recovery and resolution if the banking organizations get into trouble.  </p>
+<p>
+	<strong>Macro-prudential work is about managing the cycle through  tools that can target specific sectors or financial activities</strong>. The so-called macro-prudential focus certainly appeared on some radars early in the 2000s. Here at the IMF, in 2001 the conversation in front of the Executive Board was around furthering the compilation, use, and analysis of macroprudential indicators (MPIs) of the health and stability of financial systems in the light of experience gained to date (IMF, 2001}. <strong>The early focus on macroprudential  indicators, however, was more closely aligned with early warning indicators  than with a toolkit to directly influence the structure of financial activity.</strong>  </p>
+<p>
+	<strong>In the aftermath of the global financial crisis, efforts  shifted toward developing toolkits to manage financial conditions associated  with excessive booms and avoid damaging busts in credit availability.  Macro-prudential policies, as well as capital flow management tools, have  received considerable attention</strong>.</p>
+<p>
+	My lecture today emphasizes a few main points that are relevant for both research and policy:</p>
+<ul>
+	<li><strong>Prudential policies dampen the amplitude  of global financial cycles. </strong></li>
+</ul>
+<p> Here my key message has a focus on the home country of the financial institutions.  The global regulatory community focused on large and internationally active banks after the global financial crisis. Strong micro-prudential policies and supervision have enhanced risk absorption and improved risk management. I will argue that banks with higher capitalization and better liquidity are associated with a lower amplitude response of cross border lending to deteriorating risk conditions.  If large banks fail, improved recovery and resolution frameworks should shorten periods of disruption and unintended consequences.  Overall, I will argue that more robust institutions in international financial flows relax some of the tight tradeoffs articulated in international monetary and financial stability trilemmas. </p>
+<ul>
+	<li><strong>Appropriately targeted policy requires a  layered approach using granular data</strong>.     </li>
+</ul>
+<p>Analytics using granular data on financial flows inform the constraints, the institutional features, and the amplification channels that are relevant for designing effective policy.  In the case of global liquidity, granularity also means considering the players -- those agents that are in need of financing, and the composition of creditors and investors.    </p>
+<p>
+	This type of granular perspective has motivated some of the important work presented by Hyun Song Shin, as discussed in his 2011 Mundell-Fleming Lecture <a href="https://link.springer.com/article/10.1057/imfer.2012.6">(Shin 2012)</a>. Hyun's contributions with Tobias Adrian take aim at understanding frictions and value at risk constraints in global banks <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1165583">(Adrian and  Shin 2008)</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1042957308000764">(Adrian  and Shin 2010)</a>. Hyun's work with Valentina Bruno <a href="https://www.sciencedirect.com/science/article/pii/S0304393214001688">(Bruno  and Shin 2015)</a> highlights the financial channel of exchange rates working through banks. Both of these approaches are embedded in active agendas of researchers around introducing financial frictions into models. </p>
+<p>
+	The Bank for International Settlements and other institutions are active in collecting some of this granular data from central banks. Institutions are investing in even more granular collections and associated repositories. Insights from analyses of granular data increasingly contribute to our understanding of mechanisms and frictions at work in shaping the dynamics of capital flows across borders. This type of granularity even shapes how we should talk about groups of countries and their respective policy challenges.  And we learn where we have blind spots.</p>
+<p>
+	We often talk about spillovers from home or source countries active in the international financial system.  In this lecture, the granular data approach focuses attention on the supervision and regulation in the home countries of providers of global liquidity.  </p>
+<ul>
+	<li><strong>Risk migration occurs within global liquidity  flows, including in response to home country enhanced bank regulation and  supervision. The increasing role of nonbanks could threaten some of the gains  achieved in weakening the response of global liquidity to changes in risk  conditions.</strong> </li>
+</ul>
+<p>Some of the global liquidity flows —including the riskier projects and borrowers— have migrated away from funding provision through banks toward more market-based financing.  Nonbank financial institutions now play important or even dominant roles in some global liquidity flows.  Nonbank financial institutions consist of a broad spectrum of agents distinguished by the riskiness of their projects, their business models, their collateral holdings, leverage, and access to sources of funding. </p>
+<p>
+	This shift in funding composition can potentially undo some of the recent progress made on dampening shock amplification after the global regulatory communities focused on large and internationally active banks following the global financial crisis.</p>
+<ul>
+	<li><strong>The toolkit:  Policy tradeoffs in destination countries for  global liquidity are improved when participating institutions have better risk  management and risk absorbing capabilities</strong>. <em>The approach to banks has  been developed, the approach for non-banks is less so.</em> </li>
+</ul>
+<p>These points underscore the importance — in an international context —of progressing on the largely domestic country efforts to address the vulnerabilities associated with some classes of nonbank financial institutions. Weaknesses and systemic risks propagate across borders, and domestic policy has externalities.  Developing effective liquidity facilities for the official lender of last resort function, associated with official provision of global liquidity, also plays a role.</p>
+<ul>
+	<li><strong>Open questions: What is the endgame for risk  migration?  What is the right mix of  (international) debt and equity flows, and how is this ideal mix achieved?</strong> </li>
+</ul>
+<p>Equity markets can quickly adjust to shocks through asset prices.  Equity owners absorb losses and volatility.  Institutions and tax codes can favor debt financing. What is the right mix domestically, and how does this interact with global liquidity?     </p>
+<ul>
+	<li><strong><u>Global Liquidity </u></strong></li>
+</ul>
+<p>Arguments about global liquidity tie closely to overall capital flows and relate to the classical Monetary Trilemmas faced by countries. The well-known Monetary Trilemma posits the incompatibility of three economic features: monetary policy autonomy, maintaining fixed exchange rates, and having free and open international capital flows.  Maury Obstfeld has provided empirical evidence that some monetary policy autonomy exists, including for emerging markets, especially for countries with flexible exchange rates. Countries with flexible exchange rates have better economic outcomes relative to countries under fixed exchange rate alternatives, even if complete achievement of domestic goals is not accomplished. </p>
+<p>
+	Additional challenges for policy autonomy are highlighted around the Financial Trilemma, in which Dirk Schoenmaker (<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1367-0271.2005.00149.x">2005</a> and <a href="https://www.sciencedirect.com/science/article/pii/S0165176511000115">2011</a>), builds on the more general principles of extensive domestic objective incompatibilities in a globalized world as argued by Dani Rodrik <a href="https://www.aeaweb.org/articles?id=10.1257/jep.14.1.177">(2000)</a>. This Financial Trilemma brings into focus the conflicting nodes in the international financial stability realm that are sharpened by the substantial growth in cross-border financing over recent decades. In this case, the three mutually incompatible nodes are: financial stability, nonintervention in cross border financial flows, and national control over financial supervision and regulation. </p>
+<p>
+	At the IMF 15th Annual Research Conference on "Exchange Rates and Financial Globalization," Obstfeld <a href="https://www.imf.org/external/np/res/seminars/2014/arc/pdf/Obstfeld.pdf">(2014)</a>discussed how financial stability policy is harder in open economies and financial fragility is more pronounced when agents choose not to hedge foreign dollar credits. </p>
+
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart1"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart1" width="100%"></a></p>
+
+<p>
+	Obstfeld <a href="https://www.imf.org/external/np/res/seminars/2014/arc/pdf/Obstfeld.pdf">(2014)</a> provides some ingredients of a more efficient international system, including:  </p>
+
+<ul>
+	<li>Sound domestic macroprudential policies (addressing inadequacy of monetary policy alone). </li>
+	<li>Domestic regulatory control over large foreign banking organizations (FBOs). </li>
+	<li>Since full coordination politically impossible, rules of the road for capital controls, if they are at times needed to address nation-specific issues. </li>
+	<li>Enhanced facilities for international liquidity support in key currencies – to counteract downsides of gross reserve accumulation.</li>
+	<li>More equity, less debt – well underway for EMEs.</li>
+</ul>
+<p>Considerable progress has been made in developing and implementing the integrated policy framework here at the IMF.  Regulators have also made some progress on the banking side, as I will discuss. It also has been made on capital control frameworks and enhanced facilities. At least as pertains to domestic macroprudential policies, one issue with effectiveness is that some parts of the toolkit are applied to specific types of institutions — for example banks —instead of activities. </p>
+<p>
+	<strong>More than a decade ago, the potential for risk migration  was anticipated by researchers</strong>.</p>
+<p>
+	Jonathan Ostry, Atish Ghosh, Marcos Chamon and Mahvash Qureshi <a href="https://www.sciencedirect.com/science/article/pii/S0022199612000177">(2012)</a> were early in the space of exploring the empirical consequences of macroprudential and capital control policies using data for 51 EMEs for the period 1995 through 2008. They found evidence of effectiveness for indicators of financial fragility.  However, they also noted the difficulty of using macroprudential policy effectively when activity can migrate to unregulated venues.</p>
+<p>
+	Valentina Bruno and Hyun Song Shin <a href="https://www.sciencedirect.com/science/article/pii/S0304393214001688">(2015)</a> observed that "the shifting patterns of financial intermediation means that tools geared toward the regulated banking sector have diminished efficacy" on the procyclicality of the financial system. </p>
+<p>
+	Maury with Alan Taylor <a href="https://www.aeaweb.org/articles?id=10.1257/jep.31.3.3">(2017)</a> emphasized the importance of focusing more on rapidly evolving financial markets, as risky activity was being pushed outside the perimeters of regulation. </p>
+<p>
+	Helene Rey <a href="https://www.imf.org/en/News/Seminars/Conferences/2017/09/18/2017-eighteenth-annual-research-conference">(IMF  2017)</a>called for a "research agenda for the Global Financial Cycle [including the] source, propagation, amplification mechanisms, endogenous risk build ups; Models with heterogeneous intermediaries and moral hazard (risk-taking not properly priced) …(among other things); Ex ante: Regulatory policies,  Micro and macro prudential policies, capital flow management policies, … policies subsidizing debt." </p>
+<p>
+	All of Maury's ingredients will come up in the rest of this lecture.  I will set up issues pertaining to the trilemma and the ingredients by considering the relationship between global liquidity and risk conditions.  I will present evidence at different levels of data disaggregation, and ultimately make arguments about the roles of prudential policy and then the challenges from risk migration.    </p>
+<p>
+	International capital flow pressures manifest as an excess demand for foreign currency relative to domestic currency. Global liquidity is a big portion of these flows.  </p>
+<p>
+	Exchange rates are frequently used as indicators of these international capital flow pressures. However, some countries through central banks or finance ministries, at some times, meet excess demand for foreign currency by using foreign exchange intervention (FXI) instead of letting all the international capital flow pressure materialize in the depreciation.  Similarly, when there are appreciation pressures on currencies, some central banks accumulate official foreign exchange reserves instead of realizing the full currency appreciation. In these cases, <strong>the exchange rate is no longer a sufficient statistic for  international capital flow pressures, across countries and over time</strong>.</p>
+<p>
+	The new Exchange Market Pressure (EMP) index from Signe Krogstrup and I (<a href="https://www.nber.org/papers/w24286">Goldberg and  Krogstrup 2018</a>) includes the actual rate of currency depreciation or appreciation that occurs, along with contributions of both FXI conducted and monetary policy rate changes.  But FXI is a quantity, for example billions of euros or USD, while currency depreciation is a rate. How can they be added up?  </p>
+<p>
+	We derive the factor that converts how much currency depreciation was avoided by that FXI.  The derivation starts with the standard balance of payments accounting, which captures the flows associated with net exports, interest payments on foreign debt and interest earnings, and changes in gross foreign asset and liability positions.  FXI is the residual of all the other currency flows across borders for a country at a point in time. </p>
+<p>
+	As the exchange rate influences some of these flows, we work through how much of a change in the exchange rate — working through mostly financial channels— would have been needed to generate such an excess demand for foreign currency. This gives the conversion factor.  It represents the quantity of currency depreciation avoided by every billion dollars or euros of FXI is country and time specific and depends on features like country-specific gross foreign assets and liabilities, the currency denominations of these positions, and the sensitivity of different types of investors to shocks.  </p>
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart2"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart2" width="100%"></a></p>
+
+<p> We compute monthly series for the <em>EMP</em> for a large group of countries. And we use this to demonstrate the evolving risk sensitivity of international capital flow pressures. Our Global Risk Response (<em>GRR</em>) series is a rolling 5-year correlation between the <em>EMP</em> and a measure of risk sentiment (in this case the <em>VIX</em>). </p>
+<p>This slide shows in blue the averages across advanced economies at each date, along with a standard error band showing variation across countries and shows in red the comparable averages across emerging market economies. </p>
+<p>
+	This exhibit demonstrates a broadly accepted characterization.  Increases in the <em>VIX</em> elicit a much greater risk off pressure on emerging market currencies - negative values are the tendencies of a currency to depreciate when risk sentiment deteriorates and the <em>VIX</em> is higher. These depreciation tendencies are stronger across emerging markets compared to advanced economies. Across these two groups of countries the differences in risk sensitivities are no longer so pronounced.</p>
+<p>
+	This inference is misleading. And it provides a first take of why looking at granular data is helpful.</p>
+<p>
+	For context, the past decade has focused our attention on safe haven properties of some currencies, with the dollar associated with convenience yields and the US considered a liquidity provider or global insurer. Many participating in this conference have contributed insights on this topic.<sup><a href="#footnote1">1</a></sup> Some other currencies also exhibit the so called "safe haven" currency characteristics, as these countries are net recipients of global liquidity flows or experience similar international capital flow pressures as the US dollar as risk conditions deteriorate. </p>
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart3"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart3" width="100%"></a></p>
+
+<p>The next exhibit separates these so-called "safe haven" currencies from the broader group of advanced economies. Now we have average <em>GRR</em> values for two categories of advanced economies — with and without the "safe haven" feature — and have the average <em>GRR</em> for emerging market economies.</p>
+<p>
+	<strong>Abstracting from the so-called safe haven currencies,  other advanced economies and emerging markets exhibit similar risk  sensitivities</strong>. Advanced economies are not appropriately combined into a single category when considering policy challenges from risk-induced international capital flow pressures. The risk sensitivity for the currencies of other advanced economies and those of emerging market economies are quite similar after the GFC. Meanwhile, risk sensitivities have trended downward for the so-called safe havens. </p>
+<p>
+	Why? For answers, it is important to understand the composition of players in global liquidity flows.</p>
+<p>
+	<strong>Increasingly granular data will now help us to understand  drivers of these reduced sensitivities and to gain insights on whether this  status of lower risk sensitivity is likely to persist. </strong>It is helpful to have a schematic in mind as we consider the players.</p>
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart4"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart4" width="100%"></a></p>
+<p>
+	This schematic is intended to capture the key elements of global liquidity. The boundaries of Country A are indicated by the dashed orange lines. Within country A are banks, on the left, and all others in need of funding on the right. The global liquidity flows to borrowers in a Country A can be intermediated through banks (upper left) and through non-bank financial institutions (upper right).  </p>
+<p>
+	Cross-border loans (XBL) are made by the internationally active banks to domestic banks. Internationally active banks also directly fund non-bank borrowers in country A. This funding can take the form of sovereign loans or syndicated lending to large non-financial corporations, exporting and importing firms, and leveraged non-bank financial firms. </p>
+<p>
+	Some global banks also engage in cross-border lending to their branches and subsidiaries located in Country A. Intra-bank lending is how global banks manage liquidity across parts of their organizations around the world. The hosted banks then provide loans and services within the borders of country A. </p>
+<p>
+	The right side of this graphic shows the role of global players in the non-bank financial intermediation space.  Funding through non-bank financial institutions (NBFIs) is sometimes described as market-based finance. This can be through purchasing international debt securities (IDS) that are issued by banks or by nonbanks within country A. The purchasers of these securities tend to be pension funds, insurance companies, money market funds, and hedge funds. </p>
+<p>
+	How large are these different types of flows? </p>
+
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart5"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart5" width="100%"></a></p> 
+
+<p>My recent research with Stefan Avdjiev, Leonardo Gambacorta, and Stefano Schiaffi (2022) expands on earlier work we published in 2020 in the JIE <a href="https://www.sciencedirect.com/science/article/pii/S0022199618301946">(Avdjiev,  Gambacorta, Goldberg, Schiaffi 2020)</a>. Our current analytics look at BIS data on cross border loans and international debt securities, aggregated at the country level, with series that cover 44 lending countries and 64 borrowing countries, 2000 through 2021. </p>
+
+<p>These exhibits show the evolving composition of bank-based funding and market-based funding for borrowers in advanced economies (top panels) and emerging markets (bottom panels). We separate the banks as borrowers (left panels) from the nonbanks as borrowers (right panels). Red blocks show outstanding XBL. Blue blocks show outstanding IDS.  </p>
+<p>
+	Focus your attention on the left panels, which depict how bank borrowers are financed internationally. Banks in both advanced economies (on top) and in emerging markets (on bottom) have had relatively steady positions in total global funding in recent years. Cross-border loans (represented in red) are the largest form of international funding for banks. </p>
+<p>
+	Focusing your attention on the right panels, <strong>the most  dramatic shifts in the composition of global liquidity are for non-bank  borrowers</strong>. This change is evident both within advanced and emerging market economies. <strong>While banks have experienced moderate shifts in funding sources,  nonbanks have tilted sharply toward market-based finance.</strong></p>
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart6"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart6" width="100%"></a></p>
+
+<p>Next, the same data are deflated by GDP in each country at each quarter. We then consider the medians across countries and by date.  Post GFC, the median advanced economy has international debt securities issued by nonbanks financed at about 25 percent of GDP, while the median emerging market economy has experienced sharp increases over a decade from around 5 percent of GDP to 13 percent of GDP.  </p>
+
+<p>Let's go back to big picture, and back to Maury Obstfeld, as he so often places lessons in the context of international financial history.  In 2005, Maury and Alan Taylor published their book on Global Capital Markets <a href="https://books.google.com/books?hl=en&lr=&id=KhXl9OT0WigC&oi=fnd&pg=PR9&dq=global+capital+markets+taylor+and+obstfeld&ots=nWDtKiGerI&sig=NaCFmc782GDkL1cAiahJNByb4mk#v=onepage&q=global%20capital%20markets%20taylor%20and%20obstfeld&f=false">(Obstfeld  and Taylor 2005)</a> in which they presented a stylized visualization of capital flow history from the mid-1800s to 2000.  The first era of financial globalization occurred prior to 1914, then collapsed during the interwar period. The world economy experienced the second era of financial globalization from 1980 through 2000. </p>
+<p>
+	Next, I provide my own brief history of the period since 1980. For this purpose, I return to the stylistic diagram introduced earlier. The period from 1980 through the present will be divided into 3 episodes, also helping to motivate a bigger and durable point about risk migration in global liquidity.</p>
+
+
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart7"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart7" width="100%"></a></p>
+
+<p>
+	<strong>Episode 1 - 1980s to early 1990s: Global Liquidity flows started out  bank-based, and to sovereign borrowers.</strong> This is reflected in the pattern of bold black arrows.  </p>
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart8"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart8" width="100%"></a></p>
+
+<p><strong>Episode 2 -</strong> <strong>mid 1990s through early 2000s:  </strong>Often following crises, countries liberalized their capital accounts and permitted more participation of foreign banks in the local economies. <strong>Global banking expands through branches and  subsidiaries in foreign locations, and then direct lending increases to other  nonbank customers</strong>. Other banking services also were more broadly provided. Global banking organizations became more complex with many legal entities as part of these financial conglomerates. Plus, there was some increase in the role of NBFIs.</p>
+
+
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart9"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart9" width="100%"></a></p>
+
+	
+<p><strong>Episode 3 – Post GFC to the present</strong>: The last and current era is a period of expansion of rapid global liquidity flows directly to non-bank borrowers and an increasing role of NBFIs.  Part of this arose as regulation generated with risk migration away from banks and technological changes also occurred.</p>
+<p>Next, our analytics use the borrower type and funding type granularity by country over time to explore evolving risk (and monetary policy) sensitivity over time, along with drivers of these changes. Sensitivities of flows are explored relative to the VIX. However, robustness has been done in some parts of the work to other measures —for example using the RORO measures of Chari, Dilts Stedman and Lundblad <a href="https://www.nber.org/papers/w27927">(2020)</a> and the risk sentiment from Bekaert, Engstrom and Xu <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4068">(2021)</a>. </p>
+
+<p>These next slides draw on my new research with Stefan Avdjiev, Leonardo Gambacorta and Stefano Schiaffi (Avdjiev, Gambacorta, Goldberg, Schiaffi 2022) and our earlier work in the JIE 2020.</p>
+<p>
+	The data cover IDS and XBL, by bank and non-bank borrowers. Analytics consider characteristics of source country banking systems and composition of NBFI types in inflows, from the perspective of the borrowing country.  </p>
+<p>The econometrics:  estimate sensitivity to global factor components: change in U.S. federal funds rate (or shadow policy rate), risk sentiment (VIX), global GDP growth; control for local conditions: GDP growth, sovereign rating, capital account openness;  estimate sensitivity pre-GFC and patterns post-GFC; separate borrowers by "safe havens", other advanced economies, and emerging markets; and test for drivers of sensitivities, including composition and characteristics of banking systems and NBFIs.</p>
+<p>I illustrate findings applied to granular data at the country and funding type levels for EM borrowers.  In the exhibit below, the horizontal orange lines are the pre-GFC sensitivities to risk.  The blue lines are the post GFC sensitivities, sequentially adding quarterly observations.   These blue lines are surrounded by a 90 percent confidence interval at each date.</p>
+
+<p>
+	<a title="Chart" rel="facebox" href="#large-chart10"><img src="/medialibrary/media/newsevents/speeches/2022/gol221110/chart10" width="100%"></a></p>
+
+<p>
+	<strong>The sensitivities to risk of different types of flows  vis-a-vis borrower types have changed dramatically</strong>. </p>
+<p>
+	<strong>Across emerging markets, and across other country  groupings (not shown), all borrower types have reduced cross-border lending  sensitivity to the VIX</strong>.  This is illustrated by the top panel of graphics, where the leftmost panel uses the total amount of XBL each quarter by country, the middle panel shows the perspective of banks as recipients of interbank funding, and the right panel provides the perspective of non-bank borrowers.</p>
+<p>
+	<strong>These risk sensitivity results through bank lending stand  in contrast to patterns in market-based funding for bank and nonbank borrowers.  Risk sensitivity of IDS has not declined and exhibit considerable heterogeneity  across borrowing countries.</strong> This type of funding has grown in importance. It is also less transparent, and more heterogeneous, as I will shortly discuss.</p>
+<p>
+	There are important differences across so-called safe havens and other advanced economies (not shown here). Pre-GFC, cross-border lending to banks located in all groups of countries contracted when risk sentiment deteriorated. After the GFC, on average funding flowed into the safe haven country banks and non-bank borrowers when deteriorations in risk conditions occurred.</p>
+<p>
+	In sum, the post GFC period has been characterized by been dramatic changes </p>
+<ul>
+	<li>A few advanced economies have emerged as "safe havens"   </li>
+	<li>Advanced economies are better understood by separating out the so-called safe haven experiences from other advanced economies.   </li>
+	<li>The role of market-based funding has increased, especially for nonbank borrowers. </li>
+	<li>Risk sensitivities of global liquidity flows through banks have declined.</li>
+	<li>NBFI funding remains risk sensitive, with considerable heterogeneity in types across borrowing locations.</li>
+</ul>
+<ul>
+	<li><strong><u>Prudential Policy Spillovers Across Borders</u></strong></li>
+</ul>
+<p>What is behind this changing pattern of risk sensitivity across countries and over time?  The next body of work points to stronger <strong>prudential policy and official liquidity  facilities in reducing the amplitude of response of global liquidity to risk deterioration. </strong>Key findings are based on considering risk sensitivities in post GFC, both compared to pre GFC and over time (through 2021 data).</p>
+<p>
+	<strong>Better capitalization in banks is the major contributor  to less risk sensitive XBL. </strong>The amplitude of risk transmission across borders is sharply magnified through banks that are less well capitalized. The role of bank capitalization is particularly important for EM borrowers. </p>
+<p>
+	<strong>Additional stabilizing effects have come from  compositional changes within XBL activity</strong>.  Less well capitalized banking systems lost market share after the GFC, as they focused more on balance sheet repair. In addition, the shorter term and more volatile cross-border flows vis-à-vis unrelated banks abroad (Interbank lending) has declined, increasing the relative importance of intra-bank lending.</p>
+<p>
+	<strong>Data limitations make it more difficult to be as  conclusive about the characteristics of NBFIs involved in market-based  funding.  </strong>Our research uses two NBFI indicators:  the asset share of NBFIs with high leverage and the asset share of NBFIs with high liquidity transformation.<sup><a href="#footnote2">2</a></sup> We do not have institution specific details on leverage, including for institutions involved in global liquidity flows. The results are much noisier.</p>
+<p>
+	<strong>In market-based funding of borrowers, risk sensitivity appears  to be higher when higher leverage types of NBFIs account for larger shares of  flows</strong>. The share of high leverage NBFI types associated with global liquidity inflows are quite different across safe havens, other AEs, and EMs.  For EMs this share represents over 40 percent of the NBFIs, down from over 50 percent a decade prior. For other advanced economies, the share is considerably lower, down to about 20 percent in the past decade. </p>
+<p>
+	Research conducted through projects organized by the International Banking Research Network provides additional insights.  Friederike Niepmann, Tim Schmidt-Eisenlohr and Emily Liu ( <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496617">2021</a>) find that only banks that comfortably passed the CCAR (the Federal Reserve's annual Comprehensive Capital Analysis and Review) stress tests issued more loans to EMs borrowers. Banks also shifted their lending to safer borrowers within EMs in response to monetary easing, leaving the risk of their overall loan books unchanged.  </p>
+<p>
+	<strong>Other studies find  that prudential policy spillovers across borders depend on bank characteristics  in source and recipient countries </strong>(<a href="https://www.nber.org/papers/w22874">Buch  and Goldberg 2017</a>). As there are Heterogeneous results across the different countries participating in this initiative, we reach general findings using meta-analysis. Spillovers occur internationally through bank lending. Country- and sector-specific dynamics documented by individual countries. Effects on lending differ with bank balance sheet characteristics and business models. Direct effects are not large on average. </p>
+<p>
+	B<strong>ank capital  requirements are </strong>tied to migration of activity across banks/ banking systems. Banks with higher initial capital were poised to increase lending internationally, and sometimes pivoting from domestic loan growth, when foreign countries tightened their capital requirements. Changes in some prudential instruments spur market share repositioning across banks and foreign countries.</p>
+<p>
+	<strong>Recovery and  resolution frameworks for large and systemically important banks have also  played a role in changing risk sensitivity of banking organizations</strong>.  My work with Ricardo Correa on US banks and the introduction of living wills shows that these large banks reduced their organizational complexity, but at the same time this altered forms of risk exposures ( <a href="https://www.sciencedirect.com/science/article/pii/S0378426620302740">Correa  and Goldberg 2022)    </p>
+	
+<p><strong>New research also points to Central  Bank Swap Lines and Funding Facility access as reducing risk sensitivity</strong>. When  tail risk events in global liquidity occur, high stress episodes are reflected  in higher cost of dollar funding facing borrowers in offshore markets. Some of  the amplification effects arise as borrowers increase demand for liquidity due  to meeting existing balance sheet funding needs or due to positioning towards  more liquid positions. At least from the perspective of liquidity for such  insurance purposes, access to lender of last resort and liquidity facilities  should weaken the amplitude and amplification of some global liquidity  responses to extreme risk events. </p>
+<p>
+  In dollar funding, the  Federal Reserve's swap lines with central banks and the Foreign and  International Monetary Authority (FIMA) repo facility - introduced in March  2020. By reducing some of the tail risk on dollar funding costs in systemic  events, access to such facilities support continued credit provision and  reduced amplification effects when large shocks hit global markets.</p>
+<p>
+  Analysis conducted  with my colleague Fabiola Ravazzolo, using data during the early months of the  pandemic in 2020, explores if the risk sensitivity of different components of  global liquidity flows are differentiated across countries, and decline with  facility access (<a href="https://www.nber.org/papers/w29982">Goldberg and Ravazzolo 2022 </a>). Analytical results support the conjecture that facility access in a large risk event stabilizes credit flows through banks and bond funds, but also depends on the features of funds. <sup><a href="#footnote3">3</a></sup> </p>
+
+<p>
+	These types of findings reinforce the point about understanding the heterogeneity of nonbank financial institutions, as well as types of mutual fund flows. Recent analytics by Anusha Chari, Karlye Dilts Stedman, and Christian Lundblad <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4245851">(Chari,  Dilts Stedman, and Lundblad 2022) </a> show extensive heterogeneity across bond and equity funds, as well as across institutional funds versus retail funds, in response to risk levels and risk aversion, with distinctions sorting along passive versus active funds and along the composition of these funds.</p>
+
+<ul>
+	<li><strong>Risk Migration and Toolkits</strong></li>
+</ul>
+
+<p>My last two themes focus on risk migration and toolkits.  Think back to the stylized history of the past 40 years, and to the drivers that I have presented. Pre-GFC, liberalized access by global banks shifted some XBL to local lending. More credit access to smaller, riskier local borrowers. Plus, global bank liquidity allocation across organizations responds to risk. Lending by branches and subsidiaries is less risk sensitive than XBL.  Intra-bank lending more stable than inter-bank lending.  When shocked, global banks follow pecking order on liquidity reallocation across foreign affiliates: core locations are more protected than periphery ( <a href="https://www.sciencedirect.com/science/article/pii/S0022199612000918">Cetorelli  and Goldberg 2012 </a>)</p>
+
+<p>
+	<strong>After the global financial crisis those internationally  active banks with stronger balance sheets and risk absorbing capacity expanded  market share relative to banks that had to focus more on balance sheet repair.</strong>  Over time, the frameworks focused on large and systemically important banks require more capital to be set aside in association with riskier borrowers.  This led to some migration of those financing activity to market-based finance through NBFIs. This likely was aided by prudential developments including enhanced recovery and resolution frameworks, reduced some of the organizational complexity of global banks (<a href="https://www.sciencedirect.com/science/article/pii/S0378426620302740">Correa  and Goldberg 2022</a>).</p>
+
+<p>
+	Regulation and innovation fuel both NBFI expansion and their locations in cross-border financial centers. Pamela Pogliani, Goetz von Peter, and Phil Wooldridge <a href="https://www.bis.org/publ/qtrpdf/r_qt2206b.htm">(2022) </a> find that NBFIs now account for the largest share of intermediation via cross-border centers. NBFIs locate more in cross-border financial centers with less stringent regulation.  Funds are channeled across borders often via entities with a minimal physical presence, such as booking offices, special purpose entities (SPEs) and shell companies.<sup><a href="#footnote4">4</a></sup> </p>
+
+<p>
+	Extensive work on toolkits has focused on managing priorities, conditional on characteristics of global liquidity. My main lesson is that Trilemmas – both the monetary trilemma and the financial trilemma - bind less under stronger foreign prudential policies.  This is a positive externality.</p>
+
+<p>
+	This insight reinforces importance of: Continued focus on risk management and ample risk buffers of global banks – positive global externalities for XBL; liquidity management within global banks helps fund more information-intensive, relatively stable local lending by affiliates. However, more peripheral locations are less protected (even less so by XBL); and liquidity facilities by central banks: reduce amplification of strains, enable liquifying instead of liquidating official reserve assets.</p>
+
+<p>
+	It also emphasizes additional considerations, as the IMF Integrated Policy Framework has a focus on recipient country policy.  Can the framework explore introducing thresholds on prudential strength of source countries? Or around characteristics of specific global liquidity providers?</p>
+
+<p>
+	The research community can collectively enhance this effort so that we collectively learn more about the mechanisms for transmission and amplification across specific types of institutions. Issues arise around institutional oversight and regulation, access to liquidity backstops with moral hazard risks, where procyclicalities arise in financing flows, differences in dynamics through new and old players in financial markets along with entry costs to intermediate and participate in liquidity provision, and differences in behaviors in normal times versus crisis periods when stresses are broad-based. In addition, the central banking community is working to understand how NBFIs contribute to monetary policy implementation, with details about the granular composition of the types of institutions including insurance companies, investment funds, and pension funds. While banks and NBFIs are discussed separately, there are interconnections with channels of shock transmission that are still not fully understood. </p>
+<p>
+	In the global liquidity environment, even if domestic toolkits are not complete, the tradeoffs in the Financial Trilemma should be improved if both global banks and overseas nonbank financial intermediaries abroad are more robust, without amplification effects that worsen the effects of shocks, whether associated with risk sentiment or other causes. From a borrowing country perspective, perhaps the future is one where every institutional provider of funding is rated, and there is a required diversification of providers as well as threshold rating of providers. Perhaps this type of approach can help deal with regulatory fragmentation. </p>
+<p>
+	As a final point, the international financial and research communities can collectively pose the question about the optimal composition of global liquidity flows.  It is clear that funding should be somewhat diversified to minimize counterparty risk concentrations. A mix of domestically owned and foreign banks provide additional dimensions of diversification, as do diversified business models within banking organizations. However, less well developed is the optimal structure of debt versus equity. </p>
+<p>
+	<strong>V. Concluding remarks</strong></p>
+<p>
+	I have argued today that prudential policies in the source countries of global liquidity are important for reducing the amplitude of responses to risk as transmitted across borders.  Managing challenges from global liquidity has four key elements.  First, appropriately target policy using a layered approach with granular data. Second, maintain a focus on strong prudential policies and effective supervision. Third, focus on features of liquidity facilities that help dampen the global financial cycle, but do not create moral hazard. Fourth, address the continuing challenges that arise from risk migration. </p>
+<p>
+	In addition there are many areas that are ripe for careful research and analytics.  Among this is a forward-looking vision of what countries would target as an ideal structure of debt and equity in financing.</p>
+
+<div id="large-chart1" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart1"> </div>
+<div id="large-chart2" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart2"> </div>
+<div id="large-chart3" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart3"> </div>
+<div id="large-chart4" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart4"> </div>
+<div id="large-chart5" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart5"> </div>
+<div id="large-chart6" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart6"> </div>
+<div id="large-chart7" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart7"> </div>
+<div id="large-chart8" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart8"> </div>
+<div id="large-chart9" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart9"> </div>
+<div id="large-chart10" style="display: none;"><img alt="" src="/medialibrary/media/newsevents/speeches/2022/gol221110/large-chart10"> </div>
+    </div>
+    <br />
+    <hr size="1" />
+    <div id="sC-component-footnotes" class="ts-footnote-2">
+<p> <a name="footnote1"></a><sup>1</sup> Examples of different approaches linking liquidity, the US dollar, and risk  include <a href="https://www.researchgate.net/profile/Pierre-Olivier-Gourinchas/publication/236211772_Global_Imbalances_and_Global_Liquidity/links/0a85e5331b949646f5000000/Global-Imbalances-and-Global-Liquidity.pdf">Gourinchas  (2012)</a>, <a href="https://doi.org/10.1146/annurev-economics-063016-104331">Cohen,  Domanski, Fender, and Shin (2017)</a> ,<a href="https://www.aeaweb.org/articles?id=10.1257/aer.20130479"> Maggiori (2017)</a>, <a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20181064">Jiang,  Krishnamurthy, and Lustig (2018)</a>, <a href="https://doi.org/10.1146/annurev-economics-080217-053518">Gourinchas and  Rey (2019)</a> and <a href="https://link.springer.com/article/10.1057/s41308-019-00077-1">Jorda,  Schularick, Taylor, and Ward (2019)</a>. </p>
+
+
+
+<p> <a name="footnote2"></a><sup>2</sup> These shares are originally computed at the home-country level and are then  turned into host-country measures using as weights bilateral CPIS portfolio  data. The categorization of types of NBFIs follows work done at the Financial  Stability Board, as in Table <a href="https://www.fsb.org/2021/12/global-monitoring-report-on-non-bank-financial-intermediation-2021/">(FSB  2021)</a>.</p>
+
+
+<p> <a name="footnote3"></a><sup>3</sup> We  explore how much mutual funds and EFTs invested in bonds and equities of  analyzed countries. Tests over international bond fund flows show that swap  line countries on average had inflows when risk sentiment deteriorated, with  patterns shifting to relatively milder outflow sensitivity in the initial part  of the pandemic. These distinct patterns arose from the bond flow dynamics of  the standing swap central bank countries compared to the temporary swap central  bank countries, as the standing swap countries had much stronger inflows on  average associated with increased risk sentiment, and a much stronger  flattening of this sensitivity in the initial part of the pandemic. The  normalization was much slower for equity funds, where on average flows did not  return to pre-pandemic values until the third quarter of 2020.</p>
+
+
+ <p> <a name="footnote4"></a><sup>4</sup> While improvements in bank regulations have reduced the attraction of such  locations for banking, arbitrage opportunities around regulation and taxation  still attract NBFIs. Pogliani, von Peter, and Wooldridge <a href="https://www.bis.org/publ/qtrpdf/r_qt2206b.htm">(2022)</a>note that  capital requirements for captive insurance companies can be lower and more  flexible in some cross-border centers than they are in larger economies. In the  area of digital innovation, a number of economies have banned or restricted  cryptocurrency businesses, whereas many cross-border centers have enabled their  expansion. NBFIs now account for the largest share of intermediation via  cross-border centers. Other research efforts that use securities level data to  reclassify investors and borrowers by nationality instead of residency. See <a href="https://www.journals.uchicago.edu/doi/full/10.1086/705688">Maggiori, Neiman, and Schreger (2020</a>) and <a href="https://academic.oup.com/qje/article/136/3/1499/6262366">Coppola, Maggiori, Neiman, and Schreger (2021)</a>.  </p>
+  
+    </div>
+         
+
+</div>
+
+</div>
+<div class="grid_4 push_2">
+    
+    <div id="sC-component-accordion" class="frb-accordion-wrapper">
+
+    </div>
+
+</div>
+        <!-- end main content -->
+        <!--/PAGEWATCH-->
+        
+
+<!-- COOKIE CONSENT START -->
+<style>
+#myCookieConsent {
+    z-index: 999;
+    min-height: 20px;
+    font-family: RobotoCondensedRegular;
+    padding: 10px 20px;
+    background: #3b4045;
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    display:none;
+    right: 16px;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+#myCookieConsent div {
+    padding: 0;
+}
+#myCookieConsent a {
+    color: #A6D9F0;
+    display: inline-block;
+    padding: 0 0px;
+}
+#myCookieConsent a:hover {
+	color: #A6D9F0;
+}
+#myCookieConsent a#cookieButton {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+#myCookieConsent a#cookieButton:hover {
+    
+
+}
+/*Social Media Footer Styles*/
+#social_media_footer svg {
+	overflow: hidden;
+	background: #fff;
+	width: 26px;
+	height: 26px;
+        margin-bottom:1px;
+}
+#social_media_footer svg#social-twitter:hover {
+	overflow: hidden;
+	background: #000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-youtube:hover {
+	overflow: hidden;
+	background: #FF0000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-linkedin:hover {
+	overflow: hidden;
+	background: #0072b1;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-email:hover {
+	overflow: hidden;
+	background: #731A8B;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-instagram:hover {
+	overflow: hidden;
+	background: #ff0076;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-facebook:hover {
+	overflow: hidden;
+	background: #4267B2;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+</style>
+</style>
+<script type="text/javascript">
+$(document).ready(function(){   
+var d = new Date(); 
+var day = d.getDate(); 
+if(sessionStorage.getItem('bannerSeen') != day){
+    $("#myCookieConsent").fadeIn();
+    sessionStorage.setItem('bannerSeen',day);
+
+   $("#cookieButton").click(function() {
+ 
+       $("#myCookieConsent").fadeOut();
+})
+var expireTime = 24000*60*60; 
+setTimeout(function() {
+    sessionStorage.removeItem('bannerSeen');
+}, expireTime);
+} 
+}); 
+
+</script>
+<div id="myCookieConsent">
+	
+	<div>By continuing to use our site, you agree to our <a id="terms-of-use" href="/privacy/termsofuse">Terms of Use</a> and <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>. You can learn more about how we use cookies by reviewing our <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>.&nbsp;&nbsp;&nbsp;<a id="cookieButton" title="Close"><img alt="Close" src="/medialibrary/media/footer/close-notice.png"/></a></div>
+</div>
+<!-- COOKIE CONSENT END -->
+
+<div class="space60"></div>
+<div id="footer" class="container_12">
+	<div class="grid_2 omega" id="social_media_footer">
+<!-- TWITTER -->
+<a title="X" target="_blank" href="https://x.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'X formerly Twitter']);"><svg id="social-twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+ <g>
+    <g id="Layer_7">
+      <path class="cls-1" d="M18.1,14.3l8-9.3h-1.9s-7,8.1-7,8.1l-5.6-8.1h-6.4s8.4,12.3,8.4,12.3l-8.4,9.8h1.9s7.4-8.6,7.4-8.6l5.9,8.6h6.4s-8.7-12.7-8.7-12.7h0ZM15.4,17.3l-.9-1.2L7.8,6.4h2.9s5.5,7.8,5.5,7.8l.9,1.2,7.1,10.2h-2.9s-5.8-8.3-5.8-8.3h0Z"/>
+    </g>
+  </g>
+</svg></a>
+<!-- YOUTUBE -->
+<a title="YouTube" target="_blank" href="https://www.youtube.com/user/TheNewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'YouTube']);"><svg id="social-youtube" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st1" d="M23,7.9C19.7,7.6,12.3,7.6,9,7.9c-3.6,0.2-4,2.4-4,8.1c0,5.7,0.4,7.9,4,8.1c3.3,0.2,10.7,0.2,14.1,0
+	c3.6-0.2,4-2.4,4-8.1C27,10.3,26.6,8.1,23,7.9z M13.2,19.7v-7.4l7.4,3.7L13.2,19.7z"/>
+</g>
+
+</svg></a>
+<!-- LINKEDIN -->
+<a title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/federal-reserve-bank-of-new-york" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'LinkedIn']);"><svg id="social-linkedin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st0" d="M16.9,18.2c0-4.3,5.5-4.7,5.5,0V26h4.2v-9.4c0-7.3-7.8-7-9.7-3.4v-2.4h-4.2V26h4.2V18.2z"/>
+	<rect x="5.8" y="10.7" class="st0" width="4.2" height="15.3"/>
+	<path class="st0" d="M7.8,8.9c1.3,0,2.4-1.1,2.4-2.4S9.2,4,7.8,4S5.4,5.1,5.4,6.5S6.5,8.9,7.8,8.9z"/>
+</g>
+</svg></a>
+		<br />
+<!-- EMAIL -->
+<a title="Email" target="_blank" href="https://public.govdelivery.com/accounts/USFRBNEWYORK/subscriber/new?" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Email']);"><svg id="social-email" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path d="M16,16.6L5.5,8.1h21L16,16.6z M11.3,15l-5.8-4.7v10.9C5.5,21.3,11.3,15,11.3,15z M20.7,15l5.8,6.3V10.4
+		C26.5,10.4,20.7,15,20.7,15z M19.4,16.1L16,18.9l-3.4-2.7l-7.1,7.7h21L19.4,16.1z"/>
+</g>
+</svg></a>
+<!-- INSTAGRAM -->
+<a title="Instagram" target="_blank" href="https://www.instagram.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Instagram']);"><svg id="social-instagram" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+ <g>
+    <path class="cls-1" d="m23.19,3.5h-14.38c-1.27,0-2.49.51-3.39,1.41-.9.9-1.4,2.12-1.41,3.39v14.38c0,1.27.51,2.49,1.41,3.39.9.9,2.12,1.4,3.39,1.41h14.38c1.27,0,2.49-.51,3.39-1.41s1.4-2.12,1.41-3.39v-14.38c0-1.27-.51-2.49-1.41-3.39s-2.12-1.4-3.39-1.41h0Zm2.4,19.17c0,.64-.25,1.24-.7,1.69s-1.06.7-1.69.7h-14.38c-.64,0-1.24-.25-1.69-.7-.45-.45-.7-1.06-.7-1.69v-14.38c0-.64.25-1.24.7-1.69.45-.45,1.06-.7,1.69-.7h14.38c.64,0,1.24.25,1.69.7s.7,1.06.7,1.69v14.38Z"/>
+    <path class="cls-1" d="m16,10.14c-1.42,0-2.78.56-3.78,1.57-1,1-1.57,2.36-1.57,3.78s.56,2.78,1.57,3.78c1,1,2.36,1.57,3.78,1.57s2.78-.56,3.78-1.57c1-1,1.57-2.36,1.57-3.78s-.57-2.78-1.57-3.78-2.36-1.57-3.78-1.57h0Zm0,8.29c-.78,0-1.53-.31-2.09-.86-.55-.55-.86-1.3-.86-2.09s.31-1.53.86-2.09c.55-.55,1.3-.86,2.09-.86s1.53.31,2.09.86c.55.55.86,1.3.86,2.09s-.31,1.53-.86,2.08c-.55.55-1.3.86-2.08.86h-.01Z"/>
+  </g>
+  <circle class="cls-1" cx="22.38" cy="9.1" r="1.62"/>
+</svg></a>
+<!-- FACEBOOK -->
+<a title="Facebook" target="_blank" href="https://www.facebook.com/newyorkfed"><svg id="social-facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path class="st2" d="M16.7,14.3h-3.4v4.6h3.4v13.7h5.7V18.8h4.1l0.4-4.6h-4.6v-1.9c0-1.1,0.2-1.5,1.3-1.5H27V5.2h-4.3
+		c-4.1,0-5.9,1.8-5.9,5.3V14.3z"/>
+</g>
+</svg></a>
+  </div>
+	<div class="grid_2 dxt-group-1">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2"><a href="/outreach-and-education/speakers_bureau" title="Request a Speaker">Request a Speaker</a></li>
+          <li class="nav nav-level-2" id="nav-item-115"><a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="International Seminars &amp; Training">International Seminars &amp; Training</a></li>
+          <li class="nav nav-level-2" id="nav-item-470"><a href="/governance-and-culture-reform" title="Governance &amp; Culture Reform">Governance & Culture Reform</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 omega dxt-group-2">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2" id="nav-item-114"><a href="/data-and-statistics/data-visualization" title="Data Visualization" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Data Visualization']);">Data Visualization</a></li>
+          <li class="nav nav-level-2" id="nav-item-472"><a href="/digital-products/economic-research-tracker" title="Economic Research Tracker">Economic Research <br />Tracker</a></li>
+          <li class="nav nav-level-2" id="nav-item-114"><a href="https://markets.newyorkfed.org/static/docs/markets-api.html" title="Markets Data APIs" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Markets Data APIs']);">Markets Data APIs</a></li>
+          <li class="nav nav-level-2"><a href="/podcast" title="Podcast">Podcast</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 alpha dxt-group-3">
+       <ul id="nav-list-112-2" class="nav nav-level-1">
+          <li id="nav-item-117" class="nav nav-level-2"><a href="/contacts" title="Contact Us">Contact Us</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy/termsofuse" title="Terms of Use">Terms of Use</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy" title="Privacy" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Privacy']);">Privacy</a></li>
+<li class="nav nav-level-2"><a href="/sitemap" title="Site Map">Site Map</a></li>
+        </ul>
+  </div>
+	<div class="grid_1 dxt-group-4">
+    <a href="/aboutthefed/tips_and_complaints" title="Tips and Complaints">
+		<div id="fraud"></div>
+		</a>
+  </div>
+	<div class="grid_3 dxt-group-5">
+		<img src="/medialibrary/media/v4/images/Fed-seal.png" alt="Federal Reserve Bank Seal" id="footer_seal" title="Federal Reserve Bank Seal">
+  </div><div id="vsn"></div>
+</div>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ44JQ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start SiteImprove -->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6039721.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<!-- End SiteImprove -->
+
+
+
+    </div>
+<script type="text/javascript"  src="/8aGm1slI/sLH/3Oi/faSKEasyRz/G1kEzQJt8kNVkSL7/OxtkPw/OE1KNz8/ARwcC"></script></body>
+</html>

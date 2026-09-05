@@ -1,0 +1,589 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Storms on the Horizon - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2008/fs080528" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2008/fs080528" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2008" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2008/fs080528-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Storms on the Horizon</h1>
+                                                    <div class="dal-tagline">Remarks before the Commonwealth Club of California</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">May 28, 2008</span> San Francisco, California</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+                        <p>Thank  you, Bruce [Ericson]. I am honored to be here this evening and am grateful for  the invitation to speak to the Commonwealth Club of California. </p>
+                        <p>Alan  Greenspan and Paul Volcker, two of Ben Bernanke&rsquo;s linear ancestors as chairmen  of the Federal Reserve, have been in the news quite a bit lately. Yet, we  rarely hear about William McChesney Martin, a magnificent public servant who  was Fed chairman during five presidencies and to this day holds the record for  the longest tenure: 19 years. </p>
+                        <p>Chairman  Martin had a way with words. And he had a twinkle in his eye. It was Bill  Martin who wisely and succinctly defined the Federal Reserve as having the  unenviable task &ldquo;to take away the punchbowl just as the party gets going.&rdquo; He  did himself one up when he received the Alfalfa Club&rsquo;s nomination for the  presidency of the United    States. I suspect many here tonight have  been to the annual Alfalfa dinner. It is one of the great institutions in Washington, D.C.  Once a year, it holds a dinner devoted solely to poking fun at the political  pretensions of the day. Tongue firmly in cheek, the club nominates a candidate  to run for the presidency on the Alfalfa Party ticket. Of course, none of them  ever win. Nominees are thenceforth known for evermore as members of the Stassen  Society, named for Harold Stassen, who ran for president nine times and lost  every time, then ran a tenth time on the Alfalfa ticket and lost again. The  motto of the group is <em>Veni, Vidi, Defici</em>&mdash;&ldquo;I  came, I saw, I lost.&rdquo; </p>
+                        <p>Bill  Martin was nominated to run and lose on the Alfalfa Party ticket in 1966, while  serving as Fed chairman during Lyndon Johnson&rsquo;s term. In his acceptance speech,[<a href="#1">1</a>] he  announced that, given his proclivities as a central banker, he would take his  cues from the German philosopher Goethe, &ldquo;who said that people could endure  anything except continual prosperity.&rdquo; Therefore, Martin declared, he would  adopt a platform proclaiming that as a president he planned to &ldquo;make life  endurable again by stamping out prosperity.&rdquo; </p>
+                        <p>&ldquo;I  shall conduct the administration of the country,&rdquo; he said, &ldquo;exactly as I have  so successfully conducted the affairs of the Federal Reserve. To that end, I  shall assemble the best brains that can be found&hellip;ask their advice on all  matters&hellip;and completely confound them by following all their conflicting  counsel.&rdquo; </p>
+                        <p>It  is true, Bruce, that as you said in your introduction, I am one of the 17  people who participate in Federal Open Market Committee (FOMC) deliberations  and provide Ben Bernanke with &ldquo;conflicting counsel&rdquo; as the committee cobbles  together a monetary policy that seeks to promote America&rsquo;s economic prosperity,  Goethe to the contrary. But tonight I speak for neither the committee, nor the  chairman, nor any of the other good people that serve the Federal Reserve  System. I speak solely in my own capacity. I want to speak to you tonight about  an economic problem that we must soon confront or else risk losing our primacy  as the world&rsquo;s most powerful and dynamic economy.</p>
+                        <p>Forty-three  years ago this Sunday, Bill Martin delivered a commencement address to Columbia University that was far more sober than  his Alfalfa Club speech. The opening lines of that Columbia address [<a href="#2">2</a>] were as follows: &ldquo;When economic prospects are at their brightest, the dangers  of complacency and recklessness are greatest. As our prosperity proceeds on its  record-breaking path, it behooves every one of us to scan the horizon of our  national and international economy for danger signals so as to be ready for any  storm.&rdquo;</p>
+                        <p>Today,  our fellow citizens and financial markets are paying the price for falling  victim to the complacency and recklessness Martin warned against. Few scanned  the horizon for trouble brewing as we proceeded along a path of unparalleled  prosperity fueled by an unsustainable housing bubble and unbridled credit  markets. Armchair or Monday morning quarterbacks will long debate whether the  Fed could have/should have/would have taken away the punchbowl that lubricated  that blowout party. I have given my opinion on that matter elsewhere and won&rsquo;t  go near that subject tonight. What counts now is what we have done more  recently and where we go from here. Whatever the sins of omission or commission  committed by our predecessors, the Bernanke FOMC&rsquo;s objective is to use a new  set of tools to calm the tempest in the credit markets to get them back to  functioning in a more orderly fashion. We trust that the various term credit  facilities we have recently introduced are helping restore confidence while the  credit markets undertake self-corrective initiatives and lawmakers consider new  regulatory schemes. </p>
+                        <p>I  am also not going to engage in a discussion of present monetary policy tonight,  except to say that if inflationary developments and, more important, inflation  expectations, continue to worsen, I would expect a change of course in monetary  policy to occur sooner rather than later, even in the face of an anemic  economic scenario. Inflation is the most insidious enemy of capitalism. No  central banker can countenance it, not least the men and women of the Federal  Reserve.</p>
+                        <p>Tonight,  I want to talk about a different matter. In keeping with Bill Martin&rsquo;s advice,  I have been scanning the horizon for danger signals even as we continue working  to recover from the recent turmoil. In the distance, I see a frightful storm  brewing in the form of untethered government debt. I choose the  words&mdash;&ldquo;frightful storm&rdquo;&mdash;deliberately to avoid hyperbole. Unless we take steps  to deal with it, the long-term fiscal situation of the federal government will  be unimaginably more devastating to our economic prosperity than the subprime  debacle and the recent debauching of credit markets that we are now working so  hard to correct.</p>
+                        <p>You  might wonder why a central banker would be concerned with fiscal matters.  Fiscal policy is, after all, the responsibility of the Congress, not the  Federal Reserve. Congress, and Congress alone, has the power to tax and spend.  From this monetary policymaker&rsquo;s point of view, though, deficits matter for  what we do at the Fed. There are many reasons why. Economists have found that  structural deficits raise long-run interest rates, complicating the Fed&rsquo;s dual  mandate to develop a monetary policy that promotes sustainable, noninflationary  growth. The even more disturbing dark and dirty secret about  deficits&mdash;especially when they careen out of control&mdash;is that they create  political pressure on central bankers to adopt looser monetary policy down the  road. I will return to that shortly. First, let me give you the unvarnished  facts of our nation&rsquo;s fiscal predicament.</p>
+                        <p>Eight  years ago, our federal budget, crafted by a Democratic president and enacted by  a Republican Congress, produced a fiscal surplus of $236 billion, the first  surplus in almost 40 years and the highest nominal-dollar surplus in American  history. While the Fed is scrupulously nonpartisan and nonpolitical, I mention  this to emphasize that the deficit/debt issue knows no party and can be solved  only by both parties working together. For a brief time, with surpluses  projected into the future as far as the eye could see, economists and policymakers  alike began to contemplate a bucolic future in which interest payments would  form an ever-declining share of federal outlays, a future where Treasury bonds  and debt-ceiling legislation would become dusty relics of a long-forgotten  past. The Fed even had concerns about how open market operations would be  conducted in a marketplace short of Treasury debt.</p>
+                        <p>That  utopian scenario did not last for long. Over the next seven years, federal  spending grew at a 6.2 percent nominal annual rate while receipts grew at only  3.5 percent. Of course, certain areas of government, like national defense, had  to spend more in the wake of 9/11. But nondefense discretionary spending  actually rose 6.4 percent annually during this timeframe, outpacing the growth  in total expenditures. Deficits soon returned, reaching an expected $410  billion for 2008&mdash;a $600 billion swing from where we were just eight years ago.  This $410 billion estimate, by the way, was made before the recently passed  farm bill and supplemental defense appropriation and without considering a  proposed patch for the Alternative Minimum Tax&mdash;all measures that will lead to a  further ballooning of government deficits.</p>
+                        <p>In  keeping with the tradition of rosy scenarios, official budget projections  suggest this deficit will be relatively short-lived. They almost always do.  According to the official calculus, following a second $400-billion-plus  deficit in 2009, the red ink should fall to $160 billion in 2010 and $95  billion in 2011, and then the budget swings to a $48 billion surplus in 2012. </p>
+                        <p>If  you do the math, however, you might be forgiven for sensing that these  felicitous projections look a tad dodgy. To reach the projected 2012 surplus,  outlays are assumed to rise at a 2.4 percent nominal annual rate over the next  four years&mdash;less than half as fast as they rose the previous seven years.  Revenue is assumed to rise at a 6.7 percent nominal annual rate over the next  four years&mdash;almost double the rate of the past seven years. Using spending and  revenue growth rates that have actually prevailed in recent years, the 2012  surplus quickly evaporates and becomes a deficit, potentially of several  hundred billion dollars.</p>
+                        <p>Doing  deficit math is always a sobering exercise. It becomes an outright painful one  when you apply your calculator to the long-run fiscal challenge posed by  entitlement programs. Were I not a taciturn central banker, I would say the  mathematics of the long-term outlook for entitlements, left unchanged, is  nothing short of catastrophic.</p>
+                        <p>Typically,  critics ranging from the Concord Coalition to Ross Perot begin by wringing  their collective hands over the unfunded liabilities of Social Security. A  little history gives you a view as to why. Franklin Roosevelt originally  conceived a social security system in which individuals would fund their own  retirements through payroll-tax contributions. But Congress quickly realized  that such a system could not put much money into the pockets of indigent  elderly citizens ravaged by the Great Depression. Instead, a pay-as-you-go funding  system was embraced, making each generation&rsquo;s retirement the responsibility of  its children.</p>
+                        <p>Now,  fast forward 70 or so years and ask this question: What is the mathematical  predicament of Social Security today? Answer: The amount of money the Social  Security system would need today to cover all unfunded liabilities from now  on&mdash;what fiscal economists call the &ldquo;infinite horizon discounted value&rdquo; of what  has already been promised recipients but has no funding mechanism currently in  place&mdash;is $13.6 trillion, an amount slightly less than the annual gross domestic  product of the United States. </p>
+                        <p>Demographics  explain why this is so. Birthrates have fallen dramatically, reducing the  worker&ndash;retiree ratio and leaving today&rsquo;s workers pulling a bigger load than the  system designers ever envisioned. Life spans have lengthened without a  corresponding increase in the retirement age, leaving retirees in a position to  receive benefits far longer than the system designers envisioned. Formulae for  benefits and cost-of-living adjustments have also contributed to the growth in  unfunded liabilities.</p>
+                        <p>The  good news is this Social Security shortfall might be manageable. While the  issues regarding Social Security reform are complex, it is at least possible to  imagine how Congress might find, within a $14 trillion economy, ways to wrestle  with a $13 trillion unfunded liability. The bad news is that Social Security is  the lesser of our entitlement worries. It is but the tip of the unfunded  liability iceberg. The much bigger concern is Medicare, a program established  in 1965, the same prosperous year that Bill Martin cautioned his Columbia University audience to be wary of  complacency and storms on the horizon. </p>
+                        <p>Medicare  was a pay-as-you-go program from the very beginning, despite warnings from some  congressional leaders&mdash;Wilbur Mills was the most credible of them before he  succumbed to the pay-as-you-go wiles of Fanne Foxe, the Argentine  Firecracker&mdash;who foresaw some of the long-term fiscal issues such a financing  system could pose. Unfortunately, they were right.</p>
+                        <p>Please  sit tight while I walk you through the math of Medicare. As you may know, the  program comes in three parts: Medicare Part A, which covers hospital stays;  Medicare B, which covers doctor visits; and Medicare D, the drug benefit that  went into effect just 29 months ago. The infinite-horizon present discounted  value of the unfunded liability for Medicare A is $34.4 trillion. The unfunded  liability of Medicare B is an additional $34 trillion. The shortfall for Medicare  D adds another $17.2 trillion. The total? If you wanted to cover the unfunded  liability of all three programs today, you would be stuck with an $85.6  trillion bill. That is more than six times as large as the bill for Social  Security. It is more than six times the annual output of the entire U.S. economy.</p>
+                        <p>Why  is the Medicare figure so large? There is a mix of reasons, really. In part, it  is due to the same birthrate and life-expectancy issues that affect Social  Security. In part, it is due to ever-costlier advances in medical technology  and the willingness of Medicare to pay for them. And in part, it is due to  expanded benefits&mdash;the new drug benefit program&rsquo;s unfunded liability is by  itself one-third greater than all of Social Security&rsquo;s.</p>
+                        <p>Add  together the unfunded liabilities from Medicare and Social Security, and it  comes to $99.2 trillion over the infinite horizon. Traditional Medicare  composes about 69 percent, the new drug benefit roughly 17 percent and Social  Security the remaining 14 percent. </p>
+                        <p>I  want to remind you that I am only talking about the <em>unfunded</em> portions of Social Security and Medicare. It is what the  current payment scheme of Social Security payroll taxes, Medicare payroll  taxes, membership fees for Medicare B, copays, deductibles and all other  revenue currently channeled to our entitlement system will not cover under  current rules. These existing revenue streams must remain in place in  perpetuity to handle the &ldquo;funded&rdquo; entitlement liabilities. Reduce or eliminate  this income and the unfunded liability grows. Increase benefits and the  liability grows as well. </p>
+                        <p>Let&rsquo;s  say you and I and Bruce Ericson and every U.S. citizen who is alive today  decided to fully address this unfunded liability through lump-sum payments from  our own pocketbooks, so that all of us and all future generations could be  secure in the knowledge that we and they would receive promised benefits in  perpetuity. How much would we have to pay if we split the tab? Again, the math  is painful. With a total population of 304 million, from infants to the  elderly, the per-person payment to the federal treasury would come to $330,000.  This comes to $1.3 million per family of four&mdash;over 25 times the average  household&rsquo;s income.</p>
+                        <p>Clearly,  once-and-for-all contributions would be an unbearable burden. Alternatively, we  could address the entitlement shortfall through policy changes that would  affect ourselves and future generations. For example, a permanent 68 percent  increase in federal income tax revenue&mdash;from individual and corporate taxpayers&mdash;would  suffice to fully fund our entitlement programs. Or we could instead divert 68  percent of current income-tax revenues from their intended uses to the  entitlement system, which would accomplish the same thing. </p>
+                        <p>Suppose  we decided to tackle the issue solely on the spending side. It turns out that  total discretionary spending in the federal budget, if maintained at its  current share of GDP in  perpetuity, is 3 percent larger than the entitlement shortfall. So all we would  have to do to fully fund our nation&rsquo;s entitlement programs would be to cut  discretionary spending by 97 percent. But hold on. That discretionary spending  includes defense and national security, education, the environment and many  other areas, not just those controversial earmarks that make the evening news.  All of them would have to be cut&mdash;almost eliminated, really&mdash;to tackle this  problem through discretionary spending.</p>
+                        <p>I  hope that gives you some idea of just how large the problem is. And just to  drive an important point home, these spending cuts or tax increases would need  to be made immediately and maintained in perpetuity to solve the entitlement  deficit problem. Discretionary spending would have to be reduced by 97 percent  not only for our generation, but for our children and their children and every  generation of children to come. And similarly on the taxation side, income tax  revenue would have to rise 68 percent and remain that high forever. Remember,  though, I said tax <em>revenue</em>, not tax <em>rates</em>. Who knows how much individual and  corporate tax rates would have to change to increase revenue by 68 percent?<br>
+  &nbsp;<br>
+  If  these possible solutions to the unfunded-liability problem seem draconian, it&rsquo;s  because they are draconian. But they do serve to give you a sense of the  severity of the problem. To be sure, there are ways to lessen the reliance on  any single policy and the burden borne by any particular set of citizens. Most  proposals to address long-term entitlement debt, for example, rely on a  combination of tax increases, benefit reductions and eligibility changes to  find the trillions necessary to safeguard the system over the long term. </p>
+                        <p>No  combination of tax hikes and spending cuts, though, will change the total  burden borne by current and future generations. For the existing unfunded  liabilities to be covered in the end, someone must pay $99.2 trillion more or  receive $99.2 trillion less than they have been currently promised. This is a  cold, hard fact. The decision we must make is whether to shoulder a substantial  portion of that burden today or compel future generations to bear its full  weight.</p>
+                        <p>Now  that you are all thoroughly depressed, let me come back to monetary policy and  the Fed. </p>
+                        <p>It  is only natural to cast about for a solution&mdash;any solution&mdash;to avoid the fiscal  pain we know is necessary because we succumbed to complacency and put off  dealing with this looming fiscal disaster. Throughout history, many nations,  when confronted by sizable debts they were unable or unwilling to repay, have  seized upon an apparently painless solution to this dilemma: monetization. Just  have the monetary authority run cash off the printing presses until the debt is  repaid, the story goes, then promise to be responsible from that point on and  hope your sins will be forgiven by God and Milton Friedman and everyone else. </p>
+                        <p>We  know from centuries of evidence in countless economies, from ancient Rome to today&rsquo;s Zimbabwe, that  running the printing press to pay off today&rsquo;s bills leads to much worse  problems later on. The inflation that results from the flood of money into the  economy turns out to be far worse than the fiscal pain those countries hoped to  avoid. <br>
+  &nbsp;<br>
+  Earlier  I mentioned the Fed&rsquo;s dual mandate to manage growth and inflation. In the long  run, growth cannot be sustained if markets are undermined by inflation. Stable  prices go hand in hand with achieving sustainable economic growth. I have said  many, many times that inflation is a sinister beast that, if uncaged, devours  savings, erodes consumers&rsquo; purchasing power, decimates returns on capital,  undermines the reliability of financial accounting, distracts the attention of  corporate management, undercuts employment growth and real wages, and debases  the currency. </p>
+                        <p>Purging  rampant inflation and a debased currency requires administering a harsh  medicine. We have been there, and we know the cure that was wrought by the FOMC  under Paul Volcker. Even the perception that the Fed is pursuing a cheap-money  strategy to accommodate fiscal burdens, should it take root, is a paramount  risk to the long-term welfare of the U.S. economy. The Federal Reserve  will never let this happen. It is not an option. Ever. Period.</p>
+                        <p>The  way we resolve these liabilities&mdash;and resolve them we must&mdash;will affect our own  well-being as well as the prospects of future generations and the global  economy. Failing to face up to our responsibility will produce the mother of  all financial storms. The warning signals have been flashing for years, but we  find it easier to ignore them than to take action. Will we take the painful  fiscal steps necessary to prevent the storm by reducing and eventually  eliminating our fiscal imbalances? That depends on you. </p>
+                        <p>I  mean &ldquo;you&rdquo; literally. This situation is of your own creation. When you berate  your representatives or senators or presidents for the mess we are in, you are  really berating yourself. You elect them. You are the ones who let them get  away with burdening your children and grandchildren rather than yourselves with  the bill for your entitlement programs. </p>
+                        <p>This  issue transcends political affiliation. When George Shultz, one of San Francisco&rsquo;s greatest  Republican public servants, was director of President Nixon&rsquo;s Office of  Management and Budget, he became worried about the amount of money Congress was  proposing to spend. After some nights of tossing and turning, he called  legendary staffer Sam Cohen into his office. Cohen had a long memory of budget  matters and knew every zig and zag of budget history. &ldquo;Sam,&rdquo; Shultz asked,  &ldquo;tell me something just between you and me. Is there any difference between  Republicans and Democrats when it comes to spending money?&rdquo; Cohen looked at  him, furrowed his brow and, after thinking about it, replied, &ldquo;Mr. Shultz,  there is only one difference: Democrats enjoy it more.&rdquo; </p>
+                        <p>Yet  no one, Democrat or Republican, enjoys placing our children and grandchildren  and their children and grandchildren in harm&rsquo;s way. No one wants to see the  frightful storm of unfunded long-term liabilities destroy our economy or  threaten the independence and authority of our central bank or tear our  currency asunder.</p>
+                        <p>Of  late, we have heard many complaints about the weakness of the dollar against  the euro and other currencies. It was recently argued in the op-ed pages of the <em>Financial Times</em> [<a href="#3">3</a>] that one reason for the demise of the British pound was the need to liquidate England&rsquo;s  international reserves to pay off the costs of the Great Wars. In the end, the  pound, it was essentially argued, was sunk by the kaiser&rsquo;s army and Hitler&rsquo;s  bombs. Right now, we&mdash;you and I&mdash;are launching fiscal bombs against ourselves.  You have it in your power as the electors of our fiscal authorities to prevent  this destruction. Please do so. </p>
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<ol>
+<li><a name="1" id="n1"></a>William McChesney Martin, &ldquo;Alfalfa Club Dinner Script,&rdquo; delivered  at the Alfalfa Club Dinner, Washington,   D.C., Jan. 22, 1966, Box 163, William McChesney Martin  Collection, Lyndon Baines Johnson Presidential Library, Austin, Texas.</li>
+<li><a name="2" id="n2"></a>&ldquo;Does Monetary History Repeat Itself?&rdquo;  Commencement Day Luncheon of the Alumni Federation of Columbia University,  June 1, 1965, New York City.</li>
+<li><a name="3" id="n3"></a>&ldquo;The Euro&rsquo;s Success Could Also Be Its Downfall,&rdquo; by Harold James, <em>Financial Times,</em> May 18, 2008.</li>
+</ol>
+
+
+
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

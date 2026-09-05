@@ -1,0 +1,1138 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>An Overview of Banking, and the U.S. and Texas Economies - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2005/fs050912" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2005/fs050912" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2005" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2005/fs050912-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">An Overview of Banking, and the U.S. and Texas Economies</h1>
+                                                    <div class="dal-tagline">Remarks before the Texas Department of Banking Staff Conference Saluting Texas Bank Examiners’ 100th Anniversary</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">September 12, 2005</span> Austin, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+                         <p>It is a pleasure to be here today 
+                          on the occasion of the centennial celebration of your 
+                          long and distinguished record of service to the Texas 
+                          banking industry.</p>
+                        <p>The Dallas Fed greatly appreciates 
+                          the job that the state&rsquo;s bank examiners do. Research 
+                          by our economists has shown that examiners play an important 
+                          role in identifying hidden banking problems and ensuring 
+                          they are properly reported. Stopping illegal activities, 
+                          reviewing internal controls and evaluating risk-management 
+                          processes are critical for maintaining a sound banking 
+                          system. Perhaps your finest hour came in the state&rsquo;s 
+                          banking crisis of the 1980s, when examiners did yeomen&rsquo;s 
+                          work in digging the industry out of that awful mess 
+                          and helped restore dignity and public confidence in 
+                          Texas banks.</p>
+                        <p>Examiners cover every nook and 
+                          cranny of this vast state. Life on the road can be rough. 
+                          The old-timers here probably remember when examiners 
+                          went out for weeks at a stretch and did three or four 
+                          jobs before returning home. That meant lugging around 
+                          heavy examination manuals, adding machines and manual 
+                          typewriters. And no examiner risked forgetting carbon 
+                          paper and extra ribbons, items hard to come by in small 
+                          Texas towns. </p>
+                        <p>State examiners used to drive 
+                          big white cars with exempt license plates and the official 
+                          seal on the side. Four examiners shared one car, and 
+                          the low man on the totem pole took charge of maintenance. 
+                          That meant keeping the car clean, getting it serviced, 
+                          buying new tires when needed and, most onerous of all, 
+                          keeping the mileage books on a weekly basis. Those legendary 
+                          cars were spotted in some unusual places &hellip; like 
+                          on the beaches of South Texas. I understand that if 
+                          you went to a club after work, you were under orders 
+                          to try to park the state car <em>behind</em> the building, 
+                          not directly in front of it. </p>
+                        <p>Accommodations were rudimentary 
+                          by today&rsquo;s standards. The best motel in Pecos, 
+                          for example, was some 50 yards downwind of the zoo. 
+                          The motel in Matador did not have an ice machine, but 
+                          examiners learned that if you went around to the owner&rsquo;s 
+                          apartment, he would take a tray out of his freezer for 
+                          you. <br>
+                          <br>
+                          The Western Sky Motel in Clarendon was famous for towels 
+                          you could see through when held up to the light. And 
+                          if you wanted to call long distance at night, you had 
+                          to find a pay phone because the switchboard closed when 
+                          the operator left at 5:30. </p>
+                        <p>In Big Sandy, the examiners always 
+                          took up residence at Miss Annie&rsquo;s Bed and Breakfast. 
+                          The proprietors made the shortest examiner take the 
+                          sleeping loft in the attic because your head hit the 
+                          ceiling whenever you sat up in bed. </p>
+                        <p>Women examiners were not expected 
+                          to go out to Sanderson in West Texas because the motel 
+                          there did not have locks on the doors. Their male colleagues 
+                          who made the trip claimed they had to shoo goats and 
+                          chickens out of their rooms in the evenings. But it 
+                          was not all bad. The motel was so tightly wedged between 
+                          Highway 285 and the Southern Pacific freight line that 
+                          the beds would vibrate all night for free. </p>
+                        <p>Back then, the assistant-in-charge 
+                          was the real workhorse of the examination team, having 
+                          the important job of booking a hotel that had a happy 
+                          hour with free hors d&rsquo;oeuvres&hellip;. Well, I 
+                          guess some things really have not changed all that much.</p>
+                        <p>Dual Banking System<br>
+                          Recalling old times reminds 
+                          us that America&rsquo;s dual banking system dates back 
+                          to the National Bank Act of 1864, which gave the country 
+                          national banks alongside existing state-chartered banks. 
+                          </p>
+                        <p>Texas had to wait a bit longer 
+                          for a dual banking system. Article 7, Section 30 of 
+                          the 1845 state constitution specified that &ldquo;<em>no 
+                          corporate body shall hereafter be created, renewed or 
+                          extended with banking or discounting privileges.</em>&rdquo; 
+                          This provision remained in the 1876 constitution, so 
+                          for decades Texans had access only to nationally chartered 
+                          banks and private banks.</p>
+                        <p>It was not until a constitutional 
+                          amendment was approved in November 1904 that state banks 
+                          came into existence in Texas. The amendment not only 
+                          authorized the incorporation of state banks and savings 
+                          and loans, but also provided for &ldquo;a system of 
+                          state supervision, regulation and control of such bodies 
+                          which will adequately protect and secure the depositors 
+                          and creditors thereof.&rdquo;</p>
+                        <p>W.J. Clay, the first superintendent 
+                          of banking, seemed to wonder what took so long. In one 
+                          of his reports, he wrote: &ldquo;<em>It is very remarkable 
+                          that a country such as Texas, in extent and variety 
+                          of interests unapproachable and in a class alone, should 
+                          not for a period of nearly seventy years, have provided 
+                          a banking system under control of its own laws and designed 
+                          to meet its own peculiar demands. In fact, she is the 
+                          last one of the great States to adopt this system into 
+                          its financial economy.</em>&rdquo;</p>
+                        <p>The Legislature then passed the 
+                          Texas State Bank Law on Aug. 14, 1905, and thus the 
+                          Texas Department of Banking now celebrates 100 years 
+                          of service to the state&rsquo;s banking community and 
+                          citizens. </p>
+                        <p>The business got going rather 
+                          quickly. The first Biennial Report of the Superintendent 
+                          of Banking, dated Dec. 21, 1906, tells us the state 
+                          chartered 135 banks, 21 bank and trust companies, and 
+                          one savings bank. At the time, Texas had about 450 national 
+                          banks and 190 private banks.</p>
+                        <p>Today, the state-chartered banking 
+                          system is competitive and strong. As of June 30, 330 
+                          of the 637 Texas banks had state charters. In the past 
+                          three years, 13 of the 23 newly chartered commercial 
+                          banks&mdash;or 57 percent&mdash;chose state charters. 
+                        </p>
+                        <p>The dual banking system provides 
+                          our financial system with strength and flexibility. 
+                          This system is deeply ingrained in our culture and reflects 
+                          the American preference for decentralization of authority. 
+                          As Chairman Greenspan has said, banks&rsquo; freedom 
+                          to choose their regulator is a key protection from the 
+                          potential for unreasonable regulatory behavior. The 
+                          doctrine of choice creates a healthy dynamic among regulators.</p>
+                        <p>Under the dual banking system, 
+                          state-chartered banks have fostered many innovations, 
+                          resulting in an ever-widening array of products and 
+                          services. State banks pioneered demand deposits, and 
+                          a state-chartered bank introduced the NOW account. The 
+                          first banks to offer variable-rate mortgages and home-equity 
+                          loans came under state regulation. The states have been 
+                          innovators in consumer protection as well.</p>
+                        <p>The dual structure requires cooperation 
+                          by state and federal authorities. The Texas Banking 
+                          Department and the Dallas Fed have a long history of 
+                          working well together, routinely relying on each other&rsquo;s 
+                          efforts in administering the Alternate Examination Program, 
+                          a service in place since 1981. The Dallas Fed provides 
+                          access to training events offered by the Federal Financial 
+                          Institutions Examination Council and Federal Reserve 
+                          System, which gives examiners at both agencies a common 
+                          learning experience. There is mutual, professional respect 
+                          among our examiners. </p>
+                        <p>I am here today to salute 
+                          you and tell you that the Federal Reserve looks forward 
+                          to continuing a partnership that has helped ensure consistent, 
+                          effective and high-quality supervision. </p>
+                        <p>The Banking Industry Today<br>
+                          America&rsquo;s economy stands 
+                          head and shoulders above the rest of the world. One 
+                          of its strengths has been a dynamic and competitive 
+                          banking system. The industry continues to exhibit strength. 
+                          Asset growth is strong at more than 8 percent for the 
+                          past year. The noncurrent loan rate is below 1 percent. 
+                          In the second quarter, U.S. banks recorded a return 
+                          on assets of 1.3 percent, evidence that capital positions 
+                          are healthy. In fact, for the past 12 years, banks have 
+                          earned a return of greater than 1 percent. This is unprecedented 
+                          in the modern era, which began with the end of the Great 
+                          Depression. </p>
+                        <p>The Fed began its recent tightening 
+                          moves in the middle of last year, and we have been hearing 
+                          about such things as yield curve conundrums and froth 
+                          in housing markets. A lot of people were probably concerned 
+                          about the impact of rising interest rates on banks, 
+                          but so far banks continue to do well indeed. </p>
+                        <p>Banks&rsquo; net interest margins 
+                          have been declining, but that has been the case since 
+                          the early 1990s. The current net interest margin of 
+                          about 3.6 percent is almost three-quarters of a point 
+                          lower than what we saw a decade ago.</p>
+                        <p>Non-interest income has taken 
+                          up the slack as banks increasingly rely on this source 
+                          of revenue to boost profits. Ten years ago, non-interest 
+                          income amounted to 2 percent of average bank assets. 
+                          At the end of last year, it had risen to 2.4 percent.</p>
+                        <p>Gains in non-interest income have 
+                          not come from service charges on accounts. Revenue from 
+                          this source amounted to 0.4 percent of average assets 
+                          at the end of last year, the same as it was 10 years 
+                          ago. Nor have they come from trading revenue or fiduciary 
+                          activities, which also held steady over the past decade. 
+                          The source of rising non-interest income can be found 
+                          instead in servicing fees, securitization, gains on 
+                          loan sales and ATM fees. Income from these sources has 
+                          risen to 1.5 percent of average assets, compared with 
+                          1.2 percent in 1994. </p>
+                        <p>Looking at the balance sheets, 
+                          banks have recorded strong growth in commercial and 
+                          industrial loans. Second-quarter data show business 
+                          loans up 12 percent from year-earlier levels. That is 
+                          good news, especially when we consider that business 
+                          loans at U.S. banks actually declined in 2001, 2002 
+                          and again in 2003. And the climate for such lending 
+                          by banks continues to look favorable. </p>
+                        <p>Risk spreads spiked last spring, 
+                          coincident with news of General Motors&rsquo; difficulties, 
+                          but they have narrowed recently. The net financing gap 
+                          at U.S. corporations&mdash;the difference between capital 
+                          expenditures and internally generated funds&mdash;hit 
+                          a low point in the middle of last year but rose in the 
+                          fourth quarter and remained positive in the first quarter. 
+                          As the gap widened, net corporate bond issues were off 
+                          fairly sharply in the first quarter, indicating firms 
+                          are relying more on the commercial paper market and 
+                          bank loans to meet their outside funding needs.</p>
+                        <p>Results from the Federal Reserve&rsquo;s 
+                          most recent Senior Loan Officer Opinion Survey also 
+                          indicate strength in banks&rsquo; business lending. 
+                          On net, 40 percent of respondents indicated stronger 
+                          demand for commercial and industrial loans at firms 
+                          with annual sales greater than $50 million, while 35 
+                          percent reported stronger demand by small firms. A net 
+                          17 percent of banks reported they had eased lending 
+                          standards on their commercial and industrial loans to 
+                          large firms. Eleven percent eased them for small companies. 
+                          Banks attributed the changes to aggressive competition 
+                          from other lenders, increased tolerance of risk, and 
+                          a more favorable economic outlook. These factors also 
+                          led a net 46 percent of the respondents to indicate 
+                          they have narrowed spreads between their cost of funds 
+                          and rates on commercial and industrial loans to large 
+                          firms. On net, a third narrowed spreads to small firms.</p>
+                        <p>Turning to the consumer side, 
+                          the main story line seems to be mortgage lending. Banks&rsquo; 
+                          residential loans increased 3.6 percent in the second 
+                          quarter. For the past 12 months, they have risen more 
+                          than 14 percent. </p>
+                        <p>The array of innovative ways in 
+                          which people can now obtain mortgages has received fairly 
+                          extensive publicity. In particular, it has been suggested 
+                          that borrowers, emboldened by rising house prices, are 
+                          turning to nontraditional mortgages to qualify for increasingly 
+                          expensive homes, setting the stage for potential repayment 
+                          problems in the future.</p>
+                        <p>In this regard, the Federal Reserve 
+                          surveyed banks on the importance of nontraditional mortgage 
+                          products, such as loans with multiple payment options 
+                          and interest-only mortgages. About 70 percent of those 
+                          surveyed reported that such innovative products constituted 
+                          less than 15 percent of the mortgages on their books. 
+                          Interestingly, more than half the banks indicated that 
+                          they were about as likely, or somewhat more likely, 
+                          to securitize these products than traditional mortgage 
+                          products. It would appear that whatever new risks may 
+                          be associated with the increasing use of nontraditional 
+                          mortgages are being dispersed across financial institutions 
+                          and investors.</p>
+                        <p>Speculative activity was also 
+                          a part of the loan-officer survey. Over the past 12 
+                          months, more than three-fourths of the banks said that 
+                          less than 10 percent of residential mortgage loans they 
+                          originated went to the purchase of a second home or 
+                          investment properties. At the same time, delinquency 
+                          rates provide little reason for concern. They have tended 
+                          to be lowest in high-appreciation states such as California, 
+                          where nontraditional mortgage lending is commonplace.</p>
+                        <p>Even so, we should not be overly 
+                          sanguine about the housing boom and associated trends 
+                          in home-mortgage lending. The delinquency data do little 
+                          to allay concerns over the potential for increased mortgage 
+                          risk. Given the rapid increases in house prices in some 
+                          markets, one would not expect to find many signs of 
+                          credit difficulties because financially strapped borrowers 
+                          could, logic tells us, simply sell their homes for a 
+                          profit, rather than default on their loans. But markets 
+                          can sometimes stand logic on its head, so we must remain 
+                          vigilant in adhering to prudent lending standards. Rising 
+                          house prices would tend to conceal any added risks accompanying 
+                          them. We will continue to keep a watchful eye for the 
+                          potential dangers of stagnant or falling home prices 
+                          in the future, combined with the potential for increases 
+                          in mortgage payments relative to income. </p>
+                        <h3>National Economy: Clouded by 
+                          Katrina</h3><p>
+                          When I accepted your invitation 
+                          to speak, we had no idea that we&rsquo;d come together 
+                          today in the aftermath of the worst natural disaster 
+                          in modern American history. We have all seen the horrific 
+                          images and heard the heartrending stories of the havoc 
+                          wreaked by Hurricane Katrina in Louisiana, Mississippi 
+                          and Alabama. The region&rsquo;s economy has taken a 
+                          massive hit, with psychological and economic ripples 
+                          spreading to the rest of the nation.<br>
+                          <br>
+                          Before Katrina, the national economy was in pretty good 
+                          shape, with most signs pointing to fairly strong growth. 
+                          GDP had expanded by 3 percent or better for nine straight 
+                          quarters. Aside from manufacturing, the job situation 
+                          also looked bright. In August, nonfarm payroll employment 
+                          totaled 135 million, up nearly 2 percent from a year 
+                          earlier. The unemployment rate was 4.9 percent, the 
+                          first reading under 5 percent in three years. Despite 
+                          rising prices for oil, natural gas and other energy 
+                          supplies, inflation remained relatively tame. And many 
+                          companies ran up against constraints on their pricing 
+                          power&mdash;the ability of companies to pass on higher 
+                          costs for energy and other inputs to clients and consumers. 
+                          Over the past year, the increase in the personal consumption 
+                          expenditure index was 2.5 percent; excluding the volatile 
+                          food and energy components, it was up 2 percent. </p>
+                        <p>How does Katrina alter the outlook? 
+                          The truth is, we do not really know. Two weeks after 
+                          the hurricane, the economic repercussions are still 
+                          sorting themselves out. We have only limited experience 
+                          in seeing how a large, flexible and globalized economy 
+                          like the United States&rsquo; responds to massive disasters. 
+                        </p>
+                        <p>You might recall that a powerful 
+                          earthquake struck Kobe, Japan&rsquo;s second largest 
+                          port, in January 1995, causing $110 billion in damage 
+                          to a city that handled 30 percent of the nation&rsquo;s 
+                          trade. In addition to killing 5,500 and leaving 300,000 
+                          homeless, the quake destroyed 75,000 buildings and damaged 
+                          another 200,000. It took two years to rebuild. The impact 
+                          on the Japanese GDP, however, wasn&rsquo;t all that 
+                          big. Despite having a major port out of commission, 
+                          Japan&rsquo;s growth rate picked up as the year went 
+                          on&mdash;going from 1.4 percent in the first quarter 
+                          to 2.7 percent in the second and 4.6 percent in the 
+                          third.</p>
+                        <p>Every natural disaster is unique, 
+                          and no two countries are the same. Japan&rsquo;s economy 
+                          in 1995 was nowhere near as dynamic and flexible as 
+                          ours is today. When it comes to Katrina and the U.S. 
+                          economy, my inclination is to read, listen and watch 
+                          and not rush to judgment about how the disaster will 
+                          impact the economy or how monetary policy ought to respond. 
+                          The hurricane&rsquo;s damages, as we all know, were 
+                          significant in absolute terms&mdash;estimated at up 
+                          to $200 billion. We&rsquo;ve all seen television footage 
+                          of thousands of destroyed and damaged buildings. Up 
+                          close, it looks overwhelming. But it is important to 
+                          bear in mind that Katrina&rsquo;s estimated physical 
+                          losses amount to only a third of a percentage point 
+                          of national wealth. </p>
+                        <p>We have a huge economy&mdash;with 
+                          nearly $40 trillion in wealth, production of $12 trillion 
+                          a year and employment of 134 million workers. While 
+                          Katrina&rsquo;s damage to Louisiana, Mississippi and 
+                          Alabama is massive, the first-tier macroeconomic hit 
+                          to the overall economy will be less so. We have all 
+                          heard some projections for Katrina&rsquo;s impact on 
+                          GDP and unemployment, but I hesitate to endorse any 
+                          numbers. Early estimates are notoriously unreliable, 
+                          and the media tend to highlight the most extreme. What&rsquo;s 
+                          more, we tend to underestimate the inventiveness and 
+                          cleverness of people and markets to respond to adversity.</p>
+                        <p>It is clear, however, that a period 
+                          of price volatility cannot be avoided for energy and 
+                          other commodities processed, stored and transported 
+                          along the Gulf Coast and the mighty Mississippi. The 
+                          headlines have been full of news about gasoline climbing 
+                          above $3 a gallon, although crude oil prices have already 
+                          receded from their peaks. The massive effort to rebuild 
+                          the Gulf Coast will create additional demand for lumber, 
+                          steel, cement and other building materials. With so 
+                          many prices in flux, our inflation measures will be 
+                          tricky to read over the coming months. </p>
+                        <p>While uncertainty surrounds Katrina&rsquo;s 
+                          effects on economic growth and core inflation, one thing 
+                          is clear: Congress and the executive branch are acting 
+                          swiftly to provide emergency funding for the affected 
+                          areas. So far, the federal government has authorized 
+                          more than $62 billion for recovery efforts. I have asked 
+                          my staff to carefully monitor this spending. Obviously, 
+                          the political authorities, not the Federal Reserve, 
+                          have the power of the purse. I pray they act wisely. 
+                          With the nation&rsquo;s already large fiscal deficits, 
+                          I personally believe it would be ill-advised for the 
+                          Fed to monetize any fiscal profligacy.</p>
+                        <p>Among the American economy&rsquo;s 
+                          strengths are its size, diversity, interconnections 
+                          and resiliency. I fully expect the economy to rebound 
+                          from this disaster&mdash;as it did after the Sept. 11, 
+                          2001, terrorist attacks. And the Northridge, California, 
+                          earthquake in 1994. And Hurricane Andrew in Florida 
+                          in 1992. It will take time, of course, and we can never 
+                          fully repair the damage done to individuals and families. 
+                          Long ago, Thucydides might have anticipated the American 
+                          sprit when he wrote: &ldquo;We should remember that 
+                          one man is much the same as another, and that he is 
+                          best who is trained in the severest school.&rdquo; We 
+                          Americans rise to overcome adversity and are at our 
+                          finest when confronted with the severest challenges.</p>
+                        <h3>Texas&rsquo; Economy: Doing 
+                          Well</h3><p>
+                          Texas was spared Katrina&rsquo;s 
+                          destruction, if only by the mercies of weather patterns 
+                          that dictate hurricane paths. We in no way wished for 
+                          it, but our economy may benefit from Katrina. Texas 
+                          Gulf Coast ports are handling some of the trade that 
+                          would have gone through New Orleans. Dallas may attract 
+                          at least a few conventions that had been booked for 
+                          New Orleans. Houston-area oilfield-services companies 
+                          are very busy in the Gulf, and some New Orleans companies 
+                          have rented a portion of the city&rsquo;s vacant office 
+                          space. They may stay on permanently, as may a number 
+                          of the evacuees.</p>
+                        <p>Prior to Katrina, Texas&rsquo; 
+                          economy had been performing well. Positive signals have 
+                          been coming from the Dallas Fed&rsquo;s Texas Index 
+                          of Coincident Indicators, which has been rising for 
+                          two years now. Our other barometer, the Texas Index 
+                          of Leading Indicators, measures the outlook for the 
+                          state&rsquo;s economy. When you look at the trend and 
+                          ignore the month-to-month wiggles, it, too, has been 
+                          moving generally upward for about two years.</p>
+                        <p>What happens here is not unimportant. 
+                          I like to remind my international friends and anybody 
+                          from New York that we are the second most populous state 
+                          in the union, with the second largest representation 
+                          in Congress. If we were a nation, our economy would 
+                          be the world&rsquo;s 10th largest. Our state product 
+                          exceeds India&rsquo;s GDP by 21 percent and Korea&rsquo;s 
+                          by 23 percent. </p>
+                        <h3>So how are the various sectors 
+                          of the Texas economy doing?</h3>
+                        <p>Texas retailers tell us sales 
+                          have been strong, although they worry that higher prices 
+                          for gasoline and other energy products may pinch consumers. 
+                          Trade has been going well, too. Although flat in the 
+                          first quarter, Texas exports have been robust for much 
+                          of the past two years, a tribute to the state&rsquo;s 
+                          competitiveness.</p>
+                        <p>Our growing economy is putting 
+                          an increasing number of people to work. The most recent 
+                          data available indicate that Texas payroll employment 
+                          had increased for 10 straight months, reaching a total 
+                          of more than 9.6 million workers. The prime sources 
+                          of new jobs have been construction; wholesale and retail 
+                          trade, transportation and utilities; education and health 
+                          services; and government. </p>
+                        <p>While manufacturing jobs rose 
+                          from June to July, the state&rsquo;s factory employment 
+                          of 891,000 remains more than 15 percent below its level 
+                          five years ago. The trend is what we should expect at 
+                          a time when manufacturing is migrating to China and 
+                          other low-cost centers of production. The Texas industrial 
+                          production index fell in June and July, dragged down 
+                          by lower output for both durable and nondurable goods. 
+                          Despite these two months of modest declines, the index 
+                          remains higher than it was a year ago. </p>
+                        <p>Housing has been much in the news. 
+                          Those of you watching the skyrocketing prices on the 
+                          East and West coasts may feel that Texas has been left 
+                          out. Well, it has. Over the past five years, our home 
+                          prices have risen less than half as much as they have 
+                          in the United States overall. When it comes to price 
+                          appreciation, Dallas ranked 175th and Houston 226th 
+                          among 248 metropolitan statistical areas in the second 
+                          quarter. Key reasons are the abundance of available 
+                          land and relatively modest restrictions on building. 
+                          Strong housing demand has created a housing boom of 
+                          another sort in Texas&mdash;not in home prices but in 
+                          homebuilding. Over the past year, Texas issued more 
+                          building permits for single-family homes than at any 
+                          time since 1980 and more than any state except Florida. 
+                        </p>
+                        <p>Bob Hankins, the head of banking 
+                          supervision at the Dallas Fed, is a worrier&mdash;that 
+                          is what we pay him to do. Commercial real estate is 
+                          one area that often keeps him tossing and turning at 
+                          night. </p>
+                        <p>Our contacts in the business community 
+                          are telling us that commercial projects continue to 
+                          gain steam&mdash;in part because Texas&rsquo; competitively 
+                          priced markets are attracting capital from more expensive 
+                          coastal cities. </p>
+                        <p>Office markets are improving. 
+                          Occupancy rates in Texas metropolitan areas are starting 
+                          to firm, although they are still low compared with other 
+                          parts of the country. Our contacts say rents are &ldquo;firm&rdquo; 
+                          to &ldquo;rising.&rdquo; Houston and Austin show limited 
+                          office construction activity, but speculative space 
+                          is being developed in the Dallas area, despite its having 
+                          the nation&rsquo;s highest office vacancy rate. Industrial 
+                          construction activity is also picking up, especially 
+                          near the Port of Houston. </p>
+                        <p>Despite the encouraging signs, 
+                          commercial real estate fundamentals have been weak since 
+                          2001, when vacancy rates soared and rents declined as 
+                          a result of the technology and telecom busts, the recession, 
+                          the shocks created by terrorism and war, and the tepid 
+                          economic recovery. Most of Texas&rsquo; commercial real 
+                          estate markets have seen fundamentals begin to stabilize, 
+                          but they remain sluggish by historical standards. </p>
+                        <p>Not to be deterred, investors 
+                          of late have turned to real estate as a relatively safe 
+                          haven and may now be paying too much for commercial 
+                          buildings. So there are rumblings from some quarters 
+                          of a price bubble in the market. Meanwhile, banks continue 
+                          to increase their exposure to commercial real estate 
+                          loans. At banks in the Eleventh Federal Reserve District, 
+                          commercial real estate loans accounted for more than 
+                          25 percent of total assets as of June 30. To date, delinquencies 
+                          here remain low; however, this high concentration could 
+                          portend a challenging operating environment for banks 
+                          and bank supervisors in the days ahead. By way of comparison, 
+                          during the regional banking crisis of the late 1980s, 
+                          commercial real estate exposure in the district peaked 
+                          at only about 15 percent.</p>
+                        <p>No review of the Texas economy 
+                          would be complete without a word about the industry 
+                          that made the state famous. Oil and gas no longer occupies 
+                          the legendary place it once had in the Texas economy, 
+                          but it has been a positive factor as high prices have 
+                          spurred drilling activity, especially for natural gas. 
+                          Despite shortages of equipment and key skills, the overall 
+                          rig count has climbed above 600 in recent months, up 
+                          by two-thirds since the end of 2002 to a level unseen 
+                          since the 1980s. With China growing at better than 9 
+                          percent a year and the 1 billion people of India working 
+                          hard to catch up with Texas in economic might, we can 
+                          expect continued strong global demand for energy, which 
+                          will keep pumping up the Texas oil and gas industry.</p>
+                        <p>Moving Toward a Globalized Economy<br>
+                          Before coming to the Fed 
+                          in April, I ran a Dallas investment firm&mdash;one that, 
+                          by the way, bought securities in distressed banks&mdash;and 
+                          I was a trade negotiator. Both experiences taught me 
+                          that what happens in other countries matters to the 
+                          U.S. economy&mdash;sometimes quite a bit. We cannot 
+                          fully understand our economy without appreciating how 
+                          it interacts with the rest of the world. Simply put, 
+                          we live in an era of globalization, and policymakers 
+                          must come to grips with it if we are going to fulfill 
+                          the mandate for policies that promote strong growth 
+                          with stable prices. </p>
+                        <p>A globalizing economy is one increasingly 
+                          open to the movement of goods, services, capital, people 
+                          and ideas across borders. A relatively straightforward 
+                          way to show the trend toward globalization involves 
+                          looking at trade as a portion of GDP. The ratio stood 
+                          just above 27 percent in the second quarter of this 
+                          year. In 1960, it was just 8 percent. To get some perspective 
+                          on what wags the economy, I like to compare trade with 
+                          the Pentagon&rsquo;s budget. For most of the 1950s, 
+                          defense spending exceeded trade as a share of GDP. This 
+                          relationship began a reversal in the late 1960s, and 
+                          the gap between trade and defense has grown in each 
+                          decade. Today, even after the spending increases of 
+                          recent years, defense outlays are slightly less than 
+                          4 percent of GDP, or a mere seventh of trade. </p>
+                        <p>Increased globalization raises 
+                          questions about traditional policy concepts and tools. 
+                          One of my first acts as Dallas Fed president was to 
+                          direct the bank&rsquo;s research staff to explore how 
+                          globalization is changing economic fundamentals and 
+                          the constraints on monetary policy. The current issue 
+                          of our publication <em>Southwest Economy</em> lays out 
+                          in some detail many of the issues and questions we are 
+                          going to be addressing, some of which I will mention 
+                          here. <br>
+                          <br>
+                          We are pondering whether traditional measures of capacity 
+                          utilization have much meaning in an increasingly interconnected 
+                          economy. We wonder whether our traditional domestic 
+                          gauges of slack in the economy are adequate in a world 
+                          where new technologies made or used overseas make certain 
+                          U.S. factors of production obsolete. And if we don&rsquo;t 
+                          have a good handle on effective capacity, how can we 
+                          measure how much of that capacity is being utilized? 
+                        </p>
+                        <p>Is the concept of the natural 
+                          rate of unemployment&mdash;the rate that doesn&rsquo;t 
+                          stoke inflationary fires&mdash;still meaningful in an 
+                          increasingly globalized economy? If so, how is it affected? 
+                          Could the ability of goods, services and people to flow 
+                          across borders allow our economy to expand at a quickened 
+                          pace, even if the unemployment rate falls below what 
+                          economists traditionally thought was the natural rate? 
+                        </p>
+                        <p>When August&rsquo;s unemployment 
+                          rate fell to 4.9 percent, for example, should we have 
+                          concluded that labor has become scarcer and wage inflation 
+                          might suddenly rear its head? Or does an interconnected 
+                          world, where we have the ability to draw on labor resources 
+                          from other countries, mean we can drive the domestic 
+                          unemployment rate lower without stoking the fires of 
+                          inflation?</p>
+                        <p>In a similar vein, it has long 
+                          been recognized that swings in the prices of energy 
+                          and other commodities can shift the Phillips curve trade-off 
+                          between inflation and unemployment. But how should domestic 
+                          policymakers respond when commodity prices are determined 
+                          largely by unpredictable swings in overseas activity?</p>
+                        <p>I raise these issues as questions 
+                          rather than conclusions because we at the Dallas Fed 
+                          do not yet have all the answers. We do know that new 
+                          eras require new thinking. The Dallas Fed intends to 
+                          make a positive contribution to understanding how America&rsquo;s 
+                          economy can benefit from globalization, rather than 
+                          become a victim of it. </p>
+                        <p>Coping with globalization will 
+                          be a long-term issue&mdash;for both the national and 
+                          Texas economies. Dealing with the aftermath of Katrina 
+                          and rebuilding the battered Gulf Coast will be a major 
+                          test of our national character for months to come. America 
+                          has a history of rising to the occasion, and I fully 
+                          expect this nation will shine once again in response 
+                          to the challenges before us.</p>
+                        <p>Thank you.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

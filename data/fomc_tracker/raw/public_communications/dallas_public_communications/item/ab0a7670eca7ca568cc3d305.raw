@@ -1,0 +1,874 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Is German Economic Decline Exaggerated or Inevitable? - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061120" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061120" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs061120-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Is German Economic Decline Exaggerated or Inevitable?</h1>
+                                                    <div class="dal-tagline">Remarks before the American Academy</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">November 20, 2006</span> Berlin, Germany</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+                        <p>I have known and admired Norbert 
+                          Walter for a very long time. And I have known and admired 
+                          Germany even longer. I have come to Germany countless 
+                          times over the past 30 years, but what Norbert forgot 
+                          to say in his overly kind introduction is that this 
+                          is the first journey I have made here as a central banker. 
+                        </p>
+                        <p>Being a central banker makes it 
+                          especially difficult for me to provide what has been 
+                          requested of me by the American Academy: an updated 
+                          examination of Germany&rsquo;s economic health&mdash;its 
+                          physiology and some of its pathologies. To speak as 
+                          a central banker in any German forum is daunting. No 
+                          representative of the Federal Reserve can claim anything 
+                          but admiration for the way the FRG&rsquo;s Bundesbank 
+                          managed its affairs in the pre-euro days of the Deutsche 
+                          mark. The pernicious effect of inflation was well understood 
+                          by the Bundesbank when it dominated the European economic 
+                          landscape. </p>
+                        <p>From its creation on June 21, 
+                          1948, until its retirement on December 31, 1998, the 
+                          DM retained its value better than any other major currency. 
+                          Over the 50-year lifespan of the DM, consumer prices 
+                          in Germany increased about fourfold. Over the same period 
+                          in the United States, consumer prices increased about 
+                          sevenfold, in significant part due to the laxity of 
+                          the 1970s, before a grandson of German immigrants, Paul 
+                          Volcker, restored discipline over monetary policy. The 
+                          Bundesbank&rsquo;s legacy has been solidly imbued in 
+                          the European Central Bank. Any central banker anywhere 
+                          in the world is grateful for Germany as the exemplar 
+                          of monetary probity. I certainly am.</p>
+                        <p>But I do not appear here before 
+                          the American Academy in my capacity as CEO of the Federal 
+                          Reserve&rsquo;s Eleventh District. I am here solely 
+                          as a friend of Germany, having been asked to revisit 
+                          a speech I gave before the Atlantik-Br&uuml;cke&rsquo;s 
+                          annual meeting in June of 2004, well before I joined 
+                          the Federal Reserve. The title of that speech was &ldquo;Can 
+                          Germany Hold Its Own in the New World of a Reconfigured 
+                          Europe, An Ascendant China, and 21st Century America?&rdquo;</p>
+                        <p>The answer I gave to that question 
+                          almost two and a half years ago, when I was a private 
+                          citizen, was an unqualified &ldquo;no.&rdquo; Not at 
+                          the time I delivered that speech. The question today 
+                          is: has anything changed?</p>
+                        <p>First, I want to firmly state 
+                          that I am not in any way, shape or form speaking today 
+                          as a representative of the Federal Reserve. It is standard 
+                          practice for all Federal Reserve officials, save the 
+                          Chairman on only two annual occasions, to state that 
+                          when we speak in public, we speak only for ourselves, 
+                          offering only our own personal views. I often imagine 
+                          a collective &ldquo;amen&rdquo; follows this prudent 
+                          disclaimer, especially in my case on those many occasions 
+                          when I have spoken about monetary policy and the course 
+                          of the U.S. economy! I want to especially underscore 
+                          that disclaimer today. This is very much a personal 
+                          speech.</p>
+                        <p>I did not assume my post at the 
+                          Fed until April of 2005. I was first introduced to Germany 
+                          in the spring of 1976. My introduction to Germany came 
+                          from Jack McCloy via my mentor, Robert Roosa. McCloy 
+                          taught me that &ldquo;Germany is the heart of Europe. 
+                          It is the backbone of the European economy. No country 
+                          is more important than Germany to the United States.&rdquo; 
+                          And he went on to say that &ldquo;Our alliance with 
+                          Germany needs close attention, nurturing and vigilance&hellip;because 
+                          its strength embodies profound advantages, while its 
+                          weakness could involve far-reaching dangers and risks.&rdquo;</p>
+                        <p>I took that advice to heart and 
+                          have pursued an affectionate interest in Germany ever 
+                          since meeting that truly great man. Jack McCloy&rsquo;s 
+                          words ring as true today as they did then.</p>
+                        <p>McCloy and Roosa and another mentor, 
+                          Michael Blumenthal, set in motion a series of opportunities 
+                          that have allowed me to meet and follow, up close, the 
+                          work of Helmut Schmidt and Helmut Kohl, seminal ministers 
+                          like Hans-Dietrich Genscher and Otto Graf Lambsdorff, 
+                          iconic Bundesbankers such as Otmar Emminger and Carl 
+                          Otto P&ouml;hl, and presidents von Weizs&auml;cker and 
+                          Carstens and K&ouml;hler. Over the years, many patient 
+                          friends and German public servants, ranging from Walther 
+                          Kiep to Matthias Wissmann to Wolfgang Ischinger, and 
+                          too many business and academic and civic leaders to 
+                          enumerate, all have spent countless hours trying to 
+                          teach me Germany. As has my daughter Texana, a German 
+                          studies concentrator at Harvard. I reviewed my long 
+                          history with Germany in 2004 at the Atlantik-Br&uuml;cke. 
+                          I recount it now in summary form not to boast of my 
+                          good fortune or to drop vintage German names, but to 
+                          make clear that for almost 30 years I have done my level 
+                          best to study and understand this country. My interest 
+                          in Germany&rsquo;s destiny could not be more sincere.</p>
+                        <p>I delivered that speech when I 
+                          was vice chair of Kissinger McLarty, well before I joined 
+                          the Fed. In it, I made some pretty undiplomatic but 
+                          heartfelt statements about Germany. Specifically, I 
+                          argued that Germany, in 2004, was &ldquo;so weakened 
+                          economically and so riddled with outdated operating 
+                          methods that it threatens the prosperity of Europe, 
+                          the Euro-Atlantic alliance and the global balance of 
+                          economic power.&rdquo; </p>
+                        <p>That was pretty stern stuff. </p>
+                        <p>Here are some of the more pungent 
+                          points I made in that speech two years ago, which drew 
+                          upon the work of Professor Stephen Silva at the American 
+                          Institute for Contemporary German Studies at Johns Hopkins 
+                          University, an institute I had the pleasure of helping 
+                          launch: </p>
+                        <blockquote> 
+                          <p> &ldquo;German economic 
+                            growth is anemic.&rdquo;</p>
+                          <p> &ldquo;Germany is becoming 
+                            less and less able to generate employment.&rdquo;</p>
+                          <p>&ldquo;Germany&rsquo;s relative 
+                            competitive position has been eroding for over 10 
+                            years&hellip;Your workers are less productive than 
+                            you think, and they work too little.&rdquo;</p>
+                          <p>&ldquo;Your corporate sector&rsquo;s 
+                            R&D spending as a percentage of GDP&hellip;is declining&hellip;.&rdquo;</p>
+                          <p>&ldquo;Germany&rsquo;s financial 
+                            architecture is dysfunctional&hellip;and suffers from 
+                            &lsquo;Teutonic cronyism.&rsquo;&rdquo;</p>
+                          <p>&ldquo;There remain countless 
+                            impediments to business efficiency&hellip;[tying] the 
+                            hands of entrepreneurs and productive workers.&rdquo;</p>
+                          <p> &ldquo;Corporate governance 
+                            procedures are opaque and antiquated.&rdquo;</p>
+                          <p>&ldquo;Germany&rsquo;s educational 
+                            system is overcrowded, under-funded, and [is] suffocating 
+                            from bureaucracies that respond more to statutes than 
+                            to the future needs of students.&rdquo;</p>
+                        </blockquote>
+                        <p> To wrap up that rather mild list 
+                          of concerns, I cited the then bestseller entitled <em>Das 
+                          Methusalem-Komplott</em> to suggest that Germany might 
+                          well replace Florida as &ldquo;God&rsquo;s antechamber,&rdquo; 
+                          so worrisome are your demographics.</p>
+                        <p>And then I concluded with evangelical 
+                          fervor a quotation from the Book of Peter in the Bible: 
+                          &ldquo;Come, be serious and discipline yourselves.&rdquo;</p>
+                        <p>As my daughter Texana would put 
+                          it: &ldquo;<em>Mein Gott Papa, kannst du bitte mehr 
+                          direkt sein</em>?&mdash;couldn&rsquo;t you be just a 
+                          little more blunt?&rdquo; But I am pleased to report 
+                          that the members of the Atlantik-Br&uuml;cke and their 
+                          tolerant guests at dinner that night cordially refrained 
+                          from pelting me with their bread rolls. Their lack of 
+                          outrage, more than anything else, convinced me that 
+                          my words had struck a nerve. I had spoken frankly as 
+                          a friend and admirer of Germany, and I believe now, 
+                          as I did then, that I was spot on.</p>
+                        <p>That was then. This is now. Upon 
+                          rereading that speech to prepare for tonight, I was 
+                          reminded of Berndt von Staden, the first German ambassador 
+                          to Washington I had the pleasure to meet. He would later 
+                          describe how Jimmy Carter dispatched his vice president 
+                          and another aide to Bonn to convince Helmut Schmidt 
+                          &ldquo;to do his part to revive the&hellip;sagging world 
+                          economy&hellip;&rdquo; With wry criticism, von Staden 
+                          later wrote: &ldquo;I watched as the two gifted, youthful-looking 
+                          gentlemen gave economic and fiscal advice to the very 
+                          chancellor who had led his country through the energy 
+                          and currency crises like no other had.&rdquo;</p>
+                        <p>I am not gifted. And I am certainly 
+                          not youthful looking. I am tremendously sympathetic 
+                          to the task that lies before the chancellor as she seeks 
+                          to lead Germany through a historic crisis of another 
+                          sort. And, having not been dispatched by anybody in 
+                          Washington or by the Federal Reserve, I do not think 
+                          it is my place to give advice to the German chancellor 
+                          or any other German leader, for that matter.</p>
+                        <p>I can, however, offer a cataloging 
+                          of the prevailing criticisms I have read and heard about 
+                          in tracking Germany&rsquo;s efforts to overcome the 
+                          problems I enumerated in 2004. The chancellor (and, 
+                          to be fair, her predecessor, although perhaps too late 
+                          in his tenure) has sought to initiate change, but still 
+                          there has been no shortage of critiques in the public 
+                          domain, even though most would agree that the German 
+                          economy has recently undergone a fundamental improvement. 
+                        </p>
+                        <p>Critics argue, for example, that 
+                          in reality, the economy is only reflecting the benefits 
+                          of a cyclical global upswing. These critics also argue 
+                          that German industry&rsquo;s role as <em>Exportweltmeister</em>, 
+                          even with the headwind of a strong euro, masks deep-seated 
+                          problems. Some say that Germany&rsquo;s increased export 
+                          performance stems largely from restrained wage growth 
+                          relative to its European competitors rather than from 
+                          improved productivity. This leads one to wonder how 
+                          much more successful Germany would be in export markets 
+                          if significant supply-side reforms were implemented.</p>
+                        <p>The critics argue that recent 
+                          corporate tax proposals will only modestly reduce Germany&rsquo;s 
+                          tax disadvantage relative to its competitors. They point 
+                          out that, on the whole, your private sector is undercapitalized 
+                          and overtaxed. </p>
+                        <p>The skeptics maintain that too 
+                          many product markets remain too highly regulated and 
+                          that regulation and high barriers to entry continue 
+                          to suffocate growth;</p>
+                        <p>That the service sector remains 
+                          underdeveloped. </p>
+                        <p>And, they argue that Germany has 
+                          yet to find a way to harness the virtues of what the 
+                          economist Joseph Schumpeter called &ldquo;creative destruction,&rdquo; 
+                          a process vital to moving any economy up the value-added 
+                          ladder toward greater prosperity. </p>
+                        <p>They warn that Germany&rsquo;s 
+                          social welfare system rewards leisure, complacency and 
+                          underinvestment, not productivity and risk taking.</p>
+                        <p>They say that recent incremental 
+                          changes in labor laws are far from sufficient.</p>
+                        <p>They argue that flotation of the 
+                          Landesbanken HSH Nordbank and the forced sale of Berliner 
+                          Sparkasse, while encouraging, do not provide reassurance 
+                          that&mdash;other than at the behest of Brussels&mdash;Germany&rsquo;s 
+                          political leaders understand that state-owned banks 
+                          are a hindrance to economic progress.</p>
+                        <p>They maintain that the scrapping 
+                          of the 50-year-old <em>Ladenschlussgesetz</em> in Berlin 
+                          does not guarantee that the 16 <em>L&auml;nder</em> 
+                          will take adequate advantage of the June reforms to 
+                          your country&rsquo;s federal system&mdash;especially 
+                          Bavaria!</p>
+                        <p>Critics say the new healthcare 
+                          proposals fail to sever the link between healthcare 
+                          costs and wages, barely increase competition among healthcare 
+                          suppliers and indeed risk making matters worse because, 
+                          these critics argue, they expand the power of the state 
+                          when precisely the opposite is needed.</p>
+                        <p>Others worry about the challenges 
+                          facing education and argue that charging tuition and 
+                          board and making admissions procedures more selective 
+                          are necessary but insufficient beginnings to educational 
+                          reform. The recent initiatives taken to grant autonomy 
+                          on courses and professorships in North Rhine-Westphalia 
+                          and the gifts by Klaus Jacobs and Otto Beisheim, exemplary 
+                          as they are, are, according to critics, not enough to 
+                          overcome poor teaching quality and low rankings among 
+                          global universities. </p>
+                        <p>They argue that the bureaucratization 
+                          of elementary and secondary schools does far more damage 
+                          to German children than the relentless television barrage 
+                          of <em>SpongeBob Schwammkopf</em> in undermining the 
+                          German education system, once the standard for the world.</p>
+                        <p>To illustrate the consequences 
+                          of failing to advance education, detractors note your 
+                          continued slippage in rankings put out by the World 
+                          Intellectual Property Organization. They note that you 
+                          currently rank sixth in WIPO&rsquo;s rankings and have 
+                          been surpassed by China in patent applications. And 
+                          that, according to the <em>Financial Times</em> of October 
+                          30, 2006, &ldquo;Germany is the worst performer among 
+                          the larger European countries with a [bare] 2% R&D 
+                          increase last year.&rdquo;</p>
+                        <p>Critics point to recent studies 
+                          by the International Institute for Management Development 
+                          on labor market rigidity and disincentives to work to 
+                          illustrate their concerns about Germany&rsquo;s labor 
+                          market. They note that Germany ranked dead last among 
+                          60 nations in the IIMD&rsquo;s combined score, below 
+                          France, Sweden, Brazil and Argentina. </p>
+                        <p>Other critics open up the recent 
+                          issue of <em>Foreign Policy</em> magazine and note that 
+                          Germany ranks 18th out of 20 countries in the globalization 
+                          index compiled by A.T. Kearney and the Carnegie Endowment 
+                          for International Peace. That puts Germany behind Norway, 
+                          Israel, the Czech Republic and Slovenia, and only slightly 
+                          ahead of Malaysia and Hungary. These researchers cite 
+                          Germany&rsquo;s low marks in economic integration, a 
+                          paucity of foreign direct investment and middling internet 
+                          connectivity as factors in the country&rsquo;s low ranking.</p>
+                        <p>Against this background of concerns, 
+                          there is, of course, constant comment about the capability 
+                          of German government officials to lead. I need not review 
+                          those arguments for you. For here in Germany, just as 
+                          in the United States, questioning leadership has become 
+                          a blood sport. </p>
+                        <p>As a central banker, I prefer 
+                          to steer clear of raw political sparring. Even so, the 
+                          harsh tenor of criticisms tossed about by your elected 
+                          leaders&mdash;between parties and even within parties&mdash;is 
+                          strikingly shrill and worrisome.</p>
+                        <p>In the end, just as there are 
+                          doubts about America, there are significant uncertainties 
+                          about Germany&rsquo;s ability to adjust to the newly 
+                          reconfigured world.</p>
+                        <p>So, has anything changed since 
+                          that 2004 speech? I would say that much progress has 
+                          been made since my comments to the Atlantik-Br&uuml;cke 
+                          and that, despite the criticisms enumerated above, I 
+                          am encouraged. </p>
+                        <p>Were I asked what needs to be 
+                          done next, my reply would echo any concerned friend 
+                          of Germany: that everyone in this country, from the 
+                          <em>Facharbeiter</em> to the <em>Kundenberater</em> 
+                          to the <em>Vorstandsmitglied</em>, must seize the opportunities 
+                          presented by recent reforms and by the improving business 
+                          cycle to help Germany prosper anew. </p>
+                        <p>There is no denying significant 
+                          efforts have been undertaken to overcome the inertia 
+                          of the German economy I described so graphically in 
+                          2004. But the work of adapting to a changing world is 
+                          never done. Globalization is an inexorable force. Nicholas 
+                          Sarkosy of France said it best just two weeks ago. &ldquo;It 
+                          would be as pointless to deny [globalization] or oppose 
+                          it as to challenge the law of gravity or to stop the 
+                          movement of the clouds.&rdquo; </p>
+                        <p>Germany has embarked upon what 
+                          is certain to be a long and difficult journey to secure 
+                          its future in a tough, competitive, globalized world. 
+                          Success will require the kind of determination that 
+                          was the hallmark of the Bundesbank during the postwar 
+                          period. And just as the Bundesbank charted the best 
+                          course to navigate a treacherous world, the German private 
+                          and public sectors must again become exemplars of how 
+                          to successfully navigate a globalized one.</p>
+                        <p>To wrap up, I am going to do something 
+                          that I believe no other American speaker would dare 
+                          do. I am going to quote Calvin Coolidge! Those who know 
+                          American history know that President Coolidge didn&rsquo;t 
+                          say much, but when he did speak, he said a great deal. 
+                          &ldquo;Nothing in this world,&rdquo; Coolidge said, 
+                          &ldquo;can take the place of persistence&hellip;Persistence 
+                          and determination alone are omnipotent. The slogan &lsquo;press 
+                          on&rsquo; has solved, and always will solve, the problems 
+                          of the human race.&rdquo;</p>
+                        <p>Persistence in pursuing economic 
+                          reform will solve the problems that threaten Germany&rsquo;s 
+                          future. Germany must &ldquo;press on&rdquo; with needed 
+                          reforms to its laws and to its attitudes toward competition 
+                          and the pursuit of excellence. </p>
+                        <p>And so I conclude with a modified 
+                          exhortation from my evangelical 2004 speech: Come, be 
+                          serious and discipline yourselves. For the sake of Europe, 
+                          the Atlantic Alliance and the world. For your sake. 
+                          And ours. Press on. There is still much to do.</p>
+                        <p>Thank you.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

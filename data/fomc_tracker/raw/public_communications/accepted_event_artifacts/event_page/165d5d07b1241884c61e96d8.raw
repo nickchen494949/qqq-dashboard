@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Comments on Tailored Regulation and Forward Guidance - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2014/fs140509" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2014/fs140509" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2014" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2014/fs140509-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Comments on Tailored Regulation and Forward Guidance</h1>
+                                                    <div class="dal-tagline">Remarks before the Louisiana Bankers Association 114th Annual Convention and Expo</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        <p><span class="report-date">May 9, 2014</span> New Orleans, Louisiana</p><div class="report-links">
+<ul>
+<li><a href="~/media/Documents/news/speeches/fisher/2014/fs140509.pdf">Speech in PDF</a></li>
+</ul>
+</div><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+<p>Thank you, Drake (Mills). Your service as president of the Federal  Reserve Board&rsquo;s Community Depository Institutions Advisory Council is greatly  appreciated. You are kind to have a Texan come speak to you and your fellow  Louisiana bankers, though this is not without precedent: The great blues  guitarist and singer Clarence Garlow may have been born in Louisiana, but he  had long lived in Texas before he recorded &ldquo;Bon Ton Roula&rdquo; in 1949 and gave New  Orleans the reputation of the American city where <em>les bon temps rouler.</em></p>
+<p>It would be hard to say that the good times are rolling for community  bankers, though the pace and rhythm of the economies of the U.S. and Louisiana  and your next-door neighbor, Texas, are getting stronger daily.</p>
+<p>I have been outspoken as to why our community banks feel besieged.  Everyone in this room and their sister or brother knows what I preach about the  continuing problem of banks considered &ldquo;too big to fail&rdquo; and the witches&rsquo; brew  that was concocted by Congress, known as Dodd&ndash;Frank. My colleagues at the  Dallas Fed and I submit that Louisiana&rsquo;s and the nation&rsquo;s community and  regional banks play on an uneven playing field against the giant money-center  banks. The Fed is coming down hard on the big guys to ensure they are  adequately capitalized and liquid. We are using all means within our power to  make sure they never again place the American taxpayer at risk by bringing the  financial system to its knees. But the fact remains that the big banks have a  greater share of the deposit market than ever, are coming into our communities  and regions to lend money on terms and at prices that any banker with a memory  cell knows from experience usually end in tears, and are putting independent  bankers in a precarious position. </p>
+<p>And as to Dodd&ndash;Frank, I am skeptical that the bureaucracy and rules and  regulations this massive legislative initiative has created, even with the  careful execution by the Fed, will vanquish too big to fail&mdash;the law&rsquo;s very  intention as stated in its preamble. But of this I am certain: It has made the  lives of community and regional banks vastly more complicated. Like almost  anything that comes out of the U.S. Congress, it has primarily been a boon to  lawyers and consultants and compliance officers, adding to expenses but doing  little to help you grow your businesses. </p>
+<p>We at the Dallas Fed are acutely conscious of this. We think of  Dodd&ndash;Frank as akin to what Dr. Seuss once wrote about medicine:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2014/140509c1.ashx"   alt="" border="1"/></p>
+<p>Interest margins for community and regional banks have been shrinking  for some 20 years. To be sure, the low interest rates the Fed has engineered to  bring the economy out of the death spiral threatened by the Financial Panic of  2007&ndash;09 exacerbated pressures on margins as we awaited the strengthening  economy we are now beginning to experience. But adding the pills and the bills  of extra layers of compliance and legal expenses generated by Dodd&ndash;Frank has  compounded the difficulty of passing on profitable franchises to your banking  heirs. </p>
+<p>This is why, Systemwide, the Fed has been sensitive to the situation of  banks under $50 billion, and especially sensitive to the situation of banks  with less than $10 billion in footings. To be sure, we are as committed as ever  to safety and soundness and the application of the law; we always have been and  always will be. But at the Dallas Fed, we believe we can apply the requisite  discipline required to safeguard our banking system in a way that is beneficial  to regional and community banks. We and our fellow Federal Reserve Banks have  worked hard to instill a constructive and interactive relationship, rather than  a hostile, purely formulaic one, with the banks we supervise. You might have  noted that Janet Yellen&rsquo;s speech of May 1 to the Independent Community Bankers  was titled &ldquo;Tailored Supervision of Community Banks.&rdquo; The Federal Reserve banks  take this charge seriously.</p>
+<p>This is no idle claim. Just looking at the Eleventh District, we are  increasingly being petitioned by banks for membership in the Federal Reserve  System. The number of state member banks in the Dallas Fed district increased  by 8 percent in 2012, by 19 percent in 2013, and we have already increased  membership an annualized 26 percent in the first three months of 2014. </p>
+<p>So I would just say this to those of you who are madder than (bleep!)  about what Congress and the regulators have wrought: The Federal Reserve knows  what community and regional banks do for their communities. We appreciate that  you are the backbone for the homeowners, small businesses, service clubs and  school sports teams and scouts and churches and myriad other activities that  make for better communities. We want you not only to endure, but to succeed and  grow. And we want to make sure you play on an even playing field with those who  have legions of white-shoe lawyers and K Street lobbyists you couldn&rsquo;t dream of  affording. </p>
+<p>I wanted to just say that at the outset.</p>
+<h3>Monetary Policy Going Forward:  De-Spiking the Punch Bowl 10 Ounces at a Time</h3>
+<p>
+  Now, if you will indulge me, I want to speak of the direction of  monetary policy from here onward. </p>
+<p>The Federal Open Market Committee (FOMC) is in the process of winding  down its massive purchases of Treasuries and mortgage-backed securities. At our  last meeting, in recognition that the economy is improving and acknowledging  that we have generated massive amounts of excess reserves among depository  institutions operating in the U.S., we voted to reduce our purchases to a  combined $45 billion per month, on the path to eliminating them at the earliest  practicable date. Speaking only for myself as a voting member, barring some  destabilizing development in the real economy that comes out of left field, I  will continue to vote for the pace of reduction we have undertaken, reducing by  $10 billion per meeting our purchases and eliminating them entirely at the  October meeting with a final reduction of $15 billion. <strong></strong></p>
+<p>I was not for this program, popularly known as QE3, to begin with. I  doubted its efficacy and was convinced that the financial system already had  sufficient liquidity to finance recovery without providing tinder for future  inflation. But I lost that argument in the fall of 2012, and I am just happy  that we will be rid of the program soon enough.</p>
+<p>I am often asked why I do not support a more rapid deceleration of our  purchases, given my agnosticism about their effectiveness and my concern that  they might well be leading to froth in certain segments of the financial  markets. The answer is an admission of reality: We juiced the trading and risk  markets so extensively that they became somewhat addicted to our accommodation  of their needs. You may remember the &ldquo;taper tantrum&rdquo; market operators threw  last spring when we broached the idea of temperance. It went over about as big  as would saying you wanted to ban Hurricanes and other happy-making libations  here in New Orleans!</p>
+<h3>Preventing Market Seizures and the DTs</h3>
+<p>  Until just recently, Herb Kelleher was chairman of the Dallas Fed  board. I can safely say that I had the funniest chairman of any Federal Reserve  Bank, and one of the smartest ever. Herb is not only the iconic founder of  Southwest Airlines, but he is also an iconic consumer of Wild Turkey Bourbon. A  wise man, he advised me that you can&rsquo;t go from Wild Turkey to cold turkey  overnight. So despite having argued against spiking the punchbowl to the degree  we did, I have accepted that the prudent course of action and the best way to prevent  the onset of market seizures and delirium tremens is to gradually reduce and  eventually eliminate the flow of excess liquidity we have been supplying. The  financial markets now seem to be unperturbed by and appear to be fully  discounting the reduction pattern I am supporting.</p>
+<p>You should bear in mind that the Fed works directly only with  depository institutions. And that they represent only a fifth or less of the  credit markets in the U.S. And yet as I speak, depository institutions,  including foreign banks doing business in the United States, have $2.5 trillion  in excess reserves on the books of the 12 Federal Reserve Banks. So one would  be hard pressed to say that ending our asset purchases, which the depository  institutions from which we buy them deposit back with us as excess reserves,  would deny the economy needed liquidity.</p>
+<h3>&ldquo;Normalizing&rdquo; Policy</h3>
+<p>  The focus of our discussions now is when and how to &ldquo;normalize&rdquo;  monetary policy. Given that we work directly with only 20 percent or less of  the highly developed U.S. credit intermediation system, this becomes a  complicated matter. It raises questions, for example, about whether we should  focus on the federal funds rate, which has been our traditional fulcrum, or  some other measure, such as the rate we pay on excess reserves or that we pay  on overnight reverse repos or some mix thereof. You can expect to hear more  about this as time passes. Today, I am going to focus on another aspect of  &ldquo;normalization,&rdquo; and that is: Once we have wound down QE3, when are we likely  to raise the short-term rate that anchors the yield curve?</p>
+<p>In the parlance of the trade, market operators and bankers alike are  seeking &ldquo;forward guidance&rdquo; about our intentions. I spoke about this at length  in a recent speech in Hong Kong, and I refer you to that speech if you need a  sleeping aid this evening.<a href="#n1">[1]</a></p>
+<h3>The Advent of the Dots</h3>
+<p>  The intense focus on when we are likely to raise the overnight rate is  understandable. I was a banker in my previous life, before migrating to  portfolio management; I spent 20 years in both professions before going into  public service so as to &ldquo;pay it back.&rdquo; As a banker and market operator, I  naturally wanted to eliminate uncertainty as much as possible. The adage &ldquo;don&rsquo;t  fight the Fed,&rdquo; was prevalent then, as it is now, so I would garner as much  knowledge as possible about future Federal Reserve intentions and moves in  order to position my book. </p>
+<p>Then, we had little information. The FOMC under Paul Volcker did not  even announce its decisions, and the market was left to discover them on its  own. Later, under Alan Greenspan, the FOMC began the process of releasing  information about decisions taken, but any clues as to future intentions  required one to divine some signal from the chairman&rsquo;s almost mystical  pronouncements and oracular circumlocution. Chairman Ben Bernanke worked with  the FOMC to instill greater transparency under the assumption that providing as  much information as we can enlightens markets so as to modulate the possible  disruption of surprises and allows decision-makers&mdash;from consumers to businesses  to bankers and investors&mdash;to plan forward. To this end, we now release copious  amounts of information, including the forecasts of economic activity and the  year-end level at which we see the rate on overnight money trading, as foreseen  by each individual FOMC participant under his or her assessment of appropriate  monetary policy. </p>
+<p>We call this exercise the Summary of Economic Projections, or SEP for  short. We release it quarterly. I draw your attention to it because it has  become something of a phenomenon among analysts preoccupied with the entrails  of policymaking and has taken on a life of its own. You read about it in the  papers and get analysis of it from market soothsayers. Yet, I want to caution  you against becoming overly preoccupied with the FOMC&rsquo;s SEP. In my less than  humble opinion, it is a flawed tool. Let me explain why.</p>
+<p>Here is what the last SEP release for the fed funds rate looked like.  It provided the FOMC participants&rsquo; projections for the overnight rate at year-end  for the next three years and beyond to the &ldquo;longer run,&rdquo; as foreseen from March  19:</p>
+<p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2014/140509c2.ashx" title=""> <img src="/~/media/Images/news/speeches/fisher/2014/140509c2th.ashx"   alt="" border="1"/></a></p>
+<p>You can see why it is referred to in the business as &ldquo;the dot chart.&rdquo;  The <em>best guesses </em>of the entire  panoply of participants in FOMC deliberations&mdash;19 when we have a full complement  (the 12 Fed bankers and the maximum of seven governors appointed by the  president subject to approval of the Senate)&mdash;are summarized in dots with the  expected level on the &ldquo;y-axis&rdquo; and the year at the end of which it is thought  likely to occur on the &ldquo;x-axis.&rdquo;</p>
+<p>I use the term &ldquo;best guesses&rdquo; deliberately. The participants in the  FOMC have sophisticated econometric models, a deep knowledge of theory and a  great breadth of experience to draw upon. But truth be told, however we dress  up our forecasts as rigorous analysis, they are no more than the very best  educated guesses of the superbly trained but still human staffs of the 12 Fed  bankers and the active governors. </p>
+<p>And the composition of those among the FOMC participants who actually  vote on policy changes periodically. With the departure of Governor Jeremy  Stein at the end of this month, we will have eight people, including me, who  vote on policy for the remainder of this year. We are hopeful that the full  Senate will confirm the two governors who have now come out of the Senate  Banking Committee, but we don&rsquo;t know when that will occur. That will bring the  total number of voters to 10. But the composition of those 10 voters will  change each year going forward.</p>
+<p>Here, for example, is how the voters have changed just since last year  and how the voting group will morph on into 2016, with those names in red  indicating new positions or votes.</p>
+<p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2014/140509c3.ashx" title=""> <img src="/~/media/Images/news/speeches/fisher/2014/140509c3th.ashx"   alt="" border="1"/> </a></p>
+
+<p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2014/140509c4.ashx" title=""> <img src="/~/media/Images/news/speeches/fisher/2014/140509c4th.ashx"   alt="" border="1"/> </a></p>
+
+<h3>Dot-ology or Doxology?</h3>
+<p>  Even though the Fed has a remarkable assembly of the best economic  thinkers on the planet (present company excluded), no one on the FOMC is a seer  and none possess Nostradamus-like insight, even when looking out just a couple  of quarters; and, given that the roster of those who actually vote on policy is  constantly changing, it is a wonder that the analytical community and market  economists have become so fixated on &ldquo;the dots.&rdquo; </p>
+<p>Some analysts practically worship the dots. They have become analytical  idols around which a doxology of sorts has developed (&ldquo;Praise dots from whom  all insights flow&rdquo;). Others consider their fallibility but still spill plenty  of ink slicing and dicing them.</p>
+<p>For example, here is a foray into dot-ology sent out on April 23 by the  highly regarded chief international economist of Deutsche Bank, Torsten Slok:  &ldquo;One important question is how confident FOMC members are in their forecasts.  One way to measure this is to look at the standard deviation around FOMC  members&rsquo; forecasts of where they think the fed funds rate will be in two years&rsquo;  time, i.e. look at the standard deviation of the dots in the Fed&rsquo;s dot chart. &hellip;  At their latest meeting the FOMC members felt more certain about the coming  hike in the fed funds rate than they did a year ago.&rdquo;<a href="#n2">[2]</a></p>
+<p>I cite Mr. Slok&rsquo;s analysis only as an example of an entire field of  study&mdash;a veritable industry&mdash;that has evolved around &ldquo;the dots.&rdquo; So extensive is  the preoccupation with this that it would not surprise me if Harrah&rsquo;s Casino  here on Canal Street eventually starts taking bets on how the dots will shift  from quarter to quarter. </p>
+<p>Surely, economists of high repute are aware of the imperfections of  this exercise and the fundamental problem with date-based forward guidance (projecting  a schedule for future policy changes). We, on the FOMC, certainly are.</p>
+<h3>Dr. Seuss or Strother Martin?</h3>
+<p>  There have been suggestions from outside and within the Fed on how to  better present our &ldquo;best guesses&rdquo; as to when we will move the base rate for  anchoring the yield curve. For example, some have suggested identifying which  dots belong to current voting members of the FOMC. Others have suggested that  we report only the median of responses or the median of voter responses, rather  than the entire array of dots. But neither of these approaches would do  anything to enlighten the markets as to the views of future voters, nor would  they overcome the underlying problem with date-based forward guidance. <strong></strong></p>
+<p>What to do? If the dot chart creates confusion, one option would be to  dispense with the exercise altogether. Having evoked Dr. Seuss earlier, I can  imagine his bidding the dots farewell with some ditty like this:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2014/140509c5.ashx"   alt="" border="1"/></p>
+<p>Yet expressing the FOMC participants&rsquo; perceptions of, and possible  reactions to, an assortment of future scenarios&mdash;however often the committee&rsquo;s  composition may change&mdash;does strike me as having some merit, if only to give  markets insight into how the central bank might react under different  circumstances. </p>
+<p>In the parlance of the trade, this is called &ldquo;state-based&rdquo; guidance.  Yet here, too, we have struggled. For example, until two meetings ago, we used  an unemployment figure of 6&frac12; percent as a point sometime after which we would  begin to consider pulling back on monetary accommodation, then decided this  wasn&rsquo;t quite the ticket.</p>
+<p>This may be a little more inside baseball than you expected to hear  today, but here&rsquo;s the point: Expect the Fed to continue refining its  communications. We are getting better at it. But to invoke the immortal words  from the chain gang captain portrayed by Strother Martin in the 1967 movie <em>Cool Hand Luke</em>: &ldquo;What we&rsquo;ve got here is  failure to communicate.&rdquo; We are working on it so that you and other bankers,  market operators, businesses and consumers will develop the best possible  insight into how your monetary authority will behave. I expect that our new  Chair, Janet Yellen, will play a significant role here as she uses her press  conferences to explain what simply cannot be communicated with a series of dots  or within the statement we release after each meeting.</p>
+<h3>Alas, There Is Congress</h3>
+<p>  Now mind you, your monetary authority&mdash;your Federal Reserve&mdash;does not  hold every card to your future in its hand. No matter how clearly we  communicate, no matter how expertly we tailor our supervision of your banks, no  matter how we conduct monetary policy, our work is necessary but not sufficient  to the success of the Louisiana, Texas and U.S. economies. The fiscal  authorities&mdash;Congress and the executive branch&mdash;must do their job to provide the  proper tax, spending and regulatory incentives for businesses to take advantage  of the cheap and abundant money the Fed has made possible and put it to work to  grow, expand their payrolls and let America truly prosper. </p>
+<p>I will spare you my thoughts on Congress (it is not very central  banker-like to resort to profanity). All I will say is that you and your  neighbors and friends and customers are the ones who elect people to office and  whether you are a &quot;D&quot; or an &quot;R,&quot; you need only look at yourself in the mirror  to see who is in charge of placing the right people in office to get the job  done of putting the American economy back on track. I&rsquo;d say you have some  serious work to do here.</p>
+<h3>Conclusion</h3>
+<p>For today, just bear in mind that the Fed is doing its utmost to be an  enlightened regulator of your banks. For the economy as a whole, there is  abundant liquidity to finance economic expansion, and the FOMC will assure that  it remains affordable as long as the prospect of inflation rising above its 2  percent target remains in abeyance. It is too early to say that the economy can  declare <em>laissez les bon temps rouler</em>.  But for you bankers in this audience today, you might be forgiven if you kick  up your heels a little bit while you are in New Orleans &hellip; though the  curmudgeonly old Fed will be watching to make sure that for its part, you don&rsquo;t  let things get out of hand.<br>
+  <br>
+Thank you, Drake. Thank you all.</p>
+<p>Now, in the best tradition of central banking, I would be happy to  avoid answering any questions you have.</p>
+<div id="notes"></div>
+<h6>Notes</h6>
+<p>The views expressed by the author do not necessarily reflect official   positions of the Federal Reserve System.</p>
+<ol>
+
+  <li><a id="n1"></a>See &ldquo;Forward  Guidance,&rdquo; by Richard W. Fisher, remarks before the Asia Society Hong Kong  Center, Hong Kong, April 4, 2014, <a href="http://www.dallasfed.org/news/speeches/fisher/2014/fs140404.cfm">www.dallasfed.org/news/speeches/fisher/2014/fs140404.cfm</a>.</li>
+  <li><a id="n2"></a>&ldquo;Standard Deviation  of the Dots in the Dot Chart,&rdquo; by Torsten Slok, Deutsche Bank Research, April  23, 2014.</li>
+</ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

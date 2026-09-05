@@ -1,0 +1,2010 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  
+
+    <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta http-equiv="Content-Language" content="en-us"> <meta http-equiv="imagetoolbar" content="false"> <meta name="MSSmartTagsPreventParsing" content="true"> <meta name="robots" content="index, follow"> <meta name="google-site-verification" content="VxDqAhtsy11WBtllzLFHn7vU5iSLUfQ1w6RQ6KHlaEQ" /> <meta name="google-site-verification" content="5okRoSAu5prwTjUhAqW8ZtNyzX5gEUtvEc39V_05OOs" /> <style>     html {         visibility: hidden;         opacity: 0;     } </style> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link     href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=block"     rel="stylesheet"> <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js?"></script> <link rel="stylesheet" type="text/css" href="/~/media/admin/css/bootstrapmin.css"> <link rel="stylesheet" type="text/css" href="/~/media/admin/css/grid-pro.css"> <link rel="stylesheet" type="text/css" href="/~/media/admin/css/chicagofed.css?a=ox"> <link rel="stylesheet" type="text/css" href="/~/media/admin/css/SitecoreCssClasses.css"> <script src="/~/media/admin/scripts/jquery341min.js"></script> <script type="text/javascript" src="/~/media/admin/scripts/bootstrapbundlemin.js"></script> <script type="text/javascript" src="/~/media/admin/scripts/application.js"></script> <link href="/favicon.ico" rel="icon" type="image/x-icon"> <meta name="og:image" content="https://www.chicagofed.org/-/media/admin/images/footer/chicagofedseal-png.svg"> <meta name="facebook-domain-verification" content="1zrkqvmrz2td8xcwo4ve6x0rl26nzp" />
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <title>
+Managing Monetary Policy Risks - Federal Reserve Bank of Chicago    </title>
+</head>
+<body>
+    <div class="container-fluid cfedContainerFluid">
+            <div class="container">
+                
+        <div class="nav justify-content-end">
+                <div class="nav-item">
+                            <a class="nav-link" href="/utilities/about-us/office-of-the-president/office-of-the-president-home">
+            Office of the President
+
+        </a>
+
+                </div>
+                <div class="nav-item">
+                            <a class="nav-link" href="/education/money-museum/index">
+            Money Museum
+
+        </a>
+
+                </div>
+        </div>
+
+
+
+
+            </div>
+        <div class="row cfedHeaderContainerRow">
+            <div class="col">
+                <!-- mobile logo -->
+<div class="row d-block d-md-none">
+    <div class="col">
+        <a href="/" title="Home"><img class="cfedLogo cfedLogo--small" alt="Federal Reserve Bank of Chicago" src="/-/media/admin/images/header/chicago-fed-logo-png.svg?h=33&amp;w=570&amp;sc_lang=en&amp;hash=4497DBA67FD97304EAC3580002229ED2" /></a>
+    </div>
+</div>
+<!-- begin header for all sizes above xs -->
+        
+
+
+<div class="cfedContentLimiter d-none d-md-block"> <!-- restart contentLimiter -->
+<div class="row cfedHeader__logoRow">
+    <div class="col-sm-8 cfedHeader__logoRowColumn">
+        <a href="/" title="Home"><img class="cfedLogo" alt="Federal Reserve Bank of Chicago" src="/-/media/admin/images/header/chicago-fed-logo-png.svg?sc_lang=en&amp;hash=7A0BD35555EFBD4BC75901A5B7BC7BD5" /></a>
+    </div>
+<!-- housekeeping links -->
+
+    <div class="col-sm-4 cfedHeader__logoRowColumn cfedHeader__logoRowColumn--icons">
+
+      
+ <div class="cfedSearchContainer" id="search"> 
+          
+            <div class="cfedSearchFormElementWrapper">
+                <label for="searchbox" class="sr-only">Search</label>
+                <input name="searchbox" id="searchbox" type="text" value="" class="cfedSearchbox" />
+        
+            </div>
+            <div class="cfedSearchFormElementWrapper">
+    			<input type="image" id="searchButtonFull" class="cfedHeaderSearchButton" src="~/media/admin/images/icons/search-icon" name="submit" alt="Search" />
+    			</div>
+            
+        		
+            </div>
+
+
+
+
+    </div>
+    
+    
+    
+</div>
+</div>
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="row cfedTopNavigationContainerRow">
+            <div class="col">
+                <div class="cfedContentLimiter">
+                    
+                    
+
+
+
+
+
+
+
+
+        <!--- Mobile Nav -->
+        <nav class="navbar cfedNavbar d-block d-md-none" style="z-index:9999">
+            <div class="navbar-header">
+                <div class="row">
+                    <div class="col-6 cfedSmallMenuIcon--left">
+                        <button class="navbar-toggle cfedHamburgerButton" data-target="#cfedNavbarMenu" data-toggle="collapse" type="button" aria-controls="cfedNavbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="cfedIconBar">
+                                ☰ Menu
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-6 cfedSmallMenuIcon--right">
+                        <button class="navbar-toggle cfedHamburgerButton" data-target="#cfedSearch" data-toggle="collapse" type="button" id="visibleSearchBoxToggle">
+                            <div class="cfedIconBar">
+                                <img alt="Search" src="/~/media/admin/images/header/search.svg?h=24&amp;w=38&amp;la=en" class="cfedIconImage" />Search
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="cfedSearch" class="collapse navbar-collapse cfedNavbarCollapse cfedNavbarSearch">
+                <ul class="nav navbar-nav ">
+                    <li class="dropdown cfedDropdown open">
+                        <ul class="dropdown-menu cfedPlatterContainer cfedSearchPlatter">
+                            <li>
+                                <!-- Begin Search Box -->
+                                <div class="input-group search-bar">
+                                    <input id="Search-bar" tabindex="1">
+                                    <span class="input-group-btn">
+                                        <button id="searchButton" class="btn btn-default" type="button">
+                                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                                <!-- End Search Box -->
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="cfedNavbarMenu" class="collapse navbar-collapse cfedNavbarCollapse">
+                <ul class="nav navbar-nav cfedNavbar__nav--desktop">
+
+                        <li class="dropdown cfedDropdown" id="bankingDropdownMobile">
+                            <a href="#collapseBankingMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Banking
+                            </a>
+
+                            <ul id="collapseBankingMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/banking/index">
+            Banking
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a href="#collapseBankingResourcesMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Banking Resources</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseBankingResourcesMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/index">
+            Banking Resources
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.frbdiscountwindow.org/">
+            Federal Reserve Discount Window
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.frbservices.org/index.html">
+            Federal Reserve Bank Services
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/regulatory-applications-and-membership-information-preview">
+            Regulatory Applications And Membership Information
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/tools-resources-data">
+            Banker Training And Resources
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/utilities/about-us/supervision-and-regulation/index">
+            Supervision And Regulation
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseConsumerResourcesMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Consumer Resources</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseConsumerResourcesMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/banking/consumer-banking/index">
+            Consumer Resources
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="http://www.consumerfinance.gov/">
+            Consumer Financial Protection Bureau
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/consumer-banking/consumer-information">
+            Consumer Information
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://federalreserveconsumerhelp.gov/?District=7">
+            Federal Reserve Consumer Help
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="/markets/payments-policy/payments-policy-group">
+            Payments
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="researchDropdownMobile">
+                            <a href="#collapseResearchMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Research
+                            </a>
+
+                            <ul id="collapseResearchMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/research/index">
+            Research
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a href="#collapseOurPeopleMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Our People</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseOurPeopleMobile">
+                            <li>
+                            <a href="#collapseResearchTeamsMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Research Teams</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseResearchTeamsMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/research-teams">
+            Research Teams
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.chicagofed.org/people/teams/research-leadership/index">
+            Leadership
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/financial-economics/index">
+            Financial Economics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/macroeconomics/index">
+            Macroeconomics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/microeconomics/index">
+            Microeconomics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/community-development/index">
+            Community Development
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/regional-analysis-and-engagement/index">
+            Regional Analysis and Engagement
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/regional-research/index">
+            Regional Research
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/financial-markets-group/index">
+            Financial Markets Group
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/monetary-policy-and-communications/index">
+            Monetary Policy and Communications
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/mobility/team">
+            Economic Mobility Project
+
+        </a>
+
+                </li>
+
+        </ul>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/economists">
+            Economists
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/policy-professionals">
+            Policy Professionals
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/resident-and-visiting-scholars">
+            Resident And Visiting Scholars
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/research-assistants">
+            Research Assistants
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseEconomicDataMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Economic Data</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseEconomicDataMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/data/index">
+            Economic Data
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/beige-book/current-data">
+            Beige Book
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/carts/index">
+            Chicago Fed Advance Retail Trade Summary (CARTS)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/chicago-fed-labor-market-indicators/latest-release">
+            Chicago Fed Labor Market Indicators
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/cfnai/current-data">
+            Chicago Fed National Activity Index (CFNAI)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/cfsec/current-data">
+            Chicago Fed Survey Of Economic Conditions (CFSEC)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/ag-conditions/index">
+            Chicago Fed Survey: Agricultural Conditions
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/nfci/current-data">
+            National Financial Conditions Index (NFCI)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/data-release-calendar">
+            Economic Data Release Calendar
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapsePublicationsMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Publications</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapsePublicationsMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/publications/index">
+            Publications
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/agletter/index">
+            AgLetter
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/chicago-fed-insights/index">
+            Chicago Fed Insights
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/chicago-fed-letter/index">
+            Chicago Fed Letter
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/economic-perspectives/index">
+            Economic Perspectives
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/working-papers/index">
+            Working Papers
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/archives">
+            Archives
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseSpecialtyResearchMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Specialty Research</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapseSpecialtyResearchMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/specialty-research">
+            Specialty Research
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/mobility/about">
+            Economic Mobility
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/lead/about">
+            Lead Service Line Replacement
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market">
+            Spotlight on Childcare and the Labor Market
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="/research/content-areas/agriculture/index">
+            Agricultural Sector
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/automotive/index">
+            Automotive Industry
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/chicago-fed-insurance-research-center/index">
+            Chicago Fed Insurance Research Center
+
+        </a>
+        <a class="cfedNavigation__link" href="/people/teams/financial-markets-group/index">
+            Financial Markets
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="eventsDropdownMobile">
+                            <a href="#collapseEventsMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Events
+                            </a>
+
+                            <ul id="collapseEventsMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/events/index">
+            Events
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a class="cfedNavigation__link" href="/events/upcoming-events">
+            Upcoming Events
+
+        </a>
+        <a class="cfedNavigation__link" href="/events/past-events">
+            Past Events
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/office-of-the-president/office-of-the-president-speaking">
+            President Goolsbee
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="educationDropdownMobile">
+                            <a href="#collapseEducationMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Education
+                            </a>
+
+                            <ul id="collapseEducationMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/education/index">
+            Education
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a class="cfedNavigation__link" href="/education/educator">
+            Educator Resources
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/fed-challenge/college-fed-challenge">
+            Fed Challenge
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/money-museum/index">
+            Chicago Money Museum
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/money-museum/branch-visitor-center/index">
+            Detroit Visitor Center
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="RegionDropdownMobile">
+                            <a href="#collapseRegionMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Region &amp; Communities
+                            </a>
+
+                            <ul id="collapseRegionMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/region/index">
+            Region &amp; Communities
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a class="cfedNavigation__link" href="/region/regional-economy">
+            Regional Economy
+
+        </a>
+        <a class="cfedNavigation__link" href="/region/community-development">
+            Community Development
+
+        </a>
+        <a class="cfedNavigation__link" href="https://www.chicagofed.org/snapshot#/seventh_federal_reserve_district">
+            Local Economic Snapshot
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market">
+            Spotlight on Childcare and the Labor Market
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="careersDropdownMobile">
+                            <a href="#collapseCareersMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                Careers
+                            </a>
+
+                            <ul id="collapseCareersMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/Careers">
+            Careers
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a class="cfedNavigation__link" href="https://rb.wd5.myworkdayjobs.com/FRS?hiringCompany=7186c32a743f01e4caeeb8caaf01430c">
+            Search Jobs
+
+        </a>
+        <a class="cfedNavigation__link" href="/careers/areasofwork">
+            Areas Of Work
+
+        </a>
+        <a class="cfedNavigation__link" href="/careers/thebenefits">
+            Benefits
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown cfedDropdown" id="aboutusDropdownMobile">
+                            <a href="#collapseAboutUsMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">
+                                About Us
+                            </a>
+
+                            <ul id="collapseAboutUsMobile" class="cfedPlatter__navigation collapse">
+                                
+                                            <li>
+                <div class="cfedPlatter">
+                    <div class="row">
+                        <div class="col-md-3 cfedPlatterColumn">
+        <a class="cfedNavigation__link" href="/utilities/about-us/index">
+            About Us
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+        </a>
+        <a class="cfedNavigation__link" href="/people/board-of-directors/index">
+            Board Of Directors
+
+        </a>
+        <a href="#collapsePeopleMobile" class="cfedNavbarLink--small collapsed" data-toggle="collapse">People</a>
+        <ul class="cfedPlatter__navigation collapse" id="collapsePeopleMobile">
+                            <li>
+                            <a class="cfedNavigation__link" href="/people/board-of-directors/members">
+            Board Members
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/utilities/about-us/office-of-the-president/office-of-the-president-home">
+            President Austan D. Goolsbee
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/senior-executives">
+            Senior Executives
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/economists">
+            Economists
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/policy-professionals">
+            Policy Professionals
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/academic-advisory-council">
+            Academic Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/financial-stability-council">
+            Financial Stability Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/speakers-bureau">
+            Speakers Bureau
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/advisory-council">
+            Chicago Fed Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/cdiac">
+            Community Depository Institutions Advisory Council
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="https://www.chicagofed.org/utilities/about-us/about-our-history">
+            Our History
+
+        </a>
+        <a class="cfedNavigation__link" href="/publications/annual-report/index">
+            Financial Statements
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/omwi-reports">
+            OMWI
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/financial-disclosures">
+            Ethics Policies &amp; Disclosures
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/newsroom/newsroom-home">
+            Newsroom
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/federal-reserve-calendars">
+            Federal Reserve Calendars
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/contactus">
+            Contact Us
+
+        </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+
+                            <ul>
+                                        <a class="nav-link" href="/utilities/about-us/office-of-the-president/office-of-the-president-home">
+            Office of the President
+
+        </a>
+
+                            </ul>
+                            <ul>
+                                        <a class="nav-link" href="/education/money-museum/index">
+            Money Museum
+
+        </a>
+
+                            </ul>
+
+                </ul>
+            </div>
+        </nav>
+        <!--- Desktop Nav-->
+        <nav role="navigation" style="z-index:100; padding-left:35px; padding-right:35px;" class="d-none d-md-block">
+            <div id="menuGroup">
+                <ul class="cfedNavigation">
+
+                        <li class="cfedNavigation__item2" id="bankingDropdown">
+                            <a href="#collapseBanking" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Banking
+                            </a>
+
+
+
+                            <ul id="collapseBanking" class="cfedNavigation__submenu2 collapse" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/banking/index">
+            Banking
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a href="#collapseBankingResources" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Banking Resources</a>
+        <ul class="collapse" id="collapseBankingResources">
+                            <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/index">
+            Banking Resources
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.frbdiscountwindow.org/">
+            Federal Reserve Discount Window
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.frbservices.org/index.html">
+            Federal Reserve Bank Services
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/regulatory-applications-and-membership-information-preview">
+            Regulatory Applications And Membership Information
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/banker-resources/tools-resources-data">
+            Banker Training And Resources
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/utilities/about-us/supervision-and-regulation/index">
+            Supervision And Regulation
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseConsumerResources" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Consumer Resources</a>
+        <ul class="collapse" id="collapseConsumerResources">
+                            <li>
+                            <a class="cfedNavigation__link" href="/banking/consumer-banking/index">
+            Consumer Resources
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="http://www.consumerfinance.gov/">
+            Consumer Financial Protection Bureau
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/banking/consumer-banking/consumer-information">
+            Consumer Information
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://federalreserveconsumerhelp.gov/?District=7">
+            Federal Reserve Consumer Help
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="/markets/payments-policy/payments-policy-group">
+            Payments
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="researchDropdown">
+                            <a href="#collapseResearch" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Research
+                            </a>
+
+
+
+                            <ul id="collapseResearch" class="cfedNavigation__submenu2 collapse" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/research/index">
+            Research
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a href="#collapseOurPeople" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Our People</a>
+        <ul class="collapse" id="collapseOurPeople">
+                            <li>
+                            <a href="#collapseResearchTeams" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Research Teams</a>
+        <ul class="collapse" id="collapseResearchTeams">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/research-teams">
+            Research Teams
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="https://www.chicagofed.org/people/teams/research-leadership/index">
+            Leadership
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/financial-economics/index">
+            Financial Economics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/macroeconomics/index">
+            Macroeconomics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/microeconomics/index">
+            Microeconomics
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/community-development/index">
+            Community Development
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/regional-analysis-and-engagement/index">
+            Regional Analysis and Engagement
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/regional-research/index">
+            Regional Research
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/financial-markets-group/index">
+            Financial Markets Group
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/monetary-policy-and-communications/index">
+            Monetary Policy and Communications
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/mobility/team">
+            Economic Mobility Project
+
+        </a>
+
+                </li>
+
+        </ul>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/economists">
+            Economists
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/policy-professionals">
+            Policy Professionals
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/resident-and-visiting-scholars">
+            Resident And Visiting Scholars
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/research-assistants">
+            Research Assistants
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseEconomicData" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Economic Data</a>
+        <ul class="collapse" id="collapseEconomicData">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/data/index">
+            Economic Data
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/beige-book/current-data">
+            Beige Book
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/carts/index">
+            Chicago Fed Advance Retail Trade Summary (CARTS)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/chicago-fed-labor-market-indicators/latest-release">
+            Chicago Fed Labor Market Indicators
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/cfnai/current-data">
+            Chicago Fed National Activity Index (CFNAI)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/cfsec/current-data">
+            Chicago Fed Survey Of Economic Conditions (CFSEC)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/ag-conditions/index">
+            Chicago Fed Survey: Agricultural Conditions
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/nfci/current-data">
+            National Financial Conditions Index (NFCI)
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/data/data-release-calendar">
+            Economic Data Release Calendar
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapsePublications" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Publications</a>
+        <ul class="collapse" id="collapsePublications">
+                            <li>
+                            <a class="cfedNavigation__link" href="/publications/index">
+            Publications
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/agletter/index">
+            AgLetter
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/chicago-fed-insights/index">
+            Chicago Fed Insights
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/chicago-fed-letter/index">
+            Chicago Fed Letter
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/economic-perspectives/index">
+            Economic Perspectives
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/working-papers/index">
+            Working Papers
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/publications/archives">
+            Archives
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a href="#collapseSpecialtyResearch" class="cfedNavbarLink--small collapsed" data-toggle="collapse">Specialty Research</a>
+        <ul class="collapse" id="collapseSpecialtyResearch">
+                            <li>
+                            <a class="cfedNavigation__link" href="/research/specialty-research">
+            Specialty Research
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/mobility/about">
+            Economic Mobility
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/lead/about">
+            Lead Service Line Replacement
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market">
+            Spotlight on Childcare and the Labor Market
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="/research/content-areas/agriculture/index">
+            Agricultural Sector
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/automotive/index">
+            Automotive Industry
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/chicago-fed-insurance-research-center/index">
+            Chicago Fed Insurance Research Center
+
+        </a>
+        <a class="cfedNavigation__link" href="/people/teams/financial-markets-group/index">
+            Financial Markets
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="eventsDropdown">
+                            <a href="#collapseEvents" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Events
+                            </a>
+
+
+
+                            <ul id="collapseEvents" class="cfedNavigation__submenu2 collapse" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/events/index">
+            Events
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a class="cfedNavigation__link" href="/events/upcoming-events">
+            Upcoming Events
+
+        </a>
+        <a class="cfedNavigation__link" href="/events/past-events">
+            Past Events
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/office-of-the-president/office-of-the-president-speaking">
+            President Goolsbee
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="educationDropdown">
+                            <a href="#collapseEducation" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Education
+                            </a>
+
+
+
+                            <ul id="collapseEducation" class="cfedNavigation__submenu2 collapse" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/education/index">
+            Education
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/educator">
+            Educator Resources
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/fed-challenge/college-fed-challenge">
+            Fed Challenge
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/money-museum/index">
+            Chicago Money Museum
+
+        </a>
+        <a class="cfedNavigation__link" href="/education/money-museum/branch-visitor-center/index">
+            Detroit Visitor Center
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="RegionDropdown">
+                            <a href="#collapseRegion" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Region &amp; Communities
+                            </a>
+
+
+
+                            <ul id="collapseRegion" class="cfedNavigation__submenu2 collapse submenu-right" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/region/index">
+            Region &amp; Communities
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a class="cfedNavigation__link" href="/region/regional-economy">
+            Regional Economy
+
+        </a>
+        <a class="cfedNavigation__link" href="/region/community-development">
+            Community Development
+
+        </a>
+        <a class="cfedNavigation__link" href="https://www.chicagofed.org/snapshot#/seventh_federal_reserve_district">
+            Local Economic Snapshot
+
+        </a>
+        <a class="cfedNavigation__link" href="/research/content-areas/childcare/spotlight-on-childcare-and-the-labor-market">
+            Spotlight on Childcare and the Labor Market
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="careersDropdown">
+                            <a href="#collapseCareers" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                Careers
+                            </a>
+
+
+
+                            <ul id="collapseCareers" class="cfedNavigation__submenu2 collapse submenu-right" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/Careers">
+            Careers
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a class="cfedNavigation__link" href="https://rb.wd5.myworkdayjobs.com/FRS?hiringCompany=7186c32a743f01e4caeeb8caaf01430c">
+            Search Jobs
+
+        </a>
+        <a class="cfedNavigation__link" href="/careers/areasofwork">
+            Areas Of Work
+
+        </a>
+        <a class="cfedNavigation__link" href="/careers/thebenefits">
+            Benefits
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                        <li class="cfedNavigation__item2" id="aboutusDropdown">
+                            <a href="#collapseAboutUs" class="cfedNavigation__menuLink cfedNavigation__menuLink--large collapsed" data-toggle="collapse" aria-expanded="false">
+                                About Us
+                            </a>
+
+
+
+                            <ul id="collapseAboutUs" class="cfedNavigation__submenu2 collapse submenu-right" data-parent="#menuGroup">
+                                
+                                            <li class="cfedNavigation__submenuItem">
+
+                <div class="row">
+                    <div class="col-12">
+        <a class="cfedNavigation__link" href="/utilities/about-us/index">
+            About Us
+                    <img src="/~/media/admin/images/icons/house-icon" alt="Home" class="menu-icon" />
+
+        </a>
+        <a class="cfedNavigation__link" href="/people/board-of-directors/index">
+            Board Of Directors
+
+        </a>
+        <a href="#collapsePeople" class="cfedNavbarLink--small collapsed" data-toggle="collapse">People</a>
+        <ul class="collapse" id="collapsePeople">
+                            <li>
+                            <a class="cfedNavigation__link" href="/people/board-of-directors/members">
+            Board Members
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/utilities/about-us/office-of-the-president/office-of-the-president-home">
+            President Austan D. Goolsbee
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/teams/senior-executives">
+            Senior Executives
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/economists">
+            Economists
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/research/policy-professionals">
+            Policy Professionals
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/academic-advisory-council">
+            Academic Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/financial-stability-council">
+            Financial Stability Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/speakers-bureau">
+            Speakers Bureau
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/advisory-council">
+            Chicago Fed Advisory Council
+
+        </a>
+
+                </li>
+                <li>
+                            <a class="cfedNavigation__link" href="/people/cdiac">
+            Community Depository Institutions Advisory Council
+
+        </a>
+
+                </li>
+
+        </ul>
+        <a class="cfedNavigation__link" href="https://www.chicagofed.org/utilities/about-us/about-our-history">
+            Our History
+
+        </a>
+        <a class="cfedNavigation__link" href="/publications/annual-report/index">
+            Financial Statements
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/omwi-reports">
+            OMWI
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/financial-disclosures">
+            Ethics Policies &amp; Disclosures
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/newsroom/newsroom-home">
+            Newsroom
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/about-us/federal-reserve-calendars">
+            Federal Reserve Calendars
+
+        </a>
+        <a class="cfedNavigation__link" href="/utilities/contactus">
+            Contact Us
+
+        </a>
+                    </div>
+                </div>
+            </li>
+
+                            </ul>
+                        </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+
+
+<style>
+    @ media screen and (max-width:900px) and (min-width:768px) {
+        .cfedNavigation__item2 .cfedNavigation__menuLink {
+            font-size: 0.9rem
+        }
+    }
+</style>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="cfedContentLimiter">
+            <div class="row content-row">
+                <div class="col">
+                    
+                </div>
+            </div>
+            <div class="row content-row">
+                <div class="col-lg-9">
+                    <div class="content">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="utils">
+                <ul class="cfedUtilityList">
+                    <li><a href="javascript:window.print()" class="cfedUtilityLink"><img src="/~/media/39df90b53b15455eb3289d3e1be5247e.ashx?h=36&w=58" alt="Print" /></a></li>
+                    <li><a href="mailto:?subject=The Chicago Fed has posted something interesting!&amp;body=Hi,%0A%0ACheck out this link from the Federal Reserve Bank of Chicago’s public website:%0A%0Ahttps://www.chicagofed.org//publications/speeches/2012/01-13-12-indy-outlook" class="cfedUtilityLink"><img src="/~/media/7dc1ebf91d0345cf870ff478fbbd8f3c.ashx?h=36&w=58" alt="Email" /></a></li>
+                    
+                </ul>
+                <hr class="cfedHR" />
+        </div>
+    </div>
+</div>
+    
+<div class="row">
+    <div class="col-sm-12">
+
+    <div class="cfedDetail__content">
+
+       
+                    <div class="cfedDetail__titleImage"></div>
+                    <div class="cfedDetail__title"><h1>Managing Monetary Policy Risks</h1></div>
+
+        <div class="cfedDetail__introduction"></div>
+            </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Introduction</h2>                <div class="cfedContent__text"><p>Thank you for that kind introduction. This seems to be the time of year when both businesses and individuals focus on planning for the year ahead, and I’m delighted to be here this morning to share my perspective on the current economy. In doing so, I will discuss my views on the progress of the recovery and on the likely course of monetary policy.</p>
+
+<p>Those of you who follow monetary policy developments may be aware that I was the lone dissenter at the last two Fed policy meetings. So it should come as no surprise when I say that the views that I am presenting today are my own and not necessarily those of the Federal Open Market Committee (FOMC) or my other colleagues in the Federal Reserve System.</p>
+
+<p>Lately, it has become extremely important for Federal Reserve policymakers to get out from behind our desks and into the communities we serve. Doing this gives me the opportunity to explain how I think about the economy, but it’s also important for me to learn from your questions and comments. I really do value the opportunity to interact with business people within our Fed District, which comprises most of the Midwest and stretches from Detroit to Des Moines and on down to Indianapolis. So it really is a pleasure for me to be here today, to have the chance to “get out” and yet still be close to home.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Dual Mandate</h2>                <div class="cfedContent__text"><p>The Federal Reserve is charged by Congress with fostering economic conditions consistent with maximum employment and price stability. These two objectives are commonly referred to as our “dual mandate.”</p>
+
+<p>The Fed is different from most other central banks in that it has an explicit dual mandate. Although many central banks are instructed to mitigate disturbances to the real economy, most have a mandate to achieve only one goal—maintaining price stability. Usually, this is not an important distinction, since monetary policies that promote price stability are generally consistent with those that support full employment.</p>
+
+<p>However, in the rare occasion when tension arises between these two goals, policy must be formulated with careful consideration of the relative performance of one objective against the other and of the risks to the outlooks for both policy goals.</p>
+
+<p>Keeping this in mind, I’ll turn now to a discussion of my outlook for the economy and then offer my views on how best to chart a course for monetary policy.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Real Output Gap</h2>                <div class="cfedContent__text"><p>Four years ago the U.S. economy entered what developed into the deepest downturn since the Great Depression; indeed, many are now referring to 2008–09 as the “Great Recession.”</p>
+
+<p>During recoveries from severe recessions, we usually see solid job and output growth, with the improvements in one fostering gains in the other. We are not seeing this today. It is now two and a half years since the Great Recession ended and the recovery began.</p>
+
+<p>Yet, despite both accommodative monetary policy and fiscal stimulus, the pace of improvement has been painstakingly slow. Real gross domestic product (GDP) is only just back to where it stood at its pre-recession peak. Employment growth is barely enough to keep pace with the natural growth in the labor force and the unemployment rate remains extraordinarily high.</p>
+
+<p>However, recent news about the performance of the economy has been more promising. Motor vehicle sales have returned to their upward trend following supply disruptions caused by last spring’s horrible Japanese tsunami. U.S. manufacturing is expanding—boosted by the recovery in the automotive sector, as well as growing worldwide demand for materials and equipment in the energy, mining and agricultural sectors.</p>
+<p>
+Consumer spending outside of autos appears to be rising at a moderate rate, and employment growth, although still tepid, is showing signs of improvement. Initial unemployment insurance claims are down and layoffs have fallen, contributing to a decline in the unemployment rate of 0.5 percent over the past quarter. So, the economy is looking somewhat better than it did a few months ago.</p>
+
+<p>But this does not mean we are seeing a massive surge in economic activity. The data shows only modest improvement in growth to rates that are near or just somewhat above the economy’s longer-run potential.</p>
+
+<p>Moreover, the pace of economic activity needs to accelerate further to boost confidence. After all, we have seen our hopes for a more rapid improvement in the economy dashed several times in this recovery. For instance, early last year most forecasters thought that the recovery was gaining traction and that economic activity would increase at a solid—though not spectacular—pace through 2012.</p>
+
+<p>Then, as now, the labor market was beginning to show some long-awaited improvement, and households and businesses seemed to be making good progress in repairing their balance sheets following the huge losses in wealth sustained during the recession. Analysts thought that higher prices for energy and other commodities would weigh on output growth, as would the supply-chain disruptions from the disaster in Japan. But these factors were expected to be transitory, and most forecasters thought growth would improve significantly once these influences had passed.</p>
+
+<p>Unfortunately, this forecast proved to be too optimistic. Revised data indicate that annualized real GDP growth was only 1 percent in the first half of 2011 and improved only modestly to 2 percent in the third quarter. Consumer spending was particularly sluggish, weighed down by slow growth in employment, income, and household wealth, as well as some continued limits in access to credit.</p>
+
+<p>Furthermore, the weakness in GDP growth began before the bulk of the effects of higher energy prices hit the economy and before the disaster in Japan happened. This timing, along with the continued softness of most economic indicators into the early summer, indicates that the slowing in output growth was not all due to temporary factors.</p>
+
+<p>Periodically, the FOMC publishes participants’ projections for several key economic variables. Our latest forecasts were made in early November. Our outlook then was for real GDP growth to be around 1.75 percent in 2011 and then rise to 2.75 percent in 2012.</p>
+
+<p>Though an improvement, this 2012 pace is not far above most analysts’ views of the potential rate of output growth for the economy. Thus, such growth rates are not strong enough to make much of a dent in the unemployment rate and other measures of resource slack. Indeed, the FOMC’s latest forecasts are for the unemployment rate to remain above 8.5 percent through 2012 and to fall only to about 8 percent in 2013.</p>
+
+<p>As I just noted, the somewhat firmer tone of recent economic data suggest some welcome traction, but the data are not strong enough, or uniform enough, to assert that momentum for growth is building. The headwinds that we face are still substantial.</p>
+
+<p>Moreover, the problems in Europe now loom larger. Careful analysis suggests that the direct impact of slower European growth on U.S. net exports likely would be small. However, there is a risk that substantial financial disruptions in Europe could impinge on the cost and availability of credit in the U.S. or induce a new wave of cautious behavior by households and businesses. If that were to occur, then we could see a larger adverse impact on economic activity in the U.S.</p>
+
+<p>After I balance these factors, my outlook for real GDP growth remains largely unchanged from the November forecast, and my forecast for the unemployment rate is only slightly lower. However, I am concerned about the downside risks.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Inflation Outlook under 2 Percent</h2>                <div class="cfedContent__text"><p>What about inflation? Large increases in energy prices pushed headline inflation—as measured by the 12-month change in the total Personal Consumption Expenditures Price Index—up from about 1.25 percent last fall to almost 3 percent this summer. One-time events that were well beyond the control of monetary policy—such as the Arab Spring—drove prices higher and took a bite out of households’ budgets. But they did not result in a permanent ratcheting up of inflation.</p>
+
+<p>Prices for energy and many other commodities have softened of late, and the earlier increases did not pass much into core inflation, which excludes the volatile food and energy components. Notably, recent numbers show core inflation is now lower than last summer. Keep in mind, this is a better predictor of future overall inflation than total inflation itself.</p>
+
+<p>And with the unemployment rate still high and capacity utilization low, resource slack will continue to exert downward pressure on prices. In addition, measures of longer-run inflation expectations are at the low end of the range they have been running since last November.</p>
+
+<p>Putting these factors together, I would argue that the outlook for inflation is likely to remain low for the foreseeable future. The November FOMC forecasts for core inflation in 2012 were concentrated near 1.8 percent, and the forecasts for total inflation in 2013 and 2014 were in the range of 1.5 percent to 2.0 percent. My own assessment is that inflation will be at the lower end of these ranges.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Fed Performance</h2>                <div class="cfedContent__text"><p>Given the high unemployment rate and low job growth, I think it is clear that the Fed has fallen short in achieving its goal of maximum employment.</p>
+
+<p>As for the price stability component of our dual mandate, the majority of FOMC participants—including me—judge that our objective is for overall inflation to average 2 percent over the medium term. With my own view that inflation is likely to run below this rate over the next few years, I believe we will miss on our inflation objective as well.</p>
+</div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>What is the Right Course for Policy?</h2>                <div class="cfedContent__text"><p>The traditional course of action when inflation is below target and real output is expected to be below potential is to run an accommodative monetary policy. I support such accommodation today. And I believe the degree of accommodation should be substantial.</p>
+
+<p>I believe that the disappointingly slow growth and continued high unemployment that we confront today reflects the fact that we are in what economists call a “liquidity trap.” Let me explain. In normal times, real interest rates—that is, nominal interest rates adjusted for expected inflation—rise and fall to bring desired savings into line with investment and to keep productive resources near full employment.</p>
+
+<p>This market dynamic is thwarted in the case of a liquidity trap. That is, when desired savings increase a great deal, nominal interest rates may fall to zero and then can go no lower. Real interest rates become “trapped” and may not be able to become negative enough to equilibrate savings and investment. That is where we seem to be now—short-term, risk-free nominal interest rates are close to zero and actual real rates are modestly negative, but they are still not low enough to return economic activity to its potential.</p>
+
+<p>A liquidity trap presents a clear and present danger of a prolonged period of economic weakness—today that means a risk of repeating the experience of the U.S. in the 1930s or that of Japan over the past 20 years.</p>
+
+<p>But we need not resign ourselves to such an outcome. Because of the dire implications of liquidity traps, economists have studied them over the years in rigorous analytical models.</p>
+
+<p>Importantly, variants of these models have successfully explained past business cycle developments in the U.S. These studies conclude that economic performance can be vastly improved by employing monetary policies that commit to keeping short-term rates low for a prolonged period.</p>
+</div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>A Balanced Policy Approach</h2>                <div class="cfedContent__text"><p>As I weigh the evidence, I believe we are in a liquidity trap and favor the prescription of continued accommodation. But I recognize that I could be wrong. Central bankers have incomplete information, and sometimes are confronted with very different views of the forces driving the economy. This is especially true in the difficult circumstances we currently face.</p>
+
+<p>Instead of a liquidity trap, some have posited that we are in an economic malaise that reflects &ldquo;structural factors&rdquo; (such as a job skills mismatch) and that the economy today is actually functioning close to a new, more dismal productive capacity. I have discussed this very pessimistic &ldquo;structural impediments scenario&rdquo; in other forums.<a class="bookmark" id="_ftnref1" title="_ftnref1" href="#ftn1" name="_ftnref1"><sup>1</sup></a> If this scenario is true, then further monetary accommodation will only lead to rising inflation without much improvement in unemployment.</p>
+
+<p>Those subscribing to this view warn of repeating the mistakes of the 1970s. At that time, the Fed did not understand that the changing structure of the economy had caused the natural rate of unemployment to rise. Too much accommodation during that time only served to raise inflation and inflation expectations.</p>
+
+<p>Although I do not find this structural impediments scenario compelling, as a prudent policymaker, I must at least consider its possibility. Without a clearer picture of whether we are in the midst of structural change or a liquidity trap, I favor a monetary policy strategy that balances the two risks of dismally slow growth on the one hand and creeping inflation on the other.</p>
+
+<p>Let me outline how this balanced policy approach might work in practice. The Fed could sharpen its forward guidance by pledging to keep policy rates near zero until one of two events occurs.</p>
+
+<p>First, this policy would account for the liquidity trap risk by communicating that we intend to keep the federal funds rate at exceptionally low levels as long as the unemployment rate is above a 7 percent threshold.</p>
+
+<p>Reductions in the unemployment rate below this level would represent meaningful progress toward the natural rate of unemployment and might be a reason to lessen policy accommodation. Second, this policy would account for the risk of higher inflation &mdash;that is, we would be committed to pulling back on accommodation if inflation rises above a particular threshold.</p>
+
+<p>I would argue that this policy&rsquo;s inflation-safeguard threshold needs to be above our current 2 percent inflation objective. My preferred threshold is a forecast of 3 percent over the medium term. Now, calling for tolerance of inflation up to 3 percent may seem shocking coming from a conservative central banker.</p>
+
+<p>However, the most recent research shows that improved economic performance during a liquidity trap requires the central bank, if necessary, to allow inflation to run higher than its target over the medium term. Such policies can generate the above-trend growth necessary to reduce unemployment and return overall economic activity to its productive potential.</p>
+
+<p>Let me emphasize that under this policy proposal, core inflation reaching 3 percent is only a risk&mdash;and not a certainty.</p>
+
+<p>Indeed, simulations of standard models suggest that core inflation is likely to remain below 3 percent even under a policy of extended monetary accommodation. But the economy may behave differently than expected. Still, 3 percent inflation is a risk that we should be willing to accept.</p>
+
+<p>If, contrary to most evidence, the natural rate of unemployment is higher than 7 percent, then under this policy inflation will rise more quickly and without any improvements to the real side of the economy. In such an adverse situation, the inflation safeguard triggers an exit from what would be evidently excessive policy accommodation. And it would do so before inflation expectations would be in much danger of becoming unhinged.</p>
+
+<p>We would not have the desired reductions in unemployment, but then again, there wouldn&rsquo;t be anything that monetary policy could do about it. We would suffer some policy loss in that a 3 percent inflation rate is above our 2 percent target. But we certainly have experienced inflation rates near 3 percent&nbsp;in the recent past and have weathered them well. And 3 percent won&rsquo;t unhinge long-run inflation expectations.</p>
+
+<p>We are not talking about anything close to the debilitating higher inflation rates we saw in the 1970s or 1980s. Most importantly, we would also know that we had made our best effort.</p>
+
+<p>But let me be clear: There is a natural tendency for policymakers to pull back on accommodation too early before the real rate of interest has fallen to low enough levels. Such errors happened in 1937 when the Fed prematurely withdrew accommodation. This was documented in Milton Friedman and Anna Schwartz&rsquo;s 1971 book, <em>A Monetary History of the United States</em>. More recently, the Bank of Japan made the same mistake. Therefore, it is essential that the Fed clearly commit to a policy action that is measurable against our goals.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Policy Projections and a Monetary Policy Framework</h2>                <div class="cfedContent__text"><p>Regardless of whether such explicit forward guidance is adopted, the effectiveness of monetary policy can be enhanced by clear communication of the Fed’s ultimate goals and of the strategies that it will use to achieve those goals. The minutes from the December FOMC meeting, which were released last Tuesday, noted that the Committee discussed two initiatives to enhance our communications about monetary policy. First, we agreed to begin publishing participants’ projections for the appropriate path for the federal funds rate and qualitative information about their outlooks for the Fed’s balance sheet in our quarterly <em>Summary of Economic Projections</em> (or SEP). Second, we discussed formulating a consensus statement on the Committee’s longer-run goals and monetary policy strategies.</p>
+<p>
+    Until now, participants have provided forecasts for real GDP growth, the unemployment rate, and inflation, but not the policy assumptions that underlie these projections. The forecasts were made under each participant’s unspecified views of appropriate policy, which is defined in true Fedspeak as: “the future path of policy that each participant deems most likely to foster outcomes for economic activity and inflation that best satisfy his or her interpretation of the Federal Reserve’s dual objectives of maximum sustainable employment and stable prices.”</p>
+
+    <p>Being more explicit about appropriate policy can clear up a lot of uncertainty. For example, suppose inflation were running higher than we would like, and the economic projections in the SEP showed it coming down over the next couple of years. In the absence of information on participants’ policy projections, the public would not know whether the FOMC thought inflation would simply come down on its own or whether it thought that a monetary tightening would be required to reduce inflationary pressures. Including policy projections will help clarify such judgments.</p>
+
+    <p>In my opinion, this is a substantial, first-order improvement in policy communications, and this greater clarity may have significant additional value for improving how the economy operates. Expectations of the future path for policy and the degree of uncertainty surrounding those expectations are key determinants of private borrowing rates and other asset prices. These play an important role in the spending and saving decisions of households and businesses. Households and businesses will be able to make better-informed decisions if they have a clearer notion of future policy rates; the potential for reduced uncertainty could also lower the risk premium embedded in longer-term interest rates.</p>
+
+    <p>The second new communications initiative—a more explicit consensus framework for monetary policy—is still a work-in-progress. Thus I can only talk about it in generalities and give you my personal views about what it should say and why it would be very helpful.</p>
+
+    <p>In my view, a framework statement should help clarify what the dual mandate goals of maximum employment and price stability mean in terms of measurable economic outcomes. It should also convey the extent to which monetary policy can be expected to deliver particular long-run outcomes. And it should better enable the public to form expectations about how policy will react to economic disturbances that move employment and inflation away from levels consistent with the dual mandate. As I noted earlier, our goals of maximum employment and price stability usually are not in conflict; but when they are, a more explicit framework can provide a better idea of how the Committee will weigh the relevant costs and benefits that enter this more difficult decision-making process.</p>
+
+    <p>I have strongly supported the publication of our policy projections, and I strongly support the adoption of a more explicit consensus framework statement. In my opinion, my current policy views and prescriptions continue to be appropriate in light of these new communications vehicles. The threshold policy I discussed earlier advocates keeping the federal funds rate near zero until either the unemployment rate falls below 7 percent (at least) or until medium-term inflation breaches 3 percent. The FOMC’s adoption of an explicit policy framework can underscore the distinction between these policy thresholds vs. our longer-run objectives. In particular, we would convey that the longer-run sustainable rate of unemployment is substantially lower than the threshold of 7 percent, while the inflation threshold of 3 percent is higher than the longer-run inflation objective. Consequently, even if inflation runs somewhat above its goal for a while, the public would understand that we intend to bring inflation down to the goal over time, and hence longer-run inflation expectations would remain firmly anchored.</p>
+
+    <p>The communication of policy projections also works well in conjunction with the thresholds. By publishing projections for future short-term interest rates along with unemployment and inflation, the public can evaluate the Committee’s thinking about which combinations of unemployment and inflation will likely lead to a lift-off of policy rates. In comparing these projections against my thresholds, the public can evaluate how much more policy accommodation could potentially be allowed under my proposal.</p>
+
+    <p>Providing these additional forecasts enhances transparency and the public’s ability to evaluate current monetary policy with alternative approaches. And a framework that explicitly clarifies the Committee’s commitment to both price-stability and achievable real-side mandate responsibilities will, I believe, often allow monetary policy to respond more strongly in the medium-term when adverse economic shocks impede growth and employment. Indeed, I think these additional communications vehicles can provide further clarification and increase the effectiveness of the types of additional accommodation that I have advocated in recent months, as well as earlier in 2010. Consequently, I am an enthusiastic supporter of these enhancements to Fed transparency.</p>
+
+    <p>Let me conclude by saying that I do not see these enhanced communications vehicles as being inherently “hawkish” or “dovish.” Participants may well have differing views on the appropriate stance of monetary policy in the particular economic circumstances of the moment. In being more explicit about our framework, we would not eliminate these differences of opinion. But we would further discipline the parameters of our discussions and clarify the judgments that lie behind our policy decisions.</p>
+
+    <p>As the central bank in a democratic society, the Federal Reserve has an obligation to articulate what it is trying to achieve with monetary policy. I believe that these latest communications efforts are an important step in further increasing such accountability to the public. The Committee equally respects both legs of the dual mandate, and I feel these communications enhancements will help articulate the ways in which we will seek to achieve both objectives.</p>
+
+    <p>Thank you and I look forward to your questions.</p></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>Notes</h2>                <div class="cfedContent__text"><div id="ftn1">
+    <p><a class="bookmark" id="_ftn1" title="_ftn1" href="#_ftnref1" name="_ftn1"><sup>1</sup></a> Evans, Charles, 2011, &ldquo;A risk management approach to monetary policy,&rdquo;&nbsp;<a title="Remarks" href="/publications/speeches/2011/12-05-11-muncie">Remarks</a>&nbsp;delivered at the Ball State University Center for Business and Economic Research, Muncie, Indiana on December 5.</p>
+    </div></div>
+                        
+
+
+        </div>
+    </div>
+
+
+    <div class="cfedContent">
+        
+        <div class="cfedContent__body">
+            
+<h2>References</h2>                <div class="cfedContent__text"><p>Friedman, Milton, and Anna Jacobson Schwartz, 1971, <em>A Monetary History of the United States, 1867–1960</em>, Princeton, NJ: Princeton University Press.</p></div>
+                        
+
+
+        </div>
+    </div>
+</div>    
+</div>
+</div>
+                </div>
+                <div class="col-lg-3 cfedSidebarColumn">
+                    <div class="cfedSidebar">
+
+
+    <div class="cfedSidebar--noBigHeader">
+            <h5 class="cfedSidebar__standardTitle">Contact Us</h5>
+            <div class="cfedSidebar__contactDetails">
+
+                        <div class="cfedsidebar__contactDetailsName">Media Relations</div>
+                        <div class="cfedsidebar__contactDetailsPhone">(312) 322-2387</div>
+
+
+            </div>
+
+
+    </div>
+    <div class="cfedSidebar--noBigHeader">
+   
+        <h5 class="cfedSidebar__standardTitle">On This Site</h5>
+    
+    
+
+                <ul class="cfedSidebarUnorderedList">
+                            <li>
+<a href="/ChicagoFed/Home/publications/speeches/index">Charles Evans&#39; Speech Schedule</a>
+                            </li>
+                            <li>
+<a href="/people/e/evans-charles">Charles Evans&#39; Biography</a>
+                            </li>
+
+                </ul>
+
+
+</div>
+            <div class="cfedSidebar--noBigHeader"><a href="/publications/speeches/our-dual-mandate"><img src="/-/media/admin/images/sidebar/dual-mandate-png.png?h=60&amp;iar=0&amp;w=199&amp;hash=1633A68F8042D203B40C4282540ADE9F" alt="" width="199" height="60" /></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cfedFooterContainerRow">
+            <div class="col cfedFooterContainerColumn">
+                <div class="cfedContentLimiter">
+                    
+<a class="visibleOnFocus" title="Having trouble accessing something on this page? Please send us an email and we will get back to you as quickly as we can." href="mailto:accessibility@chi.frb.org">Having trouble accessing something on this page? Please send us an email and
+    we will get back to you as quickly as we can.</a>
+
+
+<div class="cfedContentLimiter">
+    <!-- restart content limiter -->
+    <div class="cfedFooter visible-lg-block visible-md-block hidden-sm hidden-xs">
+        <!-- begin cfedFooter for lg -->
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <ul class="cfedFooter__navigation">
+                    <!-- <li><a href="/"  class="cfedFooter__sectionLink">Home&nbsp;</a></li> -->
+                    <li><a href="/banking/index" class="cfedFooter__sectionLink">Banking</a></li>
+                    <li><a href="/research/index" class="cfedFooter__sectionLink">Research</a></li>
+
+                    <li><a href="/events/index" class="cfedFooter__sectionLink">Events</a></li>
+                    <li><a href="/education/index" class="cfedFooter__sectionLink">Education</a></li>
+                    <li><a href="/region/index" class="cfedFooter__sectionLink">Region &amp; Community</a></li>
+                    <li><a href="/careers" class="cfedFooter__sectionLink">Careers</a></li>
+                    <li><a href="/utilities/about-us/index" class="cfedFooter__sectionLink">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul class="cfedFooter__navigation">
+
+                    <li><a href="/utilities/contactus" class="cfedFooter__sectionLink">Contact Us</a></li>
+                    <li><a href="https://video.chicagofed.org/" class="cfedFooter__sectionLink">Video</a>
+                    </li>
+
+                    <li><a href="/utilities/newsroom/newsroom-home" class="cfedFooter__sectionLink">Newsroom</a>
+                    </li>
+                    <li><a href="/education/money-museum/index" class="cfedFooter__sectionLink">Museum</a></li>
+
+                    <li><a href="https://public.govdelivery.com/accounts/USFRBCHICAGO/subscriber/new" class="cfedFooter__sectionLink">Subscribe</a></li>
+<!--                    <li><a href="/utilities/about-us/style-guide" class="cfedFooter__sectionLink">Style Guide</a></li>-->
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="cfedFooter__heading">Follow Us</div>
+                <ul class="cfedFooter__iconLinks cfedFooter__iconLinks--4across">
+                    <li><a href="https://x.com/ChicagoFed" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="Twitter" src="/-/media/admin/images/footer/twitter-png.svg?sc_lang=en&amp;hash=C5CE9D9E7E099C582FA847B9321AEE6E" />
+                        </a></li>
+                    <li><a href="https://www.youtube.com/@chicagofed" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="YouTube" src="/-/media/admin/images/footer/youtube-png.svg?sc_lang=en&amp;hash=B5E296FA3E370D176D6FC4E7F7EBD91F" />
+                        </a></li>
+                    <li><a href="https://www.facebook.com/frbchicago/" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="FaceBook" src="/-/media/admin/images/footer/facebook-png.svg?sc_lang=en&amp;hash=EDD821009FFBDA5FD93C52F791C9BA9D" />
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/company/federal-reserve-bank-of-chicago" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="LinkedIn" src="/-/media/admin/images/footer/linkedin-png.svg?sc_lang=en&amp;hash=6834AB815FCE0EE31A4867246E73C560" />
+                        </a></li>
+                    <li><a href="https://www.instagram.com/chicagofed/" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="Instagram" src="/-/media/admin/images/footer/instagram-png.svg?sc_lang=en&amp;hash=50065911870FADC3260DBFF955ACC49F" />
+                        </a></li>
+
+                    <li><a href="/rss" class="cfedFooter__iconAnchor">
+                            <img class="cfedFooter__iconImage" alt="RSS" src="/-/media/admin/images/footer/rss-png.svg?sc_lang=en&amp;hash=6A76818A37C7C443BE74C249BB1D4EEB" />
+                        </a></li>
+                </ul>
+               
+            </div>
+            <div class="col-lg-3 col-md-3 cfedFooter__ornamentColumn">
+                <img alt="" class="cfedFooter__ornament" src="/-/media/admin/images/footer/chicagofedseal-png.svg?sc_lang=en&amp;hash=E4AB87F37CC95CE4152B4298195AB481" />
+                <div>Our Values
+                    <hr />
+                </div>
+                <div>Integrity</div>
+                <div>Respect</div>
+                <div>Responsibility</div>
+                <div>Excellence</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end cfedFooter for md-lg -->
+
+    <!-- end cfedFooter for xs-md -->
+</div>
+<!-- end content limiter -->
+<hr class="cfedFooterHR" />
+<div class="cfedContentLimiter">
+    <!-- restart content limiter -->
+    <div class="cfedFooter">
+        <div class="row">
+            <div class="col-md-12 cfedFooter__info">
+                <p>Federal Reserve Bank of Chicago, 230 South LaSalle Street, Chicago, Illinois 60604-1413, USA. Tel.
+                    (312) 322-5322</p>
+                <p>Copyright © 2026. All rights reserved.</p>
+                <p>Please review our <a href="/utilities/privacy-policy">Privacy Policy</a> | <a href="/utilities/legal-notices">Legal Notices</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-970V6TDQ5K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-970V6TDQ5K');
+    </script>
+
+    <div class="device-xs visible-xs"></div>
+    <div class="device-sm visible-sm"></div>
+    <div class="device-md visible-md"></div>
+    <div class="device-lg visible-lg"></div>
+
+    
+<script type="text/javascript"  src="/IMZDw/X4-f7/TTgB/xlII/YB/SuYOtQm0SDbXcrN3/dj0xMno/fWQ/EAzIfMHEB"></script></body>
+</html>

@@ -1,0 +1,638 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Financial Reform or Financial Dementia? - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2010/fs100603" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2010/fs100603" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2010" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2010/fs100603-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Financial Reform or Financial Dementia?</h1>
+                                                    <div class="dal-tagline">Remarks at the SW Graduate School of Banking 53rd Annual Keynote Address and Banquet</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+
+<p><span class="report-date">June 3, 2010</span> Dallas, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+
+                        <p>I  understand from Scott MacDonald that tonight is the 53rd annual keynote address  and banquet of the SW Graduate School of Banking&mdash;an impressive anniversary,  which reminds me of a story.</p>
+                          <p>A  couple is deciding where to dine on their 10th wedding anniversary. They settle  on the Ocean View Restaurant because that is where the beautiful, hard-bodied  people go. On their 20th anniversary, they discuss where to celebrate, and they  agree again on the Ocean View because the wines and the food are superb. For  their 30th, they return to the Ocean View once more, having agreed that, as  they sit there in silence, the view from the terrace is second to none. On  their 40th anniversary, they agree that the Ocean View is just right because it  has wheelchair access and an elevator to get them to the porch overlooking the  ocean. On their 50th, they want to do something truly special to celebrate.  So they decide to go to the Ocean View &hellip; because they have never been there  before.</p>
+                          <p>Most  of you are bankers&mdash;many, graduates or future graduates of this fine school. My  message to you tonight is to remember where we have been. We have collectively  been to hell and back. Let&rsquo;s not go there again. Let&rsquo;s remember that bankers  should never succumb to what is trendy or fashionable or convenient but should  instead focus on what is sustainable and in the interest of providing for the  long-term good of their customers.</p>
+                          <p>You  gather tonight on the eve of a conference of key members of the House of Representatives  and the Senate of the United States seeking to agree upon legislation to foster  financial reform.[<a href="#1">1</a>] This evening, I am going to discuss this reform  initiative. I do so, as always, speaking my own mind, making clear that I speak  for nobody else at the Fed (something that is usually patently clear). I do so  as one of only a few members of the Federal Open Market Committee who have been  practicing commercial bankers. And I do so in the belief that it is always best  to speak the truth to political convention.</p>
+                          <p>In  their unicameral sessions, the House and Senate have cleared away a lot of the  underbrush of who does what to whom. As it now stands&mdash;due in significant part  to the efforts of Sen. Hutchison of Texas and her colleague Sen. Klobuchar of  Minnesota&mdash;my colleagues and I at the Federal Reserve will have responsibility  for regulating, in some fashion, banking organizations across the spectrum,  from community and regional banks to money center banks to thrift holding  companies. I believe we are best suited for such responsibility. We have been  battle hardened by the crises of both the 1980s here in Texas and this most  recent episode, which threatened to bring the system of market capitalism to  the brink. Yet, at the same time, I have some concerns about our ability to  deal with the most vexing of the issues presented by the recent crisis: the  issue of institutions that are considered &ldquo;too big to fail&rdquo; (or, if you prefer  the acronym that has become commonplace, TBTF).</p>
+                        <h3>The Not-So-Shadow System</h3><p>
+                          It  has become popular to blame recent financial problems on the so-called shadow  banking system. This, however, is an obfuscation. The heavily advertised  distinction between commercial banks and the shadow banking system is, in many  ways, false.</p>
+                          <p>Take,  for example, one of the most well-known and problematic phenomena of the shadow  banking world: structured investment vehicles, or SIVs. Despite repeated claims  to the contrary, SIVs were not distinct from commercial banks. Many SIVs  actually originated from the very core of the commercial banking  system&mdash;dominated in size by the largest banks&mdash;where bank regulation was  presumably the strongest. Make no mistake: Big banks created SIVs. They  supported SIVs with credit and liquidity enhancements. They marketed and  invested in SIVs. And once the crisis hit, big banks were forced to bring SIVs  onto their balance sheets. In this way, the presumed distinction between the  commercial banking system and the so-called shadow banking system is false.</p>
+                          <p>It  is also a widely held misperception that SIVs escaped regulatory treatment.  Regulators knew about them and even applied capital requirements to them.  Unfortunately, those regulatory requirements were woefully inadequate. The  favorable regulatory treatment granted to many of these vehicles was, in many  cases, what accounted for their existence. The vehicles were created not so  much for an economic purpose, but rather to minimize regulatory capital  requirements. </p>
+                          <p>SIVs and other programs sponsored by big banks were also exposed  to runs. In contrast to other members of the shadow banking system&mdash;like hedge  funds&mdash;SIVs had inadequate mechanisms in place to protect their liquidity.</p>
+                          <p>I  do not wish to single out SIVs. They are just one example of the excess to  which large institutions succumbed. We are well aware of the alphabet soup of  acronyms, including CDOs and CLOs, that contributed to the crisis, along with  an excessive degree of faith in the ability of complex statistical models to  mathematize risk taking.</p>
+                        <h3>Dealing with TBTF</h3><p>
+                          Of  course, recent financial problems have not been limited to large institutions  and their opaque operations. As you in this room know all too well, regional  and community institutions have faced their own difficulties, especially in the  context of construction lending. Smaller banks that have realized debilitating  losses have failed. When they got into deep trouble, regulators took them over  and resolved them.</p>
+                          <p>We  might have expected a similar treatment of big banks. But we would have been  wrong. Regulators have, for the most part, tiptoed around these larger  institutions. Despite the damage they did, failing big banks were allowed to  lumber on, with government support. It should come as no surprise that the  industry is unfortunately evolving toward larger and larger bank size with  financial resources concentrated in fewer and fewer hands.</p>
+                          <p>Based  on these considerations, coupled with studies suggesting severe limits to  economies of scale in banking, it seems that mostly as a result of public  policy&mdash;and not the competitive marketplace&mdash;ever larger banks have come to  dominate the financial landscape. And, absent fundamental reform, they will  continue to do so. As a result of public policy, big banks have become  indestructible. And as a result of public policy, the industrial organization  of banking is slanted toward bigness.</p>
+                          <p>Big  banks that took on high risks and generated unsustainable losses received a  public benefit: TBTF support. As a result, more conservative banks were denied  the market share that would have been theirs if mismanaged big banks had been  allowed to go out of business. In essence, conservative banks faced publicly  backed competition.</p>
+                          <p>Let  me make my sentiments clear: It is my view that, by propping up deeply troubled  big banks, authorities have eroded market discipline in the financial system.</p>
+                          <p>The  system has become slanted not only toward bigness but also high risk. Consider  regulators&rsquo; efforts to impose capital requirements on big banks. Clearly, if the central bank and regulators view any losses to big  bank creditors as systemically disruptive, big bank debt will effectively reign  on high in the capital structure. Big banks would love leverage even more,  making regulatory attempts to mandate lower leverage in boom times all the more  difficult. In this manner, high risk taking by big banks has been  rewarded, and conservatism at smaller institutions has been penalized. Indeed,  large banks have been so bold as to claim that the complex constructs used to  avoid capital requirements are just an example of the free market&rsquo;s invisible  hand at work. Left unmentioned is the fact that the banking market is not at  all free when big banks are not free to fail.</p>
+                          <p>It  is not difficult to see where this dynamic leads&mdash;to more pronounced financial  cycles and repeated crises.</p>
+                          <p>This  is the threat that legislators are now attempting to address in the financial  reform bill. A widely noted feature of this legislative effort is the fairly  broad scope for regulatory discretion.</p>
+                          <p>For  instance, under the proposed legislation, systemically important companies are  required to submit a &ldquo;living will.&rdquo; According to the legislation, these firms  are &ldquo;to report periodically to the [Fed&rsquo;s] Board of Governors, the [Financial  Stability Oversight] Council, and the [FDIC] the plan of such company for rapid  and orderly resolution in the event of material financial distress or failure.&rdquo;[<a href="#2">2</a>]</p>
+                          <p>If  the Board and FDIC find the plan deficient, the bill calls for the company to  resubmit an alternative approach within a set time frame. Failure to resubmit  the resolution plan could result in the imposition of more stringent capital,  leverage or liquidity requirements or restrictions on growth and activities.  Furthermore, the Board and FDIC, in consultation with the council, may direct  the firm &ldquo;to divest certain assets or operations identified by the Board of  Governors and the [FDIC], to facilitate an orderly resolution.&rdquo;[<a href="#3">3</a>]</p>
+                          <p>The  legislation also requires that a Credit Exposure Report be submitted  &ldquo;periodically&rdquo; on &ldquo;the nature and extent to which the company has credit exposure  to other significant nonbank financial companies and significant bank holding  companies; and &hellip; the nature and extent to which other significant nonbank  financial companies and significant bank holding companies have credit exposure  to that company.&rdquo;[<a href="#4">4</a>]</p>
+                          <p>The  new Financial Stability Oversight Council is directed to &ldquo;make recommendations  to the [Fed&rsquo;s] Board of Governors concerning the establishment of heightened  prudential standards for risk-based capital, leverage, liquidity, contingent  capital, resolution plans and credit exposure reports, concentration limits,  enhanced public disclosures, and overall risk management&rdquo; for systemically  important institutions.[<a href="#5">5</a>]</p>
+                          <p>The  name of the game, here, is regulatory discretion.</p>
+                          <p>There  are&mdash;as there always are&mdash;criticisms. Some feel, for instance, that while  regulators are being given more authority, they are also being given ambiguous,  if not conflicting, directives that would leave the specter of TBTF lurking in  the background. For instance, the bill states that it seeks &ldquo;to provide the  necessary authority to liquidate failing financial companies that pose a  significant risk to the financial stability of the United States in a manner  that mitigates such risk and minimizes moral hazard.&rdquo;[<a href="#6">6</a>] It also directs the  FDIC to &ldquo;ensure that the shareholders of a covered financial company do not  receive payment until after all other claims &hellip; are fully paid.&rdquo;[<a href="#7">7</a>] However, the  bill goes on to state that in the disposition of assets, the FDIC shall &ldquo;to the  greatest extent practicable, conduct its operations in a manner that &hellip;  mitigates the potential for serious adverse effects to the financial system.&rdquo;[<a href="#8">8</a>]</p>
+                          <p>Language  that includes a <em>desire</em> to minimize  moral hazard&mdash;and directs the FDIC as receiver to consider &ldquo;the potential for  serious adverse effects&rdquo;&mdash;provides wiggle room to perpetuate TBTF.</p>
+                          <p>Criticisms  aside, this is the path our legislative powers have laid out for dealing with  the issue of TBTF. Regulators must now decide exactly how they will travel down  that path.</p>
+                          <p>There  appear to be three major ways to navigate proposed policy making toward big  banks: (1) the regulate &rsquo;em camp, (2) the resolve &rsquo;em camp and (3) the shrink  &rsquo;em camp.</p>
+                          <p>Let&rsquo;s  examine these one by one.</p>
+                        <h3>Regulate &rsquo;Em</h3><p>
+                          First,  we have the &ldquo;regulate &rsquo;em&rdquo; camp. While it is certainly true that ineffective  regulation of systemically important institutions&mdash;like big commercial banking  companies&mdash;contributed to the crisis, I find it highly unlikely that such  institutions can be effectively regulated, even after reform.</p>
+                          <p>To  be blunt: Simple regulatory changes in most cases represent a too-late attempt  to catch up with the tricks of the regulated&mdash;the trickiest of whom tend to be  large. In the U.S. financial system, what passed as &ldquo;innovation&rdquo; was in large  part circumvention, as financial engineers invented ways to get around the  rules of the road. There is little evidence that new regulations, involving  capital and liquidity rules, could ever contain the circumvention instinct. </p>
+                        <p>The  history of regulatory capital requirements is not a distinguished one:[<a href="#9">9</a>]</p>
+                          <ul>
+                            <li>In  1864, the National Bank Act set minimum capital requirements, but these  attempts at quantifying capital adequacy were unsuccessful. Over the years,  such efforts continued at both the state and federal level, but without much  success.</li>
+                            <li>By  the 1950s, it was concluded that static capital requirements could only  interfere with the more comprehensive analyses required to obtain a complete  picture of a bank&rsquo;s ability to absorb losses.</li>
+                            <li>In  1981, the federal banking agencies responded to diminishing bank capital  positions by introducing numerical capital requirements, as the judgment-based  approach to capital regulation had proven insufficient. But before long,  authorities felt the need to revise these new numerical requirements, as they  failed to differentiate between banks according to risk and invited capital  arbitrage.</li>
+                            <li>In  1988, the central banks of the G-10 adopted risk-based capital requirements, as  embodied in the Basel Accord. It did not take long before the need for change  was felt once again as the original accord proved a blunt instrument that did  not differentiate properly among various risk types and allowed significant  avenues for capital arbitrage, particularly through loan securitization.</li>
+                            <li>In  response, authorities began crafting Basel II. However, before it could be  fully implemented, the risks taken through loan securitization blew up,  producing the most severe financial crisis since the Great Depression.</li>
+                            <li>And  as we know all too well, even if Basel II had gone into full effect, it would  not have contained risk effectively nor created a sufficient buffer against  losses.</li>
+                            <li>Thus,  policymakers have been busily constructing what may be thought of as Basel III.                          </li>
+                          </ul>
+                          <p>Regulatory  reform discussions portray the need to control systemic risk as a new game in  town&mdash;as if it were a new responsibility that need only be assigned. This is not  the case: Bank regulators have long viewed the containment of systemic risk as  a primary rationale for capital requirements. The problem is that capital  regulation has rarely been truly successful.</p>
+                        <p>Requiring  additional capital against risk sounds like a good idea but is difficult to  implement. What should count as capital? How does one measure risk before an  accident occurs? And how does one counteract the strong impulse of the regulated  to minimize required capital in highly complex ways? History has shown these  issues to be quite difficult. While we do not have many examples of effective  regulation of large, complex banks operating in competitive markets, we have  numerous examples of regulatory <em>failure</em> with large, complex banks. </p>
+                          <p>So,  you might say I am a skeptic of regulation alone.                          </p>
+                          <h3>Resolve &rsquo;Em</h3><p>
+                        In  my opinionated view, a traditional regulatory response&mdash;while  well-intentioned&mdash;cannot, by itself, fully address the threat of TBTF. So we  turn to the &ldquo;resolve &rsquo;em&rdquo; camp.</p>
+                          <p>The  argument goes something like this: If deeply troubled large banks are allowed  to fail, the banking industry could evolve toward a market-driven structure.  During the recent crisis, regulators lamented the lack of a formal resolution  process for large and complex financial organizations, claiming it reduced  their options and tied their hands. So it follows that a resolution regime  whereby regulators can economically resolve failed big banks might be the  ticket. In this case, there will be no more TBTF.</p>
+                          <p>Unfortunately,  imposing creditor losses at a failing big bank, while simultaneously avoiding  market disruptions, involves more than a bit of sophistry. Realistically, it  would be difficult to accomplish both at the same time. Based on experience,  one of these goals will take precedence over the other. And history shows which  goal typically wins.</p>
+                          <p>The  sad truth is that when the chips are down, regulators become reluctant to put  their money where their mouths are&mdash;or more precisely, they become too eager to  put their money where they said they would not. Few, if any, policymakers have  been willing to let large banking organizations fail, thereby missing an  opportunity to impose significant losses on failed institutions&rsquo; creditors. We  know from intuition and experience that any financial institution deemed TBTF  will not be allowed to fail in the traditional sense. When such an institution  becomes troubled, its creditors are protected in the name of market stability. The TBTF problem is exacerbated if the central bank and  regulators view wiping out big bank shareholders as too disruptive, extending  this measure of protection to ordinary equity holders.</p>
+                          <p>In the recent crisis,  authorities protected both&mdash;uninsured creditors and shareholders of big banks.  While uninsured creditors received the greatest protection, regulators even  partnered with existing shareholders through the injection of public funds.  This program eventually spread to banks of all sizes, but its initial focus was  the very largest banks. True, many large-bank shareholders sustained severe  losses&mdash;but they were not zeroed out. They and their institutions have lived to  see another day.</p>
+                          <p>Why  should we think the future could, realistically, be any different&mdash;especially with  even bigger banks that dominate the financial landscape today?</p>
+                          <p>A  credible big-bank resolution process that imposes creditor losses will be  difficult to enforce, especially when regulators are explicitly directed to  mitigate disruptions to the financial system, as they are in the proposed  reform bill. And there remain the technical problems of resolution, such as the  difficulty of quickly estimating a rate of recovery on a large and complex  banking organization and paying it out to creditors. Countless issues like this  remain unaddressed. For instance, how would a resolution regime market assets  of a failed big bank? Major business lines presumably would be kept intact to  preserve value and maximize recovery. But if one large organization were simply  sold to another, the industry could become more concentrated than before. That  is exactly what happened during the crisis as large failing firms were sold to  other large firms.</p>
+                          <p>All  of this ignores a still-greater problem: Even if an effective resolution regime  can be written down, chances are it might not be used. There are myriad ways  for regulators to forbear. Accounting forbearance, for example, could  artificially boost regulatory capital levels at troubled big banks. Special  liquidity facilities could provide funding relief. In this and similar manners,  crisis-related events that might trigger the need for resolution could be  avoided, making resolution a moot issue. TBTF would continue, in any case.</p>
+                          <p>Consider the idea of limiting any and  all financial support strictly to the system as a whole, thus preventing any  one firm from receiving individual assistance. Many have argued such a  restriction would minimize the possibility of bank bailouts. Even under this  restriction, however, support for large institutions at the expense of smaller  peers could live on. If authorities wanted to support a big bank in trouble,  they would need only institute a systemwide program. Big banks could then avail  themselves of the program, even if nobody else needed it. Systemwide programs  are unfortunately a perfect back door through which to channel big bank  bailouts.</p>
+                          <p>Or consider the so-called living wills  introduced in the financial reform bill. These presumably might serve as a type  of instruction manual or roadmap for resolving a large failed bank. But, quite  unfortunately, large banking companies have organized themselves in ways that  entail significant spillovers to other financial firms and the economy, thereby  making a bailout, in many cases, the only credible choice for policymakers.  Legislators have attempted to work around this pitfall, requiring changes to  large banking companies whose wills are found wanting&mdash;prior to a crisis. This  could, if used properly, reduce to tolerable levels the spillovers that would  result from the imposition of creditor losses. Regardless, even after requested changes have been made, if these  wills are still lacking, the associated firms will be TBTF.</p>
+                          <p>Again,  in my view, enhanced resolution regimes, by themselves, are not enough to end  TBTF. Even a combination of enhanced regulation and resolution would likely be  inadequate. The temptation to use regulatory discretion to avoid disruptions is  just too great.</p>
+                        <h3>Shrink &rsquo;Em</h3><p>
+                          This  leaves us with only one way to get serious about TBTF&mdash;the &ldquo;shrink &rsquo;em&rdquo; camp.  Banks that are TBTF are simply TB&mdash;&ldquo;too big.&rdquo; We must cap their size or break  them up&mdash;in one way or another shrink them relative to the size of the industry.</p>
+                          <p>In  its latest version, the financial regulatory reform bill has left regulators  (specifically, the Board of Governors and the Federal Deposit Insurance Corp.)  with the authority to impose greater restrictions on firms whose living wills  are not credible. That authority, as I mentioned previously, could include  &ldquo;[divesting] certain assets or operations &hellip; to facilitate an orderly  resolution.&rdquo;[<a href="#10">10</a>] I would argue that regulators should freely use this broad  authority to commit credibly to resolution with creditor losses by reducing big  banks&rsquo; size and interconnectedness.</p>
+                          <p>(You  can see why my stance on TBTF hardly endears me to audiences on Wall Street. I  am given to quoting Winston Churchill in response. He said that &ldquo;in finance,  everything that is agreeable is unsound and everything that is sound is  disagreeable.&rdquo; It is most disagreeable to the big bank, big money lobby to  countenance restrictions on size, and hence it is the perceived wisdom that  this approach is disagreeable. And yet it is perhaps the most sound approach of  all those proffered.)</p>
+                          <p>Some  counter that even if all banks were made small or mid-size  (or at least not TBTF), systemic threats&mdash;and thus the incentive for regulators  to step in and save financial institutions&mdash;would not disappear. For instance,  if a lot of small banks got into trouble simultaneously&mdash;or, as I like to say,  forgot they had already been to the Ocean View Restaurant before and made the  same bad bets at the same time&mdash;one might expect the central bank and regulators  to protect bank creditors, extending TBTF protections once again. As the  argument goes, breaking up big banks may be necessary but is possibly not  sufficient&mdash;policymakers still must grapple with the possibility of many smaller  banks getting into trouble at the same time, causing a &ldquo;systemic&rdquo; problem.</p>
+                          <p>I consider this argument hollow for a few reasons.</p>
+                          <p>First, even if this possibility turned out to be true, the threat  of a loss from more isolated difficulties would mean creditors could reasonably  expect losses in certain circumstances&mdash;a situation unlike TBTF.</p>
+                          <p>Second, going by what we see today, there is considerable diversity  in strategy and performance among banks that are not TBTF. Looking at  commercial banks with assets under $10 billion, over 200 failed in the past few  years, and as we have seen, failures in the hundreds make the news. Less  appreciated, though, is the fact that while 200 banks failed, some 7,000  community banks did not. Banks that are not TBTF appear to have succumbed less  to the herd-like mentality that brought their larger peers to their knees.</p>
+                          <p>We saw similar diversity during  the Texas banking crisis of the late 1980s. Small banks had diverse risk  exposures. The most aggressive ones failed, while the more conservative did  not.[<a href="#11">11</a>]</p>
+                          <p>Some have also pointed to the Great Depression as a period when  many small banks got into trouble at the same time. That situation seems less  relevant to the policy questions we face today. Those failures were the result  of a liquidity crisis that brought down both nonviable and viable banks. Such a  liquidity crisis among small banks would be unlikely today, as we now have federal  deposit insurance, which protects deposits for funding. And, I might add, the  Federal Reserve has demonstrated quite effectively over the past two years that  we not only have the capacity to deal with liquidity disruptions but also the  ability to unwind emergency liquidity facilities when they are no longer  needed.</p>
+                          <p>The point is this: The arguments against shrinking the largest  financial institutions are found wanting. And sufficient or not, ending the  existence of TBTF institutions is certainly a necessary part of any regulatory  reform effort that could succeed in creating a stable financial system. It is  the most sound response of all. The dangers posed by institutions deemed TBTF  far exceed any purported benefits. Their existence creates incentives that will  eventually undermine financial stability. If we are to neutralize the problem,  we must force these institutions to reduce their size.</p>
+                          <p>I do not want to be na&iuml;ve here. I am not suggesting that our  banking system devolve into institutions like the Bailey Building and Loan  Association in <em>It&rsquo;s a Wonderful Life</em>.  Large institutions have their virtues. They can offer an array of financial  products and services that George Bailey could not. A globalized,  interconnected marketplace needs large financial institutions. What it does not  need, in my view, are a few gargantuan institutions capable of bringing down  the very system they claim to serve.</p>
+                        <h3>Europe and TBTF</h3><p>
+                          Of course, we are not the only ones dealing with the monstrous  challenges of TBTF. Our friends across the Pond are also focused on the risks  posed by institutions that have grown dangerously large (called &ldquo;systemically  important financial institutions,&rdquo; or SIFIs). Despite Europe&rsquo;s longstanding  accommodation of, and preference for, large banking organizations in the  universal banking model, the European Central Bank has become fairly forthright  about the problem.</p>
+                          <p>Unfortunately, in attempting to address TBTF, the European Union  is falling into the regulate &rsquo;em and resolve &rsquo;em camps, leaning toward capital  regulation and enhanced resolution regimes as a way to limit systemic risk.  Given Europe&rsquo;s prevailing universal banking model, policymakers have so far  stayed well outside the shrink &rsquo;em camp.</p>
+                          <p>But even while policymakers in Europe debate ways to tackle TBTF,  the risks posed by big, interconnected banks are materializing once again, as  the adverse effect of rising sovereign credit risk on euro-area banks has led  to renewed concerns about systemic risk.</p>
+                          <p>Moreover, Europe&rsquo;s extensive public support of the banking sector  under TBTF policy has left authorities with challenging questions about how to  disengage this support fully without disrupting the nascent financial recovery.  All these policy questions serve to illustrate the harsh tradeoffs and intractable  complexities arising from the public&ndash;private intermingling entailed by TBTF.</p>
+                        <h3>Conclusion </h3><p>
+                          For  our capitalist system to work properly, it is important that successful risk  taking be rewarded and equally important that unsuccessful risk taking be  penalized. Legislators have done their level best over the past few months to,  in effect, solidify this principle in our system.</p>
+                          <p>That  said, the race is far from over. Regulators now must pick up the baton and head  for the finish line, using the authorities granted them in a manner that will  ensure the safety and soundness of our system in the future. I would like to  see us not waste this opportunity for true reform.</p>
+                        <p>Just  this morning, the <em>Washington Post</em> summarized the impasse that inevitably blocks treatment of the TBTF pathology.  In an article on preparation for this weekend&rsquo;s Group of 20 talks on bank  reform, it was noted that &ldquo;some&rdquo; participants &ldquo;remain hesitant to lean too hard  on banks they consider vital to their national economies.&rdquo;[<a href="#12">12</a>] This hesitancy  only perpetuates the problem: The longer authorities delay the process, the  more engrained behemoth financial institutions become; the more engrained they  become, the less extricable they are. And so the debilitating disease of TBTF  spreads. What appears &ldquo;vital&rdquo; becomes &ldquo;viral&rdquo; and grows ever more threatening  to financial stability and economic stability.</p>
+                        <p>I  know the night is long, and I apologize for imposing the ponderous thoughts of  a central banker upon you at this late hour. But go back to our aging couple and  their fondness for the Ocean View Restaurant. In September, we will celebrate  the 26th anniversary of the first announcement of the government&rsquo;s TBTF policy.  In September 1984, the Comptroller of the Currency testified before Congress  that the government would not allow any of the nation&rsquo;s 11 largest banks to  fail. The Comptroller did, however, stress the need to find a way to deal with  the potential failure of large institutions, and here we are today having  failed to do so.[<a href="#13">13</a>] We can now keep kicking the can of TBTF down the road  until dementia sets in and the banking system is made rotten by a refusal to  acknowledge the pathology at the heart of the problem. Or we can use the  occasion of the recent financial crisis to deal with it forthrightly while we are  still vigorous and vital. I prefer the latter approach.</p>
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<ol>
+<li><a name="1" id="n1"></a>As of the date of this speech, the tentative  timeline shows the first open meeting scheduled for Wednesday, June 9.</li>
+<li><a name="2" id="n2"></a>Sec. 165 of the Senate bill.</li>
+<li><a name="3" id="n3"></a>Sec. 165 of the Senate bill.</li>
+<li><a name="4" id="n4"></a>Sec. 165 of the Senate bill.</li>
+<li><a name="5" id="n5"></a>Sec. 112 of the Senate bill.</li>
+<li><a name="6" id="n6"></a>Sec. 204 of the Senate bill.</li>
+<li><a name="7" id="n7"></a>Sec. 206 of the Senate bill.</li>
+<li><a name="8" id="n8"></a>Sec. 210 of the Senate bill.</li>
+<li><a name="9" id="n9"></a>For a brief history of capital regulation leading up  to Basel II, see &ldquo;Basel and the Evolution of Capital Regulation: Moving  Forward, Looking Back,&rdquo; Federal Deposit Insurance Corp., Jan. 14, 2003.</li>
+<li><a name="10" id="n10"></a>Sec. 165 of the Senate bill.</li>
+<li><a name="11" id="n11"></a>&ldquo;Texas Banking Conditions: Managerial Versus  Economic Factors,&rdquo; by Jeffery W. Gunther, <em>Financial  Industry Studies</em>, Federal Reserve Bank of Dallas, October 1989, pp. 1&ndash;18.</li>
+<li><a name="12" id="n12"></a>&ldquo;Geithner Urges Swift &lsquo;Global Agreement&rsquo; on  Financial Reforms to Support Recovery,&rdquo; by Howard Schneider, <em>Washington Post</em>, June 3, 2010, p. A12.</li>
+<li><a name="13" id="n13"></a>&ldquo;U.S. Won&rsquo;t  Let 11 Biggest Banks in Nation Fail,&rdquo; by Tim Carrington, <em>Wall Street Journal</em>, Sept. 20, 1984.</li>
+</ol>
+
+
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

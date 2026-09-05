@@ -1,0 +1,630 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The case for modernizing the FOMC’s operating target rate - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, Logan, SPEECH LOCATION, EVENT, OTHER RELEVANT KEYSWORDS" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, Logan, SPEECH LOCATION, EVENT, OTHER RELEVANT KEYSWORDS" />
+        <meta property="og:title" content="The case for modernizing the FOMC’s operating target rate" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/logan/2025/lkl250925" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta property="og:description" content="The time has come for the FOMC to prepare to target a different short-term interest rate. A repo rate would provide a more robust target than the current fed funds target." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/logan/2025/lkl250925" />
+        <meta name="twitter:title" content="The case for modernizing the FOMC’s operating target rate" />
+        <meta name="twitter:description" content="The time has come for the FOMC to prepare to target a different short-term interest rate. A repo rate would provide a more robust target than the current fed funds target." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta name="dal_year" content="2025" />
+        <meta name="dal_topic" content="Forecasting" />
+        <meta name="dal_topic" content="Financial stability" />
+        <meta name="dal_topic" content="Monetary policy" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/logan" class="breadcrumb-item dal-crumb__item">President Lorie Logan speeches and publications</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/logan/2025/lkl250925-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by President Lorie Logan</div>
+                                                        <h1 class="dal-headline">The case for modernizing the FOMC’s operating target rate</h1>
+                                                                            <div class="dal-author">Lorie Logan</div>
+                    <div class="dal-inline-list">
+                                <p class="list-item--bar dal-content-date">September 25, 2025</p>
+
+                    </div>
+                            <div class="dal-abstract">Dallas Fed President Lorie Logan delivered these remarks at the Federal Reserve Bank of Richmond CORE Week Workshop: The Fed’s Balance Sheet.
+</div>
+                        
+                        <p>Thank you for inviting me to participate in this important workshop. These in-depth discussions about how the Fed implements monetary policy are incredibly valuable. I&rsquo;m going to get back to the very basics: the target interest rate that policy implementation aims to control.</p>
+<p>As everyone here surely knows, the Federal Open Market Committee (FOMC) primarily adjusts the stance of monetary policy by changing the target range for the federal funds rate. For almost as long as the FOMC has issued post-meeting FOMC statements, they have reported what the committee decided about the fed funds target. And the FOMC has repeatedly <a href="https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf" target="_blank">affirmed</a> the centrality of the fed funds target in establishing its policy stance.</p>
+<p>My aim today is to argue that the time has come for the FOMC to prepare to target a different short-term interest rate. I will make four points.</p>
+<ul>
+ <li>First, the Fed has evolved its operating targets through the years to maintain influence over monetary conditions as the financial system evolved. Updating the target from time to time is part of how we manage the central bank efficiently and effectively on the public&rsquo;s behalf.</li>
+ <li>Second, money markets have changed greatly since the FOMC began publicly targeting the fed funds rate in the mid-1990s. The fed funds target is outdated.</li>
+ <li>Third, while targeting fed funds currently provides effective control of broader monetary conditions, the connections are fragile and could break suddenly. The FOMC should take that risk off the table.</li>
+ <li>And fourth, this isn&rsquo;t a hard problem. A repo rate would provide a more robust target and allow us to adjust proactively and planfully.</li>
+</ul>
+<p>Modernizing the target rate would not interfere with continuing to carry out the FOMC&rsquo;s principles and plans for normalizing the Fed&rsquo;s balance sheet. As I&rsquo;ve said before, the Fed is supplying too many reserves and must bring them down to an efficient level. If anything, a more robust target rate would allow that process to proceed more smoothly.</p>
+<p>Let me also emphasize that modernizing the target rate would not change the FOMC&rsquo;s monetary policy strategy. The operating target specifies how the FOMC measures and influences monetary conditions. It&rsquo;s entirely separate from the question of how restrictive or accommodative those conditions should be to achieve the FOMC&rsquo;s macroeconomic goals.</p>
+<p>My remarks will cover the highlights of a <a href="https://www.dallasfed.org/research/economics/2025/0925">longer essay</a> that my colleague Sam Schulhofer-Wohl and I published today. Needless to say, these views are mine and not necessarily those of my FOMC colleagues.</p>
+<h2>A very brief history of the Fed’s operating targets</h2>
+<p>When the FOMC decides whether monetary conditions should tighten, ease or stay the same, it&rsquo;s not enough to talk about monetary conditions in general. You need a specific, quantitative target. That target guides the concrete actions the New York Fed&rsquo;s Open Market Trading Desk will take to achieve the desired conditions. Since the mid-1990s, the target has also had a second, even more important role: to transparently communicate the stance to the public and allow the public to hold the Fed accountable for its choices.</p>
+<p>Over the years, the Fed has <a href="https://fraser.stlouisfed.org/title/economic-policy-review-federal-reserve-bank-new-york-1170/autumn-1988-2636?page=78" target="_blank">changed its operating targets</a> to adapt to shifts in the economic and financial environment.</p>
+<p>In the 1950s, when reserve requirements strongly influenced bank lending, the Fed focused on controlling the banking system&rsquo;s free reserves. In the 1960s, the fed funds market was growing, and studies suggested that variables other than free reserves might have more predictable economic effects. By 1967, daily open market operations sought to control borrowed reserves and the fed funds rate.</p>
+<p>By the late 1970s, policymakers thought the Fed needed to tightly control monetary aggregates to bring down inflation. The Fed moved to target reserve growth and allowed the fed funds rate to swing by as much as several hundred basis points in a day.</p>
+<p>Then, in the early 1980s, changes in the regulation of interest rates on bank accounts disrupted the relationship between economic activity and monetary aggregates. The FOMC reverted to targeting borrowed reserves. The Desk monitored the fed funds rate to assess whether it should add or drain reserves to hit the target.</p>
+<p>Throughout this history, the targets were internal, not communications vehicles. Market participants had to infer the target from the Desk&rsquo;s actions.</p>
+<p>That changed in the 1990s when the FOMC began issuing post-meeting statements. While the world has become accustomed to the statements giving a target for the fed funds rate, they didn&rsquo;t start out that way. The <a href="https://www.federalreserve.gov/fomc/19940204default.htm" target="_blank">first post-FOMC press release</a>, on Feb. 4, 1994, said simply: &ldquo;Chairman Alan Greenspan announced today that the Federal Open Market Committee decided to increase slightly the degree of pressure on reserve positions. The action is expected to be associated with a small increase in short-term money market interest rates.&rdquo; Since <a href="https://www.federalreserve.gov/fomc/19960131default.htm" target="_blank">January 1996</a>, the FOMC has announced the fed funds target rather than intended pressures on reserve supply.</p>
+<h2>Changes in money markets since the mid-1990s</h2>
+<p>That was three decades ago. A lot has changed since then, and the fed funds target is showing its age.</p>
+<p>The fed funds market involves unsecured loans between banks or other institutions that are eligible to hold deposits at the Fed. The fed funds rate is the average overnight rate on these loans. Besides commercial banks, the participants can include government-sponsored enterprises (GSEs), particularly Federal Home Loan Banks (FHLBs).</p>
+<p>In the mid-1990s, the fed funds rate was well suited as a guide to money market conditions. Bank reserves at the time didn&rsquo;t pay interest. With market rates typically hundreds of basis points above zero, any bank that had excess reserves was highly motivated to lend them out to peers that were short of required reserves. These incentives created a vibrant unsecured interbank market where the interest rate closely reflected banks&rsquo; marginal cost of funds.</p>
+<p>That is not the world we live in anymore.</p>
+<p>The Global Financial Crisis (GFC) revealed many dangers. One of them is that unsecured, short-term loans between banks can amplify a crisis. Lenders can suddenly lose money because they don&rsquo;t have collateral to fall back on. And borrowers can be caught short of cash if their lenders suddenly notice the risk and pull back.</p>
+<p>Post-GFC regulations aimed to make the financial system safer by mitigating these risks. The regulations make unsecured short-term interbank lending less attractive for banks on both sides of the loan. That&rsquo;s a good thing. It keeps depositors&rsquo; money safe, and it ensures banks can keep lending to America&rsquo;s families and businesses through thick and thin. But it means fed funds is no longer where banks normally look to lend or borrow short-term cash.</p>
+<p>Another important change is in the way the Fed implements monetary policy. In the 1990s, the Fed kept reserve supply below the quantity banks would have wanted to hold if reserves had paid a market interest rate. That system let the New York Fed&rsquo;s trading desk control money market rates by making slight adjustments in reserve supply. But the artificial scarcity had a serious cost. Scarce reserves meant banks were effectively taxed on their use of liquidity. They couldn&rsquo;t serve their customers and the economy efficiently.</p>
+<p>In 2008, the Fed fixed that problem. With Congress&rsquo;s authorization, reserves now pay interest. And the Fed now supplies as many reserves as banks demand with market rates close to the interest rate on reserves. We call this a system of ample reserves.</p>
+<p>It&rsquo;s a more modern and efficient way to implement monetary policy. U.S. dollar reserves are the safest and most liquid asset in the world, an asset that greases the wheels of the banking, financial and payments systems. With ample reserves, banks don&rsquo;t need to artificially economize on safety and liquidity. The financial system is more stable and resilient. Payments flow more smoothly. And by the criterion of Nobel Prize-winning economist Milton Friedman, it&rsquo;s efficient for society.</p>
+<p>But by law, only depository institutions are legally eligible for interest on reserves. Government-sponsored enterprises aren&rsquo;t. So the ample reserves regime, beneficial as it is, changed the fed funds market from one that redistributed scarce reserves and set banks&rsquo; marginal cost of funds to one where GSEs and banks primarily arbitrage access to interest on reserves. The funds rate now also reflects banks&rsquo; balance sheet costs for that arbitrage and bargaining power between banks and GSEs, not just the cost of funds. Put that together with the post-GFC banking rules, as well as reforms that made money market funds safer, and unsecured markets like fed funds just aren&rsquo;t very relevant anymore.</p>
+<p>The center of gravity in U.S. money markets now lies in repo markets, where loans are secured by Treasury securities or other collateral. Overnight and open-dated repo volume averages <a href="https://www.financialresearch.gov/short-term-funding-monitor/market-digests/tenor/" target="_blank">more than $4.5 trillion per day</a>. By contrast, fed funds volume runs only <a href="https://www.newyorkfed.org/markets/reference-rates/effr" target="_blank">a bit over $100 billion</a>. Repo rates represent a marginal cost of funds for a wide swathe of borrowers and lenders. And a repo rate, the Secured Overnight Financing Rate (SOFR), has replaced the London interbank offered rate (LIBOR) as the dominant reference rate in U.S. financial contracts.</p>
+<h2>The fragility of connections between fed funds and other markets</h2>
+<p>That said, for the moment, fed funds remains a viable target. Rates continue to transmit well between fed funds and other markets. So fed funds still gives us a good gauge of broader monetary conditions, and controlling fed funds still influences broader monetary conditions.</p>
+<p>But the connection is fragile.</p>
+<p>Fed funds already moves noticeably less than Treasury repo rates. Money market developments earlier this month provide an instructive example. In the first week of September, repo rates rose 3 to 8 basis points relative to the end of August as markets digested a settlement of Treasury securities. Repo rates partly retraced in the second week of September. Then, on September 15, a tax payment date coincided with another Treasury settlement. Tri-party repo rates rose 10 basis points to 4.50 percent, or 17 basis points above the level at the end of August. They&rsquo;ve since come back down. And yet, through this entire period, until  the FOMC cut rates last Wednesday, the fed funds rate remained precisely 4.33 percent, exactly where it had been every trading day since December of last year.</p>
+<p>The stability of the fed funds rate isn&rsquo;t due to virtuosic open market operations by the Desk or, more generally, to the FOMC targeting fed funds. The target range is 25 basis points wide. The stability comes from concentration in the fed funds market. With only the 11 FHLBs as major lenders, and relatively few bank borrowers, fed funds relationships are long-lasting. A participant who tried to chase a few basis points from day to day would have to weigh those small profits against the risk to the relationship.</p>
+<p>Such a concentrated market could abruptly grow more idiosyncratic. The Federal Home Loan Banks have been exploring options for increasing their investments in bank deposits. New early morning maturity tri-party repo products may also attract FHLBs. With only 11 FHLBs, any change could quickly reach the entire market.</p>
+<p>The market is also vulnerable to any stress that leads the FHLBs to pull back on fed funds lending. We saw this in March 2023. Banking stresses led commercial banks to seek more term advances from FHLBs. The FHLBs appeared to meet those demands in part by reducing fed funds investments, and fed funds volume fell 64 percent in two business days.</p>
+<h2>Alternative rate options</h2>
+<p>One might say that since all is fine for now, there&rsquo;s no need to act. But if transmission between fed funds and other money markets ever broke down, we&rsquo;d need to quickly find a replacement target. And I don&rsquo;t think making important decisions under time pressure is the best way to promote a strong economy and financial system.</p>
+<p>To fix this, the FOMC should plan ahead and prepare to transition proactively to a different rate.</p>
+<p>Good alternative targets are available.</p>
+<p>Options fall in three broad categories. The first includes administered rates, such as interest on reserves or the rate on the Overnight Reverse Repurchase Agreement Facility or the Standing Repo Facility. The second category involves measures of the constellation of money market rates. And the third category entails switching to a different single market rate.</p>
+<p>I’m not a fan of targeting an administered rate. The FOMC should say what market conditions it’s aiming for. And the public should be able to verify the FOMC is delivering those conditions. Targeting an administered rate short-circuits that accountability: Administered rates will always be exactly what the Fed wants them to be, regardless of market conditions.</p>
+<p>Targeting the constellation of market rates is also unattractive. Which rates should you include? Should you weight all rates equally or count some more than others? If the FOMC refers only to a qualitative level, how can the public hold the committee accountable? To put it in technical terms, it&rsquo;s a mess. Monetary policy needs to influence money market rates broadly, but the way to do that is to target a single rate that transmits well to others.</p>
+<p>So which single rate is best? Overnight repo markets are the center of gravity. Within those markets, repos against Treasury collateral make the most appropriate target, because when risk-managed appropriately, they are essentially riskless.</p>
+<p>Participants in dollar funding markets have widely adopted SOFR as a reference rate. It covers north of $2.5 trillion a day in overnight Treasury repos.</p>
+<p>But SOFR isn&rsquo;t currently a clean gauge of funding costs. SOFR combines two main market segments: tri-party repos that take place primarily between cash investors and large dealers, and centrally cleared repos that take place primarily between large dealers and smaller ones or leveraged investors. Large dealers have some market power in intermediating between the segments, so rates in the centrally cleared segment can partly reflect market power  rather than the cost of funds.</p>
+<p>The tri-party general collateral rate (TGCR) is cleaner, and I think it would currently offer the best target. It incorporates more than $1 trillion a day in risk-free transactions that represent a marginal cost of funds and marginal return on investment for a large number of participants. It is calculated with a robust methodology. It transmits well across money markets.</p>
+<p>And the Fed&rsquo;s existing tools already provide effective control of TGCR. Let me be clear that by control, I don&rsquo;t mean pinpoint control to the basis point. In an ample reserves regime, money market rates should average close to interest on reserves, but there can be some fluctuations around that average. It would be perfectly fine, in my view, for TGCR to move up and down from day to day, much as it has for many years. After all, the target range is 25 basis points wide. A tolerance for modest volatility would allow us to maintain rate control with our current simple and efficient tools, without large, frequent or complex operations.</p>
+<p>The shift in private activity toward secured markets makes it very likely, in my view, that the target rate will eventually need to change. If the target rate must change, the best time for a change would be when markets are functioning smoothly and market participants can have plenty of advance notice. Proactively adopting TGCR as the target would allow for an orderly transition. The alternative, waiting for evidence that a change is urgent, could force a rapid switch in a more challenging environment.</p>
+<p>An intermediate option would be to announce a contingency plan but not implement it for the time being. That could allow more time to assess how the Securities and Exchange Commission&rsquo;s mandate for broader central clearing affects the pros and cons of targeting TGCR versus SOFR. But it&rsquo;s not my preferred approach, because while a contingency plan is better than no plan, it might still have to be implemented quickly in case of sudden stress.</p>
+<p>In conclusion, there are many aspects of selecting an operating target that I didn&rsquo;t have time to get into. So I hope you&rsquo;ll read our full essay. And to reiterate, these are only my views. But I believe the FOMC should modernize the target rate.</p>
+<p>Thank you.</p>
+<!-- <div class="dal-cover_note">
+<h4>Note</h4>
+<p>I am grateful to XXXX XXXXX for assistance in preparing these remarks.</p>
+</div> -->
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <!--<p class="dal-info__heading">About the author</p>-->
+<div class="row dal-author-row one-up">
+   <div class="dal-author-card-wrapper">
+      <div class="dal-author-card"> <img  src="/-/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="Lori K. Logan" />
+         <p class="dal-author-card__name"></p>
+         <p><a href="/fed/leadership/logan"><strong>Lorie Logan</strong></a> is president and CEO of the Federal Reserve Bank of Dallas.</p>
+      </div>
+   </div>
+</div>
+
+<div class="separator"></div>
+<p>The views expressed are my own and do not necessarily reflect official positions of the Federal Reserve System.</p>
+
+
+                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+<div class="dal-sidebar__heading">President Lorie Logan</div>
+<ul class="dal__list--lined">
+    <li><a href="/fed/leadership/logan">About Lorie</a></li>
+    <li><a href="/news/speeches/logan">Speeches</a></li>
+ <li><a href="/fed/leadership/logan/360in365">360° Listening Tour</a></li>
+ <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+    <!-- <li><a href="/fed/leadership/logan/speaking">Public speaking events</a></li> -->
+</ul>
+
+<!--<p><a href="https://www.linkedin.com/in/lorie-logan-29a99310/" target="_blank">Follow Lorie on LinkedIn</a></p>-->
+
+
+<a href="https://cloud.email.em-dallasfed.org/signup" type="button" class="btn btn-primary dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-subscribe-sm"></span></span>
+  <span class="dal-button__text">Subscribe for<br>email alerts</span>
+</a>
+
+<!-- <a href="https://cloud.email.em-dallasfed.org/logansch" type="button" class="btn btn-brand-teal dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-calendar-sm"></span></span>
+  <span class="dal-button__text">Get president&rsquo;s speaking schedule</span>
+</a> -->
+
+<div class="mb-20"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

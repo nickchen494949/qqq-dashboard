@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="/medialibrary/media/v4/css/basic.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/reset.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/960_12_col.css" rel="stylesheet">
+<link rel="stylesheet" href="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+<link type="text/css" href="/medialibrary/media/v4/components/styles/components.css" rel="stylesheet">
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/common.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/Accordion.js"></script>
+<script data-main="/medialibrary/media/v4/components/components_main" src="/medialibrary/media/v4/components/lib/require.js"></script>
+<link type="text/css" href="/medialibrary/media/v4/css/legacy.css" rel="stylesheet">
+<!--[if IE 6]>
+  <script type="text/javascript">window.DMCIEversion=6;</script>
+<![endif]-->
+
+<!--[if IE 7]>
+  <script type="text/javascript">window.DMCIEversion=7;</script>
+<![endif]-->
+
+<!--[if IE 8]>
+  <script type="text/javascript">window.DMCIEversion=8;</script>
+<![endif]-->
+
+<!--[if gte IE 9]>
+  <script type="text/javascript">window.DMCIEversion=9;</script>
+<![endif]-->
+
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+
+<link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_print.c7687de8937417888ede.css" rel="stylesheet" media="print"><link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_app.7cb2998cba1ad4d6ea7b.css" rel="stylesheet" media="screen"><script type="text/javascript" src="/medialibrary/media/v5/dxt-ui/js/dxt_app.7cb2998cba1ad4d6ea7b.js"></script><script>
+    nyfedapi.preStart();
+    if(document.readyState === "complete") {
+        nyfedapi.start();
+        
+    } else {
+        document.addEventListener("DOMContentLoaded", function () {
+            nyfedapi.start();
+        }, false);
+    }
+</script>
+<link type="text/css" href="/medialibrary/media/responsive/custom.css" rel="stylesheet">
+
+
+
+    <title>FEDERAL RESERVE BANK of NEW YORK</title>
+            <meta name="keywords" content="Speeches, confrences, Willam J. McDonough, Economic Growth and Investment in Human Capital" />
+            <meta name="description" content="" />
+        
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S5R6-KN95T-HP8YC-HYFLF-GA6UP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"6S5R6-KN95T-HP8YC-HYFLF-GA6UP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="eaaq6qajnqe7mjqacqi2aaaaavvjxdhp-f-a92e67783-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"385303","ak.ai":parseInt("322044",10),"ak.ol":"0","ak.cr":5,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"138d2418","ak.r":47401,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":60850,"ak.gh":"23.211.252.235","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1788579055","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==zziBGA4GGmFX3Cbc1e7/mavCh7vqz+sgFD6P/YgeWsJlzgM8nasO1J8M5wg24U/e4GoSmFlT+cGz2WZYk7SWR0w7KdUykK3t+JGmigxakozNCMTu2xo4+qSbWFvN/HTONNax5OYxZktc8BLCqzgBlHsrgowB54p8wQYEpcZSDDZJEdQZpWdDOBuV7g6BhFPNgYqcDWP8Vl/OGdsJkBQxUKqftNAIWuFfxgLxpW37hIW2N5p9UR9ZK6Ch1kAgQNrsOVGAbN86VvMyruNnzMtY+zB3Qn4+6nzsArHK52xQCDEKojM8nEcPjeKoHstGdmhU6wMQttbg4VM39IrQPC9TgV+JWYcfV+RPnKHQyV7r+IgkKPkIDpNczFVJb5x1YPqSemixTiuPG7ND3hjlDJY8szYM2Daj+N4G/S+aMTDTpFE=","ak.pv":"167","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    <a name="top"></a>
+    <div class="container_12">
+        <header>
+            
+   <div id="universal">
+   <div id="universal_nav">
+      <a title="Home" aria-label="Home" href="/" id="nav-item-1"><span class="icon-home" title="Home"></span></a>
+      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a> 
+      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a> 
+      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a> 
+      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a> 
+      <a aria-label="Blogs" href="/blogs" aria-label="Blogs" title="Blogs" class="nav-type-external" id="nav-item-19">Blogs</a> 
+      <a href="/press" aria-label="News & Events" title="News & Events" id="nav-item-21">News &amp; Events</a>
+    </div>
+    <div id="searchBar">
+      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">    
+        <span class="icon-search"></span><input name="text" type="text" class="search" id="searchbox" title="Search Box" size="35" maxlength="200" />
+        <input aria-label="Application" type="hidden" name="application" value="ny_pub" />
+        <input aria-label="Sources" type="hidden" name="sources" value="ny_pub" />
+        <input aria-label="Search Button" type="submit" id="searchbutton" title="Search Button" value="" />
+      </form>
+    </div>
+  </div>
+  <div id="logo" class="new-york-fed-logo">
+		<a  aria-label="Federal Reserve Bank of New York" href="/" title="Federal Reserve Bank of New York"><img src="/medialibrary/media/v4/images/new-york-fed-logo.svg" style="width:782px" alt="New York Fed Logo" /></a>
+  </div> 
+
+
+<!-- START : MOBILE HEADER -->
+<div id="dxt-mobile-header">
+
+    <div class="dxt-logo-wrapper">
+        <div>
+            <div class="dxt-logo-wrapper-a">
+                <a href="/" class="dxt-logo"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dxt-menu-search">
+
+
+
+        <div class="dxt-burger">
+            <div>
+                <a href="#">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Menu
+                </a>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="dxt-search-bar-wrapper">
+            <span></span>
+            <div class="dxt-search-bar"></div>
+        </div>
+
+    </div>
+
+    <ul id="dxt-navigation" class="dxt-level-1-list dxt-level-1 nav nav-level-0 nav-type-none" id="nav-list-31">
+
+ <!-- START : LEVEL 1 -->
+        <li id="nav-item-32" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="About the New York Fed"  href="/aboutthefed" title="About the New York Fed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </div>
+            </div>
+            <ul class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-32">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="About the New York Fed" title="About the New York Fed" href="/aboutthefed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a href="/aboutthefed/whatwedo" title="What We Do" aria-label="What We Do">What We Do</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-34" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/aboutthefed/who-we-are" title="Who We Are" aria-label="Who We Are">Who We Are</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-34">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-123" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Bank Leadership" aria-label="Bank Leadership" href="/aboutthefed/bank-leadership">Bank Leadership</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li><!-- END : LEVEL 3 -->
+                <!-- END : LEVEL 2 -->
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="Communities We Serve" href="/aboutthefed/communities-we-serve" title="Communities We Serve">Communities We Serve</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-356" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a title="Governance" aria-label="Governance" href="/aboutthefed/governance">Governance</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Board of Directors" aria-label="Board of Directors" href="/aboutthefed/org_nydirectors">Board of Directors</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/aboutthefed/disclosures" title="Disclosures" aria-label="Disclosures">Disclosures</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a style="vertical-align:top" title="Ethics and Conflicts of Interest" aria-label="Ethics and Conflicts of Interest" href="/aboutthefed/ethics-conflicts-of-interest">Ethics and Conflicts of Interest</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Annual Financial Statements" href="/aboutthefed/annualreports" title="Annual Financial Statements">Annual Financial Statements</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Org Chart" href="/aboutthefed/org_chart" title="Org Chart">Org Chart</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-357" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span> 
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="News &amp; Events" aria-label="News &amp; Events" href="/press">News &amp; Events</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Advisory Groups" href="/aboutthefed/external_committees" title="Advisory Groups">Advisory Groups</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Vendor Information" href="/aboutthefed/vendor_information" title="Vendor Information">Vendor Information</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Holiday Schedule" aria-label="Holiday Schedule" href="/aboutthefed/holiday_schedule">Holiday Schedule</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                At the New  York Fed, our mission is to make the U.S. economy stronger and the financial system more stable for all segments of society. We do this by executing monetary policy, providing financial services, supervising banks and conducting research and providing expertise on issues that impact the nation and communities we serve.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a style="margin: 0 10px 0 10px;" aria-label="The Teller Window" href="https://tellerwindow.newyorkfed.org" title="The Teller Window" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="The Teller Window" src="/medialibrary/media/images/v4/about_the_fed/the-teller-window-mm-b-280x176.png" width="144" height="88">
+                                <p>The Teller Window is a publication featuring expert knowledge and insight from the New York Fed, including thoughts and perspectives from senior leaders.</p>
+                            </a>
+                            <a aria-label="Freedom of Information request" href="/aboutthefed/freedom-of-information-requests" title="Freedom of Information request" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Information Requests" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf-mm-information-requests.jpg">
+                                <p>
+                                    Do you have a request for information and records? Learn how to submit it.
+                                </p>
+                            </a>
+
+                            <a aria-label="History of the New York Fed" href="/aboutthefed/history" title="History of the New York Fed" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Gold Vault" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf_mm_goldvault.jpg">
+                                <p>
+                                    Learn about the history of the New York Fed and central banking in the United States through articles, speeches, photos and video.
+                                </p>
+                            </a>
+
+                           
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->  <!-- START : LEVEL 1 -->
+        <li id="nav-item-40" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="Markets &amp; Policy Implementation" title="Markets &amp; Policy Implementation"  href="/markets" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation top level']);">Markets &amp; Policy Implementation</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-40">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/markets" aria-label="Markets & Policy Implementation" title="Markets & Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation']);">Markets & Policy Implementation</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/data-hub" aria-label="Markets Data Dashboard" title="Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets Data Dashboard']);">DATA</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/reference-rates" aria-label="Reference Rates" title="Reference Rates" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reference Rates']);">Reference Rates</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/effr" aria-label="Effective Federal Funds Rate" title="Effective Federal Funds Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Effective Federal Funds Rate']);">Effective Federal Funds Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/obfr" aria-label="Overnight Bank Funding Rate" title="Overnight Bank Funding Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Overnight Bank Funding Rate']);">Overnight Bank Funding Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/sofr" aria-label="Secured Overnight Financing Rate" title="Secured Overnight Financing Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Secured Overnight Financing Rate']);">Secured Overnight Financing Rate</a></li>
+								<li class="dxt-level-4-item nav nav-level-4 nav-type-menu no-bullet-indent"><a href="/markets/reference-rates/sofr-averages-and-index" aria-label="SOFR Averages & Index" title="SOFR Averages & Index" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'SOFR Averages & Index']);">SOFR Averages & Index</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/bgcr" aria-label="Broad General Collateral Rate" title="Broad General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Broad General Collateral Rate']);">Broad General Collateral Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/tgcr" aria-label="Tri-Party General Collateral Rate" title="Tri-Party General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Tri-Party General Collateral Rate']);">Tri-Party General Collateral Rate</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Desk Operations</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/treasury-securities" aria-label="Treasury Securities Operations" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Securities Operations']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/ambs" aria-label="Agency Mortgage-Backed Securities Operations" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Agency Mortgage-Backed Securities Operations']);">Agency Mortgage-Backed Securities</a>
+</li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/repo" aria-label="Repo Operations" title="Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Repo Operations']);">Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/reverse-repo" aria-label="Reverse Repo Operations" title="Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Operations']);">Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/securities-lending" aria-label="Securities Lending Operations" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Securities Lending Operations']);">Securities Lending</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/central-bank-liquidity-swap-operations" aria-label="Central Bank Liquidity Swap Operations" title="Central Bank Liquidity Swaps" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Liquidity Swap Operations']);">Central Bank Liquidity Swaps</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/soma-holdings" aria-label="System Open Market Account Holdings of Domestic Securities" title="System Open Market Account Holdings" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'System Open Market Account Holdings of Domestic Securities']);">System Open Market Account Holdings</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties/primary-dealers-statistics" aria-label="Primary Dealer Statistics" title="Primary Dealer Statistics" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealer Statistics']);">Primary Dealer Statistics</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/omo_transaction_data" aria-label="Historical Transaction Data" title="Historical Transaction Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Historical Transaction Data']);">Historical Transaction Data</a></li>
+                    </ul>
+                </li>
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/domestic-market-operations" aria-label="Domestic Market Operations" title="Domestic Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Domestic Market Operations']);">DOMESTIC MARKET OPERATIONS</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation" aria-label="Monetary Policy Implementation" title="Monetary Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Monetary Policy Implementation']);">Monetary Policy Implementation</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities" aria-label="About Treasury Securities" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Treasury Securities']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-mortgage-backed-securities" aria-label="About Agency Mortgage-Backed Securities" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Mortgage-Backed Securities']);">Agency Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-commercial-mortgage-backed-securities" aria-label="About Agency Commercial Mortgage-Backed Securities" title="Agency Commercial Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Commercial Mortgage-Backed Securities']);">Agency Commercial Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-debt-securities" aria-label="About Agency Debt Securities" title="Agency Debt Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Debt Securities']);">Agency Debt Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/repo-reverse-repo-agreements" aria-label="About Repo and Reverse Repo Agreements" title="Repos & Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Repo and Reverse Repo Agreements']);">Repos & Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/securities-lending" aria-label="About Securities Lending" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Securities Lending']);">Securities Lending</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/banking/discountwindow" aria-label="Discount Window" title="Discount Window" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Discount Window']);">Discount Window</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/treasury-debt-auctions-and-buybacks-as-fiscal-agent" aria-label="Treasury Debt Auctions and Buybacks as Fiscal Agent" title="Treasury Debt Auctions & Buybacks" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Debt Auctions and Buybacks as Fiscal Agent']);">Treasury Debt Auctions & Buybacks<br>as Fiscal Agent</a>
+</li>
+                <br><br>   
+                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations" aria-label="International Market Operations" title="International Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'International Market Operations']);">INTERNATIONAL MARKET OPERATIONS</a></li>
+                    <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-exchange-operations" aria-label="Foreign Exchange Operations" title="Foreign Exchange" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Operations']);">Foreign Exchange</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-reserves-management" aria-label="Foreign Reserves Management" title="Foreign Reserves Management" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management']);">Foreign Reserves Management</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/central-bank-swap-arrangements" aria-label="Central Bank Swap Arrangements" title="Central Bank Swap Arrangements" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Swap Arrangements']);">Central Bank Swap Arrangements</a></li>
+                 </ul></li>
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">ACROSS MARKETS</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/op_policies" aria-label="Desk Statements & Operating Policies" title="Statements & Operating Policies" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Desk Statements & Operating Policies']);">Statements & Operating Policies</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/market-intelligence" aria-label="Market Intelligence" title="Market Intelligence" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Market Intelligence']);">Market Intelligence</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/market-intelligence/survey-of-market-expectations" aria-label="Survey of Market Expectations" title="Survey of Market Expectations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Survey of Market Expectations']);">Survey of Market Expectations</a></li>
+                            </ul>
+                        </li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/annual_reports" aria-label="Annual Report on Open Market Operations" title="Annual Reports" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Annual Report on Open Market Operations']);">Annual Reports</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties" aria-label="Counterparties" title="Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Counterparties']);">Counterparties</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/primarydealers" aria-label="Primary Dealers" title="Primary Dealers" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealers']);">Primary Dealers</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/standing-repo-counterparties" aria-label="Standing Repo Counterparties" title="Standing Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Standing Repo Counterparties']);">Standing Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/rrp_counterparties" aria-label="Reverse Repo Counterparties" title="Reverse Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Counterparties']);">Reverse Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-exchange-counterparties" aria-label="Foreign Exchange Counterparties" title="Foreign Exchange Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Counterparties']);">Foreign Exchange Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-reserves-management" aria-label="Foreign Reserves Management Counterparties" title="Foreign Reserves Management Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management Counterparties']);">Foreign Reserves Management Counterparties</a></li>
+                             </ul></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/operational-readiness" aria-label="Operational Readiness" title="Operational Readiness" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Operational Readiness']);">Operational Readiness</a></li>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/central-bank-and-international-account-services" aria-label="Central Bank & International Account Services" title="Central Bank & International Account Services" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank & International Account Services']);">Central Bank & International Account Services</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/programs-archive" aria-label="Programs Archive" title="Programs Archive" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Programs Archive']);">Programs Archive</a></li>
+                    </ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+ul#dxt-navigation ul#nav-list-40 > li:nth-child(4) {
+	position: relative;
+	right: 0px !important;
+	top: 10px !important;
+	margin-top: 4px !important;
+}
+.upperlower {text-transform: capitalize !important;}
+ul#dxt-navigation ul#nav-list-40 li.nav-level-4 {
+	margin: 8px 5px 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:20px; right:63px; }
+}
+@supports (-moz-appearance:none) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150px; }
+}
+</style>  <!-- START : LEVEL 1 -->
+        <li id="nav-item-84" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu mm-item">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research top level']);">Economic Research</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-84">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research']);">Economic Research</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+				
+				
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">U.S. Economy</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Consumer Expectations &amp; Behavior</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Survey of Consumer Expectations" aria-label="Survey of Consumer Expectations" href="/microeconomics/sce#/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Survey of Consumer Expectations']);">Survey of Consumer Expectations</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Household Debt &amp; Credit Report" aria-label="Household Debt &amp; Credit Report" href="/microeconomics/hhdc" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Household Debt & Credit Report']);">Household Debt &amp; Credit Report</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>								
+                      </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Growth &amp; Inflation</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Economic Heterogeneity Indicators" aria-label="Economic Heterogeneity Indicators" href="/research/economic-heterogeneity-indicators" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Heterogeneity Indicators']);">Economic Heterogeneity Indicators (EHIs)</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Multivariate Core Trend Inflation" aria-label="Multivariate Core Trend Inflation" href="/research/policy/mct#--:mct-inflation:trend-inflation" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Multivariate Core Trend Inflation']);">Multivariate Core Trend Inflation</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed DSGE Model" aria-label="New York Fed DSGE Model" href="/research/policy/dsge#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed DSGE Model']);">New York Fed DSGE Model</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed Staff Nowcast" aria-label="New York Fed Staff Nowcast" href="/research/policy/nowcast#/nowcast" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed Staff Nowcast']);">New York Fed Staff Nowcast</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="R-star: Natural Rate of Interest" aria-label="R-star: Natural Rate of Interest" href="/research/policy/rstar " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'R-star: Natural Rate of Interest']);">R-star: Natural Rate of Interest</a></li>
+                             
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Labor Market</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                    <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market for Recent College Graduates" aria-label="Labor Market for Recent College Graduates" href="/research/college-labor-market#--:explore:unemployment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market for Recent College Graduates']);">Labor Market for Recent College Graduates</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market Tightness Index" aria-label="Labor Market Tightness Index" href="/research/labor-market-tightness/#interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market Tightness Index']);">Labor Market Tightness Index</a></li>
+                            
+
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Financial Stability</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Corporate Bond Market Distress Index" aria-label="Corporate Bond Market Distress Index" href="/research/policy/cmdi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Corporate Bond Market Distress Index']);">Corporate Bond Market Distress Index</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Losses from Natural Disasters" aria-label="Losses from Natural Disasters" href="/research/policy/natural-disaster-losses " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Losses from Natural Disasters']);">Losses from Natural Disasters</a></li>
+
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Outlook-at-Risk" aria-label="Outlook-at-Risk" href="/research/policy/outlook-at-risk#root:growth-at-risk" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outlook-at-Risk']);">Outlook-at-Risk</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Treasury Term Premia" aria-label="Treasury Term Premia" href="/research/data_indicators/term-premia-tabs#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Treasury Term Premia']);">Treasury Term Premia</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Yield Curve as a Leading Indicator" aria-label="Yield Curve as a Leading Indicator" href="/research/capital_markets/ycfaq#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Yield Curve as a Leading Indicator']);">Yield Curve as a Leading Indicator</a></li>
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Banking</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Banking Research Data Sets" aria-label="Banking Research Data Sets" href="/research/banking_research/datasets" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Banking Research Data Sets']);">Banking Research Data Sets</a></li>
+                               
+                                   <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Reserve Demand Elasticity" aria-label="Reserve Demand Elasticity" href="/research/reserve-demand-elasticity" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Reserve Demand Elasticity']);">Reserve Demand Elasticity</a></li>
+                            </ul>
+						 
+                    </ul>
+                </li>
+				
+				
+				
+				
+				
+				
+				
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a title="Regional Economy" aria-label="Regional Economy" href="/regional-economy" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Economy']);">REGIONAL ECONOMY</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Empire State Manufacturing Survey" aria-label="Empire State Manufacturing Survey" href="/survey/empire/empiresurvey_overview" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Empire State Manufacturing Survey']);">Empire State Manufacturing Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Business Leaders Survey" aria-label="Business Leaders Survey" href="/survey/business_leaders/bls_overview " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Business Leaders Survey']);">Business Leaders Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Business Surveys: Special Topics" aria-label="Regional Business Surveys: Special Topics" href="/survey/business_leaders/Supplemental_Survey_Report" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Business Surveys: Special Topics']);">Regional Business Surveys: Special Topics</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Employment Trends" aria-label="Regional Employment Trends" href="/research/regional_economy/regional-employment#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Employment Trends']);">Regional Employment Trends</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Early Benchmarked Employment Data" aria-label="Early Benchmarked Employment Data" href="/research/regional_economy/early-benchmarked-employment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Early Benchmarked Employment Data']);">Early Benchmarked Employment Data</a></li>
+                           
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">INTERNATIONAL ECONOMY</span></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Global Supply Chain Pressure Index" aria-label="Global Supply Chain Pressure Index" href="/research/policy/gscpi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Global Supply Chain Pressure Index']);">Global Supply Chain Pressure Index</a></li>
+                                
+                             
+						
+                 </ul></li>
+				
+				
+				
+				
+				
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">RESEARCHERS</span>
+					<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    		<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Economists" aria-label="Staff Economists" href="/research/economists" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Economists']);">Staff Economists</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Visiting Scholars" aria-label="Visiting Scholars" href="/research/economists/visitors" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Visiting Scholars']);">Visiting Scholars</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Resident Scholars" aria-label="Resident Scholars" href="/research/resident_scholar" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Resident Scholars']);">Resident Scholars</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu top-20px"><a title="Publications" aria-label="Publications" href="/research/publication_annuals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Publications']);">PUBLICATIONS</a></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Liberty Street Economics" aria-label="Liberty Street Economics" href="https://libertystreeteconomics.newyorkfed.org/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Liberty Street Economics']);">Liberty Street Economics</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Reports" aria-label="Staff Reports" href="/research/staff_reports" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Reports']);">Staff Reports</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Policy Review" aria-label="Economic Policy Review" href="/research/epr" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Policy Review']);">Economic Policy Review</a></li>
+<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Outside Journals" aria-label="Outside Journals" href="/research/outside_journals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outside Journals']);">Outside Journals</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">RESEARCH CENTERS</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Applied Macroeconomics & Econometrics Center (AMEC)" aria-label="Applied Macroeconomics & Econometrics Center (AMEC)" href="/research/amec" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Applied Macroeconomics & Econometrics Center (AMEC)']);">Applied Macroeconomics<br>&amp; Econometrics Center (AMEC)</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Center for Microeconomic Data (CMD)" aria-label="Center for Microeconomic Data (CMD)" href="/microeconomics" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Center for Microeconomic Data (CMD)']);">Center for Microeconomic Data (CMD)</a></li>
+                    		</ul>
+				<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">CALENDAR</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Indicators Calendar" aria-label="Economic Indicators Calendar" href="/research/calendars/nationalecon_cal" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Indicators Calendar']);">Economic Indicators Calendar</a></li>
+                    		</ul>
+					</ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+.dxt-menu-content .dxt-menu-images .dxt-menu-content-item {
+	height: 230px;
+}
+</style>
+  <!-- START : LEVEL 1 -->
+        <li id="nav-item-90" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </div>
+            </div>
+            <ul id="nav-list-90" class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/supervisionregulate" title="Supervision &amp; Regulation">Supervision &amp; Regulation</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-92" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-151">
+                            <a href="/banking/circulars" title="Circulars">Circulars</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-150">
+                            <a href="/banking/regulations" title="Regulations">Regulations</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-93">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/reporting_formsinstruct" title="Reporting Forms &amp; Instructions">Reporting Forms &amp; Instructions</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/reportingforms" title="Reporting Forms">Reporting Forms</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/banking/regrept/regrept" title="Correspondence">Correspondence</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-94">
+                    <a href="/banking/ba" title="Bank Applications">Bank Applications</a>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-158">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/protection" title="Consumer Protection">Consumer Protection</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-158">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-159">
+                            <a href="/outreach-and-education/community-development/community-reinvestment-act" title="Community Reinvestment Act">Community Reinvestment Act</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-160" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/frauds_scams" title="Frauds and Scams">Frauds and Scams</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                As part of our core mission, we supervise and regulate financial institutions in the Second District. Our primary objective is to maintain a safe and competitive U.S. and global banking system.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/governance-and-culture-reform" title="The Governance &amp; Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="The Governance &amp; Culture Reform " title="The Governance &amp; Culture Reform " />
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+                                </p>
+                            </a>
+
+                            <a href="/banking/reporting_formsinstruct" title="Need to file a report with the New York Fed?" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_reportingforms.jpg" alt="Need to file a report with the New York Fed?" title="Need to file a report with the New York Fed?" />
+                                <p>
+                                    Need to file a report with the New York Fed? Here are all of the forms, instructions and other information related to regulatory and statistical reporting in one spot.
+                                </p>
+                            </a>
+
+                            <a href="/banking/protection" title="Frauds and Scams" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_consumerprotection.jpg" alt="Frauds and Scams" title="Frauds and Scams" />
+                                <p>
+                                    The New York Fed works to protect consumers as well as provides information and resources on how to avoid and report specific scams.
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-96" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial&nbsp;Services &amp;&nbsp;Infrastructure</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-96">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial Services &amp; Infrastructure</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-98">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-services-operations" title="Financial Services &amp; Operations">Financial Services &amp; Operations</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-98">
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-401" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/services" title="Services For Financial Institutions">Services For Financial Institutions</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-402">
+                            <a href="/banking/payment_services" title="Payment Services">Payment Services</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-404">
+                            <a href="/banking/payment_oversight" title="Payment System Oversight">Payment System Oversight</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-422" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/international" title="International Services, Seminars &amp; Training">International Services, Seminars&nbsp;&amp;&nbsp;Training</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-99">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform" title="Financial Market Infrastructure &amp; Reform">Financial Market Infrastructure &amp; Reform</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-99" class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-161">
+                            <a href="/banking/tpr_infr_reform" title="Tri-Party Repo Infrastructure Reform">Tri-Party Repo Infrastructure Reform</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-162">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/managing-foreign-exchange" title="Managing Foreign Exchange">Managing Foreign Exchange</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-163" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/money-market-funds" title="Money Market Funds">Money Market Funds</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-164">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/over-the-counter-derivatives" title="Over-The-Counter Derivatives">Over-The-Counter Derivatives</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                The Federal Reserve Bank of New York works to promote sound and well-functioning financial systems and markets through its provision of industry and payment services, advancement of infrastructure reform in key markets and training and educational support
+                                to international institutions.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/aboutthefed/nyic" title="The New York Innovation Center" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/about_the_fed/innovation-center-mega-menu.jpg" alt="The New York Innovation Center" title="The New York Innovation Center">
+                                <p>The New York Innovation Center bridges the worlds of finance, technology, and innovation and generates insights into high-value central bank-related opportunities. </p>
+                            </a>
+
+                             <a href="/nonbank-financial-institutions" title="Nonbank Financial Institutions" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v5/library/financial-services-infrastructure/nbfi/bank-nbfi-skyscrapers-280x176.jpg" alt="Looking skyward toward the tops of glass skyscrapers" title="Nonbank Financial Institions">
+                                <p>The growing role of nonbank financial institutions, or NBFIs, in U.S. financial markets is a transformational trend with implications for monetary policy and financial stability.</p>
+                            </a>
+
+                            <a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="Training Programs" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fs_i/mega_menu/fsi_mm_seminar-training.jpg" alt="Specialized Courses" title="Specialized Courses">
+                                <p>The New York Fed offers the Central Banking Seminar and several specialized courses for central bankers and financial supervisors.</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-100" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/outreach-and-education" title="Community Development and Education">Community Development<br>&amp;&nbsp;Education</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-100">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development &amp;&nbsp;Education</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu" id="nav-item-102" style="margin-top: 22px;">
+                    <div class="dxt-level-top">
+                          <div>  <span class="nav nav-type-label"><a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development</a></span> </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <a href="/outreach-and-education/staff" title="Staff">Staff</a>
+                        </li>
+                     <li  class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                             <span id="nav-item-500" class="frs-init nav nav-type-label upperlower">Fed System Initiatives</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://fedcommunities.org" title="Fed Communities">Fed Communities</a>
+                        </li>
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications-fed-listens-events.htm" title="Fed Listens">Fed Listens</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-502">
+                            <a href="https://www.fedsmallbusiness.org" title="Fed Small Business">Fed Small Business</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>                        
+                       <!-- START : LEVEL 3 -->
+                        <li id="nav-item-469" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                            <a href="/outreach-and-education/other-community-development-work" title="Other Community Development Work">Other Community Development Work</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-468">
+                            <a href="/outreach-and-education/calendar" title="Community Development Calendar">Calendar</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            
+                <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-109" >
+ <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu econ-ed-style" id="nav-item-102">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/outreach-and-education/economic-education" title="Economic Education">Economic Education</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+
+                       
+                        <!-- END : LEVEL 3 -->
+
+                     <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                      <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Programs</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/high-school/high-school-fed-challenge" title="High School Fed Challenge">High School Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/education/fedchallenge_college" title="College Fed Challenge">College Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/high-school/teacher-professional-development-program" title="Teacher Professional Development">Teacher Professional Development</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/classroom-visits" title="Classroom Visits">Classroom Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/aboutthefed/museum-and-learning-center-visits" title="Museum &amp; Learning Center Visits">Museum &amp; Learning Center Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Resources</span>
+                        </div>
+                    </div>
+  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/comic-books" title="Educational Comic Books">Educational Comic Books</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a title="Economist Spotlight Series" href="/outreach-and-education/economic-education/economist-spotlight" title="Economist Spotlight Series">Economist Spotlight Series</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                          <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/ny-fed-content-for-educators" title="Lesson Plans and Resources">Lesson Plans and Resources</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+			</ul>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-490">
+                            <a href="/outreach-and-education/economic-education/calendar" title="Economic Education Calendar">Economic Education Calendar</a>
+                        </li>
+                    
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+                       
+
+                        
+
+                    </ul></div><div class="dxt-menu-images">
+
+
+
+                           
+
+                           
+                            <a href="/governance-and-culture-reform" title="Government and Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="Government and Culture Reform" title="Government and Culture Reform">
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+
+                                </p> 
+                            </a>
+
+                        </div></div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+<style>
+#nav-list-500 {
+        margin-top: 16px !important;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li {
+	background: transparent;
+	color: #fff;
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	width: 255px;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+ul#dxt-navigation ul#nav-list-100 li.nav-level-3 a {
+	display: inline;
+	font-family: RobotoCondensedRegular,Arial Narrow,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0;
+	vertical-align: top;
+}
+@media (max-width: 736px) {
+.econ-ed-style {margin-left:-10px !important;}
+ul > li.dxt-level-2-item > div.dxt-level-top a {
+	padding-top: 0px !important;
+}
+}
+@media (min-width: 737px) {
+.frs-init-items {
+        margin-top: 10px !important;
+}
+.frs-init {
+        margin-top: 9px !important;
+}
+.econ-ed-style {margin-top:40px !important;}
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-images {
+	width: 425px;
+	margin-left: 25px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc {
+	width: auto; 
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#nav-list-93 li {
+	overflow: visible;
+	list-style: disc;
+	margin-left: 16px;
+	margin-top: 10px;
+        font-size:16px;
+}
+}
+#nav-item-100 #nav-list-109 li {
+	margin-top: 10px;
+}
+#nav-item-100 #nav-item-102 .dxt-level-top a {
+	color: #fff;
+	margin-top: 0 !important;
+}
+
+</style>
+
+        <hr>
+
+        <li id="dxt_universal_nav"></li>
+
+    </ul>
+
+</div>
+<!-- END : MOBILE HEADER -->
+<div id="dxt-overlay"></div>
+        </header>
+        <div id="header-border"></div>
+        
+
+<div id="breadcrumb" class="grid_12"></div>
+
+        <!--PAGEWATCH-->
+        <!-- begin main content -->
+        
+
+<div class="grid_6 push_1">
+    
+    
+    
+<div id="share-module-fix"><div id="sharebox" class="sharebox">
+	<div class="sharing-buttons">
+		<button onClick="shareFacebook()"><img alt="Facebook" class="icon" src="/medialibrary/media/v4/images/FB_s.png"></button>
+		<button onClick="shareTwitter()"><img alt="Twitter" class="icon"  src="/medialibrary/media/v4/images/twitter_s.png"></button>
+		<button onClick="printPage()"><img alt="Print" class="icon"  src="/medialibrary/media/v4/images/print_s.png"></button>
+		<button onClick="shareEmail()"><img alt="Email" class="icon"  src="/medialibrary/media/v4/images/email_s.png"></button>
+	</div>	
+</div>
+</div>
+	<style>
+#share-module-fix {
+    float: right;
+    display: block;
+    position: relative;
+    top: -37px;
+    right: 10px;
+}
+#share-module {
+    display: none;
+}
+.sharing-buttons {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid_8 #share-module-fix {
+    right: 160px !important;
+}
+.sharing-buttons button { background:none; border:none; padding:0; cursor:pointer;}
+.icon { width:21px; height:21px;}
+	</style>
+	<script>
+                function openPopOutWindow(url) { window.open(url, '_blank', 'resizable,width=600,height=700');}
+		function shareFacebook() {
+			openPopOutWindow('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Facebook']);
+		}
+		function shareTwitter() {
+			openPopOutWindow('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Twitter']);
+		}
+		function shareLinkedIn() {
+			openPopOutWindow('https://www.linkedin.com/shareArticle?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'LinkedIn']);
+		}
+		function printPage() {
+			window.print();
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Print']);
+		}
+		function shareEmail() {
+			var subject = 'Check out this page';
+			var body = 'I thought you would find this page interesting: ' + window.location.href;
+			window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Email']);
+		}
+		
+	</script>
+
+
+
+  
+  <div align="left">
+    <center>
+      <h3>Economic Growth and Investment in Human Capital </h3>
+      <p> Remarks by <p> William J. McDonough, President<br> Federal Reserve Bank of New York <p> before the <p> Association for a Better New York <p> New York, New York<br> April 24, 1996 </center>
+    <p>
+    <p> I am delighted to be here this morning to address such a distinguished group of New Yorkers. Under the leadership of Lew Rudin, the Association for a Better New York brings together individuals who embody the creativity, energy and intellect that makes New York the great city that it is. All New Yorkers are indeed fortunate to have the Association as our advocate, working so arduously for the well-being of us all. I commend the Association for its work, and its leadership and members for their innumerable important achievements. <p> The many strengths of the metropolitan area as a financial and business center, and as a desirable place to live and work, are of great importance to me and my institution, the Federal Reserve Bank of New York. As you know, the New York Fed plays a special role within the Federal Reserve System in the implementation of monetary and exchange rate policies largely by dint of its unique location in the financial capital of the United States, if not the world. In addition, the New York Fed has a critical, though less well known, responsibility for maintaining the nation&#39;s payment systems that relies heavily on many components of the City&#39;s infrastructure. The New York Fed employs far more workers than any other Federal Reserve Bank -- some 3,500 at our headquarters in Manhattan and our operations center in East Rutherford, New Jersey -- and thus has a large stake in the economic and social well-being of the metropolitan area. In that context, my Bank takes very seriously its responsibility to be an active, contributing corporate citizen. <p> Today, I would like to begin my remarks with some comments about the performance of the national and regional economies. Next, I will discuss with you a major challenge that must be addressed head on by the business community of the City and surrounding region, in partnership with state and local governments. <p> I&#39;ll start with a few words about the economic picture for the country as a whole. <p> The national economic expansion, already one of the longest of the post-World War II era, is entering its sixth year and shows few, if any, signs of coming to an imminent conclusion. In fact, I am quite encouraged in many ways by the recent performance of most of the key indicators of current and future cyclical conditions. One of the most positive features of the ongoing expansion is the continued good news about inflation. Consumer price inflation, while up slightly during the first quarter of this year, gives no indication that it will accelerate persistently over the months ahead. If that turns out to be the case, one could say that &quot;the beat goes on.&quot; As you may recall, the CPI increased by about 3 percent or less in each of the last five years, a record unequalled since the 1960s. <p> I think it&#39;s fair to say that at least some credit for the nation&#39;s favorable inflation performance belongs to the forward-looking policies set by the Federal Open Market Committee. The FOMC&#39;s policy of monetary restraint, which began in February 1994, brought about a much needed slowing of aggregate demand, which had started to run well ahead of the economy&#39;s productive capacity. That move was not without its critics, coming as it did well before most analysts and economists had forecast a uptick in the rate of inflation. The Fed&#39;s pre-emptive strike against the threat of inflation was necessary, however, because monetary policy works with long and uncertain lags. Although most of the effects of monetary policy on output take place within one to two years, its effects on inflation take even longer -- on the order of three years. Thus it was clear to us in 1994, and it&#39;s just as clear today, that the failure to contain inflation at its earliest, incipient stages only makes it costlier and more time-consuming to bring it under control later. <p> Although actions by the FOMC play a major role in containing inflation and weakening inflationary expectations, monetary policy, in and of itself, cannot serve as the wellspring of real long-term economic growth. It cannot lead directly to the opening of stores on Staten Island, the sale of more fruit at the Hunts Point Market, or the creation of new jobs on Madison Avenue. Real growth over time results from increases in the quality, productivity and supply of both labor and capital, and from innovations in the way these factors of production are used. <p> What monetary policy can do is raise or lower the rate of money supply and credit growth, and help to move interest rates to levels consistent with the goal of economic growth with price stability. In the process, the Fed&#39;s actions and pronouncements can influence the expectations and confidence of consumers and businesses and, thereby, what they do in the various economic and financial market places. Only by the Fed muting both inflation and inflationary expectations can households, businesses and governments make the decisions and take the steps that create jobs, profits and the steady rise in output from which everyone in our society benefits. Thus, monetary policy can best help to foster economic growth by ensuring the continuation of a stable price environment. <p> Over the last five years, economic growth has come more grudgingly to our region than it has to the nation as a whole. The 1990-1991 recession, a narrowly diffused downturn concentrated in only about a half dozen states, hit the New York City metropolitan area earlier, and hung around longer, than was the case in most of the rest of the country. Although the region has gained back some of the employment lost in the previous cycle, the recovery here has not been nearly as vigorous as the national recovery and subsequent expansion. Large-scale restructuring in the financial services sector, continued downsizing in manufacturing and defense-related industries, and the bursting of the bubble in real estate values all have contributed to the region&#39;s plodding advance. More recently, sharp cuts in state and local government spending, and the resulting loss of thousands of government jobs, have been major impediments to a vigorous overall recovery in employment. <p> Despite the stresses in many parts of the regional economy, most economists believe that the economy of New York and its surrounding region is experiencing at least a gradual comeback. New York&#39;s large and diverse trade and services sectors have flourished, riding on the back of last year&#39;s prosperity in the financial services sector. Barring a major reversal of fortunes on Wall Street that would cut earnings sharply and hold down year-end bonuses, the financial services sector is expected to be a source of strength to the region&#39;s economy over the remainder of the year, consolidation and layoffs at some banks notwithstanding. In addition, new jobs in the large health-related and social services fields are expected to come on stream this year, and the job count at many of the region&#39;s smaller industries, such as private education, motion pictures, and consulting, also is expected to advance. Computer-related jobs continue to spring up both in large companies and in small shops, providing a major new impetus to the City&#39;s economy. The growth of the electronic media industry in lower Manhattan, Soho and elsewhere in the City, involving both small and large firms, is particularly exciting. <p> The news on inflation provides still further hope that the New York area can gain competitive strengths. Over the last several years, the rate of inflation in our region has actually been lower than that of the nation as a whole. In the real estate markets, rental costs at commercial properties are now at competitive levels, vacancy rates are generally declining, and housing has become more affordable. In addition, tourism is way up, generating revenues for hotels, restaurants and the area&#39;s entertainment attractions. <p> These advances complement the region&#39;s already strong structural characteristics to make the long-term economic outlook positive. Our region has a highly educated work force in which 26 percent of the adult population holds college degrees, compared with 20 percent in the nation overall. The region also is the center of a rich array of research and development firms, communications and computer companies, and leading universities and cultural institutions. Crime in the City and the surrounding areas has fallen compared with just a few years ago and, not unimportantly, the perception of the area by some as unsafe or crime-laden also has dissipated. Some people say that &quot;how goes Manhattan so goes the region.&quot; Well if that&#39;s the case, the region&#39;s clearly doing better. <p> Yet any truly comprehensive prospective view of the region&#39;s economy must recognize the seriousness of the risks faced by the City and its suburbs as the region experiences fundamental industrial restructuring. As a native Chicagoan, I observed first hand the pain and uncertainty brought about by cyclical downturns and structural dislocations, particularly in the 1970s and 1980s. Well, look at that &quot;rust belt&quot; now! Entire cities have changed their character and the great core of manufacturing, now much smaller and more specialized, has gained unprecedented prosperity. <p> Instead of buckling under to global competition, the management of firms in the former &quot;rust belt&quot; made tough decisions, rethought their strategies, reshaped their companies and began to take advantage of the new markets opening around the world. Cities like Pittsburgh, Cleveland, Cincinnati, Columbus, and many others that had been written off by many observers as dinosaurs from a bygone age of manufacturing have been transformed by service industries into more diversified, less vulnerable centers of economic and financial activity -- and there&#39;s still some manufacturing being done there, too. <p> For the first time in the 20th century, the New York region&#39;s largely service-based economy has been experiencing sustained restructuring and downsizing in the very industries that formed the core of our industrial mix and held up so well during the period of restructuring elsewhere in the country. Spurred mainly by advances in information processing and telecommunications, the region&#39;s largest employers have been able to produce more output with a smaller workforce, as high value-added workers -- in the most productive facilities -- have displaced many thousands of their colleagues. <p> Such actions are not just a cyclical response by businesses and governments to a sluggish economic recovery. Instead, they represent reasoned approaches toward making the best use of available technologies, adapting to changing domestic and international competitive conditions, and responding to the tougher demands of shareholders or the public. Consolidation among banks, the closing of hospitals, shrinkage in the business service fields, and layoffs by the state and local governments are making the City&#39;s economy a different entity than it was even a decade ago. Eventually, most other cities will face some sort of restructuring and dislocation of workers along these lines. For now, however, it is incumbent upon the leadership of this City -- in both the public and private sectors -- to recognize the situation, measure the risks, and take the steps that will enable all sectors and groups to prosper in the decades ahead. The former &quot;rust belt&quot; did that, and now we must, too. <p> One risk too frequently given only glancing attention by members of the business community is the threat to the social fabric caused by disparities in the distribution of wealth and income. Over the last twenty years or so, growth and prosperity have not been shared widely enough, and the less educated and poorer segments of society have lost ground. One cannot be sanguine about this widening gap. Over the long term, I am convinced, strong economic growth can be sustained only if the benefits of the economic pie -- more and better jobs, higher incomes, improved housing and a higher standard of living -- are shared by all parts of society, rich and poor, skilled and less skilled. This is true everywhere in the world, but no place more so than in our own region. <p> What could we in this room do to help narrow the disparity in income and wealth without sacrificing the well-being of the institutions we represent? Admittedly, this is an enormous and complicated challenge. <p> I believe that the business community and civic leaders can most directly promote economic well-being by taking active, participatory roles in the education and training of our region&#39;s youths and workers. It would be easy to stand before you and preach the gospel of education, and tell you what you already know -- that such a pursuit is important and right. Who could ever disagree? Instead, my message today is that our focused attention on education and training is urgently needed and indispensable now. The business community must take an active role in the development of this City&#39;s human capital or risk facing a serious, and permanent, mismatch between the skills we need to run our businesses and those possessed by the pool of available workers. Our school systems are doing what they can and should have our total support, but they can no longer do enough by themselves. <p> While the need to match the skills of workers to the list of available jobs may sound like an evergreen issue, it has new dimensions in the 1990s that, in my opinion, expand our current challenge to unprecedented proportions. The same forces that continue to reshape the region&#39;s economy -- industrial restructuring, global competition, and rapid, persistent technological change -- are the ones that have put enormous strains on much of our work force and the educational establishments. Students nowadays require an array of skills far beyond the three R&#39;s that shaped most of us here today. Telecommunications, computers, the information superhighway, and even television have made obsolete the standard curricula that guided education for decades, and they have changed the mix of knowledge, skills, and experiences students and workers must develop in order to function well today. <p> In addition, the service-based economy, which, like its manufacturing counterpart has grown very capital intensive, also requires keyboard, reasoning, customer service, and communication skills more complex and advanced than those of previous generations. These challenges arose with great suddenness, at a time when school budgets have been stretched as never before. Our failure to help schools now will mean that our businesses won&#39;t be able to hire the kinds of workers they need to benefit fully from the business opportunities opening up to us. It also will mean that income and wealth disparities among groups will widen still further and the social fabric of the region and, indeed, the nation will become badly frayed. <p> Every one of our organizations can and must do more to bolster the readiness for work of all who are entering, and others who have been, in the region&#39;s labor force. The investment will be meaningful, and it doesn&#39;t have to be very expensive. Whether we run large enterprises with thousands of employees, or small establishments with but a few, we have to use our doors as entrances to the world of work rather than barriers. Educators tell us that individuals learn best by doing, by participating actively in tasks, and by experiencing those tasks in new environments. We can do something about that. <p> Many of us can do something about it by increasing the number and variety of internships we offer, and by expanding the work-study and school-to-career programs we offer so that learning comes from doing, and not just by sitting in classrooms. In fact, our own State has begun to change its venerable Regents examinations away from pen and paper marathons to ones in which the student&#39;s grade is based on the ability to do something. This so-called &quot;performance-based assessment&quot; recognizes that the end result of training must be the ability to perform; this realization, however, puts an enormous burden on school administrators, teachers and students alike to gain practical experiences, and we, in the business community can provide exactly what they need. <p> At the New York Fed, we have committed substantial effort to the development and implementation of a wide range of participatory instructional programs geared mainly toward easing students&#39; transition from school to career and toward developing a better understanding of business, economics and finance. In addition, we have a strong commitment to the training of educators throughout the Second Federal Reserve District in a variety of subject areas in which we have expertise. In 1995 alone, the Bank hosted meetings and seminars for teachers of economics, finance, law, social studies, political science, consumer economics, government, and education; we also hosted conferences for administrators, department chairpersons, principals and assistant principals, while working to help shape the New York State secondary schools social studies curriculum. For the educators, the collaboration has provided much needed additional resources, ideas, and training; for the Bank, the time and resources devoted to these efforts helps us to fulfill our community responsibility while raising the readiness for work of thousands of students in the region from whom we, and perhaps you, will draw to meet future human resource needs. <p> Let me give you an idea of some of the more successful of my Bank&#39;s programs: <p>
+      <blockquote> (1) &quot;The Econ Explorers Club&quot; is aimed at elementary and middle school students, ages 9-13. Students receive assignments that require them to gather information, collect and chart data, interview workers in various occupations, and write letters. &quot;Explorers&quot;, for example, might go to a bank, collect a bank account application, fill it out, have discussions with a platform officer, and so forth. By so doing, they find out what the savings process is all about. Hundreds of students a year participate and get Explorers Club patches and membership cards, and the program costs the New York Fed less than $1,000 a year. <p> (2) &quot;In the Shoes of a Fed Policy-maker&quot; is intended to teach high school teachers. This program brings a couple of dozen teachers to the Bank for four days in the summer in order to gain a better understanding of how policy is made and implemented. Throughout their stay, they do as I might in the days prior to an FOMC meeting -- they get the same kinds of briefings, read the same kinds of reports, meet with the same staff members as I do. We bring the participants to our trading floors and allow them to interview traders from within the New York Fed and from Wall Street firms. The session ends with a mock FOMC meeting in our board room that culminates in the formulation of a policy recommendation. By the end of the four days, the educators know intimately about the monetary policy process, and they can teach other teachers and their students much more accurately. Cost to the Bank: a few dollars and a bit of the time of some of our staff. <p> (3) Our most widely joined program, &quot;The Fed Challenge,&quot; is a competition among high school students that has earned national recognition, though it&#39;s only in its second year. One team of five students from each participating school has 20 minutes to present an analysis of current economic conditions, a forecast, and a monetary policy prescription before a panel of judges consisting of senior-level New York Fed staff; the judges then have 10 minutes to pepper the teams with questions, and believe me, the judges pull no punches. Scoring is based on the thoroughness and accuracy of the presentation, presentation skills, and teamwork. This year, 40 high schools from the metropolitan area took part with four schools from the Buffalo area. <p> On April 16, we crowned our District&#39;s champion, from Matawan High School in New Jersey, and the runner-up, from Edward R. Murrow High School in Brooklyn. The team from Matawan delivered a rigorous multimedia analysis and demonstrated presentation skills with a quality that would make any professional group proud. They will go on to the national finals next week in Washington to compete against the champions from the Boston, Richmond and Dallas Federal Reserve Districts. <p> Regardless of who wins &quot;The Fed Challenge,&quot; the activity has energized thousands of students and teachers in more than 130 schools nationally. Whole classes got involved in doing research, gathering data and reports, preparing audio-visual materials, writing scripts and directing production. Each and every one of these skills will make the participants not only better students but more productive workers in the years ahead as their careers develop. </blockquote>
+    <p> In addition to &quot;The Fed Challenge&quot; and our other innovative programs, the New York Fed engages in a range of more traditional collaborations with schools, including a Join-a-School partnership, summer internships, a mentoring program and several career days. We also provide intellectual support to Classroom, Inc., a non-profit organization that has created outstanding computer-based simulations of enterprises in various industries. These simulations teach everything from basic accounting skills to ethics by placing students in situations that require them to write, calculate, solve practical problems and make sound business judgments. <p> All of these collaborations have the benefit of improving the preparation of teachers and the performance of students. They also involve staff of the Federal Reserve at all levels, encouraging volunteerism and civic pride, while providing concrete opportunities to participate actively in the achievement of a major objective of our institution. While the specifics of the New York Fed&#39;s programs focus on what we do, there is no doubt that everyone in this room has the potential to engage in similar projects in your areas of specialization. It&#39;s good business to do so, and it responds to a major civic imperative. <p> For most of the public, the reputation of the Federal Reserve will continue to be measured mainly by our success in promoting economic growth with price stability, rather than by our interactions with educators and students. Over the months and years ahead, I will continue to advocate a monetary policy that promotes price stability, without which long-term economic growth will not be possible. Such a policy stance would be favorable, not just for the nation but for our region as well. The New York City area, with its many interest rate-sensitive industries, has prospered when decision-makers in the public and private sectors could have confidence that the Federal Reserve was committed to a rigorous set of policies that promoted price stability, in a growth-oriented economic environment. Price stability also promotes innovation and confidence, both of which lead to jobs, and it paves the way for the entrepreneurship that gives hope for the future to the people who live here. <p> Our monetary policy roles notwithstanding, the New York Fed also must respond to the social needs of our community. In that context, my Bank will continue to work both independently and with community leaders to help make the Second Federal Reserve District a better place to live and work. We firmly believe that our efforts to improve educational opportunities contribute to that mission, though we remain very aware of the challenges that lie ahead to narrow the gap in income and wealth among groups. <p> I encourage you to join with me and many others in committing our organizations and ourselves more fully to the task of meeting this challenge head on. <p> Thank you very much. <p>
+      <br>
+      <br>
+  </div>
+
+
+</div>
+<div class="grid_4 push_2">
+    
+<div>
+
+</div>
+</div>
+        <!-- end main content -->
+        <!--/PAGEWATCH-->
+        
+<!-- COOKIE CONSENT START -->
+<style>
+#myCookieConsent {
+    z-index: 999;
+    min-height: 20px;
+    font-family: RobotoCondensedRegular;
+    padding: 10px 20px;
+    background: #3b4045;
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    display:none;
+    right: 16px;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+#myCookieConsent div {
+    padding: 0;
+}
+#myCookieConsent a {
+    color: #A6D9F0;
+    display: inline-block;
+    padding: 0 0px;
+}
+#myCookieConsent a:hover {
+	color: #A6D9F0;
+}
+#myCookieConsent a#cookieButton {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+#myCookieConsent a#cookieButton:hover {
+    
+
+}
+/*Social Media Footer Styles*/
+#social_media_footer svg {
+	overflow: hidden;
+	background: #fff;
+	width: 26px;
+	height: 26px;
+        margin-bottom:1px;
+}
+#social_media_footer svg#social-twitter:hover {
+	overflow: hidden;
+	background: #000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-youtube:hover {
+	overflow: hidden;
+	background: #FF0000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-linkedin:hover {
+	overflow: hidden;
+	background: #0072b1;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-email:hover {
+	overflow: hidden;
+	background: #731A8B;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-instagram:hover {
+	overflow: hidden;
+	background: #ff0076;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-facebook:hover {
+	overflow: hidden;
+	background: #4267B2;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+</style>
+</style>
+<script type="text/javascript">
+$(document).ready(function(){   
+var d = new Date(); 
+var day = d.getDate(); 
+if(sessionStorage.getItem('bannerSeen') != day){
+    $("#myCookieConsent").fadeIn();
+    sessionStorage.setItem('bannerSeen',day);
+
+   $("#cookieButton").click(function() {
+ 
+       $("#myCookieConsent").fadeOut();
+})
+var expireTime = 24000*60*60; 
+setTimeout(function() {
+    sessionStorage.removeItem('bannerSeen');
+}, expireTime);
+} 
+}); 
+
+</script>
+<div id="myCookieConsent">
+	
+	<div>By continuing to use our site, you agree to our <a id="terms-of-use" href="/privacy/termsofuse">Terms of Use</a> and <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>. You can learn more about how we use cookies by reviewing our <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>.&nbsp;&nbsp;&nbsp;<a id="cookieButton" title="Close"><img alt="Close" src="/medialibrary/media/footer/close-notice.png"/></a></div>
+</div>
+<!-- COOKIE CONSENT END -->
+
+<div class="space60"></div>
+<div id="footer" class="container_12">
+	<div class="grid_2 omega" id="social_media_footer">
+<!-- TWITTER -->
+<a title="X" target="_blank" href="https://x.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'X formerly Twitter']);"><svg id="social-twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+ <g>
+    <g id="Layer_7">
+      <path class="cls-1" d="M18.1,14.3l8-9.3h-1.9s-7,8.1-7,8.1l-5.6-8.1h-6.4s8.4,12.3,8.4,12.3l-8.4,9.8h1.9s7.4-8.6,7.4-8.6l5.9,8.6h6.4s-8.7-12.7-8.7-12.7h0ZM15.4,17.3l-.9-1.2L7.8,6.4h2.9s5.5,7.8,5.5,7.8l.9,1.2,7.1,10.2h-2.9s-5.8-8.3-5.8-8.3h0Z"/>
+    </g>
+  </g>
+</svg></a>
+<!-- YOUTUBE -->
+<a title="YouTube" target="_blank" href="https://www.youtube.com/user/TheNewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'YouTube']);"><svg id="social-youtube" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st1" d="M23,7.9C19.7,7.6,12.3,7.6,9,7.9c-3.6,0.2-4,2.4-4,8.1c0,5.7,0.4,7.9,4,8.1c3.3,0.2,10.7,0.2,14.1,0
+	c3.6-0.2,4-2.4,4-8.1C27,10.3,26.6,8.1,23,7.9z M13.2,19.7v-7.4l7.4,3.7L13.2,19.7z"/>
+</g>
+
+</svg></a>
+<!-- LINKEDIN -->
+<a title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/federal-reserve-bank-of-new-york" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'LinkedIn']);"><svg id="social-linkedin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st0" d="M16.9,18.2c0-4.3,5.5-4.7,5.5,0V26h4.2v-9.4c0-7.3-7.8-7-9.7-3.4v-2.4h-4.2V26h4.2V18.2z"/>
+	<rect x="5.8" y="10.7" class="st0" width="4.2" height="15.3"/>
+	<path class="st0" d="M7.8,8.9c1.3,0,2.4-1.1,2.4-2.4S9.2,4,7.8,4S5.4,5.1,5.4,6.5S6.5,8.9,7.8,8.9z"/>
+</g>
+</svg></a>
+		<br />
+<!-- EMAIL -->
+<a title="Email" target="_blank" href="https://public.govdelivery.com/accounts/USFRBNEWYORK/subscriber/new?" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Email']);"><svg id="social-email" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path d="M16,16.6L5.5,8.1h21L16,16.6z M11.3,15l-5.8-4.7v10.9C5.5,21.3,11.3,15,11.3,15z M20.7,15l5.8,6.3V10.4
+		C26.5,10.4,20.7,15,20.7,15z M19.4,16.1L16,18.9l-3.4-2.7l-7.1,7.7h21L19.4,16.1z"/>
+</g>
+</svg></a>
+<!-- INSTAGRAM -->
+<a title="Instagram" target="_blank" href="https://www.instagram.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Instagram']);"><svg id="social-instagram" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+ <g>
+    <path class="cls-1" d="m23.19,3.5h-14.38c-1.27,0-2.49.51-3.39,1.41-.9.9-1.4,2.12-1.41,3.39v14.38c0,1.27.51,2.49,1.41,3.39.9.9,2.12,1.4,3.39,1.41h14.38c1.27,0,2.49-.51,3.39-1.41s1.4-2.12,1.41-3.39v-14.38c0-1.27-.51-2.49-1.41-3.39s-2.12-1.4-3.39-1.41h0Zm2.4,19.17c0,.64-.25,1.24-.7,1.69s-1.06.7-1.69.7h-14.38c-.64,0-1.24-.25-1.69-.7-.45-.45-.7-1.06-.7-1.69v-14.38c0-.64.25-1.24.7-1.69.45-.45,1.06-.7,1.69-.7h14.38c.64,0,1.24.25,1.69.7s.7,1.06.7,1.69v14.38Z"/>
+    <path class="cls-1" d="m16,10.14c-1.42,0-2.78.56-3.78,1.57-1,1-1.57,2.36-1.57,3.78s.56,2.78,1.57,3.78c1,1,2.36,1.57,3.78,1.57s2.78-.56,3.78-1.57c1-1,1.57-2.36,1.57-3.78s-.57-2.78-1.57-3.78-2.36-1.57-3.78-1.57h0Zm0,8.29c-.78,0-1.53-.31-2.09-.86-.55-.55-.86-1.3-.86-2.09s.31-1.53.86-2.09c.55-.55,1.3-.86,2.09-.86s1.53.31,2.09.86c.55.55.86,1.3.86,2.09s-.31,1.53-.86,2.08c-.55.55-1.3.86-2.08.86h-.01Z"/>
+  </g>
+  <circle class="cls-1" cx="22.38" cy="9.1" r="1.62"/>
+</svg></a>
+<!-- FACEBOOK -->
+<a title="Facebook" target="_blank" href="https://www.facebook.com/newyorkfed"><svg id="social-facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path class="st2" d="M16.7,14.3h-3.4v4.6h3.4v13.7h5.7V18.8h4.1l0.4-4.6h-4.6v-1.9c0-1.1,0.2-1.5,1.3-1.5H27V5.2h-4.3
+		c-4.1,0-5.9,1.8-5.9,5.3V14.3z"/>
+</g>
+</svg></a>
+  </div>
+	<div class="grid_2 dxt-group-1">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2"><a href="/outreach-and-education/speakers_bureau" title="Request a Speaker">Request a Speaker</a></li>
+          <li class="nav nav-level-2" id="nav-item-115"><a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="International Seminars &amp; Training">International Seminars &amp; Training</a></li>
+          <li class="nav nav-level-2" id="nav-item-470"><a href="/governance-and-culture-reform" title="Governance &amp; Culture Reform">Governance & Culture Reform</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 omega dxt-group-2">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2" id="nav-item-114"><a href="/data-and-statistics/data-visualization" title="Data Visualization" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Data Visualization']);">Data Visualization</a></li>
+          <li class="nav nav-level-2" id="nav-item-472"><a href="/digital-products/economic-research-tracker" title="Economic Research Tracker">Economic Research <br />Tracker</a></li>
+          <li class="nav nav-level-2" id="nav-item-114"><a href="https://markets.newyorkfed.org/static/docs/markets-api.html" title="Markets Data APIs" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Markets Data APIs']);">Markets Data APIs</a></li>
+          <li class="nav nav-level-2"><a href="/podcast" title="Podcast">Podcast</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 alpha dxt-group-3">
+       <ul id="nav-list-112-2" class="nav nav-level-1">
+          <li id="nav-item-117" class="nav nav-level-2"><a href="/contacts" title="Contact Us">Contact Us</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy/termsofuse" title="Terms of Use">Terms of Use</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy" title="Privacy" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Privacy']);">Privacy</a></li>
+<li class="nav nav-level-2"><a href="/sitemap" title="Site Map">Site Map</a></li>
+        </ul>
+  </div>
+	<div class="grid_1 dxt-group-4">
+    <a href="/aboutthefed/tips_and_complaints" title="Tips and Complaints">
+		<div id="fraud"></div>
+		</a>
+  </div>
+	<div class="grid_3 dxt-group-5">
+		<img src="/medialibrary/media/v4/images/Fed-seal.png" alt="Federal Reserve Bank Seal" id="footer_seal" title="Federal Reserve Bank Seal">
+  </div><div id="vsn"></div>
+</div>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ44JQ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start SiteImprove -->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6039721.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<!-- End SiteImprove -->
+
+
+
+    </div>
+<script type="text/javascript"  src="/8aGm1slI/sLH/3Oi/faSKEasyRz/G1kEzQJt8kNVkSL7/OxtkPw/OE1KNz8/ARwcC"></script></body>
+</html>

@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+
+<title>A Look at Fintech from the Inside to the Upside</title>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-196x196.png" sizes="196x196"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-128x128.png" sizes="128x128"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-16x16.png" sizes="16x16"/><meta itemprop="url" content="https://www.philadelphiafed.org/the-economy/banking-and-financial-markets/250410-a-look-at-fintech-from-the-inside-to-the-upside"  />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8 "/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta content="A Look at Fintech from the Inside to the Upside" property="og:title" />
+<meta content="Fintech and Financial Institutions Conference | Philadelphia, PA" property="og:description" />
+<meta content="https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/content/Speeches/Back-of-Presenter/SubsectionBanner-Back-of-Presenter.jpg" property="og:image" />
+<meta content="{F94CA6EF-CD43-4C05-BC55-27D10E5B476F}" property="og:type" />
+<meta content="https://www.philadelphiafed.org/the-economy/banking-and-financial-markets/250410-a-look-at-fintech-from-the-inside-to-the-upside" property="og:url" /><script src="/assets/js/init.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/pages/article/page.css" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KS5HGCQ');</script>
+    <!-- End Google Tag Manager -->
+
+
+    
+    
+<style>
+
+.data-release-archive-filter-result ul li a[href$=xlsx]:after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    margin-left: 1px;
+    margin-top: -4px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/svg/icon-utility/xlsx.svg);
+}
+
+</style>
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS5HGCQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="wrapper">
+        <header>
+            
+<div class="navigation" data-id="{FFAD35AC-8EBD-4021-9B89-F5BCF29A104E}" >
+    <div class="nav-logo">
+        <a href="/">Federal Reserve Bank of Philadelphia</a>
+    </div>
+    <div class="skip-links">
+        <a class="sr-only visible-when-focused" href="#content">skip to main content</a>
+        <a class="sr-only visible-when-focused" href="#footer">skip to footer</a>
+    </div>
+    <div class="nav-search">
+        <button type="button">Search</button>
+    </div>
+    <div class="nav-menu">
+        <button type="button"
+                aria-expanded="false"
+                id="nav-control-links"
+                aria-controls="nav-links">
+            Expand Menu
+        </button>
+    </div>
+    <nav id="nav-links" role="region" aria-labelledby="nav-control-links">
+        <ul class="nav-institution">
+                <li class="">
+                    <a class=" institution" href="/about-us">
+                    About Us
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/our-people">
+                    Our People
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" institution" href="/education">
+                    Education 
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" banking-finance" href="/banking">
+                    Banking
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/careers">
+                    Careers
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/calendar-of-events">
+                    Calendar of Events
+                    </a>
+                </li>
+        </ul>
+        <ul class="nav-topic">
+                <li   class="active"   data-topic="the-economy">
+                    <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy">
+                    The Economy
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-the-economy">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-the-economy" aria-labelledby="nav-sub-topic-label-the-economy">
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/monetary-policy">
+                                        Monetary Policy
+                                        </a>
+                                    </li>
+                                    <li   class="active"  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/banking-and-financial-markets">
+                                        Banking &amp; Financial Markets
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/macroeconomics">
+                                        Macroeconomics
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/regional-economics">
+                                        Regional Economics
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="consumer-finance">
+                    <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance">
+                    Consumer Finance
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-consumer-finance">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-consumer-finance" aria-labelledby="nav-sub-topic-label-consumer-finance">
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/payment-systems">
+                                        Payment Systems
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/consumer-credit">
+                                        Consumer Credit
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/education-finance">
+                                        Education Finance
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/mortgage-markets">
+                                        Mortgage Markets
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="community-development">
+                    <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development">
+                    Community Development
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-community-development">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-community-development" aria-labelledby="nav-sub-topic-label-community-development">
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/inclusive-growth">
+                                        Inclusive Growth
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/credit-and-capital">
+                                        Credit &amp; Capital
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/housing-and-neighborhoods">
+                                        Housing &amp; Neighborhoods
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/workforce-and-economic-development">
+                                        Workforce &amp; Economic Development
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="data">
+                    <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data">
+                    SURVEYS &amp; DATA
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-data">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-data" aria-labelledby="nav-sub-topic-label-data">
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/real-time-data-research">
+                                        REAL-TIME DATA RESEARCH
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/regional-economic-analysis">
+                                        Regional Economic Analysis
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/consumer-finance-data">
+                                        CONSUMER FINANCE DATA
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/community-development-data">
+                                        COMMUNITY DEVELOPMENT DATA
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+            <li class="nav-search">
+                <button type="button">Search</button>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+  FRBP.extend( 'components', {
+    id: '{FFAD35AC-8EBD-4021-9B89-F5BCF29A104E}',
+    name: 'global-nav',
+    element: document.querySelector( '[data-id="{FFAD35AC-8EBD-4021-9B89-F5BCF29A104E}"]' ),
+    options: {
+      searchPagePath: '/search-results', //url to search page (everything but the domain)
+      showSearchOverlay: true,
+      endpoint: '/api/suggest'
+    },
+    attributes: {"suggestedSearch":[{"title":"Manufacturing Business Outlook Survey","url":"/search-results?searchQuery=Manufacturing Business Outlook Survey"},{"title":"Housing Improvement","url":"/search-results?searchQuery=Housing Improvement"},{"title":"Workforce Development","url":"/search-results?searchQuery=Workforce Development"},{"title":"Economic Research","url":"/search-results?searchQuery=Economic Research"}]}
+  } );
+</script><nav class="breadcrumbs">
+    <ul>
+                <li>
+                        <a href=/>Federal Reserve Bank of Philadelphia</a>
+                </li>
+                <li>
+                        <a href=/the-economy>The Economy</a>
+                </li>
+                <li>
+                        <a href=/the-economy/banking-and-financial-markets>Banking and Financial Markets</a>
+                </li>
+                <li>
+A Look at Fintech from the Inside to the Upside                </li>
+    </ul>
+</nav>
+
+
+
+        </header>
+
+        <main id="content" tabindex="-1" class="page page-article">
+
+            <header>
+                
+            </header>
+
+            
+<div class="article-intro article ">
+
+        <div class="intro-image">
+            <picture>
+                    <source srcset="/-/media/FRBP/Assets/Images/content/Speeches/Back-of-Presenter/Tablet-Back-of-Presenter-md.jpg" media="(max-width: 767px)">
+                                    <source srcset="/-/media/FRBP/Assets/Images/content/Speeches/Back-of-Presenter/SubsectionBanner-Back-of-Presenter.jpg" media="(max-width: 1235px)">
+                <img itemprop="image" src="/-/media/FRBP/Assets/Images/content/Speeches/Back-of-Presenter/SubsectionBanner-Back-of-Presenter.jpg" alt="Shoulder and arm of a presenter, seen from behind, giving a speech to the audience" />
+            </picture>
+        </div>
+
+    <div class="intro-content the-economy">
+        <p class="icon-type-label icon-type-speech">Speech</p>
+
+        <h1 itemprop="name">A Look at Fintech from the Inside to the Upside</h1>
+
+            <div class="intro-author">
+
+<div class="author-img">
+
+                        <img src=/-/media/FRBP/Assets/Images/People/Executive-Leadership/Harker_Patrick_22_05.jpg alt="Patrick T. Harker" />
+                    </div>
+
+                <div class="author-desc">
+                    <p class="author-by">by</p>
+                        <a href=/our-people/patrick-t-harker class="author-name" itemprop="author">Patrick T. Harker</a>
+                    <p class="author-title">Former President and Chief Executive Officer (2015–2025)</p>
+                </div>
+            </div>
+
+        <p class="article-date-published" itemprop="datePublished">10 Apr ’25</p>
+
+        <p class="intro-excerpt" itemprop="description">Fintech and Financial Institutions Conference | Philadelphia, PA</p>
+
+        <div class="article-intro-footer">
+
+            <div>
+
+
+            </div>
+
+                <div class="download-share-intro">
+
+                    <p class="download-text">View PDF</p>
+                    <ul class="download-icons">
+                        <li class="share-circle-icon">
+                            <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2025/250410-Fintech-Financial-Speech.pdf" target="_blank">
+                                <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="download-share-icons article">
+
+    <div class="download-share">
+
+        <p class="share-text">Share</p>
+        <ul class="share-icons">
+
+                <li class="share-download-btn share-circle-icon">
+                    <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2025/250410-Fintech-Financial-Speech.pdf" target="_blank">
+                        <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                    </a>
+                </li>
+            <li class="share-circle-icon">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&amp;source=FRBP&amp;url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2Fbanking-and-financial-markets%2F250410-a-look-at-fintech-from-the-inside-to-the-upside&amp;title=A+Look+at+Fintech+from+the+Inside+to+the+Upside " target="_blank">
+                    <img src="/assets/images/svg/icon-social/linkedin-circle.svg" alt="LinkedIn">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2Fbanking-and-financial-markets%2F250410-a-look-at-fintech-from-the-inside-to-the-upside&amp;text=A+Look+at+Fintech+from+the+Inside+to+the+Upside" target="_blank">
+                    <img src="/assets/images/svg/icon-social/x-circle.svg" alt="X">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fbanking-and-financial-markets%2f250410-a-look-at-fintech-from-the-inside-to-the-upside" target="_blank">
+                    <img src="/assets/images/svg/icon-social/facebook-circle.svg" alt="Facebook">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.threads.net/intent/post?url=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fbanking-and-financial-markets%2f250410-a-look-at-fintech-from-the-inside-to-the-upside&amp;text=A+Look+at+Fintech+from+the+Inside+to+the+Upside" target="_blank">
+                    <img src="/assets/images/svg/icon-social/threads-circle.svg" alt="Threads">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="mailto:?subject=A+Look+at+Fintech+from+the+Inside+to+the+Upside&amp;body=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fbanking-and-financial-markets%2f250410-a-look-at-fintech-from-the-inside-to-the-upside" target="_blank">
+                    <img src="/assets/images/svg/icon-utility/mail-circle.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="article-body the-economy">
+    <p>Good afternoon and, once again, welcome to the Federal Reserve Bank of Philadelphia.</p>
+<p>My thanks to you all for being here, to Paul Laux and all the other organizers from the University of Delaware for leading the effort organizing this conference, and to my colleague Vitaly Meursault for his leadership on behalf of the Philly Fed.</p>
+<p>If there&rsquo;s one thing I&rsquo;ve learned during all my time as president and CEO of the Philly Fed, and before this as president of the University of Delaware and dean of the Wharton School at the University of Pennsylvania, it&rsquo;s to never speak more than necessary, especially when lunch is involved! So, I hope to keep my remarks relatively brief.</p>
+<p>As many of you may know, for each of the past seven years, the Philadelphia Fed has convened a fall conference focused mostly on the consumer side of the fintech space. This conference has helped make our Bank a thought leader at the heavily trafficked intersection of finance and technology.</p>
+<p>But, as I said, that fall meeting, while adding truly vital knowledge to the public sphere, has largely brought together practitioners. Today, we welcome the researchers and specialists whose work has been at the front end of the topics the fall conference covers. So here, we get to discuss the theoretical which underpins the practical. Put the two conferences together, and we are fully rounding out our understanding of fintech.</p>
+<p>Or, if I may use a truly Philly example, we now have both the soft pretzel and the mustard. Or the cheese and the steak. Or the &mdash; well, you get the idea.</p>
+<p>But before I dive further into any of this, I must first dispense with a small piece of official business &mdash; the standard Fed disclaimer! The views I present today are my own and do not necessarily represent those of my colleagues on the Federal Open Market Committee or within the Federal Reserve System.</p>
+<p>Now, I must begin by explaining why I take such a great interest in fintech, and why I am proud that, throughout my tenure as president and CEO of the Philly Fed, we have carved out our place in this field. For those of you who don&rsquo;t know me, I&rsquo;m not a trained economist. By education, I am an engineer. I came to economics, quite frankly, to help me solve an engineering problem! But, truth be told, over the subsequent years I have found, happily, that economics and engineering really aren&rsquo;t that far apart.</p>
+<p>Surely, I&rsquo;m not the first to have this revelation, either. In fact, John Hayford, who served as director of the College of Engineering at Northwestern University in the early 20th century, wrote an essay all the way back in 1917 for the <em>Journal of Political Economy</em> titled &ldquo;<a rel="noopener noreferrer" href="https://www.journals.uchicago.edu/doi/10.1086/252928" target="_blank">The Relation of Engineering to Economics</a>,&rdquo; in which he said:</p>
+<p style="margin-left: 40px;"><em>"Economics and engineering are closely related. Economics has been defined as the social science of earning a living. With the same appropriateness, engineering may be defined to be physical science applied to helping groups [. . .] to make a better living."</em></p>
+<p>When we take a deeper look at that statement, one word comes to mind: efficiency.</p>
+<p>Whether we come to a systemic challenge as an economist or as an engineer, the initial task is to measure whether that system is operating at optimal efficiency. That is the ultimate key to progress. And, if maximum efficiency isn&rsquo;t being achieved, then the goal becomes to get there.</p>
+<p>And few spaces allow for us to see this nexus of economics and engineering, and its broad impacts, quite like fintech. We have, over the course of not only the past century but also just within the past couple of decades, participated in a movement of society from one where cash went from being a tactile good &mdash; printed paper and minted metal &mdash; to becoming a digital good &mdash; a series of zeroes and ones. Fewer and fewer people are carrying physical wallets filled with currency in favor of metaphorical wallets and direct-payment apps on their smartphones.</p>
+<p>All within the span of a few years.</p>
+<p>The explosion of fintech options has been nothing short of a sea change in how we look at, interact with, and even conceive of money. Fintech has been a great disruptor, in a mostly positive meaning of that term.</p>
+<p>Through fintech, both individuals and institutions have been able to close transactions more quickly &mdash; just think of how many parents no longer have to snail-mail a check to their child at college when they can just send the funds over the internet. And fintech has also helped improve access to credit &mdash; again, why wait weeks to get cleared for a personal loan or mortgage when you can get an instant approval over an app.</p>
+<p>These advances appear to be an overwhelming victory for efficiency. But are they truly? Certainly, from a viewpoint of system speed, they are. Waiting for a check to travel across the country and clear surely takes more time than money sent through an instant payment app. But here I would ask us to think about whether speed should be our only measurement and defining ideal.</p>
+<p>This is particularly important when it comes to issues of AI and machine learning. I, for one, would heed the caution expressed by my colleague here at the Philadelphia Fed, Economic Advisor and Economist Lukasz Drozd, <a href="/the-economy/generative-ai-a-turning-point-for-labors-share">in a recent article</a>&nbsp;for our quarterly research journal:</p>
+<p style="margin-left: 40px;"><em>&ldquo;The concerning aspect of AI [. . .] is that it is a major general purpose technology with the potential to broadly and persistently tilt the incoming flow of new capital-productivity-augmenting innovations toward those that automate tasks, rather than augment the productivity of capital in previously automated tasks.&rdquo;</em></p>
+<p>To further refine my answer to this question of efficiency, I also turn to the book, <em><a rel="noopener noreferrer" href="https://www.cambridge.org/core/journals/business-history-review/article/abs/great-reversal-how-america-gave-up-on-free-markets-by-thomas-philippon-cambridge-ma-belknap-press-of-harvard-university-press-2019-xii-343-pp-figures-tables-glossary-appendix-references-index-cloth-2995-isbn-9780674237544/DDA9401A5EEF3D203B500ECB35C319CF" target="_blank">The Great Reversal</a></em>, by New York University economist and Max L. Heine Professor of Finance Thomas Philippon. I found his writings salient to the program of the fall fintech conference &mdash; and I find them perhaps even more so here.</p>
+<p>According to Philippon&rsquo;s research and data, the share of U.S. Gross Domestic Product claimed by financial intermediaries in 2010 was roughly 8 percent. In contrast, in 1880, it was 2 percent. And while this figure had bounced around a bit in the interim, it had never exceeded 6 percent until rapidly increasing in the 1980s. And from there it kept growing.</p>
+<p>Now, this growth should make sense to us given the proliferation of financial products and services over the past four decades and growth of jobs for those whose work has helped those products and services come to market. But the paradox that Philippon uncovered in this data is that the unit cost of financial intermediation &mdash; or the cost of providing a service to a consumer &mdash; had remained roughly constant around 2 percent.</p>
+<p>And that goes all the way back to the start of his data in the 1880s.</p>
+<p>This, as he stated, creates a puzzle &mdash; if we have so much more invested in the intermediary systems that enhance the operational speed at which our financial system works, why has the cost at the consumer&rsquo;s end remained steady? Now, his <a rel="noopener noreferrer" href="https://www.bis.org/publ/work841.pdf" target="_blank">subsequent research</a>, in which he added an additional five years of data, showed that this unit cost had decreased slightly from 2010 and 2015 yet still remained stubbornly close to that 2 percent level. But no one can claim that the financial system of 1880 is on par with 2025, let alone 2015, from a standpoint of operational efficiency.</p>
+<p>So, the overall question I believe we must ask is why hasn&rsquo;t this decrease been greater and more observable? Consumer choice has exploded as many barriers to entry have been scaled down or eliminated. And here is where we can welcome John Hayford back into the conversation, because here is where economics and engineering merge.</p>
+<p>And, to be sure, I don&rsquo;t mean &ldquo;here&rdquo; in the figurative sense for the purposes of my remarks, because they are actually converging at this conference.</p>
+<p>First, I would suggest that we have an invaluable opportunity to look anew at how new fintech applications are constructed, how they intend to operate, and which systems they intend to improve upon if not replace outright. The road from theory to practice is never a straight line, nor perhaps should it be. Research should lead to testing, which should feed back to additional research and then more testing, before a final product is rolled out to the market.</p>
+<p>And even then, even after that instance of commercialization, the work should not stop. We must go back and constantly evaluate the data and ensure that what worked on paper, and then in a controlled experimental setting, is now working at large. As we know, algorithms often need review.</p>
+<p>This is where the Federal Reserve&rsquo;s interests lie. It&rsquo;s why the efforts of Vitaly and his colleagues here who are focused on machine learning and AI are so critical. One of the core functions of the Federal Reserve, after all, is to ensure the stability of the United States&rsquo; financial system. So yes, we have an inherent role in ensuring fintech advances live up to their promise.</p>
+<p>Moreover, however, I would also offer that there is no inherent aversion to new technologies within the Fed &mdash; in fact, I would look no further than the FedNow instant payment system as an example of the Federal Reserve System bringing some of the same technologies available to consumers and implementing them for financial institutions.</p>
+<p>The underlying reason for our interest is the simple reality that technological innovation is happening, and if it&rsquo;s not happening here, it&rsquo;s happening somewhere else. And given the Federal Reserve System&rsquo;s preeminence in matters of financial stability and security, it is a no-brainer that we should seek to become not just thought leaders but thought-and-practice leaders. We may not be developing consumer products here within these walls but the research we are conducting in machine learning and AI, and even beyond into the realm of quantum computing, can certainly provide perspective for those who are doing the coding and creating.</p>
+<p>We know how important it is to ensure that new systems are built on a solid technological foundation. And by that I don&rsquo;t simply mean that an app is properly coded so it won&rsquo;t crash on the end user. I also mean that the data being used to underpin that app&rsquo;s function is properly utilized and stripped of potential biases.</p>
+<p>If the great promise of fintech is leveling the playing field and eliminating barriers to entry then we cannot risk having that promise broken because an imperfect algorithm, built around imperfect data, leads to a biased outcome. But let us take that a step further and imagine that multiple institutions or apps are utilizing the data. The impact of flawed data could fan out across the consumer landscape. And as we know from practice, reining in a bad algorithm is perhaps just a notch above trying to put toothpaste back into the tube.</p>
+<p>I would suggest that for all its immense promise, as a very first step, we must agree that machine learning is only as good as the data we&rsquo;re asking the machines to learn.</p>
+<p>And in this, perhaps we can find the solutions that will make both the John Hayfords and Thomas Philippons of the world happy &mdash; that at this nexus of finance and engineering we will not only be able to make systems run better and more smoothly for consumers and institutions, but also perhaps drop that unit cost of intermediation and deliver systemic savings.</p>
+<p>And that, I would say, would be a maximally efficient use of our efforts.</p>
+<p>So, with that, I shall conclude and allow you to enjoy what remains of your lunches and resume the conversations which began earlier this morning.</p>
+<p>I again thank you for your participation in this inaugural conference. I wish you all the best for a productive convening.</p>
+<div class="rte-container rte-footnotes">
+<div class="rte-footnotes-body">
+<ol class="with-disclaimer">
+    <li>The views expressed here are solely those of the author and do not necessarily reflect the views of the Federal Reserve Bank of Philadelphia or the Federal Reserve System.</li>
+</ol>
+</div>
+</div>
+
+        <a class="outline-button cta" href="/-/media/FRBP/Assets/Institutional/speeches/harker/2025/250410-Fintech-Financial-Speech.pdf" target="_blank">View the Full Speech</a>
+</div>
+    <aside class="related-content">
+            <div class="group-cards-article">
+                <h2>Related Content</h2>
+                <div class="cards-article-wrapper">
+                            <div data-content-type="working paper" class="card card-article consumer-finance">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/consumer-finance/consumer-credit">Consumer Credit</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-working-paper">
+                                            Working Paper
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=consumer-finance>
+                                            <h2>
+                                                <a href=/consumer-finance/consumer-credit/a-survey-of-fintech-research-and-policy-discussion>
+                                                    A Survey of Fintech Research and Policy Discussion
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><span itemprop="author">Franklin Allen</span>,&nbsp;</li><li class="author"><span itemprop="author">Xian Gu</span>&nbsp;&amp;&nbsp;</li><li class="author"><a href="/our-people/julapa-jagtiani" itemprop="author">Julapa Jagtiani</a></li>                                                        </ul>
+                                                        <p class="article-date">February 2021</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">WP 20-21/R - The intersection of finance and technology, known as fintech, has resulted in the dramatic growth of innovations and has changed the entire financial landscape.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="article" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy/macroeconomics">Macroeconomics</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-article">
+                                            Article
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/generative-ai-a-turning-point-for-labors-share>
+                                                    Generative AI: A Turning Point for Labor's Share?
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/lukasz-drozd" itemprop="author">Lukasz Drozd</a>&nbsp;&amp;&nbsp;</li><li class="author"><span itemprop="author">Marina M. Tavares</span></li>                                                        </ul>
+                                                        <p class="article-date">Q1 2024</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">Economic Insights — A big risk associated with artificial intelligence is its potential to trigger a once-in-a-lifetime decline in labor’s share of national income.</p>
+                                            <div class="article-tags tags">
+                                                    <a class="tag" href="/search-results/all-work?pageStart=1&amp;pageSize=12&amp;searchtype=economic-insights">Economic Insights</a>
+                                                    <a class="tag" href="/search-results/all-work?pageStart=1&amp;pageSize=12&amp;searchtype=labor-markets-and-opportunity">Labor Markets and Opportunity</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="working paper" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy/banking-and-financial-markets">Banking and Financial Markets</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-working-paper">
+                                            Working Paper
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/banking-and-financial-markets/the-role-of-bank-fintech-partnerships-in-creating-a-more-inclusive-banking-system>
+                                                    The Role of Bank-Fintech Partnerships in Creating a More Inclusive Banking System
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><span itemprop="author">Alan Chernoff</span>&nbsp;&amp;&nbsp;</li><li class="author"><a href="/our-people/julapa-jagtiani" itemprop="author">Julapa Jagtiani</a></li>                                                        </ul>
+                                                        <p class="article-date">October 2023</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">WP 23-21 – Fintech firms are often viewed as competing with banks. Instead, more recently, there has been growth in partnership and collaboration between fintech firms and banks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </aside>
+
+
+            <section class="cards"></section>
+
+            
+
+        </main>
+        <footer>
+            
+<div class="footer" id="footer" tabindex="-1">
+    <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <address>
+            <div class="contact-address circle-icon">
+                <p><p>Ten Independence Mall</p>
+<p>Philadelphia, PA 19106</p></p>
+            </div>
+            <p class="contact-phone circle-icon"><a href="tel:(215) 574-6000">(215) 574-6000</a></p>
+        </address>
+
+        <nav class="contact-social">
+            <ul>
+
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="linkedin-frbp" rel="noopener noreferrer" href="https://www.linkedin.com/company/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/linkedin-circle.svg?iar=0&amp;hash=03D1CA336F233706A0AD87B567E3B640" alt="LinkedIn" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/x-circle.svg?iar=0&amp;hash=2FE751E6EEC664CF758311B734D37798" alt="Twitter" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/PhillyFed">
+                        <img src="/-/media/FRBP/Assets/Images/social/youtube-circle.svg?iar=0&amp;hash=AF25ECB8538FB9764B3777ACF1E339FA" alt="YouTube" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/facebook-circle.svg?iar=0&amp;hash=93E67FCF22A31927339EF159BE9318E4" alt="Facebook" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="threads-frbp" rel="noopener noreferrer" href="https://www.threads.net/@philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/threads-circle.svg?iar=0&amp;hash=69A1107DD754B37AF5685A446257AA64" alt="Threads" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/instagram-circle.svg?iar=0&amp;hash=95774A86DAEFFDEC06946FDAABC3B050" alt="Instagram" />
+                        </a>
+
+                    </li>
+
+            </ul>
+        </nav>
+    </div>
+	<nav class="footer-pages">
+		<ul>
+				<li>
+
+					<a href="/about-us/privacy-notice">
+					Privacy Notice
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/newsroom">
+					Newsroom
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/subscriptions">
+					Subscribe
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/contact-us">
+					Contact
+					</a>
+
+				</li>
+
+		</ul>
+		<p class="copyright">Copyright 2026. All rights reserved. Federal Reserve Bank of Philadelphia</p>
+	</nav>
+
+</div>
+
+        </footer>
+    </div>
+    
+    <script src="/pages/article/page.js"></script>
+
+    <!-- /#wrapper -->
+<script type="text/javascript"  src="/txdPBecLCm65sWchKGd2OUnkvMk/1GOukLhrVQkLLLYk7S/Rx80Ag/eC/MEbg0fEFkB"></script></body>
+</html>

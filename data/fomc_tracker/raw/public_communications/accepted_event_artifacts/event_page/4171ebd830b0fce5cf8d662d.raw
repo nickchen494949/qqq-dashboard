@@ -1,0 +1,606 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>State of the Texas Economy: An Annual Update  - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs131219" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs131219" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2013" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2013/fs131219-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">State of the Texas Economy: An Annual Update </h1>
+                                                    <div class="dal-tagline">Remarks before the Dallas Breakfast Group</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        <p><span class="report-date">December 19, 2013</span> Dallas, Texas</p><div class="report-links">
+<ul>
+<li><a href="~/media/Documents/news/speeches/fisher/2013/fs131219.pdf">Speech in PDF</a></li>
+</ul>
+</div><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+<p>Thank you, Margaret [Keliher].</p>
+<p>Today I am going to talk about one  subject only: the Texas economy. As you know, just yesterday I was in  Washington for the meeting of the Federal Open Market Committee (FOMC). At the  end of the meeting, a statement was issued as to what that committee consisting  of the 12 Federal Reserve Bank presidents and six members of the Fed&rsquo;s Board of  Governors decided regarding the course of monetary policy; Chairman Bernanke  followed with a press conference. In keeping with our tradition, this morning I  will refrain from commenting on the decisions made. We are under a self-imposed  &ldquo;communication blackout&rdquo; regarding our views about macroeconomic developments  or monetary policy issues until after midnight tonight. So if you wish, call me  at home at 12:01 tomorrow morning and &hellip; incur the eternal wrath of my wife,  Nancy!</p>
+<p>Some of you have undoubtedly heard  Gen. Philip Sheridan&rsquo;s notable expression, &ldquo;If I owned Texas and hell, I would  rent out Texas and live in hell.&rdquo; Although he reportedly recanted his  statement, even a man as renowned for his cruelty as Gen. Sheridan would  certainly have changed his opinion if he were around today. It wouldn&rsquo;t have  taken him long after crossing the river Styx to realize that rather than  renting out Texas he would have been better off purchasing every bit of it. His  return on investment would have been astronomical. My hunch is that Sheridan would  want to live in Texas with you and me and would seek to rent out hell&mdash;perhaps to  the U.S. Congress, though it would have to be free of charge given their fiscal  predicament!</p>
+<h3>The Success of the Lone Star State</h3>
+<p>Here&rsquo;s why I believe Texas is attractive  to even the Gen. Sheridans of the world. The state&rsquo;s total output&mdash;the  equivalent of gross domestic product&mdash;is approximately $1.4 trillion, in the  neighborhood of countries like Australia and Spain. We produce more oil than  Venezuela or Norway and more natural gas than Canada or all 28 countries of the  European Union combined. And  we produce jobs like  gee-whiz. A job is the source of income and the root of security and wealth for  a productive people. Without income a person cannot consume and invest,  engaging the engines of economic growth. Most importantly, a job is the route  to dignity as we have historically defined it in America.</p>
+<h3>Jobs, Jobs, Jobs</h3>
+<p>For the past 23 years, Texas has outpaced the  country in job creation by a factor of more than 2-to-1. Here is a slide that  shows the percentage increase in jobs created by several large states and for  the U.S. as a whole since 1990:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c1.ashx"></p>
+<p>Note the dotted black line drawn  from the base of 100 in 1990. For the residents of the home of Motown or the  Empire State or the Land of Lincoln, this graph does not present a happy  picture. Since 1990, total employment growth in Michigan has been 5 percent, a  compound annual growth rate of 0.17 percent, a pace that is one-twelfth that of  Texas over the same period. New York and Illinois have not fared much better. </p>
+<p>If you zoom in on the period since  the onset of the financial crisis, you can see an even greater disparity in  employment growth trends for Texas vis-&agrave;-vis the other large U.S. states:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c2.ashx"></p>
+<p>In terms of jobs, Texas was one  of the last states to lose ground during the recession and then led the pack in  punching through employment levels that prevailed at the end of 2007. Fortunately,  all of the selected states shown in the chart appear to be recovering, albeit  rather slowly, from licks taken during the crisis. However, even the Empire  State can&rsquo;t compare, despite its devotees of the perspective captured by Saul  Steinberg&rsquo;s iconic 1976 cover of <em>New Yorker,</em> &ldquo;View of the World from  Ninth Avenue,&rdquo; depicting everything west of the Hudson River as a vast  wasteland. Compared to the view in 1976, Texas stands tall above all the  rest. Why is that?</p>
+<h3>Why Are Things Bigger (or Better) in Texas?</h3>
+<p>My friends in New York and other foreign places often criticize the  relative success of the Lone Star State. They like to argue that Texas may well  be creating more employment, but it is just low-wage jobs&mdash;the kind nobody  wants. Well, truth be told, while low-wage jobs grow faster in Texas than  elsewhere, so do all other jobs. As this next slide makes very clear, Texas also  leads the rest of the nation in creating middle-income and high-wage jobs:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c3.ashx"></p>
+<p>The U.S. ex-Texas has seen net job  destruction for middle wage earners over the past decade. Meanwhile, Texas has experienced  robust job creation for these important middle-income workers. Texas has not  been immune to growing income inequality or the larger issue of labor market  polarization, but the notion that Texas only creates minimum wage jobs is a  myth.</p>
+<h3>Diversification Helps</h3>
+<p>Another Texas-growth-miracle fable  I enjoy debunking goes like this: All of our state&rsquo;s job and wealth creation  comes from the booming energy industry. At the Dallas Fed, we account for the  influence of oil and gas on our state&rsquo;s welfare: Oil and gas extraction and  mining directly employ 2.5 percent of our workforce&mdash;two-point-five  percent. And the energy sector&rsquo;s total contribution to our state&rsquo;s total output  is roughly 11 percent. So, yes, it is true: We have a strong energy sector in  Texas. We are the No. 1 producer of oil and gas in the nation. I already  mentioned that we produce more oil than Venezuela and more natural gas than  Canada. </p>
+<p>On net, high energy prices do,  indeed, benefit Texans. But look at this slide of the number and diversity of  jobs created by sector thus far in 2013. The vertical axis is the number of  jobs created in thousands; the horizontal axis denotes the various job  categories and, in parentheses, the share of total jobs represented by each  category:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c4.ashx"></p>
+<p>Oil and gas and mining and their  support services accounted for 17,600 jobs, or 8 percent, of the 221,300 positions  created in Texas in January through October of this year. Of course, the oil  and gas sector has large multipliers, so the overall economic impact is greater  than just these 17,600 jobs. For example, a University of Texas at San Antonio study  estimates that the Eagle Ford Shale generated over $61 billion in economic  impact and supported 116,000 jobs in 2012. And this is just one of four  important oil and natural gas producing regions in the Eleventh Federal Reserve  District that the shale boom has significantly affected. In 2012, the Permian  Basin, Barnett, Haynesville and Eagle Ford accounted for 25 percent of U.S. oil  supply and 28 percent of U.S. natural gas supply.<a href="#n1">[1]</a></p>
+<p>Obviously, the oil patch has been a boon to Texas growth. But in 2013, trade,  transportation and utilities accounted for 45,300 jobs; leisure and hospitality,  43,300; professional and business services, 38,200; educational and health  services, 29,700; and construction, 19,100. As this chart shows, oil and gas is  but the sixth strongest source of job creation. Ours is a diversified economy,  creating jobs across the spectrum and in all income categories. </p>
+<h3>Blessed to Be  in Texas</h3>
+<p>Here are some other facts and figures that help round out the economic  picture of our state.</p>
+<p>In the housing sector, Texas  largely avoided the housing boom and bust that struck most of the nation. We  did not experience a housing bubble:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c5.ashx"></p>
+<p>Nor did we suffer a housing bust:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c6.ashx"></p>
+<p>It helped that a 1997 amendment  to the Texas Constitution allowed home equity loans and cash-out refinancing for  the first time in the state&rsquo;s history, but limited the amount of total debt (new  loan plus the first mortgage) to no more than 80 percent of a home&rsquo;s value.  Combined with other factors such as ample land availability and fewer  development and zoning restrictions, Texas housing stock increased during the last  decade&rsquo;s national boom without the rapidly rising home prices experienced elsewhere.  With borrowing under control and house prices relatively stable, the state  escaped the brunt of the housing sector fallout and experienced relatively few  underwater mortgages:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c7.ashx"></p>
+<p>As to the sector we at the  Dallas Fed supervise directly, fewer Texas banks have suffered net losses than in  the rest of the nation:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c8.ashx"></p>
+<h3>&iexcl;Viva M&eacute;xico!</h3>
+<p>Last, Texas is blessed to have a great neighbor to the  immediate south. The Mexican economy has a significant impact on our state; a fortunate  development for us, given that its economy is being transformed to a greater  degree than most people here in El Norte realize. Admittedly, Mexico hit a rough patch in the first  half of this year, but the Dallas Fed sees this as largely due to transitory  factors. </p>
+<p>It is surprising to many that Mexico recovered  more quickly from the Great Recession than the United States. Inflation in  Mexico has reached record lows after trending down for two decades following  important reforms: central bank independence in 1994 and adoption of inflation  targeting in 2001. Relatively low inflation, together with a stable  peso, has protected the purchasing power of the Mexican consumer and allowed income  and savings to grow. Further, after its horrific banking crisis in 1994&ndash;95 and  an ensuing decade of stagnant lending, Mexico&rsquo;s banking industry is well capitalized  and growing again, and financial access, while still limited, is expanding  quickly. </p>
+<p>Mexico has also remained a  staunch proponent of free trade. Exports and imports now make up 62 percent of  Mexican economic output versus 17.5 percent as recently as 1980. Since Mexico  joined the General Agreement on Tariffs and Trade (the forerunner of the World  Trade Organization) in 1986 and ratified the North American Free Trade  Agreement in 1994, it has forged 12 trade pacts with 44 nations.</p>
+<p>On the fiscal front, Mexico&rsquo;s  2012 budget deficit was a respectable 2.6 percent of GDP, which compares with 7  percent here. For all their differences, Mexican lawmakers have a commitment to  fiscal discipline. They adopted a balanced-budget rule in 2006 and have chosen  to abide by it rather than take the &ldquo;kick-the-can-down-the-road&rdquo; approach.</p>
+<p>With all the progress in the  macroeconomy, banking, finance and trade, structural reforms are what Mexico  now needs to catapult to a leadership role among emerging-market economies.  President Pe&ntilde;a Nieto appears to be doing just that, pushing forward with structural  modernization. Mexico might best be described, in economic parlance, as an &ldquo;emerged  country.&rdquo;</p>
+<h3>Exports,  Exports, Exports</h3>
+<p>Texas benefits from a stronger  Mexico in many ways, including on the export front. Here is a picture of the  export growth from our trade relationships with our increasingly successful southern  neighbor, as well as our other major trading partners:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c9.ashx"></p>
+<p>One noticeable takeaway from  this Texas export chart is the difference in the trajectory of the red and blue  lines. Since the beginning of 2009, Texas exports have grown more than 70  percent while the nation&rsquo;s exports, sans Texas, have increased at half that  pace and are only now back to prerecession levels.</p>
+<h3>A Great Place for Immigrants</h3>
+<p>Of course, not every facet of the  Texas economy is as supportive of the economic narrative expressed by the previous  charts. Texas lags most other states in social services. We are the antithesis  of the welfare state. And yet, if you believe people vote with their feet and  put their money where their mouth is, the balance Texas has struck between job  creation and social services seems appropriate enough to attract the diaspora from  the other mega-states. We draw massive inflows of business investment, and we  attract significant numbers of newcomers. In recent years, Texas has  consistently welcomed more migrants&mdash;foreign and domestic&mdash;than any other state.<a href="#n2">[2]</a></p>
+<p>Domestic migration is a brain and  human-resource gain for Texas and corresponding drain from sending states.  Texas transplants have higher levels of education than native Texans and fill  key niches in the high-skilled labor force. Since 2004, California has been the  largest sending state by far&mdash;nearly one-quarter of net domestic migration to  Texas between 2006 and 2012 came from California. In fact, so many Californians  have been moving to Texas in recent years that the price of a one-way, 26-foot  U-Haul rental truck from San Francisco to San Antonio is over twice the price  for the same truck traveling in the opposite direction.</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c10.ashx"></p>
+<p>Many of the high-skilled migrants coming  to our state are drawn to the high-tech, health care, professional and business  services, and energy sectors in the fast-growing &ldquo;Texas Triangle&rdquo;  cities&mdash;Austin, Houston and Dallas&ndash;Fort Worth. Internal Revenue Service tax  records suggest that over 80 percent of taxpayers who moved into Texas during  2000&ndash;10 flowed into these three metropolitan areas, which also experienced  significant inflows from other parts of Texas.</p>
+<p>Thus, it comes as no surprise that  these major metros have been huge contributors to the state&rsquo;s strong overall  employment growth. Year-to-date through October, Dallas&ndash;Fort Worth has added  87,400 jobs. The DFW metro area has maintained a year-over-year annual growth  rate greater than 2 percent since January 2011 (34 months and counting). Due south,  down Interstate 45, there&rsquo;s a new Houstonian every four minutes, given current  in-migration and net population growth trends. Houstonians are also on a  homebuying tear; this year the pace has averaged one home sale every six  minutes. In summary, Texas is attracting bright minds and eager workers from  across the nation, and we are all better off for it.<br>
+</p>
+<h3>And You Can&rsquo;t  Fault the Fed</h3>
+<p>There are many reasons that Texas is outpacing the nation in terms of  economic growth. But one thing I can tell you with absolute certainty is that  the underperformance of other large states, like California, relative to Texas has  nothing to do with Federal Reserve policy. After all, Texas is subject to the  same monetary policy as California and the other states of the union. Texans  pay similar interest rates on mortgages and on commercial and industrial and consumer  loans. We operate under the same federal regulatory regime governing banks and  financial institutions and compete in the same financial markets as the rest of  the nation. </p>
+<p>So what gives? If my charts did  not impress you, then perhaps the economic miracle of Texas can be best  explained by John Steinbeck&rsquo;s account of his travels across America with his  poodle, Charley, in 1960:</p>
+<blockquote>
+  <p>I have said that  Texas is a state of mind, but I think it is more than that. It is a mystique  closely approximating a religion. And this is true to the extent that people  either passionately love Texas or passionately hate it and, as in other  religions, few people dare to inspect it for fear of losing their bearings in  mystery or paradox. But I think there will be little quarrel with my feeling  that Texas is one thing. For all its enormous range of space, climate, and  physical appearance, and for all the internal squabbles, contentions, and  strivings, Texas has a tight cohesiveness perhaps stronger than any other  section of America. Rich, poor, Panhandle, Gulf, city, country, Texas is the  obsession, the proper study, and the passionate possession of all Texans. <a href="#n3">[3]</a> </p>
+</blockquote>
+<p>Steinbeck nailed it. Above all, Texas  is a state of mind where people are ready to work and get things done for the betterment  of their families, communities, cities and beyond. We should be proud, indeed,  to call the Lone Star State our home.<a href="#n4">[4]</a></p>
+<p>I usually end my speeches by  saying &ldquo;In the great tradition of central bankers, I would now be happy to  avoid answering your questions.&rdquo; But given that monetary policy is off  limits this morning, and I am never shy on Texas brag, I&rsquo;d be glad to answer  any and all of the questions you might have.</p>
+<p>Thank you.</p>
+
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<p>The views expressed by the author do not necessarily reflect official   positions of the Federal Reserve System.</p>
+<ol>
+  <li><a id="n1"></a>For more information on the shale boom  in the Eleventh District, see <a href="/research/econdata/energy.cfm">www.dallasfed.org/research/econdata/energy.cfm</a>.</li>
+  <li><a id="n2"></a>For an excellent report on how  immigration affects the Texas economy, see &ldquo;Gone to Texas: Immigration and the  Transformation of the Texas Economy,&rdquo; by Pia M. Orrenius, Madeline Zavodny and  Melissa LoPalo, Federal Reserve Bank of Dallas Special Report<em>,</em> November 2013, <a href="/~/media/Documents/research/pubs/gonetx.ashx">www.dallasfed.org/~/media/Documents/research/pubs/gonetx.ashx</a>.</li>
+  <li><em><a id="n3"></a>Travels with Charley: In Search of America</em>, by John Steinbeck, New York: Viking,  1962.</li>
+<li><a id="n4"></a>A personal favorite snapshot of the regional economy I receive weekly from my staff shows how the tide of economic data has been in our favor recently. One could not have asked for a better Christmas present:
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/131219c11.ashx"></p>
+</li>
+
+</ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

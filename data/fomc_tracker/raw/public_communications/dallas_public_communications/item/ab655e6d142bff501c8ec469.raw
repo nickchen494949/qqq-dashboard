@@ -1,0 +1,868 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Asia, Trade Deficits and the Health of the U.S. Economy - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060223" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060223" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs060223-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Asia, Trade Deficits and the Health of the U.S. Economy</h1>
+                                                    <div class="dal-tagline">Remarks before the Greater Dallas Asian American Chamber of Commerce</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">February 23, 2006
+</span> Dallas, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+                     <p>I want to thank the Greater Dallas 
+                          Asian American Chamber of Commerce for the opportunity 
+                          to speak here today. I was truly impressed to learn 
+                          that your organization is the largest Asian-American 
+                          chamber in the United States, with 1,200 members. </p>
+                        <p>Asian-Americans have achieved 
+                          remarkable success and are a shining example of what 
+                          can be achieved in this ongoing, unfinished experiment 
+                          we call America. If you take a look at the Census Bureau&rsquo;s 
+                          Current Population Survey, you will see that the average 
+                          income of Asian households was $56,664&mdash;more than 
+                          $12,000 above the U.S. average of $44,473. But the importance 
+                          of the Asian-American community is not measured only 
+                          by income level. You have ties to a wide range of countries 
+                          where I spent a great deal of time during the second 
+                          four years of the Clinton administration negotiating 
+                          market-opening trade agreements&mdash;China, Japan, 
+                          Korea, Taiwan, Vietnam, India and many others. The economies 
+                          of Dallas and of Texas benefit from the presence of 
+                          the many internationally savvy businesspeople who belong 
+                          to this chamber.</p>
+                        <p>You are part of a growing economic 
+                          connection between Texas and Asia. I am not sure how 
+                          many of you know that Texas ranks No. 1 among the states 
+                          in exports&mdash;with 14.5 percent of the U.S. total, 
+                          eclipsing California&rsquo;s 13 percent. Mexico, of 
+                          course, is far and away our leading foreign market due 
+                          to geographic proximity, but Asia has become quite important, 
+                          too. Overall, nations across the Pacific buy 24 percent 
+                          of our exports, more than twice Canada&rsquo;s share. 
+                          Five of Texas&rsquo; top seven overseas markets are 
+                          in Asia&mdash;China, Korea, Taiwan, Singapore and Japan. 
+                          China has been Texas&rsquo; fastest growing export market 
+                          since 2002. </p>
+                        <p>Texas&rsquo; growing exports are 
+                          just part of the larger topic I want to talk about today: 
+                          the global economy and America&rsquo;s position in it. 
+                          Before doing so, I&rsquo;ll issue the standard disclaimer 
+                          of all Federal Reserve officials and those who sit on 
+                          the Federal Open Market Committee: My views are just 
+                          that&mdash;my own, assisted greatly by the magnificent 
+                          research team backing me up at the Dallas Fed.</p>
+                        <p>The U.S. economy is strong and 
+                          very competitive. The economy is in something of a sweet 
+                          spot right now. We have faced terrorist attacks and 
+                          natural disasters, and yet our economy continues to 
+                          steam along at a pace that forecasters estimate will 
+                          in this current quarter be somewhere north of 4 percent, 
+                          net of inflation. A total of 135 million Americans are 
+                          at work. Unemployment has dropped to 4.7 percent, the 
+                          lowest rate in four years. The underlying trend of core 
+                          inflation has been running at roughly 2 percent, despite 
+                          record-high energy prices. </p>
+                        <p>Our economy is performing well, 
+                          but we all know about threats to our long-term prosperity 
+                          and what needs to be done to prevent them from metastasizing. 
+                          In addition to protecting our nation from Al Qaeda and 
+                          other aggressors, on top of most lists would be the 
+                          urgent need to rein in the fiscal deficits, solve the 
+                          long-term imbalances built into our retirement and health 
+                          care systems, and repair our educational system. </p>
+                        <p>Some will argue that we also need 
+                          to protect ourselves from new sources of competition, 
+                          like China and India. Indeed, there is a movement afoot 
+                          in the Senate to impose a 27.5 percent levy on $243 
+                          billion of Chinese imports; in effect, it seeks to make 
+                          American consumers and other importers pay a tax of 
+                          $67 billion to protect themselves from cheap imports 
+                          from China. Today, I am going to argue that that is 
+                          precisely the wrong thing to do&mdash;not because it 
+                          is readily transparent that an onerous tax on Chinese 
+                          imports would be inflationary or because it would simply 
+                          lead to the displacement of imports from China to other 
+                          foreign sources, such as Vietnam. The underlying instinct 
+                          implicit in this proposal&mdash;that we must protect 
+                          ourselves from competition&mdash;is, in my humble opinion, 
+                          faulty. We should embrace competition and exploit it 
+                          to continue making ourselves even stronger.</p>
+                        <p>But first, let me put the United 
+                          States in perspective.</p>
+                        <p>The United States produces $12.6 
+                          trillion a year in goods and services. That is big. 
+                        </p>
+                        <p>How big? Well, the Twelfth Federal 
+                          Reserve District, headquartered in San Francisco, produces 
+                          more output than all of China. The Eleventh District, 
+                          headquartered here in Dallas, produces 20 percent more 
+                          than India.</p>
+                        <p>The incremental growth of the 
+                          U.S. economy is in and of itself impressive. Let&rsquo;s 
+                          be conservative and assume we grow in 2006 at last year&rsquo;s 
+                          estimated rate of 3.5 percent, a rate that stands a 
+                          good chance of being recalibrated upward when the final 
+                          numbers are done. Growing at 3.5 percent for a year, 
+                          we add $440 billion in incremental activity. That exceeds 
+                          the entire output of all but 15 other countries. Every 
+                          year, we create the economic equivalent of two Indonesias, 
+                          three Thailands, four Malaysias or 11 Vietnams. Year, 
+                          after year, after year. </p>
+                        <p>In dollar terms, America&rsquo;s 
+                          3.5 percent is equivalent to surges of 16 percent in 
+                          Germany, 20 percent in the U.K., 26 percent in China 
+                          and 70 percent in India.</p>
+                        <p>Of course, our growth is driven 
+                          by consumption, a significant portion of which is fed 
+                          by imports, which totaled $2 trillion last year. Our 
+                          annual imports&mdash;what we buy in a single year from 
+                          abroad&mdash;exceed the total output, the GDP, of all 
+                          but four other countries. Our consumption provides a 
+                          significant impetus for economic growth in the rest 
+                          of the world. </p>
+                        <p>We buy from the world a heck of 
+                          a lot more than we sell. Last year, the trade deficit 
+                          was estimated to have been $726 billion, a mighty big 
+                          amount. A fourth of that was with China.</p>
+                        <p>Some see this as a threat. After 
+                          the recent trade deficit was announced, the <em>Financial 
+                          Times</em> of London quoted one commentator as saying, 
+                          &ldquo;These exploding deficit numbers are not a sign 
+                          of strength; they are a sign of weakness. They indicate 
+                          a slow bleeding at the wrists economically for the United 
+                          States.&rdquo; </p>
+                        <p>Some very influential policymakers 
+                          and analysts, maybe even some of you in this very audience, 
+                          are tempted to agree.</p>
+                        <p>Before doing so, I would respectfully 
+                          suggest that they do some simple math.</p>
+                        <p>Let&rsquo;s examine the assertion 
+                          that trade deficits are a sign of weakness by going 
+                          back to look at what has happened to the U.S. economy 
+                          since we last ran a trade surplus in 1975. Since that 
+                          year, we have been running trade deficits that increase 
+                          with each successive decade: to one-half of 1 percent 
+                          of GDP in 1980, 1.3 percent of GDP in 1990, 3.9 percent 
+                          of GDP in 2000 and 5.8 percent of GDP last year. </p>
+                        <p>Has the economy weakened? Here 
+                          are the numbers. You be the judge.</p>
+                        <p>In 2005 dollars&mdash;that is, 
+                          adjusted for inflation&mdash;per capita GDP in 1975 
+                          was $22,383. Today, it&rsquo;s $42,047.</p>
+                        <p>In 2005 dollars, per capita disposable 
+                          personal income in 1975 was $17,019. Today, it&rsquo;s 
+                          $30,429.</p>
+                        <p> In 2005 dollars, mean household 
+                          net worth was $195,000 at the end of 1975. Today, it&rsquo;s 
+                          $434,000.</p>
+                        <p>What these numbers tell us is 
+                          that since 1975, the American people have become better 
+                          off by a factor of two. </p>
+                        <p>What about those among you who 
+                          are investors? How have you done? </p>
+                        <p>The Standard & Poor&rsquo;s 
+                          500 Index closed 1975 at 90. It closed yesterday over 
+                          14 times higher, at 1,292. </p>
+                        <p>The Dow Jones industrial average 
+                          closed at 852 in 1975. Last night the Dow closed at 
+                          11,137.</p>
+                        <p>The purchasing power of consumers 
+                          and investors has increased to a far greater degree 
+                          than just their income levels and net worth because 
+                          many of the things we buy and use have become better 
+                          at ever-cheaper prices since 1975.</p>
+                        <p>In 1975, a 19-inch Sears color 
+                          TV cost $359.95 and a 25-inch console was $599.95. Today, 
+                          a 20-inch Magnavox is $118.99 and a Sharp 27-inch model 
+                          is $200.99. Today&rsquo;s models have a much better 
+                          picture, last longer, use less electricity and come 
+                          with a whole host of added features, such as remote 
+                          control.</p>
+                        <p>The first PC, the Apple I computer, 
+                          sold for $667 in 1976. It ran at the speed of 1 to 2 
+                          megahertz and had a 4k memory. Just $500 spent today 
+                          on, say, a Dell Dimension E310 with a Pentium 4 processor 
+                          will get you 2.87 billion times the processing power 
+                          and millions of times the memory, with a free flat-panel 
+                          screen and lots of other features.</p>
+                        <p>In 1975, when I graduated from 
+                          Stanford Business School, they didn&rsquo;t have very 
+                          sophisticated handheld calculators for financial analysts. 
+                          In 1981, I bought this little guy, an HP12C calculator, 
+                          which most investors will tell you is all you need to 
+                          do the financial calculations of portfolio management. 
+                          I use it to this day. It cost me $150. A couple of days 
+                          ago, if you were to have looked on eBay as I did, you 
+                          could have bought an HP12C for $5.</p>
+                        <p>What the numbers tell you is that 
+                          we are far richer as individuals and as a nation than 
+                          when we last ran a trade surplus. We are hardly &ldquo;bleeding 
+                          at the wrists economically&rdquo; or becoming weaker 
+                          as we have incurred trade deficits.</p>
+                        <p>This is not to say that we can 
+                          sit back, indifferent to the future. Presently, what 
+                          we buy&mdash;oil from the OPEC countries, consumer electronics 
+                          from the Asians, foodstuffs from Mexico&mdash;comes 
+                          from countries that are not providing significant outlets 
+                          at home for investing their savings. To continue to 
+                          finance our external trade and current account imbalances, 
+                          we have to be a magnet for the world&rsquo;s surplus 
+                          capital, attracting the investment money of those from 
+                          whom we buy goods and services. The process recycles 
+                          the money we pay out for purchases abroad back into 
+                          our economy in the form of investments that make us 
+                          richer, stronger and better positioned to compete more 
+                          aggressively in trade markets.</p>
+                        <p>Here is the point: To be able 
+                          to afford what we consume, we must continually improve 
+                          ourselves. We must continue moving up the value-added 
+                          ladder while others replace the work we used to do on 
+                          the ladder&rsquo;s lower rungs.</p>
+                        <p>One of my favorite economists 
+                          was a Czech-born professor from my alma mater named 
+                          Joseph Schumpeter. He coined a term that appears to 
+                          be a contradiction in terms but captures the essence 
+                          of what is required to succeed in a fiercely competitive 
+                          world: &ldquo;creative destruction.&rdquo; The United 
+                          States has harnessed this process and made it work to 
+                          constantly improve our global economic standing. Americans 
+                          are masters of creative destruction.</p>
+                        <p>What do I mean when I say that? 
+                          Well, let&rsquo;s go back to the original expression 
+                          of the term.</p>
+                        <p>In his book <em>Capitalism, Socialism, 
+                          and Democracy</em>, Schumpeter wrote the following: 
+                          &ldquo;The fundamental impulse that sets and keeps the 
+                          capitalist engine in motion comes from the new consumers&rsquo; 
+                          goods, the new methods of production or transportation, 
+                          the new markets, the new forms of industrial organization&hellip;[and] 
+                          incessantly revolutionizes the economic structure<em> 
+                          from within</em>, incessantly destroying the old one, 
+                          incessantly creating a new one. This process of Creative 
+                          Destruction is &hellip; what every capitalist concern 
+                          has got to live in.&rdquo;</p>
+                        <p>In his book, <em>Business Cycles</em>, 
+                          Schumpeter wrote: &ldquo;A railroad through new country, 
+                          i.e., country not yet served by railroads, as soon as 
+                          it gets into working order upsets all conditions of 
+                          location, all cost calculations, all production functions 
+                          within its radius of influence; and hardly any &lsquo;ways 
+                          of doing things&rsquo; which have been optimal before 
+                          remain so afterward.&rdquo;</p>
+                        <p>Here is where China and India 
+                          and all the bristling new economic entrants come in. 
+                          They are today&rsquo;s equivalent of Schumpeter&rsquo;s 
+                          railroads. They and the phenomenon of globalization 
+                          are agents of creative destruction writ large. From 
+                          now on, hardly any way of doing things which used to 
+                          be optimal will ever be so again. </p>
+                        <p>Creative destruction is by no 
+                          means painless. Let&rsquo;s go back to 1975 again.</p>
+                        <p>Since 1975, as we started down 
+                          the path of running ever-larger trade deficits, over 
+                          141 million Americans have filed unemployment claims. 
+                          If you assume that there are others who either didn&rsquo;t 
+                          qualify to file or didn&rsquo;t bother, you might reasonably 
+                          conclude that 175 million jobs have been lost since 
+                          1975. That is the destructive side of creative destruction. 
+                          That is the painful side for people like my dad who 
+                          lost their jobs and more than once had to retrain for 
+                          another one.</p>
+                        <p>But then the creative side steps 
+                          forward. Since 1975, the economy has replaced the jobs 
+                          lost and more, adding another 57 million net new jobs 
+                          to accommodate youth entering the workforce, a surge 
+                          in immigrants and&mdash;very important&mdash;significant 
+                          numbers of women who joined and enriched the workplace. 
+                          This is the gratifying part of the process. This is 
+                          the good news. If we create the conditions to let our 
+                          private sector do what it does by its very nature&mdash;constantly 
+                          adapt and reposition itself&mdash;then we have nothing 
+                          to fear from competition from our trading partners, 
+                          including those with whom we presently run big deficits.</p>
+                        <p>We do, indeed, have some tough 
+                          competitors out there.</p>
+                        <p>But we have some unique advantages.</p>
+                        <p>America&rsquo;s economy encourages 
+                          change. We provide a healthy environment to nurture 
+                          entrepreneurs. We have not saddled the private sector 
+                          with regulations that interfere with hiring and firing 
+                          or dictate outmoded methods of production. </p>
+                        <p>Consider this: Starting a business 
+                          takes five days in the United States, compared with 
+                          45 days in Germany, 108 in Spain and no one knows how 
+                          many in China. We let labor, capital and companies compete&mdash;within 
+                          the country and with the rest of the world. Our economy 
+                          continually reorganizes itself to take advantage of 
+                          new technologies, freeing labor from old jobs so it 
+                          can move to new, higher-value uses. </p>
+                        <p>The agent of reorganization is 
+                          not the government or the central bank but the talent 
+                          of our business managers, something that economists 
+                          rarely talk about. These managers are the key to our 
+                          continued adaptation and growth. They are our greatest 
+                          comparative advantage.</p>
+                        <p>I like to say that the managers 
+                          in our business community serve as the nerve endings 
+                          in Adam Smith&rsquo;s invisible hand, stretching capitalism&rsquo;s 
+                          fingers into every corner of the world to extract value 
+                          at the lowest cost&mdash;in order to enhance productivity. 
+                        </p>
+                        <p>I am not talking just about CEOs 
+                          who get paid big bucks. I am talking about the millions 
+                          of middle managers who operate supply chains, control 
+                          inventories and fine-tune operations. </p>
+                        <p>Every day, these managers get 
+                          up and go to work to exploit those competitors who come 
+                          to market with cheaper products by buying those products 
+                          and using them as inputs for providing better deals 
+                          to their customers. </p>
+                        <p>They are the masters of the best 
+                          manifestation of &ldquo;creative destruction.&rdquo; 
+                        </p>
+                        <p>They are the folks who exert the 
+                          gravitational pull for the recycling of those monies 
+                          we pay out to secure cheaper inputs. Their ability to 
+                          wring value out of all sources, everywhere, is what 
+                          makes the United States the preferred risk-adjusted 
+                          destination for surplus investment monies.</p>
+                        <p>They are the people who enable 
+                          us to finance our external deficits, and inevitably 
+                          redress them.</p>
+                        <p>They are the key to our transforming 
+                          what some perceive as a weakness into a fundamental 
+                          strength.</p>
+                        <p>As long as the Federal Reserve 
+                          does its job of holding inflation at bay, and as long 
+                          as our political leaders resist protectionism and let 
+                          the private sector get on with its work, we will remain 
+                          the world&rsquo;s predominant economic machine. If we 
+                          resort to protectionism and other forms of interference 
+                          with creative destruction, then we will indeed be slitting 
+                          our own wrists, draining the world of the lifeblood 
+                          of U.S. economic growth.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

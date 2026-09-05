@@ -1,0 +1,645 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A Perspective on Oil - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, kaplan, energy, oil" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, kaplan, energy, oil" />
+        <meta property="og:title" content="A Perspective on Oil" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/kaplan/2018/rsk180619" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="This essay lays out the key factors the Dallas Fed closely tracks in analyzing the global energy markets and in considering the impact of oil prices on economic conditions in the U.S. " />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/kaplan/2018/rsk180619" />
+        <meta name="twitter:title" content="A Perspective on Oil" />
+        <meta name="twitter:description" content="This essay lays out the key factors the Dallas Fed closely tracks in analyzing the global energy markets and in considering the impact of oil prices on economic conditions in the U.S. " />
+        <meta name="twitter:image" content="" />
+        <meta name="dal_year" content="2018" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<div class=""><a href="/news">News and Events</a><a href="/careers">Careers</a></div></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<div class=""><a href="/news">News and Events</a><a href="/careers">Careers</a></div></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/kaplan" class="breadcrumb-item dal-crumb__item">Essays and speeches by former President Robert S. Kaplan, 2015&ndash;21</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/kaplan/2018/rsk180619-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Essay by President Robert S. Kaplan</div>
+                                                        <h1 class="dal-headline">A Perspective on Oil</h1>
+                                                                    <div class="dal-inline-list">
+
+                    </div>
+                        
+                        <p><span class="date">June 19, 2018</span> <!-- <a href="/-/media/Documents/news/speeches/kaplan/2018/rsk180619.pdf" class="hidden-print">Print version</a> --></p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+<!--- ******** BEGIN SPEECH ******** --->
+<p >U.S. crude oil  production is estimated to have grown from 5.1 million barrels per day in May 2008  to approximately 10.6 million barrels per day in May 2018.<a href="#n1">[1]</a>, <a href="#n2">[2] </a>As a result of this growth, the U.S.  now represents approximately 13 percent of global crude oil production, up from  7 percent 10 years ago. Improvements in shale oil drilling and completion techniques  have been a critical element of this growth, with much of the new production occurring  in Texas as well as North Dakota, New Mexico, Oklahoma and Colorado.<a href="#n3">[3]</a> While the U.S. continues to be a substantial  crude oil importer, the shale boom has allowed our country to substantially reduce  the percentage of petroleum product consumption that is supplied by imports.</p>
+<p>Dallas  Fed economists focus on energy market dynamics because of their implications for  oil prices, which in turn, affect U.S. gross domestic product (GDP), employment  and inflation. As we&rsquo;ve seen in past economic cycles, changes in oil prices particularly  impact consumer spending and input costs for businesses, as well as capital  investment and job creation in energy-producing regions of the U.S. </p>
+<p>Given  the importance of oil to the U.S. and global economies, the Dallas Fed has  assembled an experienced team of energy economists, created key industry  surveys and built relationships with industry executives in order to build a  deep understanding of the energy industry and global energy markets. In the fall  of 2017, we created an Energy Advisory Council to more systematically build our  insights into energy market trends and developments. Through these various  channels, we seek to gain insights that are critical to our understanding of  the impact of energy market developments on economic conditions and their implications  for monetary policy in the U.S.</p>
+<p>While this essay focuses  primarily on oil, Dallas Fed economists also focus on understanding renewable  energy sources. As discussed in recent Dallas Fed publications, <a href="/~/media/documents/research/swe/2017/swe1702e.pdf" target="_BLANKɽ"><em>Wind  Power a Growing Force in Oil Country</em></a>and <a href="/~/media/documents/research/swe/2016/swe1604e.pdf#_blank"><em>Texas Has &lsquo;All-of-the-Above&rsquo; Energy  Approach</em></a>,  Texas is the nation&rsquo;s largest producer of wind-generated electricity.<a href="#n4">[4] </a>In the years ahead, we expect  renewables such as wind and solar power to comprise a larger percentage of the  nation&rsquo;s energy mix. However, even with substantial growth in renewables, it is  expected that fossil fuels will comprise approximately 77 percent of global  energy use in 2040 (as estimated by the U.S. Energy Information Administration).<a href="#n5">[5]</a></p>
+<h3>Background</h3>
+<p>Dallas  Fed economists believe that global oil supply and demand are now in relative  balance. First quarter 2018 estimates indicate that global average oil production  was approximately 98.3 million barrels per day and global consumption was approximately  98.4 million barrels per day.<a href="#n6">[6]</a> These estimates incorporate the December  2016 agreement made by the Organization of the Petroleum Exporting Countries (OPEC)  and other oil-producing countries to cut crude oil production by approximately 1.8  million barrels per day. </p>
+<p>Recently,  OPEC and other oil-producing countries have discussed restoring some of this crude  oil production cut. In the short run, such a restoration of production might  help offset expected production outages from countries such as Venezuela and  Iran. However, in the medium term, Dallas Fed economists continue to believe  that, due to expected growth in daily global demand, the trend of global supply/demand  is fundamentally toward balance. </p>
+<p>Oil  supply is substantially comprised of three main segments: crude oil, natural  gas liquids and biofuels.<a href="#n7">[7]</a> It is our view, based on Dallas  Fed analysis, surveys and discussions with industry contacts, that U.S. crude  oil production will grow by more than 1 million barrels per day in 2018 and exceed  approximately 11.2 million barrels per day by year-end. In addition, we expect  U.S. production of natural gas liquids of approximately 4.5 million barrels per  day and production of biofuels of approximately 1.2 million barrels per day by year-end  2018.<a href="#n8">[8]</a></p>
+<p>In  terms of crude oil production, only Russia, which currently accounts for approximately  11 million barrels per day, produces more than the U.S.<a href="#n9">[9]</a> By comparison, Saudi Arabia currently  produces approximately 10 million barrels of crude oil per day, having cut  approximately 0.5 million barrels per day from its crude oil production as a  result of the OPEC agreement. </p>
+<p>Dallas  Fed economists estimate that by year-end 2018, the U.S. will consume  approximately 20.6 million barrels per day of oil. Our economists believe that,  over the next several years, the U.S. will continue to increase its oil production,  while consumption growth is expected to flatten due to energy efficiency gains  as well as greater use of natural gas and renewable energy sources to meet  energy demand. </p>
+<p>Global oil markets  face a number of uncertainties and challenges. How these issues unfold will  likely have implications for energy prices as well as economic conditions and  monetary policy in the U.S.</p>
+<h3>Key  Issues and Challenges</h3>
+<p><strong>Reduction  in Spending on Long-Lived Projects </strong><br>
+  One potential issue  facing the global oil market is the recent decline in capital investment in  long-lived exploration and production (E&amp;P) projects. Historically, major  oil companies have allocated substantial portions of their capital expenditure  budgets to these long-lived investments. These investments have included  deepwater and ultra-deepwater offshore wells,<a href="#n10">[10]</a> Arctic drilling and oil sands  production. These projects typically cost hundreds of millions to billions of  dollars to complete, take several years to build and have useful lives in  excess of 20 years. These projects are important to global energy markets  because they fundamentally increase medium- and longer-term global oil supply.</p>
+<p>As  Chart 1 indicates, since 2014, major oil companies have reduced their capital  expenditures relating to long-lived projects. As a consequence of several years  of lower investment spending on these projects, the global energy market has  increased its dependence on future production growth from shale oil. </p>
+<p class="chart-full"><img alt="Chart 1" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c1.png" /></p>
+<p>Shale  production has the benefit of being more financially manageable and  operationally nimble. However, shale wells typically have very rapid production  decline characteristics (discussed below). Specifically, a shale project is a much  more &ldquo;short-cycle&rdquo; investment than a typical conventional project—it can be  drilled and brought onstream very quickly and, on average, for approximately $6  million to $8 million per well. However, because of its rapid production decline  features, shale requires additional and continuous investment in order to  maintain production levels.</p>
+<p>Chart  2 shows the growth in shale crude oil output in the U.S. Less than 10 years  ago, U.S. shale produced approximately 0.5 million barrels per day, or less  than 1 percent of global crude oil production.<a href="#n11">[11] </a>In 2017, U.S. shale produced  approximately 4.7 million barrels per day and made up approximately 6 percent  of global crude oil production. As shale makes up an increasing percentage of global  crude oil supply, the challenge will be to find ways to increase shale well  productivity, overcome input shortages and ramp up production to meet incremental  global demand growth.</p>
+<p class="chart-full"><img alt="Chart 1" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c2.png" /></p>
+
+<p><strong>Growth  in Global Demand </strong><br>
+  Demand for oil grew from  an average of 90.4 million barrels per day in 2012 to approximately 98.4 million  barrels per day in the first quarter of 2018.<a href="#n12">[12]</a> Much of this growth has come from emerging-market  economies, particularly China, India and countries in the Middle East region (see  Chart 3 for analysis of global demand growth).</p>
+<p class="chart-full"><img alt="Chart 1" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c3.png" /></p>
+
+<p>
+  It  is estimated that global oil demand is likely to increase from an average of 98.4  million barrels per day in the first quarter of 2018 to approximately 101.5 million  barrels per day by 2020. World Bank and International Monetary Fund projections  suggest that global demand growth will continue to be driven primarily by emerging-market  economies. </p>
+<p>This forecast rate  of global demand growth (approximately 1.1 million to 1.5 million barrels per day)  should provide a strong underpinning for global energy markets and the  resulting price of oil. The challenge will be producing enough oil to meet  demand growth over the next three to five years<a href="#n13">.[13]</a></p>
+<p><strong>Impediments  to Growth of U.S. Shale Oil Production</strong><br>
+  While estimates for  growth of U.S. shale vary among industry observers, our contacts believe that U.S.  shale production should be sufficient to supply a substantial portion of incremental  global demand growth for the next few years. However, our industry contacts are  concerned about key production impediments that have the potential to limit the  ability of shale to supply incremental global demand growth beyond that time  frame.</p>
+<p>While  there are a number of shale formations across the U.S., the most prolific is  the Permian Basin, a geologic area rich in oil and gas that is 250 miles wide  and 300 miles long across West Texas and eastern New Mexico. The Permian was  responsible for approximately 63 percent of U.S. crude oil production growth in  2017, far outpacing the next-most-prolific U.S. shale formation, the Bakken in  North Dakota and Montana (which accounted for approximately 18 percent of U.S. crude  oil production growth).<a href="#14">[14]</a></p>
+<p>Industry  contacts cite the Permian&rsquo;s advantage over other areas due to its multiple  layers of thick shale rock, the quality of the oil and the relatively close  proximity to refiners, export terminals and pipelines. The March 2018 Dallas  Fed Energy Survey indicated that the Midland Basin portion of the Permian appears  to be more economically attractive than other shale formations, on average, as  shown in Chart 4. However, several of our industry contacts suggest that the  Delaware Basin has attractive drilling characteristics that are as compelling  as the Midland Basin&rsquo;s. </p>
+<p>As  West Texas Intermediate (WTI) oil prices have remained above $60 for most of  2018, drilling outside the most attractive portions of the Permian has become  more economically appealing for E&amp;P companies. These areas include the  Bakken, parts of the Eagle Ford in South Texas and most of the SCOOP/STACK in  Oklahoma. If prices persist at current levels, industry contacts expect to see  oil companies more aggressively expand their production activities beyond the  Permian Basin.</p>
+<p class="chart-full"><img alt="Chart 4" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c4.png" /></p>
+
+<p>As mentioned above,  our Dallas Fed industry contacts believe that there are a number of challenges  to continued robust growth in shale crude oil production in the medium term. The  most significant potential challenges are described below.</p>
+<blockquote>
+  <p><em>1. Rapid production decline curve of  shale.</em></p>
+</blockquote>
+<p>The primary method  for drilling wells in shale-rock formations is known as horizontal drilling—where  a well is drilled vertically (averaging approximately 10,000 feet) before being  guided horizontally through the rock (averaging a distance of between 5,000 and  10,000 feet). Although a highly effective method, horizontal wells often reach  peak crude oil production in the first few months, with output declining  rapidly thereafter, sometimes as much as 80 percent after one year. As a  result, in order to grow overall crude oil production, more wells must be  drilled and well productivity must be boosted substantially. While companies  are drilling more wells this year to overcome this decline curve, they face constraints  regarding labor, input costs, infrastructure and the return requirements of  capital providers.</p>
+<blockquote>
+  <p><em>2. Shortages of labor.</em></p>
+</blockquote>
+<p>Dallas Fed industry  contacts report that the oil and gas industry in the Permian Basin faces a  shortage of workers. Our contacts note that industry service companies are  facing higher levels of turnover as workers either leave for higher pay at competitors  or leave the industry due to the highly strenuous working conditions. In  addition, companies report finding it difficult to attract previously laid-off  workers back to the industry. Bureau of Labor Statistics data indicate that  layoffs during the oil price decline of 2014–15 resulted in an estimated loss  of one-third of the workforce,<a href="#15">[15]</a> and industry contacts report that many  workers either are reluctant to return to the industry or need significant financial  and/or job security incentives to return given the boom/bust nature of the  industry.</p>
+<p>While the oil and  gas industry has become more efficient, drilling and completing wells is still  a labor-intensive endeavor. The oil production sector has added more than 40,000  jobs in Texas and more than 60,000 jobs in the U.S. from December 2016 through April  2018, and high demand for workers has led to significant wage pressures. Our  Dallas Fed Energy Survey shows that energy companies based in the Eleventh Federal  Reserve District (which includes Texas, northern Louisiana and southern New  Mexico) increased wages and benefits throughout 2017 and have been accelerating  this pace in 2018. </p>
+<p>Labor shortages are particularly acute in the Permian  Basin. The May 2018 unemployment rate in Midland, Texas, the heart of the  Permian, was 2.2 percent.<a href="#n16">[16]</a> Housing is also in short  supply in the Permian Basin, and companies have again resorted to using temporary  housing structures for their workers. House prices in Midland have risen substantially  since 2016, and housing inventories are estimated at one month of supply.<a href="#n17">[17]</a></p>
+<blockquote>
+  <p><em>3. Raw material, environmental and  infrastructure challenges.</em></p>
+</blockquote>
+<p>Water and sand are key  inputs used in shale production, accounting for 30 to 35 percent of the cost of  drilling and completing a well.<a href="#n18">[18]</a> Contacts report that sand costs  have increased substantially during the past 12 months. Specifically, increasing  volumes of sand used in well fracking are creating strains on infrastructure in  the region (10,000 tons of sand per well is not uncommon, requiring 100  railcars or 400 truckloads for transport).</p>
+<p>In  addition, water availability has become more of a logistical and financial  challenge. As operators pursue larger well-completion projects and often operate  on multiple well pads, the need for more advanced planning to arrange for water-supply  logistics is becoming a more significant challenge. Another concern is water  disposal. While companies often source water used in fracking from an  underground aquifer in the Permian, operators cite greater concerns regarding the  disposal of wastewater that is produced as a byproduct of oil. On average,  three to five barrels of water come out of the ground for every barrel of oil  that is produced.<a href="#n19">[19]</a> This water must either be  transported to an approved saltwater disposal well, further straining  transportation infrastructure, or recycled and used as frack water—a process  that is generally considered too expensive for most operators.</p>
+<p>Several  industry contacts and other observers have cited their concerns regarding water  and air pollution, wastewater management and other issues relating to emissions  of greenhouse gases. These are critical issues which state as well as federal  regulatory agencies must actively monitor and are important operating considerations  for firms participating in this industry. Several of our contacts, and industry  observers, have discussed the critical need for proper safeguards in order to  prevent degradation of water and air quality, and loss of land use. </p>
+<p>In the Permian, oil  and natural gas pipeline capacity—used to transport oil and natural gas to  refineries and processing plants hundreds of miles from the well site—remains a  potential problem in 2018 and 2019. Our expectation is that oil pipeline  capacity will become very tight late in 2018 and early 2019, as shown in Chart 5,  and possibly sooner if production surprises to the upside or pipelines and  refineries experience unforeseen downtime. However, the pipeline bottlenecks  should be alleviated in the second half of 2019 as new pipelines come onstream. </p>
+<p class="chart-full"><img alt="Chart 5" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c5.png" /></p>
+<blockquote>
+  <p><em>4. Capital discipline exerted by  equity owners.</em></p>
+</blockquote>
+<p>Energy executives  report that public-market capital providers are much more focused on capital  discipline from oil and gas companies. From January 2, 2017, through June 13, 2018,  energy stocks increased only 1.1 percent, while the price of oil and the  S&amp;P 500 increased 35.8 percent and 24.2 percent, respectively, as shown in Chart  6.<a href="#n20">[20]</a></p>
+<p>As  a result of this underperformance, industry contacts report that capital  providers are increasingly pressuring management teams to increase their focus  on achieving higher rates of return, rather than focusing primarily on  increasing overall production levels. Contacts report that this capital-discipline  focus is causing many boards of directors to revise incentive structures and  compensation arrangements for company management teams. It may also have the  impact of encouraging some independent production companies to more proactively  consider mergers and other actions that increase scale and improve operating  margins.</p>
+<p class="chart-full"><img alt="Chart 6" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c6.png" /></p>
+<p><strong>Production  Outages and Geopolitical Risks </strong> <br>
+  A large percentage  of global oil production is in politically unstable areas of the world, and  political and military conflict as well as governance challenges have given  rise to oil supply disruptions in the past several years. These disruptions (or  &ldquo;supply shocks&rdquo;) have the potential to cause a rise in oil prices in the short  term.</p>
+<p>Some  of the more significant disruptions in recent years have occurred in Venezuela,  Libya and Iran. Daily Venezuelan crude oil production is estimated to have fallen  by 1.1 million barrels since 2013 and is continuing to decline.<a href="#n21">[21]</a> Libya has experienced civil strife  since the fall of Gaddafi. After declining from a high of 1.6 million barrels  per day in January 2011 to zero in August 2011, Libyan crude oil production  moved back up to roughly 1.0 million barrels per day in May 2018. Iran has seen  its crude oil production increase by approximately 0.8 million barrels per day following  the removal of sanctions in 2016. However, the recent U.S. withdrawal from the  Iran nuclear agreement has the potential to reduce Iranian exports and crude  oil production.</p>
+<p>In a global market  that is in relative oil supply/demand balance, supply outages due to  geopolitical events have the potential to cause sporadic episodes of spikes in  oil prices. </p>
+<h3>Implications for Energy  Markets </h3>
+<p>Dallas Fed  economists and our industry contacts increasingly are of the view that we have  gone from a global oversupply situation (2014 to mid-2017) to one currently of  relative balance (taking into account OPEC supply restrictions). Over the next few  years, we believe that global oil markets will be in a &ldquo;fragile equilibrium&rdquo; in  which demand growth should likely be met in large part by growth in U.S. shale  oil production. ‎This, of course, assumes no new material disruptions from major  oil-producing countries in the Middle East or other producers such as Russia,  Nigeria or Venezuela. </p>
+<p>However, given the  current lack of investment in long-lived production projects, and assuming  global oil demand continues to grow between 1.1 million and 1.5 million barrels  per day,<a href="#n22">[22]</a> we would expect future world  consumption growth to be more dependent on shale production growth. Due to the  potential impediments described above, there is a growing likelihood of an  eventual global undersupply situation in which shale will be unable to keep up  with demand growth. Industry contacts acknowledge that higher oil prices could  well induce producers to find ways to overcome these potential impediments.</p>
+<p>In particular, some industry  participants are hopeful that this situation could be mitigated by continued technological  innovation in shale production and increases in OPEC production, as well as greater  future investment in long-lived projects such as oil sands production in Canada  and offshore drilling. In general, industry contacts emphasize that higher oil  prices certainly have the potential to make these mitigants more likely to  occur. </p>
+<p>Overall, given our  forecast and the potential impediments to substantial growth in shale oil  production, we believe global oil markets are likely to be more vulnerable in  the medium term to geopolitical shocks and disruptions that would create a potential  for price risk to the upside. </p>
+<p><strong>A  More Muted Impact of Higher Oil Prices on the U.S. Economy</strong><br>
+  Increases in oil  prices can be caused by higher-than-expected demand (so-called &ldquo;demand shocks&rdquo;)  from a stronger global economy or from unexpected reductions in supply (so-called  &ldquo;supply shocks&rdquo;), such as those resulting from certain types of geopolitical  events. Today, Dallas Fed economists believe that the recent run-up in oil prices  is due to a combination of both demand and supply factors.</p>
+<p>Historically,  recessions in the U.S. have often followed oil price shocks. Higher oil prices tend  to increase costs to consumers, which can, in turn, reduce their disposable  income and consumption of non-oil goods and services. For example, Dallas Fed  analysis indicates that every dollar increase in the oil price leads to a 2.4 cent  increase in gasoline prices—all other factors staying the same—which over the  course of a year would amount to approximately $3.4 billion in additional  expenditures on gasoline.<a href="#n23">[23] </a>Oil price increases also tend to  cause firms to experience higher energy, shipping and input costs. </p>
+<p>Over  time, several factors have mitigated the impact of higher oil prices on the  U.S. economy. The emergence of U.S. shale is one factor, as increased domestic  production means that a larger share of the economy is helped by higher oil prices.  Reduced crude oil imports also benefit our trade balance. </p>
+<p>Finally,  as shown in Chart 7, the U.S. economy is less oil-intensive than in the past  due to substitution for oil by other forms of energy, improved fuel efficiency  and growth in the less-energy-intensive services sector as a share of the  overall economy. For example, in 1970, the U.S. consumed 1.1 barrels of oil for  every $1,000 of GDP; by 2017, only 0.4 barrels of oil were consumed for every  $1,000 of GDP.<a href="#n24">[24]</a></p>
+<p>Based  on these various factors, it is the view of Dallas Fed economists that the  negative impact of higher oil prices on GDP growth is likely to be more muted  than in the past. It is our view that a 10 percent increase in the oil price  should have a relatively modest negative impact on U.S. GDP growth.<a href="#n25">[25]</a> This negative impact should further  diminish as the U.S. continues to grow its domestic oil production. </p>
+<p class="chart-full"><img alt="Chart 7" src="/-/media/Images/news/speeches/kaplan/2018/rsk180620c7.png" /></p>
+
+<h3>Understanding Evolving  Oil Market Dynamics </h3>
+<p>The purpose of this  essay has been to lay out the key factors the Dallas Fed closely tracks in  analyzing the global energy markets and in considering the impact of oil prices  on economic conditions in the U.S. Like any dynamic market, the oil market can  be unpredictable, and key elements are often shifting, which can have profound  impacts on global supply and demand. Given the importance of oil to the U.S.  and global economies, our Dallas Fed research team is highly focused on  understanding these market dynamics and determining their implications for GDP,  unemployment and inflation in the U.S.</p>
+<p>As  discussed in this essay, Dallas Fed economists believe that the global oil  market is now in relative supply/demand balance. Based on various factors  discussed, it is our judgment that this market is likely in the years ahead to  be more vulnerable to geopolitical events and other dynamics that could create price  risks to the upside. As these dynamics unfold, we will continue to work with  our industry contacts to better understand the oil market and its implications  for monetary policy in the U.S.</p>
+
+  <div class="separator-notes"></div>
+<h5>
+      Notes</h5>
+<p>The views expressed are my own and do not necessarily reflect official positions of the Federal Reserve System. </p>
+<p>I would like to acknowledge the contributions of Tyler Atkinson, Jim Dolmas, Soojin Jo, Evan Koenig, Marc Giannoni, Kunal Patel,  Michael Plante, William Simmons, Martin Stuermer, Kathy Thacker, Joe Tracy and Mine Yücel in preparing these remarks. In addition, I want to thank the members of the Dallas Fed Energy Advisory Council for their contributions. </p>
+    <ol>
+      <li><a name="n1" id="n1"></a>In this essay, when the term &ldquo;crude  oil&rdquo; is used, it refers to crude oil and condensates. The term &ldquo;oil&rdquo; refers to  crude oil, condensates, natural gas liquids and biofuels. Prior to being  consumed, oil is refined into &ldquo;petroleum products&rdquo; such as motor gasoline, jet  fuel, kerosene, diesel, residual fuel and other products. </li>
+      <li><a name="n2" id="n2"></a> International Energy Agency (IEA).</li>
+      <li><a name="n3" id="n3"></a> U.S. Energy Information Administration (EIA).</li>
+      <li><a name="n4" id="n4"></a> As of June 2018. See note 3.</li>
+      <li><a name="n5" id="n5"></a> Fossil fuels include oil (31 percent of global energy use by 2040), natural gas  (25 percent) and coal (22 percent). See note 3.</li>
+      <li><a name="n6" id="n6"></a> See note 2. </li>
+      <li><a name="n7" id="n7"></a> See note 1.</li>
+      <li><a name="n8" id="n8"></a> See note 3. </li>
+      <li><a name="n9" id="n9"></a> See note 2.</li>
+      <li><a name="n10" id="n10"></a> Deepwater wells operate in depths ranging from 125 to 1,500 meters;  ultra-deepwater below 1,500 meters, according to the EIA. </li>
+      <li><a name="n11" id="n11"></a> See note 3.</li>
+      <li><a name="n12" id="n12"></a> See note 2. </li>
+      <li><a name="n13" id="n13"></a> One other aspect that is less-frequently mentioned is a growing global demand  for products known as middle distillates. Middle distillates consist broadly of  jet fuel/kerosene, gasoil/diesel and heating oil—products that fuel emerging-market  economies and international trade. Shale oil is a relatively light oil and does  not yield as much middle distillate as heavier oils (from, for example, Middle  East or Venezuela crude oils) in the refining process. As a result, refiners  may have difficulty supplying sufficient quantities of middle distillates in  the near term. </li>
+      <li><a name="n14" id="n14"></a> As of May 2018. See note 3.</li>
+      <li><a name="n15" id="n15"></a> See Bureau of Labor and Statistics, employment for oil and gas extraction and  support activities for oil and gas operations.</li>
+      <li><a name="n16" id="n16"></a> Data are from the Federal Reserve Bank of Dallas and Bureau of Labor Statistics  as of June 2018. </li>
+      <li><a name="17" id="n17"></a> Data are from the Texas A&amp;M University Real Estate Center as of June 2018.</li>
+      <li><a name="n18" id="n18"></a> Barclays Research. </li>
+      <li><a name="n19" id="n19"></a>&nbsp;Data for water in fuel production are  from IFP Énergies nouvelles. See &ldquo;Five Barrels of Water for One Barrel of Oil,&rdquo; CNBC,  Nov. 13, 2017, <a href="http://www.cnbc.com/advertorial/2017/11/13/five-barrels-of-water-for-one-barrel-of-oil.html">www.cnbc.com/advertorial/2017/11/13/five-barrels-of-water-for-one-barrel-of-oil.html</a>.</li>
+      <li><a name="n20" id="n20"></a> Data are from Bloomberg as of June 13, 2018.</li>
+      <li><a name="n21" id="n21"></a> See note 2. </li>
+      <li><a name="n22" id="n22"></a> See note 2.</li>
+      <li><a name="n23" id="n23"></a> See note 3.</li>
+      <li><a name="n24" id="n24"></a> U.S. Bureau of Economic Analysis and EIA. </li>
+      <li><a name="n25" id="n25"></a> Our view takes into account a number of factors, including recent research  estimates which suggest a roughly 0.1-to-0.3 percentage-point decline in U.S.  real GDP growth in response to a 10 percent increase in the real price of oil  due to an oil supply shock. See &ldquo;Oil Supply Shocks and the U.S. Economy: An  Estimated DSGE Model,&rdquo; by Nathan S. Balke and Stephen P.A. Brown, <em>Energy Policy</em>, vol. 116, 2018, pp.  357–72; &ldquo;Oil Supply Shocks, U.S. Gross Domestic Product, and the Oil Security  Premium,&rdquo; by Alan Krupnick, Richard Morgenstern, Nathan Balke, Stephen P.A.  Brown, Ana María Herrera and Shashank Mohan, <em>RFF Report</em>, November 2017; and &ldquo;On Oil Price Shocks: The Role of  Storage,&rdquo; by Deren Unalmis, Ibrahim Unalmis and Derya Filiz Unsal, <em>IMF Economic Review,</em> vol. 60, no. 4,  2012. See also &ldquo;Are the Responses of the U.S. Economy  Asymmetric in Energy Price Increases and Decreases?&rdquo; by Lutz Kilian and Robert  J. Vigfusson, <em>Quantitative Economics</em>, vol. 2, no. 3, 2011, pp. 419–53.</li>
+</ol>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5>
+<p>Robert S. Kaplan was president and CEO of the Federal Reserve Bank of Dallas, 2015&ndash;21.</p>
+                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

@@ -1,0 +1,896 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Globalization and Texas - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2005/fs051019" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2005/fs051019" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2005" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2005/fs051019-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Globalization and Texas</h1>
+                                                    <div class="dal-tagline">Remarks before The Houston Forum</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">October 19, 2005</span> Houston, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+
+                        <p>Being in Houston puts a spring 
+                          in my step. This is a great and gutsy city, a place 
+                          that is much more than America&rsquo;s fourth-largest 
+                          metropolitan area, the energy capital of the world, 
+                          the proud home to the world&rsquo;s largest medical 
+                          center and the leader in the industry that serves our 
+                          greatest quest&mdash;the exploration of space. This 
+                          is the home of the Astros, a team that this season picked 
+                          itself up after a dismal start and tonight takes another 
+                          shot at becoming the first Texas team to play in the 
+                          World Series. Baseball, like life, mixes heartache and 
+                          hope. I am rooting for the Astros to bounce back from 
+                          Monday night&rsquo;s last-inning loss and win tonight 
+                          in St. Louis. They had better: I have a big bet with 
+                          Bill Poole, president of the St. Louis Fed, and I hate 
+                          to lose.</p>
+                        <p>I am grateful to the Houston Forum 
+                          for inviting me to speak today. Speeches delivered by 
+                          Federal Reserve Governors and Bank presidents are subject 
+                          to interpretation in a manner akin to the ancient art 
+                          of prophecy, which often divined the future by slicing 
+                          open an animal and studying its entrails. It is interesting 
+                          to be the &ldquo;slice-ee,&rdquo; but this is nothing 
+                          new. I am grateful to columnist Philip Coggan for reminding 
+                          me of how policymakers live under watchful and ever 
+                          suspicious eyes. Writing in the <em>Financial Times</em> 
+                          last week, he noted that when the great French statesman 
+                          Talleyrand died, his archrival, Prince Metternich of 
+                          Austria, was heard to muse, &ldquo;I wonder what he 
+                          meant by that?&rdquo;</p>
+                        <p>I am a plain speaker. And plainly 
+                          stated, my job&mdash;like that of each and every Federal 
+                          Open Market Committee member&mdash;is simply to use 
+                          my best judgment to craft monetary policy that promotes 
+                          maximum sustainable noninflationary economic growth. 
+                        </p>
+                        <p>The FOMC convenes every six weeks 
+                          or so in Washington, bringing together the 12 regional 
+                          bank presidents and the Fed Governors. Five of the seven 
+                          Governor slots are presently filled, including the one 
+                          held by the Chairman, Alan Greenspan. In meetings marked 
+                          by civility and candor, each of us presents our views 
+                          on the economy and recommendations for what the committee 
+                          should do. Then a vote is taken to set policy. All of 
+                          the Governors and five of the Bank presidents vote. 
+                          This year, I am one of them.</p>
+                        <p>How do I, as a member of the FOMC, 
+                          approach my duty? Let me describe the process. </p>
+                        <p>When I prepare for an FOMC meeting, 
+                          I consider three things, assisted by the economists 
+                          at the Dallas Fed and the staff at our branches in Houston, 
+                          San Antonio and El Paso, as well as by the staff of 
+                          the Board of Governors. </p>
+                        <p>First, I ask: What do the economic 
+                          statistics tell me? By their very nature, statistics 
+                          are backward looking; they record the past. Too much 
+                          reliance on statistics is as dangerous as driving by 
+                          looking only in the rearview mirror, but they do provide 
+                          useful input, a snapshot of what has been the prevailing 
+                          situation. </p>
+                        <p>Second, I look at economic forecasts, 
+                          so I am at least looking ahead through the windshield. 
+                          Forecasts give an imperfect picture, however, because 
+                          they are based on economic models and the assumptions 
+                          behind them. Only if history repeats itself do forecasts 
+                          provide a good guide to what to expect. Although history 
+                          rarely repeats, it does on occasion echo, so forecasts 
+                          are useful.</p>
+                        <p>The third pillar&mdash;where I 
+                          spend the majority of my preparation time&mdash;centers 
+                          on the experiences of CEOs, COOs and CFOs at the dozens 
+                          of companies, large and small, that I regularly talk 
+                          to. These are real-time decisionmakers who are on the 
+                          front lines, doing the business of America. They are 
+                          where the rubber meets the road in the economy, and 
+                          they are one of the key inputs the Federal Reserve needs 
+                          in formulating monetary policy. These business leaders 
+                          are often the first to spot the dominant and shifting 
+                          trends&mdash;whether their pricing power is nonexistent, 
+                          as I was hearing in the spring and early summer, or 
+                          whether pricing power is on the rise, as I&rsquo;ve 
+                          been hearing recently. </p>
+                        <p>My recent soundings on all three 
+                          fronts have caused my brow to furrow, reflecting concerns 
+                          about the drag on growth by Hurricanes Katrina and Rita 
+                          and the increases in energy prices. Several questions 
+                          arise. How permanent are these influences? Will business 
+                          confidence resume and growth snap back? Will energy 
+                          and associated costs work their way into core inflation?</p>
+                        <p>To these questions, I must give 
+                          an honest answer. At the moment, I really don&rsquo;t 
+                          know. Our statistical measures and modeling techniques 
+                          are less reliable now because of the flux introduced 
+                          by the hurricanes and their aftermath. At times like 
+                          this, we must listen carefully to the anecdotal evidence 
+                          from those on the ground and heed the lessons of experience.</p>
+                        <p>Looking past the uncertainty of 
+                          the near future, I take comfort in the resiliency of 
+                          the U.S. economy and the uniqueness of the American 
+                          way. We have several comparative advantages, all of 
+                          which are summed up for me in the immortal words of 
+                          the great poet Langston Hughes, who wrote in &ldquo;Democracy&rdquo;: 
+                        </p>
+                        <blockquote>
+                          <p>I have as much right <br>
+                            As the other fellow has<br>
+                            To stand <br>
+                            On my two feet<br>
+                            And own the land. </p>
+                        </blockquote>
+                        <p>The business operators of Houston 
+                          and every other city in this country get up every morning, 
+                          stand on their own two feet, and venture forth to compete 
+                          and capture what is theirs. </p>
+                        <p>We have millions of managers in 
+                          our business community who have become experts at adapting 
+                          to economic change with breathtaking alacrity. I am 
+                          talking not just about CEOs but also about middle managers 
+                          who operate supply chains, control inventories and fine-tune 
+                          operations in our mighty economic machine. They are 
+                          an important reason we have succeeded in growing our 
+                          economy while others&mdash;great nations like Japan 
+                          and Germany&mdash;had been stagnant, at least until 
+                          adopting recent market-oriented reforms. </p>
+                        <p>These decisionmakers are the real 
+                          secret to U.S. economic prowess. Because of them, we 
+                          have overcome the spasms of self-doubt and doomsday 
+                          forecasts of well-meaning but cynical analysts, academics, 
+                          editorialists and other pontificators. Remember such 
+                          best-sellers as Ezra Vogel&rsquo;s <em>Japan as Number 
+                          One</em> and Paul Kennedy&rsquo;s <em>The Rise and Fall 
+                          of the Great Powers</em>, just two of a frenzy of tomes 
+                          that forecast our economic decline in the 1990s? A lot 
+                          of money was lost betting against American management&rsquo;s 
+                          capacity to cope with the challenges of a global economy.</p>
+                        <p>We lost neither our way nor our 
+                          sway. </p>
+                        <p>I am confident that American moxie 
+                          will power a recovery from the wrath of Katrina and 
+                          Rita&mdash;and then some. I don&rsquo;t know precisely 
+                          how long it will take, but I am confident that it will 
+                          take place, and probably faster than the consensus handicap. 
+                        </p>
+                        <p>Of course, for the magic of free 
+                          enterprise to work, fiscal authorities and central bankers 
+                          must provide a healthy economic environment for the 
+                          private-sector managers who hold our destiny in their 
+                          hands. The authorities must do so in a challenging new 
+                          global environment.<br>
+                          <br>
+                          Since becoming Dallas Fed president, I have been stressing 
+                          the importance of globalization&mdash;the trend toward 
+                          falling international barriers to goods, services, people, 
+                          money and ideas, a process aided by the interconnective 
+                          properties of technology. It may well be the key development 
+                          of our era; yet, we do not understand it very well. 
+                          Hoping to change that, I put in place a new research 
+                          program at the Dallas Fed that seeks a more systematic 
+                          understanding of how globalization impacts the pricing 
+                          behavior of businesses and its implications for inflation 
+                          and monetary policy.</p>
+                        <p>This is an ideal place to advance 
+                          my theme of globalization. Houston is truly one of America&rsquo;s 
+                          most vibrant international cities. For decades, it has 
+                          been a leader in that most global of industries, oil 
+                          and gas exploration. With no natural base for trade, 
+                          Houston carved out a 50-mile ship channel and created 
+                          a port that has grown into the nation&rsquo;s largest 
+                          in terms of international tonnage. The city hosts 82 
+                          foreign consulates, ranking third in the country, and 
+                          Houstonians speak 90 languages&mdash;not counting Texan. 
+                          When I stress the importance of globalization, I am 
+                          preaching to the choir here in Houston. </p>
+                        <p>Globalization has intensified 
+                          worldwide competition for investment capital. The consequences 
+                          have included pushing governments to simplify or lower 
+                          tax burdens to attract these funds. Competition also 
+                          provides an incentive for legislatures and parliaments 
+                          to maintain the rule of law, minimize obstacles to flexibility 
+                          and maximize the ability to compete. High tax rates 
+                          and excessive government interference in economic activity 
+                          have been hotly debated issues in recent elections in 
+                          Germany and Poland, for example. </p>
+                        <p>In the United States, the executive 
+                          branch, Congress and their counterparts in the states 
+                          take responsibility for the fiscal side. The Fed is 
+                          rigorously nonpartisan, but that does not mean we are 
+                          oblivious to fiscal policy as it impacts the economy. 
+                          The minutes of our last FOMC meeting summarized the 
+                          concerns in the wake of the hurricanes as follows: &ldquo;The 
+                          substantial step-up in government spending would add 
+                          to federal deficits that were already large and underscored 
+                          the worrisome loss of fiscal discipline evident in recent 
+                          years.&rdquo;</p>
+                        <p>The forces of international competition 
+                          may be heralding a period when decisionmakers responsible 
+                          for fiscal policy are forced to focus on investment 
+                          rather than public-sector consumption. In much of today&rsquo;s 
+                          newly competitive world, governments&rsquo; purpose 
+                          in spending is to build an economic infrastructure that 
+                          fosters private-sector production and growth, rather 
+                          than transferring spending from one part of society 
+                          to another. In an increasingly global economy, where 
+                          resources migrate toward the best economic environment, 
+                          a dollar&rsquo;s worth of government spending on consumption 
+                          or entitlements has a higher opportunity cost today 
+                          than it did yesterday. This will likely lead to a reconfiguring 
+                          of government decisionmaking that in the past has short-changed 
+                          infrastructure, research, education and other more productive 
+                          public investments. </p>
+                        <p>But that is for politicians to 
+                          ponder.</p>
+                        <p>The job of the central bank centers 
+                          on managing the monetary system so as to encourage sustainable, 
+                          noninflationary growth. It is important to understand 
+                          that the Federal Reserve&rsquo;s charter differs from 
+                          that of other monetary authorities. The European Central 
+                          Bank, for example, is charged only with countering inflation. 
+                          The Fed has a dual mandate to encourage the greatest 
+                          sustainable employment with stable prices. Price stability 
+                          is a necessary condition for achieving maximum sustainable 
+                          economic growth. Central bankers have always&mdash;since 
+                          the invention of central banking&mdash;been preoccupied 
+                          with price stability and recoiled from inflation. It 
+                          is a destructive force that erodes confidence, gnaws 
+                          away at the value of money and undermines growth. We 
+                          never want to let it out of the bag. In this key sensitivity, 
+                          I am no different from the men and women who have gone 
+                          before me. </p>
+                        <p>I have spoken elsewhere of the 
+                          dangers of inflation,<em> were it</em> to take root. 
+                          Here the Fed watchers who read entrails might take note: 
+                          I am fully confident that the Fed will continue to do 
+                          its part by containing inflationary expectations and 
+                          pressures.</p>
+                        <p>On the inflation-fighting front, 
+                          globalization has been a positive factor. Based on our 
+                          work at the Dallas Fed, we know that globalization has 
+                          provided a powerful counterforce to domestic inflationary 
+                          pressures. Some of these are obvious. By lowering trade 
+                          barriers and by opening to new economic participants 
+                          that range in size from China to Estonia, we have benefited 
+                          on the inflation front from the stiff competition of 
+                          the global marketplace. At the same time, competition 
+                          from abroad acts as a check on price increases by our 
+                          own producers. In our Dallas Fed business surveys, companies 
+                          tell us that globalization has meant they have less 
+                          pricing power than they once had. It makes life harder 
+                          for them, but it is good news for consumers. All you 
+                          have to do is wander down the aisles of any Wal-Mart 
+                          or Target or JCPenney&rsquo;s or 7-Eleven to see what 
+                          I am talking about.</p>
+                        <p>Let me illustrate the point with 
+                          a few numbers that cover the time between when I left 
+                          Dallas at the end of 1997 for Washington to be a trade 
+                          negotiator and my return to assume my present position. 
+                        </p>
+                        <p>Prices for goods and services 
+                          <em>not</em> internationally traded and <em>not</em> 
+                          subject to foreign competition have risen since 1997: 
+                          college tuition and fees, up 63 percent; cable and satellite 
+                          television, up 43 percent; dental services, up 42 percent; 
+                          prescription drugs and medical supplies, up 40 percent.</p>
+                        <p>But prices of goods subject to 
+                          foreign competition have fallen over the same period: 
+                          by 88 percent for computers and peripherals, 70 percent 
+                          for video equipment, 39 percent for toys, 13 percent 
+                          for women&rsquo;s outerwear, 16 percent for men&rsquo;s 
+                          shirts and sweaters. Services prices have been impacted, 
+                          too, by cheaper software programmers in Russia, call 
+                          centers in India and other processing that can be shifted 
+                          offshore.</p>
+                        <p>To be sure, the growth of Russia, 
+                          India, China and other new economic entrants has created 
+                          upside price pressures, too. They materialize in some 
+                          interesting ways. The <em>New York Times</em> had an 
+                          intriguing article Monday on the price of cowboy hats. 
+                          The well-dressed cowboy likes to have at least one Stetson 
+                          or Serratelli. Their best hats are made of felt from 
+                          the belly fur of beavers. The <em>Times</em> reports 
+                          that &ldquo;the best quality beaver is often ending 
+                          up in the hands of foreign competitors,&rdquo; and quotes 
+                          Dean Serratelli as saying, &ldquo;Russia and China have 
+                          been gobbling them up.&rdquo; Then it goes on to quote 
+                          cattle auctioneer Bill McCoin, who laments that &ldquo;it 
+                          used to be you could pay $30 for a hat &hellip; now you 
+                          pay $300.&rdquo; And he adds, in a testament to fine 
+                          American craftsmanship and the drive to have quality 
+                          offset price increases, &ldquo;I bought my best hat 
+                          for my wedding. It was a real good hat: it outlasted 
+                          my marriage.&rdquo;</p>
+                        <p>In addition to the hat makers, 
+                          other producers have felt some upward pressure on non-energy 
+                          commodity prices driven by new sources of global demand. 
+                          Steel is a case in point&mdash;as are copper and so 
+                          many other commodities. Even so, I feel that the net 
+                          effect of new entrants like China into our markets, 
+                          and the competition for efficiency they engender among 
+                          our talented corps of American managers, has been a 
+                          plus in exerting downward pressure on core inflation. 
+                          I refer to this phenomenon internally at the Dallas 
+                          Fed as &ldquo;cost&ndash;pull <em>disinflation</em>.&rdquo; 
+                          As long as we keep our markets open and hold protectionists 
+                          at bay, I expect this will continue. </p>
+                        <p>The issue at hand today is whether 
+                          business operators can combine these lower priced imports 
+                          with other methods of cost containment and efficiency 
+                          to offset the cost increases on natural gas, heating 
+                          oil, gasoline at the pump and other energy-sourced products. 
+                          We shall see. This past week, for example, some big 
+                          retailers announced early discounting and other aggressive 
+                          price-cutting measures to offset the rising costs of 
+                          their customers&rsquo; gasoline and heating bills. And 
+                          there is mixed evidence of wage&ndash;price pressures 
+                          in the economy. Without globalization, I doubt we could 
+                          be containing price pressures so readily. </p>
+                        <p>And yet, inflation has exhibited 
+                          a slight upward tilt in the past couple of years. Once 
+                          again, I refer to the minutes of the Sept. 20 FOMC meeting, 
+                          which noted that &ldquo;participants&rsquo; concerns 
+                          about inflation prospects generally had increased&rdquo; 
+                          since the previous meeting. The minutes went on to say 
+                          that &ldquo;the surge in energy prices, in particular, 
+                          was boosting overall inflation, and some of that increase 
+                          would probably pass through for a time into core prices. 
+                          This posed the risk that there could be a more persistent 
+                          influence on inflation should inflation expectations 
+                          rise.&rdquo;</p>
+                        <p>&ldquo;Indeed,&rdquo; the minutes 
+                          suggested, &ldquo;some recent survey evidence on such 
+                          expectations had been troubling, and widening federal 
+                          deficits were mentioned as a factor that could further 
+                          stir inflationary concerns. &hellip; Still, core inflation 
+                          in recent months had been quite damped, and &hellip; 
+                          it was observed that, after the early 1980s, the pass-through 
+                          of energy prices into core inflation had been quite 
+                          limited, suggesting that, in current circumstances, 
+                          core inflation could stay relatively low and overall 
+                          inflation would probably drop back if inflation expectations 
+                          remained contained.&rdquo;</p>
+                        <p>You will note that the operative 
+                          phrase in the discussion was &ldquo;inflation expectations.&rdquo; 
+                          A key to containing them is the conduct of the FOMC. 
+                          For my part, as a member of the FOMC, I will not waver 
+                          from advocating policy that discourages expectations 
+                          of higher core inflation. The object will always be 
+                          to keep inflation at bay, so that the American business 
+                          machine can keep on humming.</p>
+                        <p>Houstonians understand business. 
+                          This great city was built by enterprising people. Like 
+                          John Henry Kirby, Hugh Roy Cullen, William and Oveta 
+                          Culp Hobby, Ben Love, Bob McNair, Roy Hofheinz, Red 
+                          Adair and Jesse Jones. You know the true value of a 
+                          dollar. And you don&rsquo;t suffer fools. So let me 
+                          conclude with my favorite quote of the great, four-time 
+                          British prime minister, William Gladstone: &ldquo;Not 
+                          even love has made such fools of men as the contemplation 
+                          of the nature of money.&rdquo; To avoid proving Gladstone 
+                          right, I&rsquo;ll exit stage right, right now.</p>
+                        <p>Thank you.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

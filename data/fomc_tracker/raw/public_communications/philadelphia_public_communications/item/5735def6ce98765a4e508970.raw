@@ -1,0 +1,686 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+
+<title>Understanding Monetary Policy Through the Housing Channel</title>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-196x196.png" sizes="196x196"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-128x128.png" sizes="128x128"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-16x16.png" sizes="16x16"/><meta itemprop="url" content="https://www.philadelphiafed.org/the-economy/monetary-policy/230420-understanding-monetary-policy-through-the-housing-channel"  />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8 "/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta content="Understanding Monetary Policy Through the Housing Channel" property="og:title" />
+<meta content="Samuel Zell and Robert Lurie Real Estate Center Members’ Meeting, The Wharton School of the University of Pennsylvania | Philadelphia, PA" property="og:description" />
+<meta content="https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/content/Speeches/Hands-Screen-Presentation/SubsectionBanner-Hands-Screen-Presentation.jpg" property="og:image" />
+<meta content="{F94CA6EF-CD43-4C05-BC55-27D10E5B476F}" property="og:type" />
+<meta content="https://www.philadelphiafed.org/the-economy/monetary-policy/230420-understanding-monetary-policy-through-the-housing-channel" property="og:url" /><script src="/assets/js/init.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/pages/article/page.css" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KS5HGCQ');</script>
+    <!-- End Google Tag Manager -->
+
+
+    
+    
+<style>
+
+.data-release-archive-filter-result ul li a[href$=xlsx]:after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    margin-left: 1px;
+    margin-top: -4px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/svg/icon-utility/xlsx.svg);
+}
+
+</style>
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS5HGCQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="wrapper">
+        <header>
+            
+<div class="navigation" data-id="{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}" >
+    <div class="nav-logo">
+        <a href="/">Federal Reserve Bank of Philadelphia</a>
+    </div>
+    <div class="skip-links">
+        <a class="sr-only visible-when-focused" href="#content">skip to main content</a>
+        <a class="sr-only visible-when-focused" href="#footer">skip to footer</a>
+    </div>
+    <div class="nav-search">
+        <button type="button">Search</button>
+    </div>
+    <div class="nav-menu">
+        <button type="button"
+                aria-expanded="false"
+                id="nav-control-links"
+                aria-controls="nav-links">
+            Expand Menu
+        </button>
+    </div>
+    <nav id="nav-links" role="region" aria-labelledby="nav-control-links">
+        <ul class="nav-institution">
+                <li class="">
+                    <a class=" institution" href="/about-us">
+                    About Us
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/our-people">
+                    Our People
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" institution" href="/education">
+                    Education 
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" banking-finance" href="/banking">
+                    Banking
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/careers">
+                    Careers
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/calendar-of-events">
+                    Calendar of Events
+                    </a>
+                </li>
+        </ul>
+        <ul class="nav-topic">
+                <li   class="active"   data-topic="the-economy">
+                    <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy">
+                    The Economy
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-the-economy">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-the-economy" aria-labelledby="nav-sub-topic-label-the-economy">
+                                    <li   class="active"  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/monetary-policy">
+                                        Monetary Policy
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/banking-and-financial-markets">
+                                        Banking &amp; Financial Markets
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/macroeconomics">
+                                        Macroeconomics
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/regional-economics">
+                                        Regional Economics
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="consumer-finance">
+                    <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance">
+                    Consumer Finance
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-consumer-finance">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-consumer-finance" aria-labelledby="nav-sub-topic-label-consumer-finance">
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/payment-systems">
+                                        Payment Systems
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/consumer-credit">
+                                        Consumer Credit
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/education-finance">
+                                        Education Finance
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/mortgage-markets">
+                                        Mortgage Markets
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="community-development">
+                    <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development">
+                    Community Development
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-community-development">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-community-development" aria-labelledby="nav-sub-topic-label-community-development">
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/inclusive-growth">
+                                        Inclusive Growth
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/credit-and-capital">
+                                        Credit &amp; Capital
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/housing-and-neighborhoods">
+                                        Housing &amp; Neighborhoods
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/workforce-and-economic-development">
+                                        Workforce &amp; Economic Development
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="data">
+                    <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data">
+                    SURVEYS &amp; DATA
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-data">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-data" aria-labelledby="nav-sub-topic-label-data">
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/real-time-data-research">
+                                        REAL-TIME DATA RESEARCH
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/regional-economic-analysis">
+                                        Regional Economic Analysis
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/consumer-finance-data">
+                                        CONSUMER FINANCE DATA
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/community-development-data">
+                                        COMMUNITY DEVELOPMENT DATA
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+            <li class="nav-search">
+                <button type="button">Search</button>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+  FRBP.extend( 'components', {
+    id: '{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}',
+    name: 'global-nav',
+    element: document.querySelector( '[data-id="{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}"]' ),
+    options: {
+      searchPagePath: '/search-results', //url to search page (everything but the domain)
+      showSearchOverlay: true,
+      endpoint: '/api/suggest'
+    },
+    attributes: {"suggestedSearch":[{"title":"Manufacturing Business Outlook Survey","url":"/search-results?searchQuery=Manufacturing Business Outlook Survey"},{"title":"Housing Improvement","url":"/search-results?searchQuery=Housing Improvement"},{"title":"Workforce Development","url":"/search-results?searchQuery=Workforce Development"},{"title":"Economic Research","url":"/search-results?searchQuery=Economic Research"}]}
+  } );
+</script><nav class="breadcrumbs">
+    <ul>
+                <li>
+                        <a href=/>Federal Reserve Bank of Philadelphia</a>
+                </li>
+                <li>
+                        <a href=/the-economy>The Economy</a>
+                </li>
+                <li>
+                        <a href=/the-economy/monetary-policy>Monetary Policy</a>
+                </li>
+                <li>
+Understanding Monetary Policy Through the Housing Channel                </li>
+    </ul>
+</nav>
+
+
+
+        </header>
+
+        <main id="content" tabindex="-1" class="page page-article">
+
+            <header>
+                
+            </header>
+
+            
+<div class="article-intro article ">
+
+        <div class="intro-image">
+            <picture>
+                    <source srcset="/-/media/FRBP/Assets/Images/content/Speeches/Hands-Screen-Presentation/Tablet-Hands-Screen-Presentation-md.jpg" media="(max-width: 767px)">
+                                    <source srcset="/-/media/FRBP/Assets/Images/content/Speeches/Hands-Screen-Presentation/SubsectionBanner-Hands-Screen-Presentation.jpg" media="(max-width: 1235px)">
+                <img itemprop="image" src="/-/media/FRBP/Assets/Images/content/Speeches/Hands-Screen-Presentation/SubsectionBanner-Hands-Screen-Presentation.jpg" alt="Speaker at podium with remote control and projected presentation in the background" />
+            </picture>
+        </div>
+
+    <div class="intro-content the-economy">
+        <p class="icon-type-label icon-type-speech">Speech</p>
+
+        <h1 itemprop="name">Understanding Monetary Policy Through the Housing Channel</h1>
+
+            <div class="intro-author">
+
+<div class="author-img">
+
+                        <img src=/-/media/FRBP/Assets/Images/People/Executive-Leadership/Harker_Patrick_22_05.jpg alt="Patrick T. Harker" />
+                    </div>
+
+                <div class="author-desc">
+                    <p class="author-by">by</p>
+                        <a href=/our-people/patrick-t-harker class="author-name" itemprop="author">Patrick T. Harker</a>
+                    <p class="author-title">Former President and Chief Executive Officer (2015–2025)</p>
+                </div>
+            </div>
+
+        <p class="article-date-published" itemprop="datePublished">20 Apr ’23</p>
+
+        <p class="intro-excerpt" itemprop="description">Samuel Zell and Robert Lurie Real Estate Center Members’ Meeting, The Wharton School of the University of Pennsylvania | Philadelphia, PA</p>
+
+        <div class="article-intro-footer">
+
+            <div>
+
+
+            </div>
+
+                <div class="download-share-intro">
+
+                    <p class="download-text">View PDF</p>
+                    <ul class="download-icons">
+                        <li class="share-circle-icon">
+                            <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2023/04-20-23-speech-zell-lurie-real-estate-center.pdf" target="_blank">
+                                <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="download-share-icons article">
+
+    <div class="download-share">
+
+        <p class="share-text">Share</p>
+        <ul class="share-icons">
+
+                <li class="share-download-btn share-circle-icon">
+                    <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2023/04-20-23-speech-zell-lurie-real-estate-center.pdf" target="_blank">
+                        <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                    </a>
+                </li>
+            <li class="share-circle-icon">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&amp;source=FRBP&amp;url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2Fmonetary-policy%2F230420-understanding-monetary-policy-through-the-housing-channel&amp;title=Understanding+Monetary+Policy+Through+the+Housing+Channel " target="_blank">
+                    <img src="/assets/images/svg/icon-social/linkedin-circle.svg" alt="LinkedIn">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2Fmonetary-policy%2F230420-understanding-monetary-policy-through-the-housing-channel&amp;text=Understanding+Monetary+Policy+Through+the+Housing+Channel" target="_blank">
+                    <img src="/assets/images/svg/icon-social/x-circle.svg" alt="X">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fmonetary-policy%2f230420-understanding-monetary-policy-through-the-housing-channel" target="_blank">
+                    <img src="/assets/images/svg/icon-social/facebook-circle.svg" alt="Facebook">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.threads.net/intent/post?url=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fmonetary-policy%2f230420-understanding-monetary-policy-through-the-housing-channel&amp;text=Understanding+Monetary+Policy+Through+the+Housing+Channel" target="_blank">
+                    <img src="/assets/images/svg/icon-social/threads-circle.svg" alt="Threads">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="mailto:?subject=Understanding+Monetary+Policy+Through+the+Housing+Channel&amp;body=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2fmonetary-policy%2f230420-understanding-monetary-policy-through-the-housing-channel" target="_blank">
+                    <img src="/assets/images/svg/icon-utility/mail-circle.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="article-body the-economy">
+    <p>Good evening, everyone! Any time I get to spend with the Wharton family is time well spent, and this is certainly no exception. Thank you for the invitation to join you tonight.</p>
+<p>With the economy and the Federal Reserve in the news a lot lately, I thought we should spend our time together covering a few topics of interest. First, I&rsquo;ll talk about current economic conditions and how they are affecting the Fed&rsquo;s monetary policy actions. Then, I&rsquo;ll take a deep dive into the effects that monetary policy can have on the housing market and how these impacts transmit through the economy. After that, I plan to leave plenty of time at the end for your questions and comments.</p>
+<p>But before I do any of that, I have to issue the standard disclaimer: The views I express tonight are my own and don&rsquo;t necessarily reflect those of anyone else on the Federal Open Market Committee (FOMC) or within the Federal Reserve System.</p>
+<h2>The State of the Economy</h2>
+<p>With that out of the way&hellip; let&rsquo;s talk about the state of the economy. In the wake of the pandemic, one word has remained top of mind for the Federal Reserve: inflation.</p>
+<p>While headline PCE inflation has come down from its peak of 7 percent last year, it is still running at 5 percent year over year &mdash; way above the Fed&rsquo;s long-run target of 2 percent annually. Recent readings show that inflation is continuing to recede, but it&rsquo;s doing so slowly.</p>
+<p>This persistently high inflation comes with real costs for Americans &mdash; cutting into purchasing power and household wealth. And the pain isn&rsquo;t being felt equally. The toll is falling most heavily on those least able to bear it. I&rsquo;m especially concerned about the elevated costs of shelter, food, and health care &mdash; life&rsquo;s true necessities.</p>
+<p>To combat this inflation, the Fed has been working to slow the economy modestly and bring it more in line with supply. We have increased the target range for the federal funds rate &mdash; our primary monetary policy tool &mdash; by 475 basis points since March 2022. Balance sheet reduction is another way to tighten conditions.</p>
+<p>We&rsquo;re already seeing promising signs that these actions are working &mdash; for example, house price indexes are cooling.</p>
+<p>What&rsquo;s encouraging is that even as we have raised rates, the national economy remains relatively healthy overall. Since January, we&rsquo;ve experienced strong growth in economic activity.</p>
+<p>There are also still a record number of Americans employed, with more than 1 million jobs created, on net, so far this year. While there are some signs that labor market tightness is beginning to ease a bit, the unemployment rate remains near record lows &mdash; 3.5 percent in March.</p>
+<p>We&rsquo;re also paying close attention to the banking system. The recent failures of Silicon Valley Bank and Signature Bank ignited an understandable wave of anxiety among banks, depositors, and investors. But I can assure you that the U.S. banking system remains sound and resilient.</p>
+<p>We know that problems in a few banks, if left unattended, can undermine confidence in healthy banks. That&rsquo;s why the Treasury, FDIC, and the Fed acted quickly to protect the U.S. economy and its banking interests. The Federal Reserve is also leading a thorough, transparent, and swift review of the events surrounding Silicon Valley Bank so that we can learn what went wrong.</p>
+<p>Taking all of this into account, here&rsquo;s my outlook for what you should expect from the Federal Reserve and the economy in the near term.</p>
+<p>The Fed&rsquo;s monetary policy actions are guided by our dual mandate: to promote full employment and price stability. On the jobs front, things look quite good; we are, effectively, at full employment. But when it comes to inflation, there is still significant room for improvement.</p>
+<p>It will take some time to evaluate how recent events may impact overall economic activity and inflation. I expect to see tighter credit conditions for households and businesses that may slow economic activity and hiring, but the full extent is still unclear.</p>
+<p>What is clear is that the Fed remains fully committed to its 2 percent inflation target. To achieve that, I anticipate that some additional tightening may be needed to ensure policy is restrictive enough to support both pillars of our dual mandate. Once we reach that point, which should happen this year, I expect that we will hold rates in place and let monetary policy do its work.</p>
+<p>Along this path, I project that we will see modest growth this year, with real GDP coming in a bit below 1 percent. I expect inflation to continue declining, landing somewhere between 3 percent and 3.5 percent this year, before falling to 2.5 percent in 2024, and leveling out at our 2 percent target in 2025. Unemployment is also likely to tick up slightly, hitting around 4.4 percent this year.</p>
+<p>But this is just a snapshot of what conditions look like today. We&rsquo;re operating in a very uncertain environment, and I will be closely monitoring our dashboards of economic indicators and assessing their implications.</p>
+<h2>The Housing Channel</h2>
+<p>I often get asked how the Fed measures the impact of its monetary policy decisions. Unfortunately, there&rsquo;s no simple answer.</p>
+<p>Monetary policy has both immediate and lagging impacts, which affect sectors of the economy in different &mdash; and often interconnected &mdash; ways. To make better sense of it, economists sort these impacts into &ldquo;channels.&rdquo;</p>
+<p>But even within a channel, it can be difficult to get a clear picture of how monetary policy is transmitting &mdash; something we can see by taking a closer look at one of our most studied and well-known channels.</p>
+<p>After just about every FOMC meeting, you&rsquo;ll see some version of the same headline pop up: &ldquo;What does the Fed&rsquo;s decision mean for home buyers?&rdquo;</p>
+<p>So, let&rsquo;s focus our conversation there: on the housing channel. How <em>do</em> the Fed&rsquo;s actions impact home buyers?</p>
+<h2>Mortgage Rates</h2>
+<p>As you all know, the Fed doesn&rsquo;t actually set mortgage rates. Our primary tool for conducting monetary policy, as I mentioned, is the target range for the federal funds rate. But there is a close relationship between this rate and the mortgage rates that are offered to consumers.</p>
+<p>Federal funds transactions are unsecured overnight loans, typically used by depository institutions to lend or borrow reserves. Of course, this isn&rsquo;t how people finance home purchases. They take out mortgages that are collateralized and spread out over multiple years, if not decades.</p>
+<p>Mortgage lenders take this into account when setting interest rates. They&rsquo;re not only looking at what the federal funds rate is today, but what they expect it to be 10 or more years down the line. They&rsquo;re also considering a whole host of broader macroeconomic factors.</p>
+<p>Yet there is a clear and fast pass-through from the federal funds rate to mortgage rates. For example, a 30-year fixed rate mortgage could be found for as low as 2.7 percent at the end of 2020, when our policy rate was effectively at zero. In the last 12 months, that same 30-year fixed rate mortgage has climbed to nearly 7 percent, with policy rates now close to 5 percent.</p>
+<p>Now, you might think this means that home buyers are the first stakeholders within the housing channel to be impacted by the Fed&rsquo;s monetary policy actions. But when rates are falling, there&rsquo;s another group that can feel it even sooner &mdash; and there isn&rsquo;t even a real estate transaction involved.</p>
+<h2>Refinancers</h2>
+<p>Mortgage refinancing is a big business &mdash; if interest rates are going down. In fact, when the FOMC cut the federal funds rate to zero in response to the pandemic, refinancing rose to a staggering $2.6 trillion in 2020 and 2021 &mdash; more than double the prepandemic value.</p>
+<p>As homeowners refinanced their mortgages into lower-interest loans, it freed up monthly income, boosting household consumption and savings. This, in turn, helped the economy better weather the uncertainty caused by the pandemic &mdash; one of the FOMC&rsquo;s objectives for cutting rates at the time.</p>
+<p>The situation looks quite different today. When mortgage rates increase, there&rsquo;s little incentive to refinance &mdash; and we see this show up in recent data. Refinancing fell to $66 billion in the last quarter of 2022. Other instruments that let owners tap into their home equity, like home equity lines of credit, have become more expensive as well.</p>
+<p>It&rsquo;s also worth noting that refinancing is history dependent when it comes to the potential impact of monetary policy.<sup><a href="#1">1</a></sup>&nbsp;What rates have been, and for how long, directly affect how much refinancing will be triggered by accommodative monetary policy. With most mortgages today locked in at very low rates, even bringing the federal funds rate all the way back to zero would be unlikely to trigger much meaningful refinancing.</p>
+<h2>Home Buyers and Sellers</h2>
+<p>Now, let&rsquo;s turn to our next group of stakeholders impacted by the Fed&rsquo;s monetary policy decisions: home buyers and sellers.</p>
+<p>Here, it&rsquo;s time to state the obvious. A higher federal funds rate almost always leads to higher mortgage rates, which makes buying a house more expensive for prospective homeowners.</p>
+<p>Higher costs typically dampen demand on both sides of a potential transaction. Home buyers may choose to wait for lower prices or lower rates to make a purchase. Homeowners, meanwhile, may postpone selling to preserve a locked low-interest rate or wait for a higher price. As home sales slow, house prices should eventually decrease, though this usually happens with a lag.</p>
+<p>After a year of interest rate increases, we have started to see this process play out in the current housing market. After sales of existing homes exceeded 6 million in 2021, we saw sales during the last quarter of 2022 average 4 million at an annual rate. Sales of new homes were also halved from their peak. Meanwhile, house prices have fallen each month since their peak in June, though they remain at similar levels to what we saw a year ago.</p>
+<p>A drop in house prices can have notable effects within the broader economy. During the Great Recession, we saw a pronounced decrease in household consumption tied to declining home prices. More recent research has emphasized liquidity effects, which can play an important role in determining the strength and timing of monetary policy transmission in the housing channel. <a href="/our-people/ronel-elul">Ronel Elul</a>, from the Philadelphia Fed, and coauthors argue that once all credit constraints that households face are accounted for, there are negligible wealth effects.</p>
+<p>As we look at the current situation, U.S. households have entered the tightening cycle with very healthy balance sheets. Existing homeowners are also benefiting from low mortgage rates and elevated home equity. This gives a &ldquo;cushion&rdquo; for homeowners, making it unlikely that a correction in house prices would trigger widespread liquidity constraints and consumer spending reductions.</p>
+<p>It&rsquo;s also important to point out that there will never be a perfect relationship between interest rates and home-buying trends. The purchase of a home is often associated with other major life events, like getting married. This means that a certain level of housing demand will always be present, regardless of mortgage rates or house prices.</p>
+<h2>Renters and Landlords</h2>
+<p>That brings us to our next group of stakeholders who will be most impacted by changes to monetary policy: renters and landlords.</p>
+<p>The rental market is where we start to see lags pile up as conflicting dynamics play out. As potential home buyers delay purchases because of higher rates, rental demand can increase, incentivizing landlords to raise rents.<sup><a href="#2">2</a></sup> But their ability to do so immediately can be limited by leasing terms that range anywhere from six to 24 months. Landlords may also hesitate to raise rents on existing tenants in good standing, who may balk at significant increases and leave units empty for months. Striking the right balance is a juggling act.</p>
+<p>What&rsquo;s the end result from a monetary policy perspective? A very protracted and muted effect on renters &mdash; who, we can&rsquo;t forget, make up about a third of total U.S. households.</p>
+<h2>Builders and Investors</h2>
+<p>The impacts only get fainter as we branch out beyond the rental market and into a world many of you know well: the supply side. Both builders and investors in the housing channel also respond to monetary policy actions, but long project lead times mean the lags here are substantial. They&rsquo;re also more likely to be closely interrelated with other channels, like the cost of goods.</p>
+<p>Where are we today? Housing starts have been slowing down compared with a year ago, but they remain well above their average levels since the Great Recession and prior to the pandemic. Starts for multiunit structures, which have even longer building lags, have yet to abate.</p>
+<h2>Back to the Dual Mandate</h2>
+<p>Up to this point, we have explored how monetary policy impacts the housing market. But the Fed&rsquo;s dual mandate is maximum employment and price stability overall. So, the next question becomes: How much does housing matter for total employment and aggregate inflation?</p>
+<p>For employment, the answer is: not too much. Employment in construction represents just about 5 percent of total nonfarm payrolls, and only a fraction works with residential buildings. Lags here confound the picture quite a bit. While employment in construction is still growing slightly year over year, declining residential investment has subtracted more than 1 percentage point of GDP growth in the second half of last year.</p>
+<p>But when it comes to inflation, housing matters. Home prices and rents are also major drivers of inflation. Housing makes up about a third of the basket of goods used by the Bureau of Labor Statistics to calculate the Consumer Price Index (CPI). Yet, even as home prices have fallen, shelter inflation has steadily increased. In fact, more than 60 percent of the increase in the most recent core CPI can be attributed to rising shelter costs.</p>
+<h2>Structural Factors</h2>
+<p>Now, I have mainly talked about housing through the narrow lens of monetary policy. But I&rsquo;d be remiss if I also didn&rsquo;t touch on the structural factors impacting housing &mdash; most notably, the lack of affordable housing.</p>
+<p>Since the Great Recession, the U.S. hasn&rsquo;t built enough housing to keep price growth in check. By most estimates, we are now several million homes short of where we need to be. This is a primary driver of shelter inflation, which, as we discussed, is one of the key reasons core inflation remains so high.</p>
+<p>Getting shelter inflation under control is an urgent priority. Monetary policy has a role to play here in broadly fighting inflation, bringing down the costs of goods and services related to the housing channel. But to fully address the scope and scale of this problem, we also need action from federal, state, and local governments.</p>
+<p>What could this look like? Some of the ideas I&rsquo;ve seen mentioned include changing zoning laws, revising tax codes, building workforce housing, and creating housing subsidies.</p>
+<p>As a Fed president, I&rsquo;m neutral on the merits of any specific policy; that&rsquo;s for other policymakers to decide. But I&rsquo;m not neutral on the need to do something.</p>
+<p>Shelter inflation is a macroeconomic drag. Money spent on housing is money that&rsquo;s not being spent on education, services, and durable goods.</p>
+<p>There are also already signs that our most vibrant metro areas aren&rsquo;t achieving their full economic potential, because millions of would-be participants simply can&rsquo;t afford to live there. This has major implications for our long-term economic growth, something we should all be concerned about.</p>
+<h2>The Economy Is People</h2>
+<p>As you can see, the housing channel is incredibly complex and interconnected. And it&rsquo;s only <em>one</em> of the many channels we look at to determine how monetary policy is transmitting through the economy. It&rsquo;s a reminder of why I have always approached this job with humility.</p>
+<p>The economy isn&rsquo;t the Federal Reserve, or interest rates, or numbers in a data report. The economy is people &mdash; living and working and making the best decisions they can with the information they have.</p>
+<p>The only way we can make sound monetary policy decisions is to carefully consider all these different perspectives &mdash; not only in what the data tell us, but in what we hear from people directly. Because if we only looked at the economy from a 30,000-foot view, we&rsquo;d miss a whole lot about what&rsquo;s happening on the ground.</p>
+<p>It&rsquo;s also why I love coming to events like this one. While my remarks tonight were confined to monetary policy and the residential home market, I&rsquo;m eager to hear from all of you about what you&rsquo;re seeing in the commercial real estate space. You&rsquo;re on the frontlines of the future of work, the future of retail, and the future of our cities &mdash; the very factors that will drive the future of our economy. Any insights you&rsquo;d like to share tonight would be well considered and much appreciated.</p>
+<p>With that, let&rsquo;s get to your questions and comments.</p>
+<div class="rte-container rte-footnotes">
+<div class="rte-footnotes-body">
+<ol>
+    <li><a name="1" id="1"></a>Martin Eichenbaum, Sergio Rebelo, and Arlene Wong, &ldquo;State Dependent Effects of Monetary Policy: The Refinancing Channel,&rdquo; <em>American Economic Review </em>112(3) (March 2022), pp. 721&ndash;761. </li>
+    <li><a rel="noopener noreferrer" rel="noopener noreferrer" name="2" id="2"></a>Daniel Dias and Jo&atilde;o B. Duarte, <a rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/full/10.1002/jae.2679" target="_blank">&ldquo;Monetary Policy, Housing Rents, and Inflation Dynamics,&rdquo; Journal of Applied Econometrics (January 2019)</a>.</li>
+</ol>
+</div>
+</div>
+
+        <a class="outline-button cta" href="/-/media/FRBP/Assets/Institutional/speeches/harker/2023/04-20-23-speech-zell-lurie-real-estate-center.pdf" target="_blank">View the Full Speech</a>
+</div>
+    <aside class="related-content">
+            <div class="group-cards-article">
+                <h2>Related Content</h2>
+                <div class="cards-article-wrapper">
+                            <div data-content-type="speech" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy/monetary-policy">Monetary Policy</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-speech">
+                                            Speech
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/monetary-policy/230411-opening-remarks>
+                                                    Opening Remarks
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/patrick-t-harker" itemprop="author">Patrick T. Harker</a></li>                                                        </ul>
+                                                        <p class="article-date">11 Apr ’23</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">Wharton Initiative on Financial Policy & Regulation, The Wharton School of the University of Pennsylvania | Philadelphia, PA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="speech" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy/monetary-policy">Monetary Policy</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-speech">
+                                            Speech
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/monetary-policy/230214-the-fed-and-the-economy-where-were-going-where-weve-been>
+                                                    The Fed and the Economy: Where We&rsquo;re Going, Where We&rsquo;ve Been
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/patrick-t-harker" itemprop="author">Patrick T. Harker</a></li>                                                        </ul>
+                                                        <p class="article-date">14 Feb ’23</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">The 22nd Annual Economic Outlook, La Salle University | Philadelphia, PA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="speech" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy/monetary-policy">Monetary Policy</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-speech">
+                                            Speech
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/monetary-policy/230210-the-changing-payments-landscape-in-a-period-of-pandemic-recovery>
+                                                    The Changing Payments Landscape in a Period of Pandemic Recovery
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/patrick-t-harker" itemprop="author">Patrick T. Harker</a></li>                                                        </ul>
+                                                        <p class="article-date">10 Feb ’23</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">Digital Money, Decentralized Finance, and the Puzzle of Crypto, hosted by the Global Interdependence Center | La Jolla, CA</p>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </aside>
+
+
+            <section class="cards"></section>
+
+            
+
+        </main>
+        <footer>
+            
+<div class="footer" id="footer" tabindex="-1">
+    <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <address>
+            <div class="contact-address circle-icon">
+                <p><p>Ten Independence Mall</p>
+<p>Philadelphia, PA 19106</p></p>
+            </div>
+            <p class="contact-phone circle-icon"><a href="tel:(215) 574-6000">(215) 574-6000</a></p>
+        </address>
+
+        <nav class="contact-social">
+            <ul>
+
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="linkedin-frbp" rel="noopener noreferrer" href="https://www.linkedin.com/company/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/linkedin-circle.svg?iar=0&amp;hash=03D1CA336F233706A0AD87B567E3B640" alt="LinkedIn" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/x-circle.svg?iar=0&amp;hash=2FE751E6EEC664CF758311B734D37798" alt="Twitter" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/PhillyFed">
+                        <img src="/-/media/FRBP/Assets/Images/social/youtube-circle.svg?iar=0&amp;hash=AF25ECB8538FB9764B3777ACF1E339FA" alt="YouTube" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/facebook-circle.svg?iar=0&amp;hash=93E67FCF22A31927339EF159BE9318E4" alt="Facebook" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="threads-frbp" rel="noopener noreferrer" href="https://www.threads.net/@philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/threads-circle.svg?iar=0&amp;hash=69A1107DD754B37AF5685A446257AA64" alt="Threads" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/instagram-circle.svg?iar=0&amp;hash=95774A86DAEFFDEC06946FDAABC3B050" alt="Instagram" />
+                        </a>
+
+                    </li>
+
+            </ul>
+        </nav>
+    </div>
+	<nav class="footer-pages">
+		<ul>
+				<li>
+
+					<a href="/about-us/privacy-notice">
+					Privacy Notice
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/newsroom">
+					Newsroom
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/subscriptions">
+					Subscribe
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/contact-us">
+					Contact
+					</a>
+
+				</li>
+
+		</ul>
+		<p class="copyright">Copyright 2026. All rights reserved. Federal Reserve Bank of Philadelphia</p>
+	</nav>
+
+</div>
+
+        </footer>
+    </div>
+    
+    <script src="/pages/article/page.js"></script>
+
+    <!-- /#wrapper -->
+<script type="text/javascript"  src="/txdPBecLCm65sWchKGd2OUnkvMk/1GOukLhrVQkLLLYk7S/Rx80Ag/eC/MEbg0fEFkB"></script></body>
+</html>

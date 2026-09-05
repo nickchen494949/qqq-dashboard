@@ -1,0 +1,881 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A New Perspective on Policy - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060404" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060404" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs060404-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">A New Perspective on Policy</h1>
+                                                    <div class="dal-tagline">2006 Streich Family Lectureship on Free Enterprise</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">April 4, 2006</span> Midwestern State University, Wichita Falls, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+
+                        <p>I am delighted to be back in Wichita 
+                          Falls. I spent some considerable time here in 1994, 
+                          when I took leave of my senses and ran for the United 
+                          States Senate. The good people of this city were always 
+                          nice to me, especially Dottie Murphy, who is here today&mdash;thank 
+                          you, Dottie. I remember the first time I met your wonderful 
+                          mother, God rest her soul. She had on a white blouse, 
+                          a jean skirt and bright red cowboy boots, and she looked 
+                          a third her age and like the belle of the ball. She 
+                          was a true Texas gem, and we all miss her. </p>
+                        <p>I ran that one time for office 
+                          and that was it. Veni, Vidi, Defici: I came, I saw, 
+                          I lost. It was not my cup of tea; I was no good at it 
+                          and was a fish&mdash;or, I guess you can say, a fisher&mdash;out 
+                          of water. I was better suited for the assignment of 
+                          ambassador and trade negotiator of the United States. 
+                          That, in turn, proved to be excellent preparation for 
+                          what I do today as president of the Federal Reserve 
+                          Bank of Dallas and as a participant in the Federal Open 
+                          Market Committee, the monetary policy setting body of 
+                          the Federal Reserve System. Today is, in fact, the anniversary 
+                          of my becoming Dallas Fed president last year. So I 
+                          thought it might be of interest to share with you what 
+                          I have gleaned from these past few years and what I 
+                          am now up to as we speak. Before doing so, let me state 
+                          at the outset that the views I express today are strictly 
+                          my own and that I am not speaking for the Federal Open 
+                          Market Committee or others in the Federal Reserve System.</p>
+                        <p>And before getting into my prepared 
+                          remarks, I want to acknowledge my traveling companion 
+                          today, Wichita Falls&rsquo; and Midwestern&rsquo;s own 
+                          James Hoard. James is my right arm at the Fed. He is 
+                          a superb counselor and friend and does his best to keep 
+                          me out of trouble. James, raise your hand, so that if 
+                          I do make any mistakes today, everyone will know who 
+                          to blame.<br>
+                          <br>
+                          One of my first acts as Dallas Fed president was to 
+                          challenge our researchers to think deeply about how 
+                          globalization is changing the ways our economy works&mdash;in 
+                          particular, how we need to alter the rules and practices 
+                          of monetary policy to accommodate an increasingly interconnected, 
+                          interdependent global economy. </p>
+                        <p>The literature on globalization 
+                          is large. The literature on monetary policy is vast. 
+                          But literature examining the combination of the two 
+                          is surprisingly small.</p>
+                        <p>At year-end last year, if you 
+                          had Googled &ldquo;globalization&rdquo; and &ldquo;monetary&rdquo; 
+                          and &ldquo;policy,&rdquo; you would have turned up more 
+                          than 2 million references. However, a search of scholarly 
+                          articles with the same word combination turned up 30,700. 
+                          If you had narrowed your quest to the exact word combination 
+                          &ldquo;globalization and monetary policy,&rdquo; you 
+                          would have found a mere 39 citations. Limiting the word 
+                          combination to the title of an article, you would have 
+                          found only two.</p>
+                        <p>Tom Friedman&rsquo;s popular book<em> 
+                          The World Is Flat: A Brief History of the Twenty-First 
+                          Century</em>&mdash;a book I&rsquo;ll bet many of you 
+                          have read&mdash;doesn&rsquo;t have a single entry on 
+                          &ldquo;money,&rdquo; &ldquo;monetary policy&rdquo; or 
+                          &ldquo;central banking.&rdquo; And in Michael Woodford&rsquo;s 
+                          influential book<em> Interest and Prices: Foundations 
+                          of a Theory of Monetary Policy</em>&mdash;a book you 
+                          probably haven&rsquo;t read but should if you delight 
+                          in economics&mdash;the word &ldquo;globalization&rdquo; 
+                          does not appear in the index. Nor do the words &ldquo;international 
+                          trade&rdquo; or &ldquo;international finance.&rdquo;</p>
+                        <p>What gives? Is the process of 
+                          globalization disconnected from monetary policy? Is 
+                          the business of the central bank totally divorced from 
+                          globalization?</p>
+                        <p>I think not. I believe globalization 
+                          and monetary policy are intertwined in a complex narrative 
+                          that is only beginning to unfold. </p>
+                        <p>There are many convoluted definitions 
+                          of globalization. Mine is simple: Globalization means 
+                          economic potential is no longer constrained by political 
+                          and geographic boundaries. A globalized world is one 
+                          where goods, services, capital, money, workers and ideas 
+                          migrate to wherever they are most valued and can work 
+                          together most efficiently, flexibly and securely.</p>
+                        <p>Where does monetary policy come 
+                          into play in this world? Well, consider the task of 
+                          the central banker, seeking to conduct monetary policy 
+                          to achieve maximum sustainable non-inflationary growth.</p>
+                        <p>Former Federal Reserve Governor 
+                          Larry Meyer gave an insider&rsquo;s view of the process 
+                          in his excellent little book<em> A Term at the Fed.</em> 
+                          It was one of the first things I read as I prepared 
+                          for my new job. In it, you get a good sense of the lexicon 
+                          of monetary policy deliberations. The language of Fedspeak 
+                          is full of sacrosanct terms, such as &ldquo;output gap&rdquo; 
+                          and &ldquo;capacity constraints.&rdquo; There is the 
+                          &ldquo;natural rate of unemployment,&rdquo; which morphed 
+                          into &ldquo;the non-accelerating inflation rate of unemployment,&rdquo; 
+                          or &ldquo;NAIRU.&rdquo; Central bankers want GDP to 
+                          run at no more than its theoretical limit, for growing 
+                          too fast for too long might stoke the fires of inflation. 
+                          They do not wish to strain the economy&rsquo;s capacity 
+                          to produce. </p>
+                        <p>One key capacity factor is the 
+                          labor pool. A shibboleth known as the Phillips curve 
+                          posits that unemployment falling beneath a certain level 
+                          ignites demand for greater pay, with inflationary consequences 
+                          for the entire economy. </p>
+                        <p>Until recently, the econometric 
+                          calculations of the various capacity constraints and 
+                          gaps of the U.S. economy were based on assumptions of 
+                          a world that exists no more. Meyer&rsquo;s book is a 
+                          real eye-opener because it describes in great detail 
+                          the learning process of the FOMC members as the U.S. 
+                          economy entered a new economic environment in the second 
+                          half of the 1990s. At the time, economic growth was 
+                          strong and accelerating. The unemployment rate was low, 
+                          approaching levels unseen since the 1960s. In these 
+                          circumstances, inflation was supposed to rise&mdash;if 
+                          you believed in the Phillips curve and the prevailing 
+                          views of potential output growth, capacity constraints 
+                          and the NAIRU. That is what the models used by the Federal 
+                          Reserve staff were saying, as was Meyer himself, joined 
+                          by nearly all the other Fed governors and presidents 
+                          gathered around the FOMC table. Under the circumstances, 
+                          they concluded that monetary policy needed to be tightened 
+                          to head off the inevitable. They were frustrated by 
+                          Chairman Greenspan&rsquo;s insistence they postpone 
+                          the rate hikes.</p>
+                        <p>We now recognize with 20/20 hindsight 
+                          that Greenspan was the first to grasp changes in the 
+                          traditional relationships among economic variables. 
+                          The former chairman understood the data and the Fed 
+                          staff&rsquo;s modeling techniques, but he was also constantly 
+                          talking&mdash;and listening&mdash;to business leaders. 
+                          And they were telling him they were simply doing their 
+                          job of seeking any and all means of earning a return 
+                          for shareholders. At the time, they were being enabled 
+                          by new technologies that enhanced productivity. The 
+                          Information Age had begun rewriting their operations 
+                          manuals. Earnings were being leveraged by technological 
+                          advances. Productivity was surging. Inflation wasn&rsquo;t 
+                          rising. Indeed, it just kept on falling.</p>
+                        <p>If the advice of Meyer and the 
+                          others had prevailed, the Fed would have caused the 
+                          economy to seriously underperform. According to some 
+                          back-of-the-envelope calculations by economists I respect, 
+                          real GDP would have been lower by several hundred billion 
+                          dollars. Employment gains would have been reduced by 
+                          perhaps a million jobs. The costs of not being right 
+                          on the critical calibrations of monetary policy would 
+                          have been huge.</p>
+                        <p>We live in a globalizing era. 
+                          Just consider what the fall of the Soviet Union, the 
+                          implementation of Deng Xiaoping&rsquo;s &ldquo;capitalist 
+                          road&rdquo; in China and India&rsquo;s embrace of market 
+                          reforms mean to business operators. Consider labor alone. 
+                          In the early &rsquo;90s, the former Soviet Union released 
+                          millions of hungry workers into the system. China joined 
+                          the World Trade Organization at the turn of the century 
+                          and injected 750 million workers into play. And now 
+                          India, with over 100 million English-speaking workers 
+                          among its 1 billion people, has joined the game. Just 
+                          two weeks ago, a CEO told me his company posted ads 
+                          for people to apply for 9,000 jobs in a new facility 
+                          in India. Do you know how many applications they received?&mdash;1,400,000. 
+                        </p>
+                        <p>How does this affect the American 
+                          manager&mdash;paid to enhance returns to shareholders 
+                          by growing revenues at the lowest possible costs? Because 
+                          labor accounts for, on average, about two-thirds of 
+                          the cost of producing most goods and services, the managers 
+                          will go where labor is plentiful and cheapest. They 
+                          will have a widget made in China or Vietnam, or a software 
+                          program written in Russia or Estonia, or a center for 
+                          processing calls or managing a back office set up in 
+                          India.</p>
+                        <p>Let me tell you of one eye-opening 
+                          experience. About two years ago, I was in London on 
+                          business for Kissinger McLarty. I received a call from 
+                          the head of Japan&rsquo;s equivalent of the Business 
+                          Roundtable, the Keidanren, asking me to &ldquo;pop over 
+                          tomorrow to give a luncheon and dinner speech.&rdquo; 
+                          They made an offer I couldn&rsquo;t refuse, and I said 
+                          I would be glad to do it if they could arrange the flights. 
+                          They booked me on Virgin Air and arranged for a car 
+                          to take me to Heathrow. At the appointed time, the car 
+                          didn&rsquo;t show up. So I called the number I had been 
+                          given. The call was answered by a woman with a frightfully 
+                          British accent. When I asked, &ldquo;Could you kindly 
+                          tell me where my car is, ma&rsquo;am?&rdquo; she deftly 
+                          shifted to a Southwestern American accent and said, 
+                          &ldquo;Now don&rsquo;t you worry. It is five minutes 
+                          away. Ah apologize for the delay. Have a nice flight.&rdquo;</p>
+                        <p>I said, &ldquo;Well, hold on a 
+                          minute. You answered this call in a British accent but 
+                          once I spoke, you shifted to a Texas accent. Who are 
+                          you? Where are you?&rdquo;</p>
+                        <p>&ldquo;Well,&rdquo; she answered, 
+                          &ldquo;I am a call center operator in Bangalore.&rdquo;</p>
+                        <p>&ldquo;Have you ever been to the 
+                          United States?&rdquo; I asked.</p>
+                        <p>&ldquo;Oh, no, sir. But I can 
+                          tell that you are from Arkansas, Texas or New Mexico.&rdquo;</p>
+                        <p>&ldquo;And how do you learn to 
+                          speak like me?&rdquo;</p>
+                        <p>&ldquo;Well, sir, for people like 
+                          you, we watch a telly show called <em>Walker, Texas 
+                          Ranger.</em>&rdquo;</p>
+                        <p>&ldquo;And what if I were from 
+                          Boston?&rdquo;</p>
+                        <p>&ldquo;Ah, for those people we 
+                          watch <em>Cheers</em>.&rdquo;</p>
+                        <p>It may seem like a small matter 
+                          that a Japanese firm employed a worker in India to track 
+                          a car by GPS in London and mimic a voice from Texas. 
+                          But globalization impacts the conduct of business so 
+                          much more profoundly, and therefore it impacts the expansion 
+                          of our productive capacity and the pricing mechanism 
+                          of labor and other inputs.</p>
+                        <p>The destruction of communism and 
+                          the creation of vast new sources of inputs and production 
+                          have upset all the calculations and equations of the 
+                          very best economics minds, including those of the Federal 
+                          Reserve staff. Many of the old models simply do not 
+                          apply in the new real world. This is why I think so 
+                          many economists have been so baffled by the length of 
+                          the current business cycle as well as the non-inflationary 
+                          prosperity we have enjoyed for almost two decades. </p>
+                        <p>You could sense something was 
+                          wrong with the econometric equations if you listened 
+                          to the troops on the ground, fighting in the trenches 
+                          of the marketplace. This is what I did at the U.S. Trade 
+                          Representative&rsquo;s office in negotiating market-opening 
+                          trade rounds with China, Vietnam, Mexico, Brazil and 
+                          others. It is what my colleagues and I at Kissinger 
+                          McLarty did while advising dozens of U.S. companies 
+                          seeking entry into China and the former Soviet satellites 
+                          and India and Latin America. It is what my colleagues 
+                          and I on the FOMC do by making dozens upon dozens of 
+                          calls to CEOs, COOs and CFOs of businesses, large and 
+                          small, every month to prepare for FOMC meetings. </p>
+                        <p>We are simply observing managers 
+                          at work expanding the capacity of our economy, expanding 
+                          the gap between what their previously limited resources 
+                          would allow them to produce and what their newly expanded 
+                          globalized, technologically enhanced reach now allows 
+                          them to produce. </p>
+                        <p>From this, I personally conclude 
+                          that we need to redraw the Phillips curve and rejig 
+                          the equations that inform our understanding of the maximum 
+                          sustainable levels of U.S. production and growth. How 
+                          can economists quantify what the U.S. can produce with 
+                          existing labor and capital when we don&rsquo;t know 
+                          the full extent of the global labor pool we can access? 
+                          Or the totality of the financial and intellectual capital 
+                          that can be drawn on to produce what we produce?</p>
+                        <p>So what does the limited research 
+                          on resource utilization and output gaps tell us? There 
+                          are a few key, but preliminary findings from work done 
+                          at the Bank for International Settlements&mdash;what 
+                          many consider &ldquo;the central bankers&rsquo; bank&rdquo;&mdash;and 
+                          some as yet unpublished work done by several of our 
+                          Dallas Fed economists. Here are a few key points:</p>
+                        <ul>
+                          <li> The relationship between measures of domestic economic 
+                            slack, such as industrial capacity utilization, and 
+                            domestic inflation seems to have declined across a 
+                            broad range of advanced countries in recent years.<br>
+                            &nbsp; </li>
+                          <li> At the same time, proxies for global slack&mdash;such 
+                            as unemployment rates and output gaps in a wide array 
+                            of countries&mdash;seem to be of growing importance.<br>
+                            &nbsp; </li>
+                          <li> And for some countries, including&mdash;and to 
+                            my mind especially&mdash;the United States, the proxies 
+                            for global slack have become more important predictors 
+                            of changes in inflation than measures of domestic 
+                            slack.</li>
+                        </ul>
+                        <p>At first, I was encouraged on 
+                          hearing these results. But then I was reminded about 
+                          how difficult it is to accurately measure slack in the 
+                          U.S. economy in real time. Data revisions in these measurements 
+                          are often quite large. Imagine how much more difficult 
+                          it is to measure in real time the degree of slack or 
+                          capacity utilization that exists across the landscape 
+                          of, say, 10 other economies across the globe!</p>
+                        <p>The realization of the importance 
+                          of global economic conditions for making monetary policy 
+                          decisions is becoming more widespread. Several of my 
+                          colleagues on the FOMC have offered encouragement to 
+                          the globalization research efforts under way at the 
+                          Dallas Fed. In February, I had the opportunity to give 
+                          a speech in London and to meet with Mervyn King, the 
+                          governor of the Bank of England. Foreign trade has long 
+                          been important to the prosperity of the U.K. London&rsquo;s 
+                          financial markets play a pivotal role in global capitalism. 
+                          So policymakers in the U.K. are used to thinking globally 
+                          when it comes to making policy. After a robust conversation 
+                          with Governor King, it became abundantly clear that 
+                          we share many views on the importance of globalization 
+                          for monetary policy. In recent years, globalization 
+                          has manifested itself in the U.K. in the form of inflows 
+                          of foreign workers that have alleviated labor market 
+                          pressures and allowed the Bank of England to keep interest 
+                          rates at levels lower than might otherwise be the case. 
+                          Globalization has also shown up in greater external 
+                          competitive pressures on U.K. firms, and thereby affected 
+                          the dynamics of inflation in the U.K. Bank of England 
+                          staff have an ongoing research project to understand 
+                          the causes of what they refer to as the Great Stability 
+                          and we refer to as the Great Moderation&mdash;the decline 
+                          in inflation and output volatility that we have seen 
+                          in many countries in recent years. Globalization is 
+                          almost surely part of the explanation.</p>
+                        <p>Recognition of the importance 
+                          of global economic forces for the making of economic 
+                          policy is not limited to monetary policy. Just last 
+                          week, the Antitrust Division of the U.S. Justice Department 
+                          decided not to impose any restrictions on the merger 
+                          of Whirlpool and Maytag, two manufacturers of washing 
+                          machines and clothes dryers that together control roughly 
+                          70 percent of the U.S. market. In the old days, this 
+                          would be unthinkable. Today, the reason for not being 
+                          too concerned with the potential for the combined companies 
+                          to exert monopoly power is fairly straightforward. There 
+                          are many manufacturers of laundry machines desirous 
+                          of entering the U.S. market. In other words, there are 
+                          abundant potential capacity and resources available 
+                          outside the United States that can, and will likely, 
+                          offer competition to Whirlpool/Maytag, thereby reducing 
+                          their power to boost prices.</p>
+                        <p>I freely admit to you that I do 
+                          not have the answers when it comes to globalization 
+                          and monetary policy. I do believe that I am asking the 
+                          right questions, as are my counterparts in many parts 
+                          of the world. We at the Dallas Fed will continue to 
+                          explore this topic, and we will share our findings with 
+                          the public. We will have to, now that I have made them 
+                          public right here at Midwestern! In fact, we are putting 
+                          the finishing touches on a new study about how globalization 
+                          shapes public policies&mdash;from innovation to the 
+                          regulatory environment and quite a bit in between. It 
+                          is fascinating stuff, and I look forward to sending 
+                          it to you through James in about a week or so.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

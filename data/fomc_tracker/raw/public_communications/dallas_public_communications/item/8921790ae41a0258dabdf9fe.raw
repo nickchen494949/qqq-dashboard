@@ -1,0 +1,627 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Review, Reflect and Deflect - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs130923" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs130923" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2013" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2013/fs130923-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Review, Reflect and Deflect</h1>
+                                                    <div class="dal-tagline">Richard W. Fisher's remarks before the Independent Bankers Association of Texas Annual Convention </div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        <p><span class="report-date">September 23, 2013</span> San Antonio</p><div class="report-links">
+<ul>
+<li><a href="~/media/Documents/news/speeches/fisher/2013/fs130923.pdf">Speech in PDF</a></li>
+</ul>
+</div><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+<p>Thank you, Chris [Williston]. I am honored and delighted to speak to  you all today. I understand that Danny King's daughter, Amy, arranged quite a songwriters' show for you last night. I heard it was so good that Ann Worthy, my head regulator at the Dallas Fed, stayed up past midnight &hellip; for the first time in 40 years.</p>
+<p>I am going to start today by reviewing current banking trends for the  nation and for the Eleventh Federal Reserve District. </p>
+<p>Then, as there has been a great deal of reflection in the press and  blogosphere on the occasion of the fifth anniversary of Lehman Brothers&rsquo;  bankruptcy and the ensuing global financial crisis, I want to briefly provide  you an overview of what the crisis cost us as a nation and the work remaining  to prevent a reoccurrence of a crisis, a subject I will be addressing in a more  fulsome manner in a speech and a public debate in New York in mid-October. </p>
+<p>Last, I will comment briefly on last week&rsquo;s FOMC meeting and what some  have referred to as &ldquo;the taper caper,&rdquo; doing my utmost to deflect your  criticism.</p>
+<h3><strong>Texas&rsquo; Superior Bank Performance</strong> </h3>
+<p>First, let&rsquo;s discuss how banks in the Eleventh Federal Reserve District  are performing in the context of national trends. Recall that the district  includes some 27 million people sprawled across approximately 360,000 square  miles in southern New Mexico, Texas and the wooded north of Louisiana. Over 96  percent of the economic output and the district&rsquo;s banking assets are in Texas,  so you might reasonably say I am speaking of the performance of Texas banks  versus banks in the U.S. as a whole.</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c1.ashx"  alt=""></p>
+<p>Profitability is fairly strong across the nation, helped in part by a  continued decline in provision expense. Asset quality continues to improve, and  lending activity continues to grow nationally. These national trends are  consistent with what we have seen over the last several quarters.</p>
+<p>You should take pride in knowing that Eleventh District and Texas banks  are outperforming the rest of the nation&rsquo;s banks.</p>
+<p>Let&rsquo;s look at comparative return  on assets (ROA):</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c2.ashx"  alt=""></p>
+
+<p>Profitability trends over the last several  years as measured by ROA show that district banks continue to outperform banks  nationwide, with an ROA of 1.15 percent versus 1.12 percent for all U.S. banks.</p>
+<p>While moving in the right direction, banks  still have a little more work to do before their profitability reaches  precrisis levels. </p>
+<p>Provision expense is worth noting:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c3.ashx"  alt=""></p>
+<p>Falling provision expense has  contributed to improved earnings trends for both U.S. and district banks. Declines  in the amount banks set aside to cover bad loans have importantly contributed  to improved profitability over the last several years. This, however, is not  likely to be the case moving forward.</p>
+<p>Banks nationwide and in the district are now  reporting provisions below precrisis levels. In the case of our district banks,  provision expense as a percentage of average assets is almost half of what was  reported in 2006.</p>
+<p>It doesn&rsquo;t look like profitability is going  to be bolstered much by net interest margin (NIM), either.</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c4.ashx"  alt=""></p>
+<p>The NIM for banks across the U.S. has  continued to trend lower over the past two decades; in the district, the trend  has been observed over the past decade. It is noteworthy that the most recent  decline in NIM is certainly affected by the zero lower bound on short-term  interest rates.<a href="#n1">[1]</a></p>
+<p>As you can see in this chart, district banks  continue to report a slightly higher margin at 3.33 percent versus 3.25 percent  for banks nationwide. </p>
+<p>Now let&rsquo;s look at how profitability differs  nationally by bank asset size: 
+</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c5.ashx"  alt=""></p>
+
+<p>ROA has considerably improved in all size  classes&mdash;banks with asset sizes of less than $10 billion and between $10 billion  and $250 billion, and the largest banks, those with assets greater than $250  billion.</p>
+<p>The upward trend in ROA tapers off by 2013  for community and midsize banks, while profitability for the dozen or so big  banks&mdash;the cohort that includes banks considered &ldquo;too big to fail&rdquo; (TBTF)&mdash;shoots  up rather dramatically. The Big Guys earned a ROA of 1.26 percent  versus 1.04 percent for the community banks.</p>
+<p>This chart shows the major profitability components  for the asset size classes we just discussed:
+</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c6.ashx"  alt=""></p>
+
+<p>Starting from the bottom up, you can see that  the ROA for the biggest banks is 22 basis points above that for community  banks. Recall that Eleventh District banks earned 1.15 percent ROA; thus, the  Big Guys outpace even the relatively stronger performance of our healthy banks  in and around Texas.</p>
+<p>This gap is being driven by a couple of things: The  largest banks have lower noninterest expense; some would say this is due to  economies of scale. These Big Guys also recorded much higher noninterest  income&mdash;a full 100 basis points higher. These two items were more than enough to  offset the lower net interest income reported by the biggest banks. </p>
+<p>Having noted that big gap, let&rsquo;s focus on the  noninterest-income component for a minute and look at how it has impacted  earnings trends for the Big Guys.
+</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c7.ashx"  alt=""></p>
+
+<p>This chart shows noninterest income and its  components for each of the three size classes of banks for 2012 and 2013.<a href="#n2">[2]</a> As you can  see, noninterest income was virtually unchanged for the community and midsize  banks, while noninterest income has increased for the largest banks, from 1.89  percent of average assets in 2012 to 2.09 percent in 2013. Looking at the  components of noninterest income, you can see that the growth has been driven  by an increase in trading revenue.</p>
+<p>Trading revenue is a noncore/nontraditional  income source that is typically not available to community and the smaller  midsize banks. It is thus more difficult for these smaller institutions to  return to their historical norms or even compete in traditional lending with  the Big Guys, whose lending activities, in a sense, are subsidized by their  trading activities. We are receiving numerous reports from community and  regional banks in the Eleventh District that the lending terms and standards of  big banks are becoming increasingly lax. </p>
+<p>As you know, a common measure of asset  quality is the noncurrent loan ratio, the percentage of a bank&rsquo;s loans 90 or  more days past due or on nonaccrual status. Here&rsquo;s a comparison of noncurrent  loans for U.S. versus district banks:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c8.ashx"  alt=""></p>
+<p>We&rsquo;ve seen fairly dramatic improvement in  asset quality over the last several years, with the noncurrent ratio declining  to 3.07 percent for banks nationwide and 1.55 percent for those in the  district. You can see from this chart that banks in Texas and the district  continue to outperform banks nationwide.</p>
+<p>Most of you remember the legendary Bob Hankins, who retired last year  after 20 years as head of Banking Supervision at the Federal Reserve Bank of  Dallas. Bob received an award last year at this very luncheon. He had a saying  that Texas banks were &ldquo;twice as good and half as bad&rdquo; as banks nationwide. That  remains the case, though banks around the U.S. are slowly catching up with  Texas, and you can also see from the  chart that banks here and in the U.S. still have some work to do to get  noncurrent loans down to precrisis levels.</p>
+<p>How about the so-called Texas ratio&mdash;a measure of noncurrent loans plus  other real estate owned expressed as a percentage of equity plus loan loss  reserves?<a href="#n3">[3]</a> This became a scarlet letter in the late 1980s when 20  percent of Texas banks had a Texas ratio exceeding 100 percent. However, in  2013 only 0.7 percent of Texas banks had a Texas ratio greater than 100  percent, compared with 2.5 percent nationwide&mdash;and that nationwide number is  down from a 5.7 percent peak in fourth quarter 2010. </p>
+<p>Note what is labeled on the center right side  of the chart as the &ldquo;Wells Fargo-South Central effect.&rdquo; Wells Fargo relocated a  charter to Houston in 2009 and moved a large volume of mortgage loans into the  district, triggering the increase in nonperforming residential real estate. (If  the Wells Fargo-South Central effect is excluded from the 2009 data, the  noncurrent loan ratio falls by 71 basis points for the district.) </p>
+<p>Now here is something I consider particularly noteworthy about our  district: our loan growth and its composition.</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c9.ashx"  alt=""></p>
+<p>Loan growth on a year-over-year basis remains  good, but it decelerated a bit for the nation in the second quarter to 3.74  percent. In contrast, loan growth for district banks ticked up slightly to 5.72  percent, almost 200 basis points above the nationwide average. </p>
+<p>Of interest, you can see from this multiyear chart that loan growth for  banks nationwide hooks downward in the first half of 2013, while in the  district, it turns upward. </p>
+<p>Here&rsquo;s a closer look at loan growth between June of 2012 and 2013:</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c10.ashx"  alt=""></p>
+<p>You can see in this chart how business loans  contributed to total loan growth nationwide and in the district. Business  loans grew 6.8 percent for banks nationwide and 4.8 percent for those in the  district.</p>
+<p>We do, however, continue to see pockets of  weakness. Small-business lending was down 36 basis points year over year for banks  in the U.S., while it increased only 1.6 percent districtwide.<a href="#n4">[4]</a></p>
+<p>So let me summarize all of this:
+</p>
+<p class="chart-full"><img src="/~/media/Images/news/speeches/fisher/2013/130923c11.ashx"  alt=""></p>
+
+<p>Profitability continues to trend upward,  although when we will make it back to precrisis levels remains to be seen. Asset quality  is improving, but there is more work to be done. Lending continues to rebound: We&rsquo;ve seen seven consecutive quarters of  growth nationwide. However, areas of weakness remain, particularly  small-business lending.</p>
+<p>The issue of small-business lending and the difference between the  drivers of income for the largest banks and those with less than $250 billion  in assets is a reminder of a lingering problem: The coddling, whether  intentionally or otherwise, of the biggest of the big banks&mdash;those considered  too big to fail.</p>
+<h3><strong>Five Years After Lehman, We Still Have a  Big Problem</strong> </h3>
+<p>Working with Harvey Rosenblum and my colleagues at the Dallas Fed, I  have been a constant burr under the saddle of the too big to fails. In a  nutshell, I believe that the megabanks are inherently handicapped by their size  and scale in practicing the basic principle of banking: <em>Know your customer</em>. Extreme size and complexity have proven to be  the enemy of prudence and the source of costly mistakes. Mathematically based  risk-management models, while theoretically comforting, have their  deficiencies. We learned during the recent crisis just how perilous those  deficiencies can be.</p>
+<p>We at the Dallas Fed believe, based on the experience of the last five  years, that the largest financial institutions are a dagger pointed at the  heart of our economy. We are not alone. Even the local paper in the denizen of  the megabanks, the <em>New York Times</em>,  recently editorialized regarding the controversies surrounding JPMorgan Chase:  &ldquo;The underlying problem is not only this or that violation, but the fact that  the sheer size and scope and complexity of the banking behemoths defy controls,  encouraging speculation and bad behavior.&rdquo;<a href="#n5">[5]</a></p>
+<p>We at the Dallas Fed would add that they undermine free-market  capitalism and jeopardize our economic welfare. But we would note that it is  unfair to single out JPMorgan Chase as a culprit. It is only one of a set of  megabanks that remain a threat to financial stability. Indeed, Bob Diamond, the  former head of the megabank Barclays, recently warned in a <em>Financial Times</em> op-ed that additional steps are needed &ldquo;if we are  to avoid the kind of capital regulatory arbitrage that weakened the financial  system.&rdquo;<a href="#n6">[6]</a></p>
+<p>And on Friday, the <em>Wall Street  Journal&rsquo;s</em> lead editorial said: &ldquo;The policy of too big to fail has been  codified and expanded. Dodd&ndash;Frank lets Washington&rsquo;s wise men define  &lsquo;systemically important&rsquo; institutions subject to stricter regulation &hellip;  [But]  Dodd&ndash;Frank&rsquo;s &hellip; great conceit is that in a crisis these firms will be wound down  without a rescue. They even have to provide &lsquo;living wills&rsquo; that are supposed to  plan the funeral. But the law also gives regulators the freedom to protect  creditors as they see fit, which they will surely do in a panic. The difference  next time will be that more firms will be deemed too big to fail.&rdquo; The <em>Journal&rsquo;s</em> editorial highlighted this in  bold print: &ldquo;The financial system is more regulated than ever, but also no  safer.&rdquo;<a href="#n7">[7] </a></p>
+<p>It would appear that the editors of these three great newspapers have  been reading my speeches and Congressional testimony! They seem to agree with  me and Harvey that TBTFs or &ldquo;systemically important financial institutions&rdquo;  (SIFIs) might easily again play the nefarious role they did five years ago in  bringing down our economic and financial system. (The acronym SIFI sounds like  some kind of communicable disease transmitted through reckless behavior. In the  event of another crisis brought on by the behavior that SIFIs still appear to  have leeway to engage in, my guess is the acronym would come to stand for &ldquo;Save  If Failure Impending&rdquo;).</p>
+<p>Am I exaggerating when I say that the TBTFs are a dagger pointed at the  heart of the economy? </p>
+<p>To be sure, there were many causes and tripwires for the financial  debacle from which we are still struggling to recover&mdash;a debacle that we at the  Dallas Fed estimate cost more than an entire year&rsquo;s worth of U.S. economic  output, or more than $120,000 per American household.<a href="#n8">[8]</a> Among those  causes and tripwires were the unbridled advent of toxic forms of structured  finance, complicity by the ratings agencies, and even the Fed&rsquo;s own role:  keeping interest rates too low for too long, rebuffing Fed Governor [Edward]  Gramlich&rsquo;s attempts to regulate subprime lending, and blessing the increased  consolidation of banking. </p>
+<p>As my Dallas Fed colleague, John Duca, gently reminds me, there was  more than a little &ldquo;we have met the enemy and he is us&rdquo; that contributed to the  perfect storm of forces that led our economy into that frightful and costly  tailspin.<a href="#n9">[9]</a></p>
+<p>But still, the TBTF behemoths were indisputably what the Bank of  England&rsquo;s Andy Haldane called &ldquo;super-spreaders&rdquo; of the virus that brought our  financial system and economy to its knees.<a href="#n10">[10]</a> They retain that  potential today. For in the aftermath of the crisis and the passage of  Dodd&ndash;Frank, the giants have gotten bigger, and the profitability of the  community and regional banks that might pose meaningful, healthy competition  has been undermined by the legislation&rsquo;s complexity. </p>
+<p>Dodd&ndash;Frank claims to end TBTF. Instead, as the <em>Wall Street Journal</em> editorialized, it entrenches the TBTF  pathology. The megabanks remain a potential lethal force. As mentioned, I will  be speaking at length on this subject in New York in October.</p>
+<h3><strong>A Deliberate Deflection</strong> </h3>
+<p>As I said at the beginning of my remarks, I  am going to try to avoid answering questions you might have about last week&rsquo;s  FOMC meeting and what some in the press have now labeled &ldquo;the taper caper.&rdquo;  Nearly every Federal Reserve Bank president and his or her sister will be  speaking to this topic this week, so you will be getting an earful of  cacophonous comments on this subject. </p>
+<p>Today, I will simply say that I disagreed  with the decision of the committee and argued against it. Here is a direct  quote from the summation of my intervention at the table during the policy &ldquo;go  round&rdquo; when Chairman [Ben] Bernanke called on me to speak on whether or not to  taper: &ldquo;Doing nothing at this meeting would increase uncertainty about the future  conduct of policy and call the credibility of our communications into  question.&rdquo; I believe that is exactly what has occurred, though I take no  pleasure in saying so.</p>
+<p>Enough said. Thank you for what you do for  the business and citizens of Texas. And thank you for listening.</p>
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<p>The views expressed by the author do not necessarily reflect official   positions of the Federal Reserve System.</p>
+
+<ol>
+  <li><a name="n1" id="n1"></a>Since banks borrow short-term  funds from depositors and lend for longer terms, the gap between interest  earned on loans and interest paid to depositors typically benefits from a steep  yield curve, or the difference between the yields on the 10-year Treasury bond  and the three-month Treasury bill.</li>
+  <li> <a name="n2" id="n2"></a>&ldquo;Trading revenue&rdquo; represents the net gains/losses from trading cash instruments  and derivative contracts.</li>
+  <li> <a name="n3" id="n3"></a>The &ldquo;Texas ratio&rdquo; is defined as the ratio of loans past-due 90 days or more,  nonaccrual loans, and other real estate owned relative to equity capital, plus  loan loss reserves, less intangibles.</li>
+  <li><a name="n4" id="n4"></a> &ldquo;Small-business loans&rdquo; are commercial and industrial loans and loans secured by  nonfarm nonresidential property, with original amounts of $1 million or less.</li>
+  <li> <a name="n5" id="n5"></a>&ldquo;Chasing JPMorgan Chase,&rdquo; <em>New York Times</em>,  Sept. 2, 2013, p. A16.</li>
+  <li><a name="n6" id="n6"></a> &ldquo;Bob Diamond Calls for Bank Rules Shake-up,&rdquo; by Tom Braithwaite and Patrick  Jenkins, <em>Financial Times</em>, Sept. 16,  2013, p. 1.</li>
+  <li><a name="7" id="n7"></a> &ldquo;The Government Won on Financial Reform,&rdquo; <em>Wall  Street Journal</em>, Sept. 20, 2013, p. A14.</li>
+  <li><a name="n8" id="n8"></a> &ldquo;Assessing the Costs and Consequences of the 2007&ndash;09 Financial Crisis and Its  Aftermath,&rdquo; by David Luttrell, Tyler Atkinson and Harvey Rosenblum, Federal  Reserve Bank of Dallas <em>Economic Letter</em>,  vol. 8, no. 7, 2013, <a href="http://www.dallasfed.org/research/eclett/2013/el1307.cfm">www.dallasfed.org/research/eclett/2013/el1307.cfm</a>.</li>
+  <li><a name="n9" id="n9"></a>Cartoonist Walt Kelly&rsquo;s satire cartoon <em>Pogo </em>coined this phrase as a parody of a message sent from U.S. Navy Commodore Oliver  Hazard Perry to Army General William Henry Harrison after the 1813 Battle of  Lake Erie: &ldquo;We have met the enemy, and they are ours.&rdquo; </li>
+  <li><a name="n01" id="n10"></a>See &ldquo;The Birds  and the Bees, and the Big Banks,&rdquo; by Andrew Haldane and Robert May, <em>Financial Times</em>, op-ed, Feb. 20, 2011. 
+  </li>
+  </ol>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

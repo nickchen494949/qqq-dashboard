@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "spec_version": "1.0.0",
+  "source_registry_version": "1.0.0",
+  "coverage_start": "2012-01-01",
+  "coverage_end": "2026-09-05",
+  "snapshot_created_at": "2026-09-05T04:49:55Z",
+  "source_checked_through": "2026-09-05T04:27:48Z",
+  "communication_event_count": 3488,
+  "event_source_count": 4313,
+  "artifact_count": 4799,
+  "artifact_link_count": 411,
+  "covered_member_count": 49,
+  "source_count": 14,
+  "rejected_candidate_count": 1305,
+  "known_gap_count": 30,
+  "unknown_date_count": 195,
+  "highest_global_completeness_level": "C2_CROSS_SOURCE_RECONCILED",
+  "public_availability_policy": "For date-only official public events, event-date 23:59:59Z is a conservative analytical upper bound; exact posting/delivery time remains UNKNOWN and same-day items are excluded from SEP snapshots.",
+  "claim": "All registered primary indexes were enumerated and cross-source evidence was retained. Accepted event artifacts are frozen and hashed; unresolved and zero cells remain explicitly open.",
+  "source_registry_sha256": "69cf2beb33ca15f5298210a0880fab5cfe93156efa87947f3ad3744b8342e438",
+  "raw_manifest_sha256": "cd5a91f86bd787bffc7f61d3395be1ec7d02e4bea39c9fb7dd5af8d6c7c9fb3e",
+  "outputs": {
+    "communication_events.csv": "62e723f878871b0bebeba937fada917931648714274fce4c263e4e7acb3bc275",
+    "event_sources.csv": "0444ddc5cc99c1720dcc909fe36b88c1ebb08d15c9bf8d183fb0189ac06571a7",
+    "artifacts.csv": "f8be5eab7656eaa7341088c8dafa0c82e10edf9b295bdeedd2bfc46a84aa11c1",
+    "artifact_links.csv": "582f060d58bfa9713cdae698e84579815294d12334b8d0efa9bf0a7c13314f7f",
+    "communication_rejections.csv": "bcc92b956939e3513ec83d83bec61206d21178c9b746a40ce319ba923d52796f",
+    "communication_coverage_cells.csv": "5652fa9ec9da1a35286a79ca41050754bef6a97ea27371d7febbb067a6c277e0"
+  }
+}

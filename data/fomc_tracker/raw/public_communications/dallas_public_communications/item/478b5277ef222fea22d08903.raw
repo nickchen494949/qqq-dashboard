@@ -1,0 +1,591 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The Extended Importance of the Euro - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061117" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061117" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs061117-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">The Extended Importance of the Euro</h1>
+                                                    <div class="dal-tagline">Remarks before the European Banking Congress</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">November 17, 2006 </span> Frankfurt am Main, Germany</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+                        <p>Thank you, Herr Muller. I am grateful to be here. I am especially grateful to see Graf Lambsdorf sitting up there in the balcony. I have known and admired Graf Lambsdorf since 1978. He is an icon in postwar German economic history. Otto, with you looking now over my right shoulder, I will have to be especially measured in what I say. And, before I begin, let me point out that I am not speaking on behalf of the Federal Reserve or the Federal Open Market Committee. Today, as always, I speak only for myself. <br>
+                          <br>
+                        The question posed by Herr Muller was: &ldquo;Traditionally the U.S. dollar has been the major reserve currency and the first choice when it comes to issue bonds. Is this strong position of the dollar at risk due to the euro?&rdquo;</p>
+                        <p>The U.S. dollar has long played the role of the world&rsquo;s premier international currency. It replaced the British pound in this role and has enjoyed a near monopoly for several decades. The creation of the euro fundamentally changed things. The question is: will the euro eventually match or surpass the dollar as an international currency?</p>
+                        <p>To start answering that question we need to consider the factors that determine whether a currency is used extensively beyond the borders of the country&mdash;or, in the case of the euro, the group of countries that issue it. </p>
+                        <p>Probably the single most important factor determining whether a currency will play an important international role is the extent to which private agents perceive the currency as being a stable abode of purchasing power. That is, are investors and other market participants confident that the currency will retain its value over time so that it can serve as a store of value? </p>
+                        <p>The ultimate determinant of the long-run value of a currency is the monetary policy pursued by the central bank that issues it&mdash;the Federal Reserve System in the case of the dollar and the European Central Bank in the case of the euro. In the postwar period, the Fed has done a good job as guardian of the value of the dollar, though perhaps we could have done a better job during the 1970s. </p>
+                        <p>The dollar is viewed as a &ldquo;hard currency,&rdquo; as was the Deutsche mark during its lifetime, due to the policies of the Bundesbank. From its creation on June 21, 1948, until its retirement on December 31, 1998, the DM retained its value better than any other major currency. </p>
+                        <p>Over the lifetime of the DM, consumer prices in Germany increased fourfold. Over the same period, U.S. consumer prices increased about sevenfold! Most of the difference stems from the different performance of the Fed and the Bundesbank during the Great Inflation of the1970s. Yet both currencies are viewed as strong currencies because the performance of other central banks was so much worse.</p>
+                        <p>Writing more than two and a half centuries ago, one of our nation&rsquo;s founding fathers, Benjamin Franklin, noted, &ldquo;He that kills a breeding sow destroys all her offspring to the thousandth generation. He that murders a crown&rdquo;&mdash;a dollar&mdash;&ldquo;destroys all that it might have produced.&rdquo; The pernicious effect of inflation on economic activity was well understood by the Bundesbank when it dominated the European monetary landscape, and it is well understood by the Fed and the European Central Bank (ECB) today. Indeed, the experience of the 1970s has taught many central banks the importance of remaining focused on long-term price stability. </p>
+                        <p>The extent to which a country is actively engaged in international trade and finance is of comparable importance in determining whether the country&rsquo;s currency is used internationally. Specifically, open, deep, broad and dynamic financial markets are key to ensuring that the currency can be used to engage in financial transactions at low cost. Open financial markets usually go hand in hand with active involvement in world trade. Students of history know that both the Dutch guilder and the British pound have played an important role as international currencies at times in the past when these countries were major trading nations with global reach comparable to that of the United States today. </p>
+                        <p>And finally, the economic size of a country will also be important. A country that is economically large will have a large natural constituency for its currency and will find it easier to shift currency risk to its trading partners by requiring that trade be denominated in its own currency. It is not just the current economic size of a country that matters&mdash;the country&rsquo;s long-term growth prospects will also play an important role in determining the international use of its currency.</p>
+                        <p>Germany possessed many of the characteristics needed to make the DM an international currency, and the DM was second only to the dollar in international importance before being replaced by the euro in 1999. We have already noted the remarkable job the Bundesbank did at preserving the purchasing power of the DM during its lifetime. By the 1960s, Germany was the third largest economy in the world and, for much of the postwar period, one of the most dynamic. German capital markets were relatively open and liquid, and Germany&rsquo;s exporters had a global presence.</p>
+                        <p>But the DM was never likely to displace the dollar in international transactions. Germany was never more than one quarter the economic size of the U.S., measured in terms of GDP in constant purchasing power parity (PPP) dollars, even after reunification. And this factor was probably key to limiting the role of the DM in international transactions. The DM was widely used within Europe and in neighboring countries and played a pivotal role in anchoring the monetary policies of other central banks prior to economic and monetary union (EMU). A significant proportion of the stock of DM banknotes circulated outside of Germany, by some estimates as much as 30 to 40 percent. But this was limited to countries adjacent to the DM area. Despite the global reach of German exporters, the DM never attained the same standing as an international currency as the dollar.</p>
+                        <h3>The creation of EMU in 1999 and the launch of the euro fundamentally changed things. </h3>
+                        <p>In economic size, the euro area and the U.S. are quite similar. In terms of population, the euro area is larger than the U.S., which just recently passed the 300 million mark. The U.S. accounts for about 20 percent of global output, while the euro area accounts for about 15 percent. The euro area is more engaged in world trade than the U.S., according to conventional measures, exporting about twice as much as a share of GDP as does the U.S., while the U.S. is a bigger recipient of international flows of labor and capital.</p>
+                        <p>The guardian of the euro&rsquo;s value, the ECB, has been given a strong mandate to pursue price stability. The ECB has defined price stability in the euro area as an annual rate of increase in the Harmonised Index of Consumer Prices (HICP) &ldquo;below, but close to, 2 percent over the medium term.&rdquo; And in the short history of the euro, it has done a good job controlling inflation. </p>
+                        <p>Since the launch of the euro in January 1999, the average annual rate of inflation in the euro area has been just a bit above the 2 percent limit&mdash;2.1 percent, to be precise. Measured on a comparable basis, i.e., using the experimental HICP published by the Bureau of Labor Statistics (BLS), inflation in the U.S. over the same period has been somewhat higher, at 2.6 percent. </p>
+                        <p>Of course, the FOMC tends to focus on a different price index in its deliberations, namely the so-called core PCE, which excludes food and energy but includes the cost of owner-occupied housing, an item that is conspicuously absent from the HICP. Measured on this basis, our performance looks a lot more like that of the ECB. </p>
+                        <p>But rather than dwell on the arcana of price indices, let me just note that by any standard, the ECB has done a good job at safeguarding the value of the currency in its care, and in this sense has made the euro an attractive international currency. During its short life, the euro has retained its value just as well as the DM did over the half century of its existence.</p>
+                        <p>While the ECB has delivered a currency that retains its purchasing power at least as well as the dollar, there are at least three reasons why the euro is unlikely to displace the dollar as the dominant international currency in the near term. </p>
+                        <p>First, the growth prospects of the euro area.</p>
+                        <p>Second, the uniqueness of EMU.</p>
+                        <p>Third, the benefits of incumbency.</p>
+                        <p>Let&rsquo;s consider each of these in turn.</p>
+                        <p>Growth Prospects</p>
+                        Although the euro area and the U.S. are currently about the same size economically, the differential growth prospects of the two raise the possibility that this might not persist.                        </p>
+                        <p>Both the U.S. and the euro area have experienced the same 1.2 percent average annual growth in employment since 1999, but real GDP has grown more rapidly in the U.S., due in part to more rapid productivity growth. Over the past decade, a significant productivity growth gap has emerged between the U.S. and the euro area. The gap has proved remarkably persistent and has led to calls for more deregulation of labor and product markets within the euro area. Hardly a month goes by without the ECB calling for structural reforms to raise the euro area&rsquo;s structural growth rate. In 2000, the leaders of the European Union (EU) embraced the Lisbon Agenda with the objective of making the EU &ldquo;the most competitive and dynamic knowledge-driven economy by 2010.&rdquo; I think it is fair to say that progress to date has been disappointing, and there continues to be remarkably little appetite for tackling the obvious problems, despite increased pressures from globalization.</p>
+                        <p>Recently, Consensus Economics polled private forecasters for their long-term projections of GDP growth and inflation over the next decade. The forecast was that U.S. real GDP would increase at an average annual rate of about 3.0 percent between now and 2016. The forecast for the euro area was about a percentage point less, reflecting both slower population growth and slower productivity growth. The projected decline in the working-age population of the euro area, and the repercussions this will have for the sustainability of public finances in many member countries, must surely be a source of concern.</p>
+                        <h3>Uniqueness of EMU</h3>
+                        <p>The second factor that may limit the speed of the euro&rsquo;s adoption as an international currency has to do with the uniqueness of the monetary union. EMU is without doubt a truly unique undertaking. It is unprecedented for a group of nation states of such size to agree to share monetary sovereignty. There is no historical playbook that can be referred to when problems arise. </p>
+                        <p>The institutional framework of monetary union&mdash;the European System of Central Banks&mdash;is modeled after the Bundesbank, which was, in turn, modeled after the Federal Reserve System, so in a sense the ESCB is a grandchild of the Fed! As I mentioned earlier, the Bundesbank did a remarkable job of preserving the purchasing power of the DM, and the structure of the ESCB along with its mandate for price stability and independence will help ensure that the euro is a strong currency.</p>
+                        <p>I have already noted that during its short life to date the euro has retained its purchasing power about as well as the DM did during its existence. Looking forward, the same forecasters who are so pessimistic about the euro area&rsquo;s growth prospects over the next decade are relatively optimistic about its inflation prospects. They think that inflation in the U.S. will average 2.3 percent or so over the next decade, but only 1.9 percent in the euro area. Of course, some&mdash;or perhaps all&mdash;of this may simply reflect differences in the way we measure prices. The relevant point is that the forecasting community seems to believe the ECB&rsquo;s commitment to price stability, and other measures of inflation expectations seem to bear this out.</p>
+                        <p>Many economists who have followed the process of European monetary integration have expressed concern that the euro is &ldquo;a currency without a government,&rdquo; and that there is no precedent for a monetary union that was not based on a political union. At one level, the less government involvement in money, the better. History has shown that countries with central banks that are independent of politics tend to deliver lower inflation with little or no cost in terms of output growth. </p>
+                        <p>Of course, this is not the sense in which some worry about the euro. While it is now generally accepted that central bank independence is the surest path to long-run price stability, this independence must be accompanied by central bank accountability. In the United States, the Federal Reserve enjoys considerable operational independence but is held accountable to the democratically elected representatives of the American people through regular reports to Congress. The ECB is likewise accountable to the European Parliament, but the perceived &ldquo;democratic deficit&rdquo; in European Union institutions raises questions in the minds of some whether this is enough. The European Parliament is viewed as subordinate to national parliaments. Not even a Texan would argue that U.S. state legislative bodies are superior to the U.S. Congress or the president!</p>
+                        <p>The recent rejection of the constitutional treaty leaves one wondering what sort of political relationship will exist between the countries of the EU and the euro area in the future. Can a monetary union succeed and prosper without a full blown political union, or will the EU create a new model that will serve as a template for the 21st century, just as Europe gave the world the idea of the nation state with the Treaty of Westphalia in 1648? </p>
+                        <h3>Benefits of Incumbency</h3>
+                        <p>Even if the euro area was as politically integrated as the United States, and was not confronted with the prospects of low productivity growth and an increased dependency ratio, the euro might still take some time to match or displace the dollar as the world&rsquo;s primary international currency. The reason has to do with the benefits of incumbency in currency use. </p>
+                        <p>In a world of fiat currencies, my willingness to accept a currency depends on my belief that others will accept it in turn. The dollar is widely used as an international medium of exchange because people know that if they accept dollars in exchange for goods or services, they will find it relatively easy to spend these dollars on other goods or services or invest them in dollar-denominated assets. A currency that is widely used will be more liquid than one that is not, and this liquidity will serve to enhance the attractiveness of the currency.</p>
+                        <p>Dislodging an international currency from its preeminent role is difficult, but it has happened. The dollar displaced sterling as the world&rsquo;s leading international currency during the interwar period. But economic theory and historical experience suggest that large shocks are required for such transitions to occur. In the case of the dollar and sterling, the large shocks were the two world wars and the Great Depression, along with the shift in the relative size of the economies of the U.S. and the UK. </p>
+                        <p>The dollar is widely used as a transactions medium, as an invoicing currency and as a currency of issuance for international bonds. The euro has made some inroads in all of these areas&mdash;not least as a transactions medium, where the existence of &euro;500 notes has enhanced the currency&rsquo;s attractiveness relative to the dollar in the cash economy&mdash;but at nowhere near the pace that some analysts had predicted prior to the currency&rsquo;s launch. I would expect the euro to continue to grow in importance as an international currency in coming years. </p>
+                        <p>The benefits of incumbency in currency use are much like those in language use. English has now become the <em>lingua franca</em> of international business. English is widely used in European institutions, including the ECB, despite the fact that native English speakers are a small share of Europe&rsquo;s population. It has become the second language of choice for non-native speakers and will likely remain so for some time to come. </p>
+                        <p>One final observation on incumbency. Offsetting to some extent the benefits that come with incumbency is the desire for portfolio diversification. As the euro becomes established as a credible store of value, it will become increasingly attractive for international investors who want to diversify their portfolios and limit their exposure to dollars. Such diversification seems likely to occur gradually, and the option to diversify is surely a benefit to the world as a whole.</p>
+                        <p>In conclusion, when commenting on the likely fates of two faith-based, or fiat, currencies, it seems appropriate to quote from the Bible:</p>
+                        <p>&ldquo;What has been is what will be,<br>
+                          and what has been done is what will be done;<br>
+                          there is nothing new under the sun.&rdquo;<br>
+&mdash;Ecclesiastes 1:9</p>
+                        <p>Well, it turns out that there is something new under the sun: the euro. </p>
+                        <p>Many decades ago, a prominent international economist noted that the ability to create its own domestic money is the key financial distinction of a sovereign state. Some authors have termed this the &ldquo;One Nation/One Money&rdquo; myth. The creation of the euro and its spread beyond the borders of the euro area is but the most dramatic example of the so-called deterritorialization of money; the currency counterpart of the ongoing process of globalization that is fundamentally changing the economic landscape. </p>
+                        <p>In a recent interview with the <em>Financial Times</em>, one of the pivotal figures in the early years of EMU, Otmar Issing, noted that the creation of the euro was &ldquo;an extremely good thing&rdquo; but that the new currency is &ldquo;not yet on absolutely safe foundations.&rdquo; There is no doubt that the creation of the euro has helped strengthen the single market within the EU, increasing price transparency and boosting trade. Many of the participating countries enjoy a degree of monetary stability that previously eluded them. </p>
+                        <p>But challenges remain. The euro area countries are still separate political entities. Never before have several sovereign nations of such economic size surrendered their monetary independence to a supra-national institution and agreed to share sovereignty in such an important area. The euro is sailing into the future through uncharted waters, without the usual rudder of political unity. </p>
+                        <p>In addition, the euro area faces significant structural and demographic impediments to long-term growth. While there is widespread recognition in policymaking circles that there are major problems, there has been remarkably little enthusiasm for fundamental reforms.</p>
+                        <p>An eclipse of the dollar is very unlikely in the near term. Even so, the Fed must be ever vigilant in preserving the value of the dollar. As Keynes noted, building on Lenin&rsquo;s famous remark about how best to destroy capitalism: &ldquo;There is no subtler, no surer means of overturning the existing basis of society than to debauch the currency. The process engages all the hidden forces of economic law on the side of destruction, and it does it in a manner which not one man in a million is able to diagnose.&rdquo;</p>
+                        <p>The members of the FOMC understand this and are committed to price stability. Our counterparts at the ECB are equally committed to price stability. Two strong currencies with global reach are an unambiguous good for the world and make us all better off in the long run.</p>
+                        <p>Thank you.<br>
+                        </p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

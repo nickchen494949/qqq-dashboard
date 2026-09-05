@@ -1,0 +1,707 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Ample reserves and the Friedman rule - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, Logan, ECB Conference, Friedman rule, monetary policy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, Logan, ECB Conference, Friedman rule, monetary policy" />
+        <meta property="og:title" content="Ample reserves and the Friedman rule" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/logan/2023/lkl231110" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta property="og:description" content="How should central banks supply liquidity in an evolving global financial system? Dallas Fed President Lorie Logan shared her framework for weighing the tradeoffs in a keynote address at the European Central Bank." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/logan/2023/lkl231110" />
+        <meta name="twitter:title" content="Ample reserves and the Friedman rule" />
+        <meta name="twitter:description" content="How should central banks supply liquidity in an evolving global financial system? Dallas Fed President Lorie Logan shared her framework for weighing the tradeoffs in a keynote address at the European Central Bank." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta name="dal_year" content="2023" />
+        <meta name="dal_topic" content="Banking and finance" />
+        <meta name="dal_topic" content="Monetary policy" />
+        <meta name="dal_topic" content="Financial stability" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/logan" class="breadcrumb-item dal-crumb__item">President Lorie Logan speeches and publications</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/logan/2023/lkl231110-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by President Lorie K. Logan</div>
+                                                        <h1 class="dal-headline">Ample reserves and the Friedman rule</h1>
+                                                                    <div class="dal-inline-list">
+                                <p class="list-item--bar dal-content-date">November 10, 2023</p>
+
+                    </div>
+                            <div class="dal-abstract">Dallas Fed President Lorie Logan delivered these remarks before the <a href="https://www.ecb.europa.eu/pub/conferences/html/20231109_money_markets_conference.en.html" target="_blank">European Central Bank Conference on Money Markets 2023</a>.</div>
+                        
+                        <p>Thank you for the kind introduction, Imène  [Rahmouni-Rousseau]. It&rsquo;s great to see so many old friends, and it&rsquo;s a real  honor to give a keynote address at this important conference.</p>
+<p>As a policymaker, I have the opportunity to  speak on a wide range of topics, but money markets are where I grew up as a  central banker. So it&rsquo;s a particular pleasure to take a deep dive into the more  technical aspects of monetary policy implementation and to do so from the  perspective of a policymaker rather than a practitioner.</p>
+<p>Let me note that the views I express are mine and not  necessarily those of my colleagues on the Federal Open Market Committee (FOMC).</p>
+<h2>The Friedman rule and monetary policy implementation</h2>
+<p>In recent decades, central banks around the world have been  shifting toward floor systems for monetary policy implementation. That shift  has been motivated by the actions central banks had to take in response to the  Global Financial Crisis (GFC) and subsequent stress episodes; by a growing  appreciation of the benefits of floor systems across a wide range of economic  and financial environments; and by post-GFC changes in bank regulations and banks&rsquo;  own risk management, which increased the demand for liquidity and the costs of  interbank transactions.</p>
+<p>Among the key benefits typically cited for  floor systems is that they do not put a price on liquidity. That is, in a floor  system, banks&rsquo; demand for central bank reserves is satisfied at something close  to market interest rates. Market rates are not materially higher than the  remuneration on the marginal dollar of reserves, and correspondingly there is  no incentive for banks to economize on reserves, the most liquid asset in the  financial system.</p>
+<p>As a result, floor systems satisfy a version  of the Friedman rule.<a href="#n1">[1]</a> The opportunity cost to banks of holding reserves is approximately equal to the  central bank&rsquo;s cost of supplying reserves, which most analysts view as small.<a href="#n2">[2]</a></p>
+<p>In theory, because floor systems remove  incentives to economize on liquidity, they should reduce liquidity risk in the  financial system. Yet, in economies around the world that use floor systems, we  have seen serious liquidity strains in recent years.</p>
+<p>These episodes include the pressures on  liability-driven investment funds in the U.K.; the banking challenges in the U.S.  earlier this year; the repo market pressures in 2019; and, of course, the  global dash for cash at the onset of the pandemic.</p>
+<p>In light of these events, some observers have questioned  whether floor systems deliver the promised liquidity benefits. Some have even  argued that floor systems make liquidity risk worse—an  idea I strongly disagree with. And some have questioned the other side of the  Friedman rule equation, asking whether central banks can in fact supply large  quantities of reserves at minimal cost to the financial system and society.<a href="#n3">[3]</a></p>
+<p>Today, I will take on both sides of those  critiques. I will argue that floor systems do reduce liquidity risk. But they  don&rsquo;t eliminate it. It remains incumbent on all players in the financial system—banks,  other market participants, as well as central banks in our roles as both  regulators and financial institutions—to  appropriately manage liquidity risk. The appropriate strategies to manage  liquidity risk look somewhat different in a floor system, and I think all  players have work left to do to fully gain the benefits of these systems.</p>
+<p>On the other side of the equation, the costs  of supplying reserves, it&rsquo;s important to distinguish between two types of floor  systems. When the central bank&rsquo;s balance sheet is only as large as needed to  meet the demand for liabilities such as reserves and currency, we call the  system a <em>liability-driven</em> floor. That&rsquo;s the approach we&rsquo;ve selected for  the long run in the United States, where our long-run operating regime will  supply &ldquo;ample&rdquo; reserves. The FOMC deliberated long and hard over the word  &ldquo;ample,&rdquo; and it contrasts with words like &ldquo;abundant&rdquo; and &ldquo;super-abundant&rdquo; that  describe higher levels of reserves.<a href="#n4">[4]</a> I don&rsquo;t see large costs of supplying the quantity of reserves needed to  establish a liability-driven floor.</p>
+<p>There are also  circumstances, such as the pandemic, in which it is appropriate for central  banks to acquire additional assets to provide monetary accommodation or address  severe strains in market functioning. Such  balance sheet expansions create an <em>asset-driven</em> floor system. Asset-driven floors can pose some  challenges. We can mitigate these challenges when circumstances make asset  purchases appropriate, but it is better to minimize the challenges when we can.  That is one reason I think it&rsquo;s important to continue normalizing the Federal  Reserve&rsquo;s balance sheet. (Another reason, of course, is that we need to remove  monetary accommodation to restore price stability.)</p>
+In the rest of my remarks, I&rsquo;ll address three  topics. First, I&rsquo;ll review the fundamentals of how floor systems work. Second,  I&rsquo;ll describe key policy lessons from the liquidity stress episodes of recent  years. Finally, I will turn to the distinction between liability-driven and  asset-driven floors and the challenges that very high levels of reserves can  create. Throughout, I will draw on my experience both in my current role as a  policymaker and in my previous role as manager of the System Open Market  Account, leading the Open Market Trading Desk at the New York Fed that is  responsible for implementing the Fed&rsquo;s operating regime.</p>
+<h2>The fundamentals of floor systems</h2>
+<p>Let&rsquo;s begin by fixing ideas: What is a floor  system? And how does it implement monetary policy?</p>
+<p>To answer these questions, we need to consider  reserves&rsquo; special role in the financial system. Reserves are funds that  commercial banks, and sometimes other financial institutions, hold in accounts  at the central bank. Payments between banks, or between customers of two  different banks, are typically settled by transferring reserves from one bank&rsquo;s  reserve account to the other&rsquo;s. Reserves&rsquo; use in settling payments makes them a  unique asset. Reserves are always and immediately liquid. Other assets may be  viewed as highly liquid if market participants can usually convert them into  reserves quickly and at low cost. But no other asset is ever as safe and liquid  as reserves.</p>
+<p>Banks hold reserves for three main reasons. Banks  use reserves throughout the day to settle payments. They may hold additional  reserves, above typical daily needs, to manage liquidity risk by buffering  against unexpected payment outflows. And banks may hold reserves to satisfy  regulations and supervisory guidance, including formal reserve requirements, or  as part of liquid assets to meet broader liquidity regulations. Banks&rsquo;  liquidity management and the resulting demand for reserves have evolved  significantly since the Global Financial Crisis, a point I&rsquo;ll come back to  later.</p>
+<p>When a bank holds reserves, it forgoes putting that  money into other assets such as loans or securities that may have higher  risk-adjusted returns. Banks, individually and in the aggregate, therefore have  a downward-sloping demand curve for reserves (<em>Figure 1</em>). At relatively  low aggregate levels of reserves, banks are willing to tolerate a large spread  between the returns on other assets and the return on reserves. As reserve  levels increase, the spread between the returns on other assets and reserves  must decrease. And when reserves reach levels that satisfy banks&rsquo; demand for  liquid balances, the demand curve levels off with a market interest rate close  to the interest rate the central bank pays on reserves.</p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 1" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f1.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>There are two ways for the central bank to  implement monetary policy in this environment.</p>
+<p>The central bank can provide a relatively limited—but potentially still quite large—supply of reserves, intersecting with the steep part  of the demand curve <em>(Figure 2)</em>. The central bank must then adjust  reserve supply so the market clears at the desired interest rate. Small changes  to the supply or demand for reserves can lead to significant changes in the  policy rate in this regime.</p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 2" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f2.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>Alternatively, the central bank can provide more reserves and vary  the interest rate on reserves to influence the market interest rate <em>(Figure  3)</em>. Such an operating regime is called a floor system because the interest  rate on reserves is intended to create a <em>floor</em> below money market rates. Commercial banks will not generally want to earn less  in money markets than they can earn by keeping cash at the central bank.</p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 3" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f3.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>However, the floor provided by interest on  reserves can be soft if some money market participants are ineligible to hold  interest-bearing reserve accounts or if commercial banks face costs of  expanding their balance sheets. That&rsquo;s why I&rsquo;ve drawn the graph with the  reserve demand curve dipping below the interest rate on reserves. To establish  a firm floor, central banks may need additional tools. The overnight reverse  repurchase agreement facility serves this purpose for the Fed.</p>
+<p>The level of reserves in a floor system might  not be much larger than the level of reserves needed to implement policy on the  steep part of the demand curve. Post-GFC changes in regulations and banks&rsquo;  liquidity risk management have substantially increased banks&rsquo; reserve demand.</p>
+<p>As I see it, floor systems have three main  benefits.</p>
+<p>First, rate control in floor systems is more robust.<a href="#n5">[5]</a> Since the Global Financial Crisis, both the supply of and the demand for  reserves can be subject to much larger daily shocks. For example, in the U.S.,  the Treasury Department, other official entities and central counterparties  hold accounts at the Fed that can drain reserves from the banking system.</p>
+<p>As this chart in Figure 4 of daily changes in the  Treasury General Account illustrates, the supply of reserves can regularly  swing by tens of billions of dollars in a few days because of factors such as  fiscal flows. And on the demand side, changes in liquidity regulations and risk  management since the GFC have made banks&rsquo; demand for reserves less predictable.</p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 4" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f4.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+
+<p>Controlling money market rates requires  absorbing these shocks to supply and demand. In a floor system, this is  relatively straightforward. If the central bank operates on the flat part of  the reserve demand curve, the system will remain on the flat part even after  typical shifts of demand or supply, and money market rates won&rsquo;t change much.  By contrast, in a scarce reserves system, the central bank must actively manage  the supply of reserves to offset the shocks—a  challenging task when the shocks are difficult to predict.<a href="#n6">[6]</a></p>
+<p>Second, floor systems continue to effectively control  rates when the central bank expands its balance sheet to provide macroeconomic  stimulus or support financial stability. In the United States, we saw this  benefit most recently at the onset of the pandemic. The FOMC responded to  disruptions in market functioning by purchasing Treasury and agency  mortgage-backed securities at an unprecedented pace and scale.<a href="#n7">[7]</a> Cumulatively, the Fed&rsquo;s balance sheet expanded more than $2 trillion in a few  months <em>(Figure 5)</em>. At no point during this balance sheet expansion did  we have any difficulty keeping the effective federal funds rate within the  FOMC&rsquo;s target range.<a href="#n8">[8]</a></p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 5" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f5.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>By contrast, when we  rapidly expanded our balance sheet in 2008 in response to the Global Financial Crisis,  we often saw the fed funds rate trade significantly below the FOMC&rsquo;s target—even after we began paying interest on reserves, which  proved to be only one of the components needed for a well-functioning floor  system <em>(Figure 6)</em>.<a href="#n9">[9]</a></p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 6" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f6.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>Third, and most closely connected to my theme today,  floor systems eliminate what would effectively be a penalty for good liquidity  risk management. As I said earlier, reserves are the most liquid asset, bar  none. The banking stresses earlier this year proved the unique value of  reserves beyond any doubt. Only reserves are immediately liquid. Monetizing any  other asset takes time. And sometimes it&rsquo;s difficult to do at all:  counterparties may offer only limited balance sheet space for borrowing against  assets, while selling assets can crystallize losses and impair an institution&rsquo;s  health. Holding reserves therefore reduces banks&rsquo; liquidity risks relative to  holding any other assets.</p>
+<p>There are, of course, good reasons for banks to hold  assets other than reserves. By making loans, banks provide the credit to  households and businesses that is crucial for economic growth. But banks should  not pay a penalty for holding reserves when that is the right choice for their  liquidity risk management. If the interest rate paid on reserves is  meaningfully below money market interest rates, as occurs in a scarce-reserves  regime, there is a penalty to banks for managing liquidity well. Floor systems  eliminate this penalty and meet banks&rsquo; demand for reserves at market prices. This  is the sense in which floor systems implement a version of the Friedman rule.</p>
+<h2>Policy lessons from recent liquidity stress episodes</h2>
+<p>The question I now want to discuss is: If  floor systems do such a good job of reducing the cost of liquidity, why do we  keep seeing liquidity stresses? In the U.S., why did severe money market  pressures in September 2019 cause some funding rates to spike by hundreds of  basis points?<a href="#n10">[10]</a> Why did  the dash for cash challenge markets in 2020, and why did some banks face  liquidity stress this past March? And across the Atlantic, what should we make  of the liquidity problems that liability-driven investors in the U.K.  experienced in 2022? </p>
+<p>My answer is that floor systems reduce  liquidity risk, but they don&rsquo;t eliminate it.</p>
+<p>We have seen concrete evidence that liquidity  risk is lower in the floor regime. For example, since the Fed moved to a floor  system, peak daylight overdrafts are about one-tenth the magnitude seen in the  prior regime <em>(Figure 7)</em>. And interbank payments are substantially less  concentrated at the end of the day because banks are less likely to need to  wait to receive incoming payments before making outgoing ones.<a href="#n11">[11]</a> These are both signs that banks are not seeking to economize on liquidity as  much as they used to. The floor regime has reduced the penalty for holding  liquidity, as the Friedman rule recommends. So individual banks face less risk  of lacking the liquidity needed to make outgoing payments, and the banking  system as a whole is less vulnerable to disruptions from payments congestion or  shocks late in the day. </p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 7" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f7.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>Still, there will always be some shocks that a  floor system can&rsquo;t absorb on its own. These can take several forms, including large  shifts in the aggregate supply of or demand for reserves; idiosyncratic shocks  to individual banks that exceed the system&rsquo;s capacity to immediately  redistribute funds; and shocks to nonbank intermediaries that spill over to  bank funding markets. We saw examples of these types of shocks in the liquidity  stress episodes I mentioned.</p>
+<p>I draw four lessons from these experiences:  First, a floor system should include strong backstop ceiling tools. Second,  market participants and central banks alike should ensure they are  operationally ready to respond to liquidity pressures. Third, regulations should  support strong liquidity risk management. And finally, some shocks are too big  for any operating regime to absorb easily.</p>
+<p>First, ceiling tools. In September 2019, as  the Federal Reserve normalized its balance sheet following the expansion during  and after the Global Financial Crisis, reserves fell below what we later  assessed to be the ample level. It was necessary to add reserves to continue  operating a floor system, and that&rsquo;s what we did. Market data, particularly  related to pricing conditions, can help signal when reserves are becoming less  ample. But given the uncertainties I discussed earlier, I doubt the risk of  reserves falling below the ample level can ever be eliminated, especially if  the central bank wants to have an efficient balance sheet with ample but not  abundant reserves.</p>
+<p>So, as a practical matter, central banks that  operate floor systems must be prepared to respond to tail events when reserves  fall too low and money market rates can rise above the target level. While  discretionary operations such as those we employed in 2019 can effectively  address such pressures, a standing ceiling facility at a backstop rate makes a  better first line of defense. A standing ceiling facility transparently  provides market participants with information about how the central bank will  respond and confidence that the central bank will maintain rate control.<a href="#n12">[12]</a></p>
+In the U.S., we have significantly  strengthened our standing ceiling facilities over time. We&rsquo;ve repeatedly  revised discount window policies to make that traditional tool more effective.<a href="#n13">[13]</a> In addition, in 2021, we established the Standing Repo Facility (SRF) and the  Foreign and International Monetary Authorities (FIMA) Repo Facility.<a href="#n14">[14]</a> These facilities provide liquidity to our counterparties: primary dealers and  eligible depository institutions in the SRF and foreign official holders in the  FIMA facility.</p>
+<p>We could study ways to further strengthen our  ceiling tools. Such a study could examine how we can take on board the lessons  of recent years as well as ongoing changes in the structure of the financial  system. For example, the FOMC could further consider the potential benefits of  centrally clearing SRF operations.<a href="#n15">[15]</a> Central clearing could enhance the flow of funding to the broader market by  allowing our counterparties to net funding received from the facility against  onward lending to other market participants. </p>
+<p>Other central banks have considered adding counterparties to their liquidity operations.<a href="#n16">[16]</a> These choices depend on a central bank’s charter and the financial system in which it operates. In my mind, the focus for the Federal Reserve given our context should be to enhance the effectiveness of operations with our existing counterparties.</p>
+<p>Second, operational readiness. One criticism  that has been leveled against floor systems is that when liquidity is ample,  interbank trading may dry up and banks may become less practiced at sourcing  funds when needed.<a href="#n17">[17]</a> To the  extent this happens, I don&rsquo;t see it as a reason to criticize floor systems.  That would be like criticizing modern building codes for reducing the risk of  fire.<strong> </strong>If a city adopts a strong building code, fewer buildings will  burn. Residents will have less experience escaping a blaze. Firefighters will  have less experience putting out flames. <em>These are good things. </em>And  while the lack of experience could have drawbacks, we know what to do about it:  fire drills.</p>
+<p>Similarly, the lack of daily liquidity  challenges doesn&rsquo;t absolve participants in the financial system from remaining  ready should liquidity pressures emerge. A variety of flexible funding sources is  available, and even in a floor system in which liquidity is usually ample,  banks should be prepared to use these sources. During the banking stresses  earlier this year, we found that some banks had not established access to the  discount window, had not pre-positioned collateral so they could borrow against  it, or had not tested the borrowing procedures. This is unacceptable in an era  when bank runs can start in minutes on social media. Ceiling tools won&rsquo;t work  well if financial institutions aren&rsquo;t prepared to use them.</p>
+<p>Every bank in the United States should be  fully set up at the discount window as part of its liquidity toolkit. That  means setting up legal documents and collateral arrangements well before any  funding need arises. And it means testing the plumbing—like  a fire drill—so bankers have the muscle memory for  borrowing when it&rsquo;s needed.<a href="#n18">[18]</a> The same goes for other contingent liquidity sources and for non-bank market  participants.</p>
+<p>The central bank, too, has a responsibility to  maintain operational readiness in a floor system. The Desk regularly tests open  market operations to ensure readiness to respond to a variety of potential  stresses. </p>
+<p>The Federal Reserve should also consider  expanding the hours of critical services such as the discount window. With the  launch of instant payments services such as FedNow, liquidity in the U.S. and  other markets is increasingly a 24/7/365 business. Our liquidity backstop  should be available whenever banks may need it. Over time, that could include  nights, weekends and holidays, not just business days.</p>
+<p>And we should consider how our credit and  supervisory policies affect operational readiness. A supervisory or regulatory expectation that depository institutions  establish and test access to the discount window could help make individual  firms and the financial system more resilient. Periodic testing by all  institutions could also reduce the traditional stigmas associated with the  discount window. And if we required banks to pre-position some amount of  collateral at the window, we could reduce the risk that a bank is unable to  borrow because its collateral is in the wrong place.<a href="#n19">[19]</a></p>
+<p> We could also study ways to make our  discount window, a  fundamental central bank function, as strong  and effective as possible. For example, we could consider the potential  benefits of what I would call collateral-based lending. A collateral-based  discount window program would lend to legally eligible depository institutions  purely on the basis of their collateral.<a href="#n20">[20]</a> In contrast, the current program of primary and secondary credit varies the  terms of lending based on a borrower&rsquo;s financial condition. Collateral-based discount window lending could strengthen the ceiling by ensuring all eligible institutions have equal access to liquidity against good collateral. It could also improve operational readiness by reducing the need to take time at critical moments to evaluate a borrower’s condition.</p>
+
+<p>I&rsquo;ll now turn to my third lesson, regulations.  Strong regulations are fundamental to a financial system that serves society&rsquo;s  needs. Regulations must also evolve alongside the overall structure of the  financial system, the policy implementation framework and the risks that  financial institutions face. Regulations that were well suited to a scarce-reserves  regime and a world of relatively slow-moving liquidity demands are not  necessarily ideal today.</p>
+<p>For example, the Basel III leverage ratio  counts all of a bank&rsquo;s assets, including reserves, in the denominator. This  rule can raise a bank&rsquo;s cost of holding reserves and intermediating in funding  markets, potentially working against the goal of reducing liquidity risk. Such  costs may also add to frictions in the interbank market, reducing the system&rsquo;s  capacity to quickly redistribute liquidity to individual firms that need it.<a href="#n21">[21]</a> More broadly, it is also important to consider the interactions among regulations,  ceiling tools and liquidity risk, including how to ensure that banks are able  to use their liquidity buffers and how liquidity regulations account for banks&rsquo;  access to the discount window and the SRF.<a href="#n22">[22]</a></p>
+<p>Finally, the fourth lesson: some shocks are  just too large. At the onset of the pandemic, market participants had to adapt  to a dramatically different global risk environment while shifting to remote  work. These developments triggered extraordinary financial market volatility,  one-sided trading flows and demands for cash.<a href="#n23">[23]</a> While improvements in ceiling tools, operational readiness and regulations  could conceivably have partially mitigated the stresses, I don&rsquo;t think any  steps could have eliminated the stresses entirely. We should work to ensure the  financial system is resilient and central bank intervention to support market  functioning is rarely needed. But &ldquo;rare&rdquo; does not mean &ldquo;never.&rdquo;</p>
+<p>In fact, the idea that some shocks are too  large for a reasonable operating regime to absorb is built into the Friedman  rule framework. The Friedman rule balances the benefits and costs of liquidity.  It calls for providing liquidity up to the point that the benefits equal the  costs—not for going beyond that point. Conceptually,  it would be possible to further reduce liquidity risk by subsidizing banks to  hold reserves instead of merely eliminating the interest rate penalty. But such  a subsidy would have other costs. So we strike a balance and accept that some shocks  will be larger than the regime can absorb without further central bank  intervention.</p>
+
+<h2>Beyond the Friedman rule: liability-driven and asset-driven floors</h2>
+<p>That brings me to the costs of supplying  reserves and the distinction between liability-driven and asset-driven floor  systems. Ordinarily, the policy rate is a central bank&rsquo;s main monetary policy  tool, and the balance sheet plays a supporting role. The Friedman rule  describes the optimal quantity of reserves to supply in those normal times: the  quantity of reserves that banks demand at market interest rates. Because  reserve supply is determined by demand for the central bank&rsquo;s liabilities, this  floor system for ordinary times is called a liability-driven floor. But a  central bank may also use its balance sheet more actively in response to deep  economic downturns or severe market dysfunction. When a central bank acquires  assets for those reasons, it also issues more reserves, creating an  asset-driven floor system. In such a system, the amount of reserves is not  governed by the Friedman rule—the tradeoff between the liquidity  benefits and costs of reserves. Rather, reserve supply in an asset-driven floor  is a side effect of the central bank buying assets in response to severe  macroeconomic or financial stress. </p>
+<p>The Federal Reserve is currently in an  asset-driven floor system as a result of our post-pandemic purchases. However,  we are running off our asset holdings to return to a liability-driven floor. This  is our second such normalization cycle, following the post-GFC normalization of  our balance sheet in 2018 and 2019.</p>
+<p>Why normalize our balance sheet at all? Why  not stick with a higher level of reserves? In my view, there are two reasons to  return to ample rather than abundant reserves—in  the Friedman rule framework, two costs of supplying reserves above the ample  level.<a href="#n24">[24]</a> First, abundant reserves can distort the price of liquidity for non-bank market  participants. And second, while acquiring assets during a severe  downturn or in response to severe market dysfunction can provide much-needed  support for the financial system and economy, holding the assets too long can  undermine the achievement of monetary policy goals. In particular, maintaining  overly large asset holdings may push inflation above target or may complicate  the calibration and communication of the policy stance, which ordinarily should  center on the policy rate.</p>
+<p>The first reason is relatively narrow and  focuses on money markets. Reserves can be held only by banks (or other  institutions eligible for reserve accounts). Other financial institutions must  use other instruments, such as Treasury securities, as their liquid assets. By  acquiring non-reserve assets to back reserves, the central bank adds to the  supply of liquidity for banks but may increase non-banks&rsquo; cost of liquidity.  But in an efficient system, the costs of liquidity should be similar for banks  and non-banks. Significant differences in liquidity costs imply that liquidity  is too abundant for one type of firm or too scarce for another.</p>
+<p>One way to test whether the costs of liquidity are  similar for banks and non-banks is to look at money market rate spreads.<a href="#n25">[25]</a> For example, overnight Treasury repo rates represent the overnight return on a  Treasury security. If Treasury repo rates are significantly below the interest  rate on reserves, then Treasury securities, the key liquid asset for non-banks,  have greater liquidity value than reserves. The Fed&rsquo;s balance sheet expansions  in response to both the Global Financial Crisis and the pandemic pushed repo  rates below interest on reserves <em>(Figure 8)</em>.</p>
+<figure class="figure dal-figure">
+  <img class="figure-img img-fluid" alt="Figure 8" src="/~/media/images/news/speeches/logan/2023/23ecb/lkl231110f8.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"></figcaption>
+</figure>
+<p>These spreads indicated that liquidity  conditions were more abundant for banks than non-banks. In 2018 and 2019, the  gap closed as we normalized our balance sheet, and repo rates eventually  stabilized a few basis points above interest on reserves. Repo rates and  interest on reserves shouldn&rsquo;t necessarily be exactly equal. There are  technical differences between repos and reserves, as well as minor competitive  frictions that could introduce a small spread. But in an efficient market, the  spread should not be large. This argument is simply the mirror image of the  idea that if money market rates are above the interest rate on reserves—if  we move up above the floor—there is an undesirable penalty on  liquidity for banks.</p>
+<p>Some researchers have taken the analysis of  relative liquidity costs a step further by estimating the liquidity value of  long-term Treasury securities.<a href="#n26">[26]</a> In such models, the liquidity value of Treasuries includes a negative term  premium associated with their flight-to-safety qualities. The central bank&rsquo;s  asset holdings influence that term premium, and one can attempt to calculate  the level of asset holdings at which the liquidity value of Treasuries measured  in this way would equal the liquidity value of reserves. But I am not persuaded  that monetary policy implementation frameworks should be designed around this  term premium. To the extent that long-term government debt is scarce, the  Treasury can address the scarcity by changing the maturity structure of its  debt issuance. When a central bank considers the costs and benefits of  supplying more reserves, it should focus on the effects in money markets. Money  market conditions reflect the liquidity value of reserves, a unique asset that  only the central bank can provide.</p>
+<p>The second reason for balance sheet  normalization is outside money markets. Expanding the central bank balance  sheet and acquiring assets makes setting and communicating the stance of  monetary policy more complicated. The central bank must explain its use of two  tools—asset purchases and the policy rate—instead  of just one. And asset purchases are more difficult to calibrate because their  effects are less certain. These challenges are worth surmounting when the  policy rate is at the effective lower bound and further stimulus can come only  through asset purchases, or when asset purchases are the best available  response to threats to financial stability.</p>
+<p>But in the absence of such needs, the benefits of  higher reserves aren&rsquo;t commensurate with the drawbacks. Indeed, a large balance  sheet can even be counterproductive for our policy goals. The Federal Reserve  and other central banks bought large quantities of assets during the pandemic  for a reason: to support market functioning, the flow of credit and economic  activity in response to a severe economic shock. Circumstances are now  different. Financial markets are functioning smoothly. And our primary economic  challenge is not a deep recession but rather too-high inflation. In this  environment, it is important to remove economic stimulus by returning our  assets to the level needed to supply ample—not abundant—reserves.</p>
+<h2>Conclusion</h2>
+<p>Central bankers have vigorously debated  monetary policy implementation regimes for many years. And I have no doubt we  will continue to do so for many more. The Friedman rule offers a useful  guidepost in that debate. On the margin, central banks should equate the  benefits and costs to society of supplying additional reserves. A floor system  with ample reserves satisfies this criterion in my view.</p>
+<p>Thank you.</p>
+<div class="separator-notes"></div>
+<p class="dal-notes__headline" aria-label="Notes Heading">Notes</p>
+<p>I am grateful to Sam Schulhofer-Wohl for assistance in preparing these remarks and to Antoine Martin and Patricia Zobel for valuable conversations.</p>
+<ol class="dal-notes__list">
+    <li><a id="n1"></a>Milton Friedman, &ldquo;The  Optimum Quantity of Money,&rdquo; in <em>The  Optimum Quantity of Money and Other Essays</em>, Chicago: Aldine, 1969.</li>
+  <li><a id="n2"></a>My focus here is on an  environment with interest-bearing central bank money (reserves). When money  does not bear interest, the Friedman rule also has implications for the optimal  inflation rate, which are beyond the scope of this discussion.</li>
+  <li><a id="n3"></a>See, for example,  Claudio Borio, <a href="https://www.bis.org/speeches/sp230426.htm" target="_blank">&ldquo;Getting up from the floor,&rdquo;</a> remarks at the Netherlands Bank Workshop  &ldquo;Beyond unconventional policy: Implications for central banks&rsquo; operational  frameworks,&rdquo; March 10, 2023.</li>
+  <li><a id="n4"></a>Lorie K. Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2020/log201201" target="_blank">&ldquo;A Return to Operating with  Abundant Reserves,&rdquo;</a> remarks before the Money Marketeers of New York  University, Dec. 1, 2020.</li>
+  <li><a id="n5"></a>Lorie K. Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2019/log190417" target="_blank">&ldquo;Observations on Implementing  Monetary Policy in an Ample-Reserves Regime,&rdquo;</a> remarks before the Money Marketeers of New York  University, April 17, 2019.</li>
+  <li><a id="n6"></a>For a formal model,  see Gara Afonso, Kyungmin Kim, Antoine Martin, Ed Nosal, Simon Potter and Sam  Schulhofer-Wohl, <a href="https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr910.pdf" target="_blank">&ldquo;Monetary Policy Implementation  with Ample Reserves,&rdquo;</a> Federal Reserve Bank of New York Staff Report No.  910, revised July 2023.</li>
+  <li><a id="n7"></a>Lorie K. Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2020/log200715" target="_blank">&ldquo;The Federal Reserve&rsquo;s Market  Functioning Purchases: From Supporting to Sustaining,&rdquo;</a> remarks at SIFMA Webinar, July 15, 2020.</li>
+  <li><a id="n8"></a>Lorie K. Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2021/log210415" target="_blank">&ldquo;Impact of Abundant Reserves on  Money Markets and Policy Implementation,&rdquo;</a> remarks at SIFMA Webinar, April 15, 2021.</li>
+  <li><a id="n9"></a>See <a href="https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2008.pdf" target="_blank">&ldquo;Domestic Open Market Operations  During 2008,&rdquo;</a> report prepared for  the Federal Open Market Committee by the Markets Group of the Federal Reserve  Bank of New York, January 2009. </li>
+  <li><a id="n10"></a>Sam Schulhofer-Wohl, <a href="https://www.chicagofed.org/~/media/publications/chicago-fed-letter/2019/cfl423-pdf.pdf" target="_blank">&ldquo;Understanding recent fluctuations  in short-term interest rates,&rdquo;</a> <em>Chicago Fed  Letter</em> No. 423, 2019.</li>
+  <li><a id="n11"></a>See, for example,  Adam Copeland, Linsey Molloy, and Anya Tarascina, <a href="https://libertystreeteconomics.newyorkfed.org/2019/02/what-can-we-learn-from-the-timing-of-interbank-payments/" target="_blank">&ldquo;What Can We Learn from the Timing  of Interbank Payments?&rdquo;</a>, Liberty Street Economics, Feb. 25, 2019. </li>
+  <li><a id="n12"></a>For more on  principles that should guide central bank interventions to address market  dysfunction, see Lorie K. Logan, <a href="/news/speeches/logan/2023/lkl230303">&ldquo;Preventing and responding to  dysfunction in core markets,&rdquo;</a> remarks at the Workshop on Market Dysfunction at the  University of Chicago Booth School of Business, March 3, 2023.</li>
+  <li><a id="n13"></a>See James Clouse, <a href="https://www.federalreserve.gov/monetarypolicy/1194lead.pdf" target="_blank">&ldquo;Recent Developments in Discount  Window Policy,&rdquo;</a> Federal Reserve Bulletin, Nov. 1994, 965-977;  Brian Madigan and William Nelson, <a href="https://www.federalreserve.gov/pubs/bulletin/2002/0702lead.pdf" target="_blank">&ldquo;Proposed Revision to the Federal  Reserve's Discount Window Lending Programs,&rdquo;</a> Federal Reserve Bulletin, July 2002, 313-319;  Olivier Armantier, Helene Lee, and Asani Sarkar, <a href="https://libertystreeteconomics.newyorkfed.org/2015/08/history-of-discount-window-stigma/" target="_blank">&ldquo;History of Discount Window  Stigma,&rdquo;</a> Liberty Street  Economics, Aug. 10, 2015; and Mark Carlson and Jonathan D. Rose, <a href="https://www.federalreserve.gov/econres/notes/feds-notes/stigma-and-the-discount-window-20171219.html" target="_blank">&ldquo;Stigma and the discount window,&rdquo;</a> FEDS Notes, Dec. 19, 2017.</li>
+  <li><a id="n14"></a>Federal Open Market  Committee, <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20210728b.htm" target="_blank">&ldquo;Statement Regarding Repurchase  Agreement Arrangements,&rdquo;</a> July 28, 2021.</li>
+  <li><a id="n15"></a>See Board of  Governors of the Federal Reserve System, <a href="https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210616.pdf" target="_blank">&ldquo;Minutes of the Federal Open Market  Committee, June 15-16, 2021,&rdquo;</a> 2021.</li>
+  <li><a id="n16"></a>See Andrew Hauser, <a href="https://www.bankofengland.co.uk/speech/2023/september/andrew-hauser-speech-at-market-news-international-connect-event" target="_blank">&ldquo;A journey of 1000 miles begins  with a single step: filling gaps in the central bank liquidity toolkit,&rdquo;</a> speech at a Market News International Connect  Event, Charter Accountants&rsquo; Hall, London, Sept. 28, 2023.</li>
+  <li><a id="n17"></a>For additional  discussion of interbank trading in different implementation regimes, see Simon  Potter, <a href="https://www.newyorkfed.org/newsevents/speeches/2016/pot160826" target="_blank">&ldquo;Discussion of &lsquo;Evaluating Monetary  Policy Operational Frameworks&rsquo; by Ulrich Bindseil,&rdquo;</a> remarks at the Jackson Hole Economic Policy  Symposium, Aug. 26, 2016.</li>
+  <li><a id="n18"></a>See Lorie K. Logan, <a href="https://www.dallasfed.org/news/speeches/logan/2023/lkl230518">&ldquo;Remarks on liquidity provision and  on the economic outlook and monetary policy,&rdquo;</a> remarks to the Texas Bankers Association, San  Antonio, May 18, 2023.</li>
+  <li><a id="n19"></a>For a discussion of  frictions in collateral movement during the March 2023 banking stresses, see  Richard Ostrander, <a href="https://www.newyorkfed.org/newsevents/speeches/2023/ost230617" target="_blank">&ldquo;Remarks on the Panel &lsquo;Bank Crisis  Framework: Learning from Experience,&rsquo;&rdquo;</a> Paris Meeting of the Committee on International  Monetary Law of the International Law Association, June 17, 2023.</li>
+  <li><a id="n20"></a>In the U.S., the  Federal Deposit Insurance Corporation Improvement Act of 1991 limits discount  window lending to undercapitalized depository institutions.</li>
+  <li><a id="n21"></a>See Kyungmin Kim,  Antoine Martin and Ed Nosal, <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jmcb.12693" target="_blank">&ldquo;Can the interbank market be revived?&rdquo;</a>, <em>Journal  of Money, Credit and Banking </em>52(7), 1645-1689, October 2020.</li>
+  <li><a id="n22"></a>See Randal K.  Quarles, <a href="https://www.federalreserve.gov/newsevents/speech/quarles20200206a.htm" target="_blank">&ldquo;The Economic Outlook, Monetary  Policy, and the Demand for Reserves,&rdquo;</a> speech at the Money Marketeers of New York University,  Feb. 6, 2020.</li>
+  <li><a id="n23"></a>Lorie K. Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2020/log201023" target="_blank">&ldquo;Treasury Market Liquidity and  Early Lessons from the Pandemic Shock,&rdquo;</a> remarks at Brookings-Chicago Booth Task Force  on Financial Stability meeting, Oct. 23, 2020.</li>
+  <li><a id="n24"></a>A central bank&rsquo;s  charter and the financial system in which it operates may also influence the  considerations surrounding the optimal supply of reserves. For a discussion of  these and other factors in the U.K. context, see Andrew Hauser, <a href="https://www.bankofengland.co.uk/speech/2023/november/andrew-hauser-keynote-speech-bank-of-england-watchers-conference" target="_blank">&ldquo;&lsquo;Less is more or&rsquo; or &lsquo;Less is a  bore&rsquo;? Re-calibrating the role of central bank reserves,&rdquo;</a> speech at Kings College London&rsquo;s Bank of  England Watchers&rsquo; Conference, Nov. 3, 2023.</li>
+  <li><a id="n25"></a>See, for example,  Darrell Duffie and Arvind Krishnamurthy, <a href="https://www.kansascityfed.org/Jackson%20Hole/documents/7030/Duffie_JH2016.pdf" target="_blank">&ldquo;Pass-Through Efficiency in the  Fed&rsquo;s New Monetary Policy Setting,&rdquo;</a> paper presented at the Jackson Hole Economic Policy  Symposium, Aug. 26, 2016, and Simon Potter, <a href="https://www.newyorkfed.org/newsevents/speeches/2017/pot170405" target="_blank">&ldquo;Money Markets at a Crossroads:  Policy Implementation at a Time of Structural Change,&rdquo;</a> remarks at the Master of Applied Economics&rsquo;  Distinguished Speaker Series, University of California, Los Angeles, April 5,  2017.</li>
+  <li><a id="n26"></a>See Annette  Vissing-Jørgensen, <a href="https://www.ecb.europa.eu/pub/conferences/ecbforum/shared/pdf/2023/VissingJorgensen_paper.pdf" target="_blank">&ldquo;Balance Sheet Policy Above the  ELB,&rdquo;</a> paper presented at  the ECB Forum on Central Banking, June 28, 2023.</li>
+</ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <!--<p class="dal-info__heading">About the author</p>-->
+<div class="row dal-author-row one-up">
+   <div class="dal-author-card-wrapper">
+      <div class="dal-author-card"> <img  src="/-/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="Lori K. Logan" />
+         <p class="dal-author-card__name"></p>
+         <p><a href="/fed/leadership/logan"><strong>Lorie K. Logan</strong></a> is president and CEO of the Federal Reserve Bank of Dallas.</p>
+      </div>
+   </div>
+</div>
+
+<div class="separator"></div>
+<p>The views expressed are my own and do not necessarily reflect official positions of the Federal Reserve System.</p>
+
+
+                                                            <div class="dal-content-topics__container">
+                                    <div class="dal-topics__list">
+                                                <a href="/topics/banking" class="dal-topics__list-item">Banking and finance</a>
+                                                <a href="/topics/monetary" class="dal-topics__list-item">Monetary policy</a>
+                                                <a href="/topics/finstability" class="dal-topics__list-item">Financial stability</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+<div class="dal-sidebar__heading">President Lorie Logan</div>
+<ul class="dal__list--lined">
+    <li><a href="/fed/leadership/logan">About Lorie</a></li>
+    <li><a href="/news/speeches/logan">Speeches</a></li>
+ <li><a href="/fed/leadership/logan/360in365">360° Listening Tour</a></li>
+ <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+    <!-- <li><a href="/fed/leadership/logan/speaking">Public speaking events</a></li> -->
+</ul>
+
+<!--<p><a href="https://www.linkedin.com/in/lorie-logan-29a99310/" target="_blank">Follow Lorie on LinkedIn</a></p>-->
+
+
+<a href="https://cloud.email.em-dallasfed.org/signup" type="button" class="btn btn-primary dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-subscribe-sm"></span></span>
+  <span class="dal-button__text">Subscribe for<br>email alerts</span>
+</a>
+
+<!-- <a href="https://cloud.email.em-dallasfed.org/logansch" type="button" class="btn btn-brand-teal dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-calendar-sm"></span></span>
+  <span class="dal-button__text">Get president&rsquo;s speaking schedule</span>
+</a> -->
+
+<div class="mb-20"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

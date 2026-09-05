@@ -565,6 +565,10 @@ def raw_manifest(data_dir: Path, statement_source_urls: dict[str, str], speeches
         if relative.startswith("raw/speech_catalog/"):
             # The full catalog has its own URL-aware fetch manifest.
             continue
+        if relative.startswith("raw/public_communications/"):
+            # The spec-v1 communications corpus has separate URL-aware source
+            # and artifact manifests; do not absorb it into the legacy tracker.
+            continue
         digest = sha256(path)
         size = path.stat().st_size
         files.append({"path": relative, "bytes": size, "sha256": digest, "source_url": url_by_path.get(relative, "")})

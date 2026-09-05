@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>R.I.P. QE3 ... Or Will It? - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2014/fs141103" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2014/fs141103" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2014" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2014/fs141103-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">R.I.P. QE3 ... Or Will It?</h1>
+                                                    <div class="dal-tagline">R.I.P. QE3 ... Or Will It? (With Reference to Shakespeare, Betsy Duke, Janet Yellen,  Yogi Berra and Lenny Kravitz)</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">November 3, 2014</span> New York City</p><div class="report-links">
+<ul>
+<li><a href="~/media/Documents/news/speeches/fisher/2014/fs141103.pdf">Speech in PDF</a></li>
+</ul>
+</div><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+<p>Thank  you, Mickey [Levy], for that colorful introduction.</p>
+<p>Unless  you have been living under a rock (and no one in this audience looks like a  cave dweller), you know that on Wednesday of last week, the Federal Reserve&rsquo;s Federal  Open Market Committee (FOMC) ended its program of purchasing Treasury bonds and  mortgage-backed securities (MBS). Thus endeth QE3.</p>
+<p>May  it rest in peace.</p>
+<h3>Effects and Efficacy of QE3</h3>
+<p>  Under  QE3, the FOMC directed the New York Fed&rsquo;s trading desk to purchase a total of  $1.7 trillion in longer-term Treasuries and mortgage-backed securities, on top  of the $2 trillion invested in the first two rounds of quantitative easing.  When we started the first tranche of asset purchases in late 2008, our balance  sheet had footings of around $900 billion; as the third and final round of  quantitative easing ends, our balance sheet has reached $4.5 trillion.</p>
+<p>The  initial impetus for MBS purchases was a wide gap between MBS and Treasury  yields, symptomatic of a dysfunctional mortgage-finance market. The Federal  Reserve responded by purchasing $1.3 trillion in MBS and agency debt as part of  QE1, the program of balance-sheet expansion that ran from late 2008 through the  spring of 2010. Holdings of MBS and agency debt were then allowed to run off  and by September 2011 had fallen to a little under $1 trillion. Holdings were  stabilized at that level when proceeds from maturing agency securities and MBS  began to be reinvested in MBS, starting October 2011.</p>
+<p>The  renewed expansion of MBS holdings that began in October 2012 as part of QE3 was  motivated less by any sense that the mortgage-finance market was dysfunctional  than by the notion that normal frictions in that market potentially provided  monetary policy with leverage to stimulate the housing sector&mdash;and thus the  economy as a whole&mdash;at a time when more-traditional policy tools had been  exhausted. The FOMC majority pushed aside concerns that providing targeted  support to housing is more properly the province of fiscal policy, and voted to  proceed. From the start of QE3 to its conclusion, the Fed&rsquo;s portfolio of agency  securities and MBS expanded by about $850 billion. In the latest version of its  normalization principles, released this September, the FOMC indicated that it  expects to reduce its holdings in future years primarily through attrition.</p>
+<p>What  of the expansion of the Federal Reserve&rsquo;s holdings of longer-term Treasury  securities under QE3? Fed purchases of longer-term Treasuries amount to nothing  more than the transformation of long-term Treasury obligations into short-term  obligations of the Federal Reserve. Essentially, long-term government  obligations are transformed into short-term government obligations. The  government benefits from lower interest costs in the near term, but its future  net revenues become more sensitive to future interest-rate increases.  Government finance problems are reduced today, at a cost of potential future  problems. The larger bank reserves become, the greater is the government&rsquo;s  future interest-rate exposure.</p>
+<p>Chairman  Ben Bernanke famously said that &ldquo;the problem with QE is that it works in  practice, but it doesn&rsquo;t work in theory&rdquo;&mdash;QE3 seemed to succeed in pushing  interest rates lower out along the yield curve, energizing the bond market and  lowering the hurdle rate for discounting cash flows and earnings of companies  whose shares traded in stock markets.<a href="#n1">[1]</a> This came, of course, at the  expense of savers who kept their money in the most basic of short-term  investments. But this was a cost that the committee felt was exceeded by the  expected wealth effect.</p>
+<p>Well  before last week&rsquo;s FOMC meeting, it seemed to me that QE3&rsquo;s effectiveness had  waned while its current and potential future costs were mounting. I was thus an  enthusiastic supporter of killing the program<em>.</em></p>
+<p>Indeed,  I would rather we had never had QE3 in the first place. To this day, I feel  that the costs of accumulating another $1.7 trillion of Treasuries and MBS will  be shown to exceed the benefits. And yet, as I have said on countless  occasions, drawing on former Dallas Fed board Chairman Herb Kelleher&rsquo;s love for  bourbon, once we had QE3 in place, I considered it unwise to go directly from  Wild Turkey to cold turkey for fear of getting the financial equivalent of  delirium tremens; indeed, we saw that with the &ldquo;taper tantrum&rdquo; the markets  threw in May of 2013. So I was an eager proponent of the tapering program the  FOMC initiated in January of this year.</p>
+<p>I  want to be clear here. Especially at the beginning of QE3, when the nonsense  term &ldquo;QE infinity&rdquo; was being broadcast by otherwise responsible analysts,  journalists and pundits, rates dipped to lows that helped creditworthy  businesses bolster their balance sheets and strengthen their wherewithal for  future expansion. Again, even if you were living under a rock, you know that  this gift of near-cost-free debt as measured in inflation- and tax-adjusted  terms has thus far been used primarily to finance stock buybacks, increase  dividends and fatten cash reserves, and recently, finance mergers by the most  creditworthy companies. For those with access to capital, it was a gift of free  money to speculate with. (One wag&mdash;I believe it was me&mdash;quipped that there was,  indeed, a &ldquo;positive wealth effect&hellip; the wealthy were affected most positively.&rdquo;) </p>
+<p>We  know that monetary policy acts with long and variable lags. That  characterization applies, in spades, to the unorthodox policy we have pursued  at the zero bound, in terms of achieving full employment and hitting our 2  percent inflation target.</p>
+<p>Together  with the healthy rejuvenation of the balance sheets and equity prices of  investment grade companies, we have seen what I consider to be a manifestation  of an indiscriminate reach for yield, a revival of covenant-free lending, and  an explosion of collateralized loan obligations (CLOs), pathologies that have  proved harbingers of eventual financial turbulence. </p>
+<p>Noticeably  affected by QE3 have been the nominal yield levels of subpar credits and their  spreads relative to investment-grade issues. Some 40 percent of newly issued  CCC credits have negative cash flows.<a href="#n2">[2]</a> And yet &ldquo;junk&rdquo; bonds have  been trading at or near record historic low yields both in absolute terms and  as measured by spreads over investment-grade credits. I worry about this as a  risk that has been propagated by QE3, though I do not believe it is the Fed&rsquo;s  job to rescue reckless investors from the errors of their ways.</p>
+<p>The  stock market bottomed in March 2009 and had already more than doubled by the  time we initiated QE3. It has since risen by another 40 percent; equities have,  all-in, tripled in price since the lows of 2009. Only time will tell if stocks  have risen to unsustainable heights and, if so, how deep a correction might be  needed to bring them back to sustainable valuations. </p>
+<h3>The Last FOMC</h3>
+<p>  I  believe that the Fed should, in most circumstances, not directly concern itself  with fluctuations in financial-asset prices. If the economy is strong, the  securities markets will be propelled by that strength. If the real economy is  hearty, it can withstand reversions to the mean of junk bond or any other  trading market and stock market corrections: It did so during the prolonged  correction of 1962 and again in 1987. For this reason, as we approached our  deliberations at last week&rsquo;s FOMC, I saw no reason for the Fed to react to the  heightened volatility that occurred in mid-October and strongly advised my colleagues  that we should be wary of any action we might take at the FOMC that would lead  investors to assume there is a &ldquo;Yellen Put&rdquo; hidden in our pocket. For this  would only encourage continued indiscriminate investing.</p>
+<p>I view the economy as becoming stronger.  My colleagues and I at the Dallas Fed realize that the current unemployment  rate, at 5.9 percent as of September, is still somewhat above most estimates of  the &ldquo;natural,&rdquo; or minimum-sustainable, rate of unemployment. But the gap  between actual and &ldquo;natural&rdquo; unemployment has been rapidly shrinking and is now  less than 1 percentage point.</p>
+<p>Some commentators argue that the  unemployment rate hasn&rsquo;t been a reliable indicator of labor-market slack during  the last five years. As evidence, these commentators point to subdued wage  growth. We at the Dallas Fed have investigated the links between wage inflation  and the unemployment rate using the aggregate data that are available for the  U.S., and also using state-level data. These investigations have led us to  three main conclusions. First, wage growth responds to the unemployment rate  with a lag. That&rsquo;s no mystery: Many employers adjust wage and salaries just  once each year. Second, wage growth becomes increasingly sensitive to the  unemployment rate as the unemployment rate reaches lower and lower levels. A  drop in the unemployment rate from 9 percent to 8 percent may not do much for  the negotiating leverage of the typical worker. But the story is different when  the unemployment rate drops from 6 percent to 5 percent or below, for example.</p>
+<p>Finally, taking these two factors  into account, there&rsquo;s been nothing at all unusual about the behavior of wage  growth over the period since the national unemployment rate peaked nearly five  years ago. We went through a deep recession. Coming out of a deep recession, it  takes time for the unemployment rate to reach levels where wage growth picks up  noticeably. Wage growth was about 1&frac12; percent in both 2010 and 2011&mdash;not too  surprising, given that the unemployment rate was 9.9 percent in the final  quarter of 2009 and, at 9.6 percent, nearly as high in the final quarter of  2010. Since then, the unemployment rate has fallen by a little less than 1  percentage point each year, and wage growth has picked up by 0.2 percentage  points each year. Three quarters into 2014, wage growth is already up another two-tenths,  to 2.1 percent at an annual rate.</p>
+<p>This pattern of rising wage growth is  roughly what one would have expected judging by prerecession data.<a href="#n3">[3]</a>  If anything, wage growth has been running a bit above what we should have  expected. This contradicts the view that the unemployment rate has understated  labor-market slack.</p>
+<p>Of course, the Federal Reserve has a  target for price inflation, not wage inflation. The rate of wage inflation  consistent with our 2 percent price-inflation target depends on secular trends  in labor productivity growth and in labor&rsquo;s bargaining power&mdash;trends over which  the Federal Reserve has no control and about which it can only make informed  guesses. Nevertheless, the Dallas Fed&rsquo;s study of the Phillips curve has an  important lesson for Fed policymakers: If we keep pushing on the accelerator  pedal until wage growth matches the rate that we believe to be sustainable, we  will likely have pushed too far and missed our exit. Because wage growth reacts  to slack with a lag, it will continue to increase even after policy stimulus is  removed. Because wage growth rises at an increasing rate the farther the unemployment  rate declines, the overshoot is likely to be large.</p>
+<p>I liken monetary policy to duck  hunting. If you want to bag a mallard, you don&rsquo;t aim where the bird is at  present, you aim ahead of its flight pattern. To me, the flight pattern of the  economy is clearly toward increasing employment and inflation that is  approaching our 2-percent target.</p>
+<p>Thus, I was encouraged by the wording  we negotiated at the last FOMC meeting. I was pleased that we dropped the  reference to &ldquo;significant&rdquo; in describing the remaining labor-market slack and  that wording was included indicating we might well move to raise rates sooner  than thus far assumed, should the economy proceed along the trajectory I think we  are on. To me, this neutered the adjective &ldquo;considerable&rdquo; in stating the time  frame under which we might act. This is why this particular hawk voted &ldquo;yes&rdquo; in  support of the statement we released on Wednesday.</p>
+<h3>Now to the Exit...</h3>
+<p>  Of course, I am concerned with what  will happen to all the liquidity that remains in the system in the aftermath of  our QE programs. The depository institutions we transact with have put back to  the 12 Federal Reserve Banks some $2.7 trillion in excess reserves. &ldquo;Excess&rdquo;  means they cannot find better uses for that money than earning the 25 basis  points (25/100ths of one percent per annum) we pay them until they can find  creditworthy borrowers to lend to at significant multiples of that amount. And  considering that this $2.7 trillion represents perhaps as little as one-fifth  of the amount of ready liquidity in the U.S. financial system&mdash;that being held  not just on deposit at the Fed Banks but also by nonfinancial corporations,  private equity funds, other investors and households&mdash;there is a lot of  inflationary tinder available should the Fed mismanage its exit from the  hyper-accommodative policy we have pursued and augmented with QE3. </p>
+<p>Thus, only time will reveal the  efficacy of the policy we have pursued and whether the risks that I and other  observers (among them my mentor, Paul Volcker) fret over are as substantial, or  whether we have made much ado about nothing. </p>
+<p>My former colleague, the wonderful  ex-banker and much-admired Fed Governor Betsy Duke, was quoted on Oct. 28 in <em>The Washington Post</em> as saying this about  QE3: &ldquo;It&rsquo;s still important to see what the ultimate costs are going to be. You  can&rsquo;t really judge those until it&rsquo;s completely unwound.&rdquo;<a href="#n4">[4]</a> Betsy is  spot on.</p>
+<h3>Channeling Shakespeare</h3>
+<p>  In June of last year, I gave a speech  in Toronto in which I likened the post-zero-bound monetary policy to a Shakespearean  drama with five acts, suggesting we were then in the last scene of the third  act of a play titled &ldquo;The Grand Experiment in Modern Monetarism.&rdquo;<a href="#n5">[5]</a> I  posited we will not know until the final act whether the play will end  felicitously or otherwise.</p>
+<p>I thought I would update that analogy  here today. Here is the CliffsNotes summary: The play opened with the great  financial tempest of 2008&ndash;09, during which it appeared the ship of the mighty American  economy would founder. A humble, once unassuming but suddenly daring captain  named Ben Bernanke took firm control of the nation&rsquo;s monetary helm in Act II, working  with his officers&mdash;the FOMC&mdash;to contrive innovative ways to keep the economy  afloat by jury-rigging monetary policy and adopting radical tactical maneuvers.  These efforts succeeded in steering the ship of the economy away from the  shoals of depression and deflation and into more tranquil waters.</p>
+<p>Act III began with a recovering  economy heading on a more promising course. But the headway being made was  substandard, hindered by the flotsam and jetsam of fiscal incompetence and  rising fears of a new storm brewing in Europe. In an effort to propel the  economy forward at a better clip, the FOMC commanded that unprecedented amounts  of monetary fuel be provisioned for the financial system through large-scale  asset purchases, the proceeds of which were pumped into the stores of banks. </p>
+<p>But as Act IV began, the banks  lingered in the wings rather than taking center stage. Rather than shovel their  abundant means into their loan boilers, they were parsimonious and hoarded their  fuel. Other members of the financial fleet, however, were heartened by the turn  of events, especially those who finance themselves through the issuance of  stocks and bonds rather than through bank loans. They danced a happy jig while  they decorated their balance sheets with cheaper debt and improved their margins  and earnings per share through share buybacks. Slowly they began to hire new  workers, and the ship of the economy started gathering momentum to steam along  at an improved clip.<em><u></u></em></p>
+<p>As Act IV came to an end, the FOMC evaluated  the utility of its navigational tactics, and having tentatively decided that it  was on course to its desired destination, began cutting back on the amount of  fuel it was pumping into the financial system. Initially, it fumbled the  dialogue, but eventually the articulation of its intention was accepted, if not  applauded, by its audience.</p>
+<p>Now we have entered Act V. Not until  the final scene will we know whether we have achieved the auspicious outcome of  arriving at the desired port of an economy that grows sufficiently to bring  about full employment without giving rise to inflation. With Shakespeare, the  most pleasant plays typically end in marriage. The happy outcome to our  economic predicament would entail the marriage of sensible fiscal policy with  prudent monetary policy, carrying the American economy to new horizons,  allowing the Fed to emerge a hero.</p>
+<p>One can envision less-pleasant  outcomes, however, some of them tragic. If, even after the mid-term elections tomorrow,  the fiscal authorities&mdash;Congress and the president&mdash;are unable to provide tax,  spending and regulatory incentives for job creators to use the cheap and  abundant capital the FOMC and other creditors have made available, the economy  might once again find itself becalmed. In the speech I gave nearly four years ago to your  sponsor, the Manhattan Institute, I specifically said of the then new Congress:  &ldquo;For all the hoopla (surrounding it), it will prove to be nothing more than a  case of putting old, rancid wine in new bottles.&rdquo;<a href="#n6">[6]</a> Pray this does  not happen again. Should the FOMC then try to compensate for fiscal  authorities&rsquo; inability to act by provisioning still more monetary fuel, it may  risk an explosion of speculative excess, or worse: an eventual inflationary  conflagration, the debasement of money and the ruination of our economy and  lifestyle. Should this prove the outcome, the Fed will be transmogrified from  hero to villain.</p>
+<p>To thicken the plot, as Act V began, Captain  Bernanke exited stage right and a new skipper entered stage left. I should say  here that I advocated for this particular skipper. Janet Yellen, when she was  just another member of the crew as a Fed governor, was pigeonholed as a &ldquo;dove&rdquo; (forgive  the double-entendre; doves are, ornithologically speaking, part of the pigeon  family) but has proven herself in her role at the helm of the FOMC to be  neither dove nor hawk. Rather, she is impressively balanced and fully aware, at  least in my opinion, that her legacy will be whether she can successfully  complete Act V by realizing the Fed&rsquo;s mandate to maintain price stability while  providing the monetary means to achieve full employment.</p>
+<p>All of which means that despite the  mighty efforts of Captains Bernanke and Yellen and their officers and crew,  present company included, we do not know how &ldquo;The Grand Experiment&rdquo; drama will  end. We certainly all hope it proves an inspiring history, not a tragedy. But,  we will not know for some time. We will not know until the curtain drops on Act  V.</p>
+<h3>R.I.P?</h3>
+<p>  Betsy Duke had it right: Only when we  have normalized monetary policy<strong>&mdash;</strong>only  when the play is done<strong>&mdash;</strong>will we know if  QE3 rests in peace or comes back to haunt us. Only when it is done will we know  if &ldquo;The Grand Experiment in Modern Monetarism&rdquo; is a smash hit or a bomb or  something in between.</p>
+<p>As Yogi Berra said and Lenny Kravitz  sang: &ldquo;It ain&rsquo;t over till it&rsquo;s over.&rdquo; But one thing I know for sure: This  speech is over. Thank you for listening.</p>
+<p>And now, Mickey, time and patience  permitting, I would be happy to avoid answering any questions you and your  colleagues might have.</p>
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<p>The views expressed by the author do not necessarily reflect official   positions of the Federal Reserve System.</p>
+
+<ol>
+  <li><a name="n1" id="n1"></a>&ldquo;A Conversation: The Fed Yesterday, Today and Tomorrow,&rdquo; a discussion with Federal Reserve Chairman Ben Bernanke on the Fed&rsquo;s 100th anniversary, Brookings Institution, Washington, D.C., Jan. 16, 2014.</li>
+  <li><a name="n2" id="n2"></a>See &ldquo;The Next Default Wave: Slow and Low,&rdquo; in The HY Wire, Bank of America Merrill Lynch, Sept. 24, 2014.
+  </li>
+  <li><a name="n3" id="n3"></a >The following charts illustrate the recent  acceleration in wage growth (Chart 1) and the relationship between rising wage  growth and falling unemployment (Chart 2). For more information, see the Dallas  Fed <em>Economic Letter </em>titled&ldquo;Are We There Yet? Assessing Progress  Toward Full Employment and Price Stability,&rdquo; available at <a href="http://www.dallasfed.org/assets/documents/research/eclett/2014/el1413.pdf">www.dallasfed.org/assets/documents/research/eclett/2014/el1413.pdf</a>.</p>
+ <p class="chart-full">
+<a href="/~/media/Images/news/speeches/fisher/2014/141103c1.ashx" title=""> <img src="/~/media/Images/news/speeches/fisher/2014/141103c1th.ashx"  alt="" border="1"/></a></p> 
+
+ <p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2014/141103c2.ashx" title=""> <img src="/~/media/Images/news/speeches/fisher/2014/141103c2th.ashx"  alt="" border="1"/> </a></p>
+
+  </li>
+  <li><a name="n4" id="n4"></a >See &ldquo;The Federal Reserve&rsquo;s Experiment in Quantitative Easing Is  Coming to an End,&rdquo; by Ylan Q. Mui, <em>The  Washington Post</em>, WonkBlog, Oct. 28, 2014.</li>
+ <li><a name="n5" id="n5"></a >If you wish to read that speech in its entirety, it  can be found at <a href="http://www.dallasfed.org/news/speeches/fisher/2013/fs130604.cfm">www.dallasfed.org/news/speeches/fisher/2013/fs130604.cfm</a>.</li>
+ 
+  <li><a name="n6" id="n6"></a >See &ldquo;The Limits of Monetary Policy: &lsquo;Monetary  Policy Responsibility Cannot Substitute for Government Irresponsibility&rsquo;,&rdquo;  remarks by Richard W. Fisher, Jan. 12, 2011.</li>
+  
+</ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

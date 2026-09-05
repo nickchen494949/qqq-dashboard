@@ -1,0 +1,678 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+
+<title>The Economy, the Pandemic, and Machine Learning</title>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-196x196.png" sizes="196x196"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-128x128.png" sizes="128x128"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/-/media/Project/FRBP/FRBP-Portal/Settings/favicon-16x16.png" sizes="16x16"/><meta itemprop="url" content="https://www.philadelphiafed.org/the-economy/200929-the-economy-the-pandemic-and-machine-learning"  />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8 "/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta content="The Economy, the Pandemic, and Machine Learning" property="og:title" />
+<meta content="Official Monetary and Financial Institutions Forum | Philadelphia, PA (virtual)" property="og:description" />
+<meta content="https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/content/Speeches/Harker-2/SubsectionBanner-Harker-2.png" property="og:image" />
+<meta content="{F94CA6EF-CD43-4C05-BC55-27D10E5B476F}" property="og:type" />
+<meta content="https://www.philadelphiafed.org/the-economy/200929-the-economy-the-pandemic-and-machine-learning" property="og:url" /><script src="/assets/js/init.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/pages/article/page.css" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KS5HGCQ');</script>
+    <!-- End Google Tag Manager -->
+
+
+    
+    
+<style>
+
+.data-release-archive-filter-result ul li a[href$=xlsx]:after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    margin-left: 1px;
+    margin-top: -4px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/svg/icon-utility/xlsx.svg);
+}
+
+</style>
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS5HGCQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="wrapper">
+        <header>
+            
+<div class="navigation" data-id="{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}" >
+    <div class="nav-logo">
+        <a href="/">Federal Reserve Bank of Philadelphia</a>
+    </div>
+    <div class="skip-links">
+        <a class="sr-only visible-when-focused" href="#content">skip to main content</a>
+        <a class="sr-only visible-when-focused" href="#footer">skip to footer</a>
+    </div>
+    <div class="nav-search">
+        <button type="button">Search</button>
+    </div>
+    <div class="nav-menu">
+        <button type="button"
+                aria-expanded="false"
+                id="nav-control-links"
+                aria-controls="nav-links">
+            Expand Menu
+        </button>
+    </div>
+    <nav id="nav-links" role="region" aria-labelledby="nav-control-links">
+        <ul class="nav-institution">
+                <li class="">
+                    <a class=" institution" href="/about-us">
+                    About Us
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/our-people">
+                    Our People
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" institution" href="/education">
+                    Education 
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" banking-finance" href="/banking">
+                    Banking
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/careers">
+                    Careers
+                    </a>
+                </li>
+                <li class="">
+                    <a class=" " href="/calendar-of-events">
+                    Calendar of Events
+                    </a>
+                </li>
+        </ul>
+        <ul class="nav-topic">
+                <li   class="active"   data-topic="the-economy">
+                    <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy">
+                    The Economy
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-the-economy">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-the-economy" aria-labelledby="nav-sub-topic-label-the-economy">
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/monetary-policy">
+                                        Monetary Policy
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/banking-and-financial-markets">
+                                        Banking &amp; Financial Markets
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/macroeconomics">
+                                        Macroeconomics
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class="active the-economy" id="nav-sub-topic-label-the-economy" href="/the-economy/regional-economics">
+                                        Regional Economics
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="consumer-finance">
+                    <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance">
+                    Consumer Finance
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-consumer-finance">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-consumer-finance" aria-labelledby="nav-sub-topic-label-consumer-finance">
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/payment-systems">
+                                        Payment Systems
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/consumer-credit">
+                                        Consumer Credit
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/education-finance">
+                                        Education Finance
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" consumer-finance" id="nav-sub-topic-label-consumer-finance" href="/consumer-finance/mortgage-markets">
+                                        Mortgage Markets
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="community-development">
+                    <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development">
+                    Community Development
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-community-development">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-community-development" aria-labelledby="nav-sub-topic-label-community-development">
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/inclusive-growth">
+                                        Inclusive Growth
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/credit-and-capital">
+                                        Credit &amp; Capital
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/housing-and-neighborhoods">
+                                        Housing &amp; Neighborhoods
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" community-development" id="nav-sub-topic-label-community-development" href="/community-development/workforce-and-economic-development">
+                                        Workforce &amp; Economic Development
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li   class=""   data-topic="data">
+                    <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data">
+                    SURVEYS &amp; DATA
+                    </a>
+                    <button type="button"
+                            aria-expanded="false"
+                            aria-controls="nav-sub-topic-data">
+                        Expand Sub-Topics
+                    </button>
+                            <ul class="nav-sub-topic" role="region" id="nav-sub-topic-data" aria-labelledby="nav-sub-topic-label-data">
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/real-time-data-research">
+                                        REAL-TIME DATA RESEARCH
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/regional-economic-analysis">
+                                        Regional Economic Analysis
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/consumer-finance-data">
+                                        CONSUMER FINANCE DATA
+                                        </a>
+                                    </li>
+                                    <li   class=""  >
+                                        <a class=" data" id="nav-sub-topic-label-data" href="/surveys-and-data/community-development-data">
+                                        COMMUNITY DEVELOPMENT DATA
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+            <li class="nav-search">
+                <button type="button">Search</button>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+  FRBP.extend( 'components', {
+    id: '{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}',
+    name: 'global-nav',
+    element: document.querySelector( '[data-id="{B6C5EC66-A40F-477D-95AC-AFF13DF3DF75}"]' ),
+    options: {
+      searchPagePath: '/search-results', //url to search page (everything but the domain)
+      showSearchOverlay: true,
+      endpoint: '/api/suggest'
+    },
+    attributes: {"suggestedSearch":[{"title":"Manufacturing Business Outlook Survey","url":"/search-results?searchQuery=Manufacturing Business Outlook Survey"},{"title":"Housing Improvement","url":"/search-results?searchQuery=Housing Improvement"},{"title":"Workforce Development","url":"/search-results?searchQuery=Workforce Development"},{"title":"Economic Research","url":"/search-results?searchQuery=Economic Research"}]}
+  } );
+</script><nav class="breadcrumbs">
+    <ul>
+                <li>
+                        <a href=/>Federal Reserve Bank of Philadelphia</a>
+                </li>
+                <li>
+                        <a href=/the-economy>The Economy</a>
+                </li>
+                <li>
+The Economy, the Pandemic, and Machine Learning                </li>
+    </ul>
+</nav>
+
+
+
+        </header>
+
+        <main id="content" tabindex="-1" class="page page-article">
+
+            <header>
+                
+            </header>
+
+            
+<div class="article-intro article ">
+
+        <div class="intro-image">
+            <picture>
+                    <source srcset="/-/media/FRBP/Assets/Images/Pages/Institutional/About-Us/Newsroom/Harker_2-assets/Tablet-Harker-2-md.jpg" media="(max-width: 767px)">
+                                    <source srcset="/-/media/FRBP/Assets/Images/content/Speeches/Harker-2/SubsectionBanner-Harker-2.png" media="(max-width: 1235px)">
+                <img itemprop="image" src="/-/media/FRBP/Assets/Images/content/Speeches/Harker-2/SubsectionBanner-Harker-2.png" alt="Federal Reserve Bank of Philadelphia President Patrick Harker speaking to an audience" />
+            </picture>
+        </div>
+
+    <div class="intro-content the-economy">
+        <p class="icon-type-label icon-type-speech">Speech</p>
+
+        <h1 itemprop="name">The Economy, the Pandemic, and Machine Learning</h1>
+
+            <div class="intro-author">
+
+<div class="author-img">
+
+                        <img src=/-/media/FRBP/Assets/Images/People/Executive-Leadership/Harker_Patrick_22_05.jpg alt="Patrick T. Harker" />
+                    </div>
+
+                <div class="author-desc">
+                    <p class="author-by">by</p>
+                        <a href=/our-people/patrick-t-harker class="author-name" itemprop="author">Patrick T. Harker</a>
+                    <p class="author-title">Former President and Chief Executive Officer (2015–2025)</p>
+                </div>
+            </div>
+
+        <p class="article-date-published" itemprop="datePublished">29 Sep ’20</p>
+
+        <p class="intro-excerpt" itemprop="description">Official Monetary and Financial Institutions Forum | Philadelphia, PA (virtual)</p>
+
+        <div class="article-intro-footer">
+
+            <div>
+
+
+            </div>
+
+                <div class="download-share-intro">
+
+                    <p class="download-text">View PDF</p>
+                    <ul class="download-icons">
+                        <li class="share-circle-icon">
+                            <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2020/09-29-20-official-monetary-and-financial-institutions-forum.pdf" target="_blank">
+                                <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="download-share-icons article">
+
+    <div class="download-share">
+
+        <p class="share-text">Share</p>
+        <ul class="share-icons">
+
+                <li class="share-download-btn share-circle-icon">
+                    <a href="/-/media/FRBP/Assets/Institutional/speeches/harker/2020/09-29-20-official-monetary-and-financial-institutions-forum.pdf" target="_blank">
+                        <img src="/assets/images/svg/icon-utility/pdf-circle.svg" alt="PDF">
+                    </a>
+                </li>
+            <li class="share-circle-icon">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&amp;source=FRBP&amp;url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2F200929-the-economy-the-pandemic-and-machine-learning&amp;title=The+Economy%2c+the+Pandemic%2c+and+Machine+Learning " target="_blank">
+                    <img src="/assets/images/svg/icon-social/linkedin-circle.svg" alt="LinkedIn">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.philadelphiafed.org%2Fthe-economy%2F200929-the-economy-the-pandemic-and-machine-learning&amp;text=The+Economy%2c+the+Pandemic%2c+and+Machine+Learning" target="_blank">
+                    <img src="/assets/images/svg/icon-social/x-circle.svg" alt="X">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2f200929-the-economy-the-pandemic-and-machine-learning" target="_blank">
+                    <img src="/assets/images/svg/icon-social/facebook-circle.svg" alt="Facebook">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="https://www.threads.net/intent/post?url=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2f200929-the-economy-the-pandemic-and-machine-learning&amp;text=The+Economy%2c+the+Pandemic%2c+and+Machine+Learning" target="_blank">
+                    <img src="/assets/images/svg/icon-social/threads-circle.svg" alt="Threads">
+                </a>
+            </li>
+            <li class="share-circle-icon">
+                <a href="mailto:?subject=The+Economy%2c+the+Pandemic%2c+and+Machine+Learning&amp;body=https%3a%2f%2fwww.philadelphiafed.org%2fthe-economy%2f200929-the-economy-the-pandemic-and-machine-learning" target="_blank">
+                    <img src="/assets/images/svg/icon-utility/mail-circle.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="article-body the-economy">
+    <p>Good morning from the East Coast of  the United States. I know we&rsquo;re joined by an international audience today, so  good ... well, <em>whatever</em> time it happens to be wherever you are. On behalf  of the Federal Reserve Bank of Philadelphia, I&rsquo;m sincerely thrilled to welcome  you all to this virtual conference.</p>
+<p>
+The original plan was for me to greet  you in person in our Bank in Philadelphia &mdash; instead I&rsquo;m in the more cramped  confines of my home office here in New Jersey. We&rsquo;re still planning on having a  full-scale conference in Philadelphia with our partners from the OMFIF around  this time next year, which we&rsquo;re all looking forward to. So, stay tuned for  details on that.</p>
+<p>
+Now, even though we&rsquo;re meeting in  strange circumstances today, many of the same old rules apply. Here is one of  them: The views I express today are my own and do not necessarily reflect those  of anyone else on the Federal Open Market Committee (FOMC) or in the Federal  Reserve System. </p>
+<p>
+We&rsquo;ve  gathered today to hear a distinguished panel provide what I&rsquo;m sure will be a  fascinating discussion on developments in artificial intelligence and machine  learning. But before we get to that, I want to set the table by giving you a  brief overview of where the economy has been and where it might be heading,  recent actions by the Federal Reserve, and a few of my own considerations on machine  learning.</p>
+<p><strong>The State of the Virus</strong></p>
+<p>All of these topics, of course, have  been deeply affected by the same scourge that has kept us physically apart  today: COVID-19.</p>
+<p>
+So let&rsquo;s begin, then, with where we  are with the virus. As you well know, still less than a year after COVID-19  first emerged, the virus has infected more than 30 million people around the  world and killed nearly 1 million. </p>
+<p>
+The United States has been  particularly hard hit. Because of our country&rsquo;s unique inability to control the  virus, we&rsquo;ve suffered approximately 21 percent of the world&rsquo;s deaths, despite  housing only about 4 percent of the world&rsquo;s population. Infection rates have  come down from the highs we saw in the spring and summer, but the virus is  still circulating widely in large swaths of the country. </p>
+<p>
+And even within  this disproportionately hard-hit country, certain communities have suffered  more than others. Racial minorities, particularly African Americans and  Hispanics, have been sickened from the coronavirus at a far higher rate than  other groups. They have also died at a higher rate. And in the ensuing economic  contraction, they have lost their jobs at a higher rate.</p>
+<p><strong>The State of the Economy</strong></p>
+<p>
+A virus as contagious, deadly, and  frankly as mysterious as COVID-19 was bound to have a significant economic  impact. Even before state and local governments took action this spring, many  Americans had stopped dining out, getting on airplanes, and checking in to  hotels. State and local governments then compounded the economic misery when &mdash; and  I want to stress, in a responsible attempt to protect public health &mdash; they  shuttered many businesses deemed nonessential.</p>
+<p>
+The upshot? In the second quarter of  this year, the U.S. suffered its worst quarterly GDP drop in recorded history  when the economy contracted at an annualized rate of nearly 33 percent.  Twenty-two million jobs evaporated. Those with low-wage jobs, particularly  racial and ethnic minorities, were hardest hit.</p>
+<p>
+The good news is, following that  contraction, the economy has rebounded faster than many of us had projected. Stay-at-home  orders have been lifted, and though large segments of the economy remain  depressed, millions of Americans have returned to their jobs. Indeed, about  half of those 22 million residents who were suddenly out of work earlier this  year are now back, enough to nudge the unemployment rate down from 10.2 percent  to a still-catastrophic 8.4 percent. </p>
+<p>
+For now, I expect this recovery to  continue, though not fast enough that, by the end of this year, GDP will have  returned to where it was before the pandemic struck. That will take more time. And  segments like tourism and hospitality will remain subdued for a long time to  come, presenting an overall drag on GDP and employment growth. Employment,  unfortunately, probably won&rsquo;t be back to pre-pandemic levels until 2023.</p>
+<p>
+I want to caution that this forecast  is freighted with uncertainty because, once again, of COVID-19. The scenario of  continued growth that I have presented depends on a sustained decline in the  rate of new infections &mdash; probably a result of nearly universal mask-wearing,  especially indoors &mdash; that ensures only sporadic new outbreaks. We&rsquo;re also  assuming that a vaccine becomes widely available sometime mid to late next  year. But COVID-19, as the world has learned all too painfully, is difficult to  control. And so the path of the economy largely depends on the path of the  virus.</p>
+<p>
+It depends  in no small part, too, on the path that the federal government chooses to take.  When COVID-19 first struck, it brought forth a policy response that, in my  view, was commensurate to its gravity. Early on, Congress provided significant  fiscal support for the economy through the CARES Act. That blunted the pain of  the contraction. Unfortunately, that relief has now expired, and I would urge  lawmakers to consider providing additional support soon. </p>
+<p><strong>The Role of the Fed</strong></p>
+<p>For our part, the Federal Reserve&rsquo;s  role in responding to the crisis has been robust. But our main power is  lending. We cannot simply spend money or issue grants. That is Congress&rsquo;s role.</p>
+<p>
+The Fed&rsquo;s role in mitigating this  crisis has been to use those lending powers to maintain our underlying economic  infrastructure by making sure that every sector of the economy has access to  liquidity. Moreover, our lending facilities are meant as backstops to the  private sector. We don&rsquo;t want to disintermediate the private sector &mdash; we simply  want to be there to support market functioning.</p>
+<p>
+So, what have we done? </p>
+<p>
+First and foremost, we lowered our  policy interest rate to near zero fast and early. We kept this stance unchanged  at this month&rsquo;s FOMC meeting and indicated that we plan to keep those rates  very low for a very long time.</p>
+<p>
+In August, we also announced a  long-considered change to how we will balance inflation and employment going  forward. Following a nearly two-year review, the Fed announced we will no  longer head off higher inflation by preemptively raising interest rates. Moreover, after long periods of sub-2 percent  inflation &mdash; as we now find ourselves in &mdash; we will accept periods of above-2  percent inflation. Tolerating the risk of slightly higher inflation, in our  view, is worth it if it helps us achieve our employment goals.</p>
+<p>
+Using the discount window, we are also  actively encouraging banks to borrow money from the Fed at ultralow interest  rates, to make sure they have the funds they need to serve their customers at  this critical time.</p>
+<p>
+In order to keep markets functioning,  beginning in March, we started buying large amounts of Treasury bonds and  mortgage-backed securities. We have now purchased more than $2 trillion of  these products. The markets have largely stabilized, and we&rsquo;ve slowed the rate  of purchases. As a backstop, we have also purchased some corporate debt, and as  the economy and credit markets heal, we will disengage from that market as  prudently and as expeditiously as possible.</p>
+<p>
+Backed by credit protection from the  U.S. Treasury, we&rsquo;ve also launched the Main Street Lending Program, which  provides support for small and midsize businesses that were in good financial  standing before the COVID-19 pandemic. The program was recently expanded to  include nonprofit organizations, such as universities and nonprofit medical  institutions, which tend to be very important anchor institutions in their  communities. </p>
+<p>
+There has been somewhat limited  interest in Main Street &mdash; only about 400 banks have registered to participate  in this program. But in a way, that&rsquo;s actually a good sign for the economy  because it means that firms have access to capital without having to use the  Fed. Because if you recall, in all of this, we are simply a backstop. On the  other hand, if there is another major downturn in the economy, these facilities  will still be in place to offer funding.</p>
+<p>
+We&rsquo;re also bolstering the Small  Business Administration&rsquo;s Paycheck Protection Program (PPP) by supplying  liquidity to financial institutions that are issuing loans to those businesses  that are receiving aid through the program. </p>
+<p>
+PPP is now closed to new applications.  But when it was open, it drew a lot of interest. More than 5 million loans were  issued to the tune of more than $520 billion. Under our program, the Fed  provided liquidity to institutions issuing about 17 percent of those loans.  This is another positive sign for the economy and the financial sector, as it  shows the vast majority of banks have sufficient liquidity to extend credit. </p>
+<p>
+We&rsquo;ve also  rolled out a program to help cash-strapped local governments. The Municipal  Liquidity Facility, whereby we buy bonds from municipalities and states whose  tax revenues have collapsed, is designed to provide essential liquidity as they  navigate the twin crises of the pandemic and the economic downturn. The State  of Illinois has already tapped this, and we are also opening it to multistate  agencies like the Port Authority of New York and other transit authorities.  While so far only the State of Illinois has tapped this facility, the Fed by merely  announcing its existence did a lot of work in getting private markets  functioning again.&nbsp;</p>
+<p><strong>Machine Learning</strong></p>
+<p>
+COVID-19 has affected everything from  health care to tax receipts to tourism. And so, of course, it has also had an  impact on the subject of today&rsquo;s panel discussion: artificial intelligence and  machine learning. </p>
+<p>
+Algorithms are built on precedent, and  so it&rsquo;s little surprise that as COVID-19 caught governments unawares, it also significantly  affected the artificial intelligence that is increasingly used to power large  segments of our economy. The algorithms &mdash; like all of us &mdash; had simply never  experienced the set of circumstances that COVID-19 presented. And so many  algorithms have seen a deterioration in their performance during this period.</p>
+<p>
+Take  credit scores. One would assume that in a time when 22 million Americans had  lost their jobs and millions more Americans had their hours cut that credit  scores would have declined. But in fact, the opposite happened: Credit scores have, in the aggregate, <em>risen</em> during this period.</p>
+<p>
+One  reason for this is that even in this economic downturn, delinquencies are  actually down because the aforementioned CARES Act mandated loan forbearance.  That was absolutely the right thing to do but led the currently used  algorithms to the counterintuitive conclusion that default probabilities have  in fact decreased. </p>
+<p>
+Another  consideration going forward will be to ensure that algorithms do not serve to  perpetuate the kinds of discrimination that we have seen historically in our  financial sector. Will machine learning perpetuate long-standing inequities in,  for instance, the rate at which certain racial groups are turned down for loans?</p>
+<p>
+This  issue will require a conversation spanning academic fields &mdash; computer science, law, economics, and others.  And it will also require action from not just regulators but probably lawmakers,  too, given that many of the laws governing discrimination date back to 1961,  when computers couldn&rsquo;t even fit inside a single room. Conversations  like the one we are hosting today hold important implications for the future of  our economy &mdash; and making sure that we are building an equitable future for all  of us. </p>
+<p>
+And in the meantime, we can be rest  assured the development of artificial intelligence and machine learning will  continue &mdash; though I hope it stops before they figure out a way to replace Fed  presidents with robots.</p>
+<p>
+Thank you very much. </p>
+<ul id="Footnotes" class="Footnote" name="footnotes">
+    <li>The views expressed here are the speaker&rsquo;s own and do not necessarily reflect those of anyone else in the Federal Reserve System.</li>
+</ul>
+
+        <a class="outline-button cta" href="/-/media/FRBP/Assets/Institutional/speeches/harker/2020/09-29-20-official-monetary-and-financial-institutions-forum.pdf" target="_blank">View the Full Speech</a>
+</div>
+    <aside class="related-content">
+            <div class="group-cards-article">
+                <h2>Related Content</h2>
+                <div class="cards-article-wrapper">
+                            <div data-content-type="speech" class="card card-article the-economy">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/the-economy">The Economy</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-speech">
+                                            Speech
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=the-economy>
+                                            <h2>
+                                                <a href=/the-economy/200714-connecting-communities>
+                                                    The Impact of COVID-19 on Communities and Small Businesses
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/patrick-t-harker" itemprop="author">Patrick T. Harker</a></li>                                                        </ul>
+                                                        <p class="article-date">14 Jul ’20</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">Federal Reserve Connecting Communities | Virtual Event</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="report" class="card card-article community-development">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/community-development/workforce-and-economic-development">Workforce &amp; Economic Development</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-report">
+                                            Report
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=community-development>
+                                            <h2>
+                                                <a href=/community-development/workforce-and-economic-development/exploring-a-skills-based-approach-to-occupational-mobility>
+                                                    Exploring a Skills-Based Approach to Occupational Mobility
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><span itemprop="author">Kyle DeMaria</span>,&nbsp;</li><li class="author"><span itemprop="author">Kyle Fee</span>&nbsp;&amp;&nbsp;</li><li class="author"><span itemprop="author">Keith Wardrip</span></li>                                                        </ul>
+                                                        <p class="article-date">June 2020</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt"> Fed research shows that defining occupations by the skills required to do them could expand opportunities for economic mobility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-type="speech" class="card card-article community-development">
+                                <div class="card-content">
+                                    <div class="eyebrow">
+                                            <p class="topic-title">
+                                                <a href="/community-development/inclusive-growth">Inclusive Growth</a>
+                                            </p>
+                                        <p class="icon-type-label icon-type-speech">
+                                            Speech
+                                        </p>
+                                    </div>
+                                    <div class="card-body">
+                                        <header class=community-development>
+                                            <h2>
+                                                <a href=/community-development/inclusive-growth/200715-economic-outlook-and-building-an-inclusive-recovery>
+                                                    Economic Outlook and Building an Inclusive Recovery
+                                                </a>
+                                            </h2>
+                                                    <div class="article-authors-date">
+                                                        <p class="article-author-by">by</p>
+                                                        <ul class="authors">
+<li class="author"><a href="/our-people/patrick-t-harker" itemprop="author">Patrick T. Harker</a></li>                                                        </ul>
+                                                        <p class="article-date">15 Jul ’20</p>
+                                                    </div>
+                                        </header>
+                                        <p class="article-excerpt">The Center City Proprietors Association | Philadelphia, PA (virtual)</p>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </aside>
+
+
+            <section class="cards"></section>
+
+            
+
+        </main>
+        <footer>
+            
+<div class="footer" id="footer" tabindex="-1">
+    <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <address>
+            <div class="contact-address circle-icon">
+                <p><p>Ten Independence Mall</p>
+<p>Philadelphia, PA 19106</p></p>
+            </div>
+            <p class="contact-phone circle-icon"><a href="tel:(215) 574-6000">(215) 574-6000</a></p>
+        </address>
+
+        <nav class="contact-social">
+            <ul>
+
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="linkedin-frbp" rel="noopener noreferrer" href="https://www.linkedin.com/company/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/linkedin-circle.svg?iar=0&amp;hash=03D1CA336F233706A0AD87B567E3B640" alt="LinkedIn" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/x-circle.svg?iar=0&amp;hash=2FE751E6EEC664CF758311B734D37798" alt="Twitter" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/PhillyFed">
+                        <img src="/-/media/FRBP/Assets/Images/social/youtube-circle.svg?iar=0&amp;hash=AF25ECB8538FB9764B3777ACF1E339FA" alt="YouTube" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pg/philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/facebook-circle.svg?iar=0&amp;hash=93E67FCF22A31927339EF159BE9318E4" alt="Facebook" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" title="threads-frbp" rel="noopener noreferrer" href="https://www.threads.net/@philadelphiafed">
+                        <img src="/-/media/FRBP/Assets/Images/social/threads-circle.svg?iar=0&amp;hash=69A1107DD754B37AF5685A446257AA64" alt="Threads" />
+                        </a>
+
+                    </li>
+                    <li class="share-circle-icon">
+
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/philadelphiafed/">
+                        <img src="/-/media/FRBP/Assets/Images/social/instagram-circle.svg?iar=0&amp;hash=95774A86DAEFFDEC06946FDAABC3B050" alt="Instagram" />
+                        </a>
+
+                    </li>
+
+            </ul>
+        </nav>
+    </div>
+	<nav class="footer-pages">
+		<ul>
+				<li>
+
+					<a href="/about-us/privacy-notice">
+					Privacy Notice
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/newsroom">
+					Newsroom
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/about-us/subscriptions">
+					Subscribe
+					</a>
+
+				</li>
+				<li>
+
+					<a href="/contact-us">
+					Contact
+					</a>
+
+				</li>
+
+		</ul>
+		<p class="copyright">Copyright 2026. All rights reserved. Federal Reserve Bank of Philadelphia</p>
+	</nav>
+
+</div>
+
+        </footer>
+    </div>
+    
+    <script src="/pages/article/page.js"></script>
+
+    <!-- /#wrapper -->
+<script type="text/javascript"  src="/txdPBecLCm65sWchKGd2OUnkvMk/1GOukLhrVQkLLLYk7S/Rx80Ag/eC/MEbg0fEFkB"></script></body>
+</html>

@@ -1,0 +1,595 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>You Earn What You Learn - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070924" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070924" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2007" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2007/fs070924-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">You Earn What You Learn</h1>
+                                                    <div class="dal-tagline">Delivered to the North Dallas Chamber of Commerce Seventh Annual Real Estate Symposium </div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">September 24, 2007</span> Dallas, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+                          <p>I  am delighted you have invited me back to this symposium, particularly in light  of my rather pointy-headed presentation last year on the nitty-gritty of how  central bankers measure inflation. I want to avoid any possibility of injuries in  a stampede for the exits, so I promise not to inflict a lot of mind-numbing  economist jargon on you today. I am going to speak this morning on the  importance of having first-class institutions of higher learning in Dallas and in Texas. </p>
+                          <p>I  am guessing, however, that you, being in the real estate business, probably  know that last Tuesday the Federal Open Market Committee (FOMC) held a meeting  and decided to cut the federal funds rate by one-half of 1 percent, an event  that seems to have given rise to almost&mdash;but not quite&mdash;as much chatter as recent  developments affecting the sports memorabilia collection of O.J. Simpson. I  also suspect you are eager to hear about the current state of the housing and  money markets and the health of the economy. I will indulge your interest  briefly and then get on to a message about education that I would like you to  listen to very carefully.<br>
+  &nbsp;<br>
+  What  I say today, as always, represents my personal views and mine alone. I make no  pretense&mdash;and never do&mdash;of speaking for my colleagues on the FOMC or of  representing the views of any other senior Federal Reserve official.<br>
+  &nbsp;<br>
+  To  put last week&rsquo;s FOMC decision in a broader context, it is important to  understand that the Fed operates under a dual mandate. That dual mandate can be  summarized in one sentence: We are charged by Congress with conducting monetary  policy in a way that enables sustainable, noninflationary growth of the  American economy and its employment base. It goes without saying that we must   use our franchise to ensure a smoothly operating financial system. Money  is the blood of the body of capitalism. It must be pure and free of the virus  of inflation, and the cardiovascular system through which this lifeblood of the  economy flows must be in good working order. <br>
+  &nbsp;<br>
+                          As  we sat down to the FOMC table on Tuesday, we were faced with a situation that,  drawing on my Naval Academy days, I would liken to a ship navigating a narrow  passage between two shorelines. </p>
+                          <p>On  one shore, we have an otherwise healthy economy weakened to an unknown degree  by a correction to excessive speculation in its housing sector and related  financial instruments. On the price front, the economy has been experiencing  mitigation in inflationary tendencies, thanks, I believe, to prudent monetary  policy&mdash;albeit against a background of an energetic global economy that  continues to create upward price pressures on all sorts of commodities, on  transportation costs and even on what was once assumed to be an endless supply  of cheap imports from China.</p>
+                          <p>If  we had maintained the anti-inflationary course we had been following for more  than 14 months by holding the fed funds rate at 5.25 percent, I believe we  would have risked oversteering our course and potentially run afoul of the  shoals of unacceptably slow economic growth. Those of you who know me are aware  that I am a compulsive worrier about inflation&mdash;I do not know any central banker  in the world worth his or her salt who is not&mdash;because I see inflation as the <em>b&ecirc;te noire</em>, or bugbear, of any  successful economy. Recent trends in inflationary impulses and expectations,  however, appeared to me to provide some wiggle room to adjust our tiller and  steer a more growth-oriented course.</p>
+                          <p>Looking  to the other shoreline, we were confronting the rocky outcropping that  economists call moral hazard. From these rocks, one could hear the siren call  of market operators and institutions that had made imprudent decisions and now  hoped the Fed would rescue them with easy money. Overcorrecting our course with  too aggressive a shift in the fed funds tiller would have, I believe,  undermined the discipline that market forces impose upon wayward financial  institutions and investors. Moral hazard is a dangerous predicament for any  central bank. Yet we had an unsettled money market riddled with angst&mdash;a money  market that, in my view, was going into a defensive crouch in which even the  best and most careful depository institutions and market operators feared that  the positions taken by their less prudent brethren may come up a cropper and  seize up the entire financial system.<br>
+  &nbsp;<br>
+  Those  were the conditions on the financial seas when we met last Tuesday. As with any  navigator of turbulent seas, the FOMC relies on an impressive array of  instruments; we are blessed with a rich complement of superb economists and a  fulsome dashboard of databases. But in the end, no models or formulas  substitute for judgment in making monetary policy. The course of monetary  policy is a matter of discernment&mdash;akin to the decisions made by a ship captain  who knows that steering through a turbulent sea requires drawing on more than  just charts and computerized navigation equipment. Drawing upon its best  judgment, the committee chose to navigate the passage with a 50-basis-point  reduction in base rates, following its Aug. 17 action to reduce the spread  between the discount rate and the federal funds rate. </p>
+                          <p>With  any publicly visible decision made at an important juncture, second-guessers  pop up everywhere. Market operators and countless others, among them somber as  well as bombastic television commentators&mdash;armchair navigators, if you will&mdash;have  been eager to discuss the course we have chosen. This is the nature of a free  market for commentary. Personally, I welcome it, as it sharpens our wits. </p>
+                          <p>Central  banking is not and never should be a popularity contest. It is a serious duty  undertaken by earnest public servants for the greatest good of the nation.  Thus, FOMC members will continue taking in-depth soundings on the progress of  the economy and the financial markets as we evaluate the impact of the  50-basis-point course correction. Should further correction&mdash;either to port or  to starboard&mdash;be needed to stay on the course toward sustainable,  noninflationary growth over time, we will make it. <br>
+  &nbsp;<br>
+  Enough  about navigation and last Tuesday&rsquo;s FOMC meeting. I will happily take any  questions about policy during the question-and-answer period and, in classic  Federal Reserve style, do my best not to answer them. </p>
+                          <p>Today,  I want to talk about a subject that is of the utmost importance to Dallas&rsquo; future&mdash;higher education and why we need to focus on  developing the academic and intellectual excellence needed to make this the  great city we all want it to be.</p>
+                          <p>The  vital capital stock of our modern economy is not our buildings or our factories  or our farms. It is our brains. It is our ability to conjure new and better  ideas, inventions and solutions. It is our commitment to exceptional customer  service. It is our designs for better buildings, faster computers and more  successful space flights. It manifests itself in new financing products and  medical breakthroughs, in mathematical formulas and biochemical  experimentation, in physics and engineering and design.</p>
+                          <p>Education  and knowledge are the driving forces of a U.S. economy. Remember that agriculture represents less  than 2 percent of our national economy and manufacturing employs just 11  percent of our workforce. Only 5 percent of our fellow Americans work in the  mining and construction sectors.</p>
+                          <p>Eighty-two  percent of American workers are employed in services, a sprawling sector that  includes some of the nation&rsquo;s most prestigious and highest-paying jobs&mdash;jobs  very much like yours. In Texas,  for example, average hourly wages in 2005 were $77.23 for doctors of internal  medicine, $44.81 for geological engineers, $39.53 for computer software  engineers and $26.35 for registered nurses.[<a href="#1">1</a>]</p>
+                          <p>Jobs  like these can be done only by workers with highly specialized skills, nurtured  by our educational system and honed by years of experience. Physical strength  and manual dexterity, workers&rsquo; primary input for so much of what was produced  in the agricultural and manufacturing eras, have been replaced by creativity,  reasoning and emotional intelligence. We prosper by the work of our brow, not  the labor of our muscle. </p>
+                          <p>Let  me give you a stark example: At the end of 2005, the U.S. auto and auto parts manufacturing industry employed  about 1.1 million workers and added 0.8 percent of the value to our gross  domestic product. The legal services sector employed nearly the same number but  contributed 1.5 percent of the value added to GDP. In other words, lawyers produce twice as much as automobile workers.  Granted, that may not come as much consolation when you open your attorney&rsquo;s  bill, but those are the facts. There is no more vivid demonstration of how  services have replaced manufacturing as the engine of our economic prosperity.</p>
+                          <p>My  friend Stanley Fischer, governor of the Bank of Israel, once quipped that  &ldquo;there are three kinds of economists: those who can count and those who can&rsquo;t.&rdquo;  Yet even mathematically challenged economists are united on this: In the  service sector-driven Knowledge Age, education pays huge dividends. </p>
+                          <p>In  today&rsquo;s economy, you earn what you learn. Spending time and money learning&mdash;in  gathering knowledge and skills&mdash;remains one of the best investments you can  make. In 2006, an average 25-year-old high school graduate made $6,100 a year  more than someone the same age who dropped out. A high school graduate who went  on to college but didn&rsquo;t get a degree saw earnings rise by another $4,160.  Earning an associate&rsquo;s degree added another $3,100. A bachelor&rsquo;s degree was  worth an additional $15,260. A law, dentistry or other professional degree  added $32,300 to earnings. The total, the difference in earnings between a  25-year-old high school dropout and a 25-year-old degreed professional, was  almost $61,000 a year. </p>
+                          <p>Just  as impressive is the way experience in the workplace compounds the benefits of  higher education. The $61,000 earnings gap between high school dropouts and  professional degree holders jumps to more than $100,000 by the time these  25-year-olds reach age 60&mdash;a 66 percent widening. </p>
+                          <p>We  also see links between educational attainment and job stability, with the best  educated among us enjoying the lowest unemployment rates. </p>
+                          <h3>You  earn what you learn.</h3>
+                          <p>Of  course, intellectual capital, like its physical counterpart, can depreciate  over time. Skills can fade or be replaced by new technologies and as our  economy evolves. Think back just 30 years and you&rsquo;ll remember that our labor  pool included a profession called &ldquo;typists.&rdquo; My mother was one of them.  Thousands like her earned their livings at clattering keyboards, producing the  documents needed in business and government, but their once-rare skills have  become nearly universal among computer users worldwide. Or consider medicine.  Who among you would feel comfortable with a doctor who stopped learning after  medical school and treated you with the principles and procedures of decades  past? You expect doctors to be up on the latest research, newest procedures and  best medicines to treat you. In today&rsquo;s knowledge-driven world, none of us can  ever claim to know enough. We must embrace lifetime learning if we are to  prosper. </p>
+                          <p>In  a modern economy, we can no more deny the link between brainpower and income  than we can deny that the Federal Reserve is subject to scrutiny. We see the  link between education and earnings appear across countries, among individuals  and among states. Little old Massachusetts, for example, with a third-place  ranking in college graduates per capita, has lifted itself up to first in per  capita income. California&rsquo;s 11th-place ranking in education gets it 10th in per  capita income. And Texas? Texas  ranks 29th in college graduates and 29th in per capita income, well below the national  leaders. </p>
+                          <p>Our  neighbor, Arkansas, ranks 49th in both education and income. Mississippi is 50th in income, a few notches below West Virginia, which is 50th in education. Imagine that: We are  closer to Arkansas, Mississippi and West    Virginia in  educational attainment and income than we are to Massachusetts. I&rsquo;ve got nothing against the Razorbacks, Ole Miss or  the Mountaineers, but that is not where I want Texas to be.</p>
+                          <p>What  does this have to do with the Dallas metroplex? Well, let me paint a picture for you. The Dallas&ndash;Fort Worth  area is the country&rsquo;s eighth-most-populous metropolitan region and its  fifth-most economically productive. Texas ranks second in the nation in population, surpassed  only by California.</p>
+                          <p>Texas has six public university systems. The University of Texas System is the granddaddy of them all, with 190,000 students  in nine universities and six health institutions. Its flagship is UT Austin.  The Texas A&amp;M System has nine universities, with 103,000 students and a  multicampus health science center. The remaining students are spread over the  campuses of the Texas State University System, the University of North Texas System, the University of Houston System and the Texas Tech System. Stephen F. Austin, Midwestern State, Texas Southern and Texas Woman&rsquo;s are independent public  universities. All told, we have about 520,000 students attending the more than  40 public universities in our state.</p>
+                          <p>By  contrast, California has more than 600,000 students enrolled at just 33  public universities. The pinnacle of the state&rsquo;s educational system is the University of California, with 209,000 students spread over 10 universities. The system  includes some of the best universities in the world&mdash;UC Berkeley, UCLA, UC San  Diego, UC Irvine, UC Davis and UC Santa Barbara. </p>
+                          <p>How  do our institutions of higher learning stack up against California and the rest of the nation? According to the latest <em>U.S. News &amp; World Report</em> survey, UC  Berkeley, UCLA, UC San Diego and UC Davis all outranked UT Austin for overall  educational excellence. UC Irvine and UC Santa Barbara were tied with UT&mdash;at  44th. And the rest of our universities? Texas A&amp;M fell two spots to 62nd,  tied with Worcester Polytechnic in Massachusetts. Worcester  Polytechnic. Ever heard of it? Southern Methodist University ranked 67th, Baylor University 75th and Texas Christian University 108th. Rice University came in 17th, right up there with Emory University and Johns Hopkins and above Berkeley and Notre Dame.</p>
+                          <p>Imagine  that! The &ldquo;overtaxed, over-regulated, left-coast state&rdquo; of California has within one fleet six universities that are ranked  equal to or better than UT Austin, our top public university. </p>
+                          <p>Now  let&rsquo;s broaden our aperture a little by looking at membership in the Association  of American Universities, regarded by most scholars as the imprimatur of the  cream of the crop of research universities. The AAU is an exclusive group of  the top 60 research universities in the United States. Those 60 U.S. schools garner about 60 percent of all  federal R&amp;D dollars and are home to 82 percent of all elected members of  the National Academy of Sciences, the National Academy of Engineering and the  Institute of Medicine&mdash;the highest recognition in each of those fields. Since  1999, three-quarters of all Nobel Prizes were won by faculty members at those  AAU universities. No doubt, everyone in this room would like to have many of  our Texas universities included in this prestigious group.</p>
+                          <p>California has nine AAU members: UC Berkeley, UCLA, UC Davis, UC  San Diego, UC Santa Barbara, UC Irvine, Caltech, Stanford and USC. Four of  those are in the greater Los Angeles  area alone. New    York has seven:  Columbia, Cornell, New York University, Syracuse, Stony Brook University, the University of Rochester and the University of Buffalo. (You actually should add an eighth by including Rutgers, which is within arm&rsquo;s reach of New York City.)</p>
+                          <p>And  within the 262,000 square miles of Texas? We have three: Rice, UT Austin and Texas A&amp;M.</p>
+                          <p>Think  about that. The great state of Texas&mdash;the state you and I love to brag and boast  about, a state of 24 million people that has a glorious history second to  none&mdash;has the same number of AAU member universities as the city of Boston. And Dallas, my hometown, has none. Dallas, the eighth-largest metropolitan area in America, doesn&rsquo;t have a single top-ranked academic  institution. We do have UT Southwestern Medical Center, a top-tier medical  school, of course. But a medical school standing alone, no matter how good, is  not enough in a world that is built on advanced technology and in-depth  knowledge across many fields.</p>
+                          <p>When  a university is a reputed fountainhead, the best and brightest minds flock to  it and foundations, philanthropists and other agencies feel confident that  their donations will be put to good use. I read a study published 10 years ago  or so that found more than 4,000 companies had been started by alumni or  faculty of the Massachusetts Institute of Technology. Imagine how many more  successful companies have been founded by MIT alumni in the decade since that  study, a decade marked by the very sorts of high-tech innovations that many MIT  grads are so well trained to master. It is little wonder that MIT attracts the  highest-caliber students and teachers and substantial research funding. </p>
+                          <p>Incidentally,  Texas Instruments was one of those MIT companies, whose founders also founded  the predecessor to UT Dallas with the explicit aim of creating &ldquo;the MIT of the  Southwest.&rdquo; </p>
+                          <p>Cecil  Green and Eugene McDermott and the other founders of UTD understood that the  economic value generated by a university is tremendous. Universities earn some  money from licensing out their patents, but the lion&rsquo;s share of the economic  boom comes from the people they educate, the ideas they cultivate, the  companies they start and the research they do that spills out into the economy.  More often than not, it is the university&rsquo;s local community that most directly  benefits from these overflows. </p>
+                          <p>Malcolm  Gillis, a former member of the Dallas Fed board of directors and the immediate  past president of Rice in Houston,  shared with me an interesting fact about his university. A few years ago, he  noticed that about 15 percent of undergrads were from local Harris County high schools, while nearly 33 percent of alumni lived  in the county. In other words, bright and motivated people came to Houston because of the university and stayed for the job  opportunities available to them upon graduation. Many of the jobs are in  high-tech, knowledge-driven industries for which Rice and its alumni have laid  the foundation. </p>
+                          <p>Dallas does not have one university ranked in the top 60 by  either <em>U.S. News &amp; World Report</em> or the Association of American Universities. Our local university leaders&mdash;good  men like Gerald Turner at SMU, David Daniel at UT Dallas, Kern Wildenthal at UT  Southwestern, Victor Boschini at TCU and Jim Spaniolo at the University of Texas  at Arlington&mdash;are fighting with one hand tied behind their backs.  They need commitments and resources from the state and local community if they  are to give this metropolitan area what California has in San Francisco and Silicon   Valley, or in Los Angeles or San Diego or Santa Barbara, or what New York has in Manhattan, Rochester  or Buffalo, or what Massachusetts has in Cambridge, and yes, even Worcester.</p>
+                          <p>How  can we expect Dallas and North Texas to prosper in the Knowledge Age&mdash;the era in  which economic prosperity and wealth will be defined by cyberspace,  nanotechnology, robotics and biology and mathematics-driven financial  expertise&mdash;without at least one established fountainhead of advanced knowledge? </p>
+                          <p>When  you leave this symposium today, I want you to look around Dallas&rsquo; cityscape. You won&rsquo;t see factories with smokestacks  and loading docks and noisy machines. Instead, you will see glass-and-steel  buildings that warehouse the capital plant of the modern era: human brains.  Brains that do research and provide services in medicine, marketing, finance  and myriad other fields. </p>
+                          <p>Texas boomed with the discovery of vast petroleum deposits,  first in the eastern part of the state, then in the west. Oil wells eventually  run dry. An educated mind never does. </p>
+                          <p>To  be sure, we can fuel our local economy with graduates from California and Massachusetts and other states and countries&mdash;up to a point. But  that is no substitute for Texas- and Dallas-bred intellectual talent, with its  roots in the community and its commitment to building Big D.</p>
+                          <p>We  live in a globalized economy. Goods, services, money, ideas and people move  across borders. How do we compete with the masses of Chinese and Indians and  Eastern Europeans and Vietnamese and Mexicans and Latin Americans who will grow  by making stuff so much cheaper than we can? How do we stay ahead of them as  they continue up the value-added ladder into the service sector, into  technology, into programming and into software and the sciences?</p>
+                          <p>Here&rsquo;s  how: We move even faster up the value-added ladder. How do we do that? By using  our brains&mdash;what my father used to describe simply as &ldquo;the little one-quart jar  between your ears.&rdquo; </p>
+                          <p>Just  as farming and oil and gas and manufacturing once drove Texas&rsquo; economic development, an educated workforce with  high earning potential will propel the future of our city, our state, our great  nation and the world. The ultimate source of competitive advantage for Texas is not oil. It is not gas or the chemical industry.  It is not even the Dallas Cowboys, even if they are America&rsquo;s Team. Our ability to compete and thrive in the  future&mdash;our ability to navigate into a prosperous future&mdash;will be determined by  our elementary and secondary schools, our community colleges, our medical, law  and engineering schools and research centers, and by our public and private  universities. Education should be the highest priority of our community. It  should be the most important priority of anybody who cares about the future of Dallas.</p>
+                          <p>The  North Dallas Chamber of Commerce knows how to sell. The people in this audience  can sell better than anybody on the planet&mdash;you do it for a living. So do  yourselves a favor. Go out and sell the fact that we need a world-class  university, be it public or private, right here, right now. If you cannot use  your considerable talent to do so, then woe is the future of our beloved city.<br>
+                          </p>
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<ol>
+<li><a name="n1" id="n1"></a>Bureau of Labor Statistics estimates.</li>
+</ol>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

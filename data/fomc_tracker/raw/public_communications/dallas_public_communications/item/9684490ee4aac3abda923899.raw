@@ -1,0 +1,592 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>&lt;em&gt;Annus Horribilis&lt;/em&gt; or &lt;em&gt;Annus Mirabilis&lt;/em&gt;? - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs131017" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2013/fs131017" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2013" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2013/fs131017-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline"><em>Annus Horribilis</em> or <em>Annus Mirabilis</em>?</h1>
+                                                    <div class="dal-tagline">Remarks before the Economic Club of New York on Oct. 17, 2013.</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">October 17, 2013</span> New York City</p><div class="report-links">
+<ul>
+<li><a href="~/media/Documents/news/speeches/fisher/2013/fs131017.pdf">Speech in PDF</a></li>
+</ul>
+</div><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+<p>Thank you Bill [Dudley]. It is a  pleasure to be introduced by my colleague from the Federal Reserve Bank of New  York. Bill is a friend as well as a colleague. Though it is our custom at the  Federal Reserve to only speak for ourselves and never for any other member of  the Federal Open Market Committee (FOMC), I think I can safely say that all 11 of  Bill&rsquo;s fellow Federal Reserve Bank presidents and, indeed, all the governors at  the Federal Reserve Board, are grateful for Bill&rsquo;s skillful leadership and  total devotion to our collective mission. He is a hopeless golfer but a great  human being. I want to take this opportunity to formally thank him for his  service to the Fed and to our country.</p>
+<h3><strong>Robert Roosa and Wild Dreams</strong></h3>
+<p>It is a very special honor for me to  speak at the Economic Club of New York. My very first job after graduating from  Stanford Business School was at Brown Brothers Harriman and Co. as the policy  assistant to Robert Roosa. Bob Roosa was the proud chairman of the Economic  Club from 1970 to 1971. He used to regale me with its history, of how anybody  who was of consequence had spoken here, from Presidents Wilson and Eisenhower  and Kennedy to Winston Churchill and Indira Gandhi and Zhu Rongji (and many  others since).</p>
+<p>I mentioned this to my wife Nancy  before flying up here. Without much humility, I asked her, &ldquo;In your wildest  dreams did you ever think that your husband would follow in the footsteps of  the world&rsquo;s great leaders and speak to the Economic Club of New York?&rdquo; You know  what her answer was? &ldquo;Richard, we have been married for 40 years. You don&rsquo;t  appear in my wildest dreams.&rdquo;</p>
+<h3><strong>The Nightmare of Fiscal Policy</strong></h3>
+<p>I came to speak to you this morning  not of pleasant dreams but of the nightmare of fiscal indecision and political  chicanery that emanates from Washington, the risk it poses to the reputation of  our nation, and the limits it imposes on monetary policy. </p>
+<p>I did not come to speak of whether or  not we should or might &ldquo;taper&rdquo; our asset purchases at the next meeting of the  FOMC. Or of how Janet Yellen will lead the committee when she succeeds Ben  Bernanke. Or how I might vote when I rotate into a voter&rsquo;s slot on the FOMC  next year. I would be happy to <em>avoid</em> answering those and any other questions you might have during the Q&A  session. </p>
+<h3><strong>Errol Flynn and Felix Rohatyn</strong></h3>
+<p>The iconic actor Errol Flynn (who, to  the best of my knowledge, was not a member of the Economic Club) is reported to  have quipped that his legendary financial problems lay &ldquo;in reconciling my gross  habits with my net income.&rdquo; This is the most concise description I can marshal  to explain the problem plaguing our nation&rsquo;s fiscal authorities. And it has not  changed with the 11th-hour temporary agreement reached last night by the  leaders of Congress and the president. Kicking the can down the road for a few  months will not solve the pathology  of fiscal misfeasance that undermines our economy and threatens our future.</p>
+<p>I have no doubt that we will go on  indefinitely increasing the debt ceiling, be it in a regular or a herky-jerky,  just-in-the-nick-of-time pattern. For no president or congressional leader dares  risk being recorded in the history books as having consciously presided over  default and the destruction of &ldquo;the full faith and credit of the United States.&rdquo;  Republican or Democrat, all know full well that your fellow New Yorker, Felix  Rohatyn, was spot-on some 37 years ago during New York&rsquo;s great fiscal crisis  when he likened default to &ldquo;someone stepping into a tepid bath and slashing his  wrists&mdash;you might not feel yourself dying, but that&rsquo;s what would happen.&rdquo;<a href="#n1">[1]</a></p>
+<p>But there is, I believe, a limit of  tolerance for our government&rsquo;s fiscally counterproductive, Errol Flynn-like  ways. I believe that razor in hand, we are stepping toward Rohatyn&rsquo;s tepid bath  and that the full faith and credit of the United States government is, in fact,  at risk. </p>
+<h3><strong>Haircuts &hellip;</strong></h3>
+<p>We saw an expression of this last  Thursday when Hong Kong Exchanges and Clearing Ltd. announced it would apply an  increased &ldquo;haircut&rdquo; to its valuation of U.S. Treasury securities held as  collateral against futures trades, with Treasuries maturing in less than one  year receiving a risk discount of 3 percent. This was printed on Friday in a  highlighted box above the fold on the front page of the <em>Financial Times</em>. Opposite was a picture of Chinese Premier Li Keqiang,  who the paper reported had &ldquo;signaled Beijing&rsquo;s increasing concern at an Asian  summit&rdquo; and then provided a kindly no-wonder reminder that &ldquo;China has about 60  percent of its $3.5 trillion foreign currency reserves invested in U.S.  assets.&rdquo;<a href="#n2">[2]</a></p>
+<p>The <em>FT</em> could easily have substituted Premier Li&rsquo;s picture with one of  the German chancellor or the Japanese or British prime minister or the Mexican  president, or any other world leader or business operator or simple observer of  events, and ascribed to any of them a more explicit but surely pervasively held  concern: &ldquo;What the hell is happening to America?&rdquo; Has the American ship of  state, as Maureen Dowd wrote yesterday, turned into a &ldquo;ship of fools&rdquo;?<a href="#n3">[3]</a></p>
+<h3><strong>&hellip; and Tipping Points</strong></h3>
+<p>My heart bleeds for my country, for  no amount of monetary accommodation, no conceivable amount of &ldquo;large-scale asset  purchases,&rdquo; no clever new monetary innovation by the Federal Reserve can offset  the rot that is destroying our fiscal house and the blight it spreads over our  economy.</p>
+<p>To be clear, the Federal Reserve will  take all appropriate measures to preserve money market functioning and stability  in periods of acute distress. I view this as an integral part of our formal  dual mandate. Chaotic money markets threaten both price stability and business  activity and employment. However, it is not our job to fix the budget impasse.  Any initiatives we might have to undertake in the course of our duty as a  central bank to prevent serious disruptions of U.S. dollar funding markets  should not be executed in a way that they might be construed to substitute for  fiscal redress. Fundamental, structural imbalances in our economy might be  temporarily obscured but cannot be permanently resolved by monetary sleight of  hand.<strong><em><u></u></em></strong></p>
+<p>Indeed, I argue that the current  monetary accommodation policy of purchasing $85 billion a month in Treasuries  and MBS (mortgage-backed securities) risks exacerbating the situation: There is  a tipping point where monetary accommodation comes to be viewed not as a  pleasant stimulus that levitates bond and stock and housing markets leading to  a felicitous &ldquo;wealth effect,&rdquo; but instead as an agent of financial  recklessness. None of us really know where that tipping point is. But with each  dollar of Treasury and MBS purchases the FOMC instructs the New York desk to  make, we inch closer to it.</p>
+<p>For the remainder of Ben Bernanke&rsquo;s  leadership and from the very first moment of his successor&rsquo;s, the FOMC will  have to astutely maneuver so as to avoid crossing a line that no Nobel laureate  or econometric modeler or quant-jock or dealer or market operator can identify  ex-ante.</p>
+<p>I admit to a preoccupation with this  concern. This much I know: As long as inflationary expectations are held at  bay, we can fully open the monetary throttle in an effort to deliver on the  mandate Congress gave us to help achieve full employment. But it is for naught  as long as the fiscal authorities are slamming on the brakes and leaving  everyone in the dark as to how they will cure the fiscal mess they have  wrought. </p>
+<p>No rational businesswoman or man will  or should make a long-term commitment to expanding their workforce or commit  their precious capital to significant job-creating projects if they have no  idea what their taxes will be or how government spending will impact them or  their customers or suppliers. And no manager can plan or budget forward while  simultaneously working under the yoke of ever-expanding regulations that render  incalculable their cost structure, including the full-in cost of the most  important variable in that cost structure&mdash;the workforce&mdash;as long as the  Affordable Care Act remains more of a mystery than a clear, understandable  program. </p>
+<p>The creative capacity of American  business for dealing with uncertainty is unparalleled. But doubts caused by fiscal  malfunctioning so extreme that the &ldquo;risk-free rate&rdquo; of the world&rsquo;s largest  economy and reserve currency is called into question are of a different kind  and character than the everyday uncertainties that even the most gifted manager  is trained to handle. How does one discount the value of payables and  receivables for next year when the world wonders if the U.S. government will validate  the full value of Treasury bills?</p>
+<h3><strong>The Fed to the Rescue?</strong></h3>
+<p>It is true that unlike the Congress,  the FOMC actually makes decisions and does so in a civil manner&mdash;both lost  traits in Washington. But it is a myth that we have the power on our own to  propel our economy forward. We can provide the fuel, but we can&rsquo;t engage the  gears of the engine of employment. Only businesses can do that. And businesses  cannot do it when they haven&rsquo;t an inkling of how the fiscal mess that is  Washington will be resolved. The simple observation is that U.S. businesses and  households need confidence that fiscal policy will be conducted responsibly&mdash;that  revenues and expenditures will come into line, over time.<strong> </strong>Until that fog is lifted, do not expect the economy to steam  forward at anything but a most cautious pace.<strong></strong></p>
+<h3><strong><em>Annus Horribilis</em></strong><strong> or &hellip;</strong></h3>
+<p>In contemplating the fix we are in, I  thought of a phrase used by Queen Elizabeth in her 1992 speech, marking the 40th  anniversary of her accession to the throne. You may recall that was a year when  a series of tragedies, including the burning of Windsor Castle, beset her  family. With classic British understatement, she told her subjects: &ldquo;1992 is  not a year on which I shall look back with undiluted pleasure. &hellip; it has turned out  to be an &lsquo;Annus Horribilis&rsquo;&rdquo;&mdash;a &ldquo;horrible year.&rdquo;<a href="#n4">[4]</a></p>
+<p>We have suffered much on the  financial and economic front these past many years. And, in fact, since 1976 we  have on 17 occasions under six of the last seven U.S. presidents experienced a  federal government disruption, including shutdowns. Since 2010, we have had  eight budget conventions, to no avail. And we&rsquo;ve seen several face-offs on the  debt ceiling. But the cumulative effect of our government&rsquo;s fiscal ineptitude  and propensity to put off taking action on hard decisions, and the frustration  I feel about the inability of even the most radical monetary policy to work in  the absence of long-term fiscal probity, has tempted me to record 2013 as an <em>annus horribilis</em>. It is certainly not  shaping up to be a year on which I shall look back with undiluted pleasure.</p>
+<h3><strong>Sound but Disagreeable</strong></h3>
+<p>It need not be so horrible, however.  In fact, it may be a year of good fortune if our president and congressional leaders  summon the courage to put partisan gamesmanship aside and finally craft tax and  spending and regulatory policy that encourages businesses to take the cheap and  abundant money the Fed has made possible&mdash;the cheapest in the 237-year history  of the Republic!&mdash;and put it to use creating jobs and expanding the wealth of  the entire nation, not just that of rich and quick financiers and those with  the means to speculate and profit from volatility.</p>
+<p>Getting these incentives right is not  an easy task. But it is crucial. </p>
+<p>One of the most exalted of the  Economic Club&rsquo;s long history of speakers, Winston Churchill, said, &ldquo;In finance,  everything that is agreeable is unsound and everything that is sound is  disagreeable.&rdquo; Continuing down the path of hypermonetary accommodation is  certainly agreeable, especially if you are invested in stocks or bonds or have  been able to refinance your mortgage and participate in the new housing boom. But  carried on for too long, it is surely an unsound way to put our nation back on  the path to respectability or eliminate the markets&rsquo; placing haircuts on the  value of U.S. Treasuries. </p>
+<p>The only way for us to achieve sound  footing is for our fiscal leaders to make politically disagreeable decisions.  There is no other way for us to regain and maintain our standing as the most  prosperous and powerful economy in the history of the world.</p>
+<h3><strong><em>Annus Mirabilis?</em></strong></h3>
+<p>I mentioned Queen Elizabeth&rsquo;s <em>annus horribilis</em>. So as to not leave you  despondent, I wish to remind you that the queen&rsquo;s expression was a play on  words in a poem written in 1667 by John Dryden, titled <em>Annus Mirabilis</em>&mdash;or <em>Year of  Miracles</em>.</p>
+<p>Dryden was writing about the year  that spanned 1665 and 1666. It began with the Great Plague of London&mdash;a pandemic  akin to the bubonic plague&mdash;and ended with the Great Fire that burned London for  five days.</p>
+<p>So why the title <em>Year of Miracles</em>? Because from the wreckage, London rebuilt itself  and arose from the ashes, with wide streets and buildings commissioned by  Charles II and designed by Christopher Wren that were so solidly constructed  they last to this day. Our collective task is to turn the current <em>annus horribilis</em> into an opportunity to  emerge from the current fiscal wreckage stronger and more resilient than ever.  If England could do it in the 17th century, we Americans, who have never, ever  flinched from staring down and overcoming adversity, can certainly do it now. </p>
+<p>I am tempted to remind you of how  Texas arose from the ashes of the 1980s oil bust and savings-and-loan crisis to  lead the nation in job creation for several decades and become one of our most  prosperous states. But I am not going to do so. </p>
+<p>I was going to tell you how in the  Texas renaissance, as the U.S. has seen job destruction in the two middle-income  quartiles for the past decade, Texas has seen job creation in those same middle-income  groups and has outperformed the nation in creating jobs in the highest-income  quartile, too. But I won&rsquo;t. </p>
+<p>I am tempted to tell you that Texas  came off the bottom to become the top exporting state in the United States. But  I shan&rsquo;t. Or that state laws and regulations crafted with the 1980s banking  crisis in mind spared Texas the worst of the recent housing crisis. </p>
+<p>All these factors, of which I won&rsquo;t  breathe a word, have resulted in a workforce of some 12.8 million and, in 2006,  catapulted the state to its ranking as the top destination for people who move  across states. Americans and immigrants alike come to Texas to seek jobs and  opportunity in what continues to be the nation&rsquo;s most dynamic economy. I could  tell you about that, but I will refrain from Texas brag.</p>
+<h3><strong>New York, New York</strong></h3>
+<p>Instead, let me point to New York as  an example of what is possible.</p>
+<p>Some of you may remember the  predicament in which New York found itself in 1975, the year I came to work at  Brown Brothers. It was de facto bankrupt. Garbage piled up on the streets.  Crime was rampant. Upper East Side apartments could be had simply for the  assumption of maintenance costs. Nothing worked. Everything was dysfunctional. The  outlook was so horrific that Mick Jagger wrote &ldquo;Shattered&rdquo; after a cab ride  around the city. Remember the lyrics? &ldquo;What a mess, this town&rsquo;s in tatters/I&rsquo;ve  been shattered, my brain&rsquo;s been battered/Splattered all over Manhattan &hellip;&rdquo;</p>
+<p>Then, when the markets showed the city  the back of its hand, leaders such as Felix Rohatyn and Gov. [Hugh] Carey and  others stepped up to the plate. They and the people of New York turned  something truly <em>horribilis</em> into a  thing <em>mirabilis</em>. Disagreeable but  sound decisions were made. Those decisions took a tattered, shattered city and  put it on the path to becoming the bright, shiny, miraculous Big Apple that it  is today. </p>
+<h3><strong>A Plea</strong></h3>
+<p>The Federal Reserve is limited in its  power to make what took place in New York happen for our nation, and unless the  fiscal authorities get their act together, looking to the Fed to solve the  nation&rsquo;s economic ills through ever-expansive monetary policy might well make  the situation worse. So I end with a plea for our president and our Congress.  The markets are restless. Your peers around the world are afraid. There is  little remaining tolerance for agreeable but unsound decisions. The bond market  is beginning to show us the back of its hand. It is time for leadership.  Turning something horrible into something miraculous is the American thing to  do. Please get on with it.</p>
+<p>Thank you.</p>
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<p>The views expressed by the author do not necessarily reflect official   positions of the Federal Reserve System.</p>
+<ol>
+  <li><a id="n1"></a>    As quoted in  &ldquo;Infamous &lsquo;Drop Dead&rsquo; Was Never Said by Ford,&rdquo; by Sam Roberts, <em>New York Times</em>, Dec. 28, 2006.</li>
+  <li><a id="n2"></a> &ldquo;Asia Moves to  Protect Itself, Just in Case,&rdquo; by Jeremy Grant and Paul J. Davies, and &ldquo;White  House Edges Closer to Short-Term Debt Ceiling Deal,&rdquo; by Richard McGregor, James  Politi and Michael MacKenzie, <em>Financial  Times</em>, Oct. 11, 2013.</li>
+  <li><a id="n3"></a> See &ldquo;Pope  Trumps President,&rdquo; by Maureen Dowd, <em>New  York Times</em>, p. A25.</li>
+  <li><a id="n4"></a><a href="http://www.royal.gov.uk/ImagesandBroadcasts/Historic%20speeches%20and%20broadcasts/Annushorribilisspeech24November1992.aspx">Speech by Queen Elizabeth II</a>, marking  the 40th anniversary of her accession, London, Nov. 24, 1992.</p>
+  </li>
+</ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

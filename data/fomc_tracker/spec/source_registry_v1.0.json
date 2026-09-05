@@ -1,0 +1,122 @@
+{
+  "registry_id": "FED_PUBLIC_COMMUNICATIONS_SOURCE_UNIVERSE",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "coverage_start": "2012-01-01",
+  "coverage_end": "2026-09-05",
+  "sources": [
+    {
+      "source_id": "board_speeches_testimony",
+      "institution": "Board of Governors of the Federal Reserve System",
+      "domain": "federalreserve.gov",
+      "entry_urls": ["https://www.federalreserve.gov/newsevents/speeches-testimony.htm"],
+      "enumeration": "ANNUAL_INDEX_2012_2026",
+      "candidate_prefixes": ["https://www.federalreserve.gov/newsevents/speech/", "https://www.federalreserve.gov/newsevents/testimony/"]
+    },
+    {
+      "source_id": "boston_public_communications",
+      "institution": "Federal Reserve Bank of Boston",
+      "domain": "bostonfed.org",
+      "entry_urls": ["https://www.bostonfed.org/news-and-events/speeches.aspx", "https://www.bostonfed.org/feeds/rss_speeches.xml", "https://www.bostonfed.org/sitemap.xml"],
+      "enumeration": "INDEX_RSS_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.bostonfed.org/news-and-events/speeches/", "https://www.bostonfed.org/news-and-events/events/presidents-speeches/"]
+    },
+    {
+      "source_id": "new_york_public_communications",
+      "institution": "Federal Reserve Bank of New York",
+      "domain": "newyorkfed.org",
+      "entry_urls": ["https://www.newyorkfed.org/newsevents/speeches/index"],
+      "enumeration": "ALL_YEAR_STATIC_INDEX",
+      "candidate_prefixes": ["https://www.newyorkfed.org/newsevents/speeches/"]
+    },
+    {
+      "source_id": "philadelphia_public_communications",
+      "institution": "Federal Reserve Bank of Philadelphia",
+      "domain": "philadelphiafed.org",
+      "entry_urls": ["https://www.philadelphiafed.org/the-economy/speeches-anna-paulson", "https://www.philadelphiafed.org/the-economy/monetary-policy/speech-archive-president-plosser", "https://www.philadelphiafed.org/sitemap.xml"],
+      "enumeration": "PERSON_INDEXES_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.philadelphiafed.org/the-economy/", "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/"]
+    },
+    {
+      "source_id": "cleveland_public_communications",
+      "institution": "Federal Reserve Bank of Cleveland",
+      "domain": "clevelandfed.org",
+      "entry_urls": ["https://www.clevelandfed.org/collections/speeches", "https://www.clevelandfed.org/sitemap.xml"],
+      "enumeration": "COLLECTION_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.clevelandfed.org/collections/speeches/"]
+    },
+    {
+      "source_id": "richmond_public_communications",
+      "institution": "Federal Reserve Bank of Richmond",
+      "domain": "richmondfed.org",
+      "entry_urls": ["https://www.richmondfed.org/press_room/speeches/archive", "https://www.richmondfed.org/press_room/speeches/archive?cc_view=rss", "https://www.richmondfed.org/sitemap.xml"],
+      "enumeration": "PERSON_YEAR_ARCHIVES_RSS_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/", "https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/", "https://www.richmondfed.org/press_room/speeches/mark_l_mullinix/"]
+    },
+    {
+      "source_id": "atlanta_public_communications",
+      "institution": "Federal Reserve Bank of Atlanta",
+      "domain": "atlantafed.org",
+      "entry_urls": ["https://www.atlantafed.org/news-and-events/speeches", "https://www.atlantafed.org/news-and-events/media-interviews", "https://www.atlantafed.org/~/media/Project/Atlanta/FRBA/Documents/sitemap"],
+      "enumeration": "INDEXES_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.atlantafed.org/news-and-events/speeches/", "https://www.atlantafed.org/news-and-events/media-interviews/"]
+    },
+    {
+      "source_id": "chicago_public_communications",
+      "institution": "Federal Reserve Bank of Chicago",
+      "domain": "chicagofed.org",
+      "entry_urls": ["https://www.chicagofed.org/publications/speeches/speech-archive", "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking"],
+      "enumeration": "FORMER_AND_CURRENT_PRESIDENT_INDEXES",
+      "candidate_prefixes": ["https://www.chicagofed.org/publications/speeches/", "https://www.chicagofed.org/events/"]
+    },
+    {
+      "source_id": "st_louis_public_communications",
+      "institution": "Federal Reserve Bank of St. Louis",
+      "domain": "stlouisfed.org",
+      "entry_urls": ["https://www.stlouisfed.org/from-the-president/remarks", "https://www.stlouisfed.org/sitemap.xml"],
+      "enumeration": "CURRENT_INDEX_AND_SITEMAP_WITH_FRASER_FOR_FORMER_PRESIDENT",
+      "candidate_prefixes": ["https://www.stlouisfed.org/from-the-president/remarks/"]
+    },
+    {
+      "source_id": "minneapolis_public_communications",
+      "institution": "Federal Reserve Bank of Minneapolis",
+      "domain": "minneapolisfed.org",
+      "entry_urls": ["https://www.minneapolisfed.org/publications-archive/all-speeches", "https://www.minneapolisfed.org/speeches/rss", "https://www.minneapolisfed.org/sitemap.xml"],
+      "enumeration": "ARCHIVE_API_RSS_AND_SITEMAP",
+      "candidate_prefixes": ["https://www.minneapolisfed.org/speeches/"]
+    },
+    {
+      "source_id": "kansas_city_public_communications",
+      "institution": "Federal Reserve Bank of Kansas City",
+      "domain": "kansascityfed.org",
+      "entry_urls": ["https://www.kansascityfed.org/speeches/", "https://www.kansascityfed.org/sitemap.xml"],
+      "enumeration": "INDEX_AND_SITEMAP_AUTHOR_FILTERED",
+      "candidate_prefixes": ["https://www.kansascityfed.org/speeches/"]
+    },
+    {
+      "source_id": "dallas_public_communications",
+      "institution": "Federal Reserve Bank of Dallas",
+      "domain": "dallasfed.org",
+      "entry_urls": ["https://www.dallasfed.org/news/speeches", "https://www.dallasfed.org/news/speeches/logan", "https://www.dallasfed.org/news/speeches/kaplan", "https://www.dallasfed.org/news/speeches/fisher"],
+      "enumeration": "CURRENT_AND_FORMER_PRESIDENT_INDEXES",
+      "candidate_prefixes": ["https://www.dallasfed.org/news/speeches/logan/", "https://www.dallasfed.org/news/speeches/kaplan/", "https://www.dallasfed.org/news/speeches/fisher/"]
+    },
+    {
+      "source_id": "san_francisco_public_communications",
+      "institution": "Federal Reserve Bank of San Francisco",
+      "domain": "frbsf.org",
+      "entry_urls": ["https://www.frbsf.org/news-and-media/speeches/", "https://www.frbsf.org/sitemap_index.xml"],
+      "enumeration": "PERSON_INDEXES_AND_SITEMAP_INDEX",
+      "candidate_prefixes": ["https://www.frbsf.org/news-and-media/speeches/mary-c-daly/", "https://www.frbsf.org/news-and-media/speeches/williams-speeches/"]
+    },
+    {
+      "source_id": "fraser_fomc_participant_archive",
+      "institution": "Federal Reserve Archival System for Economic Research",
+      "domain": "fraser.stlouisfed.org",
+      "entry_urls": ["https://fraser.stlouisfed.org/series/statements-speeches-federal-open-market-committee-participants-3761?listRecords=true", "https://fraser.stlouisfed.org/files/sitemaps/sitemap.xml", "https://fraser.stlouisfed.org/oai/"],
+      "enumeration": "PARTICIPANT_COLLECTION_TITLE_PAGES_AND_OAI_GETRECORD",
+      "candidate_prefixes": ["https://fraser.stlouisfed.org/title/"],
+      "role": "MANDATORY_OFFICIAL_ARCHIVE"
+    }
+  ]
+}

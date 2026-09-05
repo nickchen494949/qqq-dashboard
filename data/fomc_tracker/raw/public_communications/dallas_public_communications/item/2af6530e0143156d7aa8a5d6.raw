@@ -1,0 +1,594 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A Report on the Texas Economy and a Hawk(s)eye View on Recent Fed Pronouncements: What Does It All Mean?  - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2012/fs120202" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2012/fs120202" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2012" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2012/fs120202-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">A Report on the Texas Economy and a Hawk(s)eye View on Recent Fed Pronouncements: What Does It All Mean? </h1>
+                                                                    <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">February 2, 2012</span> Austin, Texas</p><div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+<p>Thank you, Patti [Ohlendorf]. I am  flattered that such a great group of Austinites has turned out tonight. I am  especially pleased that Alejandro and Rosa Laura Junco are here. </p>
+</p>
+<p >Alejandro is CEO of the print media  company Grupo Reforma. He has earned a sterling reputation for journalistic  independence in a part of the world where independence is a rare and sometimes  dangerous thing. Columbia University, the University of Missouri and Michigan  State University have honored him for his journalistic accomplishments, and the  University of Texas at Austin has named him a Distinguished Alumnus. </p>
+      <p >Alejandro&rsquo;s company and its flagship  paper in Mexico City take their name from La Reforma, a period of liberalizing  reforms that transformed Mexico into a nation state in the mid-19th century,  beginning with the overthrow of the man Texans know best and like least&mdash;Santa  Anna&mdash;and ending with the ascension to power of a good general gone bad,  Porfirio Diaz. As a child growing up in Mexico City, I was taught about La  Reforma in school. To this day, I can probably tell you as much about Benito  Juarez, journalist-turned-jurist-turned-president Jose Maria Iglesias and other  Reformistas as I can about Houston or Lamar or Washington or Lincoln.[<a href="#n1">1</a>]  Alejandro and Rosa Laura, seeing you tonight has revived school-day memories of  some 53 years ago! It is a delight and honor to be with you.</p>
+      <p >I will do two things tonight. First, I  will give you an update on the performance of the Texas economy and what lies  ahead. Second, I will give you my personal view of what the Federal Reserve&rsquo;s  Open Market Committee&mdash;the FOMC&mdash;announced after our meeting last week. Then,  time permitting, I will be happy to avoid answering any questions you might  have.</p>
+                          <h4 >An  Update on the Texas Economy</h4>
+                          <p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2012/120202c1.ashx" ><img src="/~/media/Images/news/speeches/fisher/2012/120202c1.ashx"  alt="" /></a></p>
+                          
+                          <p >The economic performance of Texas since  December 2007&mdash;the beginning of the U.S. recession, according to the National  Bureau of Economic Research&mdash;can be summarized with the chart being projected on  the screen denoting employment growth in the 12 Federal Reserve districts. The  Federal Reserve Bank of Dallas and its branches in Houston, San Antonio and El  Paso administer the business of the Eleventh District (depicted by the red  line), which includes Texas, northern Louisiana and southern New Mexico; 96  percent of the economic production of my district comes from the 25.7 million  people of Texas. In 2011, Texas created 211,600 jobs. We now have more people  at work than we had before we felt the effects of the Great Recession in the  United States. We have now surpassed our previous peak employment levels.</p>
+                         
+      <p >Only two other states can claim they  surpassed previous peak employment levels: Alaska and North Dakota. I do not  wish to denigrate the good people of Alaska and North Dakota, but note that their  combined population roughly equals that of Travis County.</p>
+      <p >Readers of this speech abroad&mdash;say, in  New York&mdash;might think our growth last year came only from the burgeoning oil and  gas patch. They would be right to describe it as burgeoning: 30,000 jobs were  added in the oil and gas and related support sector last year, an increase of 15  percent. But other sectors outperformed oil and gas in the number of jobs  created in Texas in 2011: 58,000 jobs were added in the professional and  business services areas, nearly 46,000 in education and health services and  over 41,000 in leisure and hospitality. All told, the private sector in Texas  expanded by 266,400 jobs, while the public sector, driven primarily by fewer  schoolteachers, contracted by 54,800 jobs. In sum, Texas payrolls grew 2  percent, significantly above the national rate of 1.3 percent.</p>
+      
+      
+      <p class="chart-full"><a href="/~/media/Images/news/speeches/fisher/2012/120202c2.ashx" ><img src="/~/media/Images/news/speeches/fisher/2012/120202c2.ashx"  alt="" /></a></p>
+      
+       <p >This performance is not unique to last  year. As you can see from this second graph of employment growth by Federal  Reserve district going back to January 1990, the Eleventh District has outperformed  the nation on the job front for over two decades. Note the slope of the top  line, which depicts job growth in the Eleventh District compared with all the  rest and, importantly, relative to the black line&mdash;the seventh one down&mdash;the  employment growth rate for the country as a whole.</p>
+                          
+      <p >Here is the point: Judging solely by the  employment data, Texas went into recession seven months after the nation, in September  2008, and came out three months earlier, in December 2009.[<a href="#n2">2</a>] We have  now recovered fully from the Great Recession and are back on pace in leading  the nation in job growth. Yes, we have a very large number of people earning  minimum wage, a still-too-high unemployment rate of 7.8 percent and many other  deficiencies, all of which were pointed out in high relief when a certain Texas  governor was briefly in the hunt for his party&rsquo;s nomination for the presidency.  But I&rsquo;ll bet you, those who love to point these things out and are given generally  to Texas-bashing would give their right&mdash;or should I say, left&mdash;arms to have the  record of job growth of the Eleventh Federal Reserve District that is  documented by these charts. So good citizens of Austin and of Texas, you have  much to be proud of.</p>
+      <p >As to projections, there is no reason to  not expect continued job growth at the same pace in Texas. The budgetary  constraints originally assumed for the state government have proven less severe  than originally thought: Due to stronger-than-anticipated tax receipts, cutbacks  in employment for schools and other state and local institutions may end up  being less drastic. And if the Dallas Fed&rsquo;s Texas Business Outlook Surveys for  January, released this past Monday and Tuesday, are reviewed, job expansion  looks promising and expectations regarding future business conditions are at  the highest level in almost 12 months. Our most recent employment indexes in  those surveys signaled an increase in both employment levels and in hours  worked.[<a href="#n3">3</a>] Thus, barring some unforeseeable shock, I would expect  Texas to continue leading the nation in job creation. </p>
+      <h4 >An  Inconvenient Truth</h4>
+      <p >Incidentally, our record of job growth  and the fact that people and companies have been voting with their feet and  relocating to Texas from other states illustrate what for some is an  inconvenient truth. The citizens of Texas and the Eleventh Federal Reserve  District operate under the same monetary policy as do the rest of our fellow  Americans. We have the same mortgage rates, pay the same rate of interest on  commercial and consumer loans, and earn returns and borrow at the same interest  rates as do our brethren in the rest of the country. Which raises an important  question: If monetary policy is the same here as everywhere else in the United  States, why does Texas outperform the rest?</p>
+      <p >The answer is no doubt complicated by  the fact that we are blessed with a comparatively great amount of nature&rsquo;s  gifts, a high concentration of military installations and other &ldquo;unfair&rdquo;  advantages. But one cannot avoid the conclusion that one of those &ldquo;unfair&rdquo;  advantages is that we have a Legislature, based here in Austin, that under both  Democrat and Republican governors has over time crafted laws and regulations  that encourage business expansion and job creation. They have conducted the  fiscal affairs of the state so as to maintain confidence in the future. One might  draw two lessons here: first, that Germany&rsquo;s finance minister, Wolfgang  Sch&auml;uble, is right when he says, &ldquo;If you want more private demand, you have to  take people&rsquo;s angst away&rdquo; by having responsible and disciplined fiscal policy;[<a href="#n4">4</a>]  and second, that fiscal policy either complements monetary policy or retards  its effectiveness as a propellant for job creation.</p>
+      <p >Herein lies the tale of the recent long-term  policy and strategy statement issued by the FOMC at the conclusion of its  meetings last week.</p>
+      <h4 >The  Recent Pronouncements of the FOMC</h4>
+      <p >Many of you may have read that the FOMC  did three things after its two-day meeting Tuesday and Wednesday a week ago.</p>
+      <p >First, the committee issued the usual  policy statement, stating that it &ldquo;currently anticipates that economic conditions  &hellip; are likely to warrant exceptionally low levels for the federal funds rate at  least through late 2014.&rdquo;[<a href="#n5">5</a>]</p>
+      <p >There are presently 17 participants in  FOMC meetings: the 12 Federal Reserve Bank presidents and the five current governors.  Ten out of the 17 people get to vote in any given year, with the governors and  the Federal Reserve Bank of New York always having a vote. I voted last year,  and you may recall that together with Mr. [Charles] Plosser of the Federal  Reserve Bank of Philadelphia and Mr. [Narayana] Kocherlakota of the Minneapolis  Fed, I resisted the notion of a need for a statement indicating that monetary  accommodation be tied to a specific date, be it in mid-2013, late 2014 or any  other. Instead, I feel that the key should be to calibrate monetary policy  according to the state or condition of the economy.</p>
+      <p >While most all of my colleagues value  the state-contingent argument, at last week&rsquo;s meeting the majority of this  year&rsquo;s voters felt that a combination of factors&mdash;including an expectation that  &ldquo;economic growth over coming quarters [will] be modest and &hellip; the unemployment  rate will decline only gradually&rdquo;; that the housing sector &ldquo;remains depressed&rdquo;;  and that a &ldquo;slowing in global growth&rdquo; and other factors, combined with an  anticipation &ldquo;that over coming quarters, inflation will run at levels at or  below those consistent with the Committee&rsquo;s dual mandate&rdquo;&mdash; warranted a need for  the committee to indicate it would likely maintain a significantly  accommodative monetary stance for another three years.</p>
+      <p >Second, the statement was accompanied by  a first-ever release of the individual economic and interest-rate forecasts of  all the policy meeting&rsquo;s 17 participants. Mind you, these are not binding  commitments. They are based on the assumption of &ldquo;appropriate monetary policy&rdquo;  and are, despite the best of intentions, largely guesswork, especially looking  out over a multiyear period.</p>
+      <p >My predecessor at the helm of the Dallas  Fed, Bob McTeer, used to say, &ldquo;The first rule of forecasting should be &lsquo;don&rsquo;t  do it.&rsquo;&rdquo; The second rule, he would add is, &ldquo;If you give a number, don&rsquo;t give a  date.&rdquo; But given the assignment to venture a vision as to where the fed funds  rate would be in each of the next three years and over &ldquo;the longer run&rdquo; to the  nearest one-quarter of one percent, the 17 intrepid souls of the FOMC,  including yours truly, did so. Only three envisioned that the fed funds rate  might rise from current levels by year-end 2012; six saw it doing so by  year-end 2013 and 11 by year-end 2014. Over the longer term, the 17 members envisioned  a funds rate of between 3&frac34; and 4&frac12; percent.</p>
+      <p >Bob McTeer&rsquo;s admonishment clearly does  not resonate with the FOMC. And yet I would caution, again, that at best, the  economic forecasts and interest-rate projections of the FOMC are ultimately  pure guesses. I have yet to find a single economist on this planet who consistently  forecasts the economy accurately, let alone projects with any precision the  interest rate on overnight funds one year out or far into the future. If you  examine the record of the Blue Chip economists or even of our superb Federal  Reserve staff, you will find confirmation of a paucity of reliable economic forecasts. </p>
+      <p >I note that even publicly traded  companies that wrestle with the relatively easy task of providing forward  guidance on revenue and earnings find that exercise especially vexing; most  won&rsquo;t venture beyond forecasting the upcoming quarter&mdash;and that is after they  already have a month&rsquo;s worth of the quarter&rsquo;s data in hand! In this morning's <em>Financial Times,</em> Charles Goodhart, professor  emeritus at the London School of Economics and former member of the Bank of  England&rsquo;s Monetary Policy Committee, claims to have examined the record of  three central banks that have most prominently engaged in the practice of providing  multiyear rate forecasts. He concludes: &ldquo;The record for central banks in New  Zealand, Sweden and Norway is not encouraging. In the short run, over the next  three months and to a lesser extent over the subsequent quarter, these central  banks do have additional (inside) information about their own future actions.  Beyond this, however, the extra informational content of those central bank  forecasts is zero. Moreover, the market knows that central bankers have no  superhuman forecasting ability and will tend to view the supposed longer-term  forecasts as a version of jawboning, attempts to persuade the market to change  its mind for immediate policy purposes. Again, there is little empirical  evidence that the market responds to such jawboning, and why should it when the  central bank is as ignorant of the longer-term future as they are?&rdquo;[<a href="#n6">6</a>]</p>
+      <p >I don&rsquo;t in any way consider my learned  colleagues on the FOMC to be ignorant. But I draw upon my own experience in the  corporate world and upon the insights offered by Goodhart to suggest that you  simply take all this forward guidance and forecasting a year or more out with a  big grain of salt, bearing in mind that the policy statements and forecasts  issued by the FOMC are tactical judgments of the moment, made within a broader  strategic context.</p>
+      <h4 >The  Most Important Announcement</h4>
+      <p >Which leads me to what I consider the third  and most important announcement we made last week: the statement of our longer-range  goals and strategy. For the first time, the entire 17-member committee stated  that, given inflation over the longer term is primarily determined by monetary  policy, we are able to specify that an inflation rate of 2 percent, as measured  by the index for personal consumption expenditures, is most consistent with our  mandate. At the same time, we stated that we cannot specify an exact goal for  employment because &ldquo;the maximum level of employment is largely determined by  nonmonetary factors that affect the structure and dynamics of the labor market&rdquo;  and that &ldquo;change over time and may not be directly measurable.&rdquo;[<a href="#n7">7</a>]</p>
+      <p >In the aviary of monetary policy makers,  I am considered a &ldquo;hawk.&rdquo; I respect the fact that the Congress of the United  States has given the Federal Reserve a dual mandate of conducting monetary  policy so as to have full employment and simultaneously maintain stable prices.  I believe monetary policy is the principal determinant of long-term price  stability. But I have long maintained that monetary policy is but one gear in  the complicated gearbox that drives job creation. Education and other  structural aspects of our economy condition the nation&rsquo;s job-creating capacity;  fiscal and regulatory policy, in turn, condition both the structure and  dynamics of employment. I was delighted that the full committee recognized this  and made it part of its official credo.</p>
+      <p >In a world driven by rapid technological  change and globalization, job-creating capital will flow not only to countries that  conduct sound monetary policy but to places with the most welcoming,  competitive tax and regulatory systems. This was underscored in a recent  Harvard Business School (HBS) survey authored by Jan Rivkin and Michael Porter,  two widely admired scholars on national competitiveness and economic  development. Their survey of HBS alumni found that the greatest impediments to  investing in and creating jobs in the U.S. are our current tax code and  regulatory burden and uncertainty, as well as lagging workforce skills. Absent  changes on these fronts, the Rivkin/Porter study found that more than 70  percent of respondents expect U.S. competitiveness to decline over the next  three years, and along with it, job-creating investment.[<a href="#n8">8</a>]</p>
+      <p >Thus for me, explicitly acknowledging that  monetary policy&rsquo;s impact on employment is transitory and uncertain is a  cardinal event. It signals to the markets that there are limits to the ultimate  job-stoking efficacy of Federal Reserve policy. To the extent that inflation is  running below 2 percent, the Federal Reserve may have somewhat greater latitude  to pursue accommodation. However, the past few years have demonstrated, yet  again, that allowing inflation to rise by no means guarantees faster job  growth. The message to our nation&rsquo;s fiscal authorities is that they cannot  expect monetary policy to substitute for the need to get their act together,  stop their shameful politicking, get on with putting their fiscal and  regulatory house in order and do so in a manner that encourages rather than  continually undermines job creation and economic expansion. </p>
+      <h4 >Fiscal  Matters Matter</h4>
+      <p >I noted how Texas has managed under the  same monetary policy regime to more quickly return to peak employment than  other states. I attributed this in significant part to prudent fiscal and  regulatory policy, underscoring that this not only facilitates job and overall  economic expansion in Texas, but is the underpinning of confidence. I would  suggest that now is the time for prudent fiscal policy to be enacted by a  Congress that on both sides of the aisle has for far too long, under both  Republican and Democratic presidents, been shamefully negligent of its  responsibility. Today marks the 1,009th day without an agreed-upon federal  government budget. The Congress has found it easier to not agree on a budget than  to go about correcting fiscal imbalances that drive the nation&rsquo;s growing  indebtedness. Our political leaders&rsquo; misfeasance exacerbates the &ldquo;angst&rdquo; that  inhibits the confidence of consumers and job-creating businesses.</p>
+      <p >My staff has found a wonderful sketch on  YouTube that might best illustrate the behavior of Congress. Here it is: <a href="http://www.youtube.com/watch?v=Li0no7O9zmE">http://www.youtube.com/watch?v=Li0no7O9zmE</a>.</p>
+      <p >That sketch says it all. The Fed, the  nation&rsquo;s monetary authority, has clearly articulated its longer-run goal and  policy strategy and has conducted itself with integrity by responding to the  needs of the economy. In contrast, the fiscal authorities have conducted themselves  with impunity: Their only long-term strategy is to pass the bill to our  children and grandchildren.</p>
+      <h4 >Reforma  Is Needed</h4>
+      <p >I would suggest that Reforma is urgently  needed in the conduct of fiscal affairs in our nation&rsquo;s capital.</p>
+      <p >And I will leave you with this thought: The  power to make that happen is in your hands. You and your fellow citizens across  this great country are the ones who elect the people who tax you and decide  where to spend your money; you ultimately direct the nation&rsquo;s fiscal future.</p>
+      <p >And you share in the blame for it being  such a mess.</p>
+      <p >Accepting the status quo means you are  acquiescing to encumbering your children and your children&rsquo;s children with  mismanaged fiscal policy, crippling debt and a dismal economic future.</p>
+      <p >Look to Alejandro Junco as an example.  He has taken great risk with his person and his family&rsquo;s treasure to take on  the status quo. Like Alejandro did for journalism in Mexico, I hope you will  step up to the plate, risk whatever personal benefits and comforts you derive  from the current regime and use your talents and resources to force a course  correction in the fiscal affairs of our nation. For only then can we be assured  of a bright and prosperous economic future. And only then can monetary policy, properly  conducted, perform with maximum efficiency and minimal risk to price stability  to restore the great job-creation potential of America.</p>
+      <p >Thank you.</p>
+<div class="separator"></div>
+<h5>Notes</h5>
+
+                          	<p>The views expressed by the author do not necessarily reflect official positions of the Federal Reserve System.</p>
+                          	<ol >
+                          	  <li><a name="n1"></a>For non-Texans,  Sam Houston was the first and third president of the Republic of Texas (1836&ndash;38  and 1841&ndash;44); Mirabeau B. Lamar was the second president of the Republic of  Texas (1838&ndash;41).</li>
+                          	  <li> <a name="n2"></a>According to  the National Bureau of Economic Research, the nation went into recession in  December 2007 and came out in June 2009. According to the Dallas Fed&rsquo;s Texas  Index of Coincident Indicators, Texas went into the recession in August 2008  and came out in December 2009.</li>
+                          	  
+                          	  <li><a name="n3"></a> &ldquo;Q&A: German Finance Minister Takes On  Critics,&rdquo; by Marcus Walker, William Boston and Andreas Kissler, <em>Wall Street Journal</em>, Jan. 29, 2012. </li>
+                          	  <li><a name="n4"></a>See the FOMC&rsquo;s statement, Jan. 25, 2012, <a href="http://www.federalreserve.gov/newsevents/press/monetary/20120125a.htm">www.federalreserve.gov/newsevents/press/monetary/20120125a.htm</a>.</li>
+                          	  <li><a name="n5"></a> &ldquo;Longer-term  Central Bank Forecasts Are Step Backwards,&rdquo; by Charles Goodhart, <em>Financial Times</em>, Feb. 2, 2012.</li>
+                          	  <li><a name="n6"></a>See the FOMC&rsquo;s statement, Jan. 25, 2012, <a href="http://www.federalreserve.gov/newsevents/press/monetary/20120125c.htm">www.federalreserve.gov/newsevents/press/monetary/20120125c.htm</a>.</li>
+                          	  <li><a name="n7"></a> &ldquo;Prosperity at  Risk: Findings of Harvard Business School&rsquo;s Survey on U.S. Competitiveness,&rdquo; by  Michael E. Porter and Jan W. Rivkin, Harvard University, January 2012. </li>
+                      	  </ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

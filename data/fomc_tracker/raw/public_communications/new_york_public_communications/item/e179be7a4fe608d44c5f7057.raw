@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="/medialibrary/media/v4/css/basic.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/reset.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/960_12_col.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/components/styles/components.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/common.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/Accordion.js"></script>
+<script data-main="/medialibrary/media/v4/components/components_main" src="/medialibrary/media/v4/components/lib/require.js"></script>
+
+<!--[if IE 6]>
+  <script type="application/javascript">window.DMCIEversion=6;</script>
+<![endif]-->
+
+<!--[if IE 7]>
+  <script type="application/javascript">window.DMCIEversion=7;</script>
+<![endif]-->
+
+<!--[if IE 8]>
+  <script type="application/javascript">window.DMCIEversion=8;</script>
+<![endif]-->
+
+<!--[if gte IE 9]>
+  <script type="application/javascript">window.DMCIEversion=9;</script>
+<![endif]-->
+
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+
+<link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_print.c7687de8937417888ede.css" rel="stylesheet" media="print"><link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_app.7cb2998cba1ad4d6ea7b.css" rel="stylesheet" media="screen"><script type="text/javascript" src="/medialibrary/media/v5/dxt-ui/js/dxt_app.7cb2998cba1ad4d6ea7b.js"></script><script>
+    nyfedapi.preStart();
+    if(document.readyState === "complete") {
+        nyfedapi.start();
+        
+    } else {
+        document.addEventListener("DOMContentLoaded", function () {
+            nyfedapi.start();
+        }, false);
+    }
+</script>
+<link type="text/css" href="/medialibrary/media/responsive/custom.css" rel="stylesheet">
+
+
+
+
+
+
+    <title>Gradual and Predictable: Reducing the Size of the Federal Reserve’s Balance Sheet - FEDERAL RESERVE BANK of NEW YORK</title>
+            <meta name="keywords" content="" />
+            <meta name="description" content="" />
+        
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S5R6-KN95T-HP8YC-HYFLF-GA6UP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"6S5R6-KN95T-HP8YC-HYFLF-GA6UP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="eaaq6qajnqe7mjqacqi2aaaaavvjxdic-f-8e6686ca7-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"385303","ak.ai":parseInt("322044",10),"ak.ol":"0","ak.cr":5,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"39b07515","ak.r":47401,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":61280,"ak.gh":"23.211.252.228","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1788579074","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==tOHdgKXm8QlBKaocknXQKCgiNA47WfRtv9DUVOL7/gj6bJPXBl6ioPrcnhCJej+G9mxqB7EIZqj5kON3X9lAC0BBfFq0Kq1wLanIdDShlPB6mPzTctsi8ZuqK5Ohx5P4wqF7KktFGtS93nYIM5KJabWOjW6BZFhmLavPeGKC9xgQ2BAJEgXVwlwq0xrPOfbFDQBvlOxE603X7UbWRTmfS5kXvyVzkI4p95+w//jxE5OT0mjAllBBbTQIPlnKmjaD8K4I/F3v34cx+Jxk+EJEM0as8TfgDmfDXO8H5dVYuPv56UDRN0DmIKa1wImR37P/glmZYzTc2Yw7XZXI30k2BPDDUJ9QT5phecM+ciYDf5zr1o6pYyYj1xcTXLBaOIoOz0DovYLqYqhnXLNSaPM7q0M1r52z+ZOKweBH4H5HRUE=","ak.pv":"167","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    <a name="top"></a>
+    <div class="container_12">
+        <header>
+            
+
+   <div id="universal">
+   <div id="universal_nav">
+      <a title="Home" aria-label="Home" href="/" id="nav-item-1"><span class="icon-home" title="Home"></span></a>
+      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a> 
+      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a> 
+      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a> 
+      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a> 
+      <a aria-label="Blogs" href="/blogs" aria-label="Blogs" title="Blogs" class="nav-type-external" id="nav-item-19">Blogs</a> 
+      <a href="/press" aria-label="News & Events" title="News & Events" id="nav-item-21">News &amp; Events</a>
+    </div>
+    <div id="searchBar">
+      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">    
+        <span class="icon-search"></span><input name="text" type="text" class="search" id="searchbox" title="Search Box" size="35" maxlength="200" />
+        <input aria-label="Application" type="hidden" name="application" value="ny_pub" />
+        <input aria-label="Sources" type="hidden" name="sources" value="ny_pub" />
+        <input aria-label="Search Button" type="submit" id="searchbutton" title="Search Button" value="" />
+      </form>
+    </div>
+  </div>
+  <div id="logo" class="new-york-fed-logo">
+		<a  aria-label="Federal Reserve Bank of New York" href="/" title="Federal Reserve Bank of New York"><img src="/medialibrary/media/v4/images/new-york-fed-logo.svg" style="width:782px" alt="New York Fed Logo" /></a>
+  </div> 
+
+
+<!-- START : MOBILE HEADER -->
+<div id="dxt-mobile-header">
+
+    <div class="dxt-logo-wrapper">
+        <div>
+            <div class="dxt-logo-wrapper-a">
+                <a href="/" class="dxt-logo"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dxt-menu-search">
+
+
+
+        <div class="dxt-burger">
+            <div>
+                <a href="#">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Menu
+                </a>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="dxt-search-bar-wrapper">
+            <span></span>
+            <div class="dxt-search-bar"></div>
+        </div>
+
+    </div>
+
+    <ul id="dxt-navigation" class="dxt-level-1-list dxt-level-1 nav nav-level-0 nav-type-none" id="nav-list-31">
+
+ <!-- START : LEVEL 1 -->
+        <li id="nav-item-32" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="About the New York Fed"  href="/aboutthefed" title="About the New York Fed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </div>
+            </div>
+            <ul class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-32">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="About the New York Fed" title="About the New York Fed" href="/aboutthefed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a href="/aboutthefed/whatwedo" title="What We Do" aria-label="What We Do">What We Do</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-34" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/aboutthefed/who-we-are" title="Who We Are" aria-label="Who We Are">Who We Are</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-34">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-123" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Bank Leadership" aria-label="Bank Leadership" href="/aboutthefed/bank-leadership">Bank Leadership</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li><!-- END : LEVEL 3 -->
+                <!-- END : LEVEL 2 -->
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="Communities We Serve" href="/aboutthefed/communities-we-serve" title="Communities We Serve">Communities We Serve</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-356" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a title="Governance" aria-label="Governance" href="/aboutthefed/governance">Governance</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Board of Directors" aria-label="Board of Directors" href="/aboutthefed/org_nydirectors">Board of Directors</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/aboutthefed/disclosures" title="Disclosures" aria-label="Disclosures">Disclosures</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a style="vertical-align:top" title="Ethics and Conflicts of Interest" aria-label="Ethics and Conflicts of Interest" href="/aboutthefed/ethics-conflicts-of-interest">Ethics and Conflicts of Interest</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Annual Financial Statements" href="/aboutthefed/annualreports" title="Annual Financial Statements">Annual Financial Statements</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Org Chart" href="/aboutthefed/org_chart" title="Org Chart">Org Chart</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-357" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span> 
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="News &amp; Events" aria-label="News &amp; Events" href="/press">News &amp; Events</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Advisory Groups" href="/aboutthefed/external_committees" title="Advisory Groups">Advisory Groups</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Vendor Information" href="/aboutthefed/vendor_information" title="Vendor Information">Vendor Information</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Holiday Schedule" aria-label="Holiday Schedule" href="/aboutthefed/holiday_schedule">Holiday Schedule</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                At the New  York Fed, our mission is to make the U.S. economy stronger and the financial system more stable for all segments of society. We do this by executing monetary policy, providing financial services, supervising banks and conducting research and providing expertise on issues that impact the nation and communities we serve.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a style="margin: 0 10px 0 10px;" aria-label="The Teller Window" href="https://tellerwindow.newyorkfed.org" title="The Teller Window" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="The Teller Window" src="/medialibrary/media/images/v4/about_the_fed/the-teller-window-mm-b-280x176.png" width="144" height="88">
+                                <p>The Teller Window is a publication featuring expert knowledge and insight from the New York Fed, including thoughts and perspectives from senior leaders.</p>
+                            </a>
+                            <a aria-label="Freedom of Information request" href="/aboutthefed/freedom-of-information-requests" title="Freedom of Information request" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Information Requests" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf-mm-information-requests.jpg">
+                                <p>
+                                    Do you have a request for information and records? Learn how to submit it.
+                                </p>
+                            </a>
+
+                            <a aria-label="History of the New York Fed" href="/aboutthefed/history" title="History of the New York Fed" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Gold Vault" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf_mm_goldvault.jpg">
+                                <p>
+                                    Learn about the history of the New York Fed and central banking in the United States through articles, speeches, photos and video.
+                                </p>
+                            </a>
+
+                           
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->  <!-- START : LEVEL 1 -->
+        <li id="nav-item-40" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="Markets &amp; Policy Implementation" title="Markets &amp; Policy Implementation"  href="/markets" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation top level']);">Markets &amp; Policy Implementation</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-40">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/markets" aria-label="Markets & Policy Implementation" title="Markets & Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation']);">Markets & Policy Implementation</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/data-hub" aria-label="Markets Data Dashboard" title="Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets Data Dashboard']);">DATA</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/reference-rates" aria-label="Reference Rates" title="Reference Rates" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reference Rates']);">Reference Rates</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/effr" aria-label="Effective Federal Funds Rate" title="Effective Federal Funds Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Effective Federal Funds Rate']);">Effective Federal Funds Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/obfr" aria-label="Overnight Bank Funding Rate" title="Overnight Bank Funding Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Overnight Bank Funding Rate']);">Overnight Bank Funding Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/sofr" aria-label="Secured Overnight Financing Rate" title="Secured Overnight Financing Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Secured Overnight Financing Rate']);">Secured Overnight Financing Rate</a></li>
+								<li class="dxt-level-4-item nav nav-level-4 nav-type-menu no-bullet-indent"><a href="/markets/reference-rates/sofr-averages-and-index" aria-label="SOFR Averages & Index" title="SOFR Averages & Index" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'SOFR Averages & Index']);">SOFR Averages & Index</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/bgcr" aria-label="Broad General Collateral Rate" title="Broad General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Broad General Collateral Rate']);">Broad General Collateral Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/tgcr" aria-label="Tri-Party General Collateral Rate" title="Tri-Party General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Tri-Party General Collateral Rate']);">Tri-Party General Collateral Rate</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Desk Operations</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/treasury-securities" aria-label="Treasury Securities Operations" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Securities Operations']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/ambs" aria-label="Agency Mortgage-Backed Securities Operations" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Agency Mortgage-Backed Securities Operations']);">Agency Mortgage-Backed Securities</a>
+</li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/repo" aria-label="Repo Operations" title="Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Repo Operations']);">Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/reverse-repo" aria-label="Reverse Repo Operations" title="Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Operations']);">Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/securities-lending" aria-label="Securities Lending Operations" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Securities Lending Operations']);">Securities Lending</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/central-bank-liquidity-swap-operations" aria-label="Central Bank Liquidity Swap Operations" title="Central Bank Liquidity Swaps" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Liquidity Swap Operations']);">Central Bank Liquidity Swaps</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/soma-holdings" aria-label="System Open Market Account Holdings of Domestic Securities" title="System Open Market Account Holdings" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'System Open Market Account Holdings of Domestic Securities']);">System Open Market Account Holdings</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties/primary-dealers-statistics" aria-label="Primary Dealer Statistics" title="Primary Dealer Statistics" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealer Statistics']);">Primary Dealer Statistics</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/omo_transaction_data" aria-label="Historical Transaction Data" title="Historical Transaction Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Historical Transaction Data']);">Historical Transaction Data</a></li>
+                    </ul>
+                </li>
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/domestic-market-operations" aria-label="Domestic Market Operations" title="Domestic Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Domestic Market Operations']);">DOMESTIC MARKET OPERATIONS</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation" aria-label="Monetary Policy Implementation" title="Monetary Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Monetary Policy Implementation']);">Monetary Policy Implementation</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities" aria-label="About Treasury Securities" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Treasury Securities']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-mortgage-backed-securities" aria-label="About Agency Mortgage-Backed Securities" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Mortgage-Backed Securities']);">Agency Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-commercial-mortgage-backed-securities" aria-label="About Agency Commercial Mortgage-Backed Securities" title="Agency Commercial Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Commercial Mortgage-Backed Securities']);">Agency Commercial Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-debt-securities" aria-label="About Agency Debt Securities" title="Agency Debt Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Debt Securities']);">Agency Debt Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/repo-reverse-repo-agreements" aria-label="About Repo and Reverse Repo Agreements" title="Repos & Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Repo and Reverse Repo Agreements']);">Repos & Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/securities-lending" aria-label="About Securities Lending" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Securities Lending']);">Securities Lending</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/banking/discountwindow" aria-label="Discount Window" title="Discount Window" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Discount Window']);">Discount Window</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/treasury-debt-auctions-and-buybacks-as-fiscal-agent" aria-label="Treasury Debt Auctions and Buybacks as Fiscal Agent" title="Treasury Debt Auctions & Buybacks" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Debt Auctions and Buybacks as Fiscal Agent']);">Treasury Debt Auctions & Buybacks<br>as Fiscal Agent</a>
+</li>
+                <br><br>   
+                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations" aria-label="International Market Operations" title="International Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'International Market Operations']);">INTERNATIONAL MARKET OPERATIONS</a></li>
+                    <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-exchange-operations" aria-label="Foreign Exchange Operations" title="Foreign Exchange" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Operations']);">Foreign Exchange</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-reserves-management" aria-label="Foreign Reserves Management" title="Foreign Reserves Management" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management']);">Foreign Reserves Management</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/central-bank-swap-arrangements" aria-label="Central Bank Swap Arrangements" title="Central Bank Swap Arrangements" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Swap Arrangements']);">Central Bank Swap Arrangements</a></li>
+                 </ul></li>
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">ACROSS MARKETS</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/op_policies" aria-label="Desk Statements & Operating Policies" title="Statements & Operating Policies" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Desk Statements & Operating Policies']);">Statements & Operating Policies</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/market-intelligence" aria-label="Market Intelligence" title="Market Intelligence" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Market Intelligence']);">Market Intelligence</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/market-intelligence/survey-of-market-expectations" aria-label="Survey of Market Expectations" title="Survey of Market Expectations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Survey of Market Expectations']);">Survey of Market Expectations</a></li>
+                            </ul>
+                        </li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/annual_reports" aria-label="Annual Report on Open Market Operations" title="Annual Reports" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Annual Report on Open Market Operations']);">Annual Reports</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties" aria-label="Counterparties" title="Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Counterparties']);">Counterparties</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/primarydealers" aria-label="Primary Dealers" title="Primary Dealers" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealers']);">Primary Dealers</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/standing-repo-counterparties" aria-label="Standing Repo Counterparties" title="Standing Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Standing Repo Counterparties']);">Standing Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/rrp_counterparties" aria-label="Reverse Repo Counterparties" title="Reverse Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Counterparties']);">Reverse Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-exchange-counterparties" aria-label="Foreign Exchange Counterparties" title="Foreign Exchange Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Counterparties']);">Foreign Exchange Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-reserves-management" aria-label="Foreign Reserves Management Counterparties" title="Foreign Reserves Management Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management Counterparties']);">Foreign Reserves Management Counterparties</a></li>
+                             </ul></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/operational-readiness" aria-label="Operational Readiness" title="Operational Readiness" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Operational Readiness']);">Operational Readiness</a></li>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/central-bank-and-international-account-services" aria-label="Central Bank & International Account Services" title="Central Bank & International Account Services" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank & International Account Services']);">Central Bank & International Account Services</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/programs-archive" aria-label="Programs Archive" title="Programs Archive" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Programs Archive']);">Programs Archive</a></li>
+                    </ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+ul#dxt-navigation ul#nav-list-40 > li:nth-child(4) {
+	position: relative;
+	right: 0px !important;
+	top: 10px !important;
+	margin-top: 4px !important;
+}
+.upperlower {text-transform: capitalize !important;}
+ul#dxt-navigation ul#nav-list-40 li.nav-level-4 {
+	margin: 8px 5px 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:20px; right:63px; }
+}
+@supports (-moz-appearance:none) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150px; }
+}
+</style>  <!-- START : LEVEL 1 -->
+        <li id="nav-item-84" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu mm-item">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research top level']);">Economic Research</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-84">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research']);">Economic Research</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+				
+				
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">U.S. Economy</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Consumer Expectations &amp; Behavior</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Survey of Consumer Expectations" aria-label="Survey of Consumer Expectations" href="/microeconomics/sce#/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Survey of Consumer Expectations']);">Survey of Consumer Expectations</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Household Debt &amp; Credit Report" aria-label="Household Debt &amp; Credit Report" href="/microeconomics/hhdc" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Household Debt & Credit Report']);">Household Debt &amp; Credit Report</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>								
+                      </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Growth &amp; Inflation</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Economic Heterogeneity Indicators" aria-label="Economic Heterogeneity Indicators" href="/research/economic-heterogeneity-indicators" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Heterogeneity Indicators']);">Economic Heterogeneity Indicators (EHIs)</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Multivariate Core Trend Inflation" aria-label="Multivariate Core Trend Inflation" href="/research/policy/mct#--:mct-inflation:trend-inflation" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Multivariate Core Trend Inflation']);">Multivariate Core Trend Inflation</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed DSGE Model" aria-label="New York Fed DSGE Model" href="/research/policy/dsge#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed DSGE Model']);">New York Fed DSGE Model</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed Staff Nowcast" aria-label="New York Fed Staff Nowcast" href="/research/policy/nowcast#/nowcast" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed Staff Nowcast']);">New York Fed Staff Nowcast</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="R-star: Natural Rate of Interest" aria-label="R-star: Natural Rate of Interest" href="/research/policy/rstar " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'R-star: Natural Rate of Interest']);">R-star: Natural Rate of Interest</a></li>
+                             
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Labor Market</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                    <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market for Recent College Graduates" aria-label="Labor Market for Recent College Graduates" href="/research/college-labor-market#--:explore:unemployment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market for Recent College Graduates']);">Labor Market for Recent College Graduates</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market Tightness Index" aria-label="Labor Market Tightness Index" href="/research/labor-market-tightness/#interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market Tightness Index']);">Labor Market Tightness Index</a></li>
+                            
+
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Financial Stability</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Corporate Bond Market Distress Index" aria-label="Corporate Bond Market Distress Index" href="/research/policy/cmdi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Corporate Bond Market Distress Index']);">Corporate Bond Market Distress Index</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Losses from Natural Disasters" aria-label="Losses from Natural Disasters" href="/research/policy/natural-disaster-losses " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Losses from Natural Disasters']);">Losses from Natural Disasters</a></li>
+
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Outlook-at-Risk" aria-label="Outlook-at-Risk" href="/research/policy/outlook-at-risk#root:growth-at-risk" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outlook-at-Risk']);">Outlook-at-Risk</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Treasury Term Premia" aria-label="Treasury Term Premia" href="/research/data_indicators/term-premia-tabs#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Treasury Term Premia']);">Treasury Term Premia</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Yield Curve as a Leading Indicator" aria-label="Yield Curve as a Leading Indicator" href="/research/capital_markets/ycfaq#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Yield Curve as a Leading Indicator']);">Yield Curve as a Leading Indicator</a></li>
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Banking</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Banking Research Data Sets" aria-label="Banking Research Data Sets" href="/research/banking_research/datasets" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Banking Research Data Sets']);">Banking Research Data Sets</a></li>
+                               
+                                   <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Reserve Demand Elasticity" aria-label="Reserve Demand Elasticity" href="/research/reserve-demand-elasticity" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Reserve Demand Elasticity']);">Reserve Demand Elasticity</a></li>
+                            </ul>
+						 
+                    </ul>
+                </li>
+				
+				
+				
+				
+				
+				
+				
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a title="Regional Economy" aria-label="Regional Economy" href="/regional-economy" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Economy']);">REGIONAL ECONOMY</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Empire State Manufacturing Survey" aria-label="Empire State Manufacturing Survey" href="/survey/empire/empiresurvey_overview" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Empire State Manufacturing Survey']);">Empire State Manufacturing Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Business Leaders Survey" aria-label="Business Leaders Survey" href="/survey/business_leaders/bls_overview " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Business Leaders Survey']);">Business Leaders Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Business Surveys: Special Topics" aria-label="Regional Business Surveys: Special Topics" href="/survey/business_leaders/Supplemental_Survey_Report" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Business Surveys: Special Topics']);">Regional Business Surveys: Special Topics</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Employment Trends" aria-label="Regional Employment Trends" href="/research/regional_economy/regional-employment#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Employment Trends']);">Regional Employment Trends</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Early Benchmarked Employment Data" aria-label="Early Benchmarked Employment Data" href="/research/regional_economy/early-benchmarked-employment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Early Benchmarked Employment Data']);">Early Benchmarked Employment Data</a></li>
+                           
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">INTERNATIONAL ECONOMY</span></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Global Supply Chain Pressure Index" aria-label="Global Supply Chain Pressure Index" href="/research/policy/gscpi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Global Supply Chain Pressure Index']);">Global Supply Chain Pressure Index</a></li>
+                                
+                             
+						
+                 </ul></li>
+				
+				
+				
+				
+				
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">RESEARCHERS</span>
+					<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    		<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Economists" aria-label="Staff Economists" href="/research/economists" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Economists']);">Staff Economists</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Visiting Scholars" aria-label="Visiting Scholars" href="/research/economists/visitors" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Visiting Scholars']);">Visiting Scholars</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Resident Scholars" aria-label="Resident Scholars" href="/research/resident_scholar" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Resident Scholars']);">Resident Scholars</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu top-20px"><a title="Publications" aria-label="Publications" href="/research/publication_annuals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Publications']);">PUBLICATIONS</a></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Liberty Street Economics" aria-label="Liberty Street Economics" href="https://libertystreeteconomics.newyorkfed.org/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Liberty Street Economics']);">Liberty Street Economics</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Reports" aria-label="Staff Reports" href="/research/staff_reports" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Reports']);">Staff Reports</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Policy Review" aria-label="Economic Policy Review" href="/research/epr" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Policy Review']);">Economic Policy Review</a></li>
+<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Outside Journals" aria-label="Outside Journals" href="/research/outside_journals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outside Journals']);">Outside Journals</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">RESEARCH CENTERS</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Applied Macroeconomics & Econometrics Center (AMEC)" aria-label="Applied Macroeconomics & Econometrics Center (AMEC)" href="/research/amec" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Applied Macroeconomics & Econometrics Center (AMEC)']);">Applied Macroeconomics<br>&amp; Econometrics Center (AMEC)</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Center for Microeconomic Data (CMD)" aria-label="Center for Microeconomic Data (CMD)" href="/microeconomics" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Center for Microeconomic Data (CMD)']);">Center for Microeconomic Data (CMD)</a></li>
+                    		</ul>
+				<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">CALENDAR</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Indicators Calendar" aria-label="Economic Indicators Calendar" href="/research/calendars/nationalecon_cal" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Indicators Calendar']);">Economic Indicators Calendar</a></li>
+                    		</ul>
+					</ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+.dxt-menu-content .dxt-menu-images .dxt-menu-content-item {
+	height: 230px;
+}
+</style>
+  <!-- START : LEVEL 1 -->
+        <li id="nav-item-90" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </div>
+            </div>
+            <ul id="nav-list-90" class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/supervisionregulate" title="Supervision &amp; Regulation">Supervision &amp; Regulation</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-92" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-151">
+                            <a href="/banking/circulars" title="Circulars">Circulars</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-150">
+                            <a href="/banking/regulations" title="Regulations">Regulations</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-93">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/reporting_formsinstruct" title="Reporting Forms &amp; Instructions">Reporting Forms &amp; Instructions</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/reportingforms" title="Reporting Forms">Reporting Forms</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/banking/regrept/regrept" title="Correspondence">Correspondence</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-94">
+                    <a href="/banking/ba" title="Bank Applications">Bank Applications</a>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-158">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/protection" title="Consumer Protection">Consumer Protection</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-158">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-159">
+                            <a href="/outreach-and-education/community-development/community-reinvestment-act" title="Community Reinvestment Act">Community Reinvestment Act</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-160" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/frauds_scams" title="Frauds and Scams">Frauds and Scams</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                As part of our core mission, we supervise and regulate financial institutions in the Second District. Our primary objective is to maintain a safe and competitive U.S. and global banking system.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/governance-and-culture-reform" title="The Governance &amp; Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="The Governance &amp; Culture Reform " title="The Governance &amp; Culture Reform " />
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+                                </p>
+                            </a>
+
+                            <a href="/banking/reporting_formsinstruct" title="Need to file a report with the New York Fed?" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_reportingforms.jpg" alt="Need to file a report with the New York Fed?" title="Need to file a report with the New York Fed?" />
+                                <p>
+                                    Need to file a report with the New York Fed? Here are all of the forms, instructions and other information related to regulatory and statistical reporting in one spot.
+                                </p>
+                            </a>
+
+                            <a href="/banking/protection" title="Frauds and Scams" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_consumerprotection.jpg" alt="Frauds and Scams" title="Frauds and Scams" />
+                                <p>
+                                    The New York Fed works to protect consumers as well as provides information and resources on how to avoid and report specific scams.
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-96" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial&nbsp;Services &amp;&nbsp;Infrastructure</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-96">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial Services &amp; Infrastructure</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-98">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-services-operations" title="Financial Services &amp; Operations">Financial Services &amp; Operations</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-98">
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-401" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/services" title="Services For Financial Institutions">Services For Financial Institutions</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-402">
+                            <a href="/banking/payment_services" title="Payment Services">Payment Services</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-404">
+                            <a href="/banking/payment_oversight" title="Payment System Oversight">Payment System Oversight</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-422" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/international" title="International Services, Seminars &amp; Training">International Services, Seminars&nbsp;&amp;&nbsp;Training</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-99">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform" title="Financial Market Infrastructure &amp; Reform">Financial Market Infrastructure &amp; Reform</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-99" class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-161">
+                            <a href="/banking/tpr_infr_reform" title="Tri-Party Repo Infrastructure Reform">Tri-Party Repo Infrastructure Reform</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-162">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/managing-foreign-exchange" title="Managing Foreign Exchange">Managing Foreign Exchange</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-163" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/money-market-funds" title="Money Market Funds">Money Market Funds</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-164">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/over-the-counter-derivatives" title="Over-The-Counter Derivatives">Over-The-Counter Derivatives</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                The Federal Reserve Bank of New York works to promote sound and well-functioning financial systems and markets through its provision of industry and payment services, advancement of infrastructure reform in key markets and training and educational support
+                                to international institutions.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/aboutthefed/nyic" title="The New York Innovation Center" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/about_the_fed/innovation-center-mega-menu.jpg" alt="The New York Innovation Center" title="The New York Innovation Center">
+                                <p>The New York Innovation Center bridges the worlds of finance, technology, and innovation and generates insights into high-value central bank-related opportunities. </p>
+                            </a>
+
+                             <a href="/nonbank-financial-institutions" title="Nonbank Financial Institutions" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v5/library/financial-services-infrastructure/nbfi/bank-nbfi-skyscrapers-280x176.jpg" alt="Looking skyward toward the tops of glass skyscrapers" title="Nonbank Financial Institions">
+                                <p>The growing role of nonbank financial institutions, or NBFIs, in U.S. financial markets is a transformational trend with implications for monetary policy and financial stability.</p>
+                            </a>
+
+                            <a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="Training Programs" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fs_i/mega_menu/fsi_mm_seminar-training.jpg" alt="Specialized Courses" title="Specialized Courses">
+                                <p>The New York Fed offers the Central Banking Seminar and several specialized courses for central bankers and financial supervisors.</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-100" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/outreach-and-education" title="Community Development and Education">Community Development<br>&amp;&nbsp;Education</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-100">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development &amp;&nbsp;Education</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu" id="nav-item-102" style="margin-top: 22px;">
+                    <div class="dxt-level-top">
+                          <div>  <span class="nav nav-type-label"><a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development</a></span> </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <a href="/outreach-and-education/staff" title="Staff">Staff</a>
+                        </li>
+                     <li  class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                             <span id="nav-item-500" class="frs-init nav nav-type-label upperlower">Fed System Initiatives</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://fedcommunities.org" title="Fed Communities">Fed Communities</a>
+                        </li>
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications-fed-listens-events.htm" title="Fed Listens">Fed Listens</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-502">
+                            <a href="https://www.fedsmallbusiness.org" title="Fed Small Business">Fed Small Business</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>                        
+                       <!-- START : LEVEL 3 -->
+                        <li id="nav-item-469" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                            <a href="/outreach-and-education/other-community-development-work" title="Other Community Development Work">Other Community Development Work</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-468">
+                            <a href="/outreach-and-education/calendar" title="Community Development Calendar">Calendar</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            
+                <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-109" >
+ <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu econ-ed-style" id="nav-item-102">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/outreach-and-education/economic-education" title="Economic Education">Economic Education</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+
+                       
+                        <!-- END : LEVEL 3 -->
+
+                     <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                      <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Programs</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/high-school/high-school-fed-challenge" title="High School Fed Challenge">High School Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/education/fedchallenge_college" title="College Fed Challenge">College Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/high-school/teacher-professional-development-program" title="Teacher Professional Development">Teacher Professional Development</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/classroom-visits" title="Classroom Visits">Classroom Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/aboutthefed/museum-and-learning-center-visits" title="Museum &amp; Learning Center Visits">Museum &amp; Learning Center Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Resources</span>
+                        </div>
+                    </div>
+  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/comic-books" title="Educational Comic Books">Educational Comic Books</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a title="Economist Spotlight Series" href="/outreach-and-education/economic-education/economist-spotlight" title="Economist Spotlight Series">Economist Spotlight Series</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                          <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/ny-fed-content-for-educators" title="Lesson Plans and Resources">Lesson Plans and Resources</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+			</ul>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-490">
+                            <a href="/outreach-and-education/economic-education/calendar" title="Economic Education Calendar">Economic Education Calendar</a>
+                        </li>
+                    
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+                       
+
+                        
+
+                    </ul></div><div class="dxt-menu-images">
+
+
+
+                           
+
+                           
+                            <a href="/governance-and-culture-reform" title="Government and Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="Government and Culture Reform" title="Government and Culture Reform">
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+
+                                </p> 
+                            </a>
+
+                        </div></div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+<style>
+#nav-list-500 {
+        margin-top: 16px !important;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li {
+	background: transparent;
+	color: #fff;
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	width: 255px;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+ul#dxt-navigation ul#nav-list-100 li.nav-level-3 a {
+	display: inline;
+	font-family: RobotoCondensedRegular,Arial Narrow,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0;
+	vertical-align: top;
+}
+@media (max-width: 736px) {
+.econ-ed-style {margin-left:-10px !important;}
+ul > li.dxt-level-2-item > div.dxt-level-top a {
+	padding-top: 0px !important;
+}
+}
+@media (min-width: 737px) {
+.frs-init-items {
+        margin-top: 10px !important;
+}
+.frs-init {
+        margin-top: 9px !important;
+}
+.econ-ed-style {margin-top:40px !important;}
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-images {
+	width: 425px;
+	margin-left: 25px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc {
+	width: auto; 
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#nav-list-93 li {
+	overflow: visible;
+	list-style: disc;
+	margin-left: 16px;
+	margin-top: 10px;
+        font-size:16px;
+}
+}
+#nav-item-100 #nav-list-109 li {
+	margin-top: 10px;
+}
+#nav-item-100 #nav-item-102 .dxt-level-top a {
+	color: #fff;
+	margin-top: 0 !important;
+}
+
+</style>
+
+        <hr>
+
+        <li id="dxt_universal_nav"></li>
+
+    </ul>
+
+</div>
+<!-- END : MOBILE HEADER -->
+<div id="dxt-overlay"></div>
+        </header>
+        <div id="header-border"></div>
+        
+
+
+<div id="breadcrumb" class="grid_12"></div>
+
+        <!--PAGEWATCH-->
+        <!-- begin main content -->
+        
+
+<div class="grid_6 push_1">
+    
+
+<div id="share-module-fix"><div id="sharebox" class="sharebox">
+	<div class="sharing-buttons">
+		<button onClick="shareFacebook()"><img alt="Facebook" class="icon" src="/medialibrary/media/v4/images/FB_s.png"></button>
+		<button onClick="shareTwitter()"><img alt="Twitter" class="icon"  src="/medialibrary/media/v4/images/twitter_s.png"></button>
+		<button onClick="printPage()"><img alt="Print" class="icon"  src="/medialibrary/media/v4/images/print_s.png"></button>
+		<button onClick="shareEmail()"><img alt="Email" class="icon"  src="/medialibrary/media/v4/images/email_s.png"></button>
+	</div>	
+</div>
+</div>
+	<style>
+#share-module-fix {
+    float: right;
+    display: block;
+    position: relative;
+    top: -37px;
+    right: 10px;
+}
+#share-module {
+    display: none;
+}
+.sharing-buttons {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid_8 #share-module-fix {
+    right: 160px !important;
+}
+.sharing-buttons button { background:none; border:none; padding:0; cursor:pointer;}
+.icon { width:21px; height:21px;}
+	</style>
+	<script>
+                function openPopOutWindow(url) { window.open(url, '_blank', 'resizable,width=600,height=700');}
+		function shareFacebook() {
+			openPopOutWindow('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Facebook']);
+		}
+		function shareTwitter() {
+			openPopOutWindow('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Twitter']);
+		}
+		function shareLinkedIn() {
+			openPopOutWindow('https://www.linkedin.com/shareArticle?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'LinkedIn']);
+		}
+		function printPage() {
+			window.print();
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Print']);
+		}
+		function shareEmail() {
+			var subject = 'Check out this page';
+			var body = 'I thought you would find this page interesting: ' + window.location.href;
+			window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Email']);
+		}
+		
+	</script>
+
+    
+      <div class="ts-section-identifier">Speech</div>
+  <h1 class="ts-article-title">Gradual and Predictable: Reducing the Size of the Federal Reserve’s Balance Sheet</h1>
+  <div class="ts-subtitle"></div>
+  <div class="ts-contact-info">
+        October 11, 2017
+  </div>
+  <div class="ts-contact-info">
+    
+Simon Potter    , Executive Vice President
+    
+  </div>
+  <div class="ts-article-subhead">
+    Remarks at SUERF – The European Money and Finance Forum, New York City
+    <span class="paraNotes">As prepared for delivery</span>
+  </div>
+<div>
+  
+
+
+    <div id="sC-component-text-no-media" class="ts-article-text">
+<p>Thank you very much.<sup><a href="#footnote1">1</a></sup>  I  appreciate the invitation to speak to you as part of today&rsquo;s SUERF conference on  &ldquo;Globalization Dynamics: EU and US Perspectives.&rdquo;  With events like these, the SUERF aims to  foster an active network between professional economists, financial  practitioners, central bankers and supervisors.<sup><a href="#footnote2">2</a></sup>  Ongoing dialogue between these groups is  important to the efficient and effective implementation of monetary policy, and  I am glad to have the opportunity to make a small contribution to that dialogue.</p><p>
+  Just a few weeks ago, the Federal Open Market Committee (FOMC)  announced that it would begin to passively reduce the size of its securities  portfolio.  This announcement marks the  beginning of a multiyear effort to bring the Federal Reserve&rsquo;s balance sheet to  its longer-run size.  In my remarks  today, I&rsquo;d like to offer my views on this policy from a financial markets  perspective.</p><p>
+  The message I&rsquo;d like to leave you with today is one of  confidence.  I am confident that the  FOMC&rsquo;s plan will reduce the size of the portfolio in a gradual and predictable,  &ldquo;no surprises&rdquo; manner.  I am confident  that the FOMC&rsquo;s plan will promote good market functioning in the Treasury and  agency mortgage-backed securities markets as the portfolio declines, and that  it will not prove disruptive to the U.S. mortgage market or the U.S. Treasury&rsquo;s  debt management program. And I am also confident that the plan&rsquo;s design, and the  FOMC&rsquo;s clear communication prior to the plan&rsquo;s implementation, will mitigate  the risk of sharp or outsized asset price reactions to the decline in the  portfolio&rsquo;s size over time.  </p><p>
+  I want to expand on this last point.  We cannot and should not prevent Treasury and  MBS prices from reacting to relevant economic and financial developments, or  indeed from gradually moving over time in response to the progressive decline  in the size of the Federal Reserve&rsquo;s holdings and consequent increase in the amount  of securities held by the private sector.   In fact, we actively want asset prices to respond appropriately and  fully to economic and financial news.  Over  the coming years, such news could span a wide variety of topics, such as  central bank policy in this country and abroad, the ongoing debate over fiscal policy,  and the evolution of expectations for the longer-run neutral rate of  interest.  That said, we do seek to  mitigate the risk that our operational actions contribute to unnecessary surprise,  disruption, or volatility.  I am  confident that the FOMC&rsquo;s plan appropriately manages this risk.</p><p>
+  Now, confidence doesn&rsquo;t mean certainty: there is always a  risk that events could unfold differently from expectations.  In particular, central banks have had little directly  relevant past experience with the impact of such a reduction in holdings of  domestic securities and in reserves.  One  relevant experience, of course, was the 2013 &ldquo;taper tantrum,&rdquo; which shows that  markets can have outsized reactions to changes in balance sheet policy even  before they happen.  Moreover, experience  with asset purchase programs, both here and abroad, clearly demonstrates that  market volatility can ensue from balance sheet policy changes that market  participants perceive as surprising, unclear, or rapid.  All of this indicates to me that, at policy  turning points like these, central banks should carefully and clearly communicate  their intentions, provide as much transparency as possible, and make  transitions in policy implementation as slowly as overall macroeconomic policy  objectives permit.</p><p>
+  Policymakers have made it clear that balance sheet  normalization is intended to operate in the background, and that the bar is high  to making changes to the FOMC&rsquo;s normalization plan.  That said, the future is uncertain, and as a  result the Desk will maintain an appropriate set of capacities should the FOMC  deem something different be required to promote the Federal Reserve&rsquo;s  objectives.  We will also continue to  gather market intelligence, including through surveys of primary dealers and  market participants and through a robust set of statistical data collections, to  further policymakers&rsquo; understanding of market participants&rsquo; expectations for  the balance sheet and to monitor market functioning. </p><p>
+  The rest of my speech will go as follows.  First, I&rsquo;ll provide an in-a-nutshell summary  of the structure of the Federal Reserve&rsquo;s balance sheet.  Then, I will discuss why it is important that  the decline in the balance sheet be gradual and predictable, and explain how  the FOMC&rsquo;s plan provides this gradualism and predictability.  I will then talk briefly about how the  Federal Reserve is ensuring it is operationally prepared for unexpected  developments.  And then I&rsquo;ll conclude on  a slightly different note:  I&rsquo;ll offer my  thoughts on why financial markets seem to have reacted much more calmly to  balance sheet news this year than they did during the 2013 &ldquo;taper tantrum&rdquo;  period.</p><p>
+  As always, these views are mine alone and do not necessarily  reflect those of the New York Fed or the Federal Reserve System.  </p>
+<p><strong>The Fed&rsquo;s Balance Sheet, In a Nutshell</strong></p><p>
+  Let&rsquo;s begin by reviewing, at a high level, where the Fed&rsquo;s  balance sheet is today, and where it is likely to go in the coming years.  Although many things about monetary policy  are very complex, the basic structure of the balance sheet is actually fairly  simple, as is the program of balance sheet normalization.</p>
+<p>
+  <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot1.jpg">Panel 1</a> shows a summary of the Fed&rsquo;s assets and liabilities,  as they are today.  Substantially all of  the $4.5 trillion of assets consist of Treasuries and agency MBS.<sup><a href="#footnote3">3</a></sup> On  the other side of the balance sheet, the Federal Reserve has three main categories  of liabilities: $2.6 trillion of bank reserves and other deposits, $1.5 trillion  of paper currency, and about $400 billion of reverse repos. </p>
+<p>
+  Before the crisis, the balance sheet was much smaller.  It reached its present size as a result of  the FOMC&rsquo;s large-scale asset purchase programs, which were undertaken to  support the economic recovery by easing financial conditions to a greater  extent than could be achieved solely through reducing the federal funds rate,  as the FOMC&rsquo;s ability to provide further monetary accommodation through this  instrument was limited by the zero lower bound on interest rates.  These asset purchases had two effects on the  balance sheet: they increased the size of the asset portfolio, and they equally  increased the size of the Federal Reserve&rsquo;s liabilities, largely through  growing the stock of bank reserves.<sup><a href="#footnote4">4</a></sup></p><p>
+  In addition to being larger than it was before, the balance  sheet has a significantly different composition than before the crisis.  On the asset side, the most important change has  been the addition of agency MBS. </p><p>
+  For many years, the FOMC has made it clear that it did not  intend for the balance sheet to remain at this size forever.<sup><a href="#footnote5">5</a></sup>  Instead, through its statements and its  Policy Normalization Principles and Plans, it has indicated its intention that  the Federal Reserve will, in the longer run, hold no more securities than  necessary to implement monetary policy efficiently and effectively, and that in  the longer run it will hold primarily Treasury securities.  Starting in its December 2015 statement, the FOMC  also indicated that it anticipated continuing reinvestment until normalization  of the level of the federal funds rate was well under way.  The FOMC also indicated, starting in its  September 2014 Policy Normalization Principles and Plans, that it intended to  reduce the Federal Reserve's securities holdings in a gradual and predictable  manner primarily by ceasing to reinvest repayments of principal on its securities  holdings.</p><p>
+  The FOMC&rsquo;s strategy of waiting to begin normalizing the  balance sheet until normalization of the federal funds rate was well under way  had several advantages.  Most  importantly, it reduced the likelihood that an unexpected adverse shock to the  economy not long after the start of policy tightening would have necessitated a  return to the zero lower bound on the federal funds rate and potentially a  reversal in balance sheet normalization.   Instead, the FOMC&rsquo;s approach promotes the use of the federal funds rate  as the active monetary policy instrument, an instrument with which the FOMC has  much greater experience.  In addition,  delaying balance sheet normalization allowed the FOMC to meaningfully assess  the efficacy of its tools to control short-term interest rates with a large  balance sheet, and thereby judge how patient it could afford to be in reducing  the balance sheet to its longer-run level.<sup><a href="#footnote6">6</a></sup></p><p>
+  From an accounting perspective, the decline in the balance  sheet will, at a high level, resemble a mirror image of its earlier increase.  We should of course expect to see the amount  of assets decline, and this will be matched by a decline in the overall stock  of liabilities.  Most of this decline in  liabilities will likely take place as a decline in bank reserves.  The size of the balance sheet will be &ldquo;normalized,&rdquo;  in Federal Reserve parlance, when the FOMC judges that the Federal Reserve is  holding no more securities than necessary to implement monetary policy  efficiently and effectively.</p>
+  <p>
+  At that point, the size of the balance sheet might well be  &ldquo;normalized,&rdquo; but its composition will probably not be. <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot2.jpg"> Panel 2</a> shows a stylized summary presentation  of how the Federal Reserve&rsquo;s assets and liabilities might look when the size of  the balance sheet is normalized, drawn from the &ldquo;median scenario&rdquo; included in  the July 2017 update to our annual report, &ldquo;Open Market Operations During  2016.&rdquo;  This presentation is largely  based on the median of market participants&rsquo; surveyed expectations collected in  June, along with some staff modeling to fill in the details, and as such is not  an FOMC projection or forecast.  That  said, it provides a useful way to illustrate my point.  </p>
+  <p>
+  On the asset side, in this median scenario, the portfolio would  still contain a substantial allocation to agency MBS at the time of  normalization, even though the FOMC has, as I noted earlier, indicated a  preference to hold primarily Treasury securities in the longer run.  The maturity composition of the Treasury  portfolio, not shown in the figure, would be different from what it was before  the financial crisis.  On the liability  side, at normalization, non-reserve liabilities in the median scenario would be  considerably larger than they were pre-crisis.   Some of the growth in the reverse repo programs we have observed since  the crisis might be a second-round effect stemming from the growth in reserves,  and therefore some decline in this category is possible as the overall balance  sheet size declines.  However, my overall  read is that much of the increased demand for non-reserve liabilities,  particularly currency in circulation, is likely to be persistent past  normalization, and indeed demand for reserves is also likely to be higher.<sup><a href="#footnote7">7</a></sup></p><p>
+  But what is the longer-run appropriate size for the balance  sheet?  Other than the qualitative  guidance I mentioned earlier, and an expectation that the level of reserve  balances will be appreciably below that seen in recent years but larger than  before the financial crisis, the FOMC has not specified how large the balance  sheet should be.<sup><a href="#footnote8">8</a></sup>  My colleague Lorie Logan spoke recently on  the many technical drivers of this level, which include the mode of policy  implementation that the FOMC chooses in the longer run, possible increases in  recent years in the financial system&rsquo;s demand for reserves and Federal Reserve reverse  repo liabilities owing to new financial regulations and other factors, and the  long-term evolution of demand for paper currency.<sup><a href="#footnote9">9</a></sup>  </p>
+<p><strong>Considerations in Reducing the Balance Sheet Size</strong></p>
+<p>
+  In theory, reducing the size of the balance sheet is quite  simple.  There are two ways to go about it.<sup><a href="#footnote10">10</a></sup>  One approach is to simply let securities  holdings mature.  Principal matures on the  Fed&rsquo;s securities holdings all the time:  Treasury  bonds mature at specified dates, and agency MBS principal is repaid over time  as home loans are paid back.<sup><a href="#footnote11">11</a></sup>  For the past several years, the securities  portfolio has been maintained at a steady level by reinvesting these principal repayments.<sup><a href="#footnote12">12</a></sup>  This activity can be reduced or stopped.  A second approach is to simply sell  securities on the open market, using a similar procedure to the way the  securities were purchased to begin with.</p>
+<p>
+  Either way, the securities end up back in private  hands.  This is obvious in the case of  sales.  When we don&rsquo;t reinvest principal repayments  on Treasuries, the securities the Federal Reserve would otherwise have bought  end up in private hands instead.  And  when we don&rsquo;t reinvest agency MBS principal repayments, this means that any new  mortgage that was taken out to fund those repayments ends up being sold to  private investors.  While the mechanism  varies, the end result, in theory, is largely the same.</p>
+<p>
+  So how should the Fed implement a reduction in the balance  sheet size?  The approach should  underscore that the balance sheet will be reduced in a way that is gradual and  predictable, so as to credibly assure market participants that the balance  sheet will decline in a way that avoids surprise, disruption, or  volatility.  As part of this, it should  be simple, and easy to communicate to the public.</p>
+<p>
+  The FOMC&rsquo;s plan for normalizing the balance sheet does exactly  this.<sup><a href="#footnote13">13</a></sup>  It decreases principal reinvestment, an  approach which provides for an appropriate pace of reduction in the balance  sheet and is quite straightforward to communicate.  It accomplishes this by reinvesting principal  maturities only to the extent that they exceed gradually increasing caps.<sup><a href="#footnote14">14</a></sup>  For Treasuries, the cap will be $6 billion  per month initially and will increase in steps of $6 billion at three-month  intervals over 12 months until it reaches $30 billion per month.  Agencies follow a similar pattern, starting  at $4 billion and rising in three-month steps to $20 billion.  The FOMC also indicated that it anticipates  that these caps will remain in place once they reach their respective maximums.</p>
+<p>
+  Let me spend a few minutes discussing the importance of  gradualism and predictability, and how the FOMC&rsquo;s plan achieves these things.</p><p>
+  <strong>Gradualism</strong></p><p>
+  To examine the importance of gradualism, we will need to  open, once again, the theoretical debate about &ldquo;stock&rdquo; and &ldquo;flow&rdquo; effects of central  bank asset purchases and sales.<sup><a href="#footnote15">15</a></sup>  Under the &ldquo;stock view,&rdquo; transitions in the  pace of central banks&rsquo; asset flows should have little direct effect on asset  prices.  Instead, what matters to asset  prices is the present and expected future stock of assets the central bank  holds, or is anticipated to hold.  The &ldquo;flow  view&rdquo; suggests instead that the effect on asset prices relates to the pace at  which assets are being added or removed from the balance sheet at that  time.  </p><p>
+  Many speeches have been given, and journal articles  published, about the relative importance of these effects with respect to their  impact on financial conditions and the broader economy, a topic that I do not  intend to wade into today.<sup><a href="#footnote16">16</a></sup>  Instead, I think it&rsquo;s important to make a few  points on &ldquo;flow effects&rdquo; relevant to policy implementation, and in particular  related to possible &ldquo;flow effects&rdquo; associated with an overly rapid pace.  </p><p>
+  Overly fast flows of securities into private hands can be  disruptive to market functioning.  In  particular, there is evidence that the agency MBS market, due to the nature of  its trading conventions, is prone to dislocation when market participants  expect large transitions in central bank agency MBS flows.<sup><a href="#footnote17">17</a></sup>  Such concerns can be self-fulfilling: if  market participants are concerned that an abrupt shift in flow might be  disruptive, they might, for example, withdraw from liquidity provision.  An overly fast redemption flow of Treasuries  could also create challenges in the government&rsquo;s management of public debt auctions  and result in communications challenges.<sup><a href="#footnote18">18</a></sup></p><p>
+  A sustained portfolio runoff at an overly fast pace could also  shrink the balance sheet so quickly that it impacts other aspects of monetary  policy implementation.  Rapid portfolio  declines could have unforeseen impacts on overnight money markets, for example  by creating significant shifts in dealers&rsquo; demand for overnight repo  financing.  We have seen such impacts in  the past. During the Maturity Extension Program, the Federal Reserve sold  substantial amounts of shorter-dated Treasuries.  Some of these securities accumulated in  dealers&rsquo; inventories, and secured financing rates rose a bit as dealers sought  to finance these holdings.  This sort of  volatility did not, and would not now, pose a major problem to markets or  policy implementation, but it is something worth avoiding if possible.  Rapid portfolio runoff could also make it  more likely that bank reserves become scarce unexpectedly or more quickly than  policymakers had anticipated.</p><p>
+  Finally, overly fast portfolio runoff could introduce  undesired noise into financial conditions.   Policymakers have indicated that they want the portfolio&rsquo;s size to  decline &ldquo;in the background,&rdquo; and that the federal funds rate be the primary  instrument of monetary policy.  Rapid  portfolio runoff could lead market participants to overestimate the total  decline that will occur in the Federal Reserve&rsquo;s securities holdings, and  thereby accelerate the rise in term or mortgage risk premia associated with  balance sheet normalization.  This could complicate  policymakers&rsquo; economic forecasting and make it more challenging to determine  and communicate the appropriate monetary policy stance.  </p><p>
+  The FOMC&rsquo;s plan addresses these concerns about gradualism in  two ways.  First, it begins at a low rate  of redemption, increases this slowly and in small amounts, and then continues at  a specified maximal rate of runoff. These amounts should result in transitions  that are within the market&rsquo;s capability to absorb.  Second, because the plan explicitly and  numerically communicated the FOMC&rsquo;s plans, it should promote stability in  market estimates for the future size of the balance sheet, and confidence that  the FOMC will not unintentionally create market stress.  </p><p>
+  <strong>Predictability</strong></p><p>
+  The second goal is to provide the public with a degree of  certainty that, as the Federal Reserve reduces reinvestment, the market will  not be asked to absorb securities at a speed that unexpectedly changes in a  significant way.  I&rsquo;ve already discussed  why it is important that the flow of securities back into the market be  gradual.  Predictability is about  ensuring that the flow is gradual across economic scenarios, including  scenarios that are quite different from our central forecast.  Achieving this predictability is complicated  by uncertainty about agency MBS principal repayments, an issue I&rsquo;ll summarize  briefly.</p><p>
+  To an extent, mortgage payoffs are driven by the white noise  of life, such as homeowners selling their homes as they find new jobs in different  areas of the country, have children, or retire, and in the process pay off the  mortgage on their old house.  There is some  uncertainty about how social and demographic factors like these will impact the  housing market over the long term, and this therefore creates uncertainty in  long-term MBS prepayment forecasts.  Over  the short term, however, by far the greatest source of aggregate uncertainty in  mortgage principal repayments relates to refinancing, the process by which  homeowners get a new mortgage with a better interest rate, and pay off their  old one in the process.  Refinancing  results in existing agency MBS, containing the old higher-rate loans, being  paid off more quickly, along with greater issuance of newly-minted agency MBS  containing the new, lower-rate loans.</p><p>
+  Homeowners are incentivized to refinance when mortgage rates  decline below the rate on their current loan.   In contrast, most market participants expect longer-term interest rates,  including primary mortgage rates, to rise over policy normalization, and that  therefore mortgage refinancing activity will be modest.  As a result, most expect mortgage principal  repayments to run below the level of the redemption cap set by the FOMC.  Projections for these repayments, drawn from  the July 2017 update to our annual report that I discussed earlier, are shown in  left-hand side of <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot3.jpg">Panel 3</a>.</p><p>
+  The benefit of the cap, even though it is unlikely to bind,  is that it limits the amount of variation in the pace at which securities, and  particularly mortgages, will flow back into private hands.  Recall that the left-hand figure in <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot3.jpg">Panel 3</a> is based on rising interest rates over an ongoing economic expansion.  For comparison, the right-hand figure in  <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot3.jpg">Panel 3</a> shows the projected MBS principal repayments for a scenario in which  interest rates come in two percentage points below market participants&rsquo;  expectations.  In this scenario, the cap  operates to constrain the flow of securities into the market.  While such a lower-rate outcome is not a  central expectation, it is certainly possible.</p>
+  <p>
+  By providing market participants some certainty that the  pace of balance sheet decline will be gradual across economic scenarios, this  plan should help mitigate the risk of unexpectedly sharp shifts in asset  prices, liquidity, or market functioning should markets begin to put greater  weight on lower interest rate scenarios.   Indeed, by promoting greater confidence in the stability and liquidity  of the Treasury and agency MBS markets across economic outcomes, the FOMC&rsquo;s  plan should result in lower risk and liquidity premia on these assets relative  to normalization plans that do not promote such confidence.</p>
+  <p>
+  The importance of predictability is underscored when one  considers that in recent years, adverse economic shocks have generally been  associated with sharp falls in longer-term interest rates.  Such declines would tend to bring about  faster MBS repayments and, if the outflow from the Federal Reserve&rsquo;s portfolio  were not constrained by a cap, an unforeseen tightening effect on financial  conditions, amplifying the adverse shock.</p>
+<p><strong>Prepared for the Unexpected</strong></p><p>
+  While I am confident that the FOMC&rsquo;s plan will work well,  there&rsquo;s always the risk that events unfold differently than expected.  In my view, we best prepare for the  unexpected in two ways: we need to be operationally ready to change course when  needed, and we need to remain analytically focused so we know when to recommend  to policymakers that they do so.</p>
+<p>
+  So long as the plan I&rsquo;ve described to you proceeds  uninterrupted and as expected toward normalization, it is likely that  policymakers&rsquo; operational demands on the Desk will be considerably lighter than  they have been over the last decade.   However, it is possible that unexpected developments in the economy may  require a change of plans.  For example,  the FOMC has made it clear in its addendum to the Policy Normalization  Principles and Plans that it stands ready to resume reinvestment if a material  deterioration in the economic outlook were to warrant a sizable reduction in  the federal funds rate.  The FOMC also  indicated that it would be prepared to use its full range of tools, including  altering the size and composition of its balance sheet, if future economic  conditions were to warrant a more accommodative monetary policy than can be  achieved solely by reducing the federal funds rate.  You may recall that Chair Yellen reiterated  these points in her press conference following last month&rsquo;s FOMC meeting.  Likewise, while the principles and plans do  not indicate an expected role for asset sales in portfolio normalization,  except in that limited sales might be warranted in the longer run to reduce or  eliminate residual holdings of agency MBS, the operational capability remains,  even though we do not expect it will be needed.  </p>
+<p>
+  Unexpected operational demands could also emerge from  technical developments within the Treasury and agency MBS markets.  Even though it is shrinking, the Federal  Reserve&rsquo;s portfolio is and will remain large, and market participants will look  to the Federal Reserve to lend out on a collateralized basis some of its holdings  from time to time in order to facilitate settlement, as is done by most other  large fixed-income investors.  The Desk  does this in the Treasury market via its decades-old securities lending  program, and performs an analogous role in the agency MBS market by conducting  so-called &ldquo;dollar roll&rdquo; and coupon swap transactions as necessary to facilitate  settlement of the Federal Reserve&rsquo;s agency MBS transactions.  The Desk always welcomes discussion with  market participants on ways in which it can support market functioning.<sup><a href="#footnote19">19</a></sup></p>
+<p><strong>Preventing Tantrums</strong></p>
+<p>
+  I noted earlier that my confidence that the FOMC&rsquo;s plan for  balance sheet normalization was in part due to its clear communication: the  gradual and predictable nature of the balance sheet decline should help ensure  that market participants&rsquo; expectations remain well aligned with what eventually  transpires.  In my view, a &ldquo;trust, but  verify&rdquo; approach is called for to ensure that this confidence is appropriate.   While I trust that the program design will  keep expectations for the portfolio realistic, I believe that a robust  analytical mechanism to verify this, underpinned through continuous market  monitoring, broad-based surveys of  primary dealers and market participants, and a diverse suite of statistical data  collections, will help ensure that policymakers can detect early and respond  promptly to situations where market participants expect the portfolio to evolve  significantly differently from policymakers&rsquo; expectations.</p>
+<p>
+  The idea is simple: keeping these two sets of expectations  aligned should help prevent the risk that they get very far apart, an  adjustment has to take place, and there is large move in asset prices.  But the experience of the 2013 &ldquo;taper  tantrum,&rdquo; when asset prices moved sharply and unexpectedly following former  Chairman Bernanke&rsquo;s announcement of an eventual cessation in asset purchases,  poses some questions about doing this in practice.  What might have caused the taper tantrum, and  why have financial markets been so much more stable in comparison this time  around?</p>
+<p>
+  First, there are limitations to what one can learn from  market intelligence, whether it is done with a survey, through analytical  modeling, or market monitoring.  The  Federal Reserve&rsquo;s market intelligence-gathering is among the best there is when  it comes to breadth, detail, and rigor.   For example, we are the only central bank that conducts market surveys  directly on balance sheet policy.  That  said, the 2013 taper tantrum would not have been anticipated based on market  surveys conducted at the time, as the median surveyed market participants&rsquo;  projection for the end of asset purchases was similar to the plan Chairman  Bernanke outlined in his announcement.<sup><a href="#footnote20">20</a></sup>  In his book &ldquo;The Courage to Act: A Memoir of  the Crisis and Its Aftermath,&rdquo; Bernanke attributed the failure of surveys to  anticipate the taper tantrum to the fact that, at the time, they reached only  primary dealer economists, a homogenous and insular group that he felt was unrepresentative  of investors generally.<sup><a href="#footnote21">21</a></sup></p><p>
+  I think there is truth to this, but I wonder if there is  more to the story.  We now survey a broad  community of investors in addition to the primary dealers in a bid to gather a  more diverse and inclusive perspective, partly in response to this concern.  While this makes our surveys more robust,  since we started doing this we haven&rsquo;t observed large differences in median responses  between the dealers and the buy-side community.   As an example, <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot4.jpg">Panel 4</a> shows a time series of the expected level of the  federal funds rate at the end of 2017 for dealers and for buy-side firms; these  two track each other closely.<sup><a href="#footnote22">22</a></sup>  On the other hand, both the dealers and  buy-side community responses exhibit substantial dispersion around these  medians. One explanation for the adverse reactions to Federal Reserve  communications in the spring of 2013 is that the marginal investor is not the  same as the median respondent to our surveys.</p><p>
+  Looking past the survey, I think there are a few key factors  that differ between now and 2013 that might explain why the market reaction has  been so much calmer this time.  The  macroeconomic environment is markedly better.   Market participants have a better sense for the FOMC&rsquo;s approach to  increasing the federal funds rate, and there is much greater clarity on the respective  roles of the balance sheet and the overnight policy rate.  The normalization plan is more clearly  gradual and predictable.  And the balance  sheet news this time around may just not have been all that surprising.  I&rsquo;ll talk briefly about each of these.</p><p>
+  One important difference between now and 2013 is that the  labor market is very healthy, with unemployment close to levels most associate  with full employment.  Recall that FOMC statements  around the time of the taper tantrum stated that asset purchases would continue  &ldquo;until the outlook for the labor market has improved substantially in the  context of price stability,&rdquo; and it is possible that many market participants  took the signal from an impending taper that the FOMC was less committed to the  goal of a substantial improvement in the labor market than they had thought.  Not only could this have affected some  investors&rsquo; expectations for the balance sheet going forward, but it could have also  affected views on the FOMC&rsquo;s other policy tool: the overnight interest rate.<sup><a href="#footnote23">23</a></sup> </p>
+  <p>
+  A related possibility is that in the current situation expectations  for a very gradual program of increases in the federal funds rate are  relatively well entrenched, with liftoff more than a year and a half behind us.   In 2013 market participants were focused  on policies that would add more accommodation.   Under the &ldquo;recruitment effect&rdquo; proposed by former Governor Jeremy Stein  and Sam Hanson of Harvard Business School, yield-oriented investors react to  lower short-term rates by &ldquo;reaching for yield&rdquo; into longer-dated maturities,  and reverse this effect when short-term rates rise.  These  effects can be even larger when balance sheet policies are in active use.<sup><a href="#footnote24">24</a></sup>  As a result, a shock to expectations of the  central bank&rsquo;s reaction function can lead to outsized movements in longer-term  rates.  The FOMC&rsquo;s current approach  entails a much clearer delineation of the roles of the federal funds rate and  the balance sheet, breaking the link that appeared in the spring of 2013: the  association between a reduction in the balance sheet and a shock to  expectations for the federal funds rate.   As shown on <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot5.jpg">Panel 5</a>, even with the active discussion of balance sheet  normalization in the March and May 2017  FOMC meeting minutes, market participants attributed very little of the  movement in longer-term rates to  communication from the FOMC regarding potential changes in their reinvestment  policy.</p>
+  <p>
+  It&rsquo;s also possible that it is especially important for the  FOMC to act in a gradual and predictable way at times when investor response to  Federal Reserve announcements might not be expected to follow predictions that  come from economic models that assume rationality, perfect information, expectations  for continuously optimal policymaking, and so on.  George Soros&rsquo;s theory of reflexivity might be  instructive here.  Soros&rsquo;s framework is  based on two propositions: fallibility, which means that market participants&rsquo;  views of the world can never perfectly correspond to the actual state of affairs;  and reflexivity, which means that these imperfect views can influence the  situation through the actions of those who hold those views.<sup><a href="#footnote25">25</a></sup>  In other words, perception might not  correspond to reality, but perception can influence reality.  Taking this to the monetary policy context,  expectations for disruption or volatility from an substantial change in the  Federal Reserve&rsquo;s operational posture, even if totally unfounded, could bring  about disruption, as the holders of those expectations act to protect themselves  or profit from what they believe is likely to come.  The solution is to try to avoid generating  such expectations for disruption to begin with, by acting gradually and  predictably.  </p><p>
+  Another potential explanation for the relative stability of  longer-term rates this time around is that balance sheet news this year, taken  together, just hasn&rsquo;t been all that surprising to market participants.  <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot6.jpg">Panel 6</a> shows market participants&rsquo;  expectation for the level of the federal funds rate that would prevail when the  reinvestment policy first changes, as well as expectations for the date of that  change.  As can be seen, balance sheet  normalization started slightly earlier than expected, both in rate terms – it  began with the federal funds rate at 1.16 percent – and, more notably, in terms  of the absolute date.  But at the same  time, earlier in the year, many market participants had seen decent odds that  the Federal Reserve would reduce its balance sheet more quickly with a  full-stop end to reinvestment.  <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot7.jpg">Panel 7</a> shows  the decline in expectations for both no change in Treasury reinvestments and a  hard-stop in them.  It seems likely that  these shifts in expectations came as the FOMC&rsquo;s communications became  increasingly granular, particularly after the June meeting at which the FOMC  provided detail on its balance sheet normalization plan.  </p>
+  <p>
+  On net, it seems likely that expectations for the Federal  Reserve&rsquo;s overall stock of asset holdings were fairly stable over this time,  despite variation in expectations for the timing and pace of eventual  declines.  Under the &ldquo;stock view,&rdquo; this  stability in expected future asset holdings should result in limited changes in  asset prices, as has been observed.  Of  course, as the balance sheet shrinks, some upward pressure on rates should be  realized.  Market participants&rsquo; estimate  of this effect over two years is shown in <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot8.jpg">Panel 8</a>.</p>
+  <p>
+  One last possible explanation for the stability of  longer-term interest rates amid the movement toward balance sheet  normalization has been the FOMC&rsquo;s clear message that it would be prepared to  use its full range of tools, including altering the size and composition of its  balance sheet, if future economic conditions were to warrant a more  accommodative monetary policy than can be achieved solely by reducing the  federal funds rate.  <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot9.jpg">Panel 9</a> shows the  average of survey respondents&rsquo; probability distributions for the balance sheet;  the left side shows this for the scenario where overnight rates remain away  from zero, and the right side shows the adverse scenario in which they do  return to zero.  The right side shows a  significant expansion in the balance sheet.   As shown in <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot10.jpg">Panel 10</a>, market participants assign about one chance in  four to such a scenario unfolding, so communications about how the FOMC might  respond to such an outcome in the future might have the effect of bolstering  confidence even today.</p>
+  <p>
+  Returning to <a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot9.jpg">Panel 9</a>, it is notable how much uncertainty  there is about the size of the balance sheet, even in the no-zero-lower-bound   scenario shown on the left.  This likely  reflects a few factors: MBS repayments remain uncertain up to the cap; future  demand for currency, bank reserves, and non-reserve liabilities is hard to know  precisely; and the FOMC has not yet decided on a longer-run framework for the  implementation of policy.  As a result,  it seems appropriate to me that there should be an appreciable amount of  uncertainty, which should decline over time as these matters become clearer so  long as normalization continues uninterrupted.  </p>
+  <p>
+  <strong>Conclusion</strong></p>
+  <p>
+  Let me conclude now by reiterating the message of confidence  with which I began my remarks.  I am  confident that the FOMC&rsquo;s gradual and predictable plan to normalize the balance  sheet will reduce the balance sheet&rsquo;s size at an appropriate pace, that it will  promote good market functioning, that it will not disrupt the mortgage market  or Treasury debt issuance, and, importantly, that it will mitigate the risk of  sharp or outsized asset price reactions.   I am also confident that the Federal Reserve is well prepared, both operationally  and analytically, to identify, understand, and address unforeseen circumstances  over normalization as directed by the FOMC.   Finally, by accomplishing all these things, I am confident that the  FOMC&rsquo;s policy normalization plan should help promote the ongoing economic  expansion.</p>
+  <p>
+  Clearly, the 2013 taper tantrum should leave any observer  cautious in assessing a central bank&rsquo;s ability to normalize its balance sheet  smoothly.  Those of us who work at the  Federal Reserve certainly were.  I  believe the FOMC&rsquo;s plan carefully takes into account the range of potential  explanations for the taper tantrum, in particular through its emphasis on  gradualism and predictability.  </p><p>
+  Early signs on this front are encouraging, with financial  market volatility around recent balance sheet announcements quite modest  relative to what we saw in 2013.  It&rsquo;s much  too early to declare success.  However,  should this stability continue, I believe the FOMC&rsquo;s approach may offer useful  lessons to other central banks which anticipate reaching a time of transition  in their policy stance.  In particular, the  FOMC has aimed to provide as much transparency as it can in an effort to  underscore its intent to achieve an uneventful normalization of the balance  sheet.  I believe that this level of  transparency has been of great importance.</p>
+
+<p><a href="/medialibrary/media/newsevents/speeches/2017/pot171011/pot-charts.pdf">Panels</a> 
+<img src="/medialibrary/media/v4/images/icons/pdf.gif" alt="pdf"> </p>
+    </div>
+    <br />
+    <hr size="1" />
+    <div id="sC-component-footnotes" class="ts-footnote-2">
+<p><a name="footnote1"></a><sup>1</sup> I  would like to thank James Egelhof for his assistance in the preparation of  these remarks, Adam Biesenbach and Romen Mookerjee for their assistance with  data, and colleagues in the Federal Reserve System for numerous insightful  comments and suggestions.</p> 
+<p><a name="footnote2"></a><sup>2</sup> Additional information about SUERF is available on its website, <a href="https://www.suerf.org">https://www.suerf.org</a>/.</p>
+<p><a name="footnote3"></a><sup>3</sup> The amortization of premiums on portfolio  securities holdings results in downward pressure on the size of the Federal  Reserve&rsquo;s balance sheet over time, even absent a reduction in reinvestments  associated with increasing redemption caps.   Specifically, the balance sheet includes securities holdings at face  value and records unamortized premiums (discounts) as a separate asset (negative  asset).  As the premium (discount)  security amortizes to its par value&mdash;with an associated offsetting reduction  (increase) in remittances to the U.S. Treasury&mdash;the size of the balance sheet  declines (increases).</p>
+<p><a name="footnote4"></a><sup>4</sup>
+ The maturity structure of the balance sheet was only loosely incorporated into  the purchase plan.  Purchases of Treasury  securities were targeted at maturity sectors; within each sector, specific  issues were selected for purchase using a relative-value approach based on a  spline fitted to market prices.  Sack, <a href="https://www.newyorkfed.org/newsevents/speeches/2011/sac110209">Implementing  the Federal Reserve&rsquo;s Asset Purchase Program</a>, February 9, 2011.  Treasury securities acquired through  reinvestment are allocated in proportion to issuance.  Agency MBS purchases are distributed across  instruments roughly in proportion to anticipated gross issuance of those  securities at the time.  Potter, <a href="https://www.newyorkfed.org/newsevents/speeches/2013/pot130327">The  Implementation of Current Asset Purchases</a>, March 27, 2013.</p>
+<p><a name="footnote5"></a><sup>5</sup> 
+ Early FOMC discussions of balance sheet normalization, then referred to as  &ldquo;exit strategy,&rdquo; were predicated on an intention to return to, as put in the <a href="https://www.federalreserve.gov/monetarypolicy/files/FOMC20090128meeting.pdf">January  28, 2009 meeting transcript</a>, &ldquo;a more normal framework for conducting  monetary policy,&rdquo; which meant a return to an asset and liability structure  closely resembling that which prevailed before the financial crisis.  Normalization-related matters were discussed  in the minutes to most of the FOMC&rsquo;s 2009 meetings. In a January 2009 speech, <a href="https://www.federalreserve.gov/newsevents/speech/bernanke20090113a.htm">The  Crisis and the Policy Response</a>, Chairman Bernanke provided extensive  detail on the eventual normalization strategy, including his expectation that  the balance sheet would be reduced &ldquo;to the extent necessary at the appropriate  time.&rdquo;  </p>
+<p><a name="footnote6"></a><sup>6</sup> 
+ See Potter, <a href="https://www.newyorkfed.org/newsevents/speeches/2017/pot170405">Money  Markets at a Crossroads: Policy Implementation at a Time of Structural Change</a>,  April 5, 2017, for an assessment of the efficacy of these tools.</p>
+<p><a name="footnote7"></a><sup>7</sup>
+ Currency in circulation has risen steadily for decades.  A simple assumption is that currency outstanding  will grow in line with nominal U.S. gross domestic product.  However, it is easy to imagine shocks that  could materially affect currency growth, either positively or negatively. For  example, with heavy usage of large-denomination U.S. paper currency overseas,  demand for dollars appears sensitive to changes in global growth and financial  and geopolitical stability.  In addition,  it is hard to know what implications new financial technology, generational  shifts in preferences about payment modalities, and other longer-term factors  will have on currency demand.</p>
+<p><a name="footnote8"></a><sup>8</sup>
+ &ldquo;The Committee currently anticipates reducing the quantity of reserve balances,  over time, to a level appreciably below that seen in recent years but larger  than before the financial crisis; the level will reflect the banking system&rsquo;s  demand for reserve balances and the Committee&rsquo;s decisions about how to  implement monetary policy most efficiently and effectively in the future.  The Committee expects to learn more about the  underlying demand for reserves during the process of balance sheet  normalization.&rdquo;  See the <a href="https://www.federalreserve.gov/monetarypolicy/files/FOMC_PolicyNormalization.20170613.pdf">Addendum  to the Policy Normalization Principles and Plans</a>, June 13, 2017.  Minutes to the FOMC&rsquo;s <a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20161102.htm">November  2016 meeting</a> summarize the FOMC&rsquo;s discussion of its long-run framework and  its implications for the long-run balance sheet size.</p>
+<p><a name="footnote9"></a><sup>9</sup>
+ Logan, <a href="https://www.newyorkfed.org/newsevents/speeches/2017/log170518">Implementing  Monetary Policy: Perspective from the Open Market Trading Desk</a>, May 18,  2017.</p>
+<p><a name="footnote10"></a><sup>10</sup>
+ See Leonard, Martin and Potter, <a href="http://libertystreeteconomics.newyorkfed.org/2017/07/how-the-fed-changes-the-size-of-its-balance-sheet.html">How the Fed Changes the Size of Its Balance Sheet</a>, July 10, 2017, for detail on how these transactions  work in practice.  </p>
+<p><a name="footnote11"></a><sup>11</sup>
+ Interest  is not reinvested.  Instead, the Federal  Reserve&rsquo;s net income is remitted to the Treasury.</p>
+<p><a name="footnote12"></a><sup>12</sup>
+ This is done by placing noncompetitive add on bids at Treasury auctions and by  buying agency MBS on the open market.</p>
+<p><a name="footnote13"></a><sup>13</sup> 
+ The Policy Normalization Principles and Plans indicates that all FOMC  participants but one agreed that they did not anticipate selling agency  mortgage-backed securities as part of the normalization process, although limited  sales might be warranted in the longer run to reduce or eliminate residual  holdings, and that the timing and pace of any sales would be communicated to  the public in advance.  Portfolio  projections released in July 2017 do not include sales of any type over the  forecast horizon.</p>
+<p><a name="footnote14"></a><sup>14</sup> <a href="https://www.newyorkfed.org/markets/opolicy/operating_policy_170920">Statement  Regarding Reinvestment in Treasury Securities and Agency Mortgage-Backed  Securities</a>, September 20, 2017.</p>
+<p><a name="footnote15"></a><sup>15</sup> 
+ See, for example, Sack, <a href="https://www.newyorkfed.org/newsevents/speeches/2011/sac110720">The SOMA  Portfolio at $2.654 Trillion</a>, July 20, 2011, and Bernanke, <a href="https://www.federalreserve.gov/newsevents/speech/bernanke20100827a.htm">The  Economic Outlook and Monetary Policy</a>, August 27, 2010.</p>
+<p><a name="footnote16"></a><sup>16</sup> 
+ See Bonis, Ihrig and Wei, <a href="https://www.federalreserve.gov/econres/notes/feds-notes/projected-evolution-of-the-soma-portfolio-and-the-10-year-treasury-term-premium-effect-20170922.htm">Projected  Evolution of the SOMA Portfolio and the 10-year Treasury Term Premium Effect</a>,  September 27, 2017.</p>
+<p><a name="footnote17"></a><sup>17</sup> 
+ Kandrac, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2455965">The  Costs of Quantitative Easing:  Liquidity  and Market Functioning Effects of Federal Reserve MBS Purchases</a> (2014).</p>
+<p><a name="footnote18"></a><sup>18</sup> 
+ The Treasury Borrowing Advisory Council considered this topic in its  third-quarter 2017 meeting, including the potential impact of changes in  central bank policy abroad.  See the  August 1, 2017, <a href="https://www.treasury.gov/_layouts/SPDynamicResources/DownloadS3File.aspx?s3filename=current_production/current_TBACCharge1.pdf&x=1506974618985">presentation</a> by TBAC to the U.S. Treasury.</p>
+ <p><a name="footnote19"></a><sup>19</sup> 
+ In addition to these topics, we are following closely the potential for the  decline in the balance sheet to affect other aspects of the structure of  financial markets or the banking industry.   As one example, we are paying attention to the possibility that a  decline in the size of the balance sheet puts downward pressure on bank  deposits.  As discussed earlier, in  general, balance sheet normalization removes an asset from the private sector  that can be held only by banks (reserves) and replaces it with an asset that  can be held by anyone (securities).  It is  possible that, on net in equilibrium relative to a counterfactual in which the  balance sheet does not decline, (a) banks will hold fewer reserves; (b) banks  will offset some of this decline by holding securities instead, and some by taking  in fewer deposits; and (c) non-banks will replace those deposits with  securities.  The extent (if any) of any  such decline in deposit activity on deposit and loan pricing will likely depend  on a variety of factors, including the extent to which the decline comes from  wholesale institutional deposit activity motivated by interest rate arbitrage.  See Ihrig, Mize, and Weinbach, <a href="https://www.federalreserve.gov/econres/feds/files/2017099pap.pdf">How  does the Fed adjust its Securities Holdings and Who is Affected?</a>,  September 22, 2017.</p>
+<p><a name="footnote20"></a><sup>20</sup> 
+ In fact, following the June 2013 FOMC meeting, the dealer survey revealed a  shift in expectations toward a more accommodative balance sheet stance over  time.  Prior to that meeting, most survey  respondents had seen significant odds that the FOMC would eventually use sales  of agency MBS as part of its normalization strategy.  During the post-meeting press conference,  Chairman Bernanke stated &ldquo;While participants continue to think
+      that, in the long run, the Federal Reserve&rsquo;s portfolio  should consist predominantly of Treasury securities, a strong majority now  expects that the Committee will not sell agency mortgage-backed securities  during the process of normalizing monetary policy, although in the longer run,  limited sales could be used to reduce or eliminate residual MBS holdings.&rdquo;  Surveys conducted after this meeting revealed  no expectation for agency MBS sales, and for the portfolio to be larger over  time as a result.</p>
+<p><a name="footnote21"></a><sup>21</sup> 
+ &ldquo;What explained markets&rsquo; strong reaction – and why did it surprise us?  In retrospect, I think our view of market  expectations was too dependent on our survey of securities dealers.  Futures markets gave us a reliable read of  where markets thought the federal funds rate was going – but not for our  securities purchases.  For that,  economists at the New York Fed asked their counterparts at the securities  firms, who paid careful attention to every nuance of Fed policymakers&rsquo; public  statements.  In effect, our Ph.D.  economists surveyed their Ph.D. economists.   It was a little like looking in a mirror.  It didn&rsquo;t tell us what the rank-and-file  traders were thinking.  Many traders,  apparently, didn&rsquo;t pay much attention to their economists…&rdquo;  </p>
+<p><a name="footnote22"></a><sup>22</sup> These figures include results from the Desk&rsquo;s September Surveys of Primary  Dealers and Market Participants.  The  results from these surveys will be released tomorrow on the <a href="https://www.newyorkfed.org/markets/primarydealer_survey_questions.html">New  York Fed&rsquo;s website</a>.</p>
+<p><a name="footnote23"></a><sup>23</sup> In his book, Bernanke describes it as follows: after the June FOMC meeting,  investors&rsquo; &ldquo;conclusion, despite the plain meaning of what I had said at the  press conference, was that we were signaling an earlier increase in our federal  funds rate target.  They sold their  Treasury securities and mortgage-backed securities, driving up longer-term  interest rates.&rdquo;</p>
+<p><a name="footnote24"></a><sup>24</sup> Stein, <a href="https://www.federalreserve.gov/newsevents/speech/stein20130926a.htm">Yield-Oriented  Investors and the Monetary Transmission Mechanism</a>, September 26, 2013.</p>
+<p><a name="footnote25"></a><sup>25</sup> This description is drawn from Soros, <a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility,  Reflexivity, and the Human Uncertainty Principle</a>, <em>Journal of Economic Methodology</em>, January 2014.</p>
+
+
+ 
+    </div>
+         
+
+</div>
+
+</div>
+<div class="grid_4 push_2">
+    
+    <div id="sC-component-accordion" class="frb-accordion-wrapper">
+
+    </div>
+
+</div>
+        <!-- end main content -->
+        <!--/PAGEWATCH-->
+        
+
+<!-- COOKIE CONSENT START -->
+<style>
+#myCookieConsent {
+    z-index: 999;
+    min-height: 20px;
+    font-family: RobotoCondensedRegular;
+    padding: 10px 20px;
+    background: #3b4045;
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    display:none;
+    right: 16px;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+#myCookieConsent div {
+    padding: 0;
+}
+#myCookieConsent a {
+    color: #A6D9F0;
+    display: inline-block;
+    padding: 0 0px;
+}
+#myCookieConsent a:hover {
+	color: #A6D9F0;
+}
+#myCookieConsent a#cookieButton {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+#myCookieConsent a#cookieButton:hover {
+    
+
+}
+/*Social Media Footer Styles*/
+#social_media_footer svg {
+	overflow: hidden;
+	background: #fff;
+	width: 26px;
+	height: 26px;
+        margin-bottom:1px;
+}
+#social_media_footer svg#social-twitter:hover {
+	overflow: hidden;
+	background: #000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-youtube:hover {
+	overflow: hidden;
+	background: #FF0000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-linkedin:hover {
+	overflow: hidden;
+	background: #0072b1;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-email:hover {
+	overflow: hidden;
+	background: #731A8B;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-instagram:hover {
+	overflow: hidden;
+	background: #ff0076;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-facebook:hover {
+	overflow: hidden;
+	background: #4267B2;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+</style>
+</style>
+<script type="text/javascript">
+$(document).ready(function(){   
+var d = new Date(); 
+var day = d.getDate(); 
+if(sessionStorage.getItem('bannerSeen') != day){
+    $("#myCookieConsent").fadeIn();
+    sessionStorage.setItem('bannerSeen',day);
+
+   $("#cookieButton").click(function() {
+ 
+       $("#myCookieConsent").fadeOut();
+})
+var expireTime = 24000*60*60; 
+setTimeout(function() {
+    sessionStorage.removeItem('bannerSeen');
+}, expireTime);
+} 
+}); 
+
+</script>
+<div id="myCookieConsent">
+	
+	<div>By continuing to use our site, you agree to our <a id="terms-of-use" href="/privacy/termsofuse">Terms of Use</a> and <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>. You can learn more about how we use cookies by reviewing our <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>.&nbsp;&nbsp;&nbsp;<a id="cookieButton" title="Close"><img alt="Close" src="/medialibrary/media/footer/close-notice.png"/></a></div>
+</div>
+<!-- COOKIE CONSENT END -->
+
+<div class="space60"></div>
+<div id="footer" class="container_12">
+	<div class="grid_2 omega" id="social_media_footer">
+<!-- TWITTER -->
+<a title="X" target="_blank" href="https://x.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'X formerly Twitter']);"><svg id="social-twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+ <g>
+    <g id="Layer_7">
+      <path class="cls-1" d="M18.1,14.3l8-9.3h-1.9s-7,8.1-7,8.1l-5.6-8.1h-6.4s8.4,12.3,8.4,12.3l-8.4,9.8h1.9s7.4-8.6,7.4-8.6l5.9,8.6h6.4s-8.7-12.7-8.7-12.7h0ZM15.4,17.3l-.9-1.2L7.8,6.4h2.9s5.5,7.8,5.5,7.8l.9,1.2,7.1,10.2h-2.9s-5.8-8.3-5.8-8.3h0Z"/>
+    </g>
+  </g>
+</svg></a>
+<!-- YOUTUBE -->
+<a title="YouTube" target="_blank" href="https://www.youtube.com/user/TheNewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'YouTube']);"><svg id="social-youtube" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st1" d="M23,7.9C19.7,7.6,12.3,7.6,9,7.9c-3.6,0.2-4,2.4-4,8.1c0,5.7,0.4,7.9,4,8.1c3.3,0.2,10.7,0.2,14.1,0
+	c3.6-0.2,4-2.4,4-8.1C27,10.3,26.6,8.1,23,7.9z M13.2,19.7v-7.4l7.4,3.7L13.2,19.7z"/>
+</g>
+
+</svg></a>
+<!-- LINKEDIN -->
+<a title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/federal-reserve-bank-of-new-york" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'LinkedIn']);"><svg id="social-linkedin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st0" d="M16.9,18.2c0-4.3,5.5-4.7,5.5,0V26h4.2v-9.4c0-7.3-7.8-7-9.7-3.4v-2.4h-4.2V26h4.2V18.2z"/>
+	<rect x="5.8" y="10.7" class="st0" width="4.2" height="15.3"/>
+	<path class="st0" d="M7.8,8.9c1.3,0,2.4-1.1,2.4-2.4S9.2,4,7.8,4S5.4,5.1,5.4,6.5S6.5,8.9,7.8,8.9z"/>
+</g>
+</svg></a>
+		<br />
+<!-- EMAIL -->
+<a title="Email" target="_blank" href="https://public.govdelivery.com/accounts/USFRBNEWYORK/subscriber/new?" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Email']);"><svg id="social-email" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path d="M16,16.6L5.5,8.1h21L16,16.6z M11.3,15l-5.8-4.7v10.9C5.5,21.3,11.3,15,11.3,15z M20.7,15l5.8,6.3V10.4
+		C26.5,10.4,20.7,15,20.7,15z M19.4,16.1L16,18.9l-3.4-2.7l-7.1,7.7h21L19.4,16.1z"/>
+</g>
+</svg></a>
+<!-- INSTAGRAM -->
+<a title="Instagram" target="_blank" href="https://www.instagram.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Instagram']);"><svg id="social-instagram" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+ <g>
+    <path class="cls-1" d="m23.19,3.5h-14.38c-1.27,0-2.49.51-3.39,1.41-.9.9-1.4,2.12-1.41,3.39v14.38c0,1.27.51,2.49,1.41,3.39.9.9,2.12,1.4,3.39,1.41h14.38c1.27,0,2.49-.51,3.39-1.41s1.4-2.12,1.41-3.39v-14.38c0-1.27-.51-2.49-1.41-3.39s-2.12-1.4-3.39-1.41h0Zm2.4,19.17c0,.64-.25,1.24-.7,1.69s-1.06.7-1.69.7h-14.38c-.64,0-1.24-.25-1.69-.7-.45-.45-.7-1.06-.7-1.69v-14.38c0-.64.25-1.24.7-1.69.45-.45,1.06-.7,1.69-.7h14.38c.64,0,1.24.25,1.69.7s.7,1.06.7,1.69v14.38Z"/>
+    <path class="cls-1" d="m16,10.14c-1.42,0-2.78.56-3.78,1.57-1,1-1.57,2.36-1.57,3.78s.56,2.78,1.57,3.78c1,1,2.36,1.57,3.78,1.57s2.78-.56,3.78-1.57c1-1,1.57-2.36,1.57-3.78s-.57-2.78-1.57-3.78-2.36-1.57-3.78-1.57h0Zm0,8.29c-.78,0-1.53-.31-2.09-.86-.55-.55-.86-1.3-.86-2.09s.31-1.53.86-2.09c.55-.55,1.3-.86,2.09-.86s1.53.31,2.09.86c.55.55.86,1.3.86,2.09s-.31,1.53-.86,2.08c-.55.55-1.3.86-2.08.86h-.01Z"/>
+  </g>
+  <circle class="cls-1" cx="22.38" cy="9.1" r="1.62"/>
+</svg></a>
+<!-- FACEBOOK -->
+<a title="Facebook" target="_blank" href="https://www.facebook.com/newyorkfed"><svg id="social-facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path class="st2" d="M16.7,14.3h-3.4v4.6h3.4v13.7h5.7V18.8h4.1l0.4-4.6h-4.6v-1.9c0-1.1,0.2-1.5,1.3-1.5H27V5.2h-4.3
+		c-4.1,0-5.9,1.8-5.9,5.3V14.3z"/>
+</g>
+</svg></a>
+  </div>
+	<div class="grid_2 dxt-group-1">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2"><a href="/outreach-and-education/speakers_bureau" title="Request a Speaker">Request a Speaker</a></li>
+          <li class="nav nav-level-2" id="nav-item-115"><a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="International Seminars &amp; Training">International Seminars &amp; Training</a></li>
+          <li class="nav nav-level-2" id="nav-item-470"><a href="/governance-and-culture-reform" title="Governance &amp; Culture Reform">Governance & Culture Reform</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 omega dxt-group-2">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2" id="nav-item-114"><a href="/data-and-statistics/data-visualization" title="Data Visualization" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Data Visualization']);">Data Visualization</a></li>
+          <li class="nav nav-level-2" id="nav-item-472"><a href="/digital-products/economic-research-tracker" title="Economic Research Tracker">Economic Research <br />Tracker</a></li>
+          <li class="nav nav-level-2" id="nav-item-114"><a href="https://markets.newyorkfed.org/static/docs/markets-api.html" title="Markets Data APIs" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Markets Data APIs']);">Markets Data APIs</a></li>
+          <li class="nav nav-level-2"><a href="/podcast" title="Podcast">Podcast</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 alpha dxt-group-3">
+       <ul id="nav-list-112-2" class="nav nav-level-1">
+          <li id="nav-item-117" class="nav nav-level-2"><a href="/contacts" title="Contact Us">Contact Us</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy/termsofuse" title="Terms of Use">Terms of Use</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy" title="Privacy" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Privacy']);">Privacy</a></li>
+<li class="nav nav-level-2"><a href="/sitemap" title="Site Map">Site Map</a></li>
+        </ul>
+  </div>
+	<div class="grid_1 dxt-group-4">
+    <a href="/aboutthefed/tips_and_complaints" title="Tips and Complaints">
+		<div id="fraud"></div>
+		</a>
+  </div>
+	<div class="grid_3 dxt-group-5">
+		<img src="/medialibrary/media/v4/images/Fed-seal.png" alt="Federal Reserve Bank Seal" id="footer_seal" title="Federal Reserve Bank Seal">
+  </div><div id="vsn"></div>
+</div>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ44JQ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start SiteImprove -->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6039721.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<!-- End SiteImprove -->
+
+
+
+    </div>
+<script type="text/javascript"  src="/8aGm1slI/sLH/3Oi/faSKEasyRz/G1kEzQJt8kNVkSL7/OxtkPw/OE1KNz8/ARwcC"></script></body>
+</html>

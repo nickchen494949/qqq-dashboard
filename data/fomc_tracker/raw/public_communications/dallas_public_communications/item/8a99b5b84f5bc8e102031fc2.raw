@@ -1,0 +1,593 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A Perspective on the U.S. Economy and Monetary Policy - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2011/fs110606" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2011/fs110606" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2011" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2011/fs110606-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">A Perspective on the U.S. Economy and Monetary Policy</h1>
+                                                    <div class="dal-tagline">Containing (or Restraining) Systemic Risk: The Need to Not Fail on 'Too Big to Fail' (With Reference to Margaret Thatcher, Geoffrey Howe, Irving Kristol, Joe Nocera, Bastiat, Nietzsche, Mencken and Sandy Weill) </div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">June 6, 2011</span> New York, N.Y.</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+      <p>Thank  you for that kind introduction. This discerning audience no doubt noted that  despite being overeducated, I am not a formally trained economist. I do not  have a Ph.D. in economics; those who do will correctly deduce that I am  somewhat &ldquo;dismal&rdquo; in comprehending the arcana of &ldquo;the Dismal Science.&rdquo; After my  undergraduate education in economics and my studies at Oxford, I took a  different path. I earned an MBA and then went to Wall Street and into funds  management before cashing out and taking to public service. My perspective on  monetary policy and regulation is shaped less by theory and more by my  experience as a market operator. </p>
+      <p>I  confess that in matters of monetary policy and regulation, I am often in the  minority. This does not make me the least bit uncomfortable. The majority  opinion is not always right; indeed, my experience as an investor has biased me  to conclude that more often than not, the consensus view is the wrong view,  even among the most erudite. Exhibit A of the fallibility of consensus thinking  is the herd mentality among supposedly sophisticated financiers as well as  theoretical economists who believe in efficient-markets theory and other  nonsense themes that led us into the recent financial crisis. I happen to  believe that Margaret Thatcher, the former British prime minister, was right  when she said, &ldquo;You cannot lead from the crowd.&rdquo;[<a href="#n1">1</a>] There is a role  for contrarians, not just in the investment arena, but also at the highest  level of policymaking; at a minimum, it is important to question and challenge  consensus views, even when they are formed by the most credentialed  individuals.</p>
+      <p>For  example, some of you may recall the public letter written by 364 eminent  economists predicting disastrous consequences that would result from Thatcher&rsquo;s  policy initiatives. That letter was published in the <em>Times</em> of London on March 30, 1981.[<a href="#n2">2</a>] The British economy  began a recovery almost immediately afterward, in 1982; by 1983, inflation and  mortgage rates were at their lowest levels in over a decade, while economic  growth accelerated. The failure of the consensus view led Chancellor of the  Exchequer Geoffrey Howe to define an economist as &ldquo;a  man who knows 364 ways of making love, but doesn't know any women.&rdquo;[<a href="#n3">3</a>] </p>
+      <p>To be sure, economic  theories and econometric models are of great utility for providing a framework  for policymaking; we cannot make policy without them. But they are imperfect  substitutes for common sense. The late New York intellectual Irving Kristol is  reported to have said: &ldquo;Don&rsquo;t fall for fantastical notions that have nothing to  do with the way people really are.&rdquo;[<a href="#n4">4</a>] My experience of having worked  in real time in the financial markets leads me to a different perspective on  financial operators and markets than that of most of my colleagues at the  Federal Open Market Committee (FOMC). This not only affects my views on the  implementation of monetary policy, but also shapes my perspective on  regulation.</p>
+      <p>Monetary  policy and regulation are intricately linked. When conducting its monetary  policy, the Fed is governed by a dual mandate: creating the monetary conditions  to foster maximum employment growth while constraining inflation and its alter  ego, deflation. These goals cannot be realized without financial stability that  results from effective regulation. As the FOMC now sets its sights on  concluding the accommodative monetary policy it fashioned to stave off  financial collapse and deflation, our supervision and regulation team is  wrestling with developing the appropriate policy for dealing with the lingering  effects of the financial crisis, and, most importantly, erecting a new  regulatory framework to substantially reduce the chances of financial crises.  Or at least make them more manageable, should one occur again. (In all candor,  it would be more historically accurate to say &ldquo;<em>when</em> one occurs again,&rdquo; because crises and panics have occurred  repeatedly throughout history, including three times just in my own career: the  mid-1970s, the late 1980s and just recently).</p>
+      <p>The  Federal Reserve&rsquo;s efforts to revamp the regulatory framework are being led by Governor Tarullo, who is providing focused,  important leadership on this critical matter.[<a href="#n5">5</a>] The revamping.is  largely shaped by the Dodd&ndash;Frank Wall Street Reform and Consumer Protection Act  (&ldquo;Dodd&ndash;Frank&rdquo;), which became law last summer. The act establishes a new  regulatory infrastructure for promoting financial stability. Among its most  prominent macroprudential features is the Financial Stability Oversight  Council, an interagency body charged with detecting and deterring threats to  the financial system. The act also establishes an Office of Financial Research,  a mechanism for the orderly winding down of failing financial firms, and new  responsibilities for the Federal Reserve in overseeing certain nonbank  financial companies and certain payment, clearing and settlement utilities. The  Federal Reserve Board is also directed to develop enhanced prudential standards  for large banking organizations and systemically important nonbank financial  firms.</p>
+      <p>Dodd&ndash;Frank  itself mostly provides only high-level direction, leaving an extraordinary  number of details and critical decisionmaking to regulatory discretion. As a  result, the ultimate nature and future of reform rest in the hands of  regulators. As many of you are aware, the various regulatory agencies are  presently seeking public comments on a range of issues involving implementation  of Dodd&ndash;Frank.</p>
+      <p>Most  regulatory reform initiatives applied since the Banking Act of 1864 have missed  the mark. They looked good on paper and appeared to solve the problems of the  day but later proved not up to the task. This is especially true with efforts  to solve the &ldquo;too big to fail&rdquo; problem, in which an unwillingness to follow  through on prior policy commitments to actually close down large failures and impose  losses on their uninsured creditors has led to what economists call &ldquo;time  inconsistency&rdquo; in policy. Let&rsquo;s hope this time will be different, that  regulators will make their commitments credible and consistent with future  rather than past needs.[<a href="#n6">6</a>]</p>
+      <p>Having  come from the financial industry, I take a keen interest in these issues, and I  hold some strong opinions as to how we should proceed. I believe there are  leverage points for effective reform. There are areas where, if regulators act  decisively, they might have profound positive effects and avoid time  inconsistency. Conversely, there are other areas where regulatory action would  at best generate small benefits and, in the worst case, might actually be  counterproductive.</p>
+      <p>The  key to successful reform will be to identify the leverage points that exist and  do our best to ensure regulators are up to the task in those areas while not  burdening other aspects of the financial system with heavy intervention that  might trigger the law of unintended consequences. </p>
+      <p><strong>Eye on Target</strong></p>
+      <p>Let us be clear about the goals of reform. With so much energy  being expended on <em>the what</em>, <em>the when</em> and <em>the how</em> of implementing Dodd&ndash;Frank, the first risk we run is  forgetting <em>the why</em>&mdash;the reasons for  the act, its primary goals.</p>
+      <p>For this, we need only turn to the law itself, the preamble, which  spells out the key objectives as follows: &ldquo;To promote the financial stability  of the United States by improving accountability and transparency in the  financial system, to end &lsquo;too big to fail,&rsquo; to protect the American taxpayer by  ending bailouts, to protect consumers from abusive financial services practices  and for other purposes.&rdquo;[<a href="#n7">7</a>] On the subject of too big to fail, the  legislation is quite blunt. The Conference Report summary of the legislation&rsquo;s key  provisions, provided in plain English by the Senate Banking Committee, states  that it seeks to end &ldquo;the possibility that taxpayers will be asked to write a  check to bail out financial firms that threaten the economy by: creating a safe  way to liquidate failed financial firms; imposing tough new capital and  leverage requirements that make it undesirable to get too big; updating the  Fed&rsquo;s authority to allow system-wide support but no longer prop up individual  firms; and establishing rigorous standards and supervision to protect the  economy and American consumers, investors and businesses.&rdquo;[<a href="#n8">8</a>]</p>
+      <p>While there is much to criticize about Dodd&ndash;Frank, I cotton to  those blunt statements on ending too big to fail. For, if after the myriad  rules and regulations are written and implemented we have not eradicated too  big to fail from our financial infrastructure, reform will have failed yet  again.</p>
+      <p>I have spoken to this topic on several occasions.[<a href="#n9">9</a>] If  you  pull up a copy of the Sept. 28, 2009, <em>Wall Street Journal</em>, you will find an article I wrote with my colleague  Harvey Rosenblum about the interference too big to fail poses for the effective  conduct of monetary policy. In looking at regulatory reform and implementing  Dodd&ndash;Frank, I think a key point worth repeating is that the distinction between  &ldquo;commercial banks&rdquo; and &ldquo;the shadow banking system&rdquo; is a false one. The two  became intertwined beginning with the bypassing of Glass&ndash;Steagall strictures by  Sandy Weill and Citicorp and the deregulatory initiative of Gramm&ndash;Leach&ndash;Bliley.  The fact is that the largest commercial  banks played a major role in many of the more problematic phenomena of the  recent credit boom and ensuing crisis, including the spread of what I have  previously referred to as financial STDs, or securitization transmitted  diseases. </p>
+      <p>In  the aftermath of the Panic, these viruses linger. Last week, the <em>New York Times</em> printed an interesting  article by Joe Nocera, who drew upon the observations of a highly regarded  regional banker from Buffalo, Robert Wilmers of M&T Bank.[<a href="#n10">10</a>]  Wilmers claimed that of the $75 billion made by the six largest bank-holding  companies last year, $56 billion derived from trading revenues. Nocera noted  that &ldquo;in 2007, the chief executives of the Too Big to Fail Banks made, on  average, $26 million &hellip; more than double the compensation of the top nonbank  Fortune 500 executives.&rdquo; A recent survey conducted for the <em>Wall Street Journal</em> of CEO compensation at 350 public companies  shows that financial services compensation has been tempered; the rate of  increase in compensation for 2010 was just 1 percent.[<a href="#n11">11</a>] The <em>Journal</em> attributed this to higher levels  of scrutiny of financial firms as well as pressure from shareholders and  regulators. Even so, some financial-sector CEOs enjoyed robust increases in  their total compensation, including a 74 percent increase and a 51 percent  increase at two of the five largest U.S. banking organizations. Interestingly,  the trading revenue of these two firms accounted for almost half of the $56  billion in total trading revenue mentioned by Mr. Wilmers. These recent numbers  buttress Nocera&rsquo;s reasonable conclusion that bank CEOs &ldquo;were being compensated  in no small part on their trading profits&mdash;which gave them every incentive to  keep taking those excessive risks.&rdquo;</p>
+      <p>I  am sympathetic to these concerns. I have no problem with risk takers being  rewarded with large compensation packages. I put my own and my partners&rsquo;  capital at risk for the 20 years I operated in the markets and profited  handsomely. But I never was provided with capital that was safeguarded by  government guarantees. There is no logic to having the public underwrite  through deposit insurance or subsidize through protective regulation the  risk-taking ventures of large financial institutions and their executives.  There is a substantial case to be made for separating the &ldquo;public utility&rdquo;&mdash;or  traditional core function of banking&mdash;from the risk-taking function.</p>
+      <p>To  be sure, financial problems are not limited to large institutions and their  complex, opaque and conflicted operations. Regional and community institutions  that have, for the most part, stuck to the public utility function have faced  their own difficulties, especially in the context of construction lending. But  while over 300 banks failed during the crisis,  another 7,000 did not. Community and regional banks that are not too big to  fail appear to have succumbed less to the herdlike mentality and promiscuous  financial behavior that affected their megabank peers.</p>
+      <p>Moreover, when smaller banks  got into deep trouble, regulators generally took them over and resolved them.  In the treatment of big banks, regulators, for the most part, tiptoed around  them. Failing big banks were allowed to lumber on, with government support,  despite the extensive damage they wrought. Big banks that gambled and generated  unsustainable losses received a huge public benefit: too-big-to-fail support.</p>
+      <p>Postcrisis,  the large institutions are even larger: The top 10 now account for 64 percent  of assets, up from 58 percent before the crisis and substantially higher than  the 25 percent they accounted for in 1990. In effect, more prudent and  better-managed banks have been denied the market share that would have been  theirs if mismanaged big banks had been allowed to go out of business. This  strikes me as counter to the very essence of competition that is the hallmark  of American capitalism: Prudently  managed banks are being victimized by publicly subsidized competition from  less-prudent institutions.</p>
+      <p>A  student of existentialism is tempted to recall Nietzsche&rsquo;s lament that, &ldquo;He who  is punished is never he who performed the deed.&rdquo;[<a href="#n12">12</a>] An acerbic  devotee of H.L. Mencken might be given to recite his dictum that while  &ldquo;injustice is relatively easy to bear; what stings is justice.&rdquo;[<a href="#n13">13</a>] I  do not doubt for a New York minute that the savvy big players who &ldquo;performed  the deed&rdquo; did so with confidence they would be protected by the authorities who  might find &ldquo;justice&rdquo; difficult to impose. In solving the crisis at hand during  the Panic, it appears that the most imprudent of lenders and investors were  protected from the consequences of their decisions; the sinners were rescued  and the virtuous penalized. In crafting regulations in response to Dodd&ndash;Frank,  we need to restore market discipline in banking and let the market mete out its  own brand of justice for excessive risk-taking rather than prolong the  injustice of too big to fail. </p>
+      <p>It  is not difficult to see where this dynamic, if uncorrected, will lead&mdash;to more  pronounced financial cycles and recurring crises. I would argue that the  failure to reform the banking system in Japan was one of the principal reasons  for that country&rsquo;s &ldquo;Lost Decade(s).&rdquo; We must not let that pathology take hold  here.</p>
+      <p><strong>Making Matters Worse</strong></p>
+      <p>If we do not keep this ultimate goal of reform firmly in mind, our  rule making not only might fail to promote the original objectives of reform,  but could actually work against them. Ironically, with Dodd&ndash;Frank, such a  perverse outcome is a distinct possibility.</p>
+      <p>The Dodd&ndash;Frank law entails the writing of more than 200 proposals  and rules covering a host of issues&mdash;risk-based capital requirements,  ability-to-pay requirements for home mortgages, protections for consumers  sending remittances to foreign countries and so on. The Congress decided the  need for these rules to be written, drawing on the input of many, including  some very thoughtful economists. Here, I think it wise to draw upon the insight  of the classical liberal Fr&eacute;d&eacute;ric Bastiat  in his take on unintended consequences. Bastiat opined, &ldquo;There is only one  difference between a bad economist and a good one: the bad economist confines  himself to the visible effect;  the good economist takes into account both the effect that can be seen and  those effects that must be foreseen.&rdquo;[<a href="#n14">14</a>]  The same might be said of regulators. As regulators grapple with  implementation of the voluminous Dodd&ndash;Frank reform act, the unforeseen must be  taken into account. The law of unintended consequences is always lurking in the  shadows. To get regulatory reform right, we have a lot of &ldquo;foreseeing&rdquo; to do.</p>
+      <p>One can envision, for example, that the potential cumulative  impact of the many regulations demanded by Dodd&ndash;Frank will be to artificially  raise the cost structure of the non-too-big-to-fail depository institutions. Imposition  of the new requirements and restrictions risks creating new economies of scale  in banking generated by the costs of regulatory compliance, many of which could  be fixed costs not fully proportional to bank size.</p>
+      <p>To the extent that a large scale becomes necessary to absorb the  regulatory cost associated with reform, Dodd&ndash;Frank could intensify the tendency  toward bank consolidation, resulting in a more concentrated industry, with the  largest institutions predominating even more than in the past. Such an outcome  would appear to me contrary to the stated spirit and goal of the act. A more  consolidated industry would only magnify the challenge of dealing with  systemically important institutions and offsetting their historically elevated  too-big-to-fail status. </p>
+      <p>My concerns over regulation-induced economies of scale and the  implications for industry consolidation apply to all the size classes of banks,  given the extensive list of new or enhanced requirements created by Dodd&ndash;Frank  and their associated compliance costs. As it affects community banking, my  concerns are tempered somewhat, though not completely alleviated, by the  small-bank exceptions that have been granted to several of the new law&rsquo;s more  costly requirements.</p>
+      <p>Unfortunately, the same cannot yet be said for the case of  regional banks. The act indicates that  all banking organizations with more than $50 billion in assets should be  subject to enhanced supervision. Some of the related regulatory proposals have  already been distributed for comment. Still other proposals for new, stricter  &ldquo;enhanced supervision&rdquo; rules for these banks will be unveiled soon.</p>
+      <p>Yet,  few really believe a $50 billion bank poses a systemic threat to our $17  trillion banking system. Nor is a $50 billion bank qualitatively similar along  risk dimensions to the very largest ones that exceed $2 trillion in size. The  top 10 banking organizations have a cutoff point of $300 billion. I posit that  this group should constitute the primary target for enhanced supervision.  Interestingly, despite its large share of industry assets, this group holds  only about 20 percent of the small-business loans on bank books. Clearly, these  institutions are engaged in substantial activities outside the traditional  banking role. It is within these very largest banks, and perhaps a few slightly  smaller yet highly complex or interconnected ones, that systemic risk is  concentrated. </p>
+      <p>If  the enhanced-supervision requirements are not highly graduated and imposed  primarily on the very largest banks, it is not difficult to imagine how the  costs associated with such supervision could lead mid-tier banks that exceed  the $50 billion threshold&mdash;yet fall well short of megabank status&mdash;to seek merger  partners in order to achieve sufficient scale by which to help cover the cost  of regulation. This would compound the problem rather than alleviate it. </p>
+      <p>With  regard to enhanced standards for such important factors as capital and  liquidity requirements, leverage limits and risk management, Dodd&ndash;Frank  instructs regulators to differentiate among these banks. Enhanced supervision  can be implemented on a graduated scale, based on the extent of assets beyond  $50 billion and possibly other factors. Let us do that fully, then, applying  these measures along a highly graduated scale, with only minimal added mandates  directed at mid-tier banking organizations.</p>
+      <p>However,  when it comes to the top 10 or so, I would apply Dodd&ndash;Frank extensively and  vigorously. I would apply all the elements of heightened supervision&mdash;from  enhanced standards for capital and liquidity requirements, leverage limits and  risk management to the additional measures of living wills and credit-exposure  reports, concentration limits, extra public disclosures and short-term debt  limits&mdash;with full force.</p>
+      <p>To  this we would add robust annual stress tests conducted by the Federal Reserve,  along with the additional tools and procedures of macroprudential supervision,  including in-depth horizontal reviews across large companies. </p>
+      <p><strong>Conclusion</strong></p>
+      <p>I  trust regulators will rise to the challenges posed by the financial crisis and  too big to fail, leaving a legacy of success and providing a practicable  infrastructure for next-generation supervision and regulation.</p>
+      <p>I  quoted Bastiat&rsquo;s criterion for a good economist as one who accounts for &ldquo;effects  that must be foreseen.&rdquo; Economists did not do a good job of foreseeing the  financial crisis. Neither did regulators. Moreover, previous measures directed  at containing too big to fail proved ineffective, with no one too surprised  that when crisis came, many large-bank counterparties were protected under  implicit guarantees. Let&rsquo;s hope that going forward, regulators can do better,  avoiding both unintended consequences and time inconsistencies. For if they  don&rsquo;t, and they are unable to solve the too-big-to-fail issue in a timely  manner, we will ultimately have to take more draconian measures and simply  break up the largest banking organizations to eliminate the threat they pose to  financial stability and economic growth. </p>
+      <p>That  is my contrarian view, and I&rsquo;m sticking with it.</p>
+      <p>Thank  you. </p>
+<div class="separator"></div>
+<h5>Notes</h5>
+
+                  <p>The views expressed by the author do not necessarily reflect official positions of the Federal Reserve System. </p>
+                  <ol>
+                    
+                    <li><a name="n1"></a>See &ldquo;Were 364 Economists All Wrong?&rdquo; Institute of  Economic Affairs, <a href="http://www.iea.org.uk/sites/default/files/publications/files/upldbook310pdf.pdf">www.iea.org.uk/sites/default/files/publications/files/upldbook310pdf.pdf</a>.</li>
+                    <li><a name="n2"></a>See &ldquo;Were 364 Economists All Wrong?&rdquo; BBC Newsnight  report by Stephanie Flanders, <a href="http://news.bbc.co.uk/2/hi/programmes/newsnight/4803858.stm">http://news.bbc.co.uk/2/hi/programmes/newsnight/4803858.stm</a>. </li>
+                    <li><a name="n3"></a>See &ldquo;Three Cheers for  Irving,&rdquo; by David Brooks, <em>New York Times</em>,  Sept. 22, 2009. </li>
+                    <li><a name="n4"></a>See &ldquo;Regulating Systemically Important Financial Firms,&rdquo; address by Governor  Daniel K. Tarullo at the Peterson Institute for International Economics, June  3, 2011.</li>                   
+                    <li> <a name="n5"></a>See the Dodd&ndash;Frank Wall Street Reform and Consumer Protection Act, <a href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=111_cong_bills&docid=f:h4173enr.txt.pdf">http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=111_cong_bills&docid=f:h4173enr.txt.pdf</a>. </li>
+                    
+                    <li><a name="n6"></a>See<a href="/en/news/speeches/fisher/2009/fs091119.aspx"> &ldquo;Paradise Lost: Addressing &lsquo;Too Big to Fail,&rsquo;&rdquo;</a> speech  by Richard W. Fisher at the Cato Institute&rsquo;s 27th Annual Monetary Conference, Nov.  19, 2009, and <a href="/news/speeches/fisher//2010/fs100414.cfm">&ldquo;Minsky Moments and Financial Regulatory Reform,&rdquo;</a> speech by  Richard W. Fisher before the 19th Hyman P. Minsky Conference, April 14, 2010.  Also see note 5 and &ldquo;The Blob That Ate  Monetary Policy,&rdquo; by Richard W. Fisher  and Harvey Rosenblum, <em>Wall Street Journal, </em>Sept. 28, 2009. </li>
+                    <li><a name="n7"></a>See &ldquo;The Good Banker,&rdquo;  by Joe Nocera, <em>The New York Times</em>,  May 30, 2011. </li>
+                   
+                    <li><a name="n8"></a>See <em>Daybreak:  Thoughts on the Prejudices of Morality</em>, by Friedrich Nietzsche, Cambridge,  U.K.: Cambridge University Press, 1997. </li>
+                    <li><a name="n9"></a>See <em>Prejudices:  Third Series</em>, by H.L. Mencken, New York: Alfred A. Knopf, 1922. </li>
+                    <li><a name="n10"></a> See  &ldquo;That Which is Seen, and That Which Is Not Seen,&rdquo; in <em>Essays on Political Economy</em>, by M. Fr&eacute;d&eacute;ric Bastiat, London:  Provost & Co., 1872.
+                      <p align="center">&nbsp;</p>
+                    </li>
+                  </ol>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

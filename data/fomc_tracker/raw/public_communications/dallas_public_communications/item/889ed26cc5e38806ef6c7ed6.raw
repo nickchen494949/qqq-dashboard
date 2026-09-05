@@ -1,0 +1,990 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Comments on Current Conundra - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070426" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070426" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2007" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2007/fs070426-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Comments on Current Conundra</h1>
+                                                    <div class="dal-tagline">Remarks to the 2007 Annual Conference of the Investment Adviser Association</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">April 26, 2007</span> Austin, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+                        <p>Thank you, Luther [King]. You 
+                          are a generous man. Luther chairs the ad hoc Financial 
+                          Advisory Group that I occasionally convene at the Dallas 
+                          Fed and is an invaluable advisor. But his and Teresa&rsquo;s 
+                          friendship with the Fisher family goes way back: Teresa 
+                          was the deaconess who guided our daughter Texana through 
+                          her confirmation at Highland Park Presbyterian Church 
+                          a long time ago&mdash;in fact, in the last century. 
+                          Our boys know each other and are friends. And from a 
+                          professional point of view, I have admired&mdash;and 
+                          been jealous of&mdash;Luther since I first started up 
+                          Brown Brothers&rsquo; operations in Texas almost 30 
+                          years ago. He is a man of punctilious courtesy and the 
+                          nicest sense of personal honor and about as decent and 
+                          forthright a friend as anybody could hope to have. I 
+                          am honored to be here with you today, Luther.</p>
+                        <p>I used to be one of you. As Luther 
+                          kindly mentioned, I ran a little investment advisory 
+                          firm and hedge fund way back in the days when the clients 
+                          and limited partners made more money than the investment 
+                          advisors and general partners did. Imagine that!</p>
+                        <p>I had planned to speak today about 
+                          four conundra: the impact of globalization; the problem 
+                          with relying on the data that you and I and we all look 
+                          at to gauge economic performance; how you&mdash;and 
+                          I use the term &ldquo;you&rdquo; deliberately, as you 
+                          will see later in this talk&mdash;will deal with the 
+                          problems of fiscal recklessness that have led us into 
+                          a cul-de-sac of long-term liabilities of almost unfathomable 
+                          dimension; and what a former distinguished associate 
+                          used to refer to as the yield-curve-shape &ldquo;conundrum.&rdquo; 
+                        </p>
+                        <p>Upon reflection, however, I realized 
+                          that the latter is really not much of a conundrum. Let 
+                          me explain, employing the caveat that I am speaking 
+                          today, as I always do, solely in my personal capacity 
+                          and am in no way speaking on behalf of the Federal Open 
+                          Market Committee or for anybody else in the Federal 
+                          Reserve.</p>
+                        <p>There is an enormous amount of 
+                          liquidity coursing though the arteries and veins and 
+                          capillaries of the financial system worldwide. There 
+                          is only so much of that liquidity that can be placed 
+                          by responsible fiduciaries in lesser credits since the 
+                          markets for non-dollar, non-euro, non-pound denominated 
+                          paper are limited. This is not to say that investors 
+                          have declined to invest in other markets, as we see 
+                          clearly in the narrow spreads between the biggest and 
+                          most established credits and lesser ones. </p>
+                        <p>Besides, the most prominent central 
+                          banks have been exemplars of good behavior: the rectitude 
+                          of the Fed, the European Central Bank and the Bank of 
+                          England is, I think, above question. (As, incidentally, 
+                          has been the behavior of the Aussies, the Canadians, 
+                          the Mexicans and many others). The Fed and other central 
+                          banks have gained credibility in keeping inflation low 
+                          and stable. </p>
+                        <p>Better inventory policy has helped 
+                          make real rates more predictable by smoothing out business 
+                          cycles. Pension funds are&mdash;surprise!&mdash;actually 
+                          matching their investments to the maturity schedule 
+                          of their liabilities. And in a rapidly globalized world, 
+                          foreign demand for Treasuries has increased both for 
+                          portfolio diversification needs and the desire of some 
+                          newly flush central banks to have ample reserves to 
+                          reduce currency volatility. </p>
+                        <p>Declines in risk premia are therefore 
+                          understandable against the background of sustained, 
+                          robust growth worldwide, the concomitant reduction in 
+                          volatility of the global macroeconomy and less inflation 
+                          risk. And the use of derivatives has reduced the short-term 
+                          price risk of long instruments, including Treasuries. 
+                          So, where is the conundrum? Why is it so puzzling that 
+                          longer rates are relatively low?</p>
+                        <p>Now, to be sure, one might try 
+                          to dispense with the &ldquo;riddle&rdquo; of the yield 
+                          curve by arguing that the reason for having a flat to 
+                          negatively sloped yield curve is that the market is 
+                          forecasting the possible onset of recession. </p>
+                        <p>It is true that inverted yield 
+                          curves have historically presaged recession, but with 
+                          one rather interesting exception that old folks like 
+                          Luther&mdash;let me restate that&mdash;that the historians 
+                          among you&mdash;will recall. In 1967, we had a credit 
+                          crunch hit the housing sector particularly hard and 
+                          we were fighting an unpopular war in a far-off land. 
+                          The yield curve flattened, then inverted, yet no recession 
+                          ensued.</p>
+                        <p>That said, I think that as we 
+                          progress deeper and deeper into a globalized marketplace 
+                          with more sophisticated methods for hedging risk, and 
+                          with central banks working double time, overtime, to 
+                          exorcise the demon of inflation, there are reasons other 
+                          than concern for the future of the economy for investors 
+                          to lower the risk premia they have historically demanded 
+                          as they move out along the yield curve.</p>
+                        <h3>Which leaves us with the other 
+                          three conundra.</h3>
+                        <p>By now, many of you know that 
+                          globalization is a preoccupation of the Dallas Fed. 
+                          We are building the Globalization and Monetary Policy 
+                          Institute. We orient most of our research and prepare 
+                          for Federal Open Market Committee meetings by looking 
+                          at the world through a global lens. </p>
+                        <p>We surmise that the integration 
+                          of markets for goods, services and capital has been 
+                          facilitated by the physical and cyber linkage of the 
+                          planet. That integration has changed the gearing of 
+                          the U.S. economy and brought into question many, if 
+                          not most, of our most treasured economic and monetary 
+                          conventions. </p>
+                        <p>We see tremendous behavioral shifts 
+                          in the real world as middle managers everywhere take 
+                          advantage of increased global integration by reaching 
+                          across physical borders and though cyberspace to drive 
+                          down their costs of goods sold and their G&A costs, 
+                          tighten their inventory management, improve supply-chain 
+                          efficiency, enhance productivity and access new markets. 
+                        </p>
+                        <p>We note that this goes deeper 
+                          than the simple trade in goods. And we know that it 
+                          affects not-for-profit enterprise as readily as for-profit 
+                          enterprise. </p>
+                        <p>Let me give you a simple example. 
+                          One of the great lung specialists in the world is Dr. 
+                          Jonathan Weissler, the chief of medicine at UT Southwestern 
+                          in Dallas. After he sees a patient, he dictates his 
+                          notes into a wireless voice recorder. The recording 
+                          is transmitted electronically to a service that employs 
+                          English-speaking scribes all over the world, often in 
+                          India. When Dr. Weissler comes to work the next morning, 
+                          there on his desktop is a transcript. So while the good 
+                          doctor gets his 40-winks-sleep overnight, someone in 
+                          India has written up his notes at a fraction of the 
+                          cost of having them transcribed locally and&mdash;of 
+                          concern to those worried about the status of education 
+                          here in the U.S.A.&mdash;with greater accuracy. Dr. 
+                          Weissler&rsquo;s productivity is enhanced. With the 
+                          savings that come from utilizing globalization, he can 
+                          put more time and money into saving lives here at home.</p>
+                        <p>We see this pattern repeated over 
+                          and over again, countless times in every size and shape 
+                          of enterprise. So what is the conundrum here? What riddle 
+                          does globalization&rsquo;s impact pose? Well, the riddle, 
+                          or more appropriately, the question, is whether or not 
+                          this impacts how the Federal Reserve executes policy 
+                          in accordance with our dual mandate to foster the monetary 
+                          conditions necessary to foster noninflationary sustainable 
+                          employment growth. </p>
+                        <p>How do we deliver on this mandate 
+                          in a globalized world? How do we monitor global capacity 
+                          constraints when statisticians in other countries measure 
+                          things differently and at different time intervals? 
+                          What instruments should we use to determine the optimal 
+                          speed that our economy can grow in a rapidly integrating 
+                          world? In economists&rsquo; terms, what is our NAIRU&mdash;our 
+                          non-accelerating inflation rate of unemployment? What 
+                          is its impact on inflationary expectations? How is globalization 
+                          conditioning the behavior of workers? Of consumers? 
+                          Of capital? </p>
+                        <p>No one really has the answers, 
+                          although some pretend to. So we are working hard at 
+                          the Dallas Fed and throughout the Federal Reserve to 
+                          come up with new data and new models that fit the new 
+                          world.</p>
+                        <p>Which brings me to the next conundrum: 
+                          the phenomenon of &ldquo;data dependency.&rdquo; Some 
+                          time ago, I gave a speech titled &ldquo;Confessions 
+                          of a Data Dependent.&rdquo; This was back when it was 
+                          in vogue to say that monetary policy was data-dependent. 
+                          And yet, upon reflection, I have personally come to 
+                          feel that this is a bit of an oxymoron, a contradiction 
+                          in terms, like &ldquo;jumbo shrimp&rdquo; or &ldquo;instant 
+                          analysis.&rdquo; Why? Because so much of the data you 
+                          and I consider essential are moving targets, subject 
+                          to constant revision&mdash;perhaps because the new, 
+                          globalized gearing of the economy makes measurement 
+                          so difficult. How &ldquo;data dependent&rdquo; can we 
+                          really be?</p>
+                        <p>In the 1920s, there was a British 
+                          Inland Revenue agent who later became a director of 
+                          the Bank of England named Josiah Charles Stamp. Stamp 
+                          once quoted a friend who had observed, &ldquo;The Government 
+                          [is] extremely fond of amassing great quantities of 
+                          statistics. These are raised to the nth degree, the 
+                          cube roots are extracted, and the results arranged into 
+                          elaborate and impressive displays. What must be kept 
+                          in mind, however, is that in every case, the figures 
+                          are first put down by a village watchman, and he puts 
+                          down anything he damn well pleases!&rdquo;</p>
+                        <p>America&rsquo;s statisticians 
+                          are a careful lot who do not record anything they darn 
+                          well please. But it is important to remember that even 
+                          our best measures of economic performance are subject 
+                          to substantial revision well after the fact, not only 
+                          because the modern equivalent of the village watchman 
+                          occasionally puts down faulty numbers, but also because 
+                          we can&rsquo;t always get numbers from all the watchmen 
+                          in real time.</p>
+                        <p>There is a tension between timely 
+                          data and accurate data. Timely data are often based 
+                          on estimates and probabilities that are injected to 
+                          fill in missing numbers, only to be changed when more 
+                          complete information comes in. Markets react to the 
+                          timely data with apoplectic frenzy, only to have the 
+                          same number quietly revised many months or even years 
+                          later in light of more substantiated evidence, but without 
+                          the same market fanfare.</p>
+                        <p>Let&rsquo;s go to the videotape 
+                          on inflation. In the 1990s, concern grew that our main 
+                          inflation gauge, the Consumer Price Index, was providing 
+                          a distorted view of price trends. A pickup in the pace 
+                          of productivity growth in some sectors and an expansion 
+                          of the reach of global markets due to the far-reaching 
+                          trade-liberalization policies of Presidents George H. 
+                          W. Bush (&ldquo;41&rdquo;) and Bill Clinton were, together, 
+                          leading to sharp declines in the relative price of goods 
+                          like apparel and consumer electronics. The CPI reflects 
+                          the resultant shift in household spending patterns with 
+                          a substantial lag and, in the meantime, puts too little 
+                          weight on falling prices and too much weight on rising 
+                          prices. The more quickly household spending patterns 
+                          change, the greater the likelihood of upward bias in 
+                          CPI inflation.</p>
+                        <p>An alternative inflation gauge&mdash;the 
+                          deflator for personal consumption expenditures&mdash;both 
+                          continuously adjusts for changes in the composition 
+                          of household spending and also has broader coverage 
+                          than the CPI. So, in 2000, federal policymakers adopted 
+                          the PCE price index excluding food and energy as their 
+                          preferred measure of inflation trends.</p>
+                        <p>Unfortunately, the nice theoretical 
+                          properties of the PCE inflation measure come at a price: 
+                          PCE inflation is not released until several weeks after 
+                          CPI inflation (which confuses the public) and is revised, 
+                          often substantially, when new, more complete estimates 
+                          of the composition of household spending become available 
+                          (which confuses the analytical community).</p>
+                        <p>Core inflation for 2003 was initially 
+                          reported out at 0.9 percent. Later, having gone back 
+                          and studied the entrails, the Commerce Department put 
+                          inflation during 2003 a full half percentage point higher, 
+                          at 1.4 percent. Similarly, 2004 core inflation was initially 
+                          thought to be 1.6 percent, but subsequent revisions 
+                          put it at 2.2 percent. </p>
+                        <p>Or look at GDP estimates. The 
+                          first release received for GDP growth for the fourth 
+                          quarter of last year was 3.5 percent. A month later, 
+                          it was revised downward to 2.2 percent. Recently it 
+                          was revised upward to 2.5 percent. </p>
+                        <p>Remember this when the numbers 
+                          for the first quarter of this year are released tomorrow. 
+                          GDP growth, industrial production, retail sales and 
+                          payroll employment are imperfect statistics that make 
+                          a splash when they are first released and yet hardly 
+                          make a ripple when their true nature is finally revealed.</p>
+                        <p>Data revisions have important 
+                          implications for policymaking and policy evaluation. 
+                          Potentially, they can erode central bank credibility. 
+                          Partly because of data revisions, it is hard for us 
+                          to spot turning points in the economy. The fact is, 
+                          statistical agencies fill in missing data with extrapolations 
+                          that are especially likely to be wrong at these turning 
+                          points because the estimates and probabilities they 
+                          use are biased toward the latest trend. The result is 
+                          that we are likely to underestimate slowdowns and pickups 
+                          at precisely the moment when we need to take corrective 
+                          action. </p>
+                        <p>Inevitably, a monetary policymaker&rsquo;s 
+                          reliance on data that are subject to revision means 
+                          that some decisions would have been marginally different 
+                          with the benefit of hindsight. I say &ldquo;marginally 
+                          different&rdquo; for two reasons. First, the FOMC is 
+                          eclectic in that it monitors a broadly diversified portfolio 
+                          of indicators and reports from a variety of sources 
+                          in the expectation that the noise elements in the various 
+                          indicators and reports will tend to cancel one another 
+                          out. This portfolio approach limits the weight on any 
+                          one piece of information or any one source. Second, 
+                          our policy decisions are influenced by what&rsquo;s 
+                          happened in the past mostly through how the past conditions 
+                          the outlook for the future: We&rsquo;re focused on where 
+                          inflation and real growth seem to be heading, more so 
+                          than on where they&rsquo;ve been. </p>
+                        <p>In this respect, Fed policymakers 
+                          are value investors rather than momentum traders. After 
+                          hard experience, we&rsquo;ve learned how to deal with 
+                          revisions and are able to manage them more or less successfully. 
+                          We don&rsquo;t radically alter policy based on inflation 
+                          or output realizations as long as the reasoning behind 
+                          our original assessment of the economic outlook seems 
+                          sound. In a sense, we have learned the dangers of taking 
+                          numbers based on estimates and probabilities at face 
+                          value alone. </p>
+                        <p>Estimates and probabilities bring 
+                          me to the last conundrum: How <em>you</em> are going 
+                          to save your children and grandchildren from facing 
+                          the certain probability that the massive liabilities 
+                          accumulating to our Medicare and Social Security programs 
+                          are going to rob them of their futures. </p>
+                        <p>According to the latest official 
+                          U.S. government trustee reports that were released on 
+                          Monday of this week, the infinite-horizon discounted 
+                          present value of our unfunded liability from Social 
+                          Security and Medicare&mdash;in common language, the 
+                          gap between what we will take in and what we have promised 
+                          to pay&mdash;now stands at $88.2 trillion. The potent 
+                          combination of lower birthrates, higher medical costs 
+                          and longer life expectancies provides little reason 
+                          to hope the figure will fall. Last week, I shared my 
+                          concerns about our long-term liabilities that were based 
+                          on earlier trustee reports, which tallied the shortfall 
+                          at $83.9 trillion, a full $4.3 trillion less that this 
+                          new report suggests. </p>
+                        <p>Just how big is an $88.2 trillion 
+                          shortfall? Well, it is almost seven times the U.S. gross 
+                          domestic product. It is more than 100 times the country&rsquo;s 
+                          annual defense budget. If you divide the $88.2 trillion 
+                          evenly among the 302 million U.S. residents, you get 
+                          a per-person liability of $292,000&mdash;more than six 
+                          times the average household&rsquo;s annual income. Each 
+                          of us would have to pay that sum today if we wanted 
+                          to guarantee the solvency of our entitlement system 
+                          for future generations.</p>
+                        <h3>Let&rsquo;s explore this $88.2 
+                          trillion in a bit more detail. </h3>
+                        <p>We can divvy this liability into 
+                          four parts. The largest is the $29.8 trillion needed 
+                          to fund Medicare Part A, which covers hospital stays. 
+                          Another $27.7 trillion comes from Medicare Part B, which 
+                          covers doctors&rsquo; services. And $17.1 trillion stems 
+                          from Medicare Part D, the prescription drug benefit 
+                          that took effect in January of last year. The remaining 
+                          $13.6 trillion comes from Social Security. What is interesting 
+                          is the smallest of the four parts is the most debated 
+                          in Washington. It is yet another example of the old 
+                          rule that the amount of time spent debating a budget 
+                          issue in Washington is always inversely proportionate 
+                          to its cost. </p>
+                        <p>When people think about these 
+                          kinds of issues, they usually assume Social Security 
+                          is the big problem. As these figures show, the unfunded 
+                          liability from Medicare Part D alone&mdash;the new drug 
+                          benefit&mdash;is greater than the entire Social Security 
+                          shortfall. Taken together, Medicare&rsquo;s unfunded 
+                          liabilities are more than five times Social Security&rsquo;s. 
+                        </p>
+                        <p>The total unfunded liability from 
+                          Medicare and Social Security encompasses about 7.6 percent 
+                          of U.S. GDP from here to eternity, which works out to 
+                          70 percent of all federal income tax revenues from here 
+                          to eternity. So instead of paying $292,000 per person 
+                          now, we could permanently sequester 70 percent of all 
+                          current and future income tax revenue for use only on 
+                          Social Security and Medicare. Or we could permanently 
+                          raise income tax rates by 70 percent to accomplish the 
+                          same thing&mdash;although we&rsquo;d actually need to 
+                          jack it up even higher because a large tax hike would 
+                          probably discourage some people from working. </p>
+                        <p>To save promised benefits, we 
+                          would have to dramatically cut spending starting right 
+                          now or raise income taxes and never bring them back 
+                          down. And by doing so, we would only be covering the 
+                          <em>shortfall</em> from Social Security and Medicare 
+                          payroll tax receipts. All other existing sources of 
+                          entitlement funding, including payroll tax revenue, 
+                          copays, deductibles and premiums, would have to remain 
+                          in place.</p>
+                        <p>This is not a pretty picture. 
+                          And as bad as the situation currently is, the necessary 
+                          response becomes ever more drastic the longer we wait. 
+                          If past is prologue, the most likely response may be 
+                          to amend the current system&mdash;for example, by raising 
+                          the retirement age or making the payroll tax more progressive. 
+                          Many options would improve the fiscal fitness of our 
+                          entitlement system and reduce the need for drastic action 
+                          elsewhere in the federal budget. But let&rsquo;s be 
+                          honest. These remedies work only because some people 
+                          would get less than they are currently slated to receive. 
+                          Painful as that may be, the question is whether other 
+                          options would be even more difficult. </p>
+                        <p>At face value, fiscal policy may 
+                          not seem a concern for the Federal Reserve. After all, 
+                          Congress holds the power of the purse. But the Fed cannot 
+                          be an indifferent bystander to the overall thrust of 
+                          fiscal policy. The reason is straightforward: Bad fiscal 
+                          policy creates pressure for bad monetary policy. When 
+                          fiscal policy gets out of whack, monetary authorities 
+                          face pressure to monetize the debt, a cardinal sin in 
+                          my mind. </p>
+                        <p>The Fed is not the answer to our 
+                          fiscal woes. Congress, as keeper of the government&rsquo;s 
+                          purse and the sole body with the power to tax and spend 
+                          the people&rsquo;s money, and the president, who approves 
+                          their spending, are where the buck should stop. But 
+                          here is the rub: Voters like you elect the Congress 
+                          and the president. History may place blame on this or 
+                          that president or on Congress for failing to act. Ultimately, 
+                          though, the responsibility for solving this looming 
+                          fiscal issue rests with you, the voter.</p>
+                        <p>You may remember my mention of 
+                          Josiah Stamp earlier. If you don&rsquo;t figure out 
+                          a way to get your elected representatives to come to 
+                          grips with the overwhelming problem of Medicare, your 
+                          heirs may well end up like Josiah Stamp&rsquo;s. Stamp 
+                          refused to evacuate his stately home during Hitler&rsquo;s 
+                          bombings of London. He and his eldest son, Wilfred, 
+                          were killed by a bomb in 1941. Well, under prevailing 
+                          British law, in the event one could not determine who 
+                          in the line of succession died first, it would be presumed 
+                          that the eldest did. Thus, legally, Wilfred momentarily 
+                          inherited his father&rsquo;s peerage. Despite dying 
+                          together, the Treasury levied the estate tax twice: 
+                          once on the occasion of Papa Stamp&rsquo;s death, then 
+                          again immediately afterward upon Wilfred Stamp&rsquo;s 
+                          death. </p>
+                        <p>If you don&rsquo;t get your leaders 
+                          to focus on solutions that cover the unfunded liability 
+                          of these entitlement programs, you will be faced with 
+                          a Hobson&rsquo;s choice between a Federal Reserve that 
+                          reneges on its most solemn duty and government tax measures 
+                          far more drastic than ever occurred to the hapless Stamp 
+                          family. </p>
+                        <p>The Fed will not monetize our 
+                          government&rsquo;s debts. So you are left with the people 
+                          you elect to represent you in Washington. In the end, 
+                          that means you must turn to the person you look at every 
+                          day in the mirror&mdash;you. </p>
+                        <p>This is not a case where time 
+                          heals all wounds. Indeed, it is the exact opposite. 
+                          Time, in the case of our long-term unfunded liabilities, 
+                          wounds all heels. And you and your children and your 
+                          children&rsquo;s children will be the heels who are 
+                          wounded unless you demand that something be done about 
+                          it.</p>
+                        <p>Well, Luther, I am not sure that 
+                          happy ending will put a spring in your step as you retreat 
+                          to luncheon. Here is the point: Despite the constant 
+                          changes occurring in the way the world is economically 
+                          geared and measured, despite the imperfection of the 
+                          data, and despite the ebb and flow of political tides, 
+                          the Federal Reserve does its level best to get things 
+                          right. </p>
+                        <p>When I was invited to enter what 
+                          some call &ldquo;The Temple&rdquo; of the Fed, Chairman 
+                          Greenspan sat me down and told me that I only have one 
+                          duty here and that is to pursue the truth. It is a great 
+                          privilege to work for an institution that is so true 
+                          to its purpose. </p>
+                        <p>And Luther, maybe, just maybe, 
+                          when all is said and done, my colleagues and I will 
+                          be able to execute our mission with the same accomplishment 
+                          and grace and humility with which you and Teresa have 
+                          built your legacy in Fort Worth and in the investment 
+                          community at large.</p>
+                        <p>Thank you.</p>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

@@ -1,0 +1,611 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A level playing field for deposit insurance - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, Logan, bank funding models,  public policy,  banking system" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, Logan, bank funding models,  public policy,  banking system" />
+        <meta property="og:title" content="A level playing field for deposit insurance" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/logan/2024/lkl240718" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta property="og:description" content="Dallas Fed President Lorie K. Logan delivered these remarks at the Dallas Fed and Atlanta Fed conference,  “Exploring Conventional Bank Funding Regimes in an Unconventional World.”" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/logan/2024/lkl240718" />
+        <meta name="twitter:title" content="A level playing field for deposit insurance" />
+        <meta name="twitter:description" content="Dallas Fed President Lorie K. Logan delivered these remarks at the Dallas Fed and Atlanta Fed conference,  “Exploring Conventional Bank Funding Regimes in an Unconventional World.”" />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta name="dal_year" content="2024" />
+        <meta name="dal_topic" content="Banking and finance" />
+        <meta name="dal_topic" content="Financial stability" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/logan" class="breadcrumb-item dal-crumb__item">President Lorie Logan speeches and publications</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/logan/2024/lkl240718-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by President Lorie K. Logan</div>
+                                                        <h1 class="dal-headline">A level playing field for deposit insurance</h1>
+                                                                    <div class="dal-inline-list">
+                                <p class="list-item--bar dal-content-date">July 18, 2024</p>
+
+                    </div>
+                            <div class="dal-abstract">Dallas Fed President Lorie K. Logan delivered these remarks at the Dallas Fed and Atlanta Fed conference, 
+<a href="/research/events/2024/24deposit">“Exploring Conventional Bank Funding Regimes in an Unconventional World.”</a>
+</div>
+                        
+                        <p>Welcome. Thank you, <a href="/research/economists/wynne">Mark [Wynne]</a>, for the introduction. I&rsquo;m excited to be here with you all today and to welcome you  to the Dallas Fed.</p>
+<p>This week&rsquo;s conference  will focus on how banks fund their activities. Funding is a basic aspect of banking,  and it particularly comes into focus during stress episodes, such as the one we  experienced last year. Funding models can also influence the diversity and competitiveness  of the banking system over time, and in my remarks today, I&rsquo;m going to spotlight  those considerations.  </p>
+<p>I&rsquo;m so pleased that  our friends at the Atlanta Fed collaborated with us to organize and host this conference,  including my colleague President Raphael Bostic, who will speak tomorrow. I&rsquo;m delighted  to be joined by so many distinguished banking and policy leaders, including Federal  Reserve Gov. Michelle Bowman, who will give keynote remarks at dinner this evening;  Agustin Carstens, general manager of the Bank for International Settlements, who  will give tomorrow&rsquo;s opening keynote; and my colleague Mary Daly, president of the  San Francisco Fed, who will participate in a fireside chat this afternoon. And I&rsquo;m  thrilled to bring together industry, policymaker and academic perspectives for this  important conversation.</p>
+<h2>The importance of bank funding</h2>
+<p>Funding risk is  both one of the oldest challenges in banking and one of the most timely. The most basic activity banks do is transform deposits into  longer-term investments. Banks accept deposits, promise to return them whenever  depositors want and invest in the meantime in less-liquid assets, such as loans  that finance investment and fuel economic growth. </p>
+<p>So, as I&rsquo;m sure  the panelists in our history session this afternoon will discuss, bankers have long  understood the importance of being prepared to meet withdrawals—and of maintaining  depositors&rsquo; confidence so they don&rsquo;t withdraw money based on unfounded fears. </p>
+<p>But as we saw in  2023, maintaining depositors&rsquo; confidence can be challenging in today&rsquo;s highly networked  society that allows bank runs to propagate with <a href="https://research.stlouisfed.org/publications/economic-synopses/2023/05/26/understanding-the-speed-and-size-of-bank-runs-in-historical-comparison" target="_blank">unprecedented speed.</a> Now that banking conditions have stabilized and  the immediate pressures banks felt last year have passed—though we should always  remain watchful for any risks that may emerge—it&rsquo;s a good time to consider whether  adjustments in banks&rsquo; liquidity risk management or in related public policies can  support a strong and vibrant banking system in the modern environment. </p>
+<p>I&rsquo;m looking forward  to the ideas and insights all of you will share today and tomorrow. I&rsquo;d like to  start with a few perspectives of my own, and I&rsquo;ll note these will be my perspectives  and not necessarily those of my Federal Reserve colleagues.   </p>
+<h2>A framework for the issues</h2>
+<p>From my standpoint,  there are three main ways to ensure sound liquidity risk management in banking.  First, regulations can require banks to hold a certain amount of liquid assets,  or banks can choose to do so voluntarily. This approach is important, but relying  exclusively on it would have a drawback. By limiting the amount of liquidity transformation  banks do, this approach limits the amount of <em>banking</em> they do. </p>
+<p>Second, as a complement  to holding liquid assets, bankers and regulators can ensure banks have reliable  and ready access to contingent funding sources. Contingent funding can come from  private markets and from central bank backstops such as the Federal Reserve&rsquo;s discount  window and Standing Repo Facility or from similar facilities that other central  banks offer firms in their countries with funding from dollar swap lines. We&rsquo;ll  have a panel on contingent liquidity tomorrow. </p>
+<p>And third, banks  and regulators can work to stabilize the deposit and funding base. For example,  diversifying deposit sources can make a bank&rsquo;s funding more resilient. And  deposit insurance can reinforce customers&rsquo; confidence that their money is safe,  thus preventing bank runs and limiting the potential liquidity outflows that banks  may need to meet. </p>
+<p>These three approaches  interact. Buffers of liquid assets and sound plans for contingent funding can reassure  depositors and prevent runs, accomplishing some of the same goals as deposit insurance.  And to the degree deposit insurance succeeds in preventing runs, banks may not need  as much access to liquid assets or contingent funding. </p>
+<p>Experience over recent years has  demonstrated that the discount window and the Fed&rsquo;s other liquidity tools are effective  in supporting the stability of the banking and financial systems and, in turn, the  flow of credit to households and businesses. However, the payments and financial  systems, the economy, and technology continue to evolve rapidly. That evolution  can create new liquidity challenges and needs, as well as new opportunities for  the Fed to serve the public efficiently and effectively.  </p>
+<p>Our last full review of the discount  window function took place more than 20 years ago. By examining our approach to  discount window lending in the current environment and in light of recent experience,  we can ensure the window continues to provide ready access to liquidity going forward.  </p>
+<p>A critical element, in my view,  is enhancing depository institutions&rsquo; operational readiness to use the discount  window. In my opinion, every bank in America should be fully set up at the window  as part of its liquidity toolkit. That means completing legal documents and establishing  collateral arrangements well before any funding need arises. And it means testing  the plumbing—practicing the steps needed to take out and repay a loan and to move  collateral between the Fed and other funding sources. A bank facing a rapid run  will not have the luxury of waiting for setup or learning the procedures.  </p>
+<p>Working together with bankers,  the Federal Reserve System has already made substantial progress toward enhanced  operational readiness at the window. More than 5,000 depository institutions have  signed the necessary legal documents. They&rsquo;ve pledged $3 trillion in collateral,  up $1 trillion from last year. And we&rsquo;ve launched Discount Window Direct, an online  portal that lets depository institutions more efficiently request loans. </p>
+<p>I&rsquo;m optimistic that through further  modernization of our technology and policies, as well as ongoing partnership with  banks, we can ensure the discount window remains a powerful tool for providing the  banking system ample access to liquidity.</p>
+<h2>Deposit insurance for a diverse and competitive banking system</h2>
+<p>Turning to deposit  insurance, the Federal Reserve does not establish those policies. Deposit insurance  is the responsibility of Congress, the Federal Deposit Insurance Corporation (FDIC)  and the National Credit Union Administration. But deposit insurance policies do,  as I mentioned, interact with liquidity provisions by the Fed, as well as our work  supervising banks and promoting financial stability. So I&rsquo;d like to offer some thoughts  on those interactions and how deposit insurance can best support a banking ecosystem  that serves our economy well. </p>
+<p>My starting principle  is that deposit insurance policies, like all banking policies, should support a  level playing field and fair competition among banks. Fair competition is a fundamental element of our market economy. Across all  industries, fair competition promotes innovation, opportunity and diverse business  models that can meet the needs of many different customers. And that is just as  true in banking as in any other business.</p>
+<p>I grew up in Versailles,  Kentucky, a small town with a tight-knit community. In Versailles, like so many  other small towns in the United States, our community bank catalyzed economic growth. Observing this relationship instilled in me an  appreciation for how smaller banks support strong communities and local economies. </p>
+<p>My conversations  with business and community leaders as I travel the Eleventh District reinforce  that appreciation. We  heard from a woman in the Rio Grande Valley who dreamed of expanding her snack  stand. She didn&rsquo;t have financial statements to present to a bank for a loan. But  the bankers at a local community bank were regular customers, and they got to talking  about her ambitions. They realized she had a checking account at the bank, and  the account history of revenue and expenses showed she had a viable business. The  bankers worked with the snack stand owner to help her craft a business plan and  get a loan to expand. She now has multiple locations and even several franchisees.  That type of local knowledge and relationship-based lending is a specialty of smaller  banks.</p>
+<p>Communities&rsquo; needs  vary. To maintain a vibrant banking system that can meet those diverse needs, policies  should support a level playing field. That way, the banking models that best serve  customers and communities will come out ahead in the marketplace. </p>
+<p>In my view, a level  playing field is achievable when it comes to deposit insurance, but that could require  some change. Right now, a couple of factors related to deposit insurance come together  to give the largest banks a potential advantage in attracting deposits. Federal  insurance coverage is limited to $250,000 per depositor. That limit is supposed  to give small depositors confidence while creating incentives for larger depositors  to investigate their banks&rsquo; condition. While large depositors could theoretically  provide helpful market discipline, they also often perceive—rightly or wrongly—that  some banks are too big to fail and that the government will bail out those banks  or their depositors in a crisis. Such perceptions undermine market discipline and  tilt the playing field toward big banks. </p>
+<p>When I checked recently,  several of the country&rsquo;s biggest banks were offering interest rates of just 1 to  6 <em>basis points</em> on a standard savings account. How many community banks can  attract deposits at rates like that, when money market rates are over <em>500 basis  points?</em> Of course, there are many reasons why the largest banks may be able  to pay lower interest rates than other banks. For example, some customers may value  these banks&rsquo; wide range of capital markets, settlement, custodial, international  and other services or their extensive branch networks.  </p>
+<p>But the evidence  of a tilt goes beyond interest rates. Amid the severe banking stresses in early  2023, we heard many reports of depositors pulling their funds from smaller banks  and moving to the largest ones. Just in the second week of March 2023, <a href="https://www.federalreserve.gov/releases/h8/default.htm" target="_blank">deposits at the  country&rsquo;s 25 largest banks rose $113 billion, while deposits at all other domestic  banks fell $172 billion.</a> The shift was significant enough that executives at several of  the largest banks mentioned it in their quarterly earnings calls. One described <a href="https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2023/1st-quarter/1q23-earnings-transcript.pdf" target="_blank">&ldquo;significant new account opening activity and meaningful deposit  and money market fund inflows,&rdquo;</a> while another reported seeing <a href="https://finance.yahoo.com/news/bank-america-corporation-nyse-bac-172928438.html" target="_blank">&ldquo;noticeable flight to safety.&rdquo;</a> Meanwhile, at regional banks, executives were  saying things like <a href="https://finance.yahoo.com/news/western-alliance-bancorporation-nyse-wal-172857333.html" target="_blank">&ldquo;68 percent of our dollars that went out, went out to larger banks,  the money center banks,&rdquo;</a> and certain customers <a href="https://finance.yahoo.com/news/bankunited-inc-nyse-bku-q1-051243176.html" target="_blank">&ldquo;wanted to pull money out from all regional banks.&rdquo;</a></p>
+<p>If you step back and look at how  deposit insurance works, these actions by depositors aren&rsquo;t surprising. And although the flows to larger banks ebbed as banking conditions  calmed, the underlying incentives remain. </p>
+<p>Especially when  it comes to business accounts, $250,000 isn&rsquo;t such a large deposit. A small business  employing 110 people at the median wage would need $250,000 in its checking account  just to cover a biweekly payroll. What small business owner has time to conduct  regular, thorough checkups on a bank&rsquo;s health? So, many depositors prefer to bank  at institutions where they don&rsquo;t have to think hard about whether their funds are  safe.  </p>
+<p>And there&rsquo;s an important  exception to the $250,000 limit. If a bank fails and the Treasury secretary and  the boards of the FDIC and Federal Reserve agree there&rsquo;s a serious threat to financial  stability, the FDIC can cover all deposits, even those above the limit. The government  makes no advance commitments about when it will invoke that systemic risk exception.  The exception has sometimes been applied to cover uninsured deposits at relatively  small banks, such as when Silicon Valley Bank (SVB) and Signature Bank failed in  2023. Still, most depositors didn&rsquo;t foresee that action. If they had, they probably  wouldn&rsquo;t have run on SVB and Signature in the first place. By contrast, while the  government has not provided a formal guarantee to the eight U.S. firms designated  as Global Systemically Important Banks, or G-SIBs, most market participants think  it&rsquo;s pretty unlikely the authorities would let those firms&rsquo; depositors lose money.  After all, these banks are officially systemically important. </p>
+<p>The perception that  certain banks are too big to fail tilts the playing field. Some people argue that  stringent regulations on big banks counterbalance any too-big-to-fail benefits.  But even if the costs and benefits of size are equal most of the time, the equation  breaks when stresses emerge and the value of a perceived guarantee is suddenly much  larger. </p>
+<p>Conceptually, there  are a couple of possibilities for restoring balance. Regulators could adopt even  tougher regulations on the largest banks. But such regulations could put a drag  on the economy by raising big banks&rsquo; costs for some of the unique and critical intermediation  services they provide. Or, authorities could increase the deposit insurance limit  so that deposits would be more equally protected at all banks. The FDIC proposed  some interesting options along those lines in a <a href="https://www.fdic.gov/analysis/options-deposit-insurance-reforms/report/options-deposit-insurance-reform-full.pdf" target="_blank">report</a> last year. Of course, the benefits of a higher limit have to be  weighed against potential costs, such as whether deposit insurance premiums would  need to rise or whether a higher limit could increase moral hazard and encourage banks to take excessive  risks. </p>
+<p>We have a panel  on deposit insurance this afternoon, and I&rsquo;m eager to hear how the panelists weigh  these and other costs and benefits. Ultimately Congress would make any decisions.  But I would offer just a few more reasons why the current limit may be too low. </p>
+<p>For starters, the  economy has grown substantially since Congress last raised the limit in 2008. If  the limit had increased since then in line with nominal gross domestic product,  it would be nearly half a million dollars today.  </p>
+<p>Another reason is  the invocation of the systemic risk exception to cover SVB and Signature in 2023.  This was clearly the right decision to protect the economy and financial system  once the banks had failed. But the need to provide insurance after the fact to depositors  who weren&rsquo;t supposed to receive it and whose banks had not been regulated as systemically  important suggests to me the insurance limit was too low in the first place.  </p>
+<p>Lastly, I&rsquo;d note  the <a href="/research/economics/2023/1128">growing use of reciprocal deposit networks</a>, which allow banks  to swap deposits in excess of the limit with each other to provide depositors more  insurance. Reciprocal deposits reached $379 billion in the first quarter  of this year, up from $157 billion at the end of 2022. The vast majority of reciprocal  deposits—89 percent—are at banks with less than $100 billion in assets. That reflects  both the funding environment for smaller banks and the less-favorable regulatory  treatment of very large reciprocal deposits.</p>
+<p>Reciprocal deposits can cost banks  more than 10 basis points in network fees. Smaller banks&rsquo;  willingness to pay this cost to work around the deposit insurance limit suggests  the limit&rsquo;s too low. As a society, if we&rsquo;re going to provide the insurance anyway—which  is what happens when banks use reciprocal deposits—we may as well increase the limit  so we can avoid the costs, operational risks and regulatory mirages involved in  passing deposits back and forth between banks. </p>
+<p>Still, there is  lots to learn here, and I&rsquo;m eager to hear all of your views. </p>
+<h2>Conclusion</h2>
+<p>Turning to our agenda,  over the next day and a half, we&rsquo;ll examine not only the role of deposit insurance  in today&rsquo;s financial system, but also the stressors that led to the events of last  spring; lessons from historic financial crises; and the future of the discount window  and other contingent liquidity sources. We&rsquo;ll also have a roundtable discussion  on what academics, bankers and regulators see as the key risks and challenges in  bank funding. </p>
+<p>These discussions  will deepen our understanding of banks&rsquo; funding vulnerabilities and help the industry  and regulators prepare better for the future. </p>
+<p>Thank you all for  joining us today, and many thanks to the entire team here and at the Atlanta Fed  who worked so hard to make this conference happen.  </p>
+<p>Now, let&rsquo;s welcome  Arthur Lindo, who  will chair today&rsquo;s first session, &ldquo;A look back at the regional banking stresses  of 2023.&rdquo;</p>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <!--<p class="dal-info__heading">About the author</p>-->
+<div class="row dal-author-row one-up">
+   <div class="dal-author-card-wrapper">
+      <div class="dal-author-card"> <img  src="/-/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="Lori K. Logan" />
+         <p class="dal-author-card__name"></p>
+         <p><a href="/fed/leadership/logan"><strong>Lorie K. Logan</strong></a> is president and CEO of the Federal Reserve Bank of Dallas.</p>
+      </div>
+   </div>
+</div>
+
+<div class="separator"></div>
+<p>The views expressed are my own and do not necessarily reflect official positions of the Federal Reserve System.</p>
+
+
+                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+<div class="dal-sidebar__heading">President Lorie Logan</div>
+<ul class="dal__list--lined">
+    <li><a href="/fed/leadership/logan">About Lorie</a></li>
+    <li><a href="/news/speeches/logan">Speeches</a></li>
+ <li><a href="/fed/leadership/logan/360in365">360° Listening Tour</a></li>
+ <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+    <!-- <li><a href="/fed/leadership/logan/speaking">Public speaking events</a></li> -->
+</ul>
+
+<!--<p><a href="https://www.linkedin.com/in/lorie-logan-29a99310/" target="_blank">Follow Lorie on LinkedIn</a></p>-->
+
+
+<a href="https://cloud.email.em-dallasfed.org/signup" type="button" class="btn btn-primary dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-subscribe-sm"></span></span>
+  <span class="dal-button__text">Subscribe for<br>email alerts</span>
+</a>
+
+<!-- <a href="https://cloud.email.em-dallasfed.org/logansch" type="button" class="btn btn-brand-teal dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-calendar-sm"></span></span>
+  <span class="dal-button__text">Get president&rsquo;s speaking schedule</span>
+</a> -->
+
+<div class="mb-20"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

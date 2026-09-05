@@ -1,0 +1,580 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The U.S., Mexican and Border Economies - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070910" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs070910" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2007" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2007/fs070910-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">The U.S., Mexican and Border Economies</h1>
+                                                    <div class="dal-tagline">Remarks before a Federal Reserve Bank of Dallas Community Luncheon</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+ <p><span class="report-date">September 10, 2007</span> Laredo, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+                          <p>It is an  enormous pleasure to be back in Laredo. I spent a great deal of time here in  1993 and 1994, when I strayed from the path of righteousness and made a feeble  run for the U.S. Senate. Wading into the cold and brackish waters of politics  can be a gloomy experience, but there are rays of bright sunshine that provide  a lifetime of warm memories. One of the brightest rays in my mercifully brief  political career was Laredo.</p>
+                          <p>I recall most  fondly the Washington's Birthday Celebration weekends. I loved it when the  powers that be here selected Ann Richards as <em>Mr.</em> South Texas&mdash;a deft touch that showed Laredo manages to combine respect for tradition  with a cutting-edge sense of modernity, and do it with sass <em>en broma</em>. And I loved the splendor and  pageantry of the Colonial Ball, with all those beautiful young women in those  magnificent and phenomenally expensive dresses. </p>
+                          <p>I am not the  first and certainly won't be the last to be overwhelmed by the generosity of  the big-hearted people of this dynamic border city, including that of our  remarkable director from Laredo, Memo Trevino. I see many friendly faces  here today, including Rosanne Palacios and Alberto and Lucy Cardenas, among so  many others. Alberto and Lucy are the parents of Beto. Beto drove me around and  traveled with me during my Senate campaign against Kay Bailey Hutchison. That  was 13 years ago. Today, Beto works for Senator Hutchison, proof that time  really does heal all wounds. </p>
+                          <p>Having just  mentioned the Colonial Ball, I can't help but single out the LaMantias. Steve  and Linda have  five precious girls. It was not for nothing that after the birth of  Molly, the fifth daughter, Steve's dad, Joe, gave the family a dog named Boy.  In the back of his mind, Papa Joe was likely discounting  the future cost of five dresses for the Colonial Ball. And as true as my  friendship is for the LaMantia family, he knew it would have been a bit much  for me to argue for loosening monetary policy in order to accommodate  outfitting those five LaMantia girls.</p>
+                          <p>I  want to start today with a few observations about the U.S. economy before turning to the subject of Mexico and our border economy. I remind you that, as always,  I speak only for myself and neither for the Federal Open Market Committee&mdash;the  FOMC&mdash;nor the Federal Reserve System.</p>
+                          <h3>The Current Predicament of  the U.S. Economy</h3>
+                          <p>
+                          In recent weeks, we have heard much about financial market  turbulence. We've been distracted by the noise of the subprime fallout,  periodic reports of a "seizing up" in asset-backed commercial paper markets,  volatility in the stock market and tremors in other parts of the financial  infrastructure. (Apparently it is no longer true that, as Andrew Mellon once  famously quipped, "Gentlemen prefer bonds.") Amidst this clamor and drama, some  might have lost sight of our economy's great resiliency. In the first quarter  of 2007, U.S. GDP rose despite sharp declines in housing and automobile  production. Then second-quarter growth rebounded to a 4 percent annual rate,  which is considerable for a $13 trillion economy; in the second quarter alone,  Americans produced $130 billion in incremental output. Much of the renewed  strength came from net exports benefiting from a still-growing, historically  dynamic global economy, a reminder that our flexible, highly diverse economy  has many sources of growth. With a solid second quarter and low unemployment,  the U.S. economy entered the second half of the  year with good forward momentum. Given the financial turmoil that began last  month, I am generally encouraged by what I have heard and seen so far: As yet,  tighter credit conditions do not appear to have had a major impact on overall  economic activity outside of real estate.</p>
+                          <p>As  we approach the upcoming session of the FOMC, each of the participants, including  me, is diving deep into the data and taking soundings from business leaders,  bankers and others with operating ears to the ground to ascertain the current  pace of the economy and&mdash;this is important&mdash;the prospective dynamics of growth  and inflation. I am particularly active on this front. Before each meeting, I  speak with around 30 CEOs and CFOs of a careful selection of large and small  companies from around the country in order to get an in-depth understanding of  the pace of economic growth and price pressures they see through their  businesses. Meanwhile, our staff routinely surveys a broad base of businesses  within our district and reports their findings in what is known as the Beige  Book, the most recent of which was released last Wednesday. Lately, I have  focused on how recent developments in financial markets are impacting the  revenues and costs, supplier and customer dynamics, product mix and growth  projections of these hands-on operators of our economy. I am only partway along  in studying the entrails of the Beige Book and a third of the way through my  CEO and CFO conversations and have not yet reached any conclusions. However, it  is fair to say that I am encouraged by what I have heard against a background  of constant negative speculation and the occasional discordant note, such as  last week's employment numbers. Our economy appears to be weathering the storm  thus far. The future path of that storm and the appropriate policy course,  however, are still to be determined. </p>
+                          <p>At a recent Jackson Hole retreat for central bankers and economists, Ned Gramlich, a  much-revered and very wise former Fed governor who sadly succumbed to leukemia  on Wednesday, reminded us in a speech that America's economic progress has been punctuated  with booms and busts. The 19th century had its canal, railroad and mineral  booms. The 20th century had its rushes of financial innovation and new  technology. Each boom was followed by a collapse when prices could no longer  keep up. "When the dust clears," Gramlich wrote, "there is financial carnage,  many investors learning to be more careful next time, but there are often the  fruits of the boom still around to benefit productivity&hellip;. The canals and  railroads are still there and functional, the minerals are discovered and in  use, the financing innovations stay and we still have the Internet and all its  capabilities." The fruits of the subprime market boom, he reminded us, are the  millions of low-income and minority borrowers who now own their own homes and  are successfully making their payments and building equity for the future. </p>
+                          <p>Keep this in mind as the housing market corrects and the new  financial instruments spawned by the housing boom and turbocharged financial  technology continue seeking more rational price levels&mdash;levels that will be determined  not by ersatz valuation models and unsustainable return assumptions, but by the  market's discipline in equilibrating supply and demand. A great many families  who would never have had access to the ultimate fruit of the American  harvest&mdash;homeownership&mdash;were able to achieve that dream because of the housing  boom. </p>
+                          <p>And  what about the "bust" side of the equation, what Gramlich referred to as the  "financial carnage"? I managed a hedge fund for 10 years before selling my  interests in 1997, as I wound up a banking and asset-management career that had  started in 1975. I know from experience that markets are manic-depressive,  subject to enormous mood swings. They overshoot on the upside in periods of  enthusiasm and on the downside when reality sets in. During the inevitable  corrections, there are always cries of anguish&mdash;and no paucity of self-serving  policy recommendations&mdash;from financial market operators who exploited a boom and  then let complacency or greed get the better of their judgment. Reward is  commensurate with risk, and risk is a double-edged sword. I do not believe the  Federal Reserve's job is to protect specific risk takers who failed to protect  themselves from potential downside wounds. The Federal Reserve's job is to  protect the system itself. My colleagues and I take that responsibility very  seriously.</p>
+                          <p>People  always ask what guides me when I sit at the Federal Open Market Committee  table. The FOMC is a deliberative body, and monetary policy is a judgmental  business in the end. It is a complex and serious business. To live up to what  is expected of us, we have to make considered judgments and not react to the  latest data point or the "instant analysis" that is ubiquitous on the Internet  or in the news media or among the countless financial analysts who pump out  commentary like water from a fire hydrant. "Instant analysis" is a wonderful  oxymoron&mdash;a true contradiction in terms, like "jumbo shrimp" or "funny  economist"&mdash;but hardly the stuff of serious deliberation. </p>
+                          <p>What  guides me at the table is pretty straightforward. One of my four children is  here today, my son Miles. Whenever I sit at the FOMC table, I am mindful that  the entire transcript of our deliberations will be released in five years. I  think about what Miles and his brother and sisters will think when they read  their father's words in a historical context, removed from whatever the press  and the markets may be clamoring about at the time of the meeting. I am guided  first and foremost by a desire for my children to be  proud of their dad; to be judged by them as well as by economic historians as  having been wise rather than too smart by half, as having a steady hand rather  than an itchy trigger finger. I set aside the passions of the moment and the  conventional wisdom in the markets and keep a steady focus on the Fed's  mission: to conduct monetary policy so as to achieve long-term, noninflationary  economic growth for the great capitalist machine that is the United States of America. Conducting monetary policy is not a  popularity contest.</p>
+                          <p>All of this is a long way of saying that, in my humble opinion,  the standard tools of monetary policy are insufficient, by themselves, to deal  with the subprime market fallout. The best course, as Ned Gramlich reminded us,  is to minimize the future threat to the economy while taking care not to  strangle financial innovation and its benefits. He reckoned that over half the  subprime mortgage loans in recent years were made by independent lenders who  were not subject to federal supervision. Virtually all prime market loans, by  contrast, are made by federally supervised banks and thrifts or their  affiliates. Gramlich pointed out that "[i]n the prime market, where we need  supervision less, we have lots of it," whereas "in the subprime market, where  we badly need supervision, a majority of loans are made with very little  supervision." </p>
+                          <p>My guess is that a great deal of the potential dislocation  resulting from corrective reactions to the subprime boom will be resolved by  regulatory initiatives rather than by monetary policy. Yet it is important to  remember that regulatory reforms are like a vaccine&mdash;better at preventing  sickness than at curing it. Much of the solution for the current pathology lies  in the curative workings of the financial markets. I suspect the markets will  be unsparing in their treatment of the most egregious of those who engaged in  risky financial behavior. There is little that regulation can or should do to  interfere with letting that treatment run its course.</p>
+                          <p>Any new regulations that might now be crafted to prevent future  recurrences must be well thought out, for two reasons. First, financial  institutions will quickly adapt to defeat any regulation that is poorly  designed, morphing into new, vaccine-resistant strains. Second, heavy-handed  regulations are sometimes worse than the disease against which they are meant  to protect. I would be wary of any regulatory initiatives that interfere with  market discipline and attempts to protect risk takers from the consequences of  bad decisions for fear of creating a moral hazard that might endanger the  long-term health of our economic and financial system simply to provide  momentary relief. </p>
+                          <p>On that happy note, I want to shift the focus of my remarks today  and comment on the U.S.&ndash;Mexico economic relationship. </p>
+                          <h3>The Mexican Economy</h3>
+                          <p>Here  on the Texas&ndash;Mexico border, you are used to paying as much attention to Mexico as the U.S. I do, too<em>, </em>in  no small part because of my personal history. The country provided refuge to my  immigrant parents between 1939 and 1947 as they waited to become U.S. citizens. Two years after I was born in Los    Angeles, we were off to Mexico    City, where I was educated through  primary school and developed a love for all things Mexican. Apart from my  sentimental childhood attachment, my  economic perspective on Mexico was forged in part by the four years I spent as  deputy U.S. trade representative in the Clinton administration, negotiating with Mexico on the implementation of NAFTA. Back then, the  official coordination of infrastructure issues, regulations and other policies  needed to maximize the gains from free trade was done between the nations'  capitals<em>.</em> But I never forgot that the  cities and towns along the border, from the mouth of the Rio Grande to San Diego's beaches, were, and continue to be, ground zero for  the economic integration of Mexico and the U.S. </p>
+                          <p>I  like to say that Mexico and the United States are joined at the hip, especially when it comes to  the two nations' economies. Three-fifths of Mexico's imports, most of which are manufactured goods, are  from the U.S., and two-thirds of all foreign direct investment into  Mexico comes from U.S. investors. More than 90 percent of Mexico's exports are destined for the United States. Mexican workers provide a significant part of the  economic muscle that makes the U.S. economy so mighty, and Mexico is a critical part of our industrial base, feeding  the supply lines of American businesses. It is, therefore, vitally important  for the Dallas Fed to keep a watchful eye on the economic goings-on of its southern  neighbor. </p>
+                          <h3>What are we seeing across  the border?</h3>
+                          <p>Despite healthy  internal consumer demand supported by much-improved credit conditions, we see a  Mexican economy experiencing slower growth this year, largely due to a slowdown  in U.S. manufacturing and a weak first quarter.  Mexico's second-quarter GDP growth picked up, however, and the rest of this  year is expected to bring faster overall growth although a slowing in U.S.  manufacturing, fallout from the credit markets situation or other factors such  as less foreign direct investment and further weakness in remittances could  upset the more optimistic forecasts for the Mexican economy during the rest of  2007. </p>
+                          <p>Recent price  developments could dampen prospects as well. Consumer price inflation has been  slightly above Banco de M&eacute;xico's target range for a few months because of a  run-up in commodity and food prices. However, Mexican inflation has been at  historic lows in recent years, which continues to benefit workers and  consumers. Inflation is an onerous tax and a disincentive to work, save and  invest. In an economy plagued by rising prices, a dollar saved ends up a  quarter earned, a fact that does not change if you deal in pesos and centavos.  Thankfully, the Mexican economy continues to benefit under the superb  leadership of Guillermo Ort&iacute;z at Banco de M&eacute;xico. The central bank has elected  to stand pat since April, anticipating that inflation is on a slow downward  trend. Nevertheless, prices spiked in July, and inflation expectations among  economic and financial agents may be a bit too high. </p>
+                          <p>Short-term  obstacles, however, are not Mexico's foremost concern. Much more worrisome  is the fact that long-term growth remains hampered by persistent structural  impediments. And yet the Banco de M&eacute;xico, having used its constitutionally  guaranteed independence to subdue distracting inflationary impulses and peso  devaluations, has liberated President Calder&oacute;n's government and the Mexican  Congress to finally deal with these vexing issues. </p>
+                          <p>Investments in education are beginning to pay off, but schooling  is still inadequate in many parts of the country. Property rights aren't  enforced as well as they should be, creating difficulties for lending and investing.  The sprawling informal sector that employs more than 20 million people&mdash;from  low-skilled workers to entrepreneurs discouraged by the formal sector's  burdensome regulations and taxes&mdash;creates significant inefficiency. Widespread  tax evasion limits Mexico's ability to raise revenue, a hurdle for  needed investment in education and infrastructure. In the energy sector,  production and distribution are under government control and, given Mexico's limited fiscal resources, future  oil-producing capacity is a cause for concern.</p>
+                          <p>The  obstacles I've just enumerated are well documented and well  understood by Mexican authorities. There is no need for me to dwell on them  today. It is important to emphasize the tremendous progress the country has  made over the past two decades in several key areas. Mexico embraced free trade in the mid-1980s and strengthened  its economic roots with its northern neighbors and got its fiscal and monetary  affairs in order in the 1990s. Since then, the transformation has been remarkable.  Mexico has become an open economy with a steadfast  dedication to policy discipline and macroeconomic stability. Gone are the days  when election-year turmoil invariably brought Mexico's economy to its knees. </p>
+                          <p>Another  interesting development is in Mexican financial markets. Hard-earned  macroeconomic stability has brought momentous change to Mexico's once-backward financial services sector, giving  birth to a dynamic industry that, after a slow start, now offers a full menu of  banking and investment services and increasing lending capacity. Mexican and  Spanish banks are even buying banks in Texas and other U.S. border states to tap the large and growing Mexican population living on both sides  and cater to their demand for dollar-denominated accounts and other specialized  services. </p>
+                          <p>The  next frontier for Mexico is the implementation of structural reforms. There is much debate over  just what the reforms should look like. Difficult as the process may be, Mexico must redouble its efforts to implement needed  reforms. </p>
+                          <h3>Mexico and Texas</h3>
+                          <p>A  few moments ago, I used the image of the U.S. and Mexico being joined at the hip. If so, that makes Texas the hipbone that connects them. The border economy is  unique. The combination of maquiladoras, agriculture, cross-border trade and  the region's binational labor pool has let the Rio Grande Valley, Laredo  and El Paso enjoy solid growth, even during slowdowns elsewhere  in the U.S. and Mexico. Texas'  border cities have one foot in Mexico and one foot in the U.S., with growth linked to economic conditions on both  sides. The close ties to Mexico have allowed Brownsville, McAllen  and Laredo to rank among the country's fastest-growing areas  since 1990 in terms of population and jobs, and border unemployment rates have  dropped to record lows. A large and rapidly growing labor force and low  education levels, however, have meant that border wages have remained low  relative to the national average. Still, there are signs of improvement. Since  2000, average wages on the border have outpaced state and U.S. wage growth. And in 2006, median hourly wages  increased faster in the Rio Grande Valley than in the state or the nation. </p>
+                          <p>Maquiladoras  and trade-related transportation infrastructure have long been engines of  economic growth along both sides of the border. Export-related manufacturers on  the Mexican side have gained steadily, drawing on a constant stream of  migrating workers from southern Mexico and complementary component and material suppliers on  the U.S. side. While the emphasis is still industrial on the  Mexican side, the U.S. side is a services economy, with retail and health care making  significant gains in jobs and activity here in South Texas. Why? Job growth and a strong peso have improved the purchasing power  of the Mexican consumer. Texas' proximity to Monterrey, Mexico's second  wealthiest city, and prosperous maquiladoras along the border have also meant  an increase in shopping trips to Texas. This is not news to anyone in this  room. Between 1978 and 2001, Mexican nationals accounted for an estimated 53  percent of Laredo's retail sales. </p>
+                          <p>A  positive development along the border has been an explosion in its health care  industry over the past 10 years. Like retail and banking, health care is a  service that is in demand by Mexican nationals and by the burgeoning population  of U.S. retirees in Mexico. Hospitals and home health care agencies are  expanding at rapid rates and, along with growth in education and federal  government jobs in Border Patrol and Customs, are providing high-paying  employment to border residents. </p>
+                          <p>While  almost all Texas border cities have deep ties with Mexico, their linkages can be quite different, and their  economies respond accordingly to changing conditions in Mexico. Our research has found that, typically, sharp  declines in the peso result in economic downturns in Laredo, McAllen  and Brownsville. Each has retail sectors that depend heavily on  Mexican shoppers, so swings in the peso can have big impacts. The strong and  stable peso&mdash;thanks to the 1994 constitutional reform that gave Banco de M&eacute;xico  the independence it has so ably applied in recent years&mdash;is a big piece of the  puzzle that explains robust growth in Laredo and the Valley.</p>
+                          <p>The  outlook continues to be favorable for border population and job growth, both in  Texas and the states to our west. Real progress, however,  will require greater productivity and increased wages. The ultimate source of  income growth and prosperity originates with human capacity and education, the  development of which should be the highest priority of this community. It  should be the highest priority of this state. </p>
+                          <h3>Education and Immigrants</h3>
+                          <p>We  never know enough in today's world and must embrace lifetime learning to  achieve the American Dream. Our chief economist at the Dallas Fed, Mike Cox,  likes to say, "You earn what you learn." The U.S. economy today is far different from the one that  employed our parents and grandparents in the fields and factories. Agriculture  represents 2 percent of our national economy. Manufacturing employs only 11  percent of our workforce. Construction and mining represent 5 percent.  Eighty-two percent of American workers are employed in services, a sprawling  sector that includes some of the nation's most prestigious and highest-paying  jobs. </p>
+                          <p>My friend Stanley Fischer, governor of the Bank of Israel, once  quipped that "there are three kinds of economists: those who can count and  those who can't." Yet even mathematically challenged economists are united on this: Education pays off. There is an irrefutable  positive link between education and income. Wages are low on the border because  education levels are low. We see this link across states, across countries,  between individuals and in America's progress over time. </p>
+                          <p>Spending  on education is an investment in our children. But that takes time, and we in Texas and the U.S. have meanwhile added to our intellectual capital in  another way. We import educated workers from other countries and do what we can  to retain foreign students who come to study here. Along the U.S.&ndash;Mexico  border, you know this well. Throughout its history, the region has benefited  from tapping the human capital of northern Mexico's border states, which have some of Mexico's finest universities. </p>
+                          <p>Let  me give you an example of the "you earn what you learn" principle from our San Antonio branch board of directors. To do so, I am going to  embarrass Dr. G. P. Singh, who is an American success story, combining  education with entrepreneurship. As a boy in his native India, G. P. studied diligently, earning a spot in the Punjab Engineering College. Like so many foreigners, he continued his education  in the U.S., earning a doctorate at Drexel University. In time, Dr. Singh came to San Antonio and started his own engineering business&mdash;Karta  Technologies&mdash;a company he just sold for a cool $65 million. <br>
+  &nbsp;<br>
+  Dr.  Singh's is a perfect example of how immigrant-founded firms are furthering the  technological prowess of the U.S. economy. According to a recent study by researchers  at Duke University and UC Berkeley, immigrants were listed as inventors  or co-inventors on 24 percent of all U.S. patent applications in 2006, up from only 7 percent  in 1998. Of all the science and technology companies established in the United States between 1995 and 2005, 25 percent had at least one  foreign-born founder. </p>
+                          <p>Most  important, G. P. is a case study of how to convert learning to earning and how  to harness the brain to create economic prosperity. We must foster conditions  that allow a child from Laredo&mdash;or  from any other city in Texas  or the U.S. or from Mexico City or Nuevo Laredo or from Punjab in faraway India&mdash;to succeed in the economic promised land called America. With a well-educated workforce, no market  correction, no interruption of the orderly working of financial markets and no  apocryphal prognostication of the "instant analysts" or even of humorless  economists can dislodge us from our position as the world's mightiest economic  machine.</p>
+                          <p>With  that, I will end today's sermon.</p>
+                          <p>And  now in keeping with Federal Reserve tradition, I would be happy to not answer  any questions you might have.</p>
+                          <p><em>Andamos, pues</em>. Thank you. </p>
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

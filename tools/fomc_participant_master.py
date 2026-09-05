@@ -27,6 +27,67 @@ PERSON_ALIASES = {
     "Kathleen O'Neill": "Kathleen O'Neill Paese",
 }
 
+BOARD_MEMBERS = {
+    "Adriana D. Kugler", "Ben S. Bernanke", "Christopher J. Waller",
+    "Daniel K. Tarullo", "Elizabeth A. Duke", "Janet L. Yellen",
+    "Jeremy C. Stein", "Jerome H. Powell", "Kevin Warsh", "Lael Brainard",
+    "Lisa D. Cook", "Michael S. Barr", "Michelle W. Bowman",
+    "Philip N. Jefferson", "Randal K. Quarles", "Richard H. Clarida",
+    "Sarah Bloom Raskin", "Stanley Fischer", "Stephen I. Miran",
+}
+
+# Institution is stable and auditable even when an exact appointment day is not
+# exposed by the FOMC minutes.  Exact tenure dates are deliberately not inferred
+# from first/last attendance; the output labels those dates as observation bounds.
+RESERVE_BANK_BY_PERSON = {
+    "Alberto G. Musalem": "Federal Reserve Bank of St. Louis",
+    "Anna Paulson": "Federal Reserve Bank of Philadelphia",
+    "Austan D. Goolsbee": "Federal Reserve Bank of Chicago",
+    "Beth M. Hammack": "Federal Reserve Bank of Cleveland",
+    "Charles I. Plosser": "Federal Reserve Bank of Philadelphia",
+    "Charles L. Evans": "Federal Reserve Bank of Chicago",
+    "Cheryl L. Venable": "Federal Reserve Bank of Atlanta",
+    "Dennis P. Lockhart": "Federal Reserve Bank of Atlanta",
+    "Eric S. Rosengren": "Federal Reserve Bank of Boston",
+    "Esther L. George": "Federal Reserve Bank of Kansas City",
+    "James Bullard": "Federal Reserve Bank of St. Louis",
+    "Jeffrey M. Lacker": "Federal Reserve Bank of Richmond",
+    "Jeffrey R. Schmid": "Federal Reserve Bank of Kansas City",
+    "John C. Williams": "Federal Reserve Bank of San Francisco;Federal Reserve Bank of New York",
+    "Kathleen O'Neill Paese": "Federal Reserve Bank of St. Louis",
+    "Kelly J. Dubbert": "Federal Reserve Bank of Kansas City",
+    "Kenneth C. Montgomery": "Federal Reserve Bank of Boston",
+    "Lorie K. Logan": "Federal Reserve Bank of Dallas",
+    "Loretta J. Mester": "Federal Reserve Bank of Cleveland",
+    "Marie Gooding": "Federal Reserve Bank of Atlanta",
+    "Mark L. Mullinix": "Federal Reserve Bank of Richmond",
+    "Mary C. Daly": "Federal Reserve Bank of San Francisco",
+    "Meredith Black": "Federal Reserve Bank of Dallas",
+    "Narayana Kocherlakota": "Federal Reserve Bank of Minneapolis",
+    "Neel Kashkari": "Federal Reserve Bank of Minneapolis",
+    "Patrick Harker": "Federal Reserve Bank of Philadelphia",
+    "Raphael W. Bostic": "Federal Reserve Bank of Atlanta",
+    "Richard W. Fisher": "Federal Reserve Bank of Dallas",
+    "Robert S. Kaplan": "Federal Reserve Bank of Dallas",
+    "Sandra Pianalto": "Federal Reserve Bank of Cleveland",
+    "Susan M. Collins": "Federal Reserve Bank of Boston",
+    "Thomas I. Barkin": "Federal Reserve Bank of Richmond",
+    "William C. Dudley": "Federal Reserve Bank of New York",
+}
+
+NY_ALTERNATES = {
+    "Christine Cumming", "Helen E. Mucciolo", "Michael Strine",
+    "Naureen Hassan", "Sushmita Shukla",
+}
+INTERIM_PRESIDENTS = {
+    "Cheryl L. Venable", "Kathleen O'Neill Paese", "Kelly J. Dubbert",
+    "Kenneth C. Montgomery", "Marie Gooding", "Mark L. Mullinix",
+    "Meredith Black",
+}
+FED_HISTORY_ROOT = "https://www.federalreservehistory.org"
+FED_HISTORY_INTERIM = FED_HISTORY_ROOT + "/interim"
+BOARD_MEMBERSHIP_URL = FED_ROOT + "/aboutthefed/bios/board/boardmembership.htm"
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -283,6 +344,106 @@ def build(data_dir: Path) -> dict:
         members,
         ["member_id", "member_name", "first_observed_attendance_date", "last_observed_attendance_date", "meetings_observed", "attendance_categories", "first_source_url", "last_source_url", "coverage_note"],
     )
+
+    # Universe membership is derived from evidence, never from a target count.
+    vote_rows = read_csv(data_dir / "output" / "votes.csv")
+    vote_evidence: dict[str, dict] = {}
+    for row in vote_rows:
+        vote_evidence.setdefault(row["member_name"], row)
+    attendance_evidence: dict[str, dict] = {}
+    for row in observations:
+        attendance_evidence.setdefault(row["member_name"], row)
+    universe_rows: list[dict] = []
+    for name, row in sorted(vote_evidence.items()):
+        universe_rows.append({
+            "universe": "VOTE_UNIVERSE",
+            "member_id": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
+            "member_name": name,
+            "effective_from": min(r["meeting_date"] for r in vote_rows if r["member_name"] == name),
+            "effective_to": max(r["meeting_date"] for r in vote_rows if r["member_name"] == name),
+            "evidence_url": row["source_url"],
+            "evidence_type": "NAMED_OFFICIAL_POLICY_VOTE",
+            "status": "VERIFIED_PRESENT",
+        })
+    for name, seen in sorted(by_name.items()):
+        first = min(seen, key=lambda r: r["meeting_date"])
+        universe_rows.append({
+            "universe": "DELIBERATION_UNIVERSE",
+            "member_id": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
+            "member_name": name,
+            "effective_from": min(r["meeting_date"] for r in seen),
+            "effective_to": max(r["meeting_date"] for r in seen),
+            "evidence_url": first["source_url"],
+            "evidence_type": "OFFICIAL_FOMC_POLICYMAKER_ATTENDANCE",
+            "status": "VERIFIED_PRESENT",
+        })
+    write_csv(
+        data_dir / "output" / "universe_memberships.csv", universe_rows,
+        ["universe", "member_id", "member_name", "effective_from", "effective_to", "evidence_url", "evidence_type", "status"],
+    )
+
+    # Role/tenure table keeps observed bounds distinct from appointment tenure.
+    tenure_rows: list[dict] = []
+    for member in members:
+        name = member["member_name"]
+        if name in BOARD_MEMBERS:
+            role = "BOARD_GOVERNOR"
+            institution = "Board of Governors of the Federal Reserve System"
+            role_url = BOARD_MEMBERSHIP_URL
+        elif name in NY_ALTERNATES:
+            role = "OFFICIALLY_DESIGNATED_FOMC_ALTERNATE"
+            institution = "Federal Reserve Bank of New York"
+            role_url = member["first_source_url"]
+        elif name in INTERIM_PRESIDENTS:
+            role = "ACTING_OR_INTERIM_RESERVE_BANK_PRESIDENT"
+            institution = RESERVE_BANK_BY_PERSON[name]
+            role_url = FED_HISTORY_INTERIM
+        else:
+            role = "RESERVE_BANK_PRESIDENT"
+            institution = RESERVE_BANK_BY_PERSON.get(name, "UNKNOWN")
+            role_url = FED_HISTORY_ROOT + "/people/" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        tenure_rows.append({
+            "tenure_id": hashlib.sha256((name + "|" + role + "|" + institution).encode()).hexdigest()[:20],
+            "member_id": member["member_id"],
+            "member_name": name,
+            "role": role,
+            "institution": institution,
+            "effective_from": member["first_observed_attendance_date"],
+            "effective_to": member["last_observed_attendance_date"],
+            "date_basis": "OBSERVED_FOMC_PARTICIPATION_BOUNDS_NOT_APPOINTMENT_TENURE",
+            "role_basis_url": role_url,
+            "participation_basis_url": member["first_source_url"],
+            "evidence_status": "VERIFIED_PRESENT",
+        })
+    write_csv(
+        data_dir / "output" / "policy_tenures.csv", tenure_rows,
+        ["tenure_id", "member_id", "member_name", "role", "institution", "effective_from", "effective_to", "date_basis", "role_basis_url", "participation_basis_url", "evidence_status"],
+    )
+
+    # Public SEP material does not name individual dots.  Eligibility is based on
+    # official participation at that meeting; submission/identity remain UNKNOWN.
+    sep_dates = {row["sep_date"] for row in read_csv(data_dir / "curated" / "sep_dates.csv")}
+    sep_rows: list[dict] = []
+    for row in observations:
+        if row["meeting_date"] not in sep_dates or row["attendance_category"] == "VOTE_LIST_ONLY":
+            continue
+        sep_rows.append({
+            "sep_date": row["meeting_date"],
+            "member_id": re.sub(r"[^a-z0-9]+", "-", row["member_name"].lower()).strip("-"),
+            "member_name": row["member_name"],
+            "sep_eligible": "YES",
+            "sep_submitted": "UNKNOWN",
+            "sep_identity_public": "NO",
+            "individual_projection_known": "NO",
+            "evidence_url": row["source_url"],
+            "evidence_status": "VERIFIED_PRESENT",
+            "note": "Eligibility inferred from named policymaker participation; no public individual SEP key",
+        })
+    sep_rows.sort(key=lambda r: (r["sep_date"], r["member_name"]))
+    write_csv(
+        data_dir / "output" / "sep_universe.csv", sep_rows,
+        ["sep_date", "member_id", "member_name", "sep_eligible", "sep_submitted", "sep_identity_public", "individual_projection_known", "evidence_url", "evidence_status", "note"],
+    )
     summary = {
         "requested_vote_dates": len(requested_dates),
         "full_attendance_meetings": sum(row["coverage_status"] == "FULL_ATTENDANCE" for row in coverage),
@@ -290,10 +451,16 @@ def build(data_dir: Path) -> dict:
         "missing_meetings": sum(row["coverage_status"] == "MISSING" for row in coverage),
         "participant_rows": len(observations),
         "unique_policy_participants": len(members),
+        "vote_universe_count": len(vote_evidence),
+        "deliberation_universe_count": len(by_name),
+        "sep_universe_rows": len(sep_rows),
         "parse_failures": failures,
         "members_full_sha256": sha256(data_dir / "output" / "members_full.csv"),
         "participants_by_meeting_sha256": sha256(data_dir / "output" / "participants_by_meeting.csv"),
         "participant_meeting_coverage_sha256": sha256(data_dir / "output" / "participant_meeting_coverage.csv"),
+        "universe_memberships_sha256": sha256(data_dir / "output" / "universe_memberships.csv"),
+        "policy_tenures_sha256": sha256(data_dir / "output" / "policy_tenures.csv"),
+        "sep_universe_sha256": sha256(data_dir / "output" / "sep_universe.csv"),
     }
     (data_dir / "output" / "participant_master_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, indent=2))

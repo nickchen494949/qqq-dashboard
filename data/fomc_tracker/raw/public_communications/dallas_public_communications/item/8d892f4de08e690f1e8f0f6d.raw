@@ -1,0 +1,783 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A Year-End Wrap-Up of the Economy and a Peek Ahead - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061219" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs061219" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs061219-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">A Year-End Wrap-Up of the Economy and a Peek Ahead</h1>
+                                                    <div class="dal-tagline">Remarks before the Longview Rotary Club</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">December 19, 2006 </span> Longview, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+                   <p>I am delighted to be here today 
+                          with a fine group of Rotarians. Before I went up to 
+                          Washington to serve as the deputy U.S. trade representative, 
+                          I was a member of the Downtown Dallas Rotary. I enjoyed 
+                          the camaraderie and sense of purpose that the Dallas 
+                          Rotary shares with Rotarians here in Longview and everywhere. 
+                          The vision Paul Harris had in 1905 is one of lasting 
+                          influence, and I can&rsquo;t think of a nicer group 
+                          of solid, patriotic citizens to have lunch with on the 
+                          Tuesday before Christmas.</p>
+                        <p>As I left the house this morning, 
+                          my wife, Nancy, said: &ldquo;Now don&rsquo;t you go 
+                          spoil those nice people from Longview&rsquo;s holiday 
+                          by talking economics. You know, Richard, it is not for 
+                          nothing that they call it &lsquo;the dismal science,&rsquo; 
+                          and no one wants to hear dismal stuff at this happy 
+                          time of year.&rdquo; </p>
+                        <p>Well, this bothered me driving 
+                          all the way here. Then I remembered a tale one of the 
+                          wittiest of the Federal Reserve&rsquo;s economists, 
+                          David Stockton, told last week. It seems a bachelor 
+                          who thought himself in tip-top physical form was called 
+                          in by his doctor. &ldquo;My friend,&rdquo; the doctor 
+                          said, &ldquo;I have just read your lab tests from your 
+                          physical, and I have very bad news. You have a horrible 
+                          disease for which there is no known medical cure. I 
+                          suggest that you marry an economist and move to Arkansas.&rdquo;</p>
+                        <p>&ldquo;Geez, that&rsquo;s awful,&rdquo; 
+                          the man said. &ldquo;Are you telling me that settling 
+                          down with an economist in Arkansas will help me live 
+                          longer?&rdquo; </p>
+                        <p>&ldquo;No,&rdquo; the doctor said, 
+                          &ldquo;but it will seem longer.&rdquo;</p>
+                        <p>So as to not dispense too much 
+                          dismal science today, I thought I would limit myself 
+                          to a brief brief on the economy to leave plenty of time 
+                          to answer questions.</p>
+                        <p>As usual, I will speak today only 
+                          for myself and the Dallas Federal Reserve, not for any 
+                          other members of the Federal Open Market Committee or 
+                          for the rest of the System. So what you are going to 
+                          get today is just one man&rsquo;s opinion.</p>
+                        <p>Here is the bottom line. The economy 
+                          is sending mixed signals. The bad news is that the housing 
+                          industry is undergoing a sharp correction that may not 
+                          have run its full course and auto production is more 
+                          anemic than desirable. The not-so-good news is that 
+                          expansion of manufacturing activity and things made 
+                          in factories has shown signs of slowing, but&mdash;and 
+                          this is important&mdash;from high levels of activity. 
+                          As one of my friends in manufacturing and industrial 
+                          production likes to put it, &quot;We are not stepping 
+                          on the brakes, just lightening our foot from the accelerator.&quot; 
+                        </p>
+                        <p>The good news is that the dampening 
+                          effect of the housing and auto sectors and the slowdown 
+                          in manufacturing activity have been offset by continued 
+                          growth in the service sector.</p>
+                        <p>Now I am going to lay a little 
+                          dismal science on you. </p>
+                        <p>America has about 144 million 
+                          workers, producing over $13 trillion in output. Our 
+                          workers produce more output than the combined total 
+                          of the next four largest economies, which are Japan, 
+                          Germany, China and the United Kingdom. When you sit 
+                          down with your family over the holidays, you can feel 
+                          good about what American brawn and brains produce. </p>
+                        <p>And you can be proud of being 
+                          Texans. Our state alone produces more than Korea or 
+                          Brazil or Mexico. Here is a fact that will startle you: 
+                          We Texans produce 25 percent more output, measured in 
+                          dollar terms, than all of India. That&rsquo;s just the 
+                          production of 10 million workers in one state alone. 
+                          We are blessed to live in a mighty big country with 
+                          a whopping big, growing economy.</p>
+                        <p>How do we do it? What are the 
+                          dynamics of that mighty economic machine we know as 
+                          America? How do we keep growing when we hear about the 
+                          downturn in housing and the woes of our auto industry, 
+                          or when the papers tell you that China and others are 
+                          taking away our manufacturing business?</p>
+                        <p>Well, first you have to understand 
+                          that the United States is no longer just a manufacturing 
+                          economy. In fact, it hasn&rsquo;t been a manufacturing 
+                          economy for quite some time, just as we have not been 
+                          an agricultural economy for an even longer period of 
+                          time. This is not to say that the United States is not 
+                          an agricultural or a manufacturing powerhouse. We very 
+                          much are. But these sectors have less and less impact 
+                          on our well-being as we continue our inexorable climb 
+                          up the value-added ladder.</p>
+                        <p>Agriculture employs only 1 percent 
+                          of our workers and accounts for only 1 percent of our 
+                          gross domestic product. Manufacturing employs 10 percent 
+                          of our workers and contributes 12 percent of our output. 
+                          If you add those numbers to the contribution of utilities, 
+                          mining, and oil and gas and construction activity, you 
+                          will account for 25 million workers and $2.7 trillion 
+                          in output. In other words, the goods-producing sectors 
+                          of our economy employ a sixth of our workers and produce 
+                          a little less than one quarter of our output.</p>
+                        <p>Keep this in mind as you read 
+                          in the press or hear on the radio and television that 
+                          the markets went into spasms after this or that index 
+                          of manufacturing activity&mdash;the Philadelphia Fed 
+                          Manufacturing Index or the Empire State Index or the 
+                          Dallas Fed&rsquo;s newer manufacturing index&mdash;was 
+                          released, or when dour economists report on declining 
+                          auto production. Certainly these indicators matter and 
+                          are taken seriously, particularly by the families whose 
+                          incomes depend on work in those sectors of the economy.</p>
+                        <p>But in trying to divine the course 
+                          of the whole U.S. economy, remember that, for example, 
+                          about 1.1 million people work in motor vehicle manufacturing 
+                          in this country, producing eight-tenths of one percent 
+                          of our GDP. The legal services industry, in contrast, 
+                          employs 1.2 million people who collectively contribute 
+                          1.5 percent of our GDP. I am tempted to make a lawyer 
+                          joke here&mdash;God knows there are plenty of them (both 
+                          lawyers and jokes)&mdash;but it is not a laughing matter 
+                          to economists. The legal services industry provides 
+                          as many jobs as the auto manufacturing industry and 
+                          contributes almost twice as much to our economic output.</p>
+                        <p>In contemplating the course of 
+                          the economy, we need to look beyond manufacturing and 
+                          consider where the other five-sixths of our workers 
+                          work. Where do we produce over three quarters of our 
+                          $13 trillion in output? </p>
+                        <p>The answer is in the service sector. 
+                          We have almost 120 million people producing over $10 
+                          trillion in output working in law firms and hospitals 
+                          and restaurants and offices and classrooms and laboratories 
+                          and sales rooms. From the medical complexes in Houston 
+                          and Dallas to the biotech labs of Boston, from the trading 
+                          floors of Wall Street to the government offices in Washington, 
+                          from the retail stores in Miami to the entertainment 
+                          emporiums of Las Vegas, from the universities in California 
+                          to the software salons of Seattle. As our society has 
+                          progressed, we have moved up the value-added ladder 
+                          toward what Winston Churchill once called the &ldquo;superfine 
+                          processes&rdquo; where the greatest profit is reaped 
+                          and the quality of life is best; where we work more 
+                          with our brains than with our backs.</p>
+                        <p>Economists will point out that 
+                          this is where America enjoys its comparative advantage. 
+                          We have created a system that harnesses the greatest 
+                          brain power in the world and the most nimble and flexible 
+                          business culture on the planet. Our comparative advantage 
+                          is at the nano and bio and techno and financial end 
+                          of the economic spectrum, not at the part of the spectrum 
+                          where we till fields or bend metal. As we have moved 
+                          up to these higher rungs on the value-added ladder and 
+                          positioned ourselves to master the &ldquo;superfine 
+                          processes,&rdquo; others have taken our old place on 
+                          the lower rungs of the ladder. </p>
+                        <p>For example, Vietnam produces 
+                          the second-largest robusta coffee crop in the world. 
+                          They have a comparative advantage in that aspect of 
+                          agriculture that we don&rsquo;t have. China churns out 
+                          all kinds of manufactured goods that they can produce 
+                          more cheaply than we can. We employ over 100 million 
+                          people to take these foreign inputs, as well as what 
+                          we make here in the good ol' U.S.A., refine them, transport 
+                          them, package them and sell what we make from them in 
+                          order to grow our economy. This is the service sector, 
+                          and it is the service sector that drives our economy. 
+                        </p>
+                        <p>To be honest, one of our problems 
+                          is that we do not have very good data on the service 
+                          sector. We have tons of data that tell us every squiggle 
+                          and wiggle of the agriculture and manufacturing sectors, 
+                          but we do not have sufficient equivalent data on services. 
+                          The dearth of data makes it hard to do what economists 
+                          love to do: build models that accurately forecast economic 
+                          growth. We still have a lot of useful indicators for 
+                          identifying changes in the business cycle from back 
+                          when manufacturing ruled the day, but we have yet to 
+                          identify counterparts for an economy that is service-sector 
+                          driven.</p>
+                        <p>This is all just a long-winded 
+                          way of saying that it is difficult to say with true 
+                          precision just how the economy will close out this year 
+                          in terms of growth and pace. My guess is that we are 
+                          most likely going to finish the year at a pace that 
+                          exceeds the gloomy forecasts making all the headlines 
+                          lately. If you net the downdrafts from the housing and 
+                          auto sectors against the tailwinds from other countries 
+                          that are growing faster than the United States, then 
+                          adjust for the updrafts of a dynamic service sector 
+                          and thank your lucky stars for a warm start to winter 
+                          and burgeoning oil and gas inventories that have softened 
+                          energy prices, I wouldn&rsquo;t be surprised if the 
+                          economy proves to have grown at better than two percent, 
+                          net of inflation, in the second half of this year, then 
+                          picks up pace in 2007. This is not a forecast, mind 
+                          you. There are risks out there that, should they come 
+                          to pass, would result in slower growth. Barring any 
+                          unforeseen circumstances, however, I think this is a 
+                          reasonable expectation. At least, that&rsquo;s how I 
+                          see it from my perch at the Dallas Fed.</p>
+                        <p>On the inflation front, the good 
+                          news is inflationary pressures appear to have reached 
+                          a stasis, despite the labor shortages in certain sectors&mdash;particularly 
+                          in chemicals and petroleum industries and in functions 
+                          requiring skilled and semiskilled workers. The bad news 
+                          is that the stasis is at too high a level for party 
+                          poopers like me who will have no choice but to advocate 
+                          tightening monetary policy further if inflation does 
+                          not ratchet downward. </p>
+                        <p>At the Dallas Fed, we prefer to 
+                          look at inflation through a prism called the Trimmed 
+                          Mean PCE. I won&rsquo;t bore you with the details of 
+                          how it works, but I&rsquo;ll tell you this: We had some 
+                          encouraging news in September when the Trimmed Mean 
+                          showed inflation had dropped down to 1.6 percent. Unfortunately, 
+                          it rose back to 2.6 percent in October, close to where 
+                          it had been nestling before the September drop. This 
+                          uptick was partially caused by costs in that pesky service 
+                          sector: medical services. </p>
+                        <p>When we analyzed all the items 
+                          in the personal consumption expenditure basket from 
+                          medical costs to the costs of restaurant meals, we noticed 
+                          that the median inflation rate was running at 4 percent 
+                          and that over 30 percent of the items in the basket 
+                          had prices that were increasing at a rate of over 5 
+                          percent. Now, this was for October. The November numbers 
+                          come out on Friday, so we will have to wait until then 
+                          to see the latest movements. While we at the Dallas 
+                          Fed are hopeful that the measures taken to raise the 
+                          federal funds rate from 1 percent to 5.25 percent will 
+                          quell inflation and, very important, expectations about 
+                          future inflation, we cannot yet say with conviction 
+                          that we have turned the corner and have this problem 
+                          fully contained. </p>
+                        <p>Given all of this, I would have 
+                          to say that the risk of unacceptably high inflation 
+                          still outweighs the risk of substandard economic growth.</p>
+                        <p>Nonetheless, I think we are ending 
+                          the year in pretty good shape. I do not agree with pundits 
+                          who argue about whether we can engineer a &ldquo;soft 
+                          landing.&rdquo; &ldquo;Landing&rdquo; implies stopping. 
+                          I prefer to say that the Fed&rsquo;s job is to provide 
+                          the monetary conditions necessary to pilot our economy 
+                          at a comfortable cruising altitude and speed while preventing 
+                          the engine from overheating with inflation. As we look 
+                          to 2007, I consider this objective to be within reach. 
+                          And that, good Rotarians, would be far from a dismal 
+                          outcome. You needn&rsquo;t marry an economist and move 
+                          to Arkansas. You can stay right here in Longview and 
+                          thrive.</p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

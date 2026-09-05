@@ -1,0 +1,593 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Inflation Measurement and Price Volatility - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs071004" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs071004" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2007" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2007/fs071004-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">Inflation Measurement and Price Volatility</h1>
+                                                    <div class="dal-tagline">Remarks Before the Charlotte Economics Club</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">October 4, 2007</span> Charlotte, N.C.</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+                          <p>Thank  you for such a warm introduction laced with good old Southern hospitality. It  is a special pleasure to address the Charlotte Economics Club. Harvey  Rosenblum, the Dallas Fed's director of research, spoke to this group about  five years ago and still recalls the experience fondly. Like me, Harvey was hosted by Enrique Sanchez, who has been gracious  and kind. Charlotte is clearly a vibrant city, the headquarters now of  nine Fortune 500 companies and two of the nation's largest banks. Between  Dallas and Charlotte, I would say we about have it wrapped up.</p>
+                          <p>The  Fed has been getting a fair amount of attention in the last few months&mdash;almost  as much as O.J.'s sports memorabilia collection and the New York Mets'  spectacular fall from grace. We central bankers are unaccustomed to being in  the limelight&mdash;let's face it, we are an unexciting lot. Not many people are  proud to admit being devotees of the "dismal science." You know the story of  the fellow who goes to his doctor in Dallas to get the report on his latest physical. The doctor  looks at him and says, "Look, pal. I am going to tell it to you straight. You  are fatally ill. I suggest that you marry an economist and move to East Texas." "Jeez," the crestfallen man says, "this is awful. I am astonished.  Let me see if I get your drift. Are you telling me that if I marry an economist  and move to East Texas I will live longer?" "No," says the doctor. "But it  sure as heck will feel that way."</p>
+                          <p>With  all the hoopla over credit markets, British bank runs, commercial paper, moral  hazard, the shriveling housing market and you-know-whose new memoir, I thought  it would do us all some good to step away from the hot topics of the day. I'd  like instead to reflect upon the less-than-scintillating topic of inflation and  price measurement. It is not the stuff of headlines, but it is important. If  you indulge me this privilege, I would be happy to take questions on any and  all subjects during the Q&A period after my monologue and place my talent  for obfuscation on full display.</p>
+                          <p>Before  I begin, let me state up front that whenever I speak, it is only to express my  personal views. I am not speaking on behalf of the Federal Open Market  Committee (FOMC) or the Federal Reserve System.</p>
+                          <p>Most  of you are no doubt familiar with the Consumer Price Index (CPI), that broad inflation measure the Bureau of Labor Statistics (BLS) publishes, like clockwork, once a month. We usually refer to that  number as "headline inflation" because of the press coverage it gets. The BLS' monthly report includes another inflation measure, called "core  inflation," which excludes food and energy. Once a month, the Bureau of  Economic Analysis releases headline and core versions of another closely  watched price index&mdash;the Personal Consumption Expenditures (PCE) deflator. </p>
+                          <p>It  is the core measures that I want to focus on today and, specifically, why food  and energy items have been deliberately and systematically ex-ed out when we  look at price movements. It boils down to what engineers call a "signal  extraction" problem; struggling to eliminate "noise" in our monthly inflation  measures and trying to maximize the amount of "signal." The question is: Is  this still the best way to separate the wheat from the chaff?</p>
+                          <p>Let's  start with a little history: The term <em>core  inflation</em> was coined in the early 1980s, but the practice of stripping  certain components from the basket of consumer prices began much earlier.  Contrary to popular belief, it was food, not energy, that first got the "ex"  axe. The BLS has produced an "ex food" version of the CPI since the late 1950s, probably because food prices in the 1950s were  even more volatile than they are today. The practice of reporting a CPI excluding both food and energy prices began when energy price  volatility dramatically increased in the 1970s.</p>
+                          <p>By  ignoring items whose price movements display significant short-run volatility,  statisticians and policymakers can get a better sense of underlying trends in  consumer price inflation. Because the trends change only gradually, measures that  give us a better sense of what they are today provide a better sense of where  overall inflation will be tomorrow. To make inflation forecasts over the next  12, 18 or 24 months, we are much better off looking at the recent behavior of a  core measure&mdash;whether ex food and energy or a trimmed mean, which I will define  in a moment&mdash;than we are looking at the recent behavior of headline inflation. </p>
+                          <p>That  is the statistical argument. A theoretical argument offers somewhat more subtle  reasoning for using core measures. It goes something like this: Even in the age  of the Internet, sellers of goods and services cannot change prices every day.  They have menus, they have price tags and they have price-sensitive customers  who live on budgets. Adjusting prices is a costly affair and not something that  most sellers would do with every change in market conditions. </p>
+                          <p>My  local Starbucks, for example, does not slash prices on days or for hours when  foot traffic is unusually slow, nor does it raise prices when the place is packed  and the line is out the door. It does not change them in response to day-to-day  movements in its cost of materials. In fact, it was just nine weeks ago that  Starbucks adjusted its beverage prices systemwide, about 10 months after its  last price adjustment. It is to this sort of pricing behavior that economists  affix the elegant and intellectually snappy designation of "sticky." </p>
+                          <p>When  inflation picks up, firms that have delayed raising prices even as their costs  have risen eventually do increase their prices. When the sticky prices become  unstuck, the hike will be significant. Of course, not all sticky-price firms  will raise their prices in lockstep with each other. The varied timing of the  price increases creates a distortion in consumer spending. To correct for these  factors, some economists suggest that central banks should focus on stabilizing  an index of a basket of goods whose prices are especially sticky. </p>
+                          <p>Food  and energy prices are manifestly not sticky in our economy and, so the theory  goes, should not be the focus of our attention. To put it differently, theory  suggests that a central bank should pay more attention to the occasional  increases in the price of a Starbucks latte than to the daily price swings at  the corner Exxon station.</p>
+                          <p>Central  banks have good reasons to subtract volatile swings in prices, but routinely  excluding food and energy&mdash;and only food and energy&mdash;is not, in my opinion, the  best we can do. For one thing, not all food and energy prices are excessively  volatile. Menu prices at restaurants, for example, are sticky, making  information about their underlying trends quite valuable. Our Starbucks coffees  are excluded from the usual core measurements, even though American consumers  drink many millions of them every day&mdash;including the one I had this morning. At  the same time, other prices can be extremely volatile. Prices of infants'  clothing, for example, are at least as volatile as most food and energy items,  but they are included in standard "ex food and energy" versions of the CPI and PCE. </p>
+                          <p>A  more discriminating approach would be to exclude the items with the most  extreme price changes in a given period of time, regardless of whether those  items are food, energy or anything else. This is the rationale behind trimmed  mean measures of core inflation. The Federal Reserve Bank of Cleveland produces such a measure for the CPI, and we at the Dallas Fed produce one for the PCE. These measures  exclude, or trim out, the extreme highs and lows of price changes each month.</p>
+                          <p>Many  of the arguments for excluding food and energy&mdash;in particular, the statistical  arguments&mdash;are based on the notion that an exceptionally large price increase  today will be offset, somewhere down the road, by an exceptionally large price  decline. But suppose the increases in food and energy prices we've been seeing  over the past few years represent longer-lived trends, rather than transitory  blips. The arguments made for excluding food and energy prices would be on  shaky ground. To put it more succinctly, we risk throwing out the signal along  with the noise.</p>
+                          <p>Charlie  Bean, the chief economist of the Bank of England who is on the Advisory Board  of the Dallas Fed's Globalization and Monetary Policy Institute, posed an  interesting question after noting that globalization not only delivers  freighters full of inexpensive electronics, toys and apparel to consumers in  the U.S. and Europe but also puts upward pressure on the prices of energy and  other commodities. What sense does it make, the real Mr. Bean asks, to exclude  the food and energy price increases from our inflation gauges while  incorporating the price declines on the other goods that we buy? </p>
+                          <p>Charlie  was making a point in support of the Bank of England's policy of looking only  at headline inflation and explicitly eschewing core measures in its official  communications, projections and analyses. The European Central Bank does this  as well. Our northern neighbors at the Bank of Canada describe their goals in  terms of a headline measure but give an explicit role for a core measure&mdash;the CPI excluding the eight most volatile items&mdash;as an operational guide.</p>
+                          <p>I  prefer to make this an argument in favor of trimmed means: As often as food and  energy prices are excluded from the "upper tail" of our Dallas Fed measure,  items like toys, electronics and apparel are excluded from the "lower tail."  The trimmed mean meets both requirements of a good inflation gauge. It filters  the noise created by excessively volatile prices. At the same time, it hews to  Dr. Bean's observation that inflationary impulses can come from any part of the  economy, including food and energy.</p>
+                          <p>In  practice, monetary policymakers look at a wide range of inflation gauges. Most  of the participants on the FOMC prefer the core PCE. In Dallas, we have an official preference for the Trimmed Mean  PCE. We have been producing this measure for over two years now. It excludes  the items that consumers buy in a given month that have experienced the largest  price increases or decreases, regardless of whether they are food or energy or  any other consumable good or service. The particular items that get excluded  from the top and bottom of the distribution of price changes will vary from  month to month, but the proportions excluded remain the same: about 25 percent  off the top and about 19 percent off the bottom, when items are weighted by  their shares in spending. We end up with an inflation measure that does a  better job of separating the noise from the signal.</p>
+                          <p>In  August, the annualized Trimmed Mean PCE came in at 1.6 percent, the same as July.  August saw large price decreases for energy items&mdash;gasoline in particular&mdash;along  with large price increases in several food components. Outside of food and  energy, some of the more significant noisy items excluded were large price  declines in jewelry and watches and men's and boys' apparel and large increases  in the cost of dental care and bank services. Other items trimmed out in August  included guns and ammunition, which fell in price significantly, and funeral  expenses, which increased in price. I'll let you decide for yourself if the two  price swings were related, but I will tell you that we have had to trim both of  those items before because their prices moved the same way. </p>
+                          <p>Let's  compare that number&mdash;1.6 percent&mdash;to other inflation measures. The annualized  headline PCE rate, which includes all prices, was &ndash;0.9 percent for August, with  a sharp drop in energy prices contributing to the negative rate. Annualized  core PCE, or PCE ex food and energy, came in at 1.1 percent.</p>
+                          <p>Over  the past 12 months, the trimmed mean moved down slightly to 2.1 percent, while  both core and headline PCE came in at 1.8 percent. If the monthly trimmed mean  numbers continue their downward drift of the past few months, the 12-month  trimmed mean inflation rate could fall below 2 percent as well. </p>
+                          <p>The  argument about core-versus-headline measures in monetary policy is distinct  from a more common and commonsensical complaint about excluding food and energy  prices from inflation gauges. You saw it articulated in the latest edition of <em>Newsweek</em>.[<a href="#1">1</a>] People, including  economists living in married bliss in East Texas, do not stop eating or  air-conditioning their homes when food and energy prices jump. Excluding them  suggests a disregard for the impact on real people. I empathize and sympathize.  Keep in mind, however, that the price indexes a central banker uses to frame,  craft and evaluate monetary policy need not be the same as the ideal index used  for measuring the cost of living. Indeed, there are macroeconomic models  suggesting that if wages are stickier than prices, a central bank would do well  to focus on an index of wages rather than prices. I just can't imagine central  bankers lasting very long in their jobs if they continually announced to the  public their desire to hold down wage growth. </p>
+                          <p>Let  me turn now to the factors driving the recent behavior of food and energy  prices&mdash;with a particular eye to the question of whether those factors are  likely to be transitory or persistent.</p>
+                          <p>Many  factors impact the process of getting food and energy products to consumers,  many of which are beyond anyone's control. A growing season in one part of the  country or the world that is unusually wet or dry, hot or cold&mdash;like the drought  Australia is having, for example&mdash;can lead to variations in crop production,  leaving too much or too little to go around and large price changes from season  to season or year to year at the checkout counter. Large swings in prices will  follow. Shutting down just one major refinery&mdash;or several, as occurred along the  Gulf Coast two years ago&mdash;can lead to declines in gasoline  supplies and sharp rises in pump prices. </p>
+                          <p>In  economist-speak, supply and demand for both food and energy are inelastic, so  even small changes in supply or small changes in demand translate into large  changes in prices. </p>
+                          <p>That  is what economists have in mind when designing inflation measures that exclude  food and energy&mdash;a paradigm in which the shocks are primarily transitory and  have large but fleeting impacts on prices. But is that what's going on now? We  have just enjoyed a fine lunch, so let's start with food.</p>
+                          <p>Over  the short run, the supply of food depends primarily on the weather, but the  decisions of individual farmers and ranchers also play a role in pricing.  Farmers decide how much of their fields to plant in corn versus soybeans, and  chicken producers, hog farmers and ranchers determine the size of their flocks  or herds based on forecasts of the prices expected to prevail at harvest or  market time. We usually think of demand as relatively fixed in the short run,  but it is not so stable that farmers and ranchers do not sometimes err in their  predictions. When Mother Nature runs amok or demand forecasts prove mistaken,  or both, we end up with either gluts or shortages that require large price  movements to clear markets. </p>
+                          <p>Even  over several years, weather can still play a role in prices&mdash;witness the  persistent drought conditions in the Upper Midwest or, as  previously mentioned, Australia. But over the long haul, the main drivers of food  supply are technological advances and the agricultural sector investment that  fosters mechanization, higher yielding crop varieties and the like. On the  demand side, long-term trends are primarily driven by growth in population and  wealth. Changes in preferences can result from recognition of the health  benefits or detriments of certain types of food, but the largest driver is  surely growth in per capita income. Richer societies consume more calories, and  a greater share of those calories is accounted for by animal proteins.</p>
+                          <p>In  the Industrial Age and the present post-Industrial Knowledge Age, agricultural  innovation and investment have enabled the supply of food to grow at a faster  pace than demand, confounding the gloomy forecasts of Parson Malthus. Look back  in time and you'll see food becoming less and less expensive relative to other  goods and services, even as the number of mouths to feed around the globe has  increased and consumption per capita has grown. The price of corn, for example,  may have increased noticeably over the past year, but it remains a bargain from  a historical perspective: In 1860, the price of a bushel of corn was about 50  cents; translated into today's dollars, that is about $12 a bushel. The current  price is a bit over $3.</p>
+                          <p>It  is true that the long decline in relative food prices has been punctuated by  occasional reversals as the pace of technological advance has fluctuated or as  demographics have changed. I remain optimistic about the very long-run trend of  declining food prices, but I do recognize that we may be in the midst of one of  those reversals as the world economy adjusts to recent changes in demand.  Biofuels production may be playing a part in today's rising agricultural  prices, but I believe this is minor in comparison to the evolving eating habits  of billions of Chinese and Indians, the Vietnamese and former captives of the  Soviet Union, Brazilians and Mexicans and others who are becoming increasingly  wealthy. This reversal may take several years to play out before technology and  investment can respond with sufficient supplies to put food prices back on  their long-run course. In the meantime, we are subject to "agri-flation" that  may be more sustained than we would like.</p>
+                          <p>On  the energy front, prices are shaped by demand and supply, just like most everything  else we buy and sell. Demand is determined by improvements in energy-use  technology and the world economy's growth rate, including the breakneck pace  set of late by the so-called BRIC countries of Brazil, Russia, India and China. Because energy consumption is not very responsive to  prices in the short run and little excess capacity currently exists in the  world's energy-supply chains, small changes in the real or perceived balance  between supply and demand can result in very sharp price swings. </p>
+                          <p>Long-term  energy supply is determined by the development of fuel resources&mdash;both  conventional and alternative. Short-run production disruptions, actual or  potential, can greatly affect energy prices. Geopolitical events buffet energy  markets every day, whether it is civil unrest in Nigeria, nationalization in Venezuela, fighting in the Middle East, disputes between the West and Iran, or a strong-arming government in Moscow. Perceived changes in supply, including real or  anticipated changes to OPEC production levels, can also add volatility to  energy prices.</p>
+                          <p>Oil  prices have been on a steady climb in recent years, tripling since early 2003  and breaching $80 per barrel last month. This worries many people who remember  the energy crises of the 1970s and the ensuing recessions. In fact, nine of the  10 post&ndash;World War II recessions were preceded by sharply rising oil prices. I  will remind you, however, we have had several episodes of sharply rising oil  prices in the past 15 years without recessions.</p>
+                          <p>Rather  than ignoring energy prices because they are dropped from core inflation, I am  constantly picking apart energy prices to understand the cause of their recent  climb. Here is what I see:</p>
+                          <p>First,  it is useful to understand whether the run-up in prices is driven by increased  demand or reduced supply. If it is reduced supply, like most of the oil price  shocks prior to the mid-1990s, slowing economic activity and higher overall  prices are likely. If the oil price increase is the result of a demand shock  arising from productivity gains, however, we could see expanding economic  activity and reduced inflationary pressures.</p>
+                          <p>Recently,  the U.S. economy has responded to rising oil prices in a way  inconsistent with a classic energy supply shock. Despite rising oil prices over  the past four years, gross domestic product continued to grow, unemployment  continued to fall and overall price pressures remained relatively moderate. Consumer spending and  consumer confidence have remained strong compared with the 1970s or early  1980s. Business investment activity has also stayed on an expansionary course.</p>
+                          <p>Economic growth in other countries has not been  derailed, which has kept demand for our exports at healthy levels. A weakening  dollar has not hurt other countries' demand for our products, or their appetite  for oil, which is priced in dollars. And inflation has been kept at bay in most  countries around the world, thanks in no small part to well-managed monetary  policy here and overseas. </p>
+                          <p>All of these  positive signs are not what history teaches us to expect in a rising oil price  environment. What gives? Economic research points to a number of  factors&mdash;including a lower energy-to-GDP ratio, more flexible labor markets, more experience with oil price  shocks, better monetary policy and less-rigid regulatory hurdles on  energy-producing firms and such energy-using industries as airlines and  trucking. In addition, the development and maturity of futures markets and  derivatives have reduced the need for physical inventories, while securities  markets have provided sources of investment capital. </p>
+                          <p>These  factors all seem quite reasonable, but I believe there is more to this story,  and I am convinced that the economic resilience we have seen lately is the  result of an entirely different phenomenon. </p>
+                          <p>For  a few years now, some economists have suggested that the U.S. economy ought to respond differently to rising oil  prices if the increase is the result of stronger demand for oil needed to fuel  an expanding U.S. economy rather than a result of diminished supplies.  Indeed, several Dallas Fed economists are carefully studying this issue from a  global perspective as I speak.</p>
+                          <p>So far, they have shown  that higher oil prices caused by productivity gains have a much different  effect on the economy than oil supply shocks. A productivity shock originating  in the U.S. will boost our economic output, and the expansion  will pull up the price of oil. If monetary policy  holds the growth of nominal GDP constant, this will result in a reduction  of inflationary pressures. If China or India or some other country is expanding rapidly and it is  the country's oil consumption that is increasing, driving up prices, that surge  in productivity can yield spillovers for the U.S. in the form of lower import prices and technological  gains. As long as this continues, we can expect to see an expansion of output  and lower overall prices, even as the world price of oil rises. A vicious cycle  is, in a sense, almost transformed into a virtuous cycle. </p>
+                          <p>With  each uptick in energy prices, I ask whether it is supply or demand that is  making prices rise. Supply disruptions are cause for concern, but growth in  demand is not as worrisome. Most likely, energy prices will continue to be  volatile; it is the nature of the beast. The same goes for food prices. </p>
+                          <p>Those  of us responsible for crafting U.S. monetary policy cannot afford to be distracted by the  flux of short-term price changes that are destined to be unwound. Our eye  should be focused on underlying inflationary pressures, some of which may  indeed be coming from food and energy markets. Routinely excluding food and oil  price movements from our inflation gauges may have made sense in the 1970s, the  1980s and even the 1990s&mdash;but not now, nor in the next few years. The conceptual  beauty of trimmed mean inflation measures lies in their ability to capture  steady increases in food and energy prices, which may be germane to the pursuit  of price stability, while excluding the temporary spikes and dips that do not  presage changes in the underlying inflation rate.</p>
+                          <p>Speaking  of beauty, conceptual or otherwise, I need to wrap up and get home to my wife  in East Texas. By the way, she is not an economist. </p>
+                          <p>May  you all lead long lives. </p>
+                          <p>Thank  you.<br>
+                          </p>
+
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<ol>
+<li><a name="1" id="n1"></a>"There's No Inflation (If You Ignore the  Facts)," by Daniel Gross, <em>Newsweek</em>, Oct. 8, 2007.</li>
+</ol>
+
+
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="/medialibrary/media/v4/css/basic.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/reset.css" rel="stylesheet">
+<link type="text/css" href="/medialibrary/media/v4/css/960_12_col.css" rel="stylesheet">
+<link rel="stylesheet" href="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+<link type="text/css" href="/medialibrary/media/v4/components/styles/components.css" rel="stylesheet">
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/lib/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/common.js"></script>
+<script type="text/javascript" src="/medialibrary/media/v4/js/Accordion.js"></script>
+<script data-main="/medialibrary/media/v4/components/components_main" src="/medialibrary/media/v4/components/lib/require.js"></script>
+<link type="text/css" href="/medialibrary/media/v4/css/legacy.css" rel="stylesheet">
+<!--[if IE 6]>
+  <script type="text/javascript">window.DMCIEversion=6;</script>
+<![endif]-->
+
+<!--[if IE 7]>
+  <script type="text/javascript">window.DMCIEversion=7;</script>
+<![endif]-->
+
+<!--[if IE 8]>
+  <script type="text/javascript">window.DMCIEversion=8;</script>
+<![endif]-->
+
+<!--[if gte IE 9]>
+  <script type="text/javascript">window.DMCIEversion=9;</script>
+<![endif]-->
+
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/medialibrary/media/favicon.ico" type="image/x-icon">
+
+<link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_desktop_print.c7687de8937417888ede.css" rel="stylesheet" media="print"><link type="text/css" href="/medialibrary/media/v5/dxt-ui/css/dxt_app.7cb2998cba1ad4d6ea7b.css" rel="stylesheet" media="screen"><script type="text/javascript" src="/medialibrary/media/v5/dxt-ui/js/dxt_app.7cb2998cba1ad4d6ea7b.js"></script><script>
+    nyfedapi.preStart();
+    if(document.readyState === "complete") {
+        nyfedapi.start();
+        
+    } else {
+        document.addEventListener("DOMContentLoaded", function () {
+            nyfedapi.start();
+        }, false);
+    }
+</script>
+<link type="text/css" href="/medialibrary/media/responsive/custom.css" rel="stylesheet">
+
+
+
+    <title>FEDERAL RESERVE BANK of NEW YORK</title>
+            <meta name="keywords" content="speeches, conferences, federal reserve bank, joyce m. hansen" />
+            <meta name="description" content="" />
+        
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S5R6-KN95T-HP8YC-HYFLF-GA6UP",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"6S5R6-KN95T-HP8YC-HYFLF-GA6UP",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="eaaq6qajnqe7mjqacqi2aaaaavvjxdhr-f-ee469d3df-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"385303","ak.ai":parseInt("322044",10),"ak.ol":"0","ak.cr":5,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"39aec635","ak.r":47401,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":60880,"ak.gh":"23.211.252.228","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1788579057","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==9RNM2XhCwgQbkXBBx/YMP9fvM43+9l2elIZEuElAEmxtYvTO93wW3hbS7cBnqC0YFKsiJ6lE0Dphm671qE4TBWJDoJnRoyw8NP9Oi++SaRUkY8YPtNkOFNQKkRGCrzrtCefCN866NVv54aeBwL5kQvp7HMMTx2g97N1oJ8olE0FkqCB38r2dUM/TXTmPFl8k7YNc4YPGPt2My7z70X2JkeHxbh8KotMhXsKYS1lS1UZBvqvpokCIHHBf+m5CxIL/nH/fYmRMqZuVBKV/2yvH5zIW7SFPX0x841Nltii0NezChT+fgs5DmnhtBTk0lFCuIAtwefU1Cgpyhly6f1SItX67cT6wIsP/nglg5Ratru48Rty/mh/AAkcHwddpq0CmoRysu7YQik++rsfKJTLTvGM9EKUHo0WyyfgItmqxbuk=","ak.pv":"167","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    <a name="top"></a>
+    <div class="container_12">
+        <header>
+            
+   <div id="universal">
+   <div id="universal_nav">
+      <a title="Home" aria-label="Home" href="/" id="nav-item-1"><span class="icon-home" title="Home"></span></a>
+      <a href="/aboutthefed/museum-and-learning-center-visits" aria-label="Museum &amp; Visits" title="Museum &amp; Visits" id="nav-item-3">Museum &amp; Visits</a> 
+      <a href="/regional-economy" aria-label="Regional Economy" title="Regional Economy" id="nav-item-4">Regional Economy</a> 
+      <a href="/data-and-statistics" aria-label="Data &amp; Statistics" title="Data &amp; Statistics" id="nav-item-5">Data &amp; Statistics</a> 
+      <a href="/careers" aria-label="Careers" title="Careers" id="nav-item-15">Careers</a> 
+      <a aria-label="Blogs" href="/blogs" aria-label="Blogs" title="Blogs" class="nav-type-external" id="nav-item-19">Blogs</a> 
+      <a href="/press" aria-label="News & Events" title="News & Events" id="nav-item-21">News &amp; Events</a>
+    </div>
+    <div id="searchBar">
+      <form action="/search" method="GET" id="search" aria-label="Search Form" title="Search Form">    
+        <span class="icon-search"></span><input name="text" type="text" class="search" id="searchbox" title="Search Box" size="35" maxlength="200" />
+        <input aria-label="Application" type="hidden" name="application" value="ny_pub" />
+        <input aria-label="Sources" type="hidden" name="sources" value="ny_pub" />
+        <input aria-label="Search Button" type="submit" id="searchbutton" title="Search Button" value="" />
+      </form>
+    </div>
+  </div>
+  <div id="logo" class="new-york-fed-logo">
+		<a  aria-label="Federal Reserve Bank of New York" href="/" title="Federal Reserve Bank of New York"><img src="/medialibrary/media/v4/images/new-york-fed-logo.svg" style="width:782px" alt="New York Fed Logo" /></a>
+  </div> 
+
+
+<!-- START : MOBILE HEADER -->
+<div id="dxt-mobile-header">
+
+    <div class="dxt-logo-wrapper">
+        <div>
+            <div class="dxt-logo-wrapper-a">
+                <a href="/" class="dxt-logo"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dxt-menu-search">
+
+
+
+        <div class="dxt-burger">
+            <div>
+                <a href="#">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Menu
+                </a>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="dxt-search-bar-wrapper">
+            <span></span>
+            <div class="dxt-search-bar"></div>
+        </div>
+
+    </div>
+
+    <ul id="dxt-navigation" class="dxt-level-1-list dxt-level-1 nav nav-level-0 nav-type-none" id="nav-list-31">
+
+ <!-- START : LEVEL 1 -->
+        <li id="nav-item-32" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="About the New York Fed"  href="/aboutthefed" title="About the New York Fed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </div>
+            </div>
+            <ul class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-32">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="About the New York Fed" title="About the New York Fed" href="/aboutthefed">About&nbsp;the New&nbsp;York&nbsp;Fed</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a href="/aboutthefed/whatwedo" title="What We Do" aria-label="What We Do">What We Do</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-34" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/aboutthefed/who-we-are" title="Who We Are" aria-label="Who We Are">Who We Are</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-34">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-123" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Bank Leadership" aria-label="Bank Leadership" href="/aboutthefed/bank-leadership">Bank Leadership</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li><!-- END : LEVEL 3 -->
+                <!-- END : LEVEL 2 -->
+                <li id="nav-item-39" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <a aria-label="Communities We Serve" href="/aboutthefed/communities-we-serve" title="Communities We Serve">Communities We Serve</a>
+                </li>
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-356" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a title="Governance" aria-label="Governance" href="/aboutthefed/governance">Governance</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Board of Directors" aria-label="Board of Directors" href="/aboutthefed/org_nydirectors">Board of Directors</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/aboutthefed/disclosures" title="Disclosures" aria-label="Disclosures">Disclosures</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a style="vertical-align:top" title="Ethics and Conflicts of Interest" aria-label="Ethics and Conflicts of Interest" href="/aboutthefed/ethics-conflicts-of-interest">Ethics and Conflicts of Interest</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Annual Financial Statements" href="/aboutthefed/annualreports" title="Annual Financial Statements">Annual Financial Statements</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Org Chart" href="/aboutthefed/org_chart" title="Org Chart">Org Chart</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-357" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <span style="padding: 0;font-family: RobotoCondensedBold,Impact,Arial Black,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 16px;color: #fff;text-decoration: none;letter-spacing: .03em;color: #99a5ad;margin-top: 3px;">More About Us</span> 
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-357">
+
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="News &amp; Events" aria-label="News &amp; Events" href="/press">News &amp; Events</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Advisory Groups" href="/aboutthefed/external_committees" title="Advisory Groups">Advisory Groups</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a aria-label="Vendor Information" href="/aboutthefed/vendor_information" title="Vendor Information">Vendor Information</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-127" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a title="Holiday Schedule" aria-label="Holiday Schedule" href="/aboutthefed/holiday_schedule">Holiday Schedule</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                At the New  York Fed, our mission is to make the U.S. economy stronger and the financial system more stable for all segments of society. We do this by executing monetary policy, providing financial services, supervising banks and conducting research and providing expertise on issues that impact the nation and communities we serve.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a style="margin: 0 10px 0 10px;" aria-label="The Teller Window" href="https://tellerwindow.newyorkfed.org" title="The Teller Window" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="The Teller Window" src="/medialibrary/media/images/v4/about_the_fed/the-teller-window-mm-b-280x176.png" width="144" height="88">
+                                <p>The Teller Window is a publication featuring expert knowledge and insight from the New York Fed, including thoughts and perspectives from senior leaders.</p>
+                            </a>
+                            <a aria-label="Freedom of Information request" href="/aboutthefed/freedom-of-information-requests" title="Freedom of Information request" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Information Requests" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf-mm-information-requests.jpg">
+                                <p>
+                                    Do you have a request for information and records? Learn how to submit it.
+                                </p>
+                            </a>
+
+                            <a aria-label="History of the New York Fed" href="/aboutthefed/history" title="History of the New York Fed" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img alt="Gold Vault" src="/medialibrary/media/images/v4/about_the_fed/mega_menu/atnyf_mm_goldvault.jpg">
+                                <p>
+                                    Learn about the history of the New York Fed and central banking in the United States through articles, speeches, photos and video.
+                                </p>
+                            </a>
+
+                           
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->  <!-- START : LEVEL 1 -->
+        <li id="nav-item-40" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a aria-label="Markets &amp; Policy Implementation" title="Markets &amp; Policy Implementation"  href="/markets" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation top level']);">Markets &amp; Policy Implementation</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-40">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/markets" aria-label="Markets & Policy Implementation" title="Markets & Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets & Policy Implementation']);">Markets & Policy Implementation</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/data-hub" aria-label="Markets Data Dashboard" title="Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Markets Data Dashboard']);">DATA</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/reference-rates" aria-label="Reference Rates" title="Reference Rates" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reference Rates']);">Reference Rates</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/effr" aria-label="Effective Federal Funds Rate" title="Effective Federal Funds Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Effective Federal Funds Rate']);">Effective Federal Funds Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/obfr" aria-label="Overnight Bank Funding Rate" title="Overnight Bank Funding Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Overnight Bank Funding Rate']);">Overnight Bank Funding Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/sofr" aria-label="Secured Overnight Financing Rate" title="Secured Overnight Financing Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Secured Overnight Financing Rate']);">Secured Overnight Financing Rate</a></li>
+								<li class="dxt-level-4-item nav nav-level-4 nav-type-menu no-bullet-indent"><a href="/markets/reference-rates/sofr-averages-and-index" aria-label="SOFR Averages & Index" title="SOFR Averages & Index" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'SOFR Averages & Index']);">SOFR Averages & Index</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/bgcr" aria-label="Broad General Collateral Rate" title="Broad General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Broad General Collateral Rate']);">Broad General Collateral Rate</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/reference-rates/tgcr" aria-label="Tri-Party General Collateral Rate" title="Tri-Party General Collateral Rate" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Tri-Party General Collateral Rate']);">Tri-Party General Collateral Rate</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Desk Operations</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/treasury-securities" aria-label="Treasury Securities Operations" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Securities Operations']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/ambs" aria-label="Agency Mortgage-Backed Securities Operations" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Agency Mortgage-Backed Securities Operations']);">Agency Mortgage-Backed Securities</a>
+</li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/repo" aria-label="Repo Operations" title="Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Repo Operations']);">Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/reverse-repo" aria-label="Reverse Repo Operations" title="Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Operations']);">Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/securities-lending" aria-label="Securities Lending Operations" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Securities Lending Operations']);">Securities Lending</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/desk-operations/central-bank-liquidity-swap-operations" aria-label="Central Bank Liquidity Swap Operations" title="Central Bank Liquidity Swaps" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Liquidity Swap Operations']);">Central Bank Liquidity Swaps</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/soma-holdings" aria-label="System Open Market Account Holdings of Domestic Securities" title="System Open Market Account Holdings" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'System Open Market Account Holdings of Domestic Securities']);">System Open Market Account Holdings</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties/primary-dealers-statistics" aria-label="Primary Dealer Statistics" title="Primary Dealer Statistics" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealer Statistics']);">Primary Dealer Statistics</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/omo_transaction_data" aria-label="Historical Transaction Data" title="Historical Transaction Data" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Historical Transaction Data']);">Historical Transaction Data</a></li>
+                    </ul>
+                </li>
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a href="/markets/domestic-market-operations" aria-label="Domestic Market Operations" title="Domestic Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Domestic Market Operations']);">DOMESTIC MARKET OPERATIONS</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation" aria-label="Monetary Policy Implementation" title="Monetary Policy Implementation" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Monetary Policy Implementation']);">Monetary Policy Implementation</a></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities" aria-label="About Treasury Securities" title="Treasury Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Treasury Securities']);">Treasury Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-mortgage-backed-securities" aria-label="About Agency Mortgage-Backed Securities" title="Agency Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Mortgage-Backed Securities']);">Agency Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-commercial-mortgage-backed-securities" aria-label="About Agency Commercial Mortgage-Backed Securities" title="Agency Commercial Mortgage-Backed Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Commercial Mortgage-Backed Securities']);">Agency Commercial Mortgage-Backed Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/agency-debt-securities" aria-label="About Agency Debt Securities" title="Agency Debt Securities" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Agency Debt Securities']);">Agency Debt Securities</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/repo-reverse-repo-agreements" aria-label="About Repo and Reverse Repo Agreements" title="Repos & Reverse Repos" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Repo and Reverse Repo Agreements']);">Repos & Reverse Repos</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/domestic-market-operations/monetary-policy-implementation/securities-lending" aria-label="About Securities Lending" title="Securities Lending" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'About Securities Lending']);">Securities Lending</a></li>
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/banking/discountwindow" aria-label="Discount Window" title="Discount Window" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Discount Window']);">Discount Window</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/treasury-debt-auctions-and-buybacks-as-fiscal-agent" aria-label="Treasury Debt Auctions and Buybacks as Fiscal Agent" title="Treasury Debt Auctions & Buybacks" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Treasury Debt Auctions and Buybacks as Fiscal Agent']);">Treasury Debt Auctions & Buybacks<br>as Fiscal Agent</a>
+</li>
+                <br><br>   
+                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations" aria-label="International Market Operations" title="International Market Operations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'International Market Operations']);">INTERNATIONAL MARKET OPERATIONS</a></li>
+                    <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-exchange-operations" aria-label="Foreign Exchange Operations" title="Foreign Exchange" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Operations']);">Foreign Exchange</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/foreign-reserves-management" aria-label="Foreign Reserves Management" title="Foreign Reserves Management" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management']);">Foreign Reserves Management</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/international-market-operations/central-bank-swap-arrangements" aria-label="Central Bank Swap Arrangements" title="Central Bank Swap Arrangements" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank Swap Arrangements']);">Central Bank Swap Arrangements</a></li>
+                 </ul></li>
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">ACROSS MARKETS</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/op_policies" aria-label="Desk Statements & Operating Policies" title="Statements & Operating Policies" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Desk Statements & Operating Policies']);">Statements & Operating Policies</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/market-intelligence" aria-label="Market Intelligence" title="Market Intelligence" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Market Intelligence']);">Market Intelligence</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/market-intelligence/survey-of-market-expectations" aria-label="Survey of Market Expectations" title="Survey of Market Expectations" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Survey of Market Expectations']);">Survey of Market Expectations</a></li>
+                            </ul>
+                        </li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/annual_reports" aria-label="Annual Report on Open Market Operations" title="Annual Reports" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Annual Report on Open Market Operations']);">Annual Reports</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/counterparties" aria-label="Counterparties" title="Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Counterparties']);">Counterparties</a>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/primarydealers" aria-label="Primary Dealers" title="Primary Dealers" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Primary Dealers']);">Primary Dealers</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/standing-repo-counterparties" aria-label="Standing Repo Counterparties" title="Standing Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Standing Repo Counterparties']);">Standing Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/rrp_counterparties" aria-label="Reverse Repo Counterparties" title="Reverse Repo Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Reverse Repo Counterparties']);">Reverse Repo Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-exchange-counterparties" aria-label="Foreign Exchange Counterparties" title="Foreign Exchange Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Exchange Counterparties']);">Foreign Exchange Counterparties</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a href="/markets/counterparties/foreign-reserves-management" aria-label="Foreign Reserves Management Counterparties" title="Foreign Reserves Management Counterparties" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Foreign Reserves Management Counterparties']);">Foreign Reserves Management Counterparties</a></li>
+                             </ul></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/operational-readiness" aria-label="Operational Readiness" title="Operational Readiness" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Operational Readiness']);">Operational Readiness</a></li>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/central-bank-and-international-account-services" aria-label="Central Bank & International Account Services" title="Central Bank & International Account Services" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Central Bank & International Account Services']);">Central Bank & International Account Services</a></li>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a href="/markets/programs-archive" aria-label="Programs Archive" title="Programs Archive" onclick="_sz.push(['event', 'Markets megamenu', 'Click', 'Programs Archive']);">Programs Archive</a></li>
+                    </ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+ul#dxt-navigation ul#nav-list-40 > li:nth-child(4) {
+	position: relative;
+	right: 0px !important;
+	top: 10px !important;
+	margin-top: 4px !important;
+}
+.upperlower {text-transform: capitalize !important;}
+ul#dxt-navigation ul#nav-list-40 li.nav-level-4 {
+	margin: 8px 5px 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+and (min-resolution:.001dpcm) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:20px; right:63px; }
+}
+@supports (-moz-appearance:none) {
+ul#dxt-navigation ul#nav-list-40.mm-item-content:before{ bottom:41px; right:150px; }
+}
+</style>  <!-- START : LEVEL 1 -->
+        <li id="nav-item-84" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu mm-item">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research top level']);">Economic Research</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-84">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a title="Economic Research" aria-label="Economic Research" href="/research" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Research']);">Economic Research</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+				
+				
+                <!-- BEGIN FIRST COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">U.S. Economy</span>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Consumer Expectations &amp; Behavior</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Survey of Consumer Expectations" aria-label="Survey of Consumer Expectations" href="/microeconomics/sce#/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Survey of Consumer Expectations']);">Survey of Consumer Expectations</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Household Debt &amp; Credit Report" aria-label="Household Debt &amp; Credit Report" href="/microeconomics/hhdc" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Household Debt & Credit Report']);">Household Debt &amp; Credit Report</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Home Price Changes" aria-label="Home Price Changes" href="/research/home-price-index" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Home Price Changes']);">Home Price Changes</a></li>								
+                      </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Growth &amp; Inflation</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Economic Heterogeneity Indicators" aria-label="Economic Heterogeneity Indicators" href="/research/economic-heterogeneity-indicators" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Heterogeneity Indicators']);">Economic Heterogeneity Indicators (EHIs)</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Multivariate Core Trend Inflation" aria-label="Multivariate Core Trend Inflation" href="/research/policy/mct#--:mct-inflation:trend-inflation" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Multivariate Core Trend Inflation']);">Multivariate Core Trend Inflation</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed DSGE Model" aria-label="New York Fed DSGE Model" href="/research/policy/dsge#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed DSGE Model']);">New York Fed DSGE Model</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="New York Fed Staff Nowcast" aria-label="New York Fed Staff Nowcast" href="/research/policy/nowcast#/nowcast" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'New York Fed Staff Nowcast']);">New York Fed Staff Nowcast</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="R-star: Natural Rate of Interest" aria-label="R-star: Natural Rate of Interest" href="/research/policy/rstar " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'R-star: Natural Rate of Interest']);">R-star: Natural Rate of Interest</a></li>
+                             
+                            </ul>
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Labor Market</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                    <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market for Recent College Graduates" aria-label="Labor Market for Recent College Graduates" href="/research/college-labor-market#--:explore:unemployment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market for Recent College Graduates']);">Labor Market for Recent College Graduates</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Labor Market Tightness Index" aria-label="Labor Market Tightness Index" href="/research/labor-market-tightness/#interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Labor Market Tightness Index']);">Labor Market Tightness Index</a></li>
+                            
+
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Financial Stability</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Corporate Bond Market Distress Index" aria-label="Corporate Bond Market Distress Index" href="/research/policy/cmdi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Corporate Bond Market Distress Index']);">Corporate Bond Market Distress Index</a></li>
+<li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Losses from Natural Disasters" aria-label="Losses from Natural Disasters" href="/research/policy/natural-disaster-losses " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Losses from Natural Disasters']);">Losses from Natural Disasters</a></li>
+
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Outlook-at-Risk" aria-label="Outlook-at-Risk" href="/research/policy/outlook-at-risk#root:growth-at-risk" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outlook-at-Risk']);">Outlook-at-Risk</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Treasury Term Premia" aria-label="Treasury Term Premia" href="/research/data_indicators/term-premia-tabs#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Treasury Term Premia']);">Treasury Term Premia</a></li>
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Yield Curve as a Leading Indicator" aria-label="Yield Curve as a Leading Indicator" href="/research/capital_markets/ycfaq#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Yield Curve as a Leading Indicator']);">Yield Curve as a Leading Indicator</a></li>
+                            </ul>
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower">Banking</span></li>
+                            <ul class="dxt-bullets dxt-level-4-list dxt-level-4 nav nav-level-3 nav-type-menu">
+                                <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Banking Research Data Sets" aria-label="Banking Research Data Sets" href="/research/banking_research/datasets" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Banking Research Data Sets']);">Banking Research Data Sets</a></li>
+                               
+                                   <li class="dxt-level-4-item nav nav-level-4 nav-type-menu"><a title="Reserve Demand Elasticity" aria-label="Reserve Demand Elasticity" href="/research/reserve-demand-elasticity" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Reserve Demand Elasticity']);">Reserve Demand Elasticity</a></li>
+                            </ul>
+						 
+                    </ul>
+                </li>
+				
+				
+				
+				
+				
+				
+				
+                <!-- END FIRST COLUMN, BEGIN SECOND COLUMN -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><div class="dxt-level-top"><a title="Regional Economy" aria-label="Regional Economy" href="/regional-economy" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Economy']);">REGIONAL ECONOMY</a></div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Empire State Manufacturing Survey" aria-label="Empire State Manufacturing Survey" href="/survey/empire/empiresurvey_overview" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Empire State Manufacturing Survey']);">Empire State Manufacturing Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Business Leaders Survey" aria-label="Business Leaders Survey" href="/survey/business_leaders/bls_overview " onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Business Leaders Survey']);">Business Leaders Survey</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Business Surveys: Special Topics" aria-label="Regional Business Surveys: Special Topics" href="/survey/business_leaders/Supplemental_Survey_Report" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Business Surveys: Special Topics']);">Regional Business Surveys: Special Topics</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Regional Employment Trends" aria-label="Regional Employment Trends" href="/research/regional_economy/regional-employment#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Regional Employment Trends']);">Regional Employment Trends</a></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Early Benchmarked Employment Data" aria-label="Early Benchmarked Employment Data" href="/research/regional_economy/early-benchmarked-employment" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Early Benchmarked Employment Data']);">Early Benchmarked Employment Data</a></li>
+                           
+						<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">INTERNATIONAL ECONOMY</span></li>
+                                <li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Global Supply Chain Pressure Index" aria-label="Global Supply Chain Pressure Index" href="/research/policy/gscpi#/interactive" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Global Supply Chain Pressure Index']);">Global Supply Chain Pressure Index</a></li>
+                                
+                             
+						
+                 </ul></li>
+				
+				
+				
+				
+				
+                <!-- END SECOND COLUMN, BEGIN THIRD COLUMN -->        
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu"><span class="nav nav-type-label">RESEARCHERS</span>
+					<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    		<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Economists" aria-label="Staff Economists" href="/research/economists" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Economists']);">Staff Economists</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Visiting Scholars" aria-label="Visiting Scholars" href="/research/economists/visitors" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Visiting Scholars']);">Visiting Scholars</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Resident Scholars" aria-label="Resident Scholars" href="/research/resident_scholar" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Resident Scholars']);">Resident Scholars</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu top-20px"><a title="Publications" aria-label="Publications" href="/research/publication_annuals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Publications']);">PUBLICATIONS</a></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Liberty Street Economics" aria-label="Liberty Street Economics" href="https://libertystreeteconomics.newyorkfed.org/" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Liberty Street Economics']);">Liberty Street Economics</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Staff Reports" aria-label="Staff Reports" href="/research/staff_reports" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Staff Reports']);">Staff Reports</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Policy Review" aria-label="Economic Policy Review" href="/research/epr" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Policy Review']);">Economic Policy Review</a></li>
+<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Outside Journals" aria-label="Outside Journals" href="/research/outside_journals" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Outside Journals']);">Outside Journals</a></li>
+                    		</ul>
+					<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">RESEARCH CENTERS</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Applied Macroeconomics & Econometrics Center (AMEC)" aria-label="Applied Macroeconomics & Econometrics Center (AMEC)" href="/research/amec" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Applied Macroeconomics & Econometrics Center (AMEC)']);">Applied Macroeconomics<br>&amp; Econometrics Center (AMEC)</a></li>
+                        		<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Center for Microeconomic Data (CMD)" aria-label="Center for Microeconomic Data (CMD)" href="/microeconomics" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Center for Microeconomic Data (CMD)']);">Center for Microeconomic Data (CMD)</a></li>
+                    		</ul>
+				<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><span class="nav nav-type-label upperlower top-20px">CALENDAR</span></li>
+							<ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+                    			<li class="dxt-level-3-item nav nav-level-3 nav-type-menu"><a title="Economic Indicators Calendar" aria-label="Economic Indicators Calendar" href="/research/calendars/nationalecon_cal" onclick="_sz.push(['event', 'Research Megamenu', 'Click', 'Economic Indicators Calendar']);">Economic Indicators Calendar</a></li>
+                    		</ul>
+					</ul>
+                </li>
+                <!-- END THIRD COLUMN -->  
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+
+<style>
+.dxt-menu-content .dxt-menu-images .dxt-menu-content-item {
+	height: 230px;
+}
+</style>
+  <!-- START : LEVEL 1 -->
+        <li id="nav-item-90" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </div>
+            </div>
+            <ul id="nav-list-90" class="dxt-level-3-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-institution-supervision" title="Financial Institution Supervision">Financial Institution Supervision</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 3 -->
+                <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/supervisionregulate" title="Supervision &amp; Regulation">Supervision &amp; Regulation</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-92" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-151">
+                            <a href="/banking/circulars" title="Circulars">Circulars</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-150">
+                            <a href="/banking/regulations" title="Regulations">Regulations</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-93">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/reporting_formsinstruct" title="Reporting Forms &amp; Instructions">Reporting Forms &amp; Instructions</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/reportingforms" title="Reporting Forms">Reporting Forms</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/banking/regrept/regrept" title="Correspondence">Correspondence</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-94">
+                    <a href="/banking/ba" title="Bank Applications">Bank Applications</a>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL 3 -->
+                <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-158">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/banking/protection" title="Consumer Protection">Consumer Protection</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-158">
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-159">
+                            <a href="/outreach-and-education/community-development/community-reinvestment-act" title="Community Reinvestment Act">Community Reinvestment Act</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-160" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/frauds_scams" title="Frauds and Scams">Frauds and Scams</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 3 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                As part of our core mission, we supervise and regulate financial institutions in the Second District. Our primary objective is to maintain a safe and competitive U.S. and global banking system.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/governance-and-culture-reform" title="The Governance &amp; Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="The Governance &amp; Culture Reform " title="The Governance &amp; Culture Reform " />
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+                                </p>
+                            </a>
+
+                            <a href="/banking/reporting_formsinstruct" title="Need to file a report with the New York Fed?" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_reportingforms.jpg" alt="Need to file a report with the New York Fed?" title="Need to file a report with the New York Fed?" />
+                                <p>
+                                    Need to file a report with the New York Fed? Here are all of the forms, instructions and other information related to regulatory and statistical reporting in one spot.
+                                </p>
+                            </a>
+
+                            <a href="/banking/protection" title="Frauds and Scams" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/fisg_mm_consumerprotection.jpg" alt="Frauds and Scams" title="Frauds and Scams" />
+                                <p>
+                                    The New York Fed works to protect consumers as well as provides information and resources on how to avoid and report specific scams.
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-96" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial&nbsp;Services &amp;&nbsp;Infrastructure</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-96">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/financial-services-and-infrastructure" title="Financial Services &amp; Infrastructure">Financial Services &amp; Infrastructure</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-98">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-services-operations" title="Financial Services &amp; Operations">Financial Services &amp; Operations</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu" id="nav-list-98">
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-401" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/services" title="Services For Financial Institutions">Services For Financial Institutions</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-402">
+                            <a href="/banking/payment_services" title="Payment Services">Payment Services</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-404">
+                            <a href="/banking/payment_oversight" title="Payment System Oversight">Payment System Oversight</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-422" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/banking/international" title="International Services, Seminars &amp; Training">International Services, Seminars&nbsp;&amp;&nbsp;Training</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu" id="nav-item-99">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform" title="Financial Market Infrastructure &amp; Reform">Financial Market Infrastructure &amp; Reform</a>
+                        </div>
+                    </div>
+                    <ul id="nav-list-99" class="dxt-level-3-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-161">
+                            <a href="/banking/tpr_infr_reform" title="Tri-Party Repo Infrastructure Reform">Tri-Party Repo Infrastructure Reform</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-162">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/managing-foreign-exchange" title="Managing Foreign Exchange">Managing Foreign Exchange</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li id="nav-item-163" class="dxt-level-3-item nav nav-level-3 nav-type-menu">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/money-market-funds" title="Money Market Funds">Money Market Funds</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-3 nav-type-menu" id="nav-item-164">
+                            <a href="/financial-services-and-infrastructure/financial-market-infrastructure-and-reform/over-the-counter-derivatives" title="Over-The-Counter Derivatives">Over-The-Counter Derivatives</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            <p>
+                                The Federal Reserve Bank of New York works to promote sound and well-functioning financial systems and markets through its provision of industry and payment services, advancement of infrastructure reform in key markets and training and educational support
+                                to international institutions.
+                            </p>
+                        </div>
+
+                        <div class="dxt-menu-images">
+
+                            <a href="/aboutthefed/nyic" title="The New York Innovation Center" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/about_the_fed/innovation-center-mega-menu.jpg" alt="The New York Innovation Center" title="The New York Innovation Center">
+                                <p>The New York Innovation Center bridges the worlds of finance, technology, and innovation and generates insights into high-value central bank-related opportunities. </p>
+                            </a>
+
+                             <a href="/nonbank-financial-institutions" title="Nonbank Financial Institutions" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v5/library/financial-services-infrastructure/nbfi/bank-nbfi-skyscrapers-280x176.jpg" alt="Looking skyward toward the tops of glass skyscrapers" title="Nonbank Financial Institions">
+                                <p>The growing role of nonbank financial institutions, or NBFIs, in U.S. financial markets is a transformational trend with implications for monetary policy and financial stability.</p>
+                            </a>
+
+                            <a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="Training Programs" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fs_i/mega_menu/fsi_mm_seminar-training.jpg" alt="Specialized Courses" title="Specialized Courses">
+                                <p>The New York Fed offers the Central Banking Seminar and several specialized courses for central bankers and financial supervisors.</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 --> <!-- START : LEVEL 1 -->
+        <li id="nav-item-100" class="dxt-level-1-item nav nav-level-1 nav-type-megamenu">
+            <div class="dxt-level-top">
+                <div>
+                    <span class="dxt-mobile-menu-controls">
+                        <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <a href="/outreach-and-education" title="Community Development and Education">Community Development<br>&amp;&nbsp;Education</a>
+                </div>
+            </div>
+            <ul class="dxt-level-2-list dxt-level-2 nav nav-level-1 nav-type-megamenu mm-item-content" id="nav-list-100">
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-2 nav-type-menu">
+                    <a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development &amp;&nbsp;Education</a>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu" id="nav-item-102" style="margin-top: 22px;">
+                    <div class="dxt-level-top">
+                          <div>  <span class="nav nav-type-label"><a href="/outreach-and-education" title="Community Development &amp;&nbsp;Education">Community Development</a></span> </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <a href="/outreach-and-education/staff" title="Staff">Staff</a>
+                        </li>
+                     <li  class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                    <div class="dxt-level-top">
+                        <div>
+                             <span id="nav-item-500" class="frs-init nav nav-type-label upperlower">Fed System Initiatives</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://fedcommunities.org" title="Fed Communities">Fed Communities</a>
+                        </li>
+                        <li id="nav-item-502" class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications-fed-listens-events.htm" title="Fed Listens">Fed Listens</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="frs-init-items dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-502">
+                            <a href="https://www.fedsmallbusiness.org" title="Fed Small Business">Fed Small Business</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>                        
+                       <!-- START : LEVEL 3 -->
+                        <li id="nav-item-469" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                            <a href="/outreach-and-education/other-community-development-work" title="Other Community Development Work">Other Community Development Work</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-468">
+                            <a href="/outreach-and-education/calendar" title="Community Development Calendar">Calendar</a>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+
+                <!-- START : LEVEL CONTENT -->
+                <li class="nav nav-level-2 nav-type-menu">
+                    <div class="dxt-menu-content">
+
+                        <div class="dxt-menu-content-item dxt-menu-content-item-desc">
+                            
+                <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-109" >
+ <!-- START : LEVEL 2 -->
+                <li class="dxt-level-2-item nav nav-level-1 nav-type-menu econ-ed-style" id="nav-item-102">
+                    <div class="dxt-level-top">
+                        <div>
+                            <a href="/outreach-and-education/economic-education" title="Economic Education">Economic Education</a>
+                        </div>
+                    </div>
+                    <ul class="dxt-level-3-list dxt-level-3 nav nav-level-1 nav-type-label" id="nav-list-102">
+
+                       
+                        <!-- END : LEVEL 3 -->
+
+                     <li id="nav-item-92" class="dxt-level-3-item nav nav-level-2 nav-type-menu">
+                      <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Programs</span>
+                        </div>
+                    </div>
+                  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/high-school/high-school-fed-challenge" title="High School Fed Challenge">High School Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/education/fedchallenge_college" title="College Fed Challenge">College Fed Challenge</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/high-school/teacher-professional-development-program" title="Teacher Professional Development">Teacher Professional Development</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/classroom-visits" title="Classroom Visits">Classroom Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/aboutthefed/museum-and-learning-center-visits" title="Museum &amp; Learning Center Visits">Museum &amp; Learning Center Visits</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                    </ul>
+                </li>
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-477">
+                            <div class="dxt-level-top">
+                        <div>
+                            <span class="nav nav-type-label upperlower">Resources</span>
+                        </div>
+                    </div>
+  <ul id="nav-list-93" class="dxt-bullets dxt-level-4-list dxt-level-3 nav nav-level-2 nav-type-menu">
+
+                        <!-- START : LEVEL 4 -->
+                        <li id="nav-item-156" class="dxt-level-4-item nav nav-level-3 nav-type-menu">
+                           <a href="/outreach-and-education/comic-books" title="Educational Comic Books">Educational Comic Books</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+
+                        <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a title="Economist Spotlight Series" href="/outreach-and-education/economic-education/economist-spotlight" title="Economist Spotlight Series">Economist Spotlight Series</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+                          <!-- START : LEVEL 4 -->
+                        <li class="dxt-level-4-item nav nav-level-3 nav-type-menu" id="nav-item-157">
+                            <a href="/outreach-and-education/ny-fed-content-for-educators" title="Lesson Plans and Resources">Lesson Plans and Resources</a>
+                        </li>
+                        <!-- END : LEVEL 4 -->
+			</ul>
+                        </li>
+                        <!-- END : LEVEL 3 -->
+
+                        <!-- START : LEVEL 3 -->
+                        <li class="dxt-level-3-item nav nav-level-2 nav-type-menu" id="nav-item-490">
+                            <a href="/outreach-and-education/economic-education/calendar" title="Economic Education Calendar">Economic Education Calendar</a>
+                        </li>
+                    
+
+                    </ul>
+                </li>
+                <!-- END : LEVEL 2 -->
+                       
+
+                        
+
+                    </ul></div><div class="dxt-menu-images">
+
+
+
+                           
+
+                           
+                            <a href="/governance-and-culture-reform" title="Government and Culture Reform" class="dxt-menu-content-item dxt-menu-content-item-image">
+                                <img src="/medialibrary/media/images/v4/fisg/mega_menu/governance-culture-reform-140x88.jpg" alt="Government and Culture Reform" title="Government and Culture Reform">
+                                <p>
+                                    The Governance & Culture Reform hub is designed to foster discussion about corporate governance and the reform of culture and behavior in the financial services industry.
+
+                                </p> 
+                            </a>
+
+                        </div></div>
+                </li>
+                <!-- END : LEVEL CONTENT -->
+
+            </ul>
+        </li>
+        <!-- END : LEVEL 1 -->
+<style>
+#nav-list-500 {
+        margin-top: 16px !important;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li {
+	background: transparent;
+	color: #fff;
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+	overflow: visible;
+	width: 255px;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+ul#dxt-navigation ul#nav-list-100 li.nav-level-3 a {
+	display: inline;
+	font-family: RobotoCondensedRegular,Arial Narrow,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0;
+	vertical-align: top;
+}
+@media (max-width: 736px) {
+.econ-ed-style {margin-left:-10px !important;}
+ul > li.dxt-level-2-item > div.dxt-level-top a {
+	padding-top: 0px !important;
+}
+}
+@media (min-width: 737px) {
+.frs-init-items {
+        margin-top: 10px !important;
+}
+.frs-init {
+        margin-top: 9px !important;
+}
+.econ-ed-style {margin-top:40px !important;}
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-images {
+	width: 425px;
+	margin-left: 25px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+ul#dxt-navigation ul#nav-list-100 > li:last-child div.dxt-menu-content-item-desc {
+	width: auto; 
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#nav-list-93 li {
+	overflow: visible;
+	list-style: disc;
+	margin-left: 16px;
+	margin-top: 10px;
+        font-size:16px;
+}
+}
+#nav-item-100 #nav-list-109 li {
+	margin-top: 10px;
+}
+#nav-item-100 #nav-item-102 .dxt-level-top a {
+	color: #fff;
+	margin-top: 0 !important;
+}
+
+</style>
+
+        <hr>
+
+        <li id="dxt_universal_nav"></li>
+
+    </ul>
+
+</div>
+<!-- END : MOBILE HEADER -->
+<div id="dxt-overlay"></div>
+        </header>
+        <div id="header-border"></div>
+        
+
+<div id="breadcrumb" class="grid_12"></div>
+
+        <!--PAGEWATCH-->
+        <!-- begin main content -->
+        
+
+<div class="grid_6 push_1">
+    
+    
+    
+<div id="share-module-fix"><div id="sharebox" class="sharebox">
+	<div class="sharing-buttons">
+		<button onClick="shareFacebook()"><img alt="Facebook" class="icon" src="/medialibrary/media/v4/images/FB_s.png"></button>
+		<button onClick="shareTwitter()"><img alt="Twitter" class="icon"  src="/medialibrary/media/v4/images/twitter_s.png"></button>
+		<button onClick="printPage()"><img alt="Print" class="icon"  src="/medialibrary/media/v4/images/print_s.png"></button>
+		<button onClick="shareEmail()"><img alt="Email" class="icon"  src="/medialibrary/media/v4/images/email_s.png"></button>
+	</div>	
+</div>
+</div>
+	<style>
+#share-module-fix {
+    float: right;
+    display: block;
+    position: relative;
+    top: -37px;
+    right: 10px;
+}
+#share-module {
+    display: none;
+}
+.sharing-buttons {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid_8 #share-module-fix {
+    right: 160px !important;
+}
+.sharing-buttons button { background:none; border:none; padding:0; cursor:pointer;}
+.icon { width:21px; height:21px;}
+	</style>
+	<script>
+                function openPopOutWindow(url) { window.open(url, '_blank', 'resizable,width=600,height=700');}
+		function shareFacebook() {
+			openPopOutWindow('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Facebook']);
+		}
+		function shareTwitter() {
+			openPopOutWindow('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Twitter']);
+		}
+		function shareLinkedIn() {
+			openPopOutWindow('https://www.linkedin.com/shareArticle?url=' + encodeURIComponent(window.location.href), '_blank');
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'LinkedIn']);
+		}
+		function printPage() {
+			window.print();
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Print']);
+		}
+		function shareEmail() {
+			var subject = 'Check out this page';
+			var body = 'I thought you would find this page interesting: ' + window.location.href;
+			window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+			_sz.push(['event', 'Social Sharing', 'Icon Click', 'Email']);
+		}
+		
+	</script>
+
+
+
+  
+  <div align="center"><b>FEDERAL RESERVE SYSTEM</b><b>&#39;S SUPERVISION AND<br> REGULATION OF THE TRANSACTIONS AND<br> AFFILIATIONS OF UNITED STATES MEMBER BANKS</b></div>
+  <p align="center">Regulation and Supervision of <br> Bank Affiliated Conglomerates in Latin America<p align="center">Miami, Florida<br> April 2-3, 1998<p align="center"><b>Joyce M. Hansen<br> Deputy General Counsel and Senior Vice President<br> Federal Reserve Bank of New York</b><p align="center"><i>The views expressed herein are solely those of the author and do not necessarily reflect the views of the Federal Reserve Bank of New York or any other component of the Federal Reserve System.</i><hr>
+  <p align="center"><b>The Federal Reserve System&#39;s Supervision and<br> Regulation of the Transactions and<br> Affiliations of United States Member Banks </b><a href="#1" target="1/">1/</a><hr>
+  <p align="left"><b>I. <u>Introduction</u></b><p align="left">In the United States, a banking organization is typically composed of a bank holding company which owns one or more bank and nonbank subsidiaries. As discussed in more detail below, each of these entities is considered an &quot;affiliate&quot; of each other. The <a href="http://www.bog.frb.fed.us/">Board of Governors of the Federal Reserve System</a> (the &quot;Board&quot; or &quot;Federal Reserve&quot;) is charged with responsibility for, among other things, the supervision and regulation of bank holding companies, State-chartered banks which are members of the Federal Reserve (&quot;member banks&quot;), and nonbank subsidiaries of bank holding companies.<p align="left">The general philosophy behind the Board&#39;s supervision and regulation of bank holding companies and the domestic affiliates of member banks has three components. First, bank holding companies should confine their activities to the management and control of banks and companies engaged in activities considered closely related to banking so as to ensure that banks do not affiliate with companies engaged in impermissible commercial activities. Second, transactions between a bank and its affiliates should be subject to certain prudential limits and restrictions. Finally, proactive, effective, and efficient supervision of the financial condition and activities of bank holding companies and their affiliates is vital to the safety and soundness of banks and the banking system. This paper will give a broad overview of how the Board implements each of these philosophical components.<a href="#2" target="2/">2/</a><p align="left"><b>II. <u>Statutory and Regulatory Background</u></b><p align="left">It is useful to briefly discuss the relevant Federal statutes and regulations which grant the Federal Reserve its supervisory and regulatory authority. The primary statute is the Federal Reserve Act of 1913 (the &quot;Reserve Act&quot;) (codified as amended in scattered sections of <a href="http://www.law.cornell.edu/uscode/12/">12 U.S.C.</a>), which restructured the banking system in the United States and effectively created the nation&#39;s central bank. Section 9 of the Reserve Act sets forth the Federal Reserve&#39;s power to regulate member banks, including the requirement of Federal Reserve examination of member banks and their affiliates, capital requirements, and reporting requirements. Additionally, Sections 23A and 23B of the Reserve Act address member bank relations with affiliates generally and provide specific restrictions on certain types of transactions with affiliates.<p align="left">Following the enactment of the Reserve Act, the Glass-Steagall Act was adopted as part of the Banking Act of 1933 (codified as amended in scattered sections of 12 U.S.C.). The Glass-Steagall Act generally prohibits banks and securities firms from directly engaging in certain aspects of each other&#39;s lines of business and restricts corporate and management affiliations between banks and securities firms. Most notably, Section 16 of the Glass-Steagall Act expressly forbids -- subject to certain exceptions for specific types of securities -- member banks from underwriting securities (either debt or equity) or purchasing any equity securities for their own accounts. Further, Section 20 of the Glass-Steagall Act prohibits member banks from affiliating with any company that is principally engaged in issuing, underwriting or distributing securities.<a href="#3" target="3/">3/</a><p align="left">Another important statutory basis for the supervisory and regulatory authority of the Federal Reserve is the Bank Holding Company Act of 1956 (12 U.S.C. &#39;&#39; 1841-1848&quot;) (&quot;BHC Act&quot;). The BHC Act defines bank holding companies<a href="#4" target="4/">4/</a> and designates the Board as the primary regulator of bank holding companies and their subsidiaries. Like the Glass-Steagall Act, the BHC Act was enacted to separate the business of banking from other commercial business and to ensure that the nonbanking activities of bank holding companies are carried out in a safe and sound manner. Additionally, the BHC Act was designed to prevent unacceptable concentrations of banking resources by regulating mergers and acquisitions involving banks. The Board&#39;s Regulation Y (12 C.F.R. Part 225) is the primary regulation implementing the Federal Reserve&#39;s statutory authority to supervise and regulate bank holding companies and their subsidiaries.<a href="#5">5/</a><p align="left"><b>III. <u>Definitions of &quot;Subsidiary,&quot; &quot;Affiliate,&quot; and &quot;Control&quot;</u></b><p align="left">Before discussing the Board&#39;s supervision and regulation of bank holding companies and their affiliates, it is first necessary to understand the definitions of &quot;subsidiary,&quot; &quot;control,&quot; and &quot;affiliate&quot; under the BHC Act. The BHC Act considers a company to be a &quot;subsidiary&quot; of a bank holding company if it is controlled by the bank holding company. Similarly, an &quot;affiliate&quot; means any company that controls, is controlled by, or is under common control with, another company. These two definitions hinge upon the definition of &quot;control.&quot;<p align="left">The BHC Act defines &quot;control&quot; as: (1) ownership of 25 percent of any class of the voting securities of a company; (2) controlling the election of a majority of the board of directors of a company; or (3) the power to exercise a controlling influence over a company&#39;s management or policies. The Board has further refined this definition by developing several rebuttable presumptions of control. For example, Company X is presumed to control the voting securities of Company Y if it owns securities of Y that are immediately convertible into voting securities at the option of X. Also, Company X is presumed to control Company Y if X has entered into an agreement to manage Y. In addition, if Company X together with its managment officials owns 25 percent or more of the shares of Company Y, and Company X itself owns more than five percent of Company Y, then Company X is presumed to control Company Y. Similarly, if Company X has one or more management officials in common with Company Y and owns more than five percent of the shares of Company Y, then it is presumed to control Company Y as long as no other person controls as much as five percent of Company Y. Finally, the Board also presumes that if Company X owns less than five percent of the shares of Company Y, then it does <u>not</u> control Company Y.<p align="left">The Board has also developed so-called &quot;stakeout&quot; rules to address control concerns that arise from significant <i>nonvoting</i> equity stakes in companies. The Board has determined that an investment in nonvoting shares, absent other arrangements, generally will not be deemed a controlling stake when the investment is for less than 25 percent of the total equity. Other factors, however, could cause the Board to question such investments. The Board will assess an investment in light of certain factors, such as: (1) whether the investment is passive and nonentrepreneurial; (2) whether the investment amounts to more than 25 percent of the investee&#39;s total equity; (3) whether the investment contains covenants that restrict the ability of the investee&#39;s management to conduct its affairs; (4) the manner in which nonvoting securities convertible into voting securities held by the investor are transferable, in a widely dispersed public distribution or otherwise; (5) whether convertible securities held by the investor, when combined with voting securities held by the investor, represent more than 25 percent of the investee&#39;s shares; and (6) the existence of common officers or employees.<p align="left"><b>IV. <u>Nonbanking Activities and Acquisitions</u></b><p align="left">As mentioned, one of the philosophies behind the Federal Reserve&#39;s supervision and regulation of bank holding companies and the domestic affiliates of U.S. banks is to limit the involvement of bank holding companies in commercial activities and thereby maintain the separation of banking and commerce. This philosophy is embodied in the BHC Act and Regulation Y, which provide that bank holding companies and their subsidiaries may not engage in, or acquire or control, directly or indirectly, companies engaged in, any activity other than (1) banking or managing or controlling a bank, or (2) any activity that the Board determines to be &quot;so closely related to banking . . . as to be a proper incident thereto.&quot;<p align="left">Certain activities and acquisitions are exempt from this general prohibition. The more notable exemptions include: (1) certain servicing activities; (2) the acquisition of assets acquired in collecting on a debt previously contracted; (3) the acquisition of securities representing five percent or less of the voting securities of a company; and (4) certain acquisitions of securities by subsidiary banks. (See <a href="#a">Attachment A</a> for a complete list of exemptions.)<p align="left">If a nonbanking activity does not otherwise meet one of the above exemptions, then it must satisfy the &quot;closely related to banking&quot; test. An activity is considered &quot;closely related to banking&quot; if banks generally have in fact provided the proposed services, if banks generally provide similar services, or if banks generally provide services that are so integrally related to the proposed activity as to require their provision in specialized form. Regulation Y contains a list (the &quot;laundry list&quot;) of nonbanking activities which the Board has determined to be closely related to banking, such as asset management, investment advisory services, securities brokerage services, and certain management consulting activities. (See <a href="#b">Attachment B</a> for the complete laundry list.) The Board has also approved a number of nonbanking activities by Board order; often, once the Board has gained more experience supervising such activities, they will be added to the laundry list.<p align="left">A bank holding company proposing to engage in a nonbanking activity or acquire a company engaged in a nonbanking activity must submit a notice to the Board for the Board&#39;s prior approval. The Board has developed several different notice procedures depending on the type of activity or acquisition being proposed and the condition of the notificant. Notices to engage in nonbanking activities not previously approved by the Board or previously approved only by Board order require the most amount of time for review by the Board (up to 60 days) and require the most information to be submitted by the notificant. If the proposed activity is a laundry list activity, however, the notice can be processed in a shorter period of time and with less required information. If the notificant is considered a well-managed and well-capitalized bank holding company, then it may take advantage of expedited notice procedures. Under these expedited procedures, a notice to engage in laundry list activities <i>de novo</i>, rather than by acquisition, may even be submitted <i>after</i> commencing the activities. These expedited notice procedures are consistent with the Board&#39;s evolving policy of providing incentives to banking organizations to maintain strong capital and management.<p align="left">In acting on any type of nonbanking proposal, the Board considers several key factors in deciding whether to approve or deny the proposed activity or acquisition. First, the Board weighs whether the proposed activity or acquisition can reasonably be expected to produce benefits to the public (such as greater convenience, increased competition, and gains in efficiency) that will outweigh possible adverse effects (such as undue concentration of resources, decreased or unfair competition, conflicts of interest, and unsound banking practices). Activities conducted <i>de novo</i> are presumed to result in benefits to the public through increased competition. The Board will also evaluate the financial and managerial resources of the notificant (including its subsidiaries and any company to be acquired) and the effect of the proposed transaction on those resources. Finally, the Board will evaluate the management expertise, internal control and risk-management systems, and capital of the entity conducting the activity.<p align="left"><b>V. <u>Prudential Limits and Restrictions</u></b><p align="left">As noted, the second philosophy behind the Federal Reserve&#39;s supervision and regulation of bank holding companies and the domestic affiliates of U.S. banks is that transactions between a bank and its affiliates should be subject to certain prudential limits and restrictions. This philosophy is highlighted by the restrictions imposed by Sections 23A and 23B of the Federal Reserve Act and the Board&#39;s Regulation O.<p align="left"><b>A. Transactions with Affiliates under Sections 23A and 23B</b><p align="left">Sections 23A and 23B of the Reserve Act were promulgated to regulate transactions between member banks and their affiliates to protect banks from abuse in such transactions.<a href="#6" target="6/">6/</a> The provisions limit extensions of credit that banks may make to, and related credit transactions that banks may have with, their affiliates.<p align="left">The primary purpose behind Section 23A is to prevent the misuse of a bank&#39;s resources stemming from &quot;covered transactions&quot;<a href="#7" target="7/">7/</a> that are not conducted on an arms-length basis with affiliates. For purposes of Section 23A, a bank&#39;s &quot;affiliates&quot; are its parent, the parent&#39;s subsidiaries, and other companies directly or indirectly controlled by the bank&#39;s shareholders or sharing a majority of directors or shareholders with the bank.<a href="#8" target="8/">8/</a> Nonbank subsidiaries of the bank, however, are not considered affiliates for purposes of Section 23A.<a href="#9" target="9/">9/</a> An affiliate also includes a mutual fund advised by the bank or any affiliate of the bank. Importantly, the Board can determine by order or regulation that a company should be considered an affiliate because its relationship with a member bank could be detrimental to the bank. Thus, Section 23A&#39;s definition of affiliate is generally broader than the BHC Act&#39;s definition.<p align="left">Section 23A protects banks through four key limitations. These limits are more restrictive than lending limits, which are limits on loans to one person based on a bank&#39;s capital. First, Section 23A limits a bank&#39;s covered transactions with any single affiliate to not more than ten percent of the bank&#39;s capital and surplus, and with all affiliates combined, to not more than 20 percent of capital and surplus. Second, it requires that all covered transactions and transactions exempt under Section 23A between a bank and its affiliate be on terms and conditions consistent with safe and sound banking practices. Third, Section 23A prohibits a bank and its subsidiaries from buying low-quality assets from the bank&#39;s affiliate. Finally, it ensures that all extensions of credit by a bank to an affiliate are adequately secured by collateral. Note that pursuant to Section 23A, any transaction by a bank with any <i>person</i> is deemed to be a transaction with an <i>affiliate</i>, to the extent that the proceeds from such transaction are transferred to, or used for the benefit of, the affiliate. So, for example, if a bank lends money to a customer to buy securities from an affiliate, the loan is considered a covered transaction.<p align="left">Except for the requirement that all transactions be conducted on terms and conditions that are consistent with safe and sound banking practices, the provisions of Section 23A are not applicable to certain types of specified transactions. These include transactions between sister banks, transactions involving correspondent and clearing activities, loans secured by U.S. government obligations or a segregated deposit account, and the purchase of assets on which there is a &quot;market&quot; quotation.<p align="left">Section 23B also regulates transactions with affiliates, and does so for similar policy reasons. Transactions covered by Section 23B include: (1) any covered transaction with an affiliate (as that term is defined in Section 23A, except that banks are excluded from the term); (2) the sale of securities or other assets to an affiliate, including assets subject to an agreement to repurchase; (3) the payment of money or the furnishing of services to an affiliate under contract, lease, or otherwise; (4) any transaction in which an affiliate acts as an agent or broker or receives a fee for its services to the bank or to any other person; or (5) any transaction with a third party if an affiliate has a financial interest in the third party or an affiliate is a participant in such transaction.<p align="left">A bank and its subsidiaries may engage in transactions covered by Section 23B, but only to the extent that such transactions are on terms and under circumstances that are substantially the same, or at least as favorable to the bank or its subsidiary, as its transactions with non-affiliates. In addition, Section 23B prohibits a bank or its subsidiary from purchasing, as fiduciary, securities or other assets from any affiliate unless such purchase is permitted pursuant to an agreement creating the fiduciary relationship, or pursuant to relevant law or court order. It also prohibits the purchase of securities during the existence of an underwriting or selling syndicate, insofar as an affiliate of the bank is a principal underwriter, unless such purchase is first approved by the bank&#39;s outside directors prior to their sale to the public. Finally, Section 23B forbids a bank or its subsidiaries from publishing any advertisement or entering any agreement stating or suggesting that such bank or subsidiary is in any way responsible for the obligations of its affiliates.<p align="left">An example involving the application of Sections 23A and 23B is useful. The purchase of assets is a covered transaction for purposes of Sections 23A and 23B. So, for example, if a bank subsidiary of a bank holding company acquires the bank holding company&#39;s mortgage subsidiary, the acquisition is a &quot;covered transaction.&quot; This is true even if the bank holding company contributes the stock of the mortgage company to the bank, since the transaction is, in effect, a purchase of assets in exchange for the assumption of liabilities of the company. Sections 23A and 23B apply to transactions with affiliates. The bank holding company is an &quot;affiliate&quot; of the bank, since it controls the bank. Therefore, Section 23A would prohibit the purchase if the purchase price (the liabilities assumed plus the amount paid for the stock) exceeds ten percent of the bank&#39;s capital and surplus. Section 23A would also prohibit the purchase if it is not on terms and conditions that are consistent with safe and sound banking practices. The purchase may be considered unsafe and unsound if, for example, the mortgage company&#39;s assets were of low quality. Section 23B would prohibit the purchase if it is not on terms and conditions that are substantially the same as those prevailing for comparable transactions with nonaffiliated companies. Thus, for example, Section 23B would prohibit the bank from purchasing the mortgage company for an above-market price.<p align="left"><b>B. Loans to Insiders under Regulation O</b><p align="left">The Board&#39;s Regulation O (12 C.F.R. Part 215), which implements Sections 22(g) and 22(h) of the FRA, governs any extension of credit (<u>e.g.</u>, making or renewing a loan, granting a line of credit, etc.) by a <a href="/banks.html">member bank</a> <a href="#10" target="10/">10/</a> and its subsidiaries to an executive officer,<a href="#11" target="11/">11/</a> director, or principal shareholder, including any company controlled<a href="#12" target="12/">12/</a> by such persons (collectively, &quot;insiders&quot;) of the member bank, the parent bank holding company, and any other affiliate13/ of the bank. The purpose of the regulation is to curtail or eliminate self-serving or abusive transactions. Such transactions may deprive the bank of opportunities and benefits that may otherwise have been available, may be an imprudent business practice, and may reduce the bank&#39;s liquidity or otherwise overextend it. Regulation O imposes safety and soundness requirements, limits on loans to insiders, and board of director approvals.<p align="left">In general, no member bank may extend credit to an insider of the bank or its affiliates unless the extension of credit: (1) is made on substantially the same terms (including interest rates and collateral) as, and following credit-underwriting procedures that are not less stringent than, those prevailing at the time for comparable transactions by the bank with other persons that are not covered by Regulation O and who are not employed by the bank; and (2) does not involve more than the normal risk of repayment or present other unfavorable features. In addition, a member bank may not extend credit to any insider of the bank or its affiliates in an amount that, when combined with all extensions of credit to that insider, exceeds the higher of $25,000 or five percent of the bank&#39;s surplus and capital, and not exceeding $500,000, unless the extension of credit has been approved in advance by a majority of the entire board of directors, and the insider has abstained from participating in the voting.<p align="left">The Board has also established certain limits for extensions of credit to insiders on an individual basis and on an aggregate basis. The total extensions of credit to an <i>individual</i> insider (including any company controlled by that insider) may not exceed the bank&#39;s general lending limit (15 percent of the bank&#39;s capital and surplus for loans not fully secured and an additional ten percent of capital and surplus for fully secured loans). The total extensions of credit to <i>all</i> insiders may not exceed the bank&#39;s capital and surplus. The aggregate limit, however, does not apply to extensions of credit fully secured by: (1) obligations of the United States or other obligations fully guaranteed as to principal and interest by the United States; (2) commitments or guarantees of a department or agency of the United States; or (3) a segregated deposit account with the lending bank.<p align="left">Extensions of credit by a bank to executive officers of the bank, as opposed to executive officers or other insiders of an affiliate, are subject to further restrictions. Such extensions of credit may only be made as follows: (1) in any amount for a home mortgage for the executive officer; (2) in any amount to finance the education of the executive officer&#39;s children; (3) in any amount, if fully secured as described in the previous paragraph; and (4) for other purposes, if the aggregate amount of extensions of credit to that executive officer do not exceed the higher of 2.5 percent of the banks capital and surplus or $25,000, but in no event more than $100,000.<p align="left">Member banks are required to maintain records necessary to monitor compliance with Regulation O, including a list of all insiders of the bank and records of all extensions of credit to insiders (including the amount and terms of each such extension of credit). Any extensions of credit by a member bank to insiders of the bank must be promptly reported to the bank&#39;s board of directors. Insiders of member banks that do not have publicly traded stock are required to report annually to the bank&#39;s board of directors the outstanding amount of any credit secured by shares of the insider&#39;s bank.<p align="left"><b>VI. <u>Supervision</u></b><p align="left">The third philosophy behind the Federal Reserve&#39;s supervision and regulation of bank holding companies and the domestic affiliates of U.S. banks is that proactive, effective, and efficient supervision of the financial condition and activities of bank holding companies and their affiliates is vital to the safety and soundness of banks and the banking system. This philosophy is highlighted by the Board&#39;s capital adequacy guidelines, supervisory and enforcement powers, examination authority, and reporting requirements.<p align="left"><b>A. Capital Adequacy Guidelines</b><p align="left">An area of particular concern to the Federal Reserve in its supervisory role over bank holding companies and State member banks (collectively, &quot;banking organizations&quot;) is whether a banking organization has sufficient capital to support the organization&#39;s operations, to provide an adequate base for the growth of the organization, and to act as a cushion to absorb unexpected losses incurred by the organization. Capital adequacy is a vital measure of the safety and soundness of the banking organization and a significant indicator of the level of protection the banking organization has against insolvency. Ensuring adequate levels of capital on a consolidated basis<a href="#14" target="14/">14/</a> promotes public confidence in the particular banking organization and the entire banking system. The Federal Reserve&#39;s capital adequacy guidelines include risk-based measures (based on the <a href="http://www.bis.org/publ/bcbs09.htm">Basle Capital Accord</a> <a href="#15" target="15/">15/</a>) and leverage measures.<p align="left">The primary functions of the risk-based measure of capital adequacy are to: (1) sensitize regulatory capital requirements to differences in risk profiles among banking organizations; (2) factor off-balance sheet exposures into the assessment of capital adequacy; (3) minimize disincentives to holding liquid, low-risk assets; and (4) achieve greater consistency in the evaluation of the capital adequacy of major banking organizations throughout the world. The risk-based guidelines apply on a consolidated basis to bank holding companies with consolidated assets of $150 million or more, and on a bank-only basis, in most situations, to bank holding companies with less than $150 million in consolidated assets.<p align="left">The risk-based capital guidelines set forth minimum ratios of capital to risk-weighted assets, but it is important to note that banking organizations are expected to maintain capital well above these minimum ratios. Currently, the minimum ratio of total capital to risk-weighted assets is eight percent, and the minimum ratio of Tier 1 capital to risk-weighted assets is four percent. Those bank holding companies that intend to expand their operations are expected to maintain capital levels significantly in excess of these minimum ratios. Additionally, those bank holding companies that engage in banking or nonbanking activities that are prone to high levels of risk -- such as engaging in underwriting and dealing in certain debt and equity securities through nonbank subsidiaries (&quot;Section 20 subsidiaries&quot;<a href="#16" target="16">16</a>)/ -- must maintain capital ratios substantially above the minimum ratios. Banking organizations that fail to meet the minimum risk-based standard, or otherwise become inadequately capitalized, must develop and implement a capital restoration plan acceptable to the Federal Reserve. <p align="left">The leverage measure of capital adequacy was formulated by the Federal Reserve to complement the risk-based measure in determining the overall capital adequacy of banking organizations. The Board has established a minimum ratio of Tier 1 capital to total assets of three percent. The principal objective of the capital leverage ratio is to limit the degree to which a banking organization can leverage its equity capital base. As in the case of the risk-based measure, the leverage measure applies on a consolidated basis to bank holding companies with consolidated assets of $150 million or more, and on a bank-only basis, in most situations, to bank holding companies with less than $150 million in consolidated assets.<p align="left"><b>B. Supervisory and <a href="http://www.bog.frb.fed.us/boarddocs/enforcement/">Enforcement Actions</a></b><p align="left">The Federal Reserve may take both informal and formal supervisory and enforcement action against a banking organization in response to violations of law or regulation, capital deficiencies, or other significant supervisory concerns. Generally, the Federal Reserve takes formal action only after informal action has failed to resolve the supervisory concerns. Informal actions include supervisory letters and formal discussions with the officers or directors of the banking organization. Formal actions include cease and desist orders, civil money penalties, criminal penalties, written agreements, and prompt corrective action directives (&quot;PCAs&quot;). The Federal Reserve may take supervisory and enforcement action not only against the institutions it supervises, but also against various persons affiliated with such institutions, such as officers or directors.<p align="left">Of the formal enforcement actions available to the Federal Reserve, PCA relates most directly to concerns regarding capital adequacy, as well as asset quality, management, earnings, and liquidity. PCA requires the Federal Reserve to administer timely corrective measures to banks when their capital position falls below certain thresholds that are considered unsafe and unsound. The five capital categories for PCA purposes are: <p align="left">(1) well capitalized; (2) adequately capitalized; (3) undercapitalized; (4) significantly undercapitalized; and (5) critically undercapitalized. (See <a href="#c">Attachment C</a> for a chart of the corresponding capital ratios for each category.) Banks falling into one of the last three categories are the primary candidates for PCA. PCA generally relies on the total risk-based capital, Tier 1 risk-based capital, and Tier 1 leverage ratio thresholds to trigger specific actions to restore banks to appropriate capital levels. While these capital ratios are generally calculated from information submitted in the various regulatory reports required by the Federal Reserve, PCA may also be triggered by a finding of an unsafe or unsound condition or practice in a bank, irrespective of the bank&#39;s actual capital ratio. In such cases, the bank&#39;s measurable capital ratio may be reclassified to the next lower capital category.<a href="#17" target="17/">17/</a><p align="left">PCA provides for increasingly stringent corrective provisions as a bank is placed in progressively lower capital categories. The PCA framework requires the Federal Reserve to take certain mandatory actions as well as consider certain discretionary actions. (See <a href="#d">Attachment D</a> for a list of common mandatory and discretionary PCA provisions.) These actions include restrictions on transactions with affiliates that go beyond the restrictions imposed by Sections 23A and 23B.<p align="left">An important component of the PCA framework is the capital restoration plan. Any bank that is undercapitalized, significantly undercapitalized, or critically undercapitalized must provide the Federal Reserve with a capital restoration plan to bring capital ratios to at least the minimum level necessary for an adequately capitalized organization. These plans must be in writing and detailed in nature. Banks submitting such plans for Federal Reserve approval must adhere to established rules regarding the minimum substantive criteria for, and filing requirements of, capital restoration plans. Moreover, the Federal Reserve may not approve any capital restoration plan unless each company that controls the bank submitting the plan has guaranteed the bank&#39;s full compliance with the plan and has given the Federal Reserve reasonable assurances of performance. Failure to submit or implement an approved capital restoration plan by an undercapitalized bank makes such bank subject to the same PCA provisions applicable to significantly undercapitalized banks.<p align="left"><b>C. On-Site Supervision: Examinations and Inspections</b><p align="left">To ensure the safety and soundness of individual banking organizations and the entire banking system, the Federal Reserve conducts on-site safety and soundness examinations of State member banks and on-site inspections of bank holding companies and their nonbank subsidiaries. The frequency and scope of examinations are designed to provide flexibility consistent with maintaining safety and soundness. Generally, however, examinations occur annually, with the largest organizations and organizations with significant problems being examined semi-annually. The frequency and scope of inspections are determined primarily by the composite rating, size, amount of debt, and complexity of the organization.<p align="left">In response to recent technological advances in the banking industry, the Federal Reserve has taken steps to enhance the effectiveness of its examination and inspection process by increasing the focus on the areas of highest risk to individual banking organizations and the banking system as a whole and on the adequacy of controls in these areas. These risk-focused examinations and inspections rely on extensive planning by the Federal Reserve to tailor the examinations and inspections to the size and nature of a banking organization&#39;s activities and to allocate examiner resources appropriately. To identify the areas posing substantial risk to banking organizations, a risk assessment is performed prior to an examination or inspection. The typical scope of a risk assessment includes: (1) identifying the banking organization&#39;s activities; (2) determining the type and magnitude of risk to the organization caused by such activities; and (3) considering the quality of the management and control of these risks. This information is then used to create a risk matrix and assign a composite risk rating for the combined activities. In addition, the risk matrix rates each type of risk identified at the banking organization, such as credit, market, and legal risk. (See <a href="#e">Attachment E</a> for a complete list and definitions of risk types.) Each type of risk is categorized as low, moderate, or high, then further categorized as increasing, stable, or decreasing. Once a risk assessment has been compiled and the overall risk management process has been evaluated, a preliminary supervisory strategy for each activity and for the entire examination or inspection is developed.<p align="left">Examiners exercise judgment in determining the extent to which transaction testing is necessary to supplement the risk-focused process. In situations where risk management systems and procedures are considered strong and are adequately tested by a banking organization&#39;s internal and/or external auditors, examiners may minimize reliance on transaction testing. Conversely, if examiners conclude that risk management systems are not adequately tested or appear inappropriate for the type and amount of risk in an activity, then more transaction testing may be appropriate.<p align="left">As is evident from the discussion above, the risk-focused approach to examinations and inspections is not comprised of a predetermined set of routine procedures. Nevertheless, all risk-focused examinations and inspections include procedures sufficient to enable examiners to reach an informed judgment on the financial, managerial, operational, and compliance factors rated under the CAMELS<a href="#18" target="18/">18/</a> and BOPEC<a href="#19" target="19/">19/</a> rating systems. Indeed, both the CAMELS and BOPEC rating systems rely strongly on risk exposure analysis.<p align="left"><b>D. Off-Site Supervision: Reporting Requirements</b><p align="left">Another important supervisory tool of the Federal Reserve is the requirement that all banking organizations file timely and accurate regulatory reports. The Federal Reserve relies on these reports to appraise the performance and financial condition of banking organizations, including their nonbank subsidiaries, to identify potential unsafe and unsound practices, and to ensure appropriate implementation of PCA procedures described above. Banking organizations must maintain adequate internal systems and procedures to facilitate the various reporting requirements. To underscore the importance of this off-site supervisory tool, the Federal Reserve has developed a Regulatory Reports Monitoring Program to identify banking organizations that file late or false reports. Reports can be divided into two categories: (1) &quot;Financial Condition/Capital Adequacy&quot; reports are used to determine the financial health of the institution filing the report; and (2) &quot;Compliance&quot; reports are used to monitor the institution&#39;s compliance with various laws and regulations. Several of these reports are discussed below:<p align="left"><u>Financial Condition/Capital Adequacy Reports</u><ul>
+      <li>
+        <p align="left"><i>Consolidated Reports of Condition and Income <a href="http://www.ffiec.gov/ffiec_report_forms.htm#Callreport">(FFIEC 031 - 034)</a></i>: All State member banks are required to file this report quarterly. This report provides detailed, consolidated financial data regarding the assets, liabilities, capital, and off-balance-sheet activities of a bank. The report also includes consolidated earnings, changes in capital accounts, the allowance for loan and lease losses, and charge-offs and recoveries. Finally, the report also aggregates various information on loans to insiders and their related interests. <li>
+        <p align="left"><i>Consolidated Financial Statements for Bank Holding Companies <a href="/medialibrary/media/banking/regrept/y9c9803.pdf">(FR Y-9C)</a></i>: All bank holding companies with assets of $150 million or more must file these financial statements quarterly. <li>
+        <p align="left"><i>Annual Report of Selected Financial Data for Nonbank Subsidiaries of Bank Holding Companies <a href="/medialibrary/media/banking/regrept/y11i9712.pdf">(FR Y-11 I)</a></i>: All bank holding companies must file this report for their nonbank subsidiaries, which contains standardized financial statement information. <li>
+        <p align="left"><i>Financial Statements for a Bank Holding Company Subsidiary Engaged in Ineligible Securities Underwriting and Dealing <a href="/medialibrary/media/banking/regrept/y20_1297.pdf">(FR Y-20)</a></i>: This quarterly report is required from those bank holding companies authorized to engage through Section 20 subsidiaries in underwriting and dealing in securities that are ineligible to be underwritten or dealt in by member banks. This report includes a balance sheet, income statement, schedule of securities held for dealing and investment, and a statement of changes in stockholder&#39;s equity. </li></li></li></li></ul>
+  <p align="left"><u>Compliance Reports</u><ul>
+      <li>
+        <p align="left"><i>Annual Report of Domestic Bank Holding Companies <a href="/medialibrary/media/banking/regrept/y69712.pdf">(FR Y-6)</a></i>: Every bank holding company must file this report within 90 days after the end of the fiscal year. The report includes, among other things, comparative financial statements of a bank holding company&#39;s most recent two years for both consolidated and parent company only, financial statements of nonbank subsidiaries, confirmation that all changes in investments have been appropriately accounted for on the FR Y-6A form, a copy of the annual report to share- holders, and information on shareholders, officers, and directors. Bank holding companies that are registered with the <a href="http://www.sec.gov">Securities and Exchange Commission</a> (&quot;SEC&quot;) must submit a copy of the most recent Form 10-K filed with the SEC. <li>
+        <p align="left"><i>Bank Holding Company Report of Changes in Investments or Activities <a href="/medialibrary/media/banking/regrept/y6a9705.pdf">(FR Y-6A)</a></i>: This report is required from all top-tier (<u>i.e.</u>, the ultimate owner) bank holding companies and provides data on changes in regulated investments and activities, including acquisitions, divestitures, transfers, mergers, name or location changes, and corrections to previously submitted information. The report must be filed within 30 days of a reportable change. <li>
+        <p align="left"><i>Report of Bank Holding Company Intercompany Transactions and Balances <a href="/medialibrary/media/banking/regrept/y89706.pdf">(FR Y-8)</a></i>: This is a semi-annual report that must be filed by every bank holding company with consolidated assets of $300 million or more. The report monitors transactions between banks and other affiliates within a particular holding company structure. Reportable transactions include intercompany sales or transfers of assets, management and service fee arrangements, and transfers of liabilities. </li></li></li></ul>
+  <p align="left"><b>E. Reporting Crimes and Suspicious Activities</b><p align="left">An interagency agreement signed in 1985 between the Federal bank supervisory agencies, including the Federal Reserve, (collectively, the &quot;Agencies&quot;) and the <a href="http://www.usdoj.gov/">U.S. Department of Justice</a> requires the Agencies to cooperate in improving their response to white-collar crime in banking organizations by sharing relevant information, subject to certain legal restrictions, so that all available information can be used in criminal, civil, and administrative proceedings. A new uniform interagency reporting form, the Suspicious Activity Report (&quot;SAR&quot;), was recently adopted for use by all bank holding companies and their nonbank subsidiaries, State member banks, and Federal Reserve Banks.<p align="left">The SAR is designed for reporting known or suspected criminal offenses or suspicious activities related to check, credit, and wire transfer fraud; embezzlement; mysterious disappearances; money laundering; and violations of the Bank Secrecy Act (the &quot;BSA&quot;). It represents a more effective and less burdensome reporting mechanism than its predecessor in that it: (1) significantly increases the reporting thresholds for known or suspected violations involving non-insider related offenses or where the reporting organization is unable to identify a suspect; (2) creates a threshold for reporting suspicious transactions related to money laundering and violations of the BSA; (3) eliminates the requirement of multiple filings of criminal referrals by banking organizations with various Federal agencies in favor of a single filing; (4) provides a safe harbor for reporting banking organizations and their employees from civil liability for reporting known or suspected criminal offenses or suspicious activities; and (5) allows for the imposition of criminal penalties for unauthorized disclosures of SARs.<p align="left">Attachments<hr>
+  <p><a name="1">1</a>/ I would like to thank Ivan J. Hurwitz, Attorney, and Scott C. Rankin, former Attorney, Federal Reserve Bank of New Yor, for their work on this paper.<p><a name="2">2</a>/ For a discussion of the Board&#39;s supervision and regulation of <em>foreign </em>affiliates, <u>see</u> Ernest T. Patrikis, &quot;The Federal Reserve System&#39;s Supervision and Regulation of the Foreign Operations of U.S. Banking Organizations&quot; (Apr. 2, 1998) (&quot;Patrikis Paper&quot;).<p><a name="3">3</a>/ For purposes of the Glass-Steagall Act, a bank is considered to be affiliated with a company if the bank or its parent, among other things, directly or indirectly owns or controls a majority of the voting shares of the company or more than 50 percent of the shares voted for such company&#39;s directors.<p><a name="4">4</a>/ A &quot;bank holding company&quot; is &quot;any company which has control over any bank or over any company thiat is or becomes a bank holding company.&quot; In turn, the BHC Act defines a &quot;company&quot; to include any bank, corporation, general or limited partnership, association or similar organization, business trust, or any other trust unless by its terms it terminates within specified time frames. An individual is not a &quot;company,&quot; however, individuals acting under a common business purpose could be deemed an &quot;association,&quot; and a company can exercise control by acting through a person or group of persons.<p><a name="5">5</a>/ Regulation Y was significantly revised in 1997, and the information in this paper is based entirely on the revised version. The most noteworthy aspects of the revision include: (1) the expansion of permissible nonbanking activities; (2) the establishment of streamlined notice and application procedures; and (3) the revision of the anti-typing rules.<p><a name="6">6</a>/ Through Sections 23A and 23B specifically apply only to member banks, they have been extended through Section 18(j) of the Federal Deposit Insurance Act to include all insured depository institutions, including nonmember insured banks. In addition, the Financial Institutions Reform, Recovery, and Enforcement Act applied Sections 23A and 23B to savings associations.<p><a name="7">7</a>/ Section 23A defines &quot;covered transactions&quot; to include: (1) a loan or extension of credit to an affiliate; (2) a purchase of, or an investment in, securities issued by an affiliate; (3) a purchase of assets from an affiliate; (4) the acceptance of securities issued by an affiliate as collateral for a loan or extension of credit; or (5) the issuance of a guarantee, acceptance, or letter of credit on behalf of an affiliate.<p><a name="8">8</a>/ Specifically, Section 23A defines &quot;affiliates&quot; to include: (1) any company that controls the bank and any other company that is controlled by the company that controls the bank; (2) any bank subsidiary of the bank; (3) any company that is controlled, directly or indirectly, by or for the benefit of shareholders who control, difectly or indirectly, the bank or any company that controls the bank; (4) any company in which a majority of its directors or trustees constitute a majority of the persons holding any such office with the bank or any company that controls the bank; (5) any company, including a real estate investment trust, that is sponsored and advised on a contractual basis by the bank or any subsidiary or affiliate of the bank; (6) any investment company, with respect to which a bank or any affiliate thereof is any investment advisor (as defined by Section 2(a)(20) of the Investment Company Act of 1940); and (7) any company that the Board determines by regulation or order to hava a relationship with the bank or any subsidiary or affiliate of the bank, such that covered transactions by the bank or its subsidiary with that company may be affected by the relationship to the detriment of the bank or its subsidiary.<p><a name="9">9</a>/ Most banking organizations conduct their foreign operations through Edge Act subsidiaries of a member bank. Since subsidiaries of banks are not considered affiliates, transactions between banks and their foreign affiliates held through an Edge subsidiary are not covered by Section 23A. For further discussion, see Patrikis Paper, <u>supra</u> n.2.<p><a name="10">10</a>/ Though Regulation O specifically applies only to member banks, the Federal Deposit Insurance Act extends almost all of Regulation O&#39;s provisions to nonmember insured banks as well.<p><a name="11">11</a>/ An &quot;executive officer&quot; is an officer that participates in major policy decisions.<p><a name="12">12</a>/ The definition of &quot;control&quot; under Regulation O is similar to (but broader than) the BHC Act&#39;s definition, because a person also has control of a company if: (1) the person is an executive officer or director of the company and owns more than ten percent of the voting shares of the company; or (2) the person owns more than ten percent of the voting shares of the company and no other persons owns a greater percentage of voting shares of the company.<p><a name="13">13</a>/ The definition of &quot;affiliate&quot; under Regulation O is similar to Section 23A&#39;s definition: an affiliate is any company of which a member bank is a subsidiary or any other subsidiary of that company. The definition of &quot;company&quot; excludes banks.<p><a name="14">14</a>/ The Federal Reserve evaluates capital with regard to the volume and risk of the operations of the consolidated banking organization because bank holding company management exercises some level of discretion in connection with the allocation of resources within the whole organization. Thus, in a very real way, it is the capital of the bank holding company on a consolidated basis that must provide the ultimate source of strength to the whole organization.<p><a name="15">15</a>/ Basle Committee on Banking Regulations and Supervisory Practices, &quot;International Convergence of Capital Measurement and Capital Standards&quot; (July 1988, as amended).<p><a name="16">16</a>/ Prior to permitting a Section 20 subsidiary to engage in business, the Federal Reserve conducts an &quot;infrastructure review&quot; to determine whether appropriate operational and managerial policies and procedures are in place.<p><a name="17">17</a>/ A bank can only be reclassified to the next lower capital level and may not be classified as critically undercapitalized on any basis other than its actual capital ratio.<p><a name="18">18</a>/ CAMELS is an acronym that describes the system used to rate the condition of banks. It stands for: <strong>C</strong>apital adequacy, <strong>A</strong>sset quality, <strong>M</strong>anagement/administration, <strong>E</strong>arnings, <strong>L</strong>iquidity/funds management, and <strong>S</strong>ensitivity to market risk.<p><a name="19">19</a>/ BOPEC is an acronym that describes the system used to rate the condition of bank holding companies. It stands for: <strong>B</strong>ank subsidiaries, <strong>O</strong>ther (nonbank) subsidiaries, <strong>P</strong>arent company, <strong>E</strong>arnings (consolidated), and <strong>C</strong>apital adequacy (consolidated).<hr>
+  <p align="center"><b><a name="a">ATTACHMENT A</a></b><p align="center">Exempt Nonbanking Activities and Acquisitions<p align="left">The Board has determined that the following activities may be engaged in without its prior approval, subject to certain conditions<a href="#*" target="_*"><u>*</u></a>/:<ol>
+      <li>
+        <p align="left">certain <i>de novo</i> nonbanking activities, which are also listed as permissible nonbanking activities (other than operation of an insured depository institution), subject to certain requirements; <li>
+        <p align="left">servicing activities for the bank holding company or its subsidiaries in connection with their activities as authorized by law and services for the internal operations of the bank holding company or its subsidiaries, including: (i) accounting, auditing, and appraising; (ii) advertising and public relations; (iii) data processing and data transmission services, databases, or facilities; (iv) personnel services; (v) courier services; (vi) holding or operating property used wholly or substantially by a subsidiary in its operations or for its future use; (vii) liquidating property acquired from a subsidiary; (viii) liquidating property acquired from any sources either prior to May 9, 1956, or the date on which the company became a bank holding company, whichever is later; and (ix) selling, purchasing, or underwriting insurance, such as blanket bond insurance, group insurance for employees, and property and casualty insurance; <li>
+        <p align="left">safe deposit business; <li>
+        <p align="left">nonbanking acquisitions, including: (i) DPC acquisitions; (ii) securities or assets required to be divested by subsidiary; (iii) fiduciary investments; (iv) securities eligible for investment by national bank; (v) securities or property representing five percent or less of a company; (vi) securities of investment company; (vii) assets acquired in ordinary course of business; and (viii) asset acquisitions by lending company or industrial bank subject to certain requirements; <li>
+        <p align="left">acquisition of securities by subsidiary banks; <li>
+        <p align="left">engaging in nonbanking activities and control voting securities or assets of a nonbank subsidiary, for new bank holding companies (for a period of two years) if the bank holding company engaged in such activities or controlled such voting securities or assets on the date it became a bank holding company; <li>
+        <p align="left">grandfathered activities by, and securities of, a &quot;covered company in 1970&quot; (unless the Board orders divestiture or termination), including to: (i) retain voting securities or assets and engage in activities that it has lawfully held or engaged in continuously since June 30, 1968; and (ii) acquire voting securities of any newly formed company to engage in such activities; and <li>
+        <p align="left">securities or activities exempt under Regulation K. </li></li></li></li></li></li></li></li></ol>
+  <p align="left"><a name="*">*</a>/ Regulation Y &sect; 225.22, 12 C.F.R. &sect; 225.22.<hr>
+  <p align="center"><b><a name="b">ATTACHMENT B</a></b><p align="center">Permissible Nonbanking Activities<p align="left">The Board has determined that the nonbanking activities listed below are &quot;closely related to banking&quot; and may be engaged in by a bank holding company or its subsidiaries in accordance with the notice requirements of Regulation Y<a href="#**" target="_**"><b><u>*</u></b></a><b>/</b>:<ol>
+      <li>
+        <p align="left">making, acquiring, brokering, or servicing loans or other extensions of credit (including factoring, issuing letters of credit and accepting drafts) for the company&#39;s account or for the account of others; <li>
+        <p align="left">activities related to extending credit, including: (i) real estate and personal property appraising; (ii) arranging commercial real estate equity financing; (iii) check guaranty services; (iv) collection agency services; (v) credit bureau services; (vi) asset management, servicing, and collection activities; (vii) acquiring debt in default subject to certain requirements; and (viii) real estate settlement servicing; <li>
+        <p align="left">leasing personal or real property or acting as agent, broker, or adviser in leasing such property, subject to certain requirements; <li>
+        <p align="left">operating nonbank depository institutions; <li>
+        <p align="left">performing functions or activities that may be performed by a trust company (including activities of a fiduciary, agency, or custodial nature); <li>
+        <p align="left">financial and investment advisory activities; <li>
+        <p align="left">agency transactional services for customer investments, including: (i) securities brokerage; (ii) riskless principal transactions, subject to certain requirements and restrictions; (iii) private placement services; (iv) futures commission merchant, subject to certain requirements and restrictions; and (v) other transactional services; <li>
+        <p align="left">investment transactions as principal, including: (i) underwriting and dealing in government obligations and money market instruments; (ii) investing and trading activities, subject to certain requirements and restrictions; (iii) buying and selling bullion, and related activities; <li>
+        <p align="left">management consulting and counseling activities, subject to certain requirements and restrictions; <li>
+        <p align="left">certain support services; <li>
+        <p align="left">insurance agency and underwriting, subject to certain requirements and restrictions; <li>
+        <p align="left">community development activities; <li>
+        <p align="left">issuance and sale of money orders, U.S. savings bonds, and traveler&#39;s checks; and <li>
+        <p align="left">data processing, subject to certain requirements and restrictions. </li></li></li></li></li></li></li></li></li></li></li></li></li></li></ol>
+  <p align="left"><a name="**">*</a>/ Regulation Y &sect; 225.28, 12 C.F.R. &sect; 225.28.<hr>
+  <p align="center"><b><a name="c">ATTACHMENT C</a></b><p align="center">Capital Ratios under Prompt Corrective Action<hr>
+    <div align="center">
+      <center>
+        <table bordercolor="#000000" class="legacy-table">
+          <tr>
+            <td></td>
+            <td>Total</td>
+            <td>
+              <blockquote>
+                <p align="left">Tier1 </blockquote>
+            </td>
+            <td>
+              <blockquote>
+                <p align="left">Tier1 </blockquote>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Risk-Based<br><u>Capital Ratio</u></td>
+            <td>Risk-Based<br><u>Capital Ratio</u></td>
+            <td>Leverage<br><u>Ratio</u></td>
+          </tr>
+          <tr>
+            <td>
+              <p align="left">Well Capitalized</td>
+            <td>
+              <p align="left">&gt;10%</td>
+            <td>
+              <p align="left">&gt;6%</td>
+            <td>
+              <p align="left">&gt;5%</td>
+          </tr>
+          <tr>
+            <td>
+              <p align="left">Adequately Capitalized</td>
+            <td>
+              <p align="left">&gt;8%</td>
+            <td>
+              <p align="left">&gt;4%</td>
+            <td>
+              <p align="left">&gt;4%<a href="#***" target="_***">*</a></td>
+          </tr>
+          <tr>
+            <td>
+              <p align="left">Undercapitalized</td>
+            <td>
+              <p align="left">&lt;8%</td>
+            <td>
+              <p align="left">&lt;4%</td>
+            <td>
+              <p align="left">&lt;4%<a href="#***" target="_***">*</a></td>
+          </tr>
+          <tr>
+            <td>
+              <p align="left">Significantly Undercapitalized</td>
+            <td>
+              <p align="left">&lt;6%</td>
+            <td>
+              <p align="left">&lt;3%</td>
+            <td>
+              <p align="left">&lt;3%</td>
+          </tr>
+          <tr>
+            <td>
+              <p align="left">Critically Undercapitalized</td>
+            <td>
+              <p align="left">Tangible equity &lt;2%</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <hr>
+  <p align="left">The tangible equity ratio equals Tier 1 capital plus cumulative preferred stock and related surplus less intangible except qualifying purchased mortgage servicing rights divided by the sum of total assets less intangibles except qualifying purchased mortgage servicing rights.<p align="left"><a name="***">*</a> As established by the <a href="http://www.occ.treas.gov">Office of the Comptroller of the Currency</a>, the Tier 1 leverage ratio for adequately capitalized and undercapitalized banks equals three percent if the bank is rated a CAMEL 1.<hr>
+  <p align="center"><b><a name="d">ATTACHMENT D</a></b><p align="center">Common Mandatory and Discretionary Pca Provisions<p align="left">An undercapitalized bank is subject to several <i>mandatory</i> provisions that become effective upon notification of the bank.<a href="#****" target="_****"><u>*</u></a>/ For example, an undercapitalized bank:<ol>
+      <li>
+        <p align="left">must cease paying dividends; <li>
+        <p align="left">is prohibited from paying management fees to a controlling person (see the previous subsection for exceptions); <li>
+        <p align="left">is subject to increased monitoring by the Federal Reserve and periodic review of the bank&#39;s efforts to restore its capital; <li>
+        <p align="left">must file and implement a capital restoration plan generally within 45 days; <li>
+        <p align="left">may acquire interest in a company, open any new branch offices, or engage in a new line of business only if the following three requirements are met: (i) the Federal Reserve has accepted its capital restoration plan; (ii) any increase in total assets is consistent with the capital restoration plan; and (iii) the bank&#39;s ratio of tangible equity to assets increases during the calendar quarter at a rate sufficient to enable the bank to become adequately capitalized within a reasonable time; and <li>
+        <p align="left">may not make any acquisition, acquire any company or depository institution, establish new branches, or engage in any new line of business unless the Federal Reserve determines that such action is consistent with its capital plan or the <a href="http://www.fdic.gov">Federal Deposit Insurance Corporation</a> determines that such action will further the purposes of PCA. </li></li></li></li></li></li></ol>
+  <p align="left">In addition to the mandatory provisions, a number of discretionary provisions may be imposed on an undercapitalized bank, such as:<ol>
+      <li>
+        <p align="left">requiring one or more of the following: (i) that the bank sell enough additional capital or debt to ensure that it would be adequately capitalized after the sale; (ii) that the aforementioned additional capital be voting shares; (iii) that the bank accept an offer to be acquired by another institution or company, or that any company that controls the bank be required to divest itself of the bank; <li>
+        <p align="left">restricting transactions between the bank and its affiliates; <li>
+        <p align="left">restricting the interest rates paid on deposits collected by the bank to the prevailing rates paid on comparable amounts in the region where the bank is located; <li>
+        <p align="left">restricting the bank&#39;s asset growth or requiring the bank to reduce its total assets; and <li>
+        <p align="left">requiring the bank or any of its subsidiaries to terminate, reduce, or alter any activity determined by the Federal Reserve to pose excessive risk to the bank. </li></li></li></li></li></ol>
+  <p align="left"><a name="****">*</a>/ Significantly undercapitalized and critically undercapitalized banks may be subject to additional mandatory and discretionary provisions.<hr>
+  <p align="center"><a name="e"></a><b>ATTACHMENT E</b><p align="center">Risk Types Evaluated During Examinations and Inspections<ul>
+      <li>
+        <p align="left"><b>Credit Risk</b> arises from the potential that a borrower or counterparty will fail to perform on an obligation. <li>
+        <p align="left"><b>Market Risk</b> is the risk to a banking organization&#39;s condition resulting from adverse movements in market rates or prices, such as interest rates, foreign exchange rates, or equity prices. <li>
+        <p align="left"><b>Liquidity Risk</b> is the potential that an organization will be unable to meet its obligations as they come due because it cannot: (1) liquidate assets or obtain adequate funding (&quot;funding liquidity risk&quot;); or (2) easily unwind or offset specific exposures without significantly lowering market prices because of inadequate market depth or market disruptions (&quot;market liquidity risk&quot;). <li>
+        <p align="left"><b>Operational Risk</b> arises from the potential that inadequate information systems, operational problems, breaches in internal controls, fraud, or unforeseen catastrophes will result in unexpected losses. <li>
+        <p align="left"><b>Legal Risk</b> arises from the potential that unenforceable contracts, lawsuits, or adverse judgements can disrupt or otherwise negatively affect the operations or condition of a banking organization. <li>
+        <p align="left"><b>Reputational Risk</b> is the potential that negative publicity regarding an organization&#39;s business practices, whether true or not, will cause a decline in the customer base, costly litigation, or revenue reductions. </li></li></li></li></li></li></ul>
+
+
+</div>
+<div class="grid_4 push_2">
+    
+<div>
+
+</div>
+</div>
+        <!-- end main content -->
+        <!--/PAGEWATCH-->
+        
+<!-- COOKIE CONSENT START -->
+<style>
+#myCookieConsent {
+    z-index: 999;
+    min-height: 20px;
+    font-family: RobotoCondensedRegular;
+    padding: 10px 20px;
+    background: #3b4045;
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    display:none;
+    right: 16px;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+#myCookieConsent div {
+    padding: 0;
+}
+#myCookieConsent a {
+    color: #A6D9F0;
+    display: inline-block;
+    padding: 0 0px;
+}
+#myCookieConsent a:hover {
+	color: #A6D9F0;
+}
+#myCookieConsent a#cookieButton {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+#myCookieConsent a#cookieButton:hover {
+    
+
+}
+/*Social Media Footer Styles*/
+#social_media_footer svg {
+	overflow: hidden;
+	background: #fff;
+	width: 26px;
+	height: 26px;
+        margin-bottom:1px;
+}
+#social_media_footer svg#social-twitter:hover {
+	overflow: hidden;
+	background: #000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-youtube:hover {
+	overflow: hidden;
+	background: #FF0000;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-linkedin:hover {
+	overflow: hidden;
+	background: #0072b1;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-email:hover {
+	overflow: hidden;
+	background: #731A8B;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-instagram:hover {
+	overflow: hidden;
+	background: #ff0076;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+#social_media_footer svg#social-facebook:hover {
+	overflow: hidden;
+	background: #4267B2;
+        fill:#FFF;
+	width: 26px;
+	height: 26px;
+}
+</style>
+</style>
+<script type="text/javascript">
+$(document).ready(function(){   
+var d = new Date(); 
+var day = d.getDate(); 
+if(sessionStorage.getItem('bannerSeen') != day){
+    $("#myCookieConsent").fadeIn();
+    sessionStorage.setItem('bannerSeen',day);
+
+   $("#cookieButton").click(function() {
+ 
+       $("#myCookieConsent").fadeOut();
+})
+var expireTime = 24000*60*60; 
+setTimeout(function() {
+    sessionStorage.removeItem('bannerSeen');
+}, expireTime);
+} 
+}); 
+
+</script>
+<div id="myCookieConsent">
+	
+	<div>By continuing to use our site, you agree to our <a id="terms-of-use" href="/privacy/termsofuse">Terms of Use</a> and <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>. You can learn more about how we use cookies by reviewing our <a id="privacy-policy" href="/privacy/privacy-statement">Privacy Statement</a>.&nbsp;&nbsp;&nbsp;<a id="cookieButton" title="Close"><img alt="Close" src="/medialibrary/media/footer/close-notice.png"/></a></div>
+</div>
+<!-- COOKIE CONSENT END -->
+
+<div class="space60"></div>
+<div id="footer" class="container_12">
+	<div class="grid_2 omega" id="social_media_footer">
+<!-- TWITTER -->
+<a title="X" target="_blank" href="https://x.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'X formerly Twitter']);"><svg id="social-twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+ <g>
+    <g id="Layer_7">
+      <path class="cls-1" d="M18.1,14.3l8-9.3h-1.9s-7,8.1-7,8.1l-5.6-8.1h-6.4s8.4,12.3,8.4,12.3l-8.4,9.8h1.9s7.4-8.6,7.4-8.6l5.9,8.6h6.4s-8.7-12.7-8.7-12.7h0ZM15.4,17.3l-.9-1.2L7.8,6.4h2.9s5.5,7.8,5.5,7.8l.9,1.2,7.1,10.2h-2.9s-5.8-8.3-5.8-8.3h0Z"/>
+    </g>
+  </g>
+</svg></a>
+<!-- YOUTUBE -->
+<a title="YouTube" target="_blank" href="https://www.youtube.com/user/TheNewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'YouTube']);"><svg id="social-youtube" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st1" d="M23,7.9C19.7,7.6,12.3,7.6,9,7.9c-3.6,0.2-4,2.4-4,8.1c0,5.7,0.4,7.9,4,8.1c3.3,0.2,10.7,0.2,14.1,0
+	c3.6-0.2,4-2.4,4-8.1C27,10.3,26.6,8.1,23,7.9z M13.2,19.7v-7.4l7.4,3.7L13.2,19.7z"/>
+</g>
+
+</svg></a>
+<!-- LINKEDIN -->
+<a title="LinkedIn" target="_blank" href="https://www.linkedin.com/company/federal-reserve-bank-of-new-york" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'LinkedIn']);"><svg id="social-linkedin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<path class="st0" d="M16.9,18.2c0-4.3,5.5-4.7,5.5,0V26h4.2v-9.4c0-7.3-7.8-7-9.7-3.4v-2.4h-4.2V26h4.2V18.2z"/>
+	<rect x="5.8" y="10.7" class="st0" width="4.2" height="15.3"/>
+	<path class="st0" d="M7.8,8.9c1.3,0,2.4-1.1,2.4-2.4S9.2,4,7.8,4S5.4,5.1,5.4,6.5S6.5,8.9,7.8,8.9z"/>
+</g>
+</svg></a>
+		<br />
+<!-- EMAIL -->
+<a title="Email" target="_blank" href="https://public.govdelivery.com/accounts/USFRBNEWYORK/subscriber/new?" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Email']);"><svg id="social-email" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path d="M16,16.6L5.5,8.1h21L16,16.6z M11.3,15l-5.8-4.7v10.9C5.5,21.3,11.3,15,11.3,15z M20.7,15l5.8,6.3V10.4
+		C26.5,10.4,20.7,15,20.7,15z M19.4,16.1L16,18.9l-3.4-2.7l-7.1,7.7h21L19.4,16.1z"/>
+</g>
+</svg></a>
+<!-- INSTAGRAM -->
+<a title="Instagram" target="_blank" href="https://www.instagram.com/NewYorkFed" onclick="_sz.push(['event', 'Footer', 'ICON CLICK', 'Instagram']);"><svg id="social-instagram" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+ <g>
+    <path class="cls-1" d="m23.19,3.5h-14.38c-1.27,0-2.49.51-3.39,1.41-.9.9-1.4,2.12-1.41,3.39v14.38c0,1.27.51,2.49,1.41,3.39.9.9,2.12,1.4,3.39,1.41h14.38c1.27,0,2.49-.51,3.39-1.41s1.4-2.12,1.41-3.39v-14.38c0-1.27-.51-2.49-1.41-3.39s-2.12-1.4-3.39-1.41h0Zm2.4,19.17c0,.64-.25,1.24-.7,1.69s-1.06.7-1.69.7h-14.38c-.64,0-1.24-.25-1.69-.7-.45-.45-.7-1.06-.7-1.69v-14.38c0-.64.25-1.24.7-1.69.45-.45,1.06-.7,1.69-.7h14.38c.64,0,1.24.25,1.69.7s.7,1.06.7,1.69v14.38Z"/>
+    <path class="cls-1" d="m16,10.14c-1.42,0-2.78.56-3.78,1.57-1,1-1.57,2.36-1.57,3.78s.56,2.78,1.57,3.78c1,1,2.36,1.57,3.78,1.57s2.78-.56,3.78-1.57c1-1,1.57-2.36,1.57-3.78s-.57-2.78-1.57-3.78-2.36-1.57-3.78-1.57h0Zm0,8.29c-.78,0-1.53-.31-2.09-.86-.55-.55-.86-1.3-.86-2.09s.31-1.53.86-2.09c.55-.55,1.3-.86,2.09-.86s1.53.31,2.09.86c.55.55.86,1.3.86,2.09s-.31,1.53-.86,2.08c-.55.55-1.3.86-2.08.86h-.01Z"/>
+  </g>
+  <circle class="cls-1" cx="22.38" cy="9.1" r="1.62"/>
+</svg></a>
+<!-- FACEBOOK -->
+<a title="Facebook" target="_blank" href="https://www.facebook.com/newyorkfed"><svg id="social-facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+
+<g>
+	<path class="st2" d="M16.7,14.3h-3.4v4.6h3.4v13.7h5.7V18.8h4.1l0.4-4.6h-4.6v-1.9c0-1.1,0.2-1.5,1.3-1.5H27V5.2h-4.3
+		c-4.1,0-5.9,1.8-5.9,5.3V14.3z"/>
+</g>
+</svg></a>
+  </div>
+	<div class="grid_2 dxt-group-1">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2"><a href="/outreach-and-education/speakers_bureau" title="Request a Speaker">Request a Speaker</a></li>
+          <li class="nav nav-level-2" id="nav-item-115"><a href="/financial-services-and-infrastructure/financial-services-operations/international-seminars-training" title="International Seminars &amp; Training">International Seminars &amp; Training</a></li>
+          <li class="nav nav-level-2" id="nav-item-470"><a href="/governance-and-culture-reform" title="Governance &amp; Culture Reform">Governance & Culture Reform</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 omega dxt-group-2">
+        <ul id="nav-list-112" class="nav nav-level-1">
+          <li class="nav nav-level-2" id="nav-item-114"><a href="/data-and-statistics/data-visualization" title="Data Visualization" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Data Visualization']);">Data Visualization</a></li>
+          <li class="nav nav-level-2" id="nav-item-472"><a href="/digital-products/economic-research-tracker" title="Economic Research Tracker">Economic Research <br />Tracker</a></li>
+          <li class="nav nav-level-2" id="nav-item-114"><a href="https://markets.newyorkfed.org/static/docs/markets-api.html" title="Markets Data APIs" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Markets Data APIs']);">Markets Data APIs</a></li>
+          <li class="nav nav-level-2"><a href="/podcast" title="Podcast">Podcast</a></li>
+        </ul>
+  </div>
+	<div class="grid_2 alpha dxt-group-3">
+       <ul id="nav-list-112-2" class="nav nav-level-1">
+          <li id="nav-item-117" class="nav nav-level-2"><a href="/contacts" title="Contact Us">Contact Us</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy/termsofuse" title="Terms of Use">Terms of Use</a></li>
+          <li class="nav nav-level-2" id="nav-item-118"><a href="/privacy" title="Privacy" onclick="_sz.push(['event', 'Footer', 'LINK CLICK', 'Privacy']);">Privacy</a></li>
+<li class="nav nav-level-2"><a href="/sitemap" title="Site Map">Site Map</a></li>
+        </ul>
+  </div>
+	<div class="grid_1 dxt-group-4">
+    <a href="/aboutthefed/tips_and_complaints" title="Tips and Complaints">
+		<div id="fraud"></div>
+		</a>
+  </div>
+	<div class="grid_3 dxt-group-5">
+		<img src="/medialibrary/media/v4/images/Fed-seal.png" alt="Federal Reserve Bank Seal" id="footer_seal" title="Federal Reserve Bank Seal">
+  </div><div id="vsn"></div>
+</div>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ44JQ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start SiteImprove -->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6039721.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<!-- End SiteImprove -->
+
+
+
+    </div>
+<script type="text/javascript"  src="/8aGm1slI/sLH/3Oi/faSKEasyRz/G1kEzQJt8kNVkSL7/OxtkPw/OE1KNz8/ARwcC"></script></body>
+</html>

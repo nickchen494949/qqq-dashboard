@@ -1,0 +1,1038 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>A Primer on Inflation (with Comments on Real Estate in the Metroplex) - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060830" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2006/fs060830" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2006" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2006/fs060830-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">A Primer on Inflation (with Comments on Real Estate in the Metroplex)</h1>
+                                                    <div class="dal-tagline">Remarks at the 6th Annual Real Estate Symposium, North Dallas Chamber of Commerce</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+
+<p><span class="report-date">August 30, 2006</span> Dallas, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+                        <p>Real estate runs on borrowed money&mdash;so 
+                          I suspect most of you keep a sharp eye on Federal Reserve 
+                          policymaking and its effect on interest rates. At times, 
+                          I am sure, we have made your business more difficult 
+                          for you, but I urge you to keep in mind the Fed&rsquo;s 
+                          <em>raison d&rsquo;&ecirc;tre</em>. We are charged with 
+                          maintaining the monetary conditions for sustainable, 
+                          non-inflationary economic growth. Will Rogers once quipped 
+                          that &ldquo;the three greatest inventions of man were 
+                          fire, the wheel and central banking.&rdquo; Given the 
+                          times, shortly after the failure of the Bank of the 
+                          United States and the onset of the Great Depression, 
+                          he just may have been striking a sarcastic note! Even 
+                          so, the idea of an independent central bank like the 
+                          Federal Reserve is, I think, an ingenious one.</p>
+                        <p>President Woodrow Wilson signed 
+                          the Federal Reserve Act in 1913. One of the more successful 
+                          and brilliant aspects of this legislation was the creation 
+                          of 12 regional banks that would influence monetary policymaking. 
+                          Having representatives from all parts of the country 
+                          brings a deeper, more diverse perspective to the policy 
+                          debate, giving a clearer view of what is really happening 
+                          in the U.S. economy.</p>
+                        <p>Texas lobbied Washington heavily 
+                          to host one of the 12 regional banks. Dallas won out 
+                          over Fort Worth and Houston, largely because of the 
+                          efforts of <em>Dallas Morning News</em> publisher George 
+                          B. Dealey. He rallied support for Dallas by recruiting 
+                          influential Texans in Washington to back the city&rsquo;s 
+                          cause. Dealey&rsquo;s emissaries succeeded by pleading 
+                          their case before the Treasury secretary and President 
+                          Wilson himself. </p>
+                        <p>Dallas won its bid to become a 
+                          Reserve Bank city on April 3, 1914, the same day, incidentally, 
+                          that Pancho Villa&rsquo;s forces captured the Mexican 
+                          town of Torre&oacute;n. Other notable events that year 
+                          included the completion of the Panama Canal, the start 
+                          of World War I and the invention of the air conditioner. 
+                          I will leave it to you to decide whether that last one 
+                          tops the Dallas Fed in importance to this great city&rsquo;s 
+                          development. </p>
+                        <p>Few Dallas institutions have survived 
+                          as long as the Dallas Fed. We have been part of the 
+                          downtown community since we opened, moving from temporary 
+                          quarters to that stately building on Akard Street in 
+                          1921 and then to our current building on Pearl Street, 
+                          just opposite the Arts District, in 1992. We have the 
+                          third longest continuous business presence in downtown 
+                          Dallas and are proud of it. Of the remaining downtown 
+                          institutions, only the <em>Morning News</em> and Neiman 
+                          Marcus predate our arrival in Dallas. </p>
+                        <p>The Dallas Fed has been at its 
+                          best in hard times. During the Great Depression, our 
+                          employees voluntarily took 5 percent pay cuts so the 
+                          Bank could share the work and hire unemployed Dallasites. 
+                          In an earlier recession, panicked customers stampeded 
+                          a Dallas bank, demanding to withdraw their money. It 
+                          was the kind of run that could ruin a bank. The head 
+                          of the Dallas Fed, a man named W. F. Ramsey, showed 
+                          up in an armored car with guards. They hauled a quarter 
+                          million dollars into the lobby&mdash;where everyone 
+                          could see it. In a scene right out of <em>It&rsquo;s 
+                          a Wonderful Life</em>, Ramsey jumped on a desk and shouted 
+                          across the crowded lobby that he had $30 million more 
+                          sitting in the Fed&rsquo;s vault down the street. Just 
+                          like that, the bank run ended. </p>
+                        <p>The Fed has come a long way from 
+                          its early years. Today, we employ more than 1,300 people 
+                          in Texas, almost a thousand of them in Dallas. Each 
+                          year, the Dallas Fed processes 1 billion paper checks 
+                          worth about $900 billion and between 240 million and 
+                          300 million electronic checks and handles 5.4 billion 
+                          in circulating banknotes worth nearly $92 billion. We 
+                          continue to supply the liquidity banking customers need 
+                          in times of potential and real crises, such as Y2K, 
+                          the aftermath of 9/11 and last year&rsquo;s devastating 
+                          hurricanes. Our operations require an underground vault 
+                          the size of a five-story building&mdash;quite something, 
+                          when you realize our vault was little more than an office 
+                          safe in 1914. </p>
+                        <p>Our other responsibilities include 
+                          supervising the banking industry within the Eleventh 
+                          Federal Reserve District. We conduct on-site audits 
+                          of our member banks and monitor bank performance and 
+                          stability. We have public education programs designed 
+                          to raise financial and economic literacy in our community 
+                          and host many public events and conferences on significant 
+                          activities within our economy. We maintain a first-rate 
+                          research department that provides me with the authoritative 
+                          economic analysis I need for my role on the Federal 
+                          Open Market Committee&mdash;the FOMC&mdash;as well as 
+                          speeches like this one. </p>
+                        <p>I mean it when I say first-rate. 
+                          Some of you may not know that Finn Kydland, an associate 
+                          of our research team for the past 13 years, won the 
+                          Nobel Prize for economics in 2004. Finn is with me this 
+                          morning. Now, he is a Norwegian and is therefore genetically 
+                          incapable of promoting or drawing attention to himself. 
+                          Nevertheless, I am going to embarrass Finn and ask him 
+                          to stand up and take a bow. </p>
+                        <p>Our current analysis points to 
+                          an economy at a crossroads. High energy prices, rising 
+                          interest rates and the slowdown in a red-hot housing 
+                          market have taken some of the steam out of what had 
+                          been a fairly robust expansion. At the same time, our 
+                          current inflation indicators are not presently as well 
+                          behaved as I would like them to be. Central bankers 
+                          are always concerned when inflation starts to rear its 
+                          ugly head. We know from experience that once inflation 
+                          gains momentum, it becomes harder and harder to stop.</p>
+                        <p>As you know from reading this 
+                          morning&rsquo;s papers, at our last meeting of the FOMC, 
+                          we collectively decided to pause in raising the fed 
+                          funds rate after 17 consecutive rounds of quarter-point 
+                          tightenings. It was the collective judgment of the committee 
+                          that we were at a juncture where it made sense to evaluate 
+                          the lagged effect of these tightenings, especially on 
+                          the inflationary impetus of the economy.</p>
+                        <p>How do we define inflation, and 
+                          how do we measure it? This is a question I want to discuss 
+                          in depth with you today. Before I do, however, let me 
+                          issue the usual disclaimer that today, as always, I 
+                          speak only for myself, not for the Federal Open Market 
+                          Committee, nor for any of the other committee members.</p>
+                        <p>Inflation is an increase in the 
+                          general price level. If prices for all goods and services 
+                          went up in the same proportion, over some period of 
+                          time&mdash;if all prices increased by, say, 2 percent 
+                          over the past 12 months&mdash;there would be no difficulty 
+                          in identifying the rate of inflation: It would be 2 
+                          percent a year. In reality, over any stretch of time, 
+                          some prices will rise faster than others and some may 
+                          actually decline. When we speak of inflation as a sustained 
+                          increase in the &ldquo;general level of prices,&rdquo; 
+                          we have in mind an increase in an <em>average</em> of 
+                          all prices.</p>
+                        <p>This average is more sophisticated 
+                          than a simple arithmetic mean. We don&rsquo;t want to 
+                          treat a 10 percent increase in the price of pepper, 
+                          for example, as having the same importance as a 10 percent 
+                          increase in the price of shelter, clothing or transportation. 
+                          So the formulas we use weight items by how important 
+                          they are in people&rsquo;s budgets.</p>
+                        <p>Differences in weighting, and 
+                          the scope of goods and services included, give rise 
+                          to the various inflation measures we hear reported on 
+                          radio and television broadcasts or read about in the 
+                          papers. The Consumer Price Index (CPI) focuses on the 
+                          prices of the goods and services consumed by a typical 
+                          urban household. The price index for personal consumption 
+                          expenditures (PCE) looks more broadly at all goods and 
+                          services purchased for final consumption and, additionally, 
+                          uses a more sophisticated weighting scheme than the 
+                          CPI. Most broadly, the price index for gross domestic 
+                          product, also known as the GDP deflator, looks at the 
+                          prices of all goods and services produced in the economy; 
+                          thus, it includes not just consumer goods, but also 
+                          capital goods and government-provided services.</p>
+                        <h3>Now, bear with me here.</h3>
+                        <p>Each of these measures comes in 
+                          two flavors: &ldquo;headline&rdquo; and &ldquo;core.&rdquo; 
+                          The latter&mdash;the &ldquo;core&rdquo;&mdash;excludes 
+                          prices for food and energy. The man on the street&mdash;someone 
+                          known to occasionally purchase food and gas and air-condition 
+                          or heat his home&mdash;often puzzles at policymakers&rsquo; 
+                          focus on core inflation. To add to that man&rsquo;s 
+                          confusion, it is not uncommon for the press to report 
+                          the same inflation numbers in different ways. When July&rsquo;s 
+                          CPI numbers were reported earlier this month, a <em>Washington 
+                          Post</em> article stated, &ldquo;The Labor Department 
+                          reported yesterday that inflation rose last month, eating 
+                          into people&rsquo;s paychecks and savings at a quickening 
+                          clip.&rdquo; The same day, <em>New York Times</em> readers 
+                          learned that &ldquo;the government&rsquo;s latest report 
+                          on consumer prices, issued yesterday, suggests that 
+                          inflation is slowing.&rdquo; Both were right. The <em>Post</em> 
+                          had focused on the headline rate, which had picked up 
+                          relative to the month before, while the <em>Times</em> 
+                          focused on the core rate, which had fallen a bit from 
+                          prior months.</p>
+                        <p>Policymakers and economists tend 
+                          to focus on the core measures because they strip out 
+                          volatile items and show more stability than headline 
+                          inflation. The core measures give a better indication 
+                          of the underlying inflationary trends that matter most 
+                          in formulating policy. </p>
+                        <p>I have been using the word &ldquo;core&rdquo; 
+                          as shorthand for &ldquo;excluding food and energy,&rdquo; 
+                          and that is the common connotation. To be precise, however, 
+                          &ldquo;ex food and energy&rdquo; measures are but <em>one 
+                          form</em> of the core rate, and&mdash;according to research 
+                          at the Dallas Fed, the Cleveland Fed and elsewhere&mdash;not 
+                          even necessarily the best. The Dallas Fed has created 
+                          a measure of core inflation called the Trimmed-Mean 
+                          PCE inflation rate. It is calculated by stripping out 
+                          the most volatile price movements each month, regardless 
+                          of whether the items in question are food, energy or 
+                          something else, in order to not be distracted by temporary 
+                          price rises or declines and to enable us to focus instead 
+                          on the underlying trend of inflation. </p>
+                        <p>The Trimmed-Mean PCE in one month 
+                          this past spring, for example, excluded guns, which 
+                          were set aside because of a big price decline, and funeral 
+                          expenses, deleted because of a big price increase. I 
+                          won&rsquo;t speculate on whether these price movements 
+                          were related.</p>
+                        <p>Central bankers abhor inflation 
+                          and deflation. Our mantra is &ldquo;price stability.&rdquo; 
+                          Taken literally, this means zero inflation. But our 
+                          inflation measures are imperfect and likely biased upward, 
+                          so many central bankers see price stability as a very 
+                          low, though positive, rate of <em>measured</em> inflation. 
+                          The point is to have an inflation rate that is, in its 
+                          economic effects, essentially zero. Stated differently, 
+                          we seek to create the monetary conditions for an economy 
+                          where inflation is not distorting anyone&rsquo;s decisions.</p>
+                        <p>Why do we value price stability? 
+                          Somewhere in France, there is&mdash;or at least there 
+                          used to be&mdash;a rod that precisely defines a meter. 
+                          It is quite useful to know that the length of that rod 
+                          is constant from one month to the next, one year to 
+                          the next. This is the only way to ensure that those 
+                          10-meter doohickeys that are on order, when they arrive, 
+                          will fit with the 10-meter doodads you already have 
+                          on hand. The best situation is a rod that doesn&rsquo;t 
+                          change&mdash;&ldquo;meter stability,&rdquo; if you will. 
+                          Next best would be a rod that changed in predictable 
+                          ways&mdash;say, a rod known to grow by 2 percent a year. 
+                          Setting aside the question of where&mdash;after many 
+                          years&mdash;one would keep such a rod, people could 
+                          at least confidently plan for the future. The worst 
+                          case, of course, would be a rod that changed unpredictably&mdash;some 
+                          months growing by &ldquo;X&rdquo; percent, some months 
+                          actually shrinking. Manufacturers and others, like the 
+                          people who organize marathons, would expend resources 
+                          attempting to predict changes in the rod&rsquo;s length&mdash;resources 
+                          that could have been put to more productive use. And 
+                          still, at the end of the day, some of their plans would 
+                          come to naught because of unforeseen variations. You 
+                          couldn&rsquo;t build a new house under those circumstances, 
+                          or a factory, or a school, or practically anything else.</p>
+                        <p>Inflation is a bit like having 
+                          a measuring stick that grows or shrinks from one month 
+                          to the next; the &ldquo;doohickeys&rdquo; and &ldquo;doodads&rdquo; 
+                          that need to fit together, in this case, are prices 
+                          for money or goods today and in the future. You get 
+                          the picture. The consequences of a randomly varying 
+                          dollar value would be severe. It doesn&rsquo;t take 
+                          a Finn Kydland to conclude that low and predictable 
+                          inflation is preferable to high and variable inflation 
+                          and that low and predictable inflation should be the 
+                          goal of your central bank. </p>
+                        <p>The evidence suggests central 
+                          bankers have had some success in that pursuit. In the 
+                          U.S. and elsewhere, inflation has been brought down 
+                          to near-negligible levels <em>and</em> has become more 
+                          predictable in the past 20 years. </p>
+                        <p>In 1993, a great economist named 
+                          John Taylor proposed a simple rule for conducting monetary 
+                          policy. He recommended setting interest rates based 
+                          on two inputs: first, the deviation of actual inflation 
+                          from the central bank&rsquo;s desired rate and, second, 
+                          a measure of the economy&rsquo;s excess capacity, usually 
+                          called the &ldquo;output gap.&rdquo; The Taylor rule 
+                          recommends raising nominal interest rates&mdash;that 
+                          is, tightening monetary policy&mdash;whenever inflation 
+                          is above its target or output is temporarily above its 
+                          long-term potential.</p>
+                        <p>The Taylor rule begat the Taylor 
+                          principle, which recommends how much to tighten in response 
+                          to a given deviation of inflation from its target. It 
+                          suggests that increases in nominal interest rates need 
+                          to be greater than the rise in inflation. In response 
+                          to a 1 percentage point increase in inflation, for example, 
+                          the principle might prescribe a 1.5 percentage point 
+                          increase in nominal interest rates. If you do the math, 
+                          you will see that a rise in inflation has been met with 
+                          an increase in the <em>real</em>, or inflation-adjusted, 
+                          interest rate. Higher real interest rates act as a tap 
+                          on the economy&rsquo;s brakes, slowing the pace of real 
+                          activity and reducing upward pressure on prices.</p>
+                        <p>John Taylor originally formulated 
+                          his rule as a <em>pre</em>scription for policymakers. 
+                          But it turns out that, at least since the mid-1980s, 
+                          the Taylor rule is a good <em>des</em>cription of how 
+                          the Fed has conducted monetary policy. While the Fed 
+                          has never bound itself to any explicit policy rule, 
+                          its de facto adherence to the Taylor principle since 
+                          the mid-1980s has paid off handsomely in terms of achieving 
+                          price stability. Inflation measured by the PCE price 
+                          index averaged about 7 percent in the 1970s, 4.5 percent 
+                          in the 1980s and 2.2 percent in the 1990s and through 
+                          the first half of this decade.</p>
+                        <p>In the simplest version of the 
+                          Taylor rule, current inflation is the primary determinant 
+                          of a central bank&rsquo;s policy actions. In the real 
+                          world, policymakers look at many other indicators to 
+                          gauge inflationary pressures before they show up in 
+                          actual inflation rates. This makes sense, given the 
+                          lags between policy actions and their ultimate effects 
+                          on the economy&mdash;lags that economist Milton Friedman 
+                          famously described as &ldquo;long and variable.&rdquo;</p>
+                        <p>Among the additional variables 
+                          we look at are measures of capacity utilization of business 
+                          operators and tightness in the labor market&mdash;for 
+                          example, the unemployment rate. Strong job growth will 
+                          lead to demands for higher pay. Many of you might wonder 
+                          why that could ever be bad. Well, when it comes to workers&rsquo; 
+                          pay and benefits, it is not the increases themselves 
+                          that cause concern. Problems occur when labor costs 
+                          rise faster than gains in labor productivity. When that 
+                          happens, firms often see shrinking profit margins, which 
+                          add to pressure to raise product prices. What policymakers 
+                          look at is unit labor costs, a measure of workers&rsquo; 
+                          pay adjusted for productivity. </p>
+                        <p>Even if we cull out the misleading 
+                          signals, the traditional data set may no longer be sufficient. 
+                          At the Dallas Fed, we are exploring the notion that 
+                          capacity measures must be extended beyond the domestic 
+                          market. Today, we live in a world where goods, services, 
+                          money, and the ideas and tasks performed by American 
+                          businesses cross international borders with great ease. 
+                          It stands to reason, then, that inflationary trends 
+                          in any economy cannot be properly assessed without knowing 
+                          how readily resources, inputs, finished products and 
+                          capital from outside the country can be brought to bear. 
+                          The Dallas Fed&rsquo;s globalization initiative is aimed 
+                          at developing measures of these broader output gaps, 
+                          which we hope will let us determine how the dramatic 
+                          rise of China and India, for example, or the processing 
+                          of tasks in cyberspace will impact inflation in the 
+                          U.S.</p>
+                        <p>Monetary policy does not give 
+                          central banks a lever to control inflation directly. 
+                          In focusing on interest rates, the FOMC influences demand 
+                          for credit, which in turn affects growth and inflation. 
+                          At any given time, of course, all sectors of the economy 
+                          may not be in sync, adding great complexity to the art 
+                          of central banking. In the early part of this decade, 
+                          the Fed was concerned about the deflationary impact 
+                          of the high-tech investment bust, and it responded by 
+                          lowering interest rates on overnight, short-term borrowing 
+                          by member banks. In the past three years, we reversed 
+                          much of that stimulus, at first because investment began 
+                          recovering and more recently because inflation was at 
+                          risk of becoming uncomfortably high. </p>
+                        <p>Which brings us to the subject 
+                          dear to your hearts&mdash;real estate. On the national 
+                          level, recent data indicate that housing markets weakened 
+                          further in mid-summer. The holy trinity of housing reports&mdash;starts, 
+                          existing-home sales and new-home sales&mdash;all came 
+                          in much weaker in July than expected by mainstream economists, 
+                          with inventories of unsold homes continuing to rise. 
+                          Stepping back to include weakness shown before last 
+                          month, permits and new-home sales are down about 20 
+                          percent from a year ago. </p>
+                        <p>The declines are moving housing 
+                          markets from very high and unsustainable levels toward 
+                          more normal levels, unwinding some speculative activity. 
+                          We are monitoring the effect this will have on the economy 
+                          with due respect for its gravity. But it is not a one-sided 
+                          deal; not all the consequences of the unwinding of a 
+                          bull market in housing are bad. For example, a beneficial 
+                          side effect of slower demand is that upward pressures 
+                          on housing prices are abating. The pace of home-price 
+                          appreciation has slowed dramatically&mdash;from double-digit 
+                          year-over-year rates last fall to low single digits 
+                          in recent readings. As prices cool off, we may finally 
+                          begin the long process of allowing income to catch up 
+                          with housing costs, helping make homes more affordable 
+                          in the long run. </p>
+                        <p>Let me give you an example of 
+                          what I am referring to. In 1999, 43 percent of the residents 
+                          of Los Angeles could afford a median-priced home. By 
+                          the end of last year, only 2 percent could. For New 
+                          York, the comparable figures were 55 percent that could 
+                          afford a median-priced home in 1999 and 6 percent in 
+                          2006. The figures for Dallas, incidentally, were unchanged 
+                          over the period. At the end of last year, 62 percent 
+                          of Dallasites could afford a median-priced home, which 
+                          explains why our local housing market is holding up 
+                          better than the markets on the West and East coasts.</p>
+                        <p>With home-price appreciation no 
+                          longer running rampant, we are likely to see fewer homeowners 
+                          tapping into their home equity, which had been fueling 
+                          a consumption boom and diverting savings from investment. 
+                          From a broader perspective, the slowing of housing and 
+                          consumption frees up resources for investment and a 
+                          more balanced economy. Some good news can be found by 
+                          looking carefully at durable goods orders, which foreshadow 
+                          private investment. Their recent rise suggests that 
+                          businesses are starting to increase their capacity following 
+                          the investment bust a few years back. Spending on plant 
+                          and equipment is crucial to supporting productivity 
+                          growth, the source of long-term gains in living standards. 
+                        </p>
+                        <p>The stirring of business investment 
+                          has helped spark a revival in commercial real estate 
+                          construction to accommodate the many firms aiming to 
+                          expand their workspaces. Indeed, we may be seeing the 
+                          start of a great rotation away from household spending 
+                          to investment and to more healthy and balanced growth. 
+                          In setting monetary policy, we assess inflationary pressures 
+                          and gauge aggregate demand by adding up some sectors 
+                          that are weakening, like housing, along with sectors 
+                          that are expanding, like commercial construction and 
+                          investment. </p>
+                        <p>I will wrap up by bringing things 
+                          closer to home&mdash;the Texas and Dallas real estate 
+                          markets, which diverge from national trends, particularly 
+                          on the housing side. The housing markets all across 
+                          Texas are healthy compared with the rest of the U.S. 
+                          While we have seen some signs of cooling, traffic and 
+                          sales are still strong. We are hearing more reports 
+                          of cancellations, mostly attributed to relocation buyers 
+                          not being able to sell their West Coast homes. This 
+                          is not &ldquo;Texas brag.&rdquo; If you listen to business 
+                          leaders in El Paso, for example, you will hear them 
+                          say that West Texas is being invaded by two forces: 
+                          the U.S. Army and Californians. The consolidation of 
+                          military bases in the El Paso area, combined with relocators 
+                          from Southern California, is changing the character 
+                          of once-sleepy El Paso. </p>
+                        <p>Throughout the state, housing 
+                          starts outpaced sales in the second quarter, despite 
+                          record-setting sales figures. And our apartment markets 
+                          have improved along with the economy. So far this year, 
+                          apartment demand is keeping up with supply, helping 
+                          vacancy rates stay around 10 percent in most Texas markets. 
+                          We are hearing reports of strong office-leasing activity 
+                          from both local and relocating firms, as well as increasing 
+                          requests for large blocks of office space. Office, industrial 
+                          and warehouse rents are picking up, along with construction 
+                          activity in several areas in Texas, especially in Dallas. 
+                          We are also hearing numerous reports of the difficulty 
+                          developers are having finding construction workers as 
+                          well as rising pressure on wages. </p>
+                        <p>In the Metroplex, the housing 
+                          market has been quite strong for over five years. Dallas&ndash;Fort 
+                          Worth has ranked in the top four among U.S. metropolitan 
+                          areas in single-family permits since 2000. New-home 
+                          sales set records in the first and second quarters of 
+                          2006, while existing-home sales cooled a bit. Year-to-date 
+                          existing-home sales are flat compared with last year, 
+                          and July sales were down 10 percent. The median price 
+                          of homes in the area, however, is still rising modestly. 
+                          Apartment markets are relatively healthy, with occupancies 
+                          above 90 percent and three consecutive quarters of modest 
+                          rent hikes. </p>
+                        <p>Dallas&rsquo; office market has 
+                          made a comeback in the past few years, but that really 
+                          does not show up in vacancy rates, presently ranked 
+                          second highest in the U.S. Interestingly, Dallas&rsquo; 
+                          commercial vacancy rate is about 23 percent, while Fort 
+                          Worth&rsquo;s is 6 percent. Despite the ranking, demand 
+                          for space is increasing, and large blocks are diminishing 
+                          in certain submarkets. Construction has increased dramatically, 
+                          especially in downtown Dallas, Uptown and Far North 
+                          Dallas. Our contacts are convinced that occupancy, demand 
+                          and rents in these areas justify the pace of construction. 
+                          The industrial market continues to improve, with most 
+                          of the gains coming from the warehouse side. The retail 
+                          market has benefited from the strong housing market 
+                          over the past several years, but demand appears to have 
+                          ebbed recently, giving cause for caution. However, retail 
+                          vacancies remain relatively low, at about 10 percent, 
+                          and construction activity is up strongly. </p>
+                        <p>A word of caution is in order, 
+                          however, because national trends do have an impact on 
+                          the local market. Nationally, there is a lot of cash 
+                          in capital markets looking for sustainable projects 
+                          to be invested in. The result is that capitalization 
+                          rates have been pushed down, raising concern among some 
+                          industry analysts, especially in a condominium market 
+                          that seems to reflect an excess of supply relative to 
+                          demand at the margin. We have seen the effect of this 
+                          here in Dallas with the cancellation of some high-profile 
+                          building or conversion plans, and I expect there will 
+                          be more.<br>
+                          <br>
+                          I hope my comments have been a good start on today&rsquo;s 
+                          proceedings. Subsequent speakers will, I am sure, provide 
+                          more detailed information on Metroplex real estate trends. 
+                          Before leaving, though, I want to remind you that North 
+                          Texas owes its prosperity to the legions of vital and 
+                          entrepreneurial businesswomen and men who grew up here 
+                          or came here. People like you. You dare to dream. You 
+                          are not afraid to take risks. You are a large part of 
+                          what makes Dallas what it is. </p>
+                        <p>Let me put this in perspective. 
+                          We read a lot these days about India and its barnstorming 
+                          economy. India has an extraordinary cadre of brilliant 
+                          and hardworking people. India&rsquo;s economic prowess 
+                          grabs a lot of headlines. And yet consider this: The 
+                          24 million people of Texas produce 20 percent more output 
+                          than the 1.1 billion people of India. The Texas economy 
+                          is a fifth larger than India&rsquo;s. That&rsquo;s because 
+                          of hardworking risk takers like you. The Federal Reserve 
+                          does its level best to maintain monetary conditions 
+                          necessary for sustainable non-inflationary growth. But 
+                          you, and the businessmen and women of America, are the 
+                          ones that make that growth happen and secure our prosperity. 
+                          God bless you. </p>
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

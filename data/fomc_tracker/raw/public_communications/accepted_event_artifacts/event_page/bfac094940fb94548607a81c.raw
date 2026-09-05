@@ -1,0 +1,606 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The banking system and the demand for reserves - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, Logan, Eleventh District Banking Conference, banking system, reserves" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, Logan, Eleventh District Banking Conference, banking system, reserves" />
+        <meta property="og:title" content="The banking system and the demand for reserves" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/logan/2026/lkl260402" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta property="og:description" content="When it comes to the balance sheet, as with all of the Fed’s work, the focus needs to be on how we can best serve the public and support a strong economy and financial system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/logan/2026/lkl260402" />
+        <meta name="twitter:title" content="The banking system and the demand for reserves" />
+        <meta name="twitter:description" content="When it comes to the balance sheet, as with all of the Fed’s work, the focus needs to be on how we can best serve the public and support a strong economy and financial system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/fed/logan/president-pri.jpg" />
+        <meta name="dal_year" content="2026" />
+        <meta name="dal_topic" content="Banking and finance" />
+        <meta name="dal_topic" content="Monetary policy" />
+        <meta name="dal_topic" content="Financial stability" />
+        <meta name="dal_topic" content="Small business" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/logan" class="breadcrumb-item dal-crumb__item">President Lorie Logan speeches and publications</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/logan/2026/lkl260402-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by President Lorie Logan</div>
+                                                        <h1 class="dal-headline">The banking system and the demand for reserves</h1>
+                                                                            <div class="dal-author">Lorie Logan</div>
+                    <div class="dal-inline-list">
+                                <p class="list-item--bar dal-content-date">April 02, 2026</p>
+
+                    </div>
+                            <div class="dal-abstract"><p>Dallas Fed President Lorie Logan delivered these remarks at the <a href="/banking/events/2026/26banking">Eleventh District Banking Conference</a>.</p>
+<p class="text-small">A <a href="/research/economics/2026/0402">companion essay</a> was published in conjunction with this speech.</p></div>
+                        
+                        <p>Thank you for the kind introduction, Emily, and thanks to all of you for joining us today for our third annual Eleventh District Banking Conference.</p>
+<p>I’m excited to gather bankers, regulators and supervisors to discuss the timely topics of banking conditions, fraud mitigation and integration with service providers. We regularly host events such as today’s conference to connect with bankers and deepen our understanding of the current landscape. It’s a pleasure to partner once again with the Texas Department of Banking to host this event. Thank you for being here and for taking part in this important dialogue.</p>
+<p>We have all kinds of banks here in the Eleventh District and represented at this conference. From large, nationwide institutions to community banks that each serve their towns out of a single office, your banks all make important contributions to America’s economy. More than that, the diversity of the banking ecosystem strengthens our economy. Families and businesses can find banks that best meet their needs, whatever those needs may be. Community banks know what makes their towns tick. Growing up in a small town in Kentucky, I saw first-hand how community bankers serve their neighbors. Meanwhile, larger banks bring the scale and scope of services that some customers require. And competition drives all banks to find ways to serve the economy better. Promoting a vibrant banking ecosystem is top of mind for me in all our work.</p>
+<p>The Fed, too, is a bank. We don’t take deposits from or make loans to Main Street families and businesses. But as the nation’s central bank, we serve the banking needs of commercial banks, which allows you in turn to better serve your customers.</p>
+<p>When it comes to size, the Fed is at the high end. We are the biggest bank in the country, in fact, with $6.7 trillion in assets. That represents 21 percent of U.S. gross domestic product (GDP), down from a postpandemic peak of 35 percent. But it is still substantially above the prepandemic trough of 19 percent of GDP, even though the Federal Open Market Committee (FOMC) recently completed the process of normalizing our balance sheet by running off assets we bought during the pandemic.</p>
+<p>The growth of the Fed’s balance sheet has prompted a lot of discussion about whether the balance sheet is too big, and if so, how we could shrink it. Today, I would like to give you my take on those questions. Of course, these are my views and not necessarily those of my Federal Reserve colleagues.</p>
+<p>Here’s how I see it. When it comes to the balance sheet, as with all of the Fed’s work, the focus needs to be on how we can best serve the public and support a strong economy and financial system. We should use our balance sheet efficiently and effectively to advance those goals. Balance sheet growth isn’t bad if it serves the public, but neither should we waste balance sheet space and let it become a distraction from our mission.</p>
+<p>The minimum size of the Fed’s balance sheet is determined by demand for our liabilities, such as currency and bank reserves. We can always offer more liquidity than the economy demands, but if we don’t meet the demand, financial pressures result. Chart 1 shows the current composition of the liabilities, including about $2.4 trillion in currency; $3 trillion in bank reserves; and approaching $1 trillion in the Treasury General Account or TGA, which is the government’s checking account. Currency has trended up smoothly with GDP. But reserves and the TGA are larger as a share of GDP than before the pandemic, and much larger than before the Global Financial Crisis.</p>
+<figure class="figure dal-figure"> <img class="figure-img img-fluid" alt="Chart 1" src="/-/media/images/news/speeches/logan/2026/lkl260402/lkl260402c1.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"> </figcaption>
+</figure>
+<p><a href="https://www.dallasfed.org/research/economics/2026/0402">In an essay</a> we published this morning, my colleague Sam Schulhofer-Wohl and I examine the Fed’s liabilities, how efficiently and effectively they serve the public, and the policy options and trade-offs that would arise in shrinking them. There’s a wide range of considerations, corresponding to the diversity of ways the balance sheet serves the economy. But I came away from the analysis with a couple of main takeaways, and they relate to the Fed liability that’s most relevant to you as bankers: reserves.</p>
+<p>Before I describe my takeaways, let me step back and explain how the Fed supplies reserves. Since 2008, we have implemented monetary policy with ample reserves. That means we pay interest on reserve balances (IORB) at close to market rates, and we supply enough reserves to meet banks’ demand at those rates. When the FOMC changes its monetary policy target, the Fed moves market rates to match the new target by changing the interest rate on reserves and other administered rates.</p>
+<p>Before 2008, we used a different system with scarce reserves. In that system, reserves earned no interest. The Fed moved market rates by increasing or decreasing the supply of reserves. Market rates were typically hundreds of basis points above zero. The spread made it costly for banks to hold reserves, so they tried to economize—hence the name “scarce.”</p>
+<p>So, returning to the question of the Fed’s balance sheet size, there are two basic ways to reduce the $3 trillion of reserves that the Fed currently supplies. Policymakers could take steps to reduce banks’ need for reserves. Then a smaller quantity of reserves would meet banks’ demand with market rates near IORB. Economists would call that “shifting the demand curve inward.” Alternatively, the Fed could return to a scarce-reserves regime. That would mean reducing reserve supply to a level at which market rates meaningfully exceed the interest rate the Fed pays on a bank’s marginal dollar of reserves. Economists would call that “running up the demand curve.”</p>
+<p>Chart 2 compares the two approaches. The chart traces out banks’ demand for reserves as a function of interest rates. If we reduce banks’ need for reserves so that banks shift the demand curve inward, we’re still meeting banks’ demand. If we run up the demand curve and return to scarce reserves, we’re pushing up market rates relative to IORB and putting a price on reserves that banks don’t face today.</p>
+<figure class="figure dal-figure"> <img class="figure-img img-fluid" alt="Chart 2" src="/-/media/images/news/speeches/logan/2026/lkl260402/lkl260402c2.png">
+  <figcaption class="figure-caption dal-figure__caption mt-2"> </figcaption>
+</figure>
+<p>My first takeaway from our analysis is that shifting the demand curve inward by reducing banks’ need for reserves is better than returning to scarce reserves. U.S. dollar reserves are the safest, most liquid asset in the world. They help banks manage liquidity risk and process payments safely and efficiently. And it costs the Fed little, if anything, to meet banks’ reserve demand, because the interest we earn on the assets backing reserves matches the interest we pay over time.</p>
+<p>Overall, the ample reserves framework is efficient and effective. Over nearly two decades, it has proven its ability to keep money market rates in the FOMC’s target range. And the framework doesn’t penalize banks for making smart risk management decisions by holding the safest, most liquid asset there is. It would be inefficient to make banks pay a cost—the spread between market rates and IORB—to obtain an asset the Fed can provide so cheaply. Pressing banks to economize on reserves would only increase risk in the financial system.</p>
+<p>Moving up the demand curve would also present logistical problems and risk undermining the diversity and vibrancy of the banking system. If the Fed stopped paying interest on all reserves, banks might try so hard to economize that it could become difficult to predict reserve demand and control rates. It could also become very costly for banks to meet their legitimate reserve needs. And making reserves scarce could gum up the flow of payments. To avoid those challenges, there have been proposals recently to give every bank a quota on reserves and pay interest only up to the quota. That would stabilize demand, help control rates and reduce the cost to banks, but quotas are a form of central planning. The government would be allocating a valuable resource among private firms instead of letting the free market speak. I don’t think I need to explain to you the drawbacks that could have for innovation, growth and competition.</p>
+<p>So, I favor an approach that reduces banks’ need for reserves and shifts the demand curve inward.</p>
+<p>But my second takeaway is that the precise method of shifting the demand curve inward matters, because some methods would be more efficient and effective than others. For example, beyond the reserves they would choose to hold on their own, banks often hold additional reserves to satisfy liquidity regulations or supervisory expectations. High-quality regulation and supervision make the banking system safer. In the case of liquidity, supervision and regulation help ensure banks account for the systemic consequences of the liquidity risks they take, such as the potential for contagious bank runs. Reserve holdings that make the banking system safer represent an efficient and effective use of the Fed’s balance sheet. I wouldn’t want to discourage that. On the other hand, some liquidity regulations can push banks to hold reserve buffers but then discourage banks from putting those buffers to use in a crisis. Regulations like that might boost reserve holdings without necessarily making the financial system safer. That’s an inefficient use of the Fed’s balance sheet, and one we could do without. Vice Chair for Supervision Michelle Bowman recently described options for making liquidity rules more efficient, and I look forward to seeing how that work progresses.</p>
+<p>Another way to shift reserve demand inward would be to make the Fed’s liquidity tools more accessible. We offer liquidity to banks through the discount window, the intraday credit program and standing repo operations. If banks are confident they can monetize assets through the Fed when needed, they could choose most of the time to hold fewer reserves and more non-reserve assets such as loans.</p>
+<p>The Fed has already taken substantial steps to smooth access to these tools. Our Discount Window Direct service lets banks request loans online. We’ve reduced timelines for completing documentation, and the 12 Federal Reserve Banks are working together to simplify the process of pledging and valuing collateral. The New York Fed’s Open Market Trading Desk added a second daily standing repo (SRP) operation to provide funding early in the morning, and the FOMC removed the aggregate cap on SRP usage. The reserve banks are also working with the Federal Home Loan Banks to enhance interoperability with the window. Our essay describes a number of additional measures that could further enhance accessibility, such as central clearing of SRP operations or daily discount window auctions. I welcome your ongoing feedback on what more we might do.</p>
+<p>I believe shifting the demand curve inward through steps like these holds substantial promise for reducing reserves while maintaining the benefits of the ample reserves framework. There are many elements to the Fed’s balance sheet beyond those I’ve mentioned in these remarks, and many details to the trade-offs. I’d emphasize that any changes in the balance sheet should be gradual and planned carefully. I hope you will read our full analysis, which is available on the Dallas Fed’s web site.</p>
+<p>With that, I’m delighted to turn to my conversation with Robert Hulsey. Robert is chief executive officer of American National Bank in Terrell, Texas. We are honored to have him on the Dallas Fed’s board of directors. His advice and guidance on the economy, leadership, our operations and the importance of community banking enhance our work in so many ways. I’ve focused on the details of the Fed’s balance sheet, but I’m sure you would also like to hear about the outlook for the economy and the FOMC’s policy decisions, and I trust Robert has plenty of questions for me on those topics. Please join me in welcoming Robert to the stage.</p>
+<!--<div class="dal-cover_note">
+<h4>Note</h4>
+<p>I am grateful to XXXX XXXXX for assistance in preparing these remarks.</p>
+</div>
+
+If there are footnotes, refer to <a href="https://dfo-prod-cm.mac-p-sitecore-ase-8.appserviceenvironment.net/Design-Guide/components/notes" target="new"><strong>the design guide</strong></a> for formatting.-->
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <!--<p class="dal-info__heading">About the author</p>-->
+<div class="row dal-author-row one-up">
+   <div class="dal-author-card-wrapper">
+      <div class="dal-author-card"> <img  src="/-/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="Lori K. Logan" />
+         <p class="dal-author-card__name"></p>
+         <p><a href="/fed/leadership/logan"><strong>Lorie Logan</strong></a> is president and CEO of the Federal Reserve Bank of Dallas.</p>
+      </div>
+   </div>
+</div>
+
+<div class="separator"></div>
+<p>The views expressed are my own and do not necessarily reflect official positions of the Federal Reserve System.</p>
+
+
+                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+<div class="dal-sidebar__heading">President Lorie Logan</div>
+<ul class="dal__list--lined">
+    <li><a href="/fed/leadership/logan">About Lorie</a></li>
+    <li><a href="/news/speeches/logan">Speeches</a></li>
+ <li><a href="/fed/leadership/logan/360in365">360° Listening Tour</a></li>
+ <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+    <!-- <li><a href="/fed/leadership/logan/speaking">Public speaking events</a></li> -->
+</ul>
+
+<!--<p><a href="https://www.linkedin.com/in/lorie-logan-29a99310/" target="_blank">Follow Lorie on LinkedIn</a></p>-->
+
+
+<a href="https://cloud.email.em-dallasfed.org/signup" type="button" class="btn btn-primary dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-subscribe-sm"></span></span>
+  <span class="dal-button__text">Subscribe for<br>email alerts</span>
+</a>
+
+<!-- <a href="https://cloud.email.em-dallasfed.org/logansch" type="button" class="btn btn-brand-teal dal-button__lockup" target="_blank">
+  <span class="icon-color-white"><span class="i-calendar-sm"></span></span>
+  <span class="dal-button__text">Get president&rsquo;s speaking schedule</span>
+</a> -->
+
+<div class="mb-20"></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>

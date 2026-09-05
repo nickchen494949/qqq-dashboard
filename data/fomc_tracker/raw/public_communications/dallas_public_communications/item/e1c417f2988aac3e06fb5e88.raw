@@ -1,0 +1,671 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>In the Lap of the Gods - Dallasfed.org</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta name="DCSext.keywords" content="Dallas, Federal Reserve, monetary policy, Texas economy, energy" />
+        <meta property="og:title" content="Federal Reserve Bank of Dallas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs071002" />
+        <meta property="og:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta property="og:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="&#64;DallasFed" />
+        <meta name="twitter:creator" content="&#64;DallasFed" />
+        <meta name="twitter:url" content="https://www.dallasfed.org/news/speeches/fisher/2007/fs071002" />
+        <meta name="twitter:title" content="Federal Reserve Bank of Dallas" />
+        <meta name="twitter:description" content="As part of the nation&#39;s central bank, the Dallas Fed plays an important role in monetary policy, bank supervision and regulation, and the operation of a nationwide payments system." />
+        <meta name="twitter:image" content="https://www.dallasfed.org/-/media/Images/components/social/social-sharing-icon.jpg" />
+        <meta name="dal_year" content="2007" />
+
+
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/~/media/images/img/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~/media/images/img/favicon-32x32.png" />
+<link rel="stylesheet" href="/~/media/styles/dallasfed-globals-min--css.css">
+<!-- beg::gafour -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDCF7XD');</script>
+<!-- end::gafour -->
+
+<script>
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39338516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="/~/media/scripts/globals/globals-head--js.js"></script>
+<script>
+    var DAL = {};
+    var ESS = {};
+</script>
+</head>
+<body id="top">
+    <div class="visually-hidden-focusable overflow-hidden"><a href="#content">Skip to main content</a></div>
+    <header class="container-fluid dal-header__container">
+        <div class="dal-utility-menu__container search-container">
+            <div class="dal-utility-menu">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+            <form class="dal-utility-menu__search-form" id="searchBar" action="/search" method="get" role="search" autocomplete="off" onsubmit="event.preventDefault(); DAL.globalSearch();">
+                <select id="searchCategory" aria-label="Select the category" name="searchCat">
+                    <option selected="search-all"><span class="option-label">All</span></option>
+                    <option value="dal_author"><span class="option-label">Authors</span></option>
+                    <option value="dal_series"><span class="option-label">Series</span></option>
+                    <option value="dal_topic"><span class="option-label">Topics</span></option>
+                </select>
+                <input id="searchField" class="form-control dal-utility-menu__search-form__input" type="text" name="text" placeholder="Search" aria-label="Search">
+                <button id="search-btn" class="btn dal-utility-menu__search-form__button" type="button" onclick="DAL.globalSearch();"><span></span></button>
+                <div class="suggestions">
+                    <ul class="search-suggestions"></ul>
+                </div>
+            </form>
+        </div>
+        <div class="navbar navbar-expand-md dal-primary-menu__container">
+            <nav class="container-fluid dal-primary-menu" aria-label="Primary navigation">
+                <a class="navbar-brand dal-primary-menu__brand" href="/" aria-label="Federal Reserve Bank of Dallas"><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="Federal Reserve Bank of Dallas" class="dal-brand__combo--blue"></a>
+                <button class="navbar-toggler dal-primary-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-primary-menu__navbar" aria-controls="dal-primary-menu__navbar" aria-expanded="false" aria-label="Primary navigation toggle">
+                    <div class="dal-primary-menu__toggler__icon"><span></span><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="dal-primary-menu__navbar">
+                    
+
+<ul class="navbar-nav bd-navbar-nav dal-primary-menu__navbar">
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Economy
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li>
+<li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/research">Economy</a></p>
+<p class="subheading"><a href="/research/econdata">Data</a></p>
+<ul>
+    <li><a href="/research/econdata#regional">Regional data</a></li>
+    <li><a href="/research/econdata#us">U.S. data</a></li>
+    <li><a href="/research/econdata#international">International data</a></li>
+    <li><a href="/research/econdata#energy">Energy data</a></li>
+    <li><a href="/research/basics">DataBasics</a></li>
+   <!-- <li><a href="https://dfwrdc.org/" target="_blank">Research Data Center (RDC)</a></li>-->
+</ul>
+
+<p class="subheading"><a href="/research/regional">Regional economy</a></p>
+<ul>
+<li><a href="/research/regional/texas">Texas</a></li>
+<li><a href="/research/regional/nm">New Mexico</a></li>
+<li><a href="/research/regional/la">Louisiana</a></li>
+
+</ul>
+<p class="subheading"><a href="/research/surveys">Dallas Fed Surveys </a></p>
+<p class="subheading"><a href="/research/analysis">Economic analysis</a>
+</p>
+<ul>
+
+    <li><a href="/research/beige">Beige Book</a></li>
+    <li><a href="/research/indicators">Economic indicators</a></li>
+    <li><a href="/topics/texasupdate">Texas Economic Update</a></li>
+    <li><a href="/research/forecast">Texas Employment Forecast</a></li>
+
+</ul>
+
+
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/US">U.S. Economy</a></p>
+<ul> 
+    <li><a href="/research/pce">Trimmed Mean PCE</a></li>
+    <li><a href="/research/econdata/govdebt">Market Value of Government Debt</a></li>
+    <li><a href="/research/wei">Weekly Economic Index</a></li>
+</ul>
+<p class="subheading"><a href="/research/international">International Economy</a></p>
+<ul>
+    <li><a href="/research/international/dgei">Database of Global Economic Indicators</a></li>
+    <li><a href="/research/international/houseprice">International House Price Database</a></li>
+    <li><a href="/research/update/mex/">Mexico Update</a></li>
+</ul>
+<p class="subheading"><a href="/research/international/global">Global Institute</a></p>
+
+<p class="subheading"><a href="/research/events">Events</a></p>
+<ul>
+    <li><a href="/research/events">Conferences</a></li>
+    <li><a href="/research/perspectives">Global Perspectives</a></li>
+
+</ul><li class="dal-primary-menu__item__panel">
+
+<p class="subheading"><a href="/research/energy">Energy </a></p>
+<ul>
+ <li><a href="/research/energy/cee">Center for Energy and the Economy</a></li>
+    <li><a href="/research/surveys/des">Dallas Fed Energy Survey</a></li>
+    <li><a href="/research/energy11">Energy in the Eleventh District</a></li>
+    <li><a href="/research/energy/indicators">Energy Indicators</a></li>
+    <li><a href="/research/energy/slideshow">Energy Slideshow</a></li>
+</ul>
+<p class="subheading"><a href="/research/pubs">Publications</a></p>
+<ul>
+    <li><a href="/research/economics">Dallas Fed Economics</a></li>
+    <li><a href="/research/swe">Southwest Economy</a></li>
+    <li><a href="/research/swe/podcast">Southwest Economy Podcast</a></li>
+    <li><a href="/research/pubs#reports">Special reports</a></li>
+    <li><a href="/research/papers">Working papers</a></li>
+</ul>
+<p class="subheading"><a href="/research/economists">Economists</a></p>
+
+<p class="subheading"><a href="/topics">Focus areas/topics</a></p>
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Community
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+  <p class="heading"><a href="/cd">Community</a></p>   
+  <p class="subheading"><a href="/cd/communities">Communities blog</a></p>  
+   
+  <p class="subheading"><a href="/cd/pubs">In-depth reports</a></p>
+ <ul>
+   <li><a href="/cd/pubs/sbcs">Small Business Credit Survey</a></li>
+ </ul>
+
+</li><li class="dal-primary-menu__item__panel">
+
+    <p class="subheading"><a href="/cd/bytopic">Community topics</a></p>
+   <ul>
+     <li><a href="/topics/smallbusiness">Small business</a></li>
+     <li><a href="/topics/workforce">Workforce development</a></li>
+     <li><a href="/topics/cra">Community Reinvestment Act</a></li>
+   </ul>
+   
+</li>
+<li class="dal-primary-menu__item__panel">
+  <p class="subheading"><a href="/cd/at">Advance Together initiative</a></p>
+    <p class="subheading"><a href="/cd/digital">Digital access initiative</a></p>
+
+     <p class="subheading"><a href="/cd/people">Our people</a></p> 
+<p class="subheading"><a href="/cd/events">Events</a></p>
+
+</li>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/educate">Education</a></p>
+<p class="subheading">Classroom Resources</p>
+<ul>
+    <li><a href="/-/media/microsites/cd/wealth/teachers.html">Building Wealth lesson plans</a></li>
+    <li><a href="/educate/presentations">Classroom-ready presentations</a></li>
+    <li><a href="https://www.federalreserveeducation.org/" target="_blank">Federal Reserve Education</a>
+</ul>
+
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">Publications</p>
+<ul>
+    <li><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html"></a><a href="/visit"></a><a href="/-/media/microsites/cd/wealth/index.html">Building Wealth</a></li>
+    <li><a href="/educate/everyday">Everyday Economics</a></li>
+    <li><a href="/educate/navigate">Navigate: Exploring College and Careers</a></li>
+</ul>
+<!-- <p class="subheading">Student programs</p>
+<ul>
+    <li><a href="/educate/student/pfworkshop">Personal finance workshop</a></li>
+
+</ul> -->
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading"><a href="/educate/events">Events</a></p>
+<p class="subheading"><a href="/visit">Tours information</a></p>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Banking
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+
+<p class="heading"><a href="/banking">Banking</a></p>
+<p class="subheading"><a href="/banking/bankerresources">Banker resources</a></p>
+<p class="subheading"><a href="/banking/consumer">Consumer resources</a></p>
+<p class="subheading"><a href="https://www.frbservices.org/centralbank/reservescentral/" target="_blank">Reserves maintenance</a></p>
+<p class="subheading"><a href="/banking/rs">Risk and surveillance</a></p>
+</li><li class="dal-primary-menu__item__panel">
+
+<p class="subheading">Lending</p>
+  <ul>
+     <li><a href="https://www.frbdiscountwindow.org/" target="_blank">Discount Window</a></li>
+  </ul> 
+<p class="subheading">Payments & financial services</p>
+<ul>
+    <li><a href="/banking/fednow">FedNow</a></li>
+ <li><a href="https://www.frbservices.org/" target="_blank">Financial services</a></li>
+</ul>
+  <p class="subheading"><a href="/banking/regfinreporting">Reporting</a></p>
+  <ul>
+     <li><a href="/banking/reporting">Financial reporting</a></li>
+     <li><a href="/banking/regulatory">Regulatory reporting</a></li>
+     <li><a href="/banking/nic">Structure reporting (NIC)</a></li>
+  </ul> 
+ 
+</li>
+
+<li class="dal-primary-menu__item__panel">
+
+  <p class="subheading"><a href="/banking/contacts">Contacts</a></p>
+ <p class="subheading"><a href="/banking/events">Events</a></p>
+  <p class="subheading">Publications and reports</p> 
+  <ul>
+    <li><a href="/banking/pubs/dfb">Dallas Fed Banking</a></li>
+    <li><a href="/research/surveys/bcs">Banking Conditions Survey</a></li>
+    <li><a href="/banking/pubs/risks">Current Banking Risks</a></li>
+    <li><a href="/banking/pubs/trends">Eleventh District Banking Trends</a></li>
+    <li><a href="/topics/banking">Banking and finance articles</a></li>
+
+   </ul>
+
+
+</li>                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dal-primary-menu__item">
+                <a class="nav-link dropdown-toggle dal-primary-menu__item--navlink" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                </a>
+                <ul class="dropdown-menu dal-primary-menu__item__container" aria-label="Primary">
+                    <div class="dal-primary-menu__item__panel__container">
+<li class="dal-primary-menu__item__panel"></li><li class="dal-primary-menu__item__panel">
+<p class="heading"><a href="/fed">About Us</a></p>
+<p class="subheading">What we do</p>
+<ul>
+    <li><a href="/fed/rb">Reserve Banks and the Fed</a></li>
+    <li><a href="/fed/counties">Counties in our district</a></li>
+</ul>    
+<p class="subheading">Our branches</p>
+<ul>
+   <li><a href="/elpaso">El Paso</a></li>
+   <li><a href="/houston">Houston</a></li>
+   <li><a href="/sanantonio">San Antonio</a></li>
+</ul>
+<p class="subheading"><a href="/fed/holidays">Holiday schedule</a></p>
+<p class="subheading"><a href="/careers">Work with us</a></p>
+<p class="subheading"><a href="/fed/transparency">Transparency</a></p>
+</li><li class="dal-primary-menu__item__panel">
+<p class="subheading">President Lorie Logan</p>
+<ul>
+     <li><a href="/fed/leadership/logan">About Lorie</a></li>
+     <li><a href="/fed/leadership/logan/listeningin360">Listening in 360°</a></li>
+   <li><a href="/fed/leadership/logan/calendar">Calendar</a></li>
+     <li><a href="/news/speeches/logan">Public speaking events</a></li>
+</ul>
+<p class="subheading"><a href="/fed/people">Our people</a></p>
+<ul>
+    <li><a href="/fed/leadership">Leadership team</a></li>
+    <li> <a href="/fed/leadership/regional">Regional executives</a></li>
+    <li><a href="/fed/bod">Boards of directors</a></li>
+    <li><a href="/research/economists">Economists</a></li>
+    <li><a href="/fed/councils">Dallas Fed advisory councils</a></li>
+    <li><a href="/fed/fac">Federal Advisory Council</a></li>
+    <li><a href="/fed/omwi">Office of Minority and Women Inclusion</a></li>
+
+</ul>
+</li>
+
+
+
+
+
+
+<li class="dal-primary-menu__item__panel">
+<p class="subheading">Speeches</p>
+<ul>
+    <li><a href="/news/speeches/logan">Lorie Logan speeches and publications</a></li>
+    <li><a href="/news/speeches/speeches-leaders">Leadership speeches</a>  </li>
+    <li><a href="/news/speaker">Request a speaker</a></li>
+</ul>
+ <p class="subheading"><a href="/fed/connect">Connect with us</a></p>
+<ul>
+    <li><a href="/events">Attend our events</a></li>
+    <li><a href="/visit">Visit our exhibits</a></li>
+    <li><a href="/research/surveys/panelist">Help us track the economy</a></li>
+    <li><a href="/fed/contact">Ask a question or find a contact</a></li>
+    <li><a href="/fed/supplier">Do business with us</a>  </li>
+</ul>
+</li>
+
+                    </div>
+                </ul>
+            </li>
+</ul>
+                    <div class="dal-utility-menu__container--mobile">
+                        <div class="dal-utility-menu--mobile">
+<a href="/news">News and Events</a><a href="/careers">Careers</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb dal-crumb__container">
+<a href="/" class="breadcrumb-item dal-crumb__item">Home</a><a href="/news" class="breadcrumb-item dal-crumb__item">News and events</a><a href="/news/speeches" class="breadcrumb-item dal-crumb__item">Speech archives</a><a href="/news/speeches/fisher" class="breadcrumb-item dal-crumb__item">Speeches by former President Richard W. Fisher, 2005–15</a></div>
+<div class="container-fluid dal-base__container">
+    <section class="container-fluid dal-base__section--main">
+        <div class="row dal-section__container--main">
+            <aside class="dal-sidebar__container--left">
+                
+<!--mtree nav current url = /news/speeches/fisher/2007/fs071002-->
+<nav class="navbar navbar-expand-xl dal-sidebar-menu">
+    <button class="navbar-toggler dal-sidebar-menu__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dal-sidebar-menu__navlist" aria-controls="dal-sidebar-menu__navlist" aria-expanded="false" aria-label="Sidebar navigation toggle">
+        <div class="dal-sidebar-menu__heading">
+News and Events        </div><div class="icon-color-brand-blue"><img src="/~/media/images/svg/iconography/utility/navigation/icon-leftnav-mobile.svg" alt="Down Arrow" class="dal-sidebar-menu__img"></div>
+    </button>
+
+    <div class="collapse navbar-collapse" id="dal-sidebar-menu__navlist">
+        <ul class="nav mtree dal-sidebar-menu__navlist">
+<li><a href="/news/releases" >Releases</a></li>
+<li><a href="/news/contacts" >Media contacts</a></li>
+<!-- level-1 Speeches -->
+<li class="mtree-node"><a href="#" >Speeches</a><ul>
+<li><a href="/news/speeches/logan" >Logan speeches and publications</a></li>
+<li><a href="/news/speeches/speeches-leaders" >Leadership  speeches</a></li>
+<li><a href="/news/speeches" >Speech archives</a></li>
+<li><a href="/news/speaker" >Request a speaker</a></li>
+</ul>
+</li>
+<li><a href="/fed/follow" >Follow the Fed on social media</a></li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf" target='_blank'>Federal Reserve blackout dates</a></li>
+<li><a href="/fed/transparency" >Transparency</a></li>
+<!-- level-1 Events -->
+<li class="mtree-node"><a href="#" >Events</a><ul>
+<li><a href="/events" >Upcoming events</a></li>
+<li><a href="/fed/direct" >Directions to the Dallas Fed</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav>
+<!--mtree nav end -->
+            </aside>
+
+            <div id="content" class="dal-main__container">
+
+
+                <div class="row dal-main-content__container">
+                    <div class="dal-main-content">
+
+                                                    <div class="dal-crouton">Speech by Richard W. Fisher, President and CEO (2005–2015)</div>
+                                                        <h1 class="dal-headline">In the Lap of the Gods</h1>
+                                                    <div class="dal-tagline">Remarks at the Greater Dallas Chamber Annual State of Technology Luncheon</div>
+                                            <div class="dal-inline-list">
+
+                    </div>
+                        
+                        
+<p><span class="report-date">October 2, 2007</span> Dallas, Texas</p>
+<div class="clearfix"></div>
+<div class="separator-red"></div>
+
+
+
+
+
+                          <p>Thank you, Daniel [Frishberg]. The Greater Dallas Chamber was kind enough to invite me here today, and I thank them, too. I am going to take advantage of this opportunity to discuss how technology drives progress in the Knowledge Age. Technology is critically important to the Federal Reserve System. It helps us run the business of the central bank. And yet at the same time, it complicates the business of making monetary policy for the United States.<br>
+                          <br>
+ 
+I wear three hats in the Federal Reserve. I am president and CEO of one of the 12 Banks that operate the Fed's payments system business. I chair the Fed's Information Technology Oversight Committee. And I sit on the Federal Open Market Committee, which is responsible for crafting a monetary policy designed to foster sustainable noninflationary economic growth. Its actions are what the press and financial analysts love to bill and coo about.<br>
+<br>
+
+When I'm wearing my monetary policy hat, I consider IT from one perspective; in my two other roles, I ponder IT from another angle. Let me explain.<br>
+<br>
+
+From the business end, I look at IT as an enabler: It facilitates managing the Federal Reserve System and the business of our Banks. Consider these aspects of our operations:<br>
+<br>
+Take a dollar bill out of your pocket. Printed in bold letters along the top of it are the words "Federal Reserve Note." We do not actually print money&mdash;the Treasury does that&mdash;but we are responsible for ensuring that the banking system and the economy have the currency they need to function properly. Each year, the Federal Reserve System processes approximately 37 billion of these notes&mdash;bills with denominations of $1, $2, $5, $10, $20, $50 and $100. We store them in massive vaults at the 12 regional Federal Reserve Banks and use 132 machines to count and sort currency at a rate of 90,000 bills an hour, day in, day out.<br>
+<br> 
+
+We also process the checks you write. Last year, we processed 9.1 billion paper checks and 1.5 billion electronically imaged checks. <br>
+<br>
+
+And we moved $5 trillion <em>per day </em>between financial institutions to settle their accounts. <br>
+<br>
+The Federal Reserve System, in short, runs one of the largest financial businesses in the nation, and most of our work is accomplished by moving zeroes and ones through electronic spectra. Most people think we are analytical wonks, collecting, categorizing and correlating massive amounts of data for economic reporting and analysis&mdash;all of it needed to conduct monetary policy. But we also run a large, sophisticated materials handling business, involving shipping and receiving, sorting and inventorying. We use advanced scanning and other technological means to ensure currency is genuine and fit for recirculation. We use technology to digitize check images, transmit and store the images, and turn millions of images back into paper for presentation to the paying banks.<br>
+<br>
+
+Our mainframe processing power totals nearly 9,000 MIPS, or millions of instructions per second, if we have any nongeeks in the audience. Across the system, we have about 4,500 servers and 24,000 desktop computers in use. Our national networks support nearly 3,000 high-bandwidth circuits that reach about 1,500 end points, both internal locations and external customers. To keep this technology functioning, we employ some 3,000 IT professionals.<br>
+<br>
+By itself, the Dallas Fed&mdash;located a few blocks from here on Pearl Street&mdash;moved 6.5 billion banknotes through our five-story-deep, robotically controlled vault last year. We are assuming responsibility for processing every paper check written in the western United States, from here to California. And as agent for the Treasury, we just processed our 1 millionth conversion of government-benefit payments from old-fashioned paper checks to direct deposit. <br>
+<br>
+The Dallas Fed is a bank. We have $40 billion in assets. We make money off of those assets and the fees we charge from lending money and performing services, and we use the proceeds to pay down the federal deficit. Last year, after paying taxes and a healthy 6 percent dividend to our shareholders&mdash;the member banks in our district&mdash;we paid $1.3 billion into the U.S. Treasury. <br>
+<br>
+
+As you can see, the Federal Reserve is a large, sophisticated business. Like any modern company, technology is at the core of our operations. And our cost structure: We spend a third of our budget on IT. It is money well spent. IT enables us to provide our services efficiently and effectively. It facilitates our management of the payments system for the American people. We are as eager as anybody else to exploit technology to reduce our costs and maximize our business returns. As business operators, we are saddled to Moore's curve as much as anybody in this room.<br>
+<br>
+
+Now, let me remove the hats I wear as a business operator and consider IT from the perspective of making monetary policy in the Knowledge Age.<br>
+<br>
+
+When the 12 regional Bank presidents and the seven Fed governors sit down to determine monetary policy as the Federal Open Market Committee, the great technological advances of our age significantly impact what we do. Why? Because innovations that create new markets, boost productivity or cut costs play a significant role in stimulating economic growth. And they help keep a lid on inflation. In a very palpable sense, advancements in technology aid the Fed in accomplishing its mission of underwriting sustainable noninflationary growth in the world's most powerful economy. <br>
+<br>
+
+That is the good news.<br>
+<br>
+Technological innovation, however, makes the work of central banking more difficult. Innovation foments economic change&mdash;think of electricity in the 19th and early 20th centuries, the microchip and Internet in our times. Successive waves of technology destroy old markets and create new ones. They alter cost structures and upset established relationships between inputs and outputs. They change the way economies operate, making the past a less reliable guide to the future. In effect, technological innovation constantly challenges our economic models, relentlessly trashing our operating manuals, much like Internet music downloads are pushing compact discs into the dust bin that contains our cassettes and eight-track tapes and supposedly "long-playing" record albums.<br>
+<br>
+
+The 1990s illustrate how technology can shake central banking's basic tenets. Advances in information technology achieved a critical mass early in the decade, setting off an unprecedented surge in productivity. The economy began growing rapidly, pushing unemployment down below 4 percent. At the time, the Fed's econometric models flashed warnings about inflationary fires yet to come. The textbook response would have been higher interest rates, aimed at forestalling inflation. Instead, the Fed resisted the conventional wisdom, recognizing the world had changed and the U.S. economy's speed limit had increased. Technology would allow faster growth without kindling inflation.<br>
+<br>
+It is the very nature of technology to undermine the status quo. This is hardly an original observation. In the period between the two World Wars, the iconic economist Joseph Schumpeter documented the effect of technological change on economic activity. Schumpeter was a man who knew how to pack a lot of meaning into a few words. He used to tell his students at Harvard in the 1940s that he aspired to be the world's greatest economist, the world's greatest horseman and the world's greatest lover. "Two out of three isn't bad," he said in wistful summary of his accomplishments. He did not do well with horses.[<a href="#1">1</a>]<br>
+<br>
+In the realm of economic thought, Schumpeter is best remembered for coining the phrase "creative destruction," a seemingly paradoxical construct that with succinct and sublime precision describes how new ways of doing things continually replace the status quo, destroying jobs, companies and even industries that were rendered antiquated by the newly created technologies and replacing them with new ones. <br>
+<br>
+Let me give you a sample of the power of Schumpeter's insight. "The fundamental impulse that sets and keeps the capitalist engine in motion," he wrote, "comes from the new consumers' goods, the new methods of production or transportation, the new markets, the new forms of industrial organization that capitalist enterprise creates." He went on to characterize innovation as a force that "incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one."<br>
+<br>
+Capitalism, in other words, is a continuous process of change&mdash;out with the old and in with the new. What drives the process? The profit motive. And competition. Schumpeter understood that the most powerful kind of competition was <em>not</em> between rival carriage makers, each offering a better price. No, it is the competition from whole new forms of transportation technology that bring the consumer a whole new way of traveling that eclipses the old. <br>
+<br>
+Schumpeter put it this way: "A railroad through new country,<em> i.e.</em>, country not yet served by railroads, as soon as it gets into working order upsets all conditions of location, all cost calculations, all production functions within its radius of influence; and hardly any â??ways of doing things' which have been optimal before remain so afterward."<br>
+<br>
+With each new generation of technology that you and your companies bring to market, those of us who study and model the economy have to rejigger our assumptions because "hardly any ways of doing things which have been optimal before remain so afterward."<br>
+<br>
+The history of economic progress has always been shaped by new technologies&mdash;by the inventions of platforms that spur economic growth and spread prosperity around the world. The internal combustion engine made horse-drawn transport obsolete, but the new technology also moved people and goods faster and cheaper, saving time and money. The mushrooming numbers of cars, trucks and buses meant jobs for drivers, oilfield workers, road crews, mechanics and millions of others. ATMs culled the ranks of bank tellers, just as robotics replaced human hands on assembly lines and even in medical operating rooms. Eventually, the tellers and factory workers who lost their jobs were shifted to other sectors and contributed to the production of new goods and services that fulfilled human needs and wants. <br>
+<br>
+This process keeps us on our toes. If you look at back at America's 100 most valuable companies in 1900, you'll see that all but a handful are no longer in business. The reason: new technology and the relentless economic change it unleashes. Take Baldwin Locomotive Works. It built some of the best railroad engines in the country&mdash;first steam, then diesel&mdash;making it one of the top U.S. companies for decades. But Baldwin Locomotive ceased operations in 1956. Times had changed. Technology had advanced. Baldwin was passed by. <br>
+<br>
+Look at today's most celebrated companies. Along with such perennials as Exxon-Mobil and GE, you'll see thriving enterprises built on technologies that didn't exist when many of you were born&mdash;Google, Cisco, Amazon, eBay and Research in Motion. Of course, if they do not stay on their toes, they, too, will eventually follow Baldwin Locomotive into oblivion.<br>
+<br>
+Today, we central bankers are grappling with globalization&mdash;the freer flow of goods, services, money, ideas and people across national borders. Its present incarnation owes a great deal to the revolution in information technology. Faster, cheaper and better communications are breaking down barriers to international business and knitting the world's economies closer together faster than the New York Mets can blow a pennant race.<br>
+<br>
+
+Globalization proceeds at a pace dictated by technology. The world's economies are rapidly integrating today because communications technologies have made it cheaper and easier to deliver information at great distances and extend supply chains to the far corners of the planet. The Internet and e-mail and cell phones and satellite TV facilitate the exchange of the most valuable resource mankind has ever discovered: knowledge.<br>
+<br>
+Consider how this affects employment, which the Fed is duty-bound to maximize without upsetting price stability. New technologies have opened new horizons for virtual immigration, which allows companies to assign tasks to workers nearly anywhere in the world. We can now tap into the intelligence that is on the ground in Delhi or Dubai as easily as we do that which is in Detroit or Dallas. Communications technology gives us the tools to get around&mdash;at least partly&mdash;the restraints imposed on physical immigration. Throughout its history, the U.S. economy has benefited greatly from the brain gain, and we cannot continue as the world's technological leader without continuing to import foreign know-how. We hear a lot of talk about offshoring and the harm it purportedly does, but we American business operators have come to recognize how an interconnected world can be our lifeblood, nourishing our economy with a transfusion of knowledge transmitted through the ether of the Internet. <br>
+<br>
+Schumpeter wrote of the power of creative destruction in the context of the industrial era. Those essential lessons also apply, in spades, in our globalizing, knowledge-driven economy, when technological change has become a juggernaut and products' life spans have shrunk. New ideas, new products and new companies are arriving on the scene faster than ever, while new competitors are appearing on the horizon, continually upsetting the status quo. Moore's Law&mdash;which embodies the idea that change is recurrent and accelerating&mdash;is the fundamental reality of today's world. <br>
+<br>
+The keynote essay of the Dallas Fed's 2006 Annual Report [<a href="#2">2</a>] points out 10 ways globalizing the Knowledge Economy has been raising productivity's level or its growth rate&mdash;or both. <br>
+<br>
+
+Point No. 1, lower communications and transport costs make products cheaper for consumers and facilitate globalization. <br>
+<br>
+
+Point No. 2, when economies become more integrated, competition is enhanced. <br>
+<br>
+
+And, Point No. 3, specialization is enabled. <br>
+<br>
+
+Point No. 4, globalization gives companies new ways to ramp up their production functions. They can now access cheaper labor, raw materials and other resources at any time and from anywhere on the globe. <br>
+<br>
+
+Points No. 5 and 6, globalization gives producers larger markets, increasing the potential payoff for innovation, business formation and risk taking. Large global markets allow companies to extend their economies of scale by producing to satisfy global, not just domestic, demand. This is particularly powerful in the Knowledge Age, where such things as microchips, pharmaceuticals and entertainment face high initial development costs but low marginal costs to produce. <br>
+<br>
+In the <em>New York Times</em> the other day, a senior vice president at India's Infosys Technologies succinctly summarized Points 4, 5 and 6 by referring to the future of outsourcing as the ability to "â?¦take the work from any part of the world and do it in any part of the world."[<a href="#3">3</a>] He might easily have added, "and then sell it in any part of the world."<br>
+<br>
+
+Point No. 7, capital markets expand in a globalized world, freeing money to seek the highest return available and fund development of new production capacity anywhere on the planet. <br>
+<br>
+
+Point No. 8, it is easier for productive knowledge to spread across borders, fueled by migration, the Internet, cell phones and trade. <br>
+<br>
+
+Point No. 9, globalization erodes national or natural monopoly power, reducing the excess burdens imposed on consumers. <br>
+<br>
+And finally, Point No. 10, globalization increases the range&mdash;and potential rewards&mdash;of goods that can be consumed by more than one person at a time. Just because I'm downloading the most recent episode of <em>The Office</em> from iTunes does not mean someone in Singapore cannot download it at the same time. Which is something you cannot do with the same can of peas or the same steel beam.
+
+We have had decades to contemplate the globalization of goods markets&mdash;TVs, shoes, clothing, furniture and more, much of it produced by low-wage labor in faraway lands. But the point of the essay in our annual report&mdash;copies of which we will have for you as you leave the room&mdash;is that today's globalization means international competition has spread beyond manufactured goods. Modern communications technology has brought the reality of globalization to broad realms of the economy that until recent decades had been largely isolated from it. The nexus of technology and globalization brings business opportunities for those of you with vision and entrepreneurial instincts. For central bankers, it creates a challenge. We have yet to develop the tool kit we need to understand a technology-driven, globalized economy well enough to craft monetary policy with the precision we would like. <br>
+<br>
+We are not alone in feeling somewhat uneasy with the changes swirling about us. A large segment of the public feels threatened by the technology that we in this room embrace, and they fear the globalization it fosters. There is nothing new in this. When he was governor of New York, Martin Van Buren supposedly wrote a missive to President-elect Andrew Jackson in which he said, "If canal boats are supplanted by â??railroads,' serious unemployment will result. Captains, cooks, drivers, hostlers, repairmen and lock tenders will be left without means of livelihood, not to mention the numerous farmers now employed in growing hay for horses. Boat builders would suffer and tow-line, whip and harness makers would be left destitute. â?¦ As you may well know, Mr. President, â??railroad' carriages are pulled at the enormous speed of 15 miles per hour â?¦ by â??engines' which roar and snort their way throughout the countryside, setting fire to the crops, scaring the livestock, and frightening women and children. The Almighty certainly never intended that people should travel at such breakneck speeds."<br>
+<br>
+Now, the Almighty has given us the means to move at the speed of light through cyberspace. Today, technology is again doing what it has always done&mdash;creating enormous angst among those it displaces. And yet it is raising living standards and increasing economic efficiency in most parts of the world. <br>
+<br>
+
+We live in a time when it is fashionable to look at all glasses as half full. Chicken Little rules the roost of economic prognostication. The innovators in this room know differently. Heirs to Eli Whitney, Thomas Edison, Alexander Graham Bell and the Wright brothers, American entrepreneurs are accustomed to operating in an economy that is the crucible of innovation. Jack Kilby and Robert Noyce, Jeff Bezos, Larry Page, Mark Zuckerberg and, of course, Bill Gates sprang from the American landscape, not from Germany or France or China or India or anyplace else. Inventiveness is part of the American DNA, nurtured in an economic system that encourages innovation and rewards it handsomely. New products and new technologies find fertile soil here in Texas and throughout the United States, where they can be funded and brought to market, only to be challenged in due course by the next round of new products and new technologies. <br>
+<br>
+A free enterprise system recognizes that innovation cannot be predicted or controlled. No part of the computer was invented with the computer in mind. The keyboard came from the typewriter, invented in the 1860s by Christopher Latham Sholes. The first program was written for Joseph Marie Jacquard's loom in 1801, a technology to avoid mistakes made by the weavers. Vacuum tubes and transistors were first associated with radio and then television. The microchip was invented for handheld calculators, not for computers per se. And the electricity that powers it all started out as a better way to light up dark rooms. Mix them all together and&mdash;voila&mdash;you have a computer, the unintended consequence of a series of separate inventions.<br>
+<br>
+What put the computer together was the profit motive&mdash;the potential to get rich by exploiting all the connections, all the angles, all the possible products consumers might buy. This is why America is by far the most inventive nation in the world. We are not necessarily smarter, though I would like to think we are. We do not have some intrinsic aptitude that others lack, though I would like to think we are pretty darned clever. We are not always luckier, though we are very lucky people. What we do have that sets us apart is an economic system that provides rewards for those who dare to turn their ideas into realities. We have what you might call <em>incentive</em> aptitude. You give us an incentive, and we'll find an aptitude!<br>
+<br>
+American technology will continue to march forward, as it has for generations. Skeptics have always been proved wrong. Charles Duell once ran the U.S. Patent Office. He would probably be forgotten by now if not for a few words he is purported to have uttered in 1899&mdash;after the introduction of telephones, electric lights and automobiles â?¦ but before the next wave of innovation that brought us airplanes, refrigeration, radios and my favorite great invention, the pop-up toaster. In 1899, amid the great burst of innovation, one that rivaled what we see today, Duell infamously proclaimed: "Everything that can be invented has been invented." 
+
+If Duell had been right, the job of econometricians and monetary policymakers would have been made so much easier. They could have put everything on autopilot. And, as a nation, we would have gone into decline, deprived of the fresh energy of new technology. I'll return to my best buddy&mdash;Schumpeter. He knew better. He wrote that "we cannot reason â?¦ about the future possibilities of technological advance â?¦ those [technologies] that are still in the lap of the gods may be more or less productive than any that have thus far come within our range of observation. ... There is no reason to expect slackening of the rate of output through exhaustion of technological possibilities." <br>
+<br>
+We know not what marvels still sit in the "lap of the gods." But history tells us it is a fool's game to expect a slackening of the rate of technological accomplishment. Some of you may even play starring roles developing the future waves of technology. Your efforts and the fruits of your labor will fuel the incessant revolution of our economic system, making the work of central bankers more confusing and challenging. As sure as I am standing here, I know that your success will make my job harder. I ask only one thing of you: 
+
+</p>
+                          <p>Keep  it up.<br>
+                          </p>
+
+
+<div class="separator"></div>
+<h5>Notes</h5>
+
+<ol>
+<li><a name="1" id="n1"></a>A very  readable biography of Joseph Schumpeter can be found in <em>Prophet of Innovation</em> by Thomas K. McCraw, Harvard University  Press, 2007.</li>
+<li><a name="2" id="n2"></a>&ldquo;The Best of All Worlds: Globalizing the  Knowledge Economy,&rdquo; by W. Michael Cox and Richard Alm, Federal Reserve Bank of Dallas  Annual Report, 2006, pp. 3&ndash;28.</li>
+<li><a name="3" id="n3"></a>&ldquo;Outsourcing Works, So India  Is Exporting Jobs,&rdquo; by Anand Giridharadas, <em>New York</em><em> Times</em>, Sept. 25, 2007.</li>
+</ol>
+
+
+                        
+                        
+<div class="dal-social__container--share mb-lg-40">
+   <div class="display-95 text-brand-gray mb-2">Share this</div>
+   <div class="dal-social--share">
+      <a href="##"" class="share-item-twitter no-icon icon-social-twitter-medium" aria-label="Share on Twitter" title="Share on Twitter"></a>
+      <a href="##"" class="share-item-linkedin no-icon icon-social-linkedin-medium" aria-label="Share on LinkedIn" title="Share on LinkedIn"></a>
+      <a href="##"" class="share-item-facebook no-icon icon-social-facebook-medium" aria-label="Share on Facebook" title="Share on Facebook"></a>
+      <a href="##"" class="share-item-reddit no-icon icon-social-reddit-medium" aria-label="Share on Reddit" title="Share on Reddit"></a>
+      <a href="##"" class="share-item-email no-icon icon-social-email-medium" aria-label="Share via Email" title="Share via Email"></a> 
+   </div>
+</div>
+
+
+                        <div class="dal-info__container">
+                            <h5>About the Author</h5><p> Richard W. Fisher served as president and CEO of the Federal Reserve Bank of Dallas from April 2005 until his retirement in March 2015. </p>                                                    </div>
+                    </div>
+                    <aside class="dal-sidebar__container--right">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dal-base__section--open">
+        
+    </section>
+</div>
+    <div class="container-fluid dal-footer__container">
+        <footer class="dal-footer">
+            
+<div class="dal-footer-content">
+   <div class="dal-footer-column__container">
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">Quick links</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/research/international/global" class="nav-link">Global Institute</a></li>
+            <li class="nav-item"><a href="/cd/wealth" class="nav-link">Building Wealth</a></li>  
+             <li class="nav-item"><a href="/banking/pubs/dfb" class="nav-link">Banking blog</a></li>
+           <li class="nav-item"><a href="/cd/communities" class="nav-link">Communities blog</a></li>
+            <li class="nav-item"><a href="/research/economics" class="nav-link">Economics blog</a></li>
+            <li class="nav-item"><a href="/visit" class="nav-link">Visit us</a></li>
+            <li class="nav-item"><a href="/pubs" class="nav-link">Publications</a></li>
+         </ul>
+      </div>
+      <div class="dal-footer-column">
+         <div class="dal-footer__headline">About us</div>
+         <ul class="nav dal-footer__nav">
+            <li class="nav-item"><a href="/fed/transparency" class="nav-link">Transparency</a></li>
+            <li class="nav-item"><a href="/fed/holidays" class="nav-link">Holiday schedule</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="/fed/omwi" class="nav-link">Office of Minority and<br>Women Inclusion</a></li>
+         </ul>
+      </div>
+     <div class="dal-footer-column">
+       <div class="dal-footer__headline">Contact us</div>
+        <ul class="nav dal-footer__nav">
+           <li class="nav-item"><a href="/fed/contact/info" class="nav-link">Frequently asked questions</a></li>
+           <li class="nav-item"><a href="/fed/contact" class="nav-link">Locations and teams</a></li>
+           <li class="nav-item"><a href="/news/contacts" class="nav-link">Media relations</a></li>
+           <li class="nav-item"><a href="/fed/supplier" class="nav-link">Vendors and suppliers</a></li>
+            <li class="nav-item"><a href="https://cvent.me/eXoE5G" target="_blank" class="nav-link">Website feedback</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="dal-footer-connect">
+      <form>
+         <div class="dal-footer__headline">Stay informed</div>
+         <p>Get analysis, research, resources and event information delivered directly to your inbox.</p>
+        <a class="btn btn-brand-teal-light text-nowrap" type="button" href="https://cloud.email.em-dallasfed.org/signup" target="_blank">Subscribe</a>
+         <!--<div class="dal-footer__email-wrapper">
+            <label for="EmailSignup" class="visually-hidden">Email address</label>
+            <input id="EmailSignup" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-light text-nowrap" type="button" href="/">Sign Up</button>
+          </div>-->
+      </form>
+      <div class="dal-social__container">
+         <div class="dal-footer__headline">Follow the Dallas Fed</div>
+         <div class="dal-social--share"><!----> 
+            <a rel="noopener noreferrer" href="https://twitter.com/DallasFed" target="_blank" class="no-icon" aria-label="Dallas Fed on Twitter"><span class="icon-color-white"><span class="icon-social-twitter-medium" title="Dallas Fed on Twitter"></span></span></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on LinkedIn"><span class="icon-social-linkedin-white-medium" title="Dallas Fed on LinkedIn"></span></a><a rel="noopener noreferrer" href="https://www.facebook.com/FRBDallas/" target="_blank" class="no-icon" aria-label="Dallas Fed on Facebook"><span class="icon-color-white"><span class="icon-social-facebook-medium" title="Dallas Fed on Facebook"></span></span></a><a rel="noopener noreferrer" href="https://www.instagram.com/dallasfed/" target="_blank" class="no-icon" aria-label="Dallas Fed on Instagram"><span class="icon-color-white"><span class="icon-social-instagram-medium" title="Dallas Fed on Instagram"></span></span></a><a rel="noopener noreferrer" href="https://www.youtube.com/user/dallasfed" target="_blank" class="no-icon" aria-label="Dallas Fed on YouTube"><span class="icon-color-white"><span class="icon-social-youtube-medium" title="Dallas Fed on YouTube"></span></span></a><a rel="noopener noreferrer" href="https://www.glassdoor.com/Overview/Working-at-Federal-Reserve-Bank-of-Dallas-EI_IE18487.11,41.htm" target="_blank" class="no-icon" aria-label="Dallas Fed on Glassdoor"><span class="icon-color-white"><span class="icon-social-glassdoor-medium" title="Dallas Fed on Glassdoor"></span></span></a> </div>
+      </div>
+   </div>
+   <!-- end dal-footer-connect --> 
+</div>
+<!-- end dal-footer-content -->
+<div class="dal-footer-address__container">
+   <p class="dal-footer-address__brand"><a href="/" aria-label="Dallas Fed home."><img src="/~/media/images/svg/brand/brand-combo/brand-combo-box.png" alt="" class="dal-brand__combo--white" /><br>
+      <img src="/~/media/images/svg/brand/brand-tag-inline/brand-tag-inline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-none d-sm-block"><img src="/~/media/images/svg/brand/brand-tag-twoline/brand-tag-twoline-white.svg" alt="" class="img-fluid pt-10 pe-20 d-ms-block d-sm-none"></a></p>
+   <!--<p class="dal-footer-address__text">2200 N. Pearl St., Dallas, Texas 75201<br>
+      <abbr title="Phone">P:</abbr> 214.922.6000 or 800.333.4460</p>--> 
+</div>
+<a type="button" class="btn btn-floating" id="btn-back-to-top" href="#top"><span class="material-icons">expand_less</span><br>
+Top</a>
+<div class="dal-legal display-9 delimited-list mx-n40 ps-0 py-20 bg-blue-600"><span class="delimited-list-item-bar">2200 N. Pearl St., Dallas, Texas 75201</span><span class="delimited-list-item-bar">214.922.6000 or 800.333.4460</span><a href="/fed/disclaimer" class="delimited-list-item-bar">Terms of Use</a><a href="/fed/privacy" class="delimited-list-item-bar">Privacy Notice</a></div>
+<script src="/js-predsearch-keywords"></script>
+<script src="/~/media/scripts/globals/search-predictive--js.js"></script>
+<script src="/~/media/scripts/globals/globals-foot--js.js"></script>
+<script src="/~/media/scripts/ess.js"></script>
+
+        </footer>
+    </div>
+<script type="text/javascript"  src="/xiqHSwNKtsrWKaQ6CwmiwWyBuZ4/OcYiQSQmfQpwtG/HwsSMCkYAQ/YV0-R2/xDGiEB"></script></body>
+</html>
