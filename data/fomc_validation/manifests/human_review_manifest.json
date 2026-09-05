@@ -1,0 +1,37 @@
+{
+  "aggregate_sha256": "31dacc30238c1d311f7a01919bd72dd200ad27f039e10e0bda3648e3b1e90697",
+  "created_at_utc": "2026-09-05T05:45:55Z",
+  "file_count": 4,
+  "files": [
+    {
+      "bytes": 57604,
+      "path": "answer_key_do_not_share_with_reviewers.csv",
+      "sha256": "1abaa6867ef4df1aed9ec8fc3dab6c2e252bcea1050e56f80a021380c5277ddd"
+    },
+    {
+      "bytes": 410016,
+      "path": "reviewer_1.csv",
+      "sha256": "892fe2e30e21d6a26451e87ab03c46d3751f89e3320e9697aef0103f3f8b0887"
+    },
+    {
+      "bytes": 410016,
+      "path": "reviewer_2.csv",
+      "sha256": "892fe2e30e21d6a26451e87ab03c46d3751f89e3320e9697aef0103f3f8b0887"
+    },
+    {
+      "bytes": 358,
+      "path": "status.json",
+      "sha256": "598fc44a30c892d385d43c053cb1184e69afcec2661a29d8b6c846082b4e8649"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "root_label": "human",
+  "schema_version": "research-provenance/v1",
+  "source": {
+    "label": "Blinded human review packet",
+    "notes": "Blinded human review packet",
+    "retrieved_at_utc": "2026-09-05T05:45:55Z",
+    "url": "https://github.com/nickchen494949/qqq-dashboard"
+  },
+  "total_bytes": 877994
+}

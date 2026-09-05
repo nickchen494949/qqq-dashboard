@@ -1,0 +1,48 @@
+{
+  "schema_version": "fomc-validation-transformation/v1",
+  "validation_spec_version": "1.0",
+  "spec_document_sha256_at_freeze": "78cfbf91513b317de9712601e386e24a3d98d0534f8f7318325d2b83ad7c24c0",
+  "spec_json_sha256_at_freeze": "b48035ebac0d6efbf6f6bac158d02b37c07df4922c90653a1844c0007af6c6b7",
+  "spec_freeze_commit": "629a9ae",
+  "pre_scoring_code_and_inputs_commit": "147346edaccc62ad51b52e5c195c0ebabbd0eccd",
+  "partition_integrity": {
+    "development": "TOUCHED_AS_PLANNED",
+    "validation": "TOUCHED_PARSER_ONLY_NO_METRICS_OR_TUNING_BEFORE_FREEZE",
+    "final_holdout": "TOUCHED_PARSER_ONLY_NO_METRICS_OR_TUNING_BEFORE_FREEZE",
+    "strict_untouched_claim_allowed": false
+  },
+  "input_aggregate_sha256": {
+    "official_sep_and_participant_key_pdfs": "9e52912c90df3849d3559511c87de2d74245e9132e16e31f19e62fee2d73e9bf",
+    "alfred_point_in_time_macro_xml": "f028216a19c2f9c73f1c15c2bfa522250bdb8fa541dfebbe8fe8baaf4200348c",
+    "official_communication_raw_bytes": "BOUND_TO_PER_FILE_HASHES_IN_COMMUNICATION_TEXT_ARTIFACTS_CSV_AND_PARENT_TRACKER_MANIFEST"
+  },
+  "commands": [
+    "python3 tools/fomc_validation.py enumerate --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py fetch --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py parse --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py build-examples --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py build-text --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py fetch-macro --data-dir data/fomc_validation --fred-env-file PATH_TO_ENV_WITH_FRED_API_KEY",
+    "python3 tools/fomc_validation.py build-macro --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py run-model --data-dir data/fomc_validation --tracker-dir data/fomc_tracker",
+    "python3 tools/fomc_validation.py build-audits --data-dir data/fomc_validation --tracker-dir data/fomc_tracker"
+  ],
+  "key_output_sha256": {
+    "sep_validation_results_json": "128e244f575d940b91b971b1f894c3bdc9ec995509073d155c256a6848362500",
+    "sep_predictions_csv": "1b1a71c435e5a7f47d4cf365fdc252734ea114b838cc2eac8d8d7d62bd413b0a",
+    "reviewer_1_csv": "892fe2e30e21d6a26451e87ab03c46d3751f89e3320e9697aef0103f3f8b0887",
+    "speech_text_coverage_json": "ba2cf1b53f36d6017d1f6f268e8e59f1279be4f3085b032fb4f085c3d6b6a658",
+    "sep_validation_examples_csv": "09e9813da50af35c0c25b114ecb53e357a75bcbd6b3ced04a4ce5646dfdeb557"
+  },
+  "qa_assertions": {
+    "official_sep_pair_count": 36,
+    "raw_sep_pdf_count": 72,
+    "parsed_projection_rows": 2143,
+    "eligible_examples": 1875,
+    "model_prediction_rows": 1640,
+    "final_holdout_rows": 391,
+    "human_review_samples": 120,
+    "stored_secret_value_files": 0,
+    "verdict": "SEP_VALUE_FAIL"
+  }
+}

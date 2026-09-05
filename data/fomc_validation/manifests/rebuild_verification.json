@@ -1,0 +1,24 @@
+{
+  "schema_version": "fomc-validation-rebuild-verification/v1",
+  "verified_at_utc": "2026-09-05T06:15:00Z",
+  "rebuild_source": "NEW_TEMPORARY_DIRECTORY_FROM_FROZEN_RAW_FILES",
+  "commands_completed": ["enumerate", "fetch_existing_raw_sep", "parse", "build-examples", "build-text", "fetch_existing_raw_alfred", "build-macro", "run-model", "build-audits"],
+  "deterministic_file_matches": {
+    "sep_validation_examples.csv": true,
+    "macro_features.csv": true,
+    "speech_windows.csv": true,
+    "sep_predictions.csv": true,
+    "bootstrap_b6_minus_b5.csv": true,
+    "behavior_corroboration.csv": true,
+    "reviewer_1.csv": true,
+    "reviewer_2.csv": true
+  },
+  "semantic_result_json_match_ignoring_created_at_utc": true,
+  "repository_tests_directory": "49_PASSED",
+  "unscoped_repository_root_collection": "22_COLLECTION_ERRORS_IN_ARCHIVED_OR_DIAGNOSTIC_SCRIPTS_REQUIRING_LEGACY_IMPORT_PATHS_PRIVATE_DATA_OR_ENVIRONMENT_KEYS",
+  "raw_manifest_verification": {"sep_answer_keys": "PASS_72_FILES", "alfred": "PASS_175_FILES"},
+  "derived_manifest_verification": {"parsed": "PASS_1135_FILES", "features": "PASS_373_FILES", "results": "PASS_5_FILES", "human_review": "PASS_4_FILES"},
+  "secret_scan": "PASS_NO_FRED_API_KEY_VALUE_STORED",
+  "independent_watcher_audit": "NOT_RUN_WATCHER_OFFLINE_AND_TARGET_NOT_ALLOWED",
+  "release_gate": "PARTIAL"
+}

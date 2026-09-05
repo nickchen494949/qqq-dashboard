@@ -7,20 +7,20 @@ NORTH STAR
 - Untouched: production strategy files and the released `data/fomc_tracker/` evidence package.
 
 MILESTONES
-1. [IN PROGRESS] Freeze the validation contract before inspecting target values.
-2. [PENDING] Preserve and parse every publicly released 2012-2020 SEP compilation and participant key.
-3. [PENDING] Build point-in-time examples and run frozen B0-B6 comparisons.
-4. [PENDING] Produce a blinded human-label packet and score completed reviews.
-5. [PENDING] Audit lineage, time boundaries, results, and publish an external-audit branch.
+1. [COMPLETE] Freeze the validation contract before inspecting prediction metrics.
+2. [COMPLETE] Preserve and parse every publicly released 2012-2020 SEP compilation and participant key.
+3. [COMPLETE] Build point-in-time examples and run frozen B0-B6 comparisons: `SEP_VALUE_FAIL`.
+4. [PARTIAL] Produce a blinded 120-passage packet: complete; two independent human reviews remain `PENDING_HUMAN_REVIEW`.
+5. [IN PROGRESS] Audit lineage, time boundaries, results, and publish an external-audit branch.
 
 CURRENT GATE
-- Stage: official truth feasibility and contract freeze.
-- Evidence required: all 36 released SEP compilation/key pairs enumerated from official historical pages, immutable raw hashes, explicit development/validation/final-holdout dates, and frozen scoring/stopping rules.
+- Stage: release audit and external publication.
+- Evidence required: deterministic rebuild, tests, raw-manifest verification, secret scan, clean git state, and public commit link.
 - Current status: IN PROGRESS.
-- Why this task closes the gate: no model result is admissible until its permitted inputs and later-released answer key are mechanically separated.
+- Why this task closes the gate: the negative model result is useful only if an outsider can reproduce it and see every limitation.
 
 ACTIVE TASK
-- Small bounded action: write and hash validation specification v1.0, then download the enumerated official SEP files without parsing their target values.
+- Small bounded action: seal the results and validation-status files, independently verify the repository evidence, then push the audit branch.
 - Owned paths: `docs/FOMC_VALIDATION_*`, `data/fomc_validation/`, `tools/fomc_validation.py`, and `tests/test_fomc_validation.py`.
 - Budget: standard library plus existing NumPy/pandas/pypdf only; one frozen final-holdout opening; no paid data.
 - Stop rule: proceed only if official files provide a mechanically attributable participant-level policy-rate path; otherwise issue BLOCK.
@@ -35,5 +35,6 @@ PARKING LOT
 - Production dashboard integration until the validation verdict is known.
 
 NEXT
-- If PASS: parse participant keys and individual projections on development years first.
-- If FAIL: preserve the failing file/example and reject or repair only the parser; do not change the predictive hypothesis.
+- Publish the negative v1 result without tuning it.
+- Obtain two independent human reviewer files before any `TEXT_TRUTH` claim.
+- Add market validation only if a timestamped, auditable 2Y and futures/OIS source is frozen first.

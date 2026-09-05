@@ -1,4 +1,6 @@
 from pathlib import Path
+import csv
+import json
 
 import pytest
 
@@ -18,6 +20,7 @@ from tools.fomc_validation import (
     ridge_predict,
     direction_label,
     balanced_accuracy,
+    passage_for_review,
 )
 
 import numpy as np
@@ -172,3 +175,40 @@ def test_ridge_and_direction_scoring_are_deterministic():
     assert direction_label(106.3, 100.0) == "HIGHER"
     assert direction_label(105.0, 100.0) == "UNCHANGED"
     assert balanced_accuracy(["A", "A", "B"], ["A", "B", "B"]) == 0.75
+
+
+def test_human_review_passage_redacts_identity_and_bank():
+    text = "Jerome Powell at the Federal Reserve Bank of New York said inflation policy " + "support growth " * 300
+    passage = passage_for_review(text, {"jerome", "powell"})
+    assert "Jerome" not in passage and "Powell" not in passage
+    assert "Federal Reserve Bank of New York" not in passage
+    assert "[REDACTED]" in passage
+
+
+def test_frozen_outputs_have_no_lookahead_and_expected_verdict():
+    with open("data/fomc_validation/features/sep_validation_examples.csv") as handle:
+        examples = list(csv.DictReader(handle))
+    assert len(examples) == 1875
+    assert all(row["previous_sep_date"] < row["analytical_cutoff_date"] < row["target_sep_date"] for row in examples)
+    with open("data/fomc_validation/features/macro_features.csv") as handle:
+        macro = list(csv.DictReader(handle))
+    assert len(macro) == 35
+    assert all(
+        row[field] <= row["alfred_vintage_date"]
+        for row in macro
+        for field in (
+            "unemployment_observation_date", "cpi_observation_date", "core_pce_observation_date",
+            "payroll_observation_date", "real_gdp_observation_date",
+        )
+    )
+    result = json.loads(Path("data/fomc_validation/results/sep_validation_results.json").read_text())
+    assert result["verdict"] == "SEP_VALUE_FAIL"
+    assert result["partition_integrity"]["strict_untouched_claim_allowed"] is False
+
+
+def test_human_review_packet_is_blank_unique_and_complete():
+    with open("data/fomc_validation/human_review/reviewer_1.csv") as handle:
+        rows = list(csv.DictReader(handle))
+    assert len(rows) == 120
+    assert len({row["sample_id"] for row in rows}) == 120
+    assert all(not row["label"] and not row["confidence_1_to_5"] for row in rows)

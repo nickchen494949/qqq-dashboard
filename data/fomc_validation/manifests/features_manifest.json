@@ -1,0 +1,1882 @@
+{
+  "aggregate_sha256": "627cdc520749d5c92db874601b627edbf1e073d72783c966458c86d3c9d19e33",
+  "created_at_utc": "2026-09-05T05:45:55Z",
+  "file_count": 373,
+  "files": [
+    {
+      "bytes": 277,
+      "path": "example_build_summary.json",
+      "sha256": "cfa2eef5c7024a1495c4ebb4ef1742377978d96492a72462d48b9eddc826e16a"
+    },
+    {
+      "bytes": 5724,
+      "path": "macro_features.csv",
+      "sha256": "af613cfd8b69191c03d9512f087340c7658c42952611c70cc95db063176e74d2"
+    },
+    {
+      "bytes": 631706,
+      "path": "sep_validation_examples.csv",
+      "sha256": "09e9813da50af35c0c25b114ecb53e357a75bcbd6b3ced04a4ce5646dfdeb557"
+    },
+    {
+      "bytes": 715,
+      "path": "speech_text_coverage.json",
+      "sha256": "ba2cf1b53f36d6017d1f6f268e8e59f1279be4f3085b032fb4f085c3d6b6a658"
+    },
+    {
+      "bytes": 110863,
+      "path": "speech_windows.csv",
+      "sha256": "49e12b424d8cea7f6e32d96e7176a49a004d7e5cb0197ec13ca14f2cbdccf36c"
+    },
+    {
+      "bytes": 100015,
+      "path": "speech_windows/0017a4d6a78d8351a8587c47.txt",
+      "sha256": "4478e1348be6d4b9b811c647053024a10ad2dbae59f23820c26d60ea60629acc"
+    },
+    {
+      "bytes": 71152,
+      "path": "speech_windows/004c4072d5bd00ce6fd505d4.txt",
+      "sha256": "bf04c1bfca64043e40409917c14e2c40baa5fbcb5be82b9e8d35e3eac438ceb5"
+    },
+    {
+      "bytes": 119300,
+      "path": "speech_windows/009a57fe5be3937d956172c1.txt",
+      "sha256": "5a637b13b5de646ca31dc0a16b2d16611a0270b29cfb0919aade81f6a046dcbc"
+    },
+    {
+      "bytes": 119649,
+      "path": "speech_windows/00f10308875d03b2e7760f8f.txt",
+      "sha256": "02f98743f7c275189d2ca1fe0ca908395b76a7fa62a8c9c89204db53bc232247"
+    },
+    {
+      "bytes": 136650,
+      "path": "speech_windows/0181cf22eb41334fba200d22.txt",
+      "sha256": "52770cefbd11fb86721b2c50c2fea26bdcb7b372eb5ce7c77c2d921a221d4a7f"
+    },
+    {
+      "bytes": 19707,
+      "path": "speech_windows/01dd15de96222b6183d2904a.txt",
+      "sha256": "4a0a5105396d154673050a98ec42a6d14a98a6098f660e88a8f132ca042a585d"
+    },
+    {
+      "bytes": 13125,
+      "path": "speech_windows/026ca88baf95126abf6ae3ea.txt",
+      "sha256": "6b716d1f13f54caa425d3b8b3f53ddc458ba960051774e37657f16f8ec4e055d"
+    },
+    {
+      "bytes": 50735,
+      "path": "speech_windows/0274dddfc9687a3182583628.txt",
+      "sha256": "a18587b35ef80d12d81fbb6a0a96bb421d98b9ea34a6eb49b2ce6f21b5020519"
+    },
+    {
+      "bytes": 153904,
+      "path": "speech_windows/058fcdca97e9ad9e3a9ed114.txt",
+      "sha256": "d6db64bbdb0728343e15fa10d605581e6f38404a0896ad91cc51dac3070e8df0"
+    },
+    {
+      "bytes": 80507,
+      "path": "speech_windows/066d04f3566d0a1a7e62af82.txt",
+      "sha256": "e7bce60f85932a0565a773884f5d12514709a00ca3b6ff03e8162970ae2c979d"
+    },
+    {
+      "bytes": 95492,
+      "path": "speech_windows/088d37b726c42494167c0283.txt",
+      "sha256": "89834975696dd5af7d1a46885bab9b55865e99d22fb7cb4c602c06013d173c52"
+    },
+    {
+      "bytes": 88279,
+      "path": "speech_windows/096cb41ac9ebe03cc19039ce.txt",
+      "sha256": "b3b2c85574536236f80d2076282969d2ea0f5998cd874ae3e4c771de4413d637"
+    },
+    {
+      "bytes": 121530,
+      "path": "speech_windows/0b582fe46bd8102ff372d640.txt",
+      "sha256": "66ac3d1cb178ec1020150675d8e2b964d0bd682794da1b385d2e66807e8f6bfa"
+    },
+    {
+      "bytes": 128806,
+      "path": "speech_windows/0bd63b77173d88dfbe0d96fe.txt",
+      "sha256": "98003d15254bfdc0fb315e1962b7c6c39639bf107162fe13d90bb5284b89a353"
+    },
+    {
+      "bytes": 24606,
+      "path": "speech_windows/0c0353153d3dfe76d8b94b26.txt",
+      "sha256": "c2e75bb516071ee13ae5e50c17952b4dc44b9a5fd8645c76e7f04f38fc3a44b9"
+    },
+    {
+      "bytes": 109112,
+      "path": "speech_windows/0c72aa3d8b470e43d5b2d447.txt",
+      "sha256": "aa0ffe2d264a761063d2e2f1530adfb4d4ed11d6a38a0eefa02afb4f20d411ba"
+    },
+    {
+      "bytes": 5278,
+      "path": "speech_windows/0ca0e5aecb85f993f5937dc6.txt",
+      "sha256": "7761eea94dbc52d7a3fb54da5485f439ed9ab7827c0d4e33121161dcc87b5ee7"
+    },
+    {
+      "bytes": 131170,
+      "path": "speech_windows/0d58c634f9e58b331059548f.txt",
+      "sha256": "d5caddd4e6dfdf4fa6b2091009a7c47da3401402101bce53b4ab215fff40e385"
+    },
+    {
+      "bytes": 76870,
+      "path": "speech_windows/0d66ee6233f17d0f18f17bc3.txt",
+      "sha256": "64215986b337d69c06fa854f3712363149af674658ea21229ab931b9e50bc199"
+    },
+    {
+      "bytes": 107124,
+      "path": "speech_windows/0e165224e7a332fabae6f2bf.txt",
+      "sha256": "4a2aca70a3c8019b285548de2e0b599ce3fffb2e742bc5f2cb07f15be4fdd490"
+    },
+    {
+      "bytes": 63555,
+      "path": "speech_windows/0e3a99fbeec8bd0d31edd4dc.txt",
+      "sha256": "8f4c8addffe7c9a81ce040c631136ff4d68a118699d57475f77be5b9bf4521d2"
+    },
+    {
+      "bytes": 18515,
+      "path": "speech_windows/0e557f733514e2ed4b999794.txt",
+      "sha256": "9714b2da80f8188409809ce4b0d030b9889f802d0cb355f6af7ea80775b93cf3"
+    },
+    {
+      "bytes": 9987,
+      "path": "speech_windows/0f4cddee53c954396c1c8b1a.txt",
+      "sha256": "6c85f084b6ed7718f50e4baf8bff92576f2467107579cb98bfa0b8acc4abba6b"
+    },
+    {
+      "bytes": 49126,
+      "path": "speech_windows/0fedd1df87e6d49cb3437c4b.txt",
+      "sha256": "8ef853e8dd0e1cba9c262be4f41d8983b5389fb771e4de9c348a5bd0b8883173"
+    },
+    {
+      "bytes": 44911,
+      "path": "speech_windows/10a464a243300331f9c56dc4.txt",
+      "sha256": "0e82152b37bc8694a0e5c41b5e1f37a811bb41d2a5ceb7671150c7718f721676"
+    },
+    {
+      "bytes": 31690,
+      "path": "speech_windows/10a5884ab155fc3073282e87.txt",
+      "sha256": "fe0769b75610b6ec77e8b5b55af004c42a0a404598b249f8bd9d8df60ead3568"
+    },
+    {
+      "bytes": 35267,
+      "path": "speech_windows/12db263a447dbdbfa7164b1b.txt",
+      "sha256": "d4f79d5b28c7c18794f665455a87a88f8d777cf6a13566b4610286777ac60181"
+    },
+    {
+      "bytes": 121859,
+      "path": "speech_windows/1349bbb954609d7dd0e3ee59.txt",
+      "sha256": "b9130eda98a423ff5b2e925aeb6e809443b9401fd3cc85e105de774ea452f9a6"
+    },
+    {
+      "bytes": 29419,
+      "path": "speech_windows/149a7d4ba9782270834d8678.txt",
+      "sha256": "3c7184c0a42341b2650a2d00a07d044d98105b2c4becbf12ea97469ab605a49e"
+    },
+    {
+      "bytes": 35507,
+      "path": "speech_windows/14de1c8ffbc520a5248b6b48.txt",
+      "sha256": "46bc983d59255ad0bfae08b58de409a6de6ca5114df5d2692b0876c6acd37bdc"
+    },
+    {
+      "bytes": 59987,
+      "path": "speech_windows/14e7c3bbb2050b7199f3a816.txt",
+      "sha256": "25b4c6b6e6a4f31a922b909aed100ff1a69b3d325eed43875fca3ffdf31aef73"
+    },
+    {
+      "bytes": 73993,
+      "path": "speech_windows/151fc7ce3379806dbe135bdb.txt",
+      "sha256": "b5ee42c2e87dcbe3bd24581758edb0d6e153952c3d81d8d1234d7ed12ebf4d64"
+    },
+    {
+      "bytes": 51947,
+      "path": "speech_windows/15323c29e15a59ef31c401b5.txt",
+      "sha256": "655d6857d30e9af30dd811f50066921739be5c41b5b6864c2f9735e5eb2be32c"
+    },
+    {
+      "bytes": 25324,
+      "path": "speech_windows/15810ebc50129ead158df7cb.txt",
+      "sha256": "ff528c2d3d676013fc85ced9e9e8121b219caa852b5125f60f5cc8c7bfd75e15"
+    },
+    {
+      "bytes": 29405,
+      "path": "speech_windows/160767e51f8d750b8bd1e015.txt",
+      "sha256": "51789c8f8d38cd89aa4044366646195a921aff399d935f6aac131856f5b3c5e5"
+    },
+    {
+      "bytes": 66612,
+      "path": "speech_windows/16842b635765b741481bc608.txt",
+      "sha256": "f9ba11ed34859b83ada7e2263bda50a914e866797eb8cbc937a738cdb2dfe361"
+    },
+    {
+      "bytes": 26461,
+      "path": "speech_windows/170d5bce7a53023a4cdf065f.txt",
+      "sha256": "876c1e46149bbe1a88b775f2a45c2aac3f25be7b1d5fed4da655ba7947e5fb51"
+    },
+    {
+      "bytes": 71281,
+      "path": "speech_windows/17451bafa81176b9a104be65.txt",
+      "sha256": "ffb23b75ba5b47d0ced46bc4c598ee5a2e8de60f8fe0910af895ceb5bb0ce36d"
+    },
+    {
+      "bytes": 30867,
+      "path": "speech_windows/176c080aa65f0f05d3127d72.txt",
+      "sha256": "3b00b8ee0bf5e2f85e4bc3f7b9bf83a3c9f026a734fc0db126b0a972460045e0"
+    },
+    {
+      "bytes": 22080,
+      "path": "speech_windows/18841cb8968ca4e9c50a1a24.txt",
+      "sha256": "fde5467a54fc19b63f57085215b00bfc34fe1b3923ae22a941c974c620ef8181"
+    },
+    {
+      "bytes": 74453,
+      "path": "speech_windows/18b8c90f4d4b17ba81ef0f10.txt",
+      "sha256": "6bbcccc2ebcfb393db1e77a49948f9a858f2fd5bc383ad47d6340d55e0132568"
+    },
+    {
+      "bytes": 37573,
+      "path": "speech_windows/1911c144a4589354556be7e4.txt",
+      "sha256": "0e15b0d19766532b16198f3c249128f0cb2fc9f2fd1966a3478d8ae3ec5bb929"
+    },
+    {
+      "bytes": 101764,
+      "path": "speech_windows/1af41c080240e98219cb75f2.txt",
+      "sha256": "1383e3b4ac7ca2244f4974790cd7965c0752b1e99092c3f483e10d459cb31122"
+    },
+    {
+      "bytes": 123216,
+      "path": "speech_windows/1b0c1be981403ec2aad7d4bf.txt",
+      "sha256": "88d38252597f74022f39c8b4d0e154ae72098ebb375841db3dacb28f721350e6"
+    },
+    {
+      "bytes": 30120,
+      "path": "speech_windows/1b5e5d14f6c3e18009c16fbe.txt",
+      "sha256": "5fe35fb6742d290f7140c55deb746de5a5e4540a78cd38941774bfb75d6d0129"
+    },
+    {
+      "bytes": 31606,
+      "path": "speech_windows/1b672f7a0dcb8e5fb4ef1298.txt",
+      "sha256": "355320cf612aee6e3f1f9c3c3c4986efaeb1fbd10ef578ad80d546faf8a01e76"
+    },
+    {
+      "bytes": 49803,
+      "path": "speech_windows/1b7179b6b5e1fbba73e46b42.txt",
+      "sha256": "52c45830434f617111e9c04c6fa2a51b9bb44369afc11a04d47a1046521b1a88"
+    },
+    {
+      "bytes": 73408,
+      "path": "speech_windows/1c221138dd7a19dec6ba7135.txt",
+      "sha256": "1a2ef840660dbb20844ddd69d665e531fefd30fbfdeedd6a6767961f10c36f06"
+    },
+    {
+      "bytes": 102409,
+      "path": "speech_windows/1db747b5c5fac53bfd07e2e0.txt",
+      "sha256": "99930249e938ed9fd22335ce1948ac4cf6cceaf8c0523faadf22ec832ad43a4d"
+    },
+    {
+      "bytes": 94324,
+      "path": "speech_windows/1efe3ebdac7bd060c6d6a307.txt",
+      "sha256": "33ab80b834908d7d525ed90518e8323fd7e58ad38ccbf662d77110bbe6165e2a"
+    },
+    {
+      "bytes": 124939,
+      "path": "speech_windows/1f1020cd00313d8b0c59d39b.txt",
+      "sha256": "b69655a5bf86ff6e6485b7d8c6b5f38a7cdf4c3e009c5ab28dd2df8c2ed65432"
+    },
+    {
+      "bytes": 109528,
+      "path": "speech_windows/1f7dce4d8174ab5f393363c0.txt",
+      "sha256": "263d76aab04eaf863d55c55048b1ac65914a478f6a41a08bf66843052e1d1867"
+    },
+    {
+      "bytes": 48732,
+      "path": "speech_windows/1ffc1019e598fcd86b0daab7.txt",
+      "sha256": "91b27e79b0aee800a0b4891243343a24c74a8717da4a6a2df7862ab79b789ccb"
+    },
+    {
+      "bytes": 21478,
+      "path": "speech_windows/2183b5f33c662a0c10440bed.txt",
+      "sha256": "8c05a3092d8f881b09dee1b138c14854d6f8fbac8976999fff913e3781b53d8a"
+    },
+    {
+      "bytes": 36882,
+      "path": "speech_windows/21c993eabae4ca63690dee8c.txt",
+      "sha256": "dee8efd1f8699e297311ae6fbacb484f075d8a3f20df79bffe42a4f5deb074c1"
+    },
+    {
+      "bytes": 27856,
+      "path": "speech_windows/22914aa3c9f16d44f572d219.txt",
+      "sha256": "41508c1c426eb03bc3b348502db954dee7c2df48a4c3e8fee3220d08f88a0036"
+    },
+    {
+      "bytes": 111990,
+      "path": "speech_windows/229d6ec7200cb2d96086a714.txt",
+      "sha256": "94986e82df42cd05438dcaa05d2e1538f6f4ce0f22c5dd1b69fa2170485f9540"
+    },
+    {
+      "bytes": 28044,
+      "path": "speech_windows/238e7c9ccd6bb111432c24b3.txt",
+      "sha256": "a00e43357497c8d35543f090a96673cc040f7cf050030cd45fb1e799f0e2a982"
+    },
+    {
+      "bytes": 106950,
+      "path": "speech_windows/263d11389f62c597c52c9d70.txt",
+      "sha256": "6e1946544129fc5f2196b69a6f49af6d26b63b5d964e224b4f3f4376ca928858"
+    },
+    {
+      "bytes": 37187,
+      "path": "speech_windows/2642609a9025e330a5ab8af8.txt",
+      "sha256": "b1f82041f5cee7295db33fca65ac5f647fdc1cbbb0d75e1aa91b645f05f12034"
+    },
+    {
+      "bytes": 46645,
+      "path": "speech_windows/267f7fea343c1bb7a3bb2578.txt",
+      "sha256": "ddbd173e389eee692970906ec427a0730feae6ceeac4fa79ef46d3445365bc67"
+    },
+    {
+      "bytes": 10371,
+      "path": "speech_windows/26fb28afd9613a46c7bafa1d.txt",
+      "sha256": "782d53c32e6f1d6337481091ce5f0dec509db973b37b5cacbd02f2043a742c46"
+    },
+    {
+      "bytes": 7302,
+      "path": "speech_windows/27b6ece178434fb16e44f4b4.txt",
+      "sha256": "d04b8792dd8358cdf8e45c711751aef0432ffb34c7d38802cd5fa787694aef56"
+    },
+    {
+      "bytes": 72897,
+      "path": "speech_windows/281ec332a6da498a9d7bee04.txt",
+      "sha256": "71e38ca78c17157be8af229bb010a00a5c70faba8393e66b349966b8e8076290"
+    },
+    {
+      "bytes": 28390,
+      "path": "speech_windows/284d473d71ec7ed8aec8ce9c.txt",
+      "sha256": "c81bfed6417a3825064b93442a5de2035e88601b8af0c24f6db01eedc517da78"
+    },
+    {
+      "bytes": 27864,
+      "path": "speech_windows/2870823f9b93cdbe1e22be8b.txt",
+      "sha256": "c044b2e33bf1d10a39d43f810897368ced84039d5495a2f359c5b181ae36f6b9"
+    },
+    {
+      "bytes": 6438,
+      "path": "speech_windows/28af34a882a4c19411623cd1.txt",
+      "sha256": "62399a3f91848029b15094bc98d913130cf7d13763baa188e6c5639777e3c97c"
+    },
+    {
+      "bytes": 49811,
+      "path": "speech_windows/29c6d2543359bb7d6dc51a03.txt",
+      "sha256": "70eb29c6312d53ee7f345897dea6c10d2c8890db15196cfb8f84594a2871f747"
+    },
+    {
+      "bytes": 54083,
+      "path": "speech_windows/2b70608a40119f5060797ae1.txt",
+      "sha256": "56ea919da75ac11c16b3caca62a300efdd456efe78e27a55c4eb901c9836f61d"
+    },
+    {
+      "bytes": 4665,
+      "path": "speech_windows/2ca7004122f9d82aff441ae9.txt",
+      "sha256": "64eed52b5694b27fa14e6a1f7cb0313bda02892f6527335f64f933d6b559c1d4"
+    },
+    {
+      "bytes": 38656,
+      "path": "speech_windows/2daad74e9ec96e7289d040f1.txt",
+      "sha256": "d4143dcd6d53295ac476c09c0457fdd2fb6328f29466bc5f3991368aa335cf89"
+    },
+    {
+      "bytes": 23686,
+      "path": "speech_windows/2dd94c9ddc61f4e8c092a81e.txt",
+      "sha256": "03803501abc60d140b917a3427f1df6b0b3454634d071c634a4212d889803296"
+    },
+    {
+      "bytes": 8403,
+      "path": "speech_windows/30193f4ef6b5554229e10431.txt",
+      "sha256": "b75c314bb9a35b4d46c558041634ef883e652937fff3ff0f443997f3289bb6a4"
+    },
+    {
+      "bytes": 47288,
+      "path": "speech_windows/30b22a3dbeeb725b6559f650.txt",
+      "sha256": "ca6085b85a4af9e0fe6d9c87c099f327fe636072557ba483543a9eb994dcf0f6"
+    },
+    {
+      "bytes": 18761,
+      "path": "speech_windows/30b40d1ac8b5bda190703a7c.txt",
+      "sha256": "3369ecec742cf92887563546a77128bd240933cd24fddfce3e781cffc2b8a609"
+    },
+    {
+      "bytes": 25185,
+      "path": "speech_windows/31d0213a210f7a0d3a05696c.txt",
+      "sha256": "ef286651a351a1a17b9c03d09c10e7f0e31375d7c2d92104b05c21adceeae851"
+    },
+    {
+      "bytes": 29066,
+      "path": "speech_windows/3205c4d5e5e8c4e662adbd75.txt",
+      "sha256": "0afdd2c0367328600aa0b32824a7863bfa4458d11c03a1808c7b1c3dbaa2b989"
+    },
+    {
+      "bytes": 49756,
+      "path": "speech_windows/320959972b33e06feb9169ba.txt",
+      "sha256": "56ce12b65bb79a90595bbc7398b187f177543cf2629d1e5528f7b959e8ed23ab"
+    },
+    {
+      "bytes": 90632,
+      "path": "speech_windows/323062468d725a1555d10e1d.txt",
+      "sha256": "ca6bdfd25442b52510049846f5089ee8d18d010e1a7addc38c2e45bc6c2b2dce"
+    },
+    {
+      "bytes": 67773,
+      "path": "speech_windows/33d5dfb6d4d002aea0bdecd7.txt",
+      "sha256": "4cfb5129b31529ed08cc2ffc3e3c7245c30a50a7739ee293cfb8012de72cb2c8"
+    },
+    {
+      "bytes": 73549,
+      "path": "speech_windows/3490abe52cfa249a60758646.txt",
+      "sha256": "8799fd3e2cd933bf07e274eeea7c81292b1edc2e05605d8f68ea82628237d3a7"
+    },
+    {
+      "bytes": 57897,
+      "path": "speech_windows/34cc92a61010363c74fcc072.txt",
+      "sha256": "f313aebf5b2662d3ed50d16af857f8fba25ac0bbafa9125c087dc18e907951b7"
+    },
+    {
+      "bytes": 43929,
+      "path": "speech_windows/351fd88ca6f22ae922bb6c99.txt",
+      "sha256": "77a367e10ff7e74ba63671c37587661e05d1f11ce8c4b00c2f9414055f42ae56"
+    },
+    {
+      "bytes": 45625,
+      "path": "speech_windows/35bb3cd56255685c89a21d17.txt",
+      "sha256": "07c189a99cea85112aadf69c2746dae701d35df196b6e2d22dca37f1711d0038"
+    },
+    {
+      "bytes": 29659,
+      "path": "speech_windows/36178dbd47b7140bd5ee00aa.txt",
+      "sha256": "eae5a9fa1999acf4f8fd8249fc8a098aac63acc7747d4a6e9fc1dbe15d417f9b"
+    },
+    {
+      "bytes": 35830,
+      "path": "speech_windows/37ff2cd7b0483e00c5cbd8c9.txt",
+      "sha256": "dffbc6a73cd9c02899373d71e5811351ddbc3028c8dc6d44949ccecc9dab8448"
+    },
+    {
+      "bytes": 23178,
+      "path": "speech_windows/38d9d1a1a19a5c18d29290ae.txt",
+      "sha256": "26ea6b73699fe84bd0842458ad7ae82d294b02722f873598c9bc4c0f2977d960"
+    },
+    {
+      "bytes": 40038,
+      "path": "speech_windows/39a9ce4bf17714743ade4783.txt",
+      "sha256": "d19f4d14cfdf62b8209caf1990cc1fe3f359db49e52d2b1ae21b3416eb57628d"
+    },
+    {
+      "bytes": 35000,
+      "path": "speech_windows/3a02995c34b2b662f8b7dd39.txt",
+      "sha256": "aec71ddac915a2bd41074f63ab6633a6856ff8735d527a0ce50e0fdaef6f8064"
+    },
+    {
+      "bytes": 68509,
+      "path": "speech_windows/3aa9e2ae82e2422a805ebee5.txt",
+      "sha256": "68dc83b8fa475188cd92cacb33e86e087c1322bc573515c163dddd332183bd50"
+    },
+    {
+      "bytes": 36010,
+      "path": "speech_windows/3ac7fb7863b478d9fbd4ca49.txt",
+      "sha256": "9737efcb41fff1ab07207a7fee54b0aa391abc327e0237ce8803207b74cf8912"
+    },
+    {
+      "bytes": 73417,
+      "path": "speech_windows/3b56b281342c1a97b10f3813.txt",
+      "sha256": "3f39398cdc245fd5929343727cbf56368215168bc9cd119c4985253f1d26a0d6"
+    },
+    {
+      "bytes": 80704,
+      "path": "speech_windows/3c13f3e8e72700ad071cb160.txt",
+      "sha256": "7ed47bdce92b09fdc339e7bf5412a9285f0b7870bdad145fe2a5605157961afa"
+    },
+    {
+      "bytes": 31541,
+      "path": "speech_windows/3cd8f32bea7afeb5b06b13b0.txt",
+      "sha256": "dbb1351c39a647b5f0a05b2e1cc737edb3f9ca76de1e68cbc76c3dadb9111d76"
+    },
+    {
+      "bytes": 21210,
+      "path": "speech_windows/3db17601cafa1f88024c9460.txt",
+      "sha256": "bb5dd20ed9fad3c98413b7f19fc302aca2d09c445598b96a18e826678689a128"
+    },
+    {
+      "bytes": 96213,
+      "path": "speech_windows/4100a1e38de9246a7445148a.txt",
+      "sha256": "9f3aa00a34670360845b45fd51c2669e44781ebfcff7e25bfdeb2218848bb914"
+    },
+    {
+      "bytes": 79035,
+      "path": "speech_windows/4166abf69a780dc8a5defdb9.txt",
+      "sha256": "028a2e2ba1103f61868c1af7fde90f47d519ecfde7f9a86d4e76b8741b2f4df8"
+    },
+    {
+      "bytes": 25057,
+      "path": "speech_windows/423bf572342f2a382e365c57.txt",
+      "sha256": "005e7066fdacbeee97e14df3bda36671c6936f96432d2c7c469dc7342bd90f45"
+    },
+    {
+      "bytes": 37173,
+      "path": "speech_windows/42de3850b1efde9fd715a017.txt",
+      "sha256": "275a6c4bccc685c0b0230484ed35e03c510c48dc49d806c7266efb81d30db828"
+    },
+    {
+      "bytes": 66697,
+      "path": "speech_windows/438ad51519b3253926473a02.txt",
+      "sha256": "674ca02d18ad90275b6cbc80dda82c654852f9e78f2142b9ca35e43e81a0f018"
+    },
+    {
+      "bytes": 12102,
+      "path": "speech_windows/43bb7e9bc82330ca254ed1ee.txt",
+      "sha256": "dfe690de759b6c6706a82e4a56d697f0a7517d45452968fab3bbad8219a9ee04"
+    },
+    {
+      "bytes": 4528,
+      "path": "speech_windows/454662ff4f303bad4192a309.txt",
+      "sha256": "96938232b0e5dda939285d3e1767bdcd995e645bc07f1d4fb383b08e6c6576b0"
+    },
+    {
+      "bytes": 12072,
+      "path": "speech_windows/46c4f010a585b986649dd3f8.txt",
+      "sha256": "090e1b20e526f9177d5c15b5ce5ed83e419d9e57990377226b45e849d3144636"
+    },
+    {
+      "bytes": 87183,
+      "path": "speech_windows/48dfaa35944d62e32d2094ee.txt",
+      "sha256": "82f4c721f6cff456ea268bce88738186b6cecbb35e426e7059dc47e3f3b2765f"
+    },
+    {
+      "bytes": 157481,
+      "path": "speech_windows/4a0a6c95700be2e7967d9782.txt",
+      "sha256": "dbf3a5e9b59a13c719fbc1f621a11d162110e6bed56119d50cd95021c37a106a"
+    },
+    {
+      "bytes": 54172,
+      "path": "speech_windows/4a271f7a08694ceff8112bf3.txt",
+      "sha256": "745062cfe39425eda10bc1cd627de90db55261d8ba22dc50d87a4058dc90f29e"
+    },
+    {
+      "bytes": 119526,
+      "path": "speech_windows/4a597782e81510a81506d5dd.txt",
+      "sha256": "4e5815538192e568e3887d3e465098e84d02dc0ddafec774d7914ab167ffde0f"
+    },
+    {
+      "bytes": 62933,
+      "path": "speech_windows/4a6da41c7c8ce64dbdba4e35.txt",
+      "sha256": "daead4ec23618e02d00c6acd0ca0bb3b02f5cbcb89b94c2b2818672a84797a95"
+    },
+    {
+      "bytes": 127118,
+      "path": "speech_windows/4a7c13ea73c5b6b77e56ed67.txt",
+      "sha256": "80de19fe715ca66d2dcf3d0873537b19f0457e61ec7655529e0b0a24747aba36"
+    },
+    {
+      "bytes": 63054,
+      "path": "speech_windows/4ad6a303142d433772afad88.txt",
+      "sha256": "6ea3c73a45cb5c67e051304a759d76b3f8b682de07fc5badf3117efebb94dfd3"
+    },
+    {
+      "bytes": 77039,
+      "path": "speech_windows/4b8cba715c2239c04dc44655.txt",
+      "sha256": "089cd844ac5ad2d1f3891fa43c59460aee96b3b48ae1e2af49f72a91fd57e2c4"
+    },
+    {
+      "bytes": 95527,
+      "path": "speech_windows/4f2f80b6705375d551f254e4.txt",
+      "sha256": "6149322e9fc79fa9a989fc3c2e652dac9ba5da1fdad0315da1a29028af249a46"
+    },
+    {
+      "bytes": 29431,
+      "path": "speech_windows/4f37a5316c96dbd7b9707d93.txt",
+      "sha256": "4c58228231d7543826ce229a1721b53724c1900e9051d8f642a5e93d1390b4ef"
+    },
+    {
+      "bytes": 58421,
+      "path": "speech_windows/4f556266f0599a7e72d0296e.txt",
+      "sha256": "cc2164d3736505619758a6f2b4014e1e763a66330d5e1f9019d717d9062f274d"
+    },
+    {
+      "bytes": 10133,
+      "path": "speech_windows/519e1fc69637974d841f9f2c.txt",
+      "sha256": "33e9f10ffe9c14f44052526a2124e91ba5e32ee9809c72099168736fceb9c029"
+    },
+    {
+      "bytes": 21648,
+      "path": "speech_windows/52dee6a695daa1022f79aa98.txt",
+      "sha256": "5f3a8b58b0fb538fd2a3a8c4ef8c1a058700d8597f90a4d680e42b5c43baa122"
+    },
+    {
+      "bytes": 62439,
+      "path": "speech_windows/54125184c75525a295f4c6ac.txt",
+      "sha256": "45ffa50f1040fd4d0e89f1fb1a3558a3f4e5bfacae8ab246f452556be7688080"
+    },
+    {
+      "bytes": 132823,
+      "path": "speech_windows/544e52ca8f72ab1d794c513a.txt",
+      "sha256": "6f2e435f9fa56b46de3d30c85d0048925dcd5e247d9dd8a5d9b9267554f8234c"
+    },
+    {
+      "bytes": 11779,
+      "path": "speech_windows/55b581e3fa1b5c4761865c0b.txt",
+      "sha256": "73fc18f2f1e71b5197bcc0f80e25e4d8160909235d6c189694fedb3fdaff653c"
+    },
+    {
+      "bytes": 32672,
+      "path": "speech_windows/560feb903073e127bf157565.txt",
+      "sha256": "064ca46f59b4aff26384ce5102a286852c6e5f4f86f6292cfd9ea0aa204d08fb"
+    },
+    {
+      "bytes": 14627,
+      "path": "speech_windows/575ebf98c92793617cf6c65d.txt",
+      "sha256": "a5e0c5e53d04df6622be330d0742553ecb24e402e13a785de87127ceb173c67a"
+    },
+    {
+      "bytes": 77564,
+      "path": "speech_windows/57dc40386ceecceaaad8921d.txt",
+      "sha256": "c54731773b748f15a40120828a0999e282b81bac02c54e27e82e954556b09d5d"
+    },
+    {
+      "bytes": 88678,
+      "path": "speech_windows/57e929120a4e7caeb821e536.txt",
+      "sha256": "b435e726c9f4d3e098884d2de0f78136f9abccc3f0e1b63be8cd9171c9ba0d1c"
+    },
+    {
+      "bytes": 24802,
+      "path": "speech_windows/57ede53568cad837587c8538.txt",
+      "sha256": "d3992778d74c8eb3a7159993ea6b435da30262680e064aea89bde4cb3291ed54"
+    },
+    {
+      "bytes": 159468,
+      "path": "speech_windows/583811203fc2618e1773475f.txt",
+      "sha256": "26f1346c5dc0a81ec042dc180aa3e23dc9d485783fa0fb39d921db4ddc84c6c1"
+    },
+    {
+      "bytes": 157133,
+      "path": "speech_windows/584d24d4888d79ae24bf7ee4.txt",
+      "sha256": "547c9724be78c7952c5879c072c34f0abb4266e9290aab3892078129b251dbe7"
+    },
+    {
+      "bytes": 96924,
+      "path": "speech_windows/58c63a37a44c284d14413824.txt",
+      "sha256": "19c771da36b336a7afea9664e00e887ea1b17b4549468500aa87303663df1b26"
+    },
+    {
+      "bytes": 67404,
+      "path": "speech_windows/599c138b4e9eae803dbadd38.txt",
+      "sha256": "75d02e826429521a4ba79f03955afc8975372b9b7a63cc2a14bc7d31a2def01c"
+    },
+    {
+      "bytes": 20948,
+      "path": "speech_windows/5a5f126cb3775226c54a07c0.txt",
+      "sha256": "94fcd536e51e4cbfe65b11902fac48f9bfe767c8da8556225af73bc0f50798e7"
+    },
+    {
+      "bytes": 76961,
+      "path": "speech_windows/5a9500b51dee3221c22e847e.txt",
+      "sha256": "7bbfb474ec98d1ba3ec8956e26ae0a21597f1239fd4bd34288e82b192b97f46f"
+    },
+    {
+      "bytes": 68762,
+      "path": "speech_windows/5ab3793b006b1e51a80b392e.txt",
+      "sha256": "272376ee3293a2ede8474ae040edb145f1fb68f2daee547817dbeb70cf3a2899"
+    },
+    {
+      "bytes": 74202,
+      "path": "speech_windows/5ad4fa20d27340e5a47a382a.txt",
+      "sha256": "2ba6b425535305e2ecf35f3b4a8c72c305802964e5c616d0d210999c61f1989a"
+    },
+    {
+      "bytes": 38203,
+      "path": "speech_windows/5b16a48fa299975cbbfef795.txt",
+      "sha256": "4deee33d56de16cfe86f874a283146625c2964fb5912771df48aef1abe39f5c8"
+    },
+    {
+      "bytes": 17244,
+      "path": "speech_windows/5b38bc5e858218826c534338.txt",
+      "sha256": "90294e8be234e3e810b1a57c45f629ac8c6bd9ff65fb9cf97884f9dde15c2a0a"
+    },
+    {
+      "bytes": 129627,
+      "path": "speech_windows/5ce17e10052b771a639acd0c.txt",
+      "sha256": "0d492e86bffc399fc3421bf6c05321a1d9c236a96203fb987fb73e246d65b619"
+    },
+    {
+      "bytes": 28388,
+      "path": "speech_windows/5d76efccc6fe19ec4cc48e66.txt",
+      "sha256": "eb471821d20bc0bee3be078d901830dc1598f41dc07d824021f39af901b5e5ff"
+    },
+    {
+      "bytes": 58483,
+      "path": "speech_windows/5d81638eb028bbdd0892047d.txt",
+      "sha256": "73e97c698c3a9506e17b80e5ce8482323c4b63755aaff2e0c59f65db3da09b90"
+    },
+    {
+      "bytes": 22357,
+      "path": "speech_windows/5d9b82e033b23f6eb7ab5b75.txt",
+      "sha256": "906f219b75357002ab75fc015c03b82c173d0764e274f3a6d12541ae1aa1c3b5"
+    },
+    {
+      "bytes": 18450,
+      "path": "speech_windows/5ddaeaf5cee7423e1029980b.txt",
+      "sha256": "b6ca31307f8c1e4bb550f3ea5caf1228aa3bbd5c36998f230f0b49e253942cd1"
+    },
+    {
+      "bytes": 35258,
+      "path": "speech_windows/5f3637afc5fba2157c2a1fd2.txt",
+      "sha256": "7fec540667c37dbf9643295804db402c945c1fa48099801489219220b6458c74"
+    },
+    {
+      "bytes": 148288,
+      "path": "speech_windows/5fb783629b3947816c525f60.txt",
+      "sha256": "80c6496625e4496a19e8cb4a0f3fdff1de3a4ffe8288daf82aef2811c7025bea"
+    },
+    {
+      "bytes": 126910,
+      "path": "speech_windows/60ae3604383cb76947306252.txt",
+      "sha256": "4328364a00e9f4d943cb07471a96f52e677a77aae52d64cc681906e953ff342a"
+    },
+    {
+      "bytes": 131484,
+      "path": "speech_windows/60c412bc04499a1aee378f90.txt",
+      "sha256": "11ba92feb53212bb8716a59158f6788b7852e086b53d9b089e33a2379b310bae"
+    },
+    {
+      "bytes": 15933,
+      "path": "speech_windows/626818d460cb119bdc276605.txt",
+      "sha256": "ab53e8cddac3308d9c8a08ba26b6e59932f21adb5380e4536cc3cb8e5390a7ef"
+    },
+    {
+      "bytes": 12052,
+      "path": "speech_windows/62adacfe3a75998c6d55f32f.txt",
+      "sha256": "f08fe593dc4933bd26ee3661463f6fa142c197c911aaa20672dc45bd44b49180"
+    },
+    {
+      "bytes": 41371,
+      "path": "speech_windows/62b05c838775283a1d1a7161.txt",
+      "sha256": "f464e65e1434b9a447b35dd40c9f6a30feb4b357bf05b2a4c3e7bfdee686b778"
+    },
+    {
+      "bytes": 45591,
+      "path": "speech_windows/62c9f4f45e1485fbc78c1fea.txt",
+      "sha256": "a6ddb503351652d5c759ffd6d37fc3d24f91d701a26627a100a6a82faa8302ef"
+    },
+    {
+      "bytes": 72258,
+      "path": "speech_windows/6302e896507208c6ec6c210d.txt",
+      "sha256": "5f30a83f328fd0ef767b028378c3a3812a9891cddf67fa8d805634e68650186c"
+    },
+    {
+      "bytes": 64968,
+      "path": "speech_windows/6313e0f3769149ea1311f3e4.txt",
+      "sha256": "e00394234d3f2e7ee808e1630ce8f2908c66c5de5171aa4a1148b4a828014729"
+    },
+    {
+      "bytes": 41248,
+      "path": "speech_windows/643f489dbeb1d57958469768.txt",
+      "sha256": "068d1ded2f43f03ad5f4b7f645ae65adb4c06932d7060499161c1c6737ea26c0"
+    },
+    {
+      "bytes": 27018,
+      "path": "speech_windows/655484686e031b86f64007c3.txt",
+      "sha256": "f441d082a53efc2b97e2eee5002843288a9961a2a2daffc4f8a0757638f39aa7"
+    },
+    {
+      "bytes": 82349,
+      "path": "speech_windows/6559909ffc4ea2f3e8391fc8.txt",
+      "sha256": "abab0c881c76897d488e02e4f00d86243503081166e700ddcdc4f8844521fd0b"
+    },
+    {
+      "bytes": 6109,
+      "path": "speech_windows/65f671d77ab3a8d1ed4d8f16.txt",
+      "sha256": "3a29ac1dba1155da93f2db947065b7e231099f8d690cb3351c19029392a84a26"
+    },
+    {
+      "bytes": 53193,
+      "path": "speech_windows/6623f63d061ea0d06f8a798a.txt",
+      "sha256": "d4d8d98335ff2ca4d55a355a5d41f1005250941449a20c6a479e62470a79a098"
+    },
+    {
+      "bytes": 60594,
+      "path": "speech_windows/6748e9206e9d52732b8f4d3e.txt",
+      "sha256": "2623b3c58c3782f737f6be23407ff0751e71be54c305b0e9413cbb6448f09755"
+    },
+    {
+      "bytes": 26442,
+      "path": "speech_windows/67e97050e4f18dd9e59aa9b9.txt",
+      "sha256": "e693761cfdf79d1ebc87640959b51894e95d4c7455e4f6263100420e3fc9f671"
+    },
+    {
+      "bytes": 95080,
+      "path": "speech_windows/6a37e3304498ddb544794d0f.txt",
+      "sha256": "095bba326a27f0187e524313f1e8a59fa2e28ec1e981545c38b5e916f9b97bb3"
+    },
+    {
+      "bytes": 79786,
+      "path": "speech_windows/6ac3f42b19c15d139618454b.txt",
+      "sha256": "61c55f2a993c252b69a8cf118decd6b9fe0013934fc75d35feafa24f0c5d86ed"
+    },
+    {
+      "bytes": 22976,
+      "path": "speech_windows/6b81d730d517a1fabd37f86f.txt",
+      "sha256": "1ea8154b8f5d067692cf59deaf4565004c9d10be7d16f064075168c2a19e3981"
+    },
+    {
+      "bytes": 76220,
+      "path": "speech_windows/6bf0c7e1dbce488395f191a3.txt",
+      "sha256": "56f314b69218ce980259ca4eff0f8667dd297d11371bf5b021b56e3d6d5a4a8d"
+    },
+    {
+      "bytes": 35727,
+      "path": "speech_windows/6df003c53add93d7137da5ab.txt",
+      "sha256": "0ac242c34f931951fa2c15530308bc94b589183244fe9fb441c9e1e54b540bc3"
+    },
+    {
+      "bytes": 41508,
+      "path": "speech_windows/707f687a695f4261c7753815.txt",
+      "sha256": "aae45dfe204bdb94fcba8d4ae32c772f2bf9fb4008027aee4a00da3ab9595f61"
+    },
+    {
+      "bytes": 14198,
+      "path": "speech_windows/710c405e00dbd43bd466d9b8.txt",
+      "sha256": "7e6ee0a71f41430d476f41b5e0d05aa9db1240832e342ef9255801665cbf1804"
+    },
+    {
+      "bytes": 20524,
+      "path": "speech_windows/714b767aa595416158be9a38.txt",
+      "sha256": "de28953bfbfbccc008d32d7437e82cc94bba4ec0c0802ede80ed8d43c6253fef"
+    },
+    {
+      "bytes": 37726,
+      "path": "speech_windows/72e2aeb19b9adaad29bf5955.txt",
+      "sha256": "7dabbc8d4e2f9514b36ec298af3448541182efe3cdbc58cc86cdd66331022861"
+    },
+    {
+      "bytes": 29568,
+      "path": "speech_windows/73bd15e9c82695295b8b9384.txt",
+      "sha256": "be20ace8d37e17deba838773c6e2e64f4550095195ea46292bc2e7d816550e05"
+    },
+    {
+      "bytes": 17087,
+      "path": "speech_windows/73fdb0057a5f5fc4ad23efe3.txt",
+      "sha256": "4a9af3e275ef6a751077894c1a161948aeecc2879b29dea863f21aecc2e06f81"
+    },
+    {
+      "bytes": 24737,
+      "path": "speech_windows/755e5dc4472997ed33b68a46.txt",
+      "sha256": "4057ae31bbd40e2cc248dda10dd2ef75a1b3c697cb83ff95da0b852fc20c0ab6"
+    },
+    {
+      "bytes": 57230,
+      "path": "speech_windows/7731b4fef977c09214c91cb6.txt",
+      "sha256": "42ee4a1ff1a59a0209f97794658024e33652ab9a0fba4f7fb5ee440cf4410005"
+    },
+    {
+      "bytes": 25667,
+      "path": "speech_windows/77b3b82ad316d9f77e4592cc.txt",
+      "sha256": "8ee68143dff79d06c47a8b65b364467f890c58b85b690a98ebfec20779ddd5cb"
+    },
+    {
+      "bytes": 56079,
+      "path": "speech_windows/77d2424535758d5167676411.txt",
+      "sha256": "863829da7d41730215dd2fba59e9ce08837955cb9071229a1f70ed8b7750fd11"
+    },
+    {
+      "bytes": 97907,
+      "path": "speech_windows/7829cd9d16307e63a44202c9.txt",
+      "sha256": "7f17638b4caf2cd75c3d231186cc2706ad3acc84c66dd2ac935e57303e271700"
+    },
+    {
+      "bytes": 26652,
+      "path": "speech_windows/783980d4dde846a843f261ac.txt",
+      "sha256": "196cd180425dad5fa4b46a5e9f126a962f3a165b14c5553688710693e8d64b13"
+    },
+    {
+      "bytes": 111508,
+      "path": "speech_windows/787d6710c2d9431b3f264976.txt",
+      "sha256": "6c02da38e1757908a5112f3e08b247d93672679c73329210b30a0e71af8effbd"
+    },
+    {
+      "bytes": 30446,
+      "path": "speech_windows/78bced52756aae59f0c60a68.txt",
+      "sha256": "b3b994513b6d93062b97be7f4c30d4617fced31a4c7a811649f48e987f244513"
+    },
+    {
+      "bytes": 52842,
+      "path": "speech_windows/794e201d9fba9142a861ecee.txt",
+      "sha256": "e1e6618c25ec6c93a3691b57583b4387d83e2acf1391730b0cb346437632bd07"
+    },
+    {
+      "bytes": 50798,
+      "path": "speech_windows/7a5ec4d22e2a06725690008d.txt",
+      "sha256": "c88a26a01fadc267648b21f65c71ca1abd6c7e65ee2ba622e676f6555bb791f8"
+    },
+    {
+      "bytes": 45767,
+      "path": "speech_windows/7a643bba8fd91d1ba88f6f7f.txt",
+      "sha256": "5bfce2322849cf90a03d7362221b414aaac2b56290a4c7cd7e0cc7641a6c2d39"
+    },
+    {
+      "bytes": 20794,
+      "path": "speech_windows/7aa9b8934339459f44614dcc.txt",
+      "sha256": "da82893e3de33c8d2e6bf78147af65952033ea9f5fb0ce144c9a3dc8326a4a0c"
+    },
+    {
+      "bytes": 22858,
+      "path": "speech_windows/7b53256b6f5abc6e3d9ed32d.txt",
+      "sha256": "3e3cce9c084b5a68369a39c4752a45bf699dc306b97747856fc2755945d7d541"
+    },
+    {
+      "bytes": 42048,
+      "path": "speech_windows/7d223ad57e9906cb9d32f0cf.txt",
+      "sha256": "7dbffae2c84769e19330113f5eb3a6fb31d6779630e2cd4a6dbc7ad4079f6f9e"
+    },
+    {
+      "bytes": 23005,
+      "path": "speech_windows/7d2aa5392b179ff5c07e7cd7.txt",
+      "sha256": "ccfabecf846b974117cf7b3db728fc6544665a0d48cac75b1139586553b8a421"
+    },
+    {
+      "bytes": 65637,
+      "path": "speech_windows/7da91867d3d1ac8cc516417a.txt",
+      "sha256": "0fed35cd5d5493003ee8d367ff2fbadd108f73ed61ab5af092adda332f1c44f6"
+    },
+    {
+      "bytes": 53965,
+      "path": "speech_windows/7dd36c83b26cb8b908fe78f2.txt",
+      "sha256": "2dca4d1b7cf6d31b607a55c38340983126327253e6419f5ac0cbeb0f71188e22"
+    },
+    {
+      "bytes": 28100,
+      "path": "speech_windows/7e9b3ea89c7429dca1a0d41a.txt",
+      "sha256": "47a30d11ae17a285f85f84daa10210bdd04eabd5786a250ba4c85ca1502e857c"
+    },
+    {
+      "bytes": 52597,
+      "path": "speech_windows/7fda224c1eb0f5f7b439c9fe.txt",
+      "sha256": "62b25d2d2c657e21bbd2dad28a429dfbede5aa7ece849a509a4f99ab6b805687"
+    },
+    {
+      "bytes": 50183,
+      "path": "speech_windows/80bc264c318e18a7758bc79e.txt",
+      "sha256": "2c1fcb4807904214b38ff80a6080ba7b04861b9eac5ca2f856619295239567a8"
+    },
+    {
+      "bytes": 77839,
+      "path": "speech_windows/81ad308bb9a4f1a5ef5f0a98.txt",
+      "sha256": "8a3209568db434d6ed8a367511195eee5e2cb9b8c44530eaaf20b6e370a8ca2f"
+    },
+    {
+      "bytes": 129317,
+      "path": "speech_windows/820f32757093a5d59ffed6ce.txt",
+      "sha256": "9e264192184b6c7daa29d762ad2a1ffb6d8f1aa281b5a59f582022748422081a"
+    },
+    {
+      "bytes": 13691,
+      "path": "speech_windows/82af8ccec86fc1133a73c655.txt",
+      "sha256": "4e3b6e481dd63e77a13132e2abc75cdb2a101ee7233cd6cf2654955f40b6f600"
+    },
+    {
+      "bytes": 6473,
+      "path": "speech_windows/85e00a59dd796a55b16e6028.txt",
+      "sha256": "3c79a9568cd70aa5c916a3ac3346232562e2a446bdede03c86057c64a6bec443"
+    },
+    {
+      "bytes": 41799,
+      "path": "speech_windows/85f38a9a560de155538cbb4c.txt",
+      "sha256": "0bee947333f66325abd2e3f08366555ab3465d6811494228a644957d13cf38b5"
+    },
+    {
+      "bytes": 41792,
+      "path": "speech_windows/85fdc586d9a629d7fbddf27b.txt",
+      "sha256": "593cf454ae893b13d6f416c9a751ca896249e3c5bbfda6222bef979562e17949"
+    },
+    {
+      "bytes": 46605,
+      "path": "speech_windows/863d692ccaa089f4ea71e001.txt",
+      "sha256": "f887746db29110008945b56597bbaa09c0de67b1b10a925b61068df569b61e17"
+    },
+    {
+      "bytes": 46744,
+      "path": "speech_windows/86985a23a1832ceb2804706e.txt",
+      "sha256": "3b3114bab1229658072f378b435bbf88760dfd95b60a2405707d3c7666f1380c"
+    },
+    {
+      "bytes": 49002,
+      "path": "speech_windows/86c0eeb096deca738bee8dd2.txt",
+      "sha256": "435aed2fd9213b41fcfe7240a78b1aea48e73544deb9a7e4fa55a549a66c0a85"
+    },
+    {
+      "bytes": 62649,
+      "path": "speech_windows/872fa416dd491a4e71a22af0.txt",
+      "sha256": "7018f6a47dfa6567c11a4156e0c5b18bdc2bce33dbaab6cb712cc782cfebf605"
+    },
+    {
+      "bytes": 53807,
+      "path": "speech_windows/87d33783c879255ba9f5213f.txt",
+      "sha256": "63f0cfb57d696459e9711d93d80f647d185416b24109ebfb666db9e826988f26"
+    },
+    {
+      "bytes": 40056,
+      "path": "speech_windows/898168db3cc1e95d632d9483.txt",
+      "sha256": "79eecdcb48aded3b42ae8497fdb6e2b41a9386d2f5e69a59284271a5306a6ed2"
+    },
+    {
+      "bytes": 12346,
+      "path": "speech_windows/8a9a8a279dad557fca90a62f.txt",
+      "sha256": "252068e9449bc84240561f276b9249d0490b47b5ced2a42e28a12ed8e1efb9b5"
+    },
+    {
+      "bytes": 41477,
+      "path": "speech_windows/8b83d40c5f1a1312a9f6eae2.txt",
+      "sha256": "4e3764baeee447f060fcf3308110e42426f482a464eca112e31a45c4c2b4ae21"
+    },
+    {
+      "bytes": 43143,
+      "path": "speech_windows/8bf8f1fd923c9bb12f0b822d.txt",
+      "sha256": "defddb6038812f79d24efef38f305bf67fb4adb62a156192e761692621399251"
+    },
+    {
+      "bytes": 113739,
+      "path": "speech_windows/8bfe3ea8de5b6c0ce2f2fc22.txt",
+      "sha256": "c18cb2dd0d941d78ba579ffc1e08d00a60532f73738b38006729dafc3b8266bc"
+    },
+    {
+      "bytes": 22391,
+      "path": "speech_windows/8c07208fe6a9d4a286364d9c.txt",
+      "sha256": "f758deec7fbf28a03a69f14b67bafc181c1741595ea6b76bf01233b4e0fb5b7b"
+    },
+    {
+      "bytes": 118492,
+      "path": "speech_windows/8ccf6b0b5592300b8611e0d4.txt",
+      "sha256": "d7207dbba80124f8b7cb423f3f6623d4aad4e9f4a05ee99320e89d9e01552696"
+    },
+    {
+      "bytes": 38784,
+      "path": "speech_windows/8d092cb00d7a11b7196285df.txt",
+      "sha256": "3ed75a5729e7fb33facaf137c883590390fdf672e3adb7afb055107566ff7d28"
+    },
+    {
+      "bytes": 74203,
+      "path": "speech_windows/8d6f14d2e4e55febc23753ed.txt",
+      "sha256": "fe086e533675b4f15ef082381a1804060eb75a5e53fde71ba24b0a6b02f8b365"
+    },
+    {
+      "bytes": 5158,
+      "path": "speech_windows/8dd1414a3da39b93c7c4061d.txt",
+      "sha256": "6999021bacbf690fc13b4fb584e211d0bce589a77e14f5a07e75428d33d1f02a"
+    },
+    {
+      "bytes": 116298,
+      "path": "speech_windows/8dfd8fcb8ade1310d6fc88ec.txt",
+      "sha256": "460551aff63070947d099315b47e667a1cd161b63fe200352b5d9f6297b60ec6"
+    },
+    {
+      "bytes": 26593,
+      "path": "speech_windows/8e74ba3ab0ed397469e2317f.txt",
+      "sha256": "8f531da7c763e544da2489ce30b57e09896f7c0dd01c4dcc75484fe8a2253139"
+    },
+    {
+      "bytes": 41439,
+      "path": "speech_windows/8f5f9fc8f5aebe467dea93d2.txt",
+      "sha256": "4271749092130d7c1028a0a624f390d8e6bb641264e59872fe74aad2bf3c0b09"
+    },
+    {
+      "bytes": 49863,
+      "path": "speech_windows/8fb50c14466e1f46a7207fd9.txt",
+      "sha256": "94ff0c989dda0f46d1d900952b44afcbabe77b117846ffab198f4249000b6145"
+    },
+    {
+      "bytes": 45801,
+      "path": "speech_windows/9085d6b6e0412f0b5ad3d580.txt",
+      "sha256": "0423fbfbf751bd840dc1f8d3d942723d647191e1757e8f7a5e720da7695fb6a7"
+    },
+    {
+      "bytes": 8930,
+      "path": "speech_windows/90ab6ddaaafb5ed20550cf2b.txt",
+      "sha256": "dace78b40a0de32d98a1ac601642bd8ed2a07550cb684c5b16eadfc50c37b4db"
+    },
+    {
+      "bytes": 21424,
+      "path": "speech_windows/915c4c91374a4e83d64d2bde.txt",
+      "sha256": "6663cc6fc73a83c408303b3a52288ba04e80cf56dc610188e3b1cbd53d9efe45"
+    },
+    {
+      "bytes": 12067,
+      "path": "speech_windows/9422b6313796d010ad1fea51.txt",
+      "sha256": "1e33968807ef1bcd4a8362860be4673e93bbc633cf4764d6bcce59e2e59bd7b7"
+    },
+    {
+      "bytes": 40633,
+      "path": "speech_windows/954a45798a714d880e20475c.txt",
+      "sha256": "3e8308f0938f0c46dfea7c1c5cb275766edef1260143570b77b6d31da3d06500"
+    },
+    {
+      "bytes": 45017,
+      "path": "speech_windows/9839c3f4ad00783262628415.txt",
+      "sha256": "3cd594060ebd0b67925190667ebe21f03efe7b47966e955eac28f342d278f459"
+    },
+    {
+      "bytes": 8567,
+      "path": "speech_windows/984b597d6732f25389a76fb2.txt",
+      "sha256": "4a23122a089c1a7527049e8fb3860217528559b8bb2352881c6a9f9e7cd49e82"
+    },
+    {
+      "bytes": 34162,
+      "path": "speech_windows/9891ab1a2de7cad98a65621b.txt",
+      "sha256": "e51abdf63c3ad80e30dff7d6f7a7c6df741b0d486b0a60dd730a4819fa04f0ff"
+    },
+    {
+      "bytes": 93330,
+      "path": "speech_windows/98c2b55a867c79a578a8014e.txt",
+      "sha256": "b9548a9f6b5caaa7654b230e3ac6507d10d1b4ccb4cc0200bdfa55bdf30359a9"
+    },
+    {
+      "bytes": 53977,
+      "path": "speech_windows/99e2f7c7f50d2cb19abaec27.txt",
+      "sha256": "7e48bb71f82e0cfa083b6489660e65dfcdf472b419e3f1893e41a6a61a007df4"
+    },
+    {
+      "bytes": 74263,
+      "path": "speech_windows/9b09c2fba8616b1289549907.txt",
+      "sha256": "2c3251bc9d29330146bd86e5768384fbee7cd3c5c0c50ad9b28c451090dda67e"
+    },
+    {
+      "bytes": 99503,
+      "path": "speech_windows/9b59620763619e18768c517b.txt",
+      "sha256": "711147757f0a156a13b37eb287ff4d81ceb7c14c742807c7f89c529d1ca27dcb"
+    },
+    {
+      "bytes": 42866,
+      "path": "speech_windows/9c40419474e5be201ec3916f.txt",
+      "sha256": "918b49a4b455586e0d00280327878d90e45dff047af3ecbecc169678b677d78a"
+    },
+    {
+      "bytes": 63395,
+      "path": "speech_windows/9c5c993ac6f6bc70db419849.txt",
+      "sha256": "62d4e1afd00c2b24cdc41f3799196b2a93359008c717dec3763835c3294e3fdd"
+    },
+    {
+      "bytes": 19880,
+      "path": "speech_windows/9d5dac4804dc20999b2ab25e.txt",
+      "sha256": "d7ae3dd6e609d414b6aa89968995e807a5d3ea1b2d3a9509ada50883f862fda7"
+    },
+    {
+      "bytes": 31636,
+      "path": "speech_windows/9e83d5492bb48281efe589cd.txt",
+      "sha256": "9ce22bec4e26e652a35ade8eb8581aab303bf7c4c10a7e0ebfee1b59d1685dd0"
+    },
+    {
+      "bytes": 35830,
+      "path": "speech_windows/9e9615b32972e37bf782dbf2.txt",
+      "sha256": "642fcf3ee270548e70ada2d97dc29e55c05e38a2fef0ecded703af7f519ec197"
+    },
+    {
+      "bytes": 23620,
+      "path": "speech_windows/a194fb8b90e27275df66ab14.txt",
+      "sha256": "2dea4812a1128a971840f97a528002b6b7669e15ebd3798f94290987b88b7846"
+    },
+    {
+      "bytes": 113464,
+      "path": "speech_windows/a1b68b4c051eb12d98c6d7a7.txt",
+      "sha256": "f91ecdc975f5b58a1ff52e944faf45ba143ecb701befb2367f96d648e662105d"
+    },
+    {
+      "bytes": 42489,
+      "path": "speech_windows/a1c0428f9394edb355aef280.txt",
+      "sha256": "c8c9fe44ee9cbb1cf1b649536c0ee10591ed31b61ef01ad991889e73abe8ce4b"
+    },
+    {
+      "bytes": 106044,
+      "path": "speech_windows/a1fbbc7aba11af1bb7497f95.txt",
+      "sha256": "f9d732dc3c983fcadb7966c31882fff21878eeb7be39e82ddce9cddcabf02d1b"
+    },
+    {
+      "bytes": 141021,
+      "path": "speech_windows/a20c328aa4c792f20d311728.txt",
+      "sha256": "6695784044157fe974a76dbccb7137f401f6a60c9af96f711d014e24ebbc1935"
+    },
+    {
+      "bytes": 125951,
+      "path": "speech_windows/a24445e28153b4785e138a7e.txt",
+      "sha256": "cd135d4a25f4a7dfa6ab88f1a6ad723756b9818e9b475c972691a2c54eeadacb"
+    },
+    {
+      "bytes": 67095,
+      "path": "speech_windows/a2e5ea4eca3f4984f3f388a3.txt",
+      "sha256": "204d119a76d884374895e5a5363c6f8c949f54b544c76e18798c9e0a9504daf7"
+    },
+    {
+      "bytes": 48016,
+      "path": "speech_windows/a2f2b0ee38d126125b251082.txt",
+      "sha256": "154db41ada56b6630db2e4e4602215a769ae41c55c9865eaf0639c42298ae306"
+    },
+    {
+      "bytes": 62479,
+      "path": "speech_windows/a319447fe897084b402a723a.txt",
+      "sha256": "80f789fd4a3ff69b36867235ea2b5c98467a18b8c6f7e48d2409ce88cb3af10e"
+    },
+    {
+      "bytes": 51660,
+      "path": "speech_windows/a33ba3f5558ac64755733e0b.txt",
+      "sha256": "6965553d6d27a9d2ecbb4055846ed6d96e166ceb9ac4d5efb829ac2257de5366"
+    },
+    {
+      "bytes": 32155,
+      "path": "speech_windows/a5ab08d91667f4a22bbf7cab.txt",
+      "sha256": "1f74efd0db7094d374319f469ef8adfc6dc25496f56a6829484af4b790d49aa1"
+    },
+    {
+      "bytes": 27599,
+      "path": "speech_windows/a6e76d403795177aba1bfbf7.txt",
+      "sha256": "387a89667b5379e7857b5da21e5aa792230ad82ca57d827bbf875d11256d0147"
+    },
+    {
+      "bytes": 69115,
+      "path": "speech_windows/a728c4c744b67198f5918a75.txt",
+      "sha256": "3bf2e3c53e468422ac715ee2ef6056444fbca9dce5f84bd135d633ec31485514"
+    },
+    {
+      "bytes": 29318,
+      "path": "speech_windows/a7ed587fc70bd85d71da07e7.txt",
+      "sha256": "69b2c41379d0ec0e735e8d1e5b9837986c2e467f8c40a5fab23a0b3e790aa324"
+    },
+    {
+      "bytes": 61877,
+      "path": "speech_windows/a83396db75347743646249d4.txt",
+      "sha256": "b0fd49b6db493349d6f2a1c372e238627023995329b1d26c9f93cb48f0addd5c"
+    },
+    {
+      "bytes": 46291,
+      "path": "speech_windows/aaae61c12c26a04d49e50eec.txt",
+      "sha256": "6f5da0de71ad5f628bacd77966f582eb17c73efa297197db09f3c2606d0b099a"
+    },
+    {
+      "bytes": 87213,
+      "path": "speech_windows/ab9e5ad59bbeb68fb1906b46.txt",
+      "sha256": "ca3d51e3dda8e9de1f00554e52392599fcfe38c207db513852da3103485857bd"
+    },
+    {
+      "bytes": 25989,
+      "path": "speech_windows/abde67eba0df2ff655c4a6a3.txt",
+      "sha256": "e421d0fcdacbae3ecaabf7d052c06e0173c6e56590a8905661d8853b5f1dd81c"
+    },
+    {
+      "bytes": 72843,
+      "path": "speech_windows/ace8f77b54405d4dffd254d3.txt",
+      "sha256": "093e5a9985fba3159840fe62ff52048576c54a3295572ca21bae265da60113b4"
+    },
+    {
+      "bytes": 2205,
+      "path": "speech_windows/ad83af3d269534b8dc55b2b3.txt",
+      "sha256": "26a215c1223ce609274d9c1812418bd16a15974aed421f262ff70ead5bcd6911"
+    },
+    {
+      "bytes": 3292,
+      "path": "speech_windows/ae0fc67faae962ba61a70c60.txt",
+      "sha256": "15cbea48f6cc6d80eb38ab9671342aaaf841c3517557b50be54243b36e602b89"
+    },
+    {
+      "bytes": 29594,
+      "path": "speech_windows/ae28cb347b3114167005e559.txt",
+      "sha256": "81fee1c398982f8d9927214785dda2c06106f4a2c4064325de893de32901b0d2"
+    },
+    {
+      "bytes": 116546,
+      "path": "speech_windows/aeac4cd1f6d55c5d0dcaccb5.txt",
+      "sha256": "892423c34754498428d90c51fc5c8568712e4e1d30f928809194599f956474a0"
+    },
+    {
+      "bytes": 49854,
+      "path": "speech_windows/aed4768bed452b47fbea4d09.txt",
+      "sha256": "e1390ad816e7808680e411b807150910cbb2cd83405029a7a30314671b644cab"
+    },
+    {
+      "bytes": 55644,
+      "path": "speech_windows/af2b595b929e11d14a516c60.txt",
+      "sha256": "3bc8b9f3ed7f4d49a7051548196e0c8ed153e3dcd3306160e20e8c9144c9004f"
+    },
+    {
+      "bytes": 4150,
+      "path": "speech_windows/af3d504b7bb00a226f6def9b.txt",
+      "sha256": "0448159c93b1d5e04907272255cfb41fa35c8be39daeab488c2fd49de50fcedf"
+    },
+    {
+      "bytes": 50479,
+      "path": "speech_windows/afa7439b096b2a41b19c2b82.txt",
+      "sha256": "ab6c9484d659e222f7ec6e413a5e66d6270f938b6095aae08313a6bcf34818dd"
+    },
+    {
+      "bytes": 137729,
+      "path": "speech_windows/b126f8bb9194c7d461599cdc.txt",
+      "sha256": "145aa1aee3aa03e62234b56e795785d7d9bf07d64814337921d03850f148a5e8"
+    },
+    {
+      "bytes": 124557,
+      "path": "speech_windows/b3a9fce860039b75c70b0c6e.txt",
+      "sha256": "fd4407dd4526607d739e17aae3fe4335da6534d74792e3c49afb869d99d8f911"
+    },
+    {
+      "bytes": 3426,
+      "path": "speech_windows/b3b0bb270cf194c05611ebfe.txt",
+      "sha256": "86c07d1b8bb88a81d6aa23041f4eb094e3e11c9b48548c642b00f312686d922a"
+    },
+    {
+      "bytes": 46926,
+      "path": "speech_windows/b3d2928af79f1fb4978945c8.txt",
+      "sha256": "f6b7ffef575332396f12b79b14441ff9222089f38894680878ac385b7f5768cb"
+    },
+    {
+      "bytes": 147166,
+      "path": "speech_windows/b3e18e59bd7211abdb847306.txt",
+      "sha256": "bd1c70da531110894085fc314968a22924f8e989e9b2e9f35010b996c56cf949"
+    },
+    {
+      "bytes": 44669,
+      "path": "speech_windows/b3eaf45fc2a74cfb163c80f1.txt",
+      "sha256": "a9f3bda5beb08c3a0644d98537955765812eaa54942ede614846d2000f8c83d3"
+    },
+    {
+      "bytes": 42339,
+      "path": "speech_windows/b47cffc7baca6bb24460c443.txt",
+      "sha256": "4d6712bd45d457f4b7e4a38c4efb212f76278e2295840a41d7ad726b97eb38be"
+    },
+    {
+      "bytes": 91129,
+      "path": "speech_windows/b73276bffccea97720e59da5.txt",
+      "sha256": "defd409d7e561cf6606104d314538922247c40397ea47c3233d06dc7dc7b965e"
+    },
+    {
+      "bytes": 30025,
+      "path": "speech_windows/b7538ab2ec673e1f2ae4cd79.txt",
+      "sha256": "9477b07a21a8be845803ad8e4ede090344c5954d54c451ddf46b7dea1deedf8d"
+    },
+    {
+      "bytes": 42976,
+      "path": "speech_windows/b7e8002a6f6988fec30f8de1.txt",
+      "sha256": "e77189d3ff5efd3aad2f00a86781cf8f3a29b3efa613bb27eb4c7d3b86863175"
+    },
+    {
+      "bytes": 5837,
+      "path": "speech_windows/b86b31957e697dc5af5c545d.txt",
+      "sha256": "bdec3a79a4c2f64ba2f0bb93736de23a8df3aa3a46ae7b026fe635da4f6dc3f0"
+    },
+    {
+      "bytes": 84516,
+      "path": "speech_windows/b98eb02ee18b4fd4b202229d.txt",
+      "sha256": "14c1b643947f005a0ae4b70296a94ef396b33c9494aaaed59bee27abdcb01a7a"
+    },
+    {
+      "bytes": 80598,
+      "path": "speech_windows/ba20bad331b1b14741513aec.txt",
+      "sha256": "04eece121f67986bba62fe16db7f640822a15efeedd3eb0e1fe6ba59342f283b"
+    },
+    {
+      "bytes": 74568,
+      "path": "speech_windows/bc3cd8f7fa8f9c892a04cf79.txt",
+      "sha256": "0baa359c7422dc366a18eb73cd2f0a124bf1b23e815fe11de90332dc3876fc89"
+    },
+    {
+      "bytes": 127998,
+      "path": "speech_windows/bf38a578c91d79dc2e0f5b29.txt",
+      "sha256": "bddcca3598ab8d512ae679068cd050f0927fd59e0ad380d1f1464105a6720a55"
+    },
+    {
+      "bytes": 10998,
+      "path": "speech_windows/c0d3364c3e84fa0567cbcc3a.txt",
+      "sha256": "15f55911e29ef1c2fab788b43c9153880e07c99e24ebd2b3d43f3faeb2d96354"
+    },
+    {
+      "bytes": 59597,
+      "path": "speech_windows/c1cd09debb8a3a378d51a248.txt",
+      "sha256": "8add5f5921515597842523dccce72fbd77a589b2b4bc0b5a1e1b68f0407ec34f"
+    },
+    {
+      "bytes": 64034,
+      "path": "speech_windows/c274ffcf90f745f9e05d1991.txt",
+      "sha256": "908ee74f514dc1a01bbc37f11e81f5ded33a3fb06fa0c385e4d2a5a314c1428a"
+    },
+    {
+      "bytes": 52508,
+      "path": "speech_windows/c2aa83e4e1b6d4906f070665.txt",
+      "sha256": "2859fbc5ddaac2d72acef728af1a2fc0f68a588028d0410ad361e61cd2d07546"
+    },
+    {
+      "bytes": 51695,
+      "path": "speech_windows/c34e258222d7607cc6dcc9a4.txt",
+      "sha256": "4274749486bd31522e0c648d52fc5d664c686f60aba8bf4df78cb29fdf00ec03"
+    },
+    {
+      "bytes": 74062,
+      "path": "speech_windows/c3b8d11014bba020707bea32.txt",
+      "sha256": "81eedf838aceb537ab72853dc7deb430d761f3d035951a5e49fa62446ddb175d"
+    },
+    {
+      "bytes": 79301,
+      "path": "speech_windows/c483edaff8c418cb8d2e9e7d.txt",
+      "sha256": "91007a9a7c8c46754f4c8009eccf849a31129559bdb8f4e35652562261f1d8e5"
+    },
+    {
+      "bytes": 85010,
+      "path": "speech_windows/c4e3e4b1c2504e5d5d49578a.txt",
+      "sha256": "b61b1878739b0e5887dd17064b40204edd0db206d1ad8342ed95fdc38be74149"
+    },
+    {
+      "bytes": 92212,
+      "path": "speech_windows/c4e6c0fdfc49d99f7e3867e2.txt",
+      "sha256": "1dc2382747afafb906a9813bea51183e8bedf69b8c281bc2ca01bcee3ec6d588"
+    },
+    {
+      "bytes": 48255,
+      "path": "speech_windows/c52afbef0d07cf8c26d759a9.txt",
+      "sha256": "86b66c4d59c837ce7b1a2fc8d8f8540e04afa45eecf1de9ec59b449b9c7d441f"
+    },
+    {
+      "bytes": 142275,
+      "path": "speech_windows/c58bff9e1b9b4686ad274e17.txt",
+      "sha256": "7f312a726dbac252ec11fd0655301912441ea35177967fa2d6727252b68c7993"
+    },
+    {
+      "bytes": 39080,
+      "path": "speech_windows/c64137bff35bff5dabc55bba.txt",
+      "sha256": "5a87707dfbf2bf3adda09a5294531797385bffa02e00131abb6561ff81e112e6"
+    },
+    {
+      "bytes": 38724,
+      "path": "speech_windows/c6bb4fa488824958120a85d8.txt",
+      "sha256": "ed68e4139c047e40d4c87b6db86f179b5a1325c2e9a3c8474fbcbef5e0c51622"
+    },
+    {
+      "bytes": 29272,
+      "path": "speech_windows/c6e3af75559fe367d229b7b4.txt",
+      "sha256": "1d0694375c4d19a0740c8811227928df296da1483ab299e7e6f55e0868f71f32"
+    },
+    {
+      "bytes": 140423,
+      "path": "speech_windows/c753923368187c6bc3ec325d.txt",
+      "sha256": "f8203476f5bec7c67236946e8a0c98f181d958270e066d20abff3698dfde5c6a"
+    },
+    {
+      "bytes": 7190,
+      "path": "speech_windows/c78198705ab9a9941398d04d.txt",
+      "sha256": "553dc148adde6f40943312661aebeea8a472e745b7b24c79fe6f57b09ebdaf99"
+    },
+    {
+      "bytes": 55850,
+      "path": "speech_windows/c8717008504a0d4cfa56fab0.txt",
+      "sha256": "698bdb0f9084e8d36c08ddef0debb5e0c7848b43972ea83e7502d3b4d8edbcfb"
+    },
+    {
+      "bytes": 120794,
+      "path": "speech_windows/c8c065c1d25824703dbf2297.txt",
+      "sha256": "3fc410b314e676028e7c39799844568bacb9608e82862ea9e77bb9062c7546e9"
+    },
+    {
+      "bytes": 32965,
+      "path": "speech_windows/c9765c4a6dc56a6f8157061a.txt",
+      "sha256": "73deec677db7bbd73eade468475b888ad0ce3988c0f8a8d8f0a1e6c07a7a121f"
+    },
+    {
+      "bytes": 154464,
+      "path": "speech_windows/c98d4567e6b0e1670c1e1f65.txt",
+      "sha256": "0bb7aacc3498eb4f2430bc445e2f517a9a62fb90e729a35bd3873040bc11c06b"
+    },
+    {
+      "bytes": 25596,
+      "path": "speech_windows/ca1f3976ef7c389fb5096b00.txt",
+      "sha256": "ea590d751009fb05329749bfb84a6b3dae5ca576722d002fdee3f22dd261bcfd"
+    },
+    {
+      "bytes": 44450,
+      "path": "speech_windows/ca9b245309c2563a00b15be3.txt",
+      "sha256": "3148f1a8a9aaa0f0d7d30558d43a48aa4d7f105355ddf8402b1100aa88e9742e"
+    },
+    {
+      "bytes": 49342,
+      "path": "speech_windows/cb0ef4223df6067e9e33d7cd.txt",
+      "sha256": "95be0a1e1906aa524da43f4194e4844fe245a0a927f638327e809934c4c06adc"
+    },
+    {
+      "bytes": 57538,
+      "path": "speech_windows/cc168fd41477ac0ceb75ae26.txt",
+      "sha256": "dad86a8bba4b3a3c7bbad810b95d644534a89a1033d0fd319b0745da7f1610b6"
+    },
+    {
+      "bytes": 77583,
+      "path": "speech_windows/ccc239eb128acec1bff5e0dc.txt",
+      "sha256": "390d8b8d37dbaaa86c42dd8d2c016a40e7026e5ff2c559b202347b8f2d9aa127"
+    },
+    {
+      "bytes": 65790,
+      "path": "speech_windows/cd47a139c29caab7890f67a2.txt",
+      "sha256": "63f56463406c8fea76f4a93629da168b592b47a05a47161ebb9147c835e30570"
+    },
+    {
+      "bytes": 124401,
+      "path": "speech_windows/ce079f9e311cc2fc0d4a9fd0.txt",
+      "sha256": "4b17a5e28ca5eab0642eaca490ca625cce610c8848bb72edfa39fadaee30f66f"
+    },
+    {
+      "bytes": 50072,
+      "path": "speech_windows/ce0d1472938939c5fd36b08b.txt",
+      "sha256": "e07adc5f9d4ce50dca03146a1153b0e53d5bffc50ad539b0b27259499c9ccb2c"
+    },
+    {
+      "bytes": 78597,
+      "path": "speech_windows/ce1c1e12c75b3db73b0ea041.txt",
+      "sha256": "a7cad8ffb27bb70dbb0638d7b98dc57c108efc4020750dc2e8510b1e3855329e"
+    },
+    {
+      "bytes": 36815,
+      "path": "speech_windows/ce7c425e2b5d0664a725f323.txt",
+      "sha256": "e1d7baefe99113b3f4575ccd9390ddeb4c101d2cb47ef316abeb6fdd1d8ee94f"
+    },
+    {
+      "bytes": 21184,
+      "path": "speech_windows/cf1eea2083c400b628453410.txt",
+      "sha256": "8f7f4f4684c681fc39b35c714ba54d532bd3b7a6311cdbada0808dac0220819d"
+    },
+    {
+      "bytes": 51255,
+      "path": "speech_windows/cf6af470766e519ed5f74f98.txt",
+      "sha256": "8ee7b623ab1b68681fab3b959c3ae5d6b59a16ce11e82c14e606e785ab3ae5c2"
+    },
+    {
+      "bytes": 82467,
+      "path": "speech_windows/cf7691048c79259f8eb214e2.txt",
+      "sha256": "46fcc56214cf9e2107e5c764c19c21386216cdfaf42b90001dcd83be5e3405b5"
+    },
+    {
+      "bytes": 22905,
+      "path": "speech_windows/cff35ba4ba5b24c41e863ebb.txt",
+      "sha256": "201c7880a2627dde344d94d15ac81d2b63672d41536e1bfbbf2b5985c6e878f2"
+    },
+    {
+      "bytes": 35779,
+      "path": "speech_windows/d026ce37d6f0129e6cb42719.txt",
+      "sha256": "aea926363ed9714bc7aaf3ee7c6a6052c46f5a5318a00faa21645a0c8d3a495d"
+    },
+    {
+      "bytes": 43808,
+      "path": "speech_windows/d0dbf3f5fdcd3e8d652262b4.txt",
+      "sha256": "12b1bde6708a7175b01abc15e3e12f9719dde262af1aa7dd81c7c40892c57d19"
+    },
+    {
+      "bytes": 36122,
+      "path": "speech_windows/d1b20abb2095f84fe0210c78.txt",
+      "sha256": "10e96b8ad64b20a2b52bd8507ec34208d39ef55fd11bd6f862bb73e371d100d1"
+    },
+    {
+      "bytes": 54540,
+      "path": "speech_windows/d23966489ea330d628cf0722.txt",
+      "sha256": "8eb46f368a017948b61f023a848d7ef4ba85f79d2379ab473c8adcc1362a6f90"
+    },
+    {
+      "bytes": 5052,
+      "path": "speech_windows/d259d57bcbbc8bc5f547f4f9.txt",
+      "sha256": "3beaa411aa0778714b9cd6d46a909cf079072abe9d2f3bfb31aab626649c7c70"
+    },
+    {
+      "bytes": 73534,
+      "path": "speech_windows/d2d584af72b7a339bbaf621b.txt",
+      "sha256": "030a47450964336102567d6dd502276adaee6befb8837f96b2d3f6addbf9c249"
+    },
+    {
+      "bytes": 5439,
+      "path": "speech_windows/d33862e51f730b6f872d2f51.txt",
+      "sha256": "0b42a8bd9128518fe55efdb3eafc2b29129a25246e9f3ae0d72dcd62fdeaf2fc"
+    },
+    {
+      "bytes": 28009,
+      "path": "speech_windows/d39923a0438d4c6b925a948a.txt",
+      "sha256": "59c3436cec0534b1e9a19a486499e4be5af59ca548690349a46db1ca86f2e80f"
+    },
+    {
+      "bytes": 11859,
+      "path": "speech_windows/d406a5e076b990d00939f7a2.txt",
+      "sha256": "891530f166584e57b7b2d76c1f26c9b2906a290400ad71415a9019b7f66cdcbf"
+    },
+    {
+      "bytes": 69065,
+      "path": "speech_windows/d5221d2762c274f7d3d502f4.txt",
+      "sha256": "a392a58fa506c2f28266176f1dd40eed84afd80be6f1cdacde5c162683da28c5"
+    },
+    {
+      "bytes": 70593,
+      "path": "speech_windows/d96de06e30cb7c80ab0801a0.txt",
+      "sha256": "fb5ac260c98b94352134e6da2d3a8beef8568669bc23683a0b1e097ff4d8a505"
+    },
+    {
+      "bytes": 40676,
+      "path": "speech_windows/d99d552ebb41d2adb4fcc888.txt",
+      "sha256": "21969561f79baaa38544e23502876295e7c7dc314715d1d40217a96e5e0f1b8a"
+    },
+    {
+      "bytes": 74518,
+      "path": "speech_windows/d9d6d74ec46f0d9d81f10570.txt",
+      "sha256": "e9ead22b12abdcd0a56d5ddcbc6e2721f350ea0566dbe299794473eaccb3ccad"
+    },
+    {
+      "bytes": 7044,
+      "path": "speech_windows/da1ec7b38e983a54d97dbaa9.txt",
+      "sha256": "67c0319ce004b818f826a00b81dbd3bc1020b58008d4edccd7c9d816393bf941"
+    },
+    {
+      "bytes": 54591,
+      "path": "speech_windows/dab0d5450ad9516dbc86a18c.txt",
+      "sha256": "59e2340a5cc33ba4692553cbf27c0dfa9c95fad9f4da8f774026ebda6d0131f6"
+    },
+    {
+      "bytes": 54895,
+      "path": "speech_windows/dae1cac37d0feddabf8c533c.txt",
+      "sha256": "0c4b8a5dfb67f7c12d2e386b05b8027cd8d6a3c82014456d58b85519b143e598"
+    },
+    {
+      "bytes": 62110,
+      "path": "speech_windows/db9f0befdcd38f925ceefafc.txt",
+      "sha256": "46818f52cda61c899b933624fb18ca7e7bfb97d748584dd0fb2181129620c96c"
+    },
+    {
+      "bytes": 46243,
+      "path": "speech_windows/dbf7c3c932382471e663ed11.txt",
+      "sha256": "7dbf028336e3c12ddd1e79e5f4ee849f362cc63ec14ec3bd6fc69c78bb64f5dc"
+    },
+    {
+      "bytes": 94667,
+      "path": "speech_windows/dc64530ba2305a7174240860.txt",
+      "sha256": "daab5f585f454407757241cfabdcadb3c3b19c947c39095bba4952094fda2ee7"
+    },
+    {
+      "bytes": 8335,
+      "path": "speech_windows/dcb15c1f7f9cf593de0cbb01.txt",
+      "sha256": "6bed82bf9ed521f12adbb49ae1ff629005c307deb41b7754d1b9a18f2b9bb3ae"
+    },
+    {
+      "bytes": 125171,
+      "path": "speech_windows/dd6e389650ff94dc6a25b4b9.txt",
+      "sha256": "0a21c949d4c30055ebcac9b6dc89944a21fe4ca1adb3a05892eef27ed83d9cbb"
+    },
+    {
+      "bytes": 35753,
+      "path": "speech_windows/dd70e4ea64d1ec92b213cc4a.txt",
+      "sha256": "5daa8e2e6cedc95179f2173f0fa36cbd361d19de6a232e11397b0248718e52d8"
+    },
+    {
+      "bytes": 53505,
+      "path": "speech_windows/dd90897e49ac36df36c97a1b.txt",
+      "sha256": "dd6f924ad41e7f00b8c4c8c095c0aaf01110f9b7d21c5ab5c2d0465f3d4e8824"
+    },
+    {
+      "bytes": 39487,
+      "path": "speech_windows/dde0eb5a5e90187fac637b5a.txt",
+      "sha256": "c491acdaa82e3a148cfdcda2465317cf6a889df5b07be67aaf2cddf53dd9b56a"
+    },
+    {
+      "bytes": 26980,
+      "path": "speech_windows/de0eaaa8f91687c0bd887295.txt",
+      "sha256": "669f7734e9e3e441d604683ed0c04994bab7491743136f6d769e1640786eefe8"
+    },
+    {
+      "bytes": 48432,
+      "path": "speech_windows/dfd408ee1e19435f42dc7739.txt",
+      "sha256": "d53cd6dbdf6d914e6263a78357b1d57a01bfa99800e9881a70b650e912809af5"
+    },
+    {
+      "bytes": 54624,
+      "path": "speech_windows/e293cb65e0c38ad24f1facb8.txt",
+      "sha256": "658829e243037367b8a270c171f191f4a92872fcafbed975fee2c9738fcae4ef"
+    },
+    {
+      "bytes": 11664,
+      "path": "speech_windows/e36bcaa7f271d35079a2c51c.txt",
+      "sha256": "5bf16076d784980952e7d434addd847fa9cee88faebfcb66a770c82b061eef49"
+    },
+    {
+      "bytes": 93338,
+      "path": "speech_windows/e41e4a23c4304f4975393e0a.txt",
+      "sha256": "80fccaa97d2f4819df496288f418591e791880e7f5e3cc53d223ea5488a241a6"
+    },
+    {
+      "bytes": 93343,
+      "path": "speech_windows/e43c4b5838765afcf048da5a.txt",
+      "sha256": "c3e6ccba7235346e26022dab8687b32c18619ef47157a249d82c40e24c33883b"
+    },
+    {
+      "bytes": 24728,
+      "path": "speech_windows/e4c736c5835248454731948a.txt",
+      "sha256": "234cb2ed5c9d9a107ccb8f7bed8260987b9f993b9a63e415267f7c60a24607cf"
+    },
+    {
+      "bytes": 41924,
+      "path": "speech_windows/e4e691b0cadc855781e0e3ea.txt",
+      "sha256": "71ca23d24fe6e6404ba71a305ab6e822eba962a6be4eadaf55d22799ad374326"
+    },
+    {
+      "bytes": 85174,
+      "path": "speech_windows/e712097a411838e83865b335.txt",
+      "sha256": "7400a61dac49d4bc6fa135c0c69f9da4b87ce6268373a28e1e71096ad7b97cee"
+    },
+    {
+      "bytes": 25231,
+      "path": "speech_windows/e769668b65845d61fbd346a8.txt",
+      "sha256": "6e0f664bb927b7450c5dc767706c2dbcb7e3f6dfccae2339bcc2dad390d7720b"
+    },
+    {
+      "bytes": 6773,
+      "path": "speech_windows/e83ed6ccba7faa38eb8db805.txt",
+      "sha256": "37c673ba55716fd1d554116d26946b958e61c225cc8e6793a35111da09d4fcf0"
+    },
+    {
+      "bytes": 130434,
+      "path": "speech_windows/e873f411b7d06bd6868ffc47.txt",
+      "sha256": "96bc2e65a233b89aa927e966d2014532066aa9b7f76a6f4e3846a76307d05aea"
+    },
+    {
+      "bytes": 126951,
+      "path": "speech_windows/e8d6fdff8c90b3c896716ca7.txt",
+      "sha256": "fd790f2ffe62a76c02bfb60a1696624292c71ae16c3ec50f63a9a45c4238e382"
+    },
+    {
+      "bytes": 76494,
+      "path": "speech_windows/e9552fb543e6ef1e3f4ea0ee.txt",
+      "sha256": "fca7689ad5f93cc36d746b81834db2f449844544eca4edec101655a3a3637235"
+    },
+    {
+      "bytes": 2484,
+      "path": "speech_windows/ea2b8f2dc69f1b8214e8a0c6.txt",
+      "sha256": "957d72a23c5e888f25d608e9fe5b545501a9c37d24fb19cf92015a4066563d6e"
+    },
+    {
+      "bytes": 15461,
+      "path": "speech_windows/ea3b4bbf70a955b4df39c258.txt",
+      "sha256": "6c81ecd55ba7589d7339821444a790b3a61dd4fb64d6d28ccc9312be06be3ebb"
+    },
+    {
+      "bytes": 49943,
+      "path": "speech_windows/ea792aaed57719d7143a27d1.txt",
+      "sha256": "7f44356a956ba05d0d8680bbb56fc61a9ffbdfa69ca7d857776164576153b419"
+    },
+    {
+      "bytes": 21380,
+      "path": "speech_windows/eb1fbbc334276d9ede2bfd4d.txt",
+      "sha256": "d632189303d1392ff66891171d9ae72bba36e9ea9d6c84cad7df01adea8801ab"
+    },
+    {
+      "bytes": 45836,
+      "path": "speech_windows/eb4d00281e0d0203d044484d.txt",
+      "sha256": "83b4a7575200e3b7b1581c9aad0e23988f420ec8d72c99f48cb9e96e4777c427"
+    },
+    {
+      "bytes": 33282,
+      "path": "speech_windows/ec2fa28a0e2df94cfa78193d.txt",
+      "sha256": "d64a39eb50b41b449c24d95078657838b5e2dbb232f7273ad20a2ecc7948f6cf"
+    },
+    {
+      "bytes": 82616,
+      "path": "speech_windows/ecd33081894cfdd71c4b8c29.txt",
+      "sha256": "63398c61a94629e9451f040b2a173f64a079cbb0c150a6ca8853507deb368589"
+    },
+    {
+      "bytes": 51429,
+      "path": "speech_windows/ee3431947e273d78a6ca650c.txt",
+      "sha256": "3cb97f48d2b2e1e268847a06fb09ef89964aad4bb25a4bc65af00ea1567e0ea0"
+    },
+    {
+      "bytes": 9339,
+      "path": "speech_windows/ef5462ac1cb70d33376a8b14.txt",
+      "sha256": "d68b5fff8b17d3e9da67e264abc8427be92c8a8f540d8ecf5b4092c307142755"
+    },
+    {
+      "bytes": 142393,
+      "path": "speech_windows/efe8bd73b4c5ad9a74f8ab15.txt",
+      "sha256": "60e5fa4c7200d06d19807dc95a9db058ca676de53e3fb7cc6d67452d45e7dd99"
+    },
+    {
+      "bytes": 14088,
+      "path": "speech_windows/f0d3e805e30a21b7c4c7cffd.txt",
+      "sha256": "b3e26bb25686a9d2912dba48ef4c4a85890d76a9d883b4cf2c84c4ed96e8a42e"
+    },
+    {
+      "bytes": 17080,
+      "path": "speech_windows/f13ee8dda97e48f5ffe9c095.txt",
+      "sha256": "b2dfe941bdf9bb4f82ef5a0ed465eeb4532b9944fc02b6956bd6d1d7bcfb8747"
+    },
+    {
+      "bytes": 105323,
+      "path": "speech_windows/f31d48340ab9dbfc3275da69.txt",
+      "sha256": "babbb8abc830ffb70dded70b7fd7d126193098fec815a0d8d3f668fa69e01aae"
+    },
+    {
+      "bytes": 137242,
+      "path": "speech_windows/f4a22c44bfb3fc404c3d702a.txt",
+      "sha256": "2367b2be7c12b3d97d603d55e16829a81eafef97f15200961f9e7b3753c2d425"
+    },
+    {
+      "bytes": 112931,
+      "path": "speech_windows/f578b413ca711901cbb8d642.txt",
+      "sha256": "7df5628545499eb0a20ef5e62e89b5cef373c20576ca9456e149eea9ee65074f"
+    },
+    {
+      "bytes": 68510,
+      "path": "speech_windows/f644acabde3bcdd11dd6baca.txt",
+      "sha256": "82a3619ff8fca9beb090c6c67bc53137999bc88121af8355c7608067ee0e2686"
+    },
+    {
+      "bytes": 26368,
+      "path": "speech_windows/f6f0aa9907df79de57437781.txt",
+      "sha256": "828c64ea336bedeb4f040ea959d19dc847cd18bd11777da50e8d2d5377b0ae43"
+    },
+    {
+      "bytes": 19511,
+      "path": "speech_windows/f773e6ba212a50a9a2637300.txt",
+      "sha256": "5058b2e9a0ff833bb068365633ca430c30ff6007154f8b48fe9b5aeb6ea0417b"
+    },
+    {
+      "bytes": 69419,
+      "path": "speech_windows/fb0d4e138fd078ee895da606.txt",
+      "sha256": "26205218ec03947aa9e561b65af9d1485cbc4ef5933f219fb5759931e24468d2"
+    },
+    {
+      "bytes": 112233,
+      "path": "speech_windows/fb68b3b2f46aa1a0d56e3877.txt",
+      "sha256": "8eba66434756cf65446343599a3cc8b2f099c5904a89bf53f76f044454dbc789"
+    },
+    {
+      "bytes": 51175,
+      "path": "speech_windows/fbb1733a319483ca3c09cb02.txt",
+      "sha256": "609b33634fa24b031a57df0b2b5d84348c1cd4215f5abbd28b5cef067a365dbd"
+    },
+    {
+      "bytes": 22976,
+      "path": "speech_windows/fddf06569474a85327c64036.txt",
+      "sha256": "45f55214a7ecf08e637bb5824683acd217c39a3105a14a2b11110006b5c9e5df"
+    },
+    {
+      "bytes": 13587,
+      "path": "speech_windows/fe364518729fe54707571f24.txt",
+      "sha256": "14dc2de20f7abf87401680728c22c78262ee394f0d903525aab81d4fb5246111"
+    },
+    {
+      "bytes": 23770,
+      "path": "speech_windows/fe7a7b47214372762dbbefed.txt",
+      "sha256": "ceccaec14ed1c3e91c779f801f71fe12a2790d8a4b3f3e05f87307c2b43eb680"
+    },
+    {
+      "bytes": 52860,
+      "path": "speech_windows/ffc2606b8409f5295870df10.txt",
+      "sha256": "4c7cab559cc583a5e29c75bdf1e86dc398a89f4f34d8dfd4033460baed7d4cd7"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "root_label": "features",
+  "schema_version": "research-provenance/v1",
+  "source": {
+    "label": "Point-in-time model features",
+    "notes": "Point-in-time model features",
+    "retrieved_at_utc": "2026-09-05T05:45:55Z",
+    "url": "https://github.com/nickchen494949/qqq-dashboard"
+  },
+  "total_bytes": 21473154
+}

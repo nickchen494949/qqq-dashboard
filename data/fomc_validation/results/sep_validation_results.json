@@ -1,0 +1,126 @@
+{
+  "b2_market_baseline": "NOT_RUN_NO_FROZEN_SOURCE",
+  "created_at_utc": "2026-09-05T05:41:15Z",
+  "final_holdout_b6_minus_b5_mae_bootstrap_mean_bp": 16.34014940445729,
+  "final_holdout_b6_minus_b5_mae_ci95_bp": [
+    -1.1517763706109676,
+    44.990151621333354
+  ],
+  "final_holdout_by_year": {
+    "2019": {
+      "B5_MAE_BP": 24.239416455502806,
+      "B6_MAE_BP": 27.38682799261243
+    },
+    "2020": {
+      "B5_MAE_BP": 132.04020177209523,
+      "B6_MAE_BP": 165.34799413102073
+    }
+  },
+  "gates": {
+    "b6_beats_b5_in_2019": false,
+    "b6_beats_b5_in_2020": false,
+    "b6_direction_not_lower": false,
+    "b6_mae_lt_b5": false,
+    "ci95_entirely_below_zero": false,
+    "final_text_coverage_at_least_70pct": true
+  },
+  "metrics": {
+    "FINAL_HOLDOUT": {
+      "B0_PREVIOUS_DOT": {
+        "direction_balanced_accuracy": 0.3333333333333333,
+        "mae_bp": 40.66496163682864,
+        "n": 391,
+        "relative_balanced_accuracy": 0.6787762009624011,
+        "rmse_bp": 72.69475121506332
+      },
+      "B1_PREVIOUS_MEDIAN": {
+        "direction_balanced_accuracy": 0.5034800270819227,
+        "mae_bp": 43.28644501278772,
+        "n": 391,
+        "relative_balanced_accuracy": 0.3333333333333333,
+        "rmse_bp": 70.97016771772738
+      },
+      "B3_MACRO": {
+        "direction_balanced_accuracy": 0.5138975400586775,
+        "mae_bp": 377.5293434853444,
+        "n": 391,
+        "relative_balanced_accuracy": 0.3333333333333333,
+        "rmse_bp": 797.6148987157915
+      },
+      "B4_MEMBER": {
+        "direction_balanced_accuracy": 0.5836334913112164,
+        "mae_bp": 106.26137874145608,
+        "n": 391,
+        "relative_balanced_accuracy": 0.4921978223635919,
+        "rmse_bp": 130.33821019128888
+      },
+      "B5_MACRO_PREVIOUS": {
+        "direction_balanced_accuracy": 0.5280252764612954,
+        "mae_bp": 71.10932311489083,
+        "n": 391,
+        "relative_balanced_accuracy": 0.5635225511785337,
+        "rmse_bp": 134.77049992516393
+      },
+      "B6_PLUS_SPEECH": {
+        "direction_balanced_accuracy": 0.36482058226134056,
+        "mae_bp": 87.3699437049638,
+        "n": 391,
+        "relative_balanced_accuracy": 0.5273305603131881,
+        "rmse_bp": 171.5403067458827
+      }
+    },
+    "VALIDATION": {
+      "B0_PREVIOUS_DOT": {
+        "direction_balanced_accuracy": 0.3333333333333333,
+        "mae_bp": 14.179586563307494,
+        "n": 387,
+        "relative_balanced_accuracy": 0.7201150217573997,
+        "rmse_bp": 23.07687131445861
+      },
+      "B1_PREVIOUS_MEDIAN": {
+        "direction_balanced_accuracy": 0.5382476031756938,
+        "mae_bp": 31.02390180878553,
+        "n": 387,
+        "relative_balanced_accuracy": 0.3333333333333333,
+        "rmse_bp": 47.404151561559644
+      },
+      "B3_MACRO": {
+        "direction_balanced_accuracy": 0.4219370958500708,
+        "mae_bp": 52.71694169671914,
+        "n": 387,
+        "relative_balanced_accuracy": 0.3333333333333333,
+        "rmse_bp": 63.292093140789945
+      },
+      "B4_MEMBER": {
+        "direction_balanced_accuracy": 0.3677752011912108,
+        "mae_bp": 105.5894630406967,
+        "n": 387,
+        "relative_balanced_accuracy": 0.320440117109097,
+        "rmse_bp": 118.23789059776344
+      },
+      "B5_MACRO_PREVIOUS": {
+        "direction_balanced_accuracy": 0.42999693036724024,
+        "mae_bp": 16.919980210612803,
+        "n": 387,
+        "relative_balanced_accuracy": 0.6222868674406957,
+        "rmse_bp": 22.315009084446242
+      },
+      "B6_PLUS_SPEECH": {
+        "direction_balanced_accuracy": 0.41007751400506814,
+        "mae_bp": 21.29848460578055,
+        "n": 387,
+        "relative_balanced_accuracy": 0.6013156470246455,
+        "rmse_bp": 27.426382244252142
+      }
+    }
+  },
+  "partition_integrity": {
+    "development": "TOUCHED_AS_PLANNED",
+    "final_holdout": "TOUCHED_PARSER_ONLY_NO_METRICS_OR_TUNING_BEFORE_FREEZE",
+    "strict_untouched_claim_allowed": false,
+    "validation": "TOUCHED_PARSER_ONLY_NO_METRICS_OR_TUNING_BEFORE_FREEZE"
+  },
+  "schema_version": "fomc-validation-sep-results/v1",
+  "validation_spec_version": "1.0",
+  "verdict": "SEP_VALUE_FAIL"
+}

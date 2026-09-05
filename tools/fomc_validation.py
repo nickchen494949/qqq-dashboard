@@ -1317,10 +1317,173 @@ def command_run_model(args: argparse.Namespace) -> int:
     return 0
 
 
+HAWKISH_WORDS = {"tighten", "tightening", "raise", "higher", "inflation", "overheating", "normalization", "restrictive"}
+DOVISH_WORDS = {"accommodation", "accommodative", "support", "slack", "unemployment", "downside", "weakness", "stimulus"}
+
+
+def passage_for_review(text: str, identity_tokens: set[str], maximum_words: int = 550) -> str:
+    words = text.split()
+    policy = HAWKISH_WORDS | DOVISH_WORDS
+    index = next((i for i, word in enumerate(words) if re.sub(r"[^a-z]", "", word.lower()) in policy), 0)
+    start = max(0, index - maximum_words // 3)
+    passage = " ".join(words[start:start + maximum_words])
+    for part in sorted(identity_tokens, key=len, reverse=True):
+        passage = re.sub(rf"\b{re.escape(part)}\b", "[REDACTED]", passage, flags=re.IGNORECASE)
+    passage = re.sub(
+        r"Federal Reserve Bank of\s+(?:Atlanta|Boston|Chicago|Cleveland|Dallas|Kansas City|Minneapolis|New York|Philadelphia|Richmond|San Francisco|St[.]? Louis)",
+        "[REDACTED INSTITUTION]",
+        passage,
+        flags=re.IGNORECASE,
+    )
+    return passage
+
+
+def command_build_audits(args: argparse.Namespace) -> int:
+    data_dir = Path(args.data_dir).resolve()
+    tracker_dir = Path(args.tracker_dir).resolve()
+    artifacts = [row for row in read_csv(data_dir / "parsed" / "communication_text_artifacts.csv") if row["status"] == "USABLE"]
+    events = {row["communication_event_id"]: row for row in read_csv(tracker_dir / "output" / "communication_events.csv")}
+    identity_tokens = {
+        token.lower()
+        for row in read_csv(data_dir / "parsed" / "sep_participant_keys.csv")
+        for token in TOKEN_RE.findall(row["member_name"].lower())
+        if len(token) >= 4
+    }
+    candidates: list[dict[str, object]] = []
+    for row in artifacts:
+        text = (data_dir / row["text_file"]).read_text(encoding="utf-8")
+        words = TOKEN_RE.findall(text.lower())
+        hawkish = sum(word in HAWKISH_WORDS for word in words)
+        dovish = sum(word in DOVISH_WORDS for word in words)
+        score = abs(hawkish - dovish) / math.sqrt(max(len(words), 1))
+        candidates.append({**row, "year": row["event_date"][:4], "event_type": events[row["communication_event_id"]]["event_type"], "lexical_score": score})
+    selected: list[dict[str, object]] = []
+    years = [str(year) for year in range(2012, 2021)]
+    quotas = {year: 14 if index < 3 else 13 for index, year in enumerate(years)}
+    for year in years:
+        pool = [row for row in candidates if row["year"] == year]
+        scores = sorted(float(row["lexical_score"]) for row in pool)
+        low = scores[len(scores) // 3]
+        high = scores[(2 * len(scores)) // 3]
+        for row in pool:
+            score = float(row["lexical_score"])
+            row["preliminary_confidence_stratum"] = "LOW" if score <= low else "HIGH" if score >= high else "MEDIUM"
+            row["selection_hash"] = hashlib.sha256(f"20260905|{row['communication_event_id']}".encode()).hexdigest()
+        pool.sort(key=lambda row: (str(row["preliminary_confidence_stratum"]), str(row["member_id"]), str(row["event_type"]), str(row["selection_hash"])))
+        chosen: list[dict[str, object]] = []
+        while pool and len(chosen) < quotas[year]:
+            used_members = {str(row["member_id"]) for row in chosen}
+            index = next((i for i, row in enumerate(pool) if str(row["member_id"]) not in used_members), 0)
+            chosen.append(pool.pop(index))
+        selected.extend(chosen)
+    if len(selected) != 120:
+        raise ValueError(f"human review packet requires 120 passages, found {len(selected)}")
+    selected.sort(key=lambda row: str(row["selection_hash"]))
+    reviewer_rows: list[dict[str, object]] = []
+    answer_rows: list[dict[str, object]] = []
+    for index, row in enumerate(selected, start=1):
+        sample_id = f"FOMC-{index:03d}"
+        text = (data_dir / str(row["text_file"])).read_text(encoding="utf-8")
+        reviewer_rows.append({
+            "sample_id": sample_id,
+            "passage": passage_for_review(text, identity_tokens),
+            "label": "",
+            "confidence_1_to_5": "",
+            "exact_supporting_span": "",
+            "reviewer_notes": "",
+        })
+        answer_rows.append({
+            "sample_id": sample_id,
+            "communication_event_id": row["communication_event_id"],
+            "member_id": row["member_id"],
+            "member_name": row["member_name"],
+            "event_date": row["event_date"],
+            "event_type": row["event_type"],
+            "title": row["title"],
+            "source_url": row["artifact_url"],
+            "raw_file": row["raw_file"],
+            "raw_sha256": row["raw_sha256"],
+            "text_sha256": row["text_sha256"],
+            "preliminary_confidence_stratum": row["preliminary_confidence_stratum"],
+        })
+    review_dir = data_dir / "human_review"
+    reviewer_fields = ["sample_id", "passage", "label", "confidence_1_to_5", "exact_supporting_span", "reviewer_notes"]
+    write_csv(review_dir / "reviewer_1.csv", reviewer_rows, reviewer_fields)
+    write_csv(review_dir / "reviewer_2.csv", reviewer_rows, reviewer_fields)
+    write_csv(
+        review_dir / "answer_key_do_not_share_with_reviewers.csv", answer_rows,
+        ["sample_id", "communication_event_id", "member_id", "member_name", "event_date", "event_type", "title", "source_url", "raw_file", "raw_sha256", "text_sha256", "preliminary_confidence_stratum"],
+    )
+    write_json(review_dir / "status.json", {
+        "schema_version": "fomc-validation-human-review/v1",
+        "created_at_utc": utc_now(),
+        "sample_size": 120,
+        "minimum_independent_reviewers": 2,
+        "allowed_labels": ["HAWKISH", "DOVISH", "NEUTRAL", "MIXED", "CONDITIONAL", "UNCLEAR"],
+        "selection_uses_future_outcomes": False,
+        "status": "PENDING_HUMAN_REVIEW",
+    })
+
+    predictions = read_csv(data_dir / "results" / "sep_predictions.csv")
+    votes = read_csv(tracker_dir / "output" / "votes.csv")
+    member_names = {row["member_id"]: row["member_name"] for row in read_csv(tracker_dir / "output" / "members_full.csv")}
+    communications = read_csv(tracker_dir / "output" / "communication_events.csv")
+    grouped_predictions: dict[tuple[str, str], list[dict[str, str]]] = {}
+    for row in predictions:
+        grouped_predictions.setdefault((row["target_sep_date"], row["member_id"]), []).append(row)
+    behavior_rows: list[dict[str, object]] = []
+    for (target_date, member_id), group in sorted(grouped_predictions.items()):
+        name = member_names.get(member_id, group[0]["member_name"])
+        member_votes = sorted(
+            [row for row in votes if row["member_name"] == name and group[0]["previous_sep_date"] < row["meeting_date"] <= target_date],
+            key=lambda row: row["meeting_date"],
+        )
+        vote = member_votes[0] if member_votes else {}
+        subsequent = sorted(
+            [row for row in communications if row["member_id"] == member_id and row["event_date"] > target_date],
+            key=lambda row: (row["event_date"], row["communication_event_id"]),
+        )
+        next_event = subsequent[0] if subsequent else {}
+        direction_counts = Counter(row["direction"] for row in group)
+        behavior_rows.append({
+            "target_sep_date": target_date,
+            "member_id": member_id,
+            "member_name": name,
+            "attributed_sep_horizons": len(group),
+            "sep_higher_count": direction_counts["HIGHER"],
+            "sep_unchanged_count": direction_counts["UNCHANGED"],
+            "sep_lower_count": direction_counts["LOWER"],
+            "sep_compilation_url": group[0]["answer_key_compilation_url"],
+            "next_vote_date": vote.get("meeting_date", "UNKNOWN"),
+            "next_vote": vote.get("vote", "UNKNOWN"),
+            "next_vote_dissent_direction": vote.get("dissent_direction", "UNKNOWN"),
+            "next_vote_source_url": vote.get("source_url", "UNKNOWN"),
+            "next_public_statement_date": next_event.get("event_date", "UNKNOWN"),
+            "next_public_statement_id": next_event.get("communication_event_id", "UNKNOWN"),
+            "interpretation_rule": "CORROBORATION_ONLY_NOT_TEXT_GROUND_TRUTH",
+        })
+    write_csv(
+        data_dir / "results" / "behavior_corroboration.csv", behavior_rows,
+        ["target_sep_date", "member_id", "member_name", "attributed_sep_horizons", "sep_higher_count", "sep_unchanged_count", "sep_lower_count", "sep_compilation_url", "next_vote_date", "next_vote", "next_vote_dissent_direction", "next_vote_source_url", "next_public_statement_date", "next_public_statement_id", "interpretation_rule"],
+    )
+    write_json(data_dir / "results" / "market_validation_status.json", {
+        "schema_version": "fomc-validation-market/v1",
+        "created_at_utc": utc_now(),
+        "policy_stance_status": "SEPARATE_FROM_MARKET_SIGNAL",
+        "policy_surprise_status": "NOT_RUN_NO_FROZEN_INTRADAY_SOURCE",
+        "market_signal_status": "NOT_RUN_NO_FROZEN_INTRADAY_SOURCE",
+        "required_windows": ["PRE_EVENT", "PLUS_5M", "PLUS_30M", "PLUS_2H", "CLOSE", "NEXT_CLOSE"],
+        "required_primary_instruments": ["TWO_YEAR_TREASURY_YIELD", "FED_FUNDS_FUTURES_OR_OIS"],
+        "daily_qqq_substitute_allowed": False,
+    })
+    print(json.dumps({"ok": True, "human_samples": 120, "behavior_rows": len(behavior_rows), "text_truth": "PENDING_HUMAN_REVIEW", "market": "NOT_RUN_NO_FROZEN_INTRADAY_SOURCE"}))
+    return 0
+
+
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(description=__doc__)
     commands = root.add_subparsers(dest="command", required=True)
-    for name in ("enumerate", "fetch", "parse", "build-examples", "build-text", "build-macro", "run-model"):
+    for name in ("enumerate", "fetch", "parse", "build-examples", "build-text", "build-macro", "run-model", "build-audits"):
         command = commands.add_parser(name)
         command.add_argument("--data-dir", default="data/fomc_validation")
         command.add_argument("--tracker-dir", default="data/fomc_tracker")
@@ -1332,6 +1495,7 @@ def parser() -> argparse.ArgumentParser:
             "build-text": command_build_text,
             "build-macro": command_build_macro,
             "run-model": command_run_model,
+            "build-audits": command_build_audits,
         }[name])
     fetch_macro = commands.add_parser("fetch-macro")
     fetch_macro.add_argument("--data-dir", default="data/fomc_validation")

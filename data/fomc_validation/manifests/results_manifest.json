@@ -1,0 +1,42 @@
+{
+  "aggregate_sha256": "a5bef97a6ff89888fd2105311c57f88980ee2ff59151b78c60b258a0a6bf58a8",
+  "created_at_utc": "2026-09-05T05:45:55Z",
+  "file_count": 5,
+  "files": [
+    {
+      "bytes": 145665,
+      "path": "behavior_corroboration.csv",
+      "sha256": "c4ea87e8753babc6dc481b786a968529df3cbf38030e20882cc94f700c0f63bc"
+    },
+    {
+      "bytes": 244737,
+      "path": "bootstrap_b6_minus_b5.csv",
+      "sha256": "40bd2ff7ba31c322c85fe19386cc2755f5aeac8f759b7bd78e9b905c45533003"
+    },
+    {
+      "bytes": 547,
+      "path": "market_validation_status.json",
+      "sha256": "32fd88667791643b01d9d3567e6e3a70d0456fc82e4cca18cb5bd8ace3f1a79b"
+    },
+    {
+      "bytes": 1130240,
+      "path": "sep_predictions.csv",
+      "sha256": "1b1a71c435e5a7f47d4cf365fdc252734ea114b838cc2eac8d8d7d62bd413b0a"
+    },
+    {
+      "bytes": 4133,
+      "path": "sep_validation_results.json",
+      "sha256": "128e244f575d940b91b971b1f894c3bdc9ec995509073d155c256a6848362500"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "root_label": "results",
+  "schema_version": "research-provenance/v1",
+  "source": {
+    "label": "Sealed FOMC validation results",
+    "notes": "Sealed FOMC validation results",
+    "retrieved_at_utc": "2026-09-05T05:45:55Z",
+    "url": "https://github.com/nickchen494949/qqq-dashboard"
+  },
+  "total_bytes": 1525322
+}
