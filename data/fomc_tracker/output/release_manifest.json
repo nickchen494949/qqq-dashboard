@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "release_id": "fomc-public-communications-2012-present-2026-09-05",
+  "built_at_utc": "2026-09-05T04:53:43Z",
+  "coverage_start": "2012-01-01",
+  "coverage_end": "2026-09-05",
+  "snapshot_created_at": "2026-09-05T04:49:55Z",
+  "source_checked_through": "2026-09-05T04:27:48Z",
+  "spec_version": "1.0.0",
+  "spec_sha256": "3caa1044d8d0b21eec8c84fb68432a8553e0ec6c3739f441eb2a65c9023d467f",
+  "source_registry_version": "1.0.0",
+  "source_registry_sha256": "69cf2beb33ca15f5298210a0880fab5cfe93156efa87947f3ad3744b8342e438",
+  "code_commit": "7debf7549e6271995e9089d4a48753c837f1ca6d",
+  "raw_file_count": 7746,
+  "raw_known_bytes": 618959024,
+  "raw_aggregate_sha256": "c6a3f2671588586b064729389f6bc986f65cc40ff9bcc52e2ae45ddfa5f84ca8",
+  "raw_aggregate_formula": "sha256(sorted(relative_path + NUL + sha256 + LF)) over raw files referenced by event_sources.csv and VERIFIED artifacts.csv rows",
+  "output_file_count": 20,
+  "output_aggregate_sha256": "0263c49b9785327d2fe6d186dffd73f01358f3abd8ff8ac49fd0fe7d4331ec7f",
+  "output_aggregate_formula": "sha256(sorted(filename + NUL + sha256 + LF))",
+  "output_files": {
+    "members.csv": "b10837d70bb1f6898f99211ea4a0fc56d95665acb2cc15b0f75a2cba0d21b173",
+    "members_full.csv": "3ca28870b90f0c4f29ef79f79b2e8cae54980928c60838ea699261a371e47357",
+    "participants_by_meeting.csv": "48dc2d58438aa41ccde0444b24f41af10aa7b0ac27b47dbea2256735a36321aa",
+    "participant_meeting_coverage.csv": "8e41e2e8560de8c0ef23c0fabd65c1671a092d6c8df1094fd47d57f746123872",
+    "universe_memberships.csv": "ea34534308a45a9e472603d397d383c05045512859f5c3c79cc0e5cfb2391661",
+    "policy_tenures.csv": "767665db6e16fc1cc1e6cacbae6faade44a86a8d3acbf58555bf4ffb7de4a2a0",
+    "sep_universe.csv": "577b02f14a00d19cc3f0ab45b3968c221a46caeba3ec742c09b530045e31d99d",
+    "votes.csv": "b5cadda220aec2aefb8f6fbbf38c545b1c6b0542595330770fa84791bacd3e78",
+    "communication_events.csv": "62e723f878871b0bebeba937fada917931648714274fce4c263e4e7acb3bc275",
+    "event_sources.csv": "0444ddc5cc99c1720dcc909fe36b88c1ebb08d15c9bf8d183fb0189ac06571a7",
+    "artifacts.csv": "f8be5eab7656eaa7341088c8dafa0c82e10edf9b295bdeedd2bfc46a84aa11c1",
+    "artifact_links.csv": "582f060d58bfa9713cdae698e84579815294d12334b8d0efa9bf0a7c13314f7f",
+    "communication_rejections.csv": "bcc92b956939e3513ec83d83bec61206d21178c9b746a40ce319ba923d52796f",
+    "communication_coverage_cells.csv": "5652fa9ec9da1a35286a79ca41050754bef6a97ea27371d7febbb067a6c277e0",
+    "member_stance_by_sep.csv": "63ce9b4b578f267fd5de50ae111406ff825bb43a0566b8c1e4964967c014d9e4",
+    "member_latest_stance.csv": "0111208bfc30c968bbd0c494e33f81ef6b597fca703dc5bcbf05c55cf5b75a24",
+    "member_latest_stance.md": "39b28150354ab56e4022494486f858d9557f11350c88157d0d193e9a9c35a45d",
+    "participant_master_summary.json": "ea38eeb9c78973ed9b8286dad028b047e0cf1c9f9ac447530e96dc961a4e9684",
+    "public_communications_summary.json": "6c4172cab1276774b4685dced826e8858e272725b3188a1b743ae170cc7054e4",
+    "stance_snapshot_summary.json": "059067856d186cf3aecde6a9a82279ce3670c28200eff464c49dd1ea69cd0a75"
+  },
+  "environment": {
+    "python": "3.11.6",
+    "platform": "macOS-26.6-arm64-arm-64bit"
+  },
+  "run_parameters": {
+    "workers": 12,
+    "same_day_unknown_time": "EXCLUDED_FROM_SEP_SNAPSHOT"
+  }
+}
