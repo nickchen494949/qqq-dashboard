@@ -4,6 +4,8 @@ Status: **AUDIT CANDIDATE — NOT MERGED**
 
 This branch is a public, auditable snapshot of the full-history build. It is not a completion claim.
 
+The governing definition is `docs/FOMC_COMPLETENESS_SPEC.md`. This 2,701-row snapshot predates completeness-spec v1.0 and remains `PRE_SPEC_WIP_UNASSESSED` until it is measured against the rule-derived universes, source registry, event/artifact model, and dual time axes.
+
 ## Snapshot scope
 
 - Federal Reserve Board annual speech indexes: 2012–2026 downloaded from official Board pages.

@@ -1,0 +1,156 @@
+{
+  "spec_id": "FED_PUBLIC_COMMUNICATIONS_COMPLETENESS",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "frozen_at": "2026-09-05T02:55:27Z",
+  "coverage_start": "2012-01-01",
+  "counts_are_outputs_not_requirements": true,
+  "current_automated_target": "C3_ARTIFACT_VERIFIED",
+  "existing_catalog_status": "PRE_SPEC_WIP_UNASSESSED",
+  "universes": {
+    "VOTE_UNIVERSE": {
+      "rule": "Named voter in an official FOMC monetary-policy action on or after coverage_start",
+      "excludes": ["non-policy notation votes"]
+    },
+    "DELIBERATION_UNIVERSE": {
+      "eligible_roles": [
+        "BOARD_GOVERNOR",
+        "RESERVE_BANK_PRESIDENT",
+        "ACTING_OR_INTERIM_RESERVE_BANK_PRESIDENT",
+        "OFFICIALLY_DESIGNATED_FOMC_ALTERNATE"
+      ],
+      "requires": [
+        "official role evidence",
+        "official policymaker, alternate-member, or Reserve Bank president participation evidence"
+      ],
+      "excludes": [
+        "staff",
+        "economists",
+        "advisers",
+        "managers",
+        "invited presenters",
+        "other attendees without an eligible policy role"
+      ]
+    },
+    "SEP_UNIVERSE": {
+      "fields": [
+        "sep_eligible",
+        "sep_submitted",
+        "sep_identity_public",
+        "individual_projection_known"
+      ],
+      "rule": "Do not attribute public SEP dots or anonymous projections to a named person until an official released key permits attribution"
+    }
+  },
+  "required_tenure_fields": [
+    "role",
+    "institution",
+    "effective_from",
+    "effective_to",
+    "role_basis_url",
+    "participation_basis_url"
+  ],
+  "event_types": [
+    "SPEECH",
+    "REMARKS",
+    "OPENING_REMARKS",
+    "TESTIMONY",
+    "INTERVIEW",
+    "PANEL_OR_MODERATED_DISCUSSION",
+    "Q_AND_A",
+    "PRESS_CONFERENCE",
+    "PERSONAL_PUBLIC_STATEMENT",
+    "ARTICLE_ESSAY_OR_OFFICIAL_PUBLICATION",
+    "PUBLIC_LETTER",
+    "OTHER_OFFICIAL_PUBLIC_COMMUNICATION"
+  ],
+  "event_scope_rule": "Ingest all discoverable official public communications during qualifying tenure before topic-relevance classification",
+  "artifact_types": [
+    "EVENT_LISTING",
+    "HTML_PREPARED_TEXT",
+    "PDF_PREPARED_TEXT",
+    "FULL_TRANSCRIPT",
+    "Q_AND_A_TRANSCRIPT",
+    "AUDIO",
+    "VIDEO",
+    "CAPTIONS",
+    "OFFICIAL_SUMMARY"
+  ],
+  "required_time_fields": [
+    "event_date",
+    "event_time",
+    "event_timezone",
+    "public_available_at",
+    "source_last_modified_at",
+    "first_seen_at",
+    "last_checked_at",
+    "retrieved_at"
+  ],
+  "snapshot_views": {
+    "MARKET_TIME_SNAPSHOT": "public_available_at <= analytical_cutoff",
+    "DATABASE_VINTAGE": "first_seen_at <= snapshot_created_at"
+  },
+  "same_day_unknown_time_rule": "EXCLUDE_FROM_SAME_DAY_MARKET_TIME_SNAPSHOT",
+  "source_universe": {
+    "primary_institution_domains": [
+      "federalreserve.gov",
+      "bostonfed.org",
+      "newyorkfed.org",
+      "philadelphiafed.org",
+      "clevelandfed.org",
+      "richmondfed.org",
+      "atlantafed.org",
+      "chicagofed.org",
+      "stlouisfed.org",
+      "minneapolisfed.org",
+      "kansascityfed.org",
+      "dallasfed.org",
+      "frbsf.org"
+    ],
+    "mandatory_archive_domains": ["fraser.stlouisfed.org"],
+    "closure_requires_versioned_endpoint_registry": true
+  },
+  "coverage_cell_dimensions": [
+    "person",
+    "qualifying_tenure",
+    "institution",
+    "year",
+    "event_type",
+    "source",
+    "artifact_type"
+  ],
+  "evidence_states": [
+    "VERIFIED_PRESENT",
+    "VERIFIED_ABSENT",
+    "KNOWN_GAP",
+    "UNKNOWN",
+    "NOT_APPLICABLE"
+  ],
+  "completeness_levels": [
+    "C0_DISCOVERED",
+    "C1_PRIMARY_ENUMERATED",
+    "C2_CROSS_SOURCE_RECONCILED",
+    "C3_ARTIFACT_VERIFIED",
+    "C4_ARCHIVAL_INVESTIGATED",
+    "C5_CLOSED_WITHIN_FROZEN_SOURCE_UNIVERSE"
+  ],
+  "deduplication_rule": "Merge only when speaker, event identity, date, context, and title or content evidence support one real-world communication; otherwise retain a discrepancy",
+  "provenance_layers": [
+    "RAW_SOURCE",
+    "NORMALIZED_EVENT_AND_ARTIFACT_TABLES",
+    "STANCE_FEATURES",
+    "SEP_ALIGNED_OUTPUTS"
+  ],
+  "release_required_identifiers": [
+    "spec_version",
+    "spec_sha256",
+    "source_registry_version",
+    "code_commit",
+    "raw_aggregate_sha256",
+    "output_aggregate_sha256",
+    "coverage_start",
+    "coverage_end",
+    "snapshot_created_at",
+    "source_checked_through"
+  ]
+}

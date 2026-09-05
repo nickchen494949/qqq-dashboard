@@ -2,6 +2,8 @@
 
 Branch status: **AUDIT CANDIDATE — DO NOT MERGE BEFORE INDEPENDENT REVIEW**
 
+Completeness contract: **v1.0 FROZEN** in `docs/FOMC_COMPLETENESS_SPEC.md`. The existing catalog predates that contract and remains `PRE_SPEC_WIP_UNASSESSED`; the counts below are verified outputs, not a completeness claim.
+
 ## Current frozen result
 
 | Component | Result | Boundary |

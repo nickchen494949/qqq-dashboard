@@ -2,6 +2,8 @@
 
 This is a deliberately small, auditable addition to the existing Python repository.
 
+Completeness claims are governed by `docs/FOMC_COMPLETENESS_SPEC.md`. Existing tracker outputs predate that frozen v1.0 contract and are not automatically C1, C2, or C3.
+
 ## Historical coverage
 
 - Builds a **full observed participant master** from the attendance sections of official FOMC minutes from January 2012 onward: 57 people and 2,130 meeting-person rows across 118 policy-vote dates. This includes voting members, alternate members, and nonvoting Reserve Bank presidents.
